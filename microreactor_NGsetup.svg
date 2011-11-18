@@ -1,0 +1,3934 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1052.3622"
+   height="744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="microreactor_NGsetup.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient4179">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop4181" />
+      <stop
+         style="stop-color:#0000ff;stop-opacity:1;"
+         offset="1"
+         id="stop4183" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4113">
+      <stop
+         id="stop4583"
+         offset="0"
+         style="stop-color:#00ff00;stop-opacity:1;" />
+      <stop
+         id="stop4121"
+         offset="1"
+         style="stop-color:#ff0000;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4105">
+      <stop
+         style="stop-color:#00ff00;stop-opacity:1;"
+         offset="0"
+         id="stop4107" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop4109" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective3616"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3616-5"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3616-3"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3656"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3656-2"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3656-3"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3737"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3759"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3759-8"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3759-5"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3759-89"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3808"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3808-3"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3808-5"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3848"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3870"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3870-1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3870-4"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3914"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3952"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3952-2"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3952-8"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3952-6"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4011"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4011-6"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4011-9"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4011-0"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4011-2"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4113"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4113-9"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4185"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4207"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4231"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4257"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4257-8"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4257-2"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4297"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4297-3"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4297-1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4364"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4399"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4421"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4443"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4499"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4528"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4550"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4550-5"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4587"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4609"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4659"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4659-3"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4659-5"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4752"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4774"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4807"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4807-9"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4853"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4896"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4896-0"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4896-9"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4959"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4959-1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4996"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4996-6"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4996-3"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4996-5"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5086"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5303"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5336"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5367"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5395"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5423"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5423-3"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5468"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5492"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5514"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5561"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5583"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5633"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5733"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5798"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5820"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5872"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3222"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3244"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3266"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3292"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3292-6"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3333"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3333-4"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3374"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3374-6"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3415"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3443"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3471"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3493"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3515"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3543"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3565"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3565-7"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4368"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4390"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4412"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4412-0"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4453"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4475"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4497"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4142"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4142-4"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4142-6"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3058"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3918"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3954"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3954-0"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4020"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4070"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4148"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4211"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4179-7"
+       id="linearGradient4185-1"
+       x1="779.20062"
+       y1="662.84991"
+       x2="822.71759"
+       y2="662.84991"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.3789788,-136.53917,-1714.8897)" />
+    <linearGradient
+       id="linearGradient4179-7">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop4181-3" />
+      <stop
+         style="stop-color:#0000ff;stop-opacity:1;"
+         offset="1"
+         id="stop4183-6" />
+    </linearGradient>
+    <inkscape:perspective
+       id="perspective4260"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4282"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4310"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3114"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4179-7-9"
+       id="linearGradient4300-5"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.3789788,-152.46057,-1392.1245)"
+       x1="779.20062"
+       y1="662.84991"
+       x2="822.71759"
+       y2="662.84991" />
+    <linearGradient
+       id="linearGradient4179-7-9">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop4181-3-3" />
+      <stop
+         style="stop-color:#0000ff;stop-opacity:1;"
+         offset="1"
+         id="stop4183-6-5" />
+    </linearGradient>
+    <inkscape:perspective
+       id="perspective3933"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3955"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3977"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3999"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4027"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4055"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4083"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4107"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4153"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3124"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3130"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3152"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4025"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4047"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4076"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4076-4"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4107-9"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4107-7"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4182"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4221"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4246"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4271"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4296"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4321"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4346"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4371"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4396"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4421-7"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4489"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4511"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4534"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4593"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4616"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       y2="662.84991"
+       x2="822.71759"
+       y1="662.84991"
+       x1="779.20062"
+       gradientTransform="matrix(1,0,0,1.3789788,-58.023378,-1388.5783)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3126-5"
+       xlink:href="#linearGradient4179-7-9-6"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient4179-7-9-6">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop4181-3-3-4" />
+      <stop
+         style="stop-color:#0000ff;stop-opacity:1;"
+         offset="1"
+         id="stop4183-6-5-0" />
+    </linearGradient>
+    <inkscape:perspective
+       id="perspective4700"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4113-2"
+       id="linearGradient4688-5"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-1,-1,0,-308.26767,-8.1742356e-5)"
+       x1="799.45801"
+       y1="338.07126"
+       x2="799.45801"
+       y2="374.23495" />
+    <linearGradient
+       id="linearGradient4113-2">
+      <stop
+         id="stop4583-6"
+         offset="0"
+         style="stop-color:#00ff00;stop-opacity:1;" />
+      <stop
+         id="stop4121-7"
+         offset="1"
+         style="stop-color:#ff0000;stop-opacity:1;" />
+    </linearGradient>
+    <inkscape:perspective
+       id="perspective4742"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4772"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4796"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4819"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4819-0"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4850"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4850-2"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4891"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4913"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4937"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4959-2"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4992"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5018"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5018-6"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5018-3"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5063"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5088"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="545.56055"
+     inkscape:cy="345.33044"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:snap-bbox="true"
+     guidetolerance="7"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="967"
+     inkscape:window-x="0"
+     inkscape:window-y="26"
+     inkscape:window-maximized="1"
+     inkscape:bbox-paths="true"
+     inkscape:snap-global="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2816"
+       empspacing="5"
+       visible="true"
+       enabled="false"
+       snapvisiblegridlinesonly="true"
+       units="mm"
+       spacingx="1mm"
+       spacingy="1mm" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-308.2677)">
+    <flowRoot
+       transform="translate(-11.84555,396.98844)"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       id="flowRoot3995"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3997"><rect
+           y="57.888256"
+           x="723.41016"
+           height="79.919601"
+           width="97.832611"
+           id="rect3999" /></flowRegion><flowPara
+         id="flowPara4001" /></flowRoot>    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299198;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3"
+       width="4.2519684"
+       height="378.2677"
+       x="751.44318"
+       y="-428.25018"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299198;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-7"
+       width="4.2519684"
+       height="376.2677"
+       x="793.41315"
+       y="-428.25018"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299198;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-4"
+       width="4.2519684"
+       height="374.2677"
+       x="919.323"
+       y="-428.25018"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299198;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-5"
+       width="4.2519684"
+       height="376.2677"
+       x="961.29297"
+       y="-428.25018"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299198;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-3"
+       width="4.2519684"
+       height="372.2677"
+       x="835.38312"
+       y="-428.25018"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299198;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-41"
+       width="4.2519684"
+       height="373.2677"
+       x="877.35303"
+       y="-428.25018"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-4"
+       width="4.2519684"
+       height="75.73465"
+       x="135.44609"
+       y="676.31702" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-4-2"
+       width="4.2519684"
+       height="201.59291"
+       x="235.2428"
+       y="676.31836" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-4-5"
+       width="4.2519684"
+       height="118.99842"
+       x="168.71165"
+       y="676.31738" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-4-9"
+       width="4.2519684"
+       height="160.29567"
+       x="201.97723"
+       y="676.31793" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-4-52"
+       width="4.2519684"
+       height="287.13898"
+       x="301.77393"
+       y="676.3175" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-4-1"
+       width="4.2519684"
+       height="243.87518"
+       x="268.50836"
+       y="676.31702" />
+    <g
+       id="g4245-22-7-9"
+       transform="matrix(2.5665956,0,0,2.178231,86.897457,-219.22443)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="fill:#cccccc">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-5"
+       transform="matrix(2.5665956,0,0,2.178231,86.897457,-177.03138)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="fill:#cccccc">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-7"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-9"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-1"
+       transform="matrix(2.5665956,0,0,2.178231,86.897457,-134.83835)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="fill:#cccccc">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-1"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-7"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-8"
+       transform="matrix(2.5665956,0,0,2.178231,86.897457,-92.645315)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="fill:#cccccc">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-2"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-8"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-6"
+       transform="matrix(2.5665956,0,0,2.178231,86.897457,-50.452288)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="fill:#cccccc">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-8"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-0"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-58"
+       transform="matrix(2.5665956,0,0,2.178231,86.897457,-8.259256)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="fill:#cccccc">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-4"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-1"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-7-1"
+       transform="matrix(0,2.5665956,-2.178231,0,1142.8974,394.70683)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-3-4"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-87-8"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-7-4"
+       transform="matrix(0,2.5665956,-2.178231,0,1175.9445,394.70683)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-3-2"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-87-5"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-7-9"
+       transform="matrix(0,2.5665956,-2.178231,0,1209.2724,394.70683)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-3-41"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-87-84"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-7-17"
+       transform="matrix(0,2.5665956,-2.178231,0,1242.3195,394.70683)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-3-7"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-87-9"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-7-40"
+       transform="matrix(0,2.5665956,-2.178231,0,1275.6475,394.70683)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-3-8"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-87-7"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-7"
+       transform="matrix(0,2.5665956,-2.178231,0,1109.2885,394.70683)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-3"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-87"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1"
+       width="4.2519684"
+       height="170.57982"
+       x="676.3175"
+       y="-306.02591"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2"
+       width="4.2519684"
+       height="147.97151"
+       x="-223.40628"
+       y="-680.56946"
+       transform="scale(-1,-1)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-2"
+       width="4.2519684"
+       height="27.723524"
+       x="-89.537239"
+       y="-755.69513"
+       transform="scale(-1,-1)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-2-6"
+       width="4.2519684"
+       height="27.723524"
+       x="-89.537239"
+       y="-797.6651"
+       transform="scale(-1,-1)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-2-6-9"
+       width="4.2519684"
+       height="27.723524"
+       x="-89.537239"
+       y="-839.63507"
+       transform="scale(-1,-1)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-2-6-0"
+       width="4.2519684"
+       height="27.723524"
+       x="-89.537239"
+       y="-881.60498"
+       transform="scale(-1,-1)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-2-6-0-3"
+       width="4.2519684"
+       height="27.723524"
+       x="-89.537239"
+       y="-923.57495"
+       transform="scale(-1,-1)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-2-6-0-1"
+       width="4.2519684"
+       height="27.723524"
+       x="-89.537239"
+       y="-965.54492"
+       transform="scale(-1,-1)" />
+    <g
+       id="g4245-22-7-9-7-41"
+       transform="matrix(0,2.5665956,-2.178231,0,1059.3072,578.7546)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-3-3"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-87-07"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-7-72"
+       transform="matrix(0,2.5665956,-2.178231,0,1059.3072,536.89569)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-3-80"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-87-6"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-7-7"
+       transform="matrix(0,2.5665956,-2.178231,0,1059.3072,495.28301)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-3-15"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-87-0"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-7-3"
+       transform="matrix(0,2.5665956,-2.178231,0,1059.3072,453.17787)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-3-84"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-87-71"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-7-2"
+       transform="matrix(0,2.5665956,-2.178231,0,1059.3072,411.31896)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-3-1"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-87-3"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-7-41-3"
+       transform="matrix(0,2.5665956,-2.178231,0,1059.3072,620.85974)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-3-3-2"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-87-07-9"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4883"
+       transform="translate(11.935388,203.36179)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="537.97687"
+         x="313.17398"
+         height="25.109823"
+         width="58.989079"
+         id="rect4792"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.85393703;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         id="text4788"
+         y="559.66431"
+         x="316.58481"
+         style="font-size:24.67599869px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="559.66431"
+           x="316.58481"
+           id="tspan4790"
+           sodipodi:role="line">MFC</tspan></text>
+    </g>
+    <g
+       id="g4883-3"
+       transform="translate(11.935388,372.32257)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="537.97687"
+         x="313.17398"
+         height="25.109823"
+         width="58.989079"
+         id="rect4792-3"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.85393703;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         id="text4788-2"
+         y="559.66431"
+         x="316.58481"
+         style="font-size:24.67599869px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="559.66431"
+           x="316.58481"
+           id="tspan4790-7"
+           sodipodi:role="line">MFC</tspan></text>
+    </g>
+    <g
+       id="g4883-9"
+       transform="translate(11.935388,245.60199)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="537.97687"
+         x="313.17398"
+         height="25.109823"
+         width="58.989079"
+         id="rect4792-9"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.85393703;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         id="text4788-9"
+         y="559.66431"
+         x="316.58481"
+         style="font-size:24.67599869px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="559.66431"
+           x="316.58481"
+           id="tspan4790-4"
+           sodipodi:role="line">MFC</tspan></text>
+    </g>
+    <g
+       id="g4883-94"
+       transform="translate(11.935388,287.84218)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="537.97687"
+         x="313.17398"
+         height="25.109823"
+         width="58.989079"
+         id="rect4792-4"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.85393703;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         id="text4788-0"
+         y="559.66431"
+         x="316.58481"
+         style="font-size:24.67599869px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="559.66431"
+           x="316.58481"
+           id="tspan4790-6"
+           sodipodi:role="line">MFC</tspan></text>
+    </g>
+    <g
+       id="g4883-93"
+       transform="translate(11.935388,330.08238)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="537.97687"
+         x="313.17398"
+         height="25.109823"
+         width="58.989079"
+         id="rect4792-33"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.85393703;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         id="text4788-5"
+         y="559.66431"
+         x="316.58481"
+         style="font-size:24.67599869px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="559.66431"
+           x="316.58481"
+           id="tspan4790-2"
+           sodipodi:role="line">MFC</tspan></text>
+    </g>
+    <g
+       id="g4883-7"
+       transform="translate(11.935388,414.56277)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="537.97687"
+         x="313.17398"
+         height="25.109823"
+         width="58.989079"
+         id="rect4792-97"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.85393703;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         id="text4788-1"
+         y="559.66431"
+         x="316.58481"
+         style="font-size:24.67599869px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="559.66431"
+           x="316.58481"
+           id="tspan4790-8"
+           sodipodi:role="line">MFC</tspan></text>
+    </g>
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3"
+       width="4.2519684"
+       height="45.947296"
+       x="-429.8905"
+       y="-797.39044"
+       transform="scale(-1,-1)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-8"
+       width="4.2519684"
+       height="130.16185"
+       x="-428.99805"
+       y="-965.54492"
+       transform="scale(-1,-1)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-6"
+       width="4.2519684"
+       height="192.07774"
+       x="-797.6651"
+       y="426.50116"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-6-4"
+       width="4.2519684"
+       height="193.18164"
+       x="-839.56219"
+       y="424.74606"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <g
+       id="g4245-22-7-9-72"
+       transform="matrix(2.5665956,0,0,2.178231,138.40119,-177.14718)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-29"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-06"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-72-1"
+       transform="matrix(2.5665956,0,0,2.178231,138.40119,-134.84072)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-29-8"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-06-9"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-69"
+       width="4.2519684"
+       height="35.519142"
+       x="-493.26733"
+       y="-834.24725"
+       transform="scale(-1,-1)" />
+    <g
+       id="g4245-22-7-9-7-40-0"
+       transform="matrix(0,2.5665956,-2.178231,0,1463.0373,498.01002)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="fill:#cccccc">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-3-8-0"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-87-7-1"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-69-2"
+       width="4.2519684"
+       height="249.72678"
+       x="-493.26733"
+       y="-792.3501"
+       transform="scale(-1,-1)" />
+    <g
+       id="g4245-22-7-9-7-40-0-6"
+       transform="matrix(0,2.5665956,-2.178231,0,1463.0373,455.12997)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="fill:#cccccc">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-3-8-0-7"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-87-7-1-9"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-69-2-5"
+       width="90.037971"
+       height="117.80726"
+       x="-508.20068"
+       y="-544.83875"
+       transform="scale(-1,-1)" />
+    <g
+       id="g4245-22-7-9-7-40-0-6-8"
+       transform="matrix(0,2.5665956,-2.178231,0,1194.6773,298.41028)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-3-8-0-7-1"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-87-7-1-9-8"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-72-2"
+       transform="matrix(2.5665956,0,0,2.178231,288.16551,-177.14718)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="fill:#cccccc">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-29-5"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-06-1"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-72-1-4"
+       transform="matrix(2.5665956,0,0,2.178231,288.16551,-134.84072)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="fill:#cccccc">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-29-8-9"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-06-9-6"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:3.54330707;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-69-2-5-4"
+       width="218.34676"
+       height="157.19904"
+       x="-837.92902"
+       y="-863.61584"
+       transform="scale(-1,-1)" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-69-2-5-4-9"
+       width="125.15273"
+       height="137.95934"
+       x="-786.44849"
+       y="-852.45575"
+       transform="scale(-1,-1)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1"
+       width="4.2519684"
+       height="45.947296"
+       x="-797.7821"
+       y="618.28546"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-3"
+       width="4.2519684"
+       height="45.947296"
+       x="-839.45746"
+       y="618.28546"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-2-5"
+       width="4.2519684"
+       height="36.789272"
+       x="717.90717"
+       y="864.90027" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-69-2-5-4-9-9-6"
+       width="39.579662"
+       height="26.290133"
+       x="-739.37152"
+       y="-929.04266"
+       transform="scale(-1,-1)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-2-5-2"
+       width="4.2519684"
+       height="45.500233"
+       x="655.21906"
+       y="863.8562" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-2-5-1"
+       width="4.2519684"
+       height="32.395035"
+       x="717.20673"
+       y="929.05499" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299198;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-2-5-1-0"
+       width="4.2519684"
+       height="232.10373"
+       x="957.19806"
+       y="-952.76337"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <g
+       id="g4245-22-7-9-6-8"
+       transform="matrix(2.5665956,0,0,2.178231,271.59791,-28.099769)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g4245-22-7-9-6-2"
+       transform="matrix(0,2.5665956,-2.178231,0,1690.6461,621.52363)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-8-6"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-0-4"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-6-2-0"
+       transform="matrix(0,2.5665956,-2.178231,0,1628.4507,560.568)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="fill:#cccccc">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-8-6-9"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-0-4-7"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-6-2-0-9"
+       transform="matrix(0,2.5665956,-2.178231,0,1691.1388,560.568)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="fill:#cccccc">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-8-6-9-4"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-0-4-7-3"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-9"
+       width="4.2519684"
+       height="45.947296"
+       x="-771.06464"
+       y="618.28546"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-6"
+       width="4.2519684"
+       height="45.890636"
+       x="-741.8493"
+       y="618.3421"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-2-5-3"
+       width="4.2519684"
+       height="92.42308"
+       x="798.77228"
+       y="864.90027" />
+    <g
+       id="g4245-22-7-9-6-2-0-9-8"
+       transform="matrix(0,2.5665956,-2.178231,0,1772.6674,560.568)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="fill:#cccccc">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-8-6-9-4-9"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-0-4-7-3-9"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-9-0"
+       width="4.2519684"
+       height="76.157982"
+       x="-771.06464"
+       y="541.99591"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-6-4"
+       width="4.2519684"
+       height="119.9942"
+       x="536.86914"
+       y="651.07037" />
+    <g
+       id="g5874"
+       transform="translate(-1.791951,-27.803218)">
+      <rect
+         y="653.5224"
+         x="522.83826"
+         height="25.109823"
+         width="35.080555"
+         id="rect4792-2"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.41732287;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         id="text4788-6"
+         y="675.20984"
+         x="523.79761"
+         style="font-size:24.67599869px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="675.20984"
+           x="523.79761"
+           id="tspan4790-0"
+           sodipodi:role="line">PC</tspan></text>
+    </g>
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-6-4-4-5-7"
+       width="4.2519684"
+       height="120.78413"
+       x="586.61499"
+       y="617.0387" />
+    <g
+       id="g4245-22-7-9-72-2-9"
+       transform="matrix(2.5665956,0,0,2.178231,288.16551,-202.90167)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="fill:#cccccc">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-29-5-0"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-06-1-2"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-9-0-2"
+       width="4.2519684"
+       height="33.140247"
+       x="-741.8493"
+       y="585.84473"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-9-0-3"
+       width="102.13929"
+       height="57.848122"
+       x="-634.06525"
+       y="648.18866"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-9-0-2-7"
+       width="4.2519684"
+       height="24.140247"
+       x="-682.36139"
+       y="540.37354"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-6-4-4-5-7-3"
+       width="4.2519684"
+       height="110.22075"
+       x="564.73315"
+       y="575.37854" />
+    <g
+       id="g5874-3"
+       transform="translate(84.269353,-29.208087)">
+      <g
+         id="g6105"
+         transform="translate(-61.267606,-66.197183)">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.41732287;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           id="rect4792-2-5"
+           width="31.559427"
+           height="25.109823"
+           x="522.83826"
+           y="653.5224" />
+        <text
+           xml:space="preserve"
+           style="font-size:24.67599869px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="523.79761"
+           y="675.20984"
+           id="text4788-6-6"><tspan
+             sodipodi:role="line"
+             id="tspan4790-0-6"
+             x="523.79761"
+             y="675.20984">LV</tspan></text>
+      </g>
+    </g>
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-9-0-2-2-5"
+       width="4.2519684"
+       height="71.168419"
+       x="-570.6853"
+       y="577.79608"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-9-0-2-2-5-8"
+       width="4.2519684"
+       height="62.013489"
+       x="-620.68536"
+       y="586.95099"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <g
+       id="g4245-22-7-9-72-2-9-9"
+       transform="matrix(2.5665956,0,0,2.178231,319.15571,-352.63236)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="fill:#cccccc">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-29-5-0-6"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-06-1-2-3"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-6-4-4-5-7-3-0"
+       width="4.2519684"
+       height="110.22075"
+       x="609.84583"
+       y="509.92786" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-9-0-2-2-5-2"
+       width="4.2519684"
+       height="103.56279"
+       x="-514.34729"
+       y="507.37354"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <g
+       id="g4245-22-7-9-7-40-0-6-9"
+       transform="matrix(0,2.5665956,-2.178231,0,1584.572,291.2362)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="fill:#cccccc">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-3-8-0-7-6"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-87-7-1-9-9"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-5"
+       width="4.2519684"
+       height="197.34038"
+       x="532.63055"
+       y="-416.98004"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-9-0-2-2-5-2-5"
+       width="4.2519684"
+       height="176.80223"
+       x="-467.16422"
+       y="508.78201"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-6-4-4-5-7-3-0-1"
+       width="4.2519684"
+       height="71.488358"
+       x="682.38104"
+       y="465.56168" />
+    <g
+       id="g4245-22-7-9-7-40-01"
+       transform="matrix(0,2.5665956,-2.178231,0,1656.403,189.12352)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-3-8-3"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-87-7-3"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-69-2-5-4-9-9-6-2"
+       width="39.579662"
+       height="26.290133"
+       x="-654.38141"
+       y="-447.10944"
+       transform="scale(-1,-1)" />
+    <g
+       id="g4245-22-7-9-6-2-0-9-4"
+       transform="matrix(-2.5665956,0,0,-2.178231,857.71674,1406.0229)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="fill:#cccccc">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-8-6-9-4-2"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-0-4-7-3-93"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299198;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-9-0-2-2-5-2-5-4"
+       width="4.2519684"
+       height="44.407871"
+       x="-639.6994"
+       y="898.92285"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299198;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-9-0-2-2-5-2-5-4-1"
+       width="4.2519684"
+       height="31.027586"
+       x="-435.47406"
+       y="505.23273"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <g
+       id="g4245-22-7-9-7-9-7"
+       transform="matrix(-2.5665956,0,0,-2.178231,992.11191,1403.8355)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-3-41-7"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-87-84-4"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299198;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-9-0-2-2-5-2-5-4-1-9"
+       width="4.2519684"
+       height="300.74588"
+       x="-435.47409"
+       y="653.93695"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299198;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-9-0-2-2-5-2-5-4-1-9-6"
+       width="4.2519684"
+       height="70.464203"
+       x="-436.17828"
+       y="543.99329"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-69-2-5-4-9-9-6-2-8"
+       width="39.579662"
+       height="26.290133"
+       x="-983.08563"
+       y="-650.01428"
+       transform="scale(-1,-1)" />
+    <g
+       transform="translate(184.26936,-113.71513)"
+       id="g6506">
+      <rect
+         y="653.5224"
+         x="522.83826"
+         height="25.109823"
+         width="30.855204"
+         id="rect4792-2-0"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.41732287;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         id="text4788-6-8"
+         y="675.20984"
+         x="523.79761"
+         style="font-size:24.67599869px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="675.20984"
+           x="523.79761"
+           id="tspan4790-0-2"
+           sodipodi:role="line">IG</tspan></text>
+    </g>
+    <g
+       transform="translate(-94.60389,-250.33484)"
+       id="g6506-0">
+      <rect
+         y="653.5224"
+         x="522.83826"
+         height="25.109823"
+         width="30.855204"
+         id="rect4792-2-0-4"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.41732287;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         id="text4788-6-8-5"
+         y="675.20984"
+         x="523.79761"
+         style="font-size:24.67599869px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="675.20984"
+           x="523.79761"
+           id="tspan4790-0-2-1"
+           sodipodi:role="line">IG</tspan></text>
+    </g>
+    <g
+       id="g6638"
+       transform="translate(45.774605,107.04226)">
+      <rect
+         y="517.97632"
+         x="814.85406"
+         height="25.109823"
+         width="40.010136"
+         id="rect4792-2-0-4-1"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.41732287;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         id="text4788-6-8-5-6"
+         y="540.36798"
+         x="817.92609"
+         style="font-size:24.67599869px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="540.36798"
+           x="817.92609"
+           id="tspan4790-0-2-1-1"
+           sodipodi:role="line">PG</tspan></text>
+    </g>
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-6-4-4-5-7-3-0-1-7"
+       width="4.2519684"
+       height="185.57286"
+       x="949.28247"
+       y="436.33633" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299174;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-2-5-3-3"
+       width="4.2519684"
+       height="312.14139"
+       x="949.98669"
+       y="649.10828" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ff6600;fill-opacity:1;stroke:#000000;stroke-width:3.54330707000000000;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path6679"
+       sodipodi:cx="750.5"
+       sodipodi:cy="478.09448"
+       sodipodi:rx="23.5"
+       sodipodi:ry="21"
+       d="m 774,478.09448 c 0,11.59798 -10.52131,21 -23.5,21 -12.97869,0 -23.5,-9.40202 -23.5,-21 0,-11.59798 10.52131,-21 23.5,-21 12.97869,0 23.5,9.40202 23.5,21 z"
+       transform="translate(0,308.2677)" />
+    <rect
+       style="fill:#ff6600;fill-opacity:1;stroke:#000000;stroke-width:1.06299185999999990;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-9-0-2-2-5-2-58"
+       width="4.2519684"
+       height="103.56279"
+       x="-789.48816"
+       y="771.21863"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#ff6600;fill-opacity:1;stroke:#000000;stroke-width:3.54330707;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect6699"
+       width="26"
+       height="28"
+       x="862"
+       y="467.09448"
+       transform="translate(0,308.2677)" />
+    <g
+       id="g4245-22-7-9-72-1-7"
+       transform="matrix(2.5665956,0,0,2.178231,-246.75978,-221.53376)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-29-8-2"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-06-9-2"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-72-1-9"
+       transform="matrix(2.5665956,0,0,2.178231,-246.75978,-178.3671)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-29-8-5"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-06-9-3"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-72-1-6"
+       transform="matrix(2.5665956,0,0,2.178231,-246.75978,-133.20042)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-29-8-6"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-06-9-28"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-72-1-92"
+       transform="matrix(2.5665956,0,0,2.178231,-246.75978,-90.867102)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-29-8-90"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-06-9-84"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-72-1-75"
+       transform="matrix(2.5665956,0,0,2.178231,-246.75978,-49.700434)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-29-8-7"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-06-9-0"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-72-1-19"
+       transform="matrix(2.5665956,0,0,2.178231,-246.75978,-10.533766)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-29-8-8"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-06-9-7"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g6638-2"
+       transform="translate(-347.85913,-117.16905)">
+      <rect
+         y="517.97632"
+         x="814.85406"
+         height="25.109823"
+         width="40.010136"
+         id="rect4792-2-0-4-1-9"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.41732287;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         id="text4788-6-8-5-6-9"
+         y="540.36798"
+         x="817.92609"
+         style="font-size:24.67599869px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="540.36798"
+           x="817.92609"
+           id="tspan4790-0-2-1-1-3"
+           sodipodi:role="line">PG</tspan></text>
+    </g>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-69-2-5-4-9-9-6-4"
+       width="39.579662"
+       height="26.290133"
+       x="-747.78986"
+       y="-619.50726"
+       transform="scale(-1,-1)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-9-0-2-2-5-2-8"
+       width="4.2519684"
+       height="41.56279"
+       x="-609.48816"
+       y="748.21863"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <g
+       id="g4245-22-7-9-7-9-7-6"
+       transform="matrix(-2.5665956,0,0,-2.178231,1083.7598,1578.2581)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-3-41-7-8"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-87-84-4-9"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-69-2-5-4-9-9-6-2-8-6"
+       width="39.579662"
+       height="26.290133"
+       x="-829.78986"
+       y="-622.50726"
+       transform="scale(-1,-1)" />
+    <g
+       id="g6638-24"
+       transform="translate(-19.859133,53.830952)">
+      <rect
+         y="517.97632"
+         x="814.85406"
+         height="25.109823"
+         width="40.010136"
+         id="rect4792-2-0-4-1-2"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.41732287;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         id="text4788-6-8-5-6-0"
+         y="540.36798"
+         x="817.92609"
+         style="font-size:24.67599869px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="540.36798"
+           x="817.92609"
+           id="tspan4790-0-2-1-1-0"
+           sodipodi:role="line">PG</tspan></text>
+    </g>
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-6-4-4-5-7-3-0-5"
+       width="4.2519684"
+       height="87.220749"
+       x="536.87402"
+       y="539.25183" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-9-0-2-2-5-2-4"
+       width="4.2519684"
+       height="32.56279"
+       x="-539.48816"
+       y="507.21863"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <g
+       id="g6638-9"
+       transform="translate(24.140867,191.83095)">
+      <rect
+         y="517.97632"
+         x="814.85406"
+         height="25.109823"
+         width="40.010136"
+         id="rect4792-2-0-4-1-26"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.41732287;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         id="text4788-6-8-5-6-6"
+         y="540.36798"
+         x="817.92609"
+         style="font-size:24.67599869px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="540.36798"
+           x="817.92609"
+           id="tspan4790-0-2-1-1-4"
+           sodipodi:role="line">PG</tspan></text>
+    </g>
+  </g>
+</svg>
