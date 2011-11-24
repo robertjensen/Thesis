@@ -2,8 +2,9 @@
 \lyxformat 413
 \begin_document
 \begin_header
-\textclass article
+\textclass book
 \use_default_options true
+\master main.lyx
 \maintain_unincluded_children false
 \language english
 \language_package default
@@ -25,6 +26,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -59,8 +61,35 @@
 
 \begin_body
 
-\begin_layout Standard
+\begin_layout Chapter
+Temperature control
+\end_layout
 
+\begin_layout Standard
+Measuring temperature accurately is always a difficult task.
+ For the microreactor, the problem is especially tricky because the 2D-like
+ structure and small thermal mass of the system means that is difficult
+ to establish a well defined temperature across the entire reactor volume.
+ To complicate things even further it is also higly difficult to achive
+ a constant temperature across the reactor.
+ First of all the contact between the highly heat-conducting silicon wafer
+ and the comparatively cold metal interface block means that a constant
+ heat transfer occurs on the chip whenever the chip is heated.
+ This of course leads to temperature gradients along the chip.
+ Also convention losses to the surroingings will contribute a non-homogenours
+ heat-loss to the surroundings.
+ This given an ideal simple heating mechanism that simply delivers a constant
+ power pr.
+ area to the entire chip, the result would be a non uniform temperature
+ that would be hottest at the center of chip, colder along the edge and
+ coldest at the contact between the interface block and the chip.
+ To complicate things even further, no such 'ideal' heating device exists,
+ in fact it is not easy to deliver power in a uniform way.
+ In the first iteration of the setup, heating was done via a small cheramical
+ block with a hot filemant inside.
+ This has several advantages in the way of mechanical handling and very
+ easy interfacing, since it only needs to be fed a DC-voltage of the size
+ of a few volts.
 \end_layout
 
 \end_body

@@ -2,8 +2,9 @@
 \lyxformat 413
 \begin_document
 \begin_header
-\textclass article
+\textclass book
 \use_default_options true
+\master main.lyx
 \maintain_unincluded_children false
 \language english
 \language_package default
@@ -25,6 +26,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -59,8 +61,8 @@
 
 \begin_body
 
-\begin_layout Standard
-
+\begin_layout Chapter
+Experimental setup
 \end_layout
 
 \end_body
