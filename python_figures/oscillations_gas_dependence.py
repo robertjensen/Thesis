@@ -21,21 +21,30 @@ data['M28'] = np.array(cursor.fetchall())
 #Mass44
 cursor.execute("SELECT x/3600000,y FROM xy_values_microreactor where measurement = 6696")
 data['M44'] =  np.array(cursor.fetchall())
+
 #CO Flow
-#cursor.execute("SELECT x/1000,y FROM xy_values_microreactor where measurement = 6702")
-#data['CO_FLOW'] = np.array(cursor.fetchall())
+cursor.execute("SELECT x/3600000,y FROM xy_values_microreactor where measurement = 6702")
+data['CO_FLOW'] = np.array(cursor.fetchall())
 
 
-for i in range(0,6):
-    plt.subplot(6,1,i+1)
-    plt.plot(data['M28'][:,0], data['M28'][:,1], 'r--')
-    plt.plot(data['M44'][:,0], data['M44'][:,1], 'b--')
-    #plt.xlim((i*14400)+2000,(((i+1)*14400)+3000))
-    plt.xlim(i*12+1,(i+1)*12+1)
-    plt.ylim(0,1.5e-9)
-    plt.yticks(arange(6),fontsize=20)
+fig = plt.figure()
+axis_array = []
+axis2_array = []
 
-
+for i in range(0,5):
+    axis_array.append(fig.add_subplot(5,1,i+1))
+    axis_array[i].plot(data['M28'][:,0], data['M28'][:,1]*1e9, 'r-')
+    axis_array[i].plot(data['M44'][:,0], data['M44'][:,1]*1e9, 'b-')
+    axis_array[i].set_ylim(0,2)
+    axis2_array.append(axis_array[i].twinx())
+    axis2_array[i].plot(data['CO_FLOW'][:,0], data['CO_FLOW'][:,1]/(4+data['CO_FLOW'][:,1]), 'k-')
+    axis2_array[i].set_ylim(0,0.25)
+    
+    axis_array[i].set_xlim(i*15+1,(i+1)*15+1)
+    
+axis_array[2].set_ylabel('SEM Current / nA', fontsize=20)
+axis2_array[2].set_ylabel('CO/O2 Ratio', fontsize=20)
+axis_array[4].set_xlabel('Time/h', fontsize=20)
 
 #plt.tight_layout()
 plt.show()

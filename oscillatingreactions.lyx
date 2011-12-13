@@ -46,8 +46,8 @@
 \end_index
 \secnumdepth 3
 \tocdepth 3
-\paragraph_separation indent
-\paragraph_indentation default
+\paragraph_separation skip
+\defskip smallskip
 \quotes_language english
 \papercolumns 1
 \papersides 1
@@ -63,6 +63,89 @@
 
 \begin_layout Chapter
 Oscillating reactions
+\end_layout
+
+\begin_layout Standard
+At some point in time, we were running a bachelors project concerning size
+ dependence of reactivity of Pt nanoclusters in the microreactor setup.
+ At one point we ran a simple light-off experiment to calibrate equipment
+ and get some basic data for the student.
+ This experiment was finished a Sataurday and since nobody was around to
+ change the sample, the setup was available for random experimentation.
+ One of the things we had on list of 'experiments to perform when we get
+ the time' was a lightoff experiment with very low CO concentration to see
+ how much this would bring down lightoff temperature.
+ After running the experiment the resulting graph was 
+\end_layout
+
+\begin_layout Section
+Gas dependence
+\end_layout
+
+\begin_layout Standard
+To map out the dependence of the CO/O
+\begin_inset Formula $_{2}$
+\end_inset
+
+ ratio, we made an experiement where the sample is kept at a constant temperatur
+e of 
+\begin_inset Formula $210^{\circ}\mbox{C}$
+\end_inset
+
+ and the CO concentration was raised in small steps every 4 hours.
+ The result is seen in figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Gas-dependence-of-the"
+
+\end_inset
+
+.
+ It is evident that the oscillations period increases with inceasing CO-concentr
+ation in agreement with the hypothethis that some kind of bulk oxidation
+ is involved in the process.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename svg_figures/oscillations_gas_dependence.svg
+	display false
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Gas-dependence-of-the"
+
+\end_inset
+
+Gas-dependence of the oscillations
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
