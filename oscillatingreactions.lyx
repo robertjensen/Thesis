@@ -122,6 +122,7 @@ status open
 \begin_inset Graphics
 	filename svg_figures/oscillations_gas_dependence.svg
 	display false
+	width 240pt
 
 \end_inset
 
