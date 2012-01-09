@@ -27,8 +27,8 @@ data['hot'] =  np.array(cursor.fetchall())
 fig = plt.figure()
 axis_array = []
 x_ranges = []
-x_ranges.append((15,45))
-x_ranges.append((15,19))
+x_ranges.append((17,33))
+x_ranges.append((15,33))
 x_ranges.append((26,33))
 
 y_ranges = []
@@ -37,8 +37,8 @@ y_ranges.append((0,30))
 y_ranges.append((0,15))
 
 
-for i in range(0,3):
-    axis_array.append(fig.add_subplot(3,1,i+1))
+for i in range(0,1):
+    axis_array.append(fig.add_subplot(1,1,i+1))
     mass_values = ((data['hot'][:,0]-0.095) / 2.96373200801)**2.01054 
     axis_array[i].plot(mass_values, data['hot'][:,1], 'r-')
     
@@ -49,8 +49,8 @@ for i in range(0,3):
     axis_array[i].set_xlim(x_ranges[i])
     axis_array[i].tick_params(direction='in', length=6, width=2, colors='k',labelsize=14,axis='both',pad=5)
     
-axis_array[1].set_ylabel('MCP Response / mV', fontsize=20)
-axis_array[2].set_xlabel('Mass / AMU', fontsize=20)
+axis_array[0].set_ylabel('MCP Response / mV', fontsize=20)
+axis_array[0].set_xlabel('Mass / AMU', fontsize=20)
 
 
 
