@@ -68,6 +68,9 @@ filename "introduction.lyx"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
 filename "experimentalsetup.lyx"
@@ -75,6 +78,9 @@ filename "experimentalsetup.lyx"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
 filename "temperature.lyx"
@@ -82,6 +88,19 @@ filename "temperature.lyx"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "techniques.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
 filename "oscillatingreactions.lyx"
@@ -89,6 +108,9 @@ filename "oscillatingreactions.lyx"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
 filename "danskresume.lyx"
