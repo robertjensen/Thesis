@@ -70,6 +70,29 @@ In the first part of my Ph.D.
  I was not working with microreactors, but with a completely different system
  where the goal was to do non-thermal catalysis using a so-called Hot-Electron
  Device.
+ The devices was originally devoloped at CINF by Ph.D.
+ students Gunver Nielsen and Lasse Thomsen, who made a number of publication
+ on the subject (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Thomsen2009,Thomsen2007,Nielsen2009"
+
+\end_inset
+
+) as well as a Ph.D.
+ thesis each (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Gunver2010,Lasse2009"
+
+\end_inset
+
+).
+ In short short the Hot Electron project was about trying to create a Metal-Insu
+later-Semiconductor (MIS) device which could be used as a tunnel device
+ to perform chemistry with non-thermal electrons.
+ Below is a very short introduction as well as a report of my work on the
+ project.
 \end_layout
 
 \end_body

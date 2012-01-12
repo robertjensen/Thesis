@@ -60,6 +60,19 @@
 
 \begin_body
 
+\begin_layout Title
+Microreactors
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
@@ -93,6 +106,16 @@ filename "temperature.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
+filename "sensitivity.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
 filename "techniques.lyx"
 
 \end_inset
@@ -113,7 +136,29 @@ filename "oscillatingreactions.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
+filename "hotelectrons.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
 filename "danskresume.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintAll"
+bibfiles "litterature"
+options "bibtotoc,plain"
 
 \end_inset
 

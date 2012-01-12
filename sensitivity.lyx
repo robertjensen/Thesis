@@ -62,7 +62,15 @@
 \begin_body
 
 \begin_layout Chapter
-Experimental setup
+Sensitivity measurements
+\end_layout
+
+\begin_layout Standard
+One of the original design goals of the microeactors was that the reactors
+ should have a high sensitivity to able to measure on very small amounts
+ of catalyst.
+ To test the sensitivity we have performed of series of tests using CO oxidation
+ on Pt thin films as the test reaction.
 \end_layout
 
 \end_body
