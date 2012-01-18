@@ -65,5 +65,203 @@
 Experimental setup
 \end_layout
 
+\begin_layout Section
+The 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor platform is invented here at CINF and is originally published in
+ 2009 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Henriksen2009"
+
+\end_inset
+
+.
+ The device itself and the fabrication process is described in details in
+ Toke Henriksen's Ph.D.
+ thesis 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Toke-phd"
+
+\end_inset
+
+.
+ In summary the device is a clean-room fabricated sillicon chip with two
+ gas-inlets, a outlet carrying the main gas-flow out of the reactor and
+ a reactor area with a small outlet capillary which is connected to a mass
+ spectrometer.
+ Once the catalyst to be tested is positioned in the reactor area (this
+ can be done in a number of ways), the reactor is closed by annodic bonding
+ a pyrex lid to the sample.
+ The clever idea about the design is that even though most of the incoming
+ gas-flow is pumped away imidiately, every molecule that actually enters
+ the reactor area, will be led into the mass spectrometer and thus the sensitivi
+ty of the device is very high.
+ The design shows a number of advantages compared to a traditional catalytic
+ reactors:
+\end_layout
+
+\begin_layout Itemize
+The total volume of the reactor is just 240
+\begin_inset space \thinspace{}
+\end_inset
+
+nL, meaning that we are able to measure on very small amounts of catalyst,
+ this could for example be samples produced in a cluster source.
+\end_layout
+
+\begin_layout Itemize
+Only very small amounts of the reacting gasses needs to be mixed, meaning
+ that potentially explosive mixtures can be measured without rising safety
+ issues
+\end_layout
+
+\begin_layout Itemize
+The thermal mass is very low, and the temperature of the reactor can therefore
+ be raised very quickly
+\end_layout
+
+\begin_layout Itemize
+The glass lid of the reactor gives easy optical contact to the catalyst,
+ meaning that the reactor can be used for photo-catalysis.
+\end_layout
+
+\begin_layout Standard
+Of course the design also has it downsides, the most import problem is properly
+ the fact that it is almost impossible to apply any traditional surface
+ science technique on the catalyst because the reactor it is hermetically
+ sealed and no easy way of opening the lid is known.
+\end_layout
+
+\begin_layout Section
+Brief histrorical tour
+\end_layout
+
+\begin_layout Standard
+Since I was not the first Ph.D.
+ student on the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor setup, I did not built the original experimental setup.
+ The orginal setup is extensively described in the theses of Peter Vesborg
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Vesborg-phd"
+
+\end_inset
+
+ and Jakob Olsen 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Olsen-phd"
+
+\end_inset
+
+.
+ This chapter will be a short summary of the state of the setup as of when
+ I came (which happens to be same time as Peter and Jakob left it).
+ The 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor concept has a much longer history but this is really not a concern
+ of this thesis.
+ A schematic of the setup as of the day I arrived is seen on figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:old_old_setup"
+
+\end_inset
+
+.
+ The setup has several problems which 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename svg_figures/microreactor_current_setup.svg
+	display false
+	width 240pt
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:old_old_setup"
+
+\end_inset
+
+The 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor setup as of the day I arrived on the setup.
+ Blue tubes contains the incoming gas flow and is typically operated at
+ 1-2
+\begin_inset space \thinspace{}
+\end_inset
+
+bars.
+ Red tubes are pumped with a roughing pump and is typically operated at
+ 
+\begin_inset Formula $\sim10^{-3}$
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+mbar.
+ Green tubes are pumped by a turbo pump and are typically operated at pressures
+ around 
+\begin_inset Formula $\sim10^{-6}$
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+mbar doing experiments.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
