@@ -18,6 +18,20 @@ data = {}
 cursor.execute("SELECT x*1000000,y*1000 FROM xy_values_tof where measurement = 173")
 data['ch'] = np.array(cursor.fetchall())
 
+
+n = 2
+smooth_data = data['ch']
+smooth = []
+for i in range(0,len(smooth_data)/n):
+    #print i
+    start = i*n
+    end = (i*n)+n
+    x_average = sum(smooth_data[start:end,0])/n
+    y_average = sum(smooth_data[start:end,1])/n
+    smooth.append([x_average,y_average])
+  
+data['ch'] = np.array(smooth)
+
 #Background
 cursor.execute("SELECT x*1000000,y*1000 FROM xy_values_tof where measurement = 172")
 data['bg'] =  np.array(cursor.fetchall())
