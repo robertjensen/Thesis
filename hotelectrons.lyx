@@ -95,5 +95,173 @@ later-Semiconductor (MIS) device which could be used as a tunnel device
  project.
 \end_layout
 
+\begin_layout Section
+Hot Electron Chemistry
+\end_layout
+
+\begin_layout Standard
+The hot-electron work at CINF was based on an idea by Gadzuk (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "GADZUK1991,GADZUK1995,Gadzuk1996"
+
+\end_inset
+
+) that certain chemical reactions can be induced by introducing a 'hot'
+ (that is, having more energy than what would be expected from the temperature
+ of the material) electron directly at the reaction coordinate.
+ In this way it would in principle be possible to do certain chemical reactions
+ extremely efficiently since all aplied energy would go directly do the
+ desired process and not as a general heating of the entire system.
+ This would also in principle open a route to do extremely specific reactions
+ even if they are thermodynamically competing with other unwanted reaction
+ since one could simply tune the electron energy to the desired reaction.
+\end_layout
+
+\begin_layout Section
+The Hot-Electron Device
+\end_layout
+
+\begin_layout Standard
+The original implementation of the device was done by Lasse and Gunver.
+ The device is implemented as a Semiconductor-Insulator-Metal structure.
+ The starting point is a wafer doped rather heavily with SB to achive a
+ high conductance of the wafer.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/hot-electron-device/Wafer.png
+	display false
+	width 240pt
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:hot_e-wafer"
+
+\end_inset
+
+Gas-dependence of the oscillations
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ The first step is then to grow a thick oxide on the wafer, the thickness
+ being on the order of 750
+\begin_inset space \thinspace{}
+\end_inset
+
+nm 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/hot-electron-device/ThickOx.png
+	display false
+	width 240pt
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:hot_e-thickox"
+
+\end_inset
+
+Gas-dependence of the oscillations
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ This oxide is grown as a co-called wet-oxide meaning that it is oxidzed
+ in a wet atmosphere wich speeds up the process significantly.
+ The price of the fast growth is that the quality of the oxide is rather
+ poor, it contains a lot of defects and is general not nearly as good an
+ insulator as perfect SiO
+\begin_inset Formula $_{2}$
+\end_inset
+
+.
+ This is not a problem in this case since the oxide is not meant to part
+ of the actual active hot-electron structure, but it will later work as
+ an area of the chip that can be easily handled mechanically.
+ 
+\end_layout
+
+\begin_layout Standard
+After the growth of the thick oxide, the area that is later to become the
+ active area, is then back-etched, with the rest of the oxide being protected
+ by a protective layer applied by photolitography.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/hot-electron-device/BackEtch.png
+	display false
+	width 240pt
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:hot_e-backetch"
+
+\end_inset
+
+Gas-dependence of the oscillations
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
