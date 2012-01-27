@@ -126,7 +126,18 @@ The Hot-Electron Device
 The original implementation of the device was done by Lasse and Gunver.
  The device is implemented as a Semiconductor-Insulator-Metal structure.
  The starting point is a wafer doped rather heavily with SB to achive a
- high conductance of the wafer.
+ high conductance of the wafer, figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:hot_e-wafer"
+
+\end_inset
+
+.
  
 \begin_inset Float figure
 wide false
@@ -134,16 +145,32 @@ sideways false
 status collapsed
 
 \begin_layout Plain Layout
-\noindent
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename figures/hot-electron-device/Wafer.png
 	display false
-	width 240pt
+	width 80text%
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -153,7 +180,59 @@ name "fig:hot_e-wafer"
 
 \end_inset
 
-Gas-dependence of the oscillations
+The original wafer
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/hot-electron-device/ThickOx.png
+	display false
+	width 80text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:hot_e-thickox"
+
+\end_inset
+
+The wafer after growing the thick oxide
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -168,39 +247,14 @@ Gas-dependence of the oscillations
 \begin_inset space \thinspace{}
 \end_inset
 
-nm 
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Graphics
-	filename figures/hot-electron-device/ThickOx.png
-	display false
-	width 240pt
-
+nm, figure
+\begin_inset space ~
 \end_inset
 
 
-\begin_inset Caption
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:hot_e-thickox"
-
-\end_inset
-
-Gas-dependence of the oscillations
-\end_layout
-
-\end_inset
-
-
-\end_layout
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:hot_e-thickox"
 
 \end_inset
 
@@ -222,25 +276,59 @@ Gas-dependence of the oscillations
 
 \begin_layout Standard
 After the growth of the thick oxide, the area that is later to become the
- active area, is then back-etched, with the rest of the oxide being protected
- by a protective layer applied by photolitography.
+ active area, is then back-etched in HF, with the rest of the oxide being
+ protected by a protective layer applied by photolitography, figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:hot_e-backetch"
+
+\end_inset
+
+.
+ Etching in HF is extremely selective towards SiO
+\begin_inset Formula $_{2}$
+\end_inset
+
+ and thus the etch will not introduce roughening of the otherwise almost
+ atomically flat Si surface if the etch time is just decently adjusted to
+ fit the time needed to remove the oxide layer.
  
 \begin_inset Float figure
 wide false
 sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
-\noindent
 \align center
 \begin_inset Graphics
 	filename figures/hot-electron-device/BackEtch.png
 	display false
-	width 240pt
+	width 80text%
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -250,7 +338,7 @@ name "fig:hot_e-backetch"
 
 \end_inset
 
-Gas-dependence of the oscillations
+Back-etching the thick oxide in the active area
 \end_layout
 
 \end_inset
@@ -261,6 +349,230 @@ Gas-dependence of the oscillations
 \end_inset
 
 
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/hot-electron-device/ThinnOx.png
+	display false
+	width 80text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:hot_e-thinox"
+
+\end_inset
+
+Growth of the high-quality thin oxide
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+At this point we have a device structure of an outer rim of thick oxide
+ for mechanical handling and the center part of the device etched back to
+ the bare wafer.
+ Next step is to grow the final thin, high-quality oxide, that will work
+ as the tunnel barrier.
+ To do this, the wafers are first so-called RCA cleaned and imidiately after
+ transfered into an extremely clean furnace where the the oxidtion is performed
+ in a dry oxygen atmosphere, figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:hot_e-thinox"
+
+\end_inset
+
+.
+ In the complete fabrication process, this is by far the most import step
+ to get right, since the quality of the oxide is of extreme importance for
+ the performance of the device.
+ It is thus extremely important that the cleaning is done right, and that
+ absolutely no particles is contaminating the surface when the wafers are
+ transfered into the furnace.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/hot-electron-device/BackMetal.png
+	display false
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:hot_e-backmetal"
+
+\end_inset
+
+Metal is deposited on the backside for easy electrical contact.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/hot-electron-device/FrontMetal.png
+	display false
+	width 80text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:hot_e-frontmetal"
+
+\end_inset
+
+Finally metal is deposited on the front side.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ After growing the thin oxide, the next step is to deposit a metal layer
+ on the backside of the wafer, figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:hot_e-backmetal"
+
+\end_inset
+
+.
+ This is done to ensure good electrical contact to the device, since the
+ silicon itself is a very stiff surface, which can be hard to contact.
+ The standard back-side metal is 100
+\begin_inset space \thinspace{}
+\end_inset
+
+nm Au on top of a few nanometers of Ti as an adheasion layer between the
+ the silicon and the gold.
+ At this point the wafers are ready for the final step, which is to deposit
+ the front side metal, figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:hot_e-frontmetal"
+
+\end_inset
+
+.
+ The deposition is done using standard e-beam evaporation though a shadow-mask.
+ The choice of metal is depending on what experiment one wants to perform,
+ often we have worked with Pt, but other metals can also be deposited.
+ 
+\end_layout
+
+\begin_layout Section
+Results
 \end_layout
 
 \end_body
