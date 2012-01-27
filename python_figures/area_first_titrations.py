@@ -16,11 +16,13 @@ cursor = db.cursor()
 
 data = {}
 #M44
-cursor.execute("SELECT x/1000,y*1e9 FROM xy_values_microreactor where measurement = 6874")
+#cursor.execute("SELECT x/1000,y*1e9 FROM xy_values_microreactor where measurement = 6874")
+cursor.execute("SELECT x/1000,y*1e9 FROM xy_values_microreactor where measurement = 6885")
 data['M44'] = np.array(cursor.fetchall())
 
 #CO Flow
-cursor.execute("SELECT x/1000,y FROM xy_values_microreactor where measurement = 6880")
+#cursor.execute("SELECT x/1000,y FROM xy_values_microreactor where measurement = 6880")
+cursor.execute("SELECT x/1000,y FROM xy_values_microreactor where measurement = 6891")
 data['CO_FLOW'] =  np.array(cursor.fetchall())
 
 i = 0
@@ -36,6 +38,8 @@ for row in data['CO_FLOW']:
     if (i%10==0):
         old_m44 = row[1]
 
+print len(titrations)
+
 i = 0
 for row in titrations:
     while data['M44'][i,0] <row:
@@ -46,16 +50,18 @@ for row in titrations:
 axis_array = []
 fig = plt.figure()
 
+print len(times)
+
 for i in range(0,len(times)):
-    axis_array.append(fig.add_subplot(3,2,i+1))
+    axis_array.append(fig.add_subplot(4,2,i+1))
     start = times[i]+90
-    end = times[i]+210
-    mean_y = [sum(data['M44'][start:start+10,1])/10,sum(data['M44'][end-10:end,1])/10]
-    mean_x = [data['M44'][start+10,0],data['M44'][end-10,0]]
+    end = times[i]+200
+    mean_y = [sum(data['M44'][start:start+20,1])/20,sum(data['M44'][end-20:end,1])/20]
+    mean_x = [data['M44'][start+20,0],data['M44'][end-20,0]]
     axis_array[i].plot(data['M44'][start:end,0], data['M44'][start:end,1], 'r-')
     axis_array[i].plot(mean_x, mean_y, 'b-')
     axis_array[i].set_ylim(0,0.12)
-    #axis_array[i].set_xlim(0,50)
+    axis_array[i].set_xlim(data['M44'][start,0],data['M44'][end,0])
     
     f2 = interp1d([start,end], mean_y)
     charge = 0
