@@ -75,7 +75,110 @@ At some point in time, we were running a bachelors project concerning size
  One of the things we had on list of 'experiments to perform when we get
  the time' was a lightoff experiment with very low CO concentration to see
  how much this would bring down lightoff temperature.
- After running the experiment the resulting graph was 
+ After running the experiment we looked at the data (figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:oscil_original"
+
+\end_inset
+
+)
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename svg_figures/original_oscillation.svg
+	display false
+	width 240pt
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:oscil_original"
+
+\end_inset
+
+The first data-set, showing oscillation behaviour.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, and we were initially not very satisfied with the result since it the
+ data seems to show the expected light-off but also a very large amount
+ of signal-noise.
+ Normally the data is of much better quality, so we tried to investigate
+ what could be the problem, and in this process it is natural to try to
+ analyse the noise to see if it seems to contain a hit about the root of
+ the problem, figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:oscil_original_zoom"
+
+\end_inset
+
+.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename svg_figures/original_oscillation_zoom.svg
+	display false
+	width 240pt
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:oscil_original_zoom"
+
+\end_inset
+
+Two zooms of the 'noise' signal.
+ Notice how the Mass 28 and Mass 44 are perfectly anti-correlated.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ Much to our surprise, the noise turned out to be very well ordered, the
+ two signals was going up and down in perfect anti-correlation.
 \end_layout
 
 \begin_layout Section
@@ -100,7 +203,7 @@ e of
 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Gas-dependence-of-the"
+reference "fig:oscil_gas-dependence"
 
 \end_inset
 
@@ -114,7 +217,7 @@ ation in agreement with the hypothethis that some kind of bulk oxidation
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -132,7 +235,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Gas-dependence-of-the"
+name "fig:oscil_gas-dependence"
 
 \end_inset
 
