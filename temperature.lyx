@@ -70,13 +70,13 @@ Measuring temperature accurately is always a difficult task.
  For the microreactor, the problem is especially tricky because the 2D-like
  structure and small thermal mass of the system means that is difficult
  to establish a well defined temperature across the entire reactor volume.
- To complicate things even further it is also higly difficult to achive
+ To complicate things even further it is also highly difficult to achieve
  a constant temperature across the reactor.
  First of all the contact between the highly heat-conducting silicon wafer
  and the comparatively cold metal interface block means that a constant
  heat transfer occurs on the chip whenever the chip is heated.
  This of course leads to temperature gradients along the chip.
- Also convention losses to the surroingings will contribute a non-homogenours
+ Also convention losses to the surroundings will contribute a non-homogeneous
  heat-loss to the surroundings.
  This given an ideal simple heating mechanism that simply delivers a constant
  power pr.
@@ -85,11 +85,302 @@ Measuring temperature accurately is always a difficult task.
  coldest at the contact between the interface block and the chip.
  To complicate things even further, no such 'ideal' heating device exists,
  in fact it is not easy to deliver power in a uniform way.
- In the first iteration of the setup, heating was done via a small cheramical
- block with a hot filemant inside.
+\end_layout
+
+\begin_layout Standard
+No matter how heat is trasfered to the sample, one will typically want bring
+ the sample to a given temperature, not to source a given amount of watts,
+ which is what is normally the directly controllable parameter.
+ Thus one will need some kind of temperature 
+\emph on
+control
+\emph default
+ to ensure that a suitable power is applied that ensures the wanted temperature.
+ Many such control mechanisems exists, in our case we have chosen to run
+ the control loop in home-made software, in this case implemented in LabView
+ which for better and (mostly) for worse is the default language of choise
+ at DTU.
+ The home-made implementation ensures that we know what is going on behind
+ the scence of the software, and that we have the ability to change all
+ part of the setup ourselfs, new heaters or temperature measurements can
+ easily be implemented.
+ In catalysis, it is of very high importance to be able to reach and stay
+ at a given constant temperature for extended amounts of time, even if the
+ conditions of the sourrounding change.
+ The typcial choise in such situations is a PID-controller which is also
+ what we are using.
+ Implementing af PID-control is a very easy task, but implementing a good
+ PID is slightly more complicated, allthough our case is rather simple due
+ to the good thermal time constant in the system.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/new_temperature_control.png
+	display false
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:temp_new_pid"
+
+\end_inset
+
+T
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figures/new_temperature_control2.png
+	display false
+	width 80text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:temp_new_pid_zoom"
+
+\end_inset
+
+A zoom of figure
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In the first iteration of the setup, heating was done via a small ceramic
+ block with a hot filament inside, that was spring mounted to the backside
+ of the chip.
  This has several advantages in the way of mechanical handling and very
- easy interfacing, since it only needs to be fed a DC-voltage of the size
- of a few volts.
+ easy interfacing, of the heater, just apply a suitable DC-voltage and you
+ are ready to heat.
+ However, the method also has many drawbacks.
+ Most importantly, it turned out that we had severe problems measuring the
+ temperature, but also point-heating was a great problem, since it is very
+ difficult to mount the heater completely parallel to the sample meaning
+ that inevitably a single small point of the heating element will be in
+ contact with the sample a thermographic image of this problem is seen very
+ clearly in figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:thermographic_old_heater"
+
+\end_inset
+
+.
+ Moreover because of the mechanical spring mount, this point heating was
+ not consistent.
+ This meant that two nominally identical heating runs could easily result
+ in very different temperature profiles across the chip.
+ As if these properties were not bad enough, it is also not trivial to measure
+ the temperature of the sample.
+ Mounting a thermocouple from the backside is not possible due to the heating
+ element.
+ Thus the temperature has to be measured from above the lid, in practice
+ is was done by manually placing a thermocouple on top the sample.
+ The combination of non-consistent point heating from the backside and non-consi
+stent position on the front side obviously resulted in very large uncertainties
+ of the temperature, not what one wants in heterogeneous catalysis...
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/thermo_image_old_heater.png
+	display false
+	width 120pt
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:thermographic_old_heater"
+
+\end_inset
+
+Thermographic image of the sample heated by the original heating element.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To fix this problem, we developed a new solution in close cooperation with
+ the clean room wizards.
+ The idea this time was to integrate the heater directly onto the chip (a
+ concept that also fit nice very nicely with the overall microreactor idea)
+ and then use the heater itself to also measure the temperature.
+ After some discussions we ended up with the structure seen in figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:reactor_new_heating_scheme"
+
+\end_inset
+
+.
+ The structure is implemented in the cleanroom by e-beam evaporating ??
+\begin_inset space \thinspace{}
+\end_inset
+
+nm of Pt on top of an adhesion layer of ??
+\begin_inset space \thinspace{}
+\end_inset
+
+nm of Ti through a shadow-mask.
+ This deposition method guarantees that absolelutely no Pt finds its way
+ to the front-side of the reactor, this is very important since as it is
+ demonstrated in chapter
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:Sensitivity-measurements"
+
+\end_inset
+
+, even minute amounts of Platinum can show reactivity to various processes.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/reaktor_varmelegeme.png
+	display false
+	width 120pt
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:reactor_new_heating_scheme"
+
+\end_inset
+
+The new heating structure.
+ This is the heating mechanism that has been used for almost all work in
+ this thesis.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ The integrated heater will imidiately solve all problems regarding reproducebil
+ity of the heating, all samples are heated in exactly the same way since
+ the clean room process has a very high degree of accuracy.
+ Originally we also expected that this deisgn would mostly eliminate the
+ problems of inhomogenous temperature across the reactor area, but as we
+ shall se later in this chapter, the temperature distribution is still far
+ from perfect.
+ 
 \end_layout
 
 \end_body
