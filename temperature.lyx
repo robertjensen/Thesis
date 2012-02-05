@@ -62,7 +62,7 @@
 \begin_body
 
 \begin_layout Chapter
-Temperature control
+Temperature - heating and measuring temperature
 \end_layout
 
 \begin_layout Standard
@@ -87,6 +87,10 @@ Measuring temperature accurately is always a difficult task.
  in fact it is not easy to deliver power in a uniform way.
 \end_layout
 
+\begin_layout Section
+Temperature control
+\end_layout
+
 \begin_layout Standard
 No matter how heat is trasfered to the sample, one will typically want bring
  the sample to a given temperature, not to source a given amount of watts,
@@ -96,27 +100,80 @@ No matter how heat is trasfered to the sample, one will typically want bring
 control
 \emph default
  to ensure that a suitable power is applied that ensures the wanted temperature.
- Many such control mechanisems exists, in our case we have chosen to run
+ Many such control mechanisms exists, in our case we have chosen to run
  the control loop in home-made software, in this case implemented in LabView
- which for better and (mostly) for worse is the default language of choise
+ which for better and (mostly) for worse is the default language of choice
  at DTU.
  The home-made implementation ensures that we know what is going on behind
- the scence of the software, and that we have the ability to change all
+ the scenes of the software, and that we have the ability to change all
  part of the setup ourselfs, new heaters or temperature measurements can
  easily be implemented.
  In catalysis, it is of very high importance to be able to reach and stay
  at a given constant temperature for extended amounts of time, even if the
- conditions of the sourrounding change.
- The typcial choise in such situations is a PID-controller which is also
- what we are using.
- Implementing af PID-control is a very easy task, but implementing a good
- PID is slightly more complicated, allthough our case is rather simple due
+ conditions of the sourrounding change over time, which will typically happen
+ for measurements running as long as is the case in the microreactors.
+ The typcial choise, which is also used by us, in such situations is a PID-contr
+oller where one for every timestep, 
+\begin_inset Formula $\Delta t$
+\end_inset
+
+ calculates the wanted output pased on knowledge of the temperature error
+ function, 
+\begin_inset Formula $E=T_{setpoint}-T_{measured}$
+\end_inset
+
+.
+ Given knowledge of 
+\begin_inset Formula $E(t)$
+\end_inset
+
+ at all times, the wanted output can be calculated as
+\begin_inset Formula 
+\begin{equation}
+O(t)=P+I+D=k_{p}E+k_{i}\int_{-\infty}^{t}E+k_{d}\frac{dE}{dt}\label{eq:pid}
+\end{equation}
+
+\end_inset
+
+,with 
+\begin_inset Formula $k_{p}$
+\end_inset
+
+, 
+\begin_inset Formula $k_{i}$
+\end_inset
+
+ and 
+\begin_inset Formula $k_{d}$
+\end_inset
+
+denoting the so called proportionality, integral and differential terms.
+ 
+\end_layout
+
+\begin_layout Standard
+Implementing af PID-control is a very easy task, just implemet equation
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:pid"
+
+\end_inset
+
+ and experiment a bit to get decent values for the constants.
+ However, implementing a good PID is slightly more complicated, since often
+ in a given specific system, one can find optimizations that is not captured
+ by the general formulism.
+ In our case we have a particularly easy system to regulate, mostly due
  to the good thermal time constant in the system.
  
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Box Frameless
@@ -216,7 +273,102 @@ A zoom of figure
 
 \end_inset
 
+ This means that one can significantly out-perform the direct implementation
+ of equation
+\begin_inset space ~
+\end_inset
 
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:pid"
+
+\end_inset
+
+.
+ In our case we have a direct comparison because the original temperature
+ control was indeed simply a direct implementation, which was originally
+ made by a bachelors student 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Micro-bachelor"
+
+\end_inset
+
+ and was used in that form for a long period of time.
+ When we started to push the microreactors from prototypes to real measurement
+ devices, a new and better algorithm was needed.
+ A simple but very effective improvement is made by realising that purpose
+ for the differential term is to counteract unwanted behaviour, such as
+ overshoot, however in very easy system better ways exists to prevent this
+ and at the same time, the term will often lead the overall PID to oscillate
+ around the setpoint.
+ So a new algorithm was implemented with 
+\begin_inset Formula $D=0$
+\end_inset
+
+ and the added heuristics that if 
+\begin_inset Formula $O(t)>O_{max}$
+\end_inset
+
+ then 
+\begin_inset Formula $I(t+\Delta T)=I(t)$
+\end_inset
+
+ no matter the value of 
+\begin_inset Formula $E$
+\end_inset
+
+.
+ This has the effect that 
+\begin_inset Formula $I$
+\end_inset
+
+ will not tend to grow to large values when the temperature is still far
+ from the setpoint.
+ The optimal value of 
+\begin_inset Formula $O_{max}$
+\end_inset
+
+ must be found experimentally just as 
+\begin_inset Formula $k_{p}$
+\end_inset
+
+ and 
+\begin_inset Formula $k_{i}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The difference between these two strategies is illustrated in figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:temp_new_pid"
+
+\end_inset
+
+ and
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:temp_new_pid_zoom"
+
+\end_inset
+
+ where 
+\end_layout
+
+\begin_layout Section
+Heating mechanisms
 \end_layout
 
 \begin_layout Standard
