@@ -2,6 +2,7 @@ git-daemon-export-ok
 scratch/
 *~
 \#*\#
+*.pyc
 *.bak
 *.aux
 *.bbl

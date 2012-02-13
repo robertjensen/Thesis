@@ -62,7 +62,20 @@
 \begin_body
 
 \begin_layout Chapter
-Experimental setup
+Measuring the Active Area of a Catalyst
+\end_layout
+
+\begin_layout Standard
+Very often when doing measurements in the microreactor, one will want to
+ know the available active area of the catalyst.
+ In some case it can be very simple, for instance when working with metal
+ thin-films, in these cases the area is more or less equal to the geometric
+ area of the film, unless the catalyst is not clean.
+ In other cases, such if one wants to check if the catalyst is clean, or
+ if the sample consists of nanoparticles, it is much less clear how to estimate
+ the surface area.
+ Often one will know how much catalyst was deposited, but how will we know,
+ if the nanoparticles sintered or an attempt of cleaning has failed? 
 \end_layout
 
 \end_body

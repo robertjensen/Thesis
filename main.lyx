@@ -106,6 +106,16 @@ filename "temperature.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
+filename "area_measurements.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
 filename "sensitivity.lyx"
 
 \end_inset

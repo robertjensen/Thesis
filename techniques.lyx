@@ -141,6 +141,46 @@ Cutting with a diamond saw
 
 \begin_layout Standard
 SHOW XPS spectrum of clean sample
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename svg_figures/xps_looking_for_Ni.svg
+	display false
+	width 120pt
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:xps_looking_for_Ni"
+
+\end_inset
+
+XPS spectrum of a sample exposed to very large amounts of CO at boh high
+ and low temperature.
+ It is evident that no significant amount of Nickel carbonyl has been deposited
+ on the surface.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
