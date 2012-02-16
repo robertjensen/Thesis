@@ -15,25 +15,41 @@ except:
 cursor = db.cursor()
 
 
-temperatures[40,60,80,100,105,110,115,120,125,130,135]
+temperatures = [40,60,80,100,105,110,115,120,125,130,135]
 initial_db = 189
 
 masses = [12.43,12.77]
 
 data = {}
+
 i = 0
 for temp in temperatures:
     cursor.execute("SELECT x*1000000,y*1000 FROM xy_values_tof where measurement = " + str(i + initial_db))
     data[str(temp)] = np.array(cursor.fetchall())
     i = i+1
 
-for i in range(0,len(temperatures)):
-    
+treated_data = {}
+for j in range(0,len(masses)):
+    treated_data[str(masses[j])] = []
+
+
+
+for temp in temperatures:
+    for j in range(0,len(masses)):
+        start = (int)((masses[j] * 2000) -100)
+        end = (int)((masses[j] * 2000) + 100)
+        charge = 0
+        for i in range(start,end):
+            charge = charge + data[str(temp)][i,1]
+        treated_data[(str(masses[j]))].append([temp,charge])
 
 
 fig = plt.figure()
 axis_array = []
-  
+
+print type(treated_data['12.77'])
+a = treated_data['12.77'][:][:]
+"""
     
 for:    
     axis_array.append(fig.add_subplot(1,1,i+1))
@@ -55,3 +71,5 @@ axis_array[0].set_xlabel('Mass / AMU', fontsize=20)
 #plt.tight_layout()
 plt.show()
 #plt.savefig('../svg_figures/oscillations_gas_dependence.svg')
+
+"""
