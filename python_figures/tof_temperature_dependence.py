@@ -31,8 +31,8 @@ for j in range(0,len(config.masses)):
 
 
 for i in range(0,len(config.masses)):
-    start = (int)((config.masses[i][1] * 2000) -50)
-    end = (int)((config.masses[i][1] * 2000) + 50)
+    start = (int)((config.masses[i][1] * 2000) -5)
+    end = (int)((config.masses[i][1] * 2000) + 5)
     for j in range(0,len(config.temperatures)):
         charge = 0
         for k in range(start,end):
@@ -48,24 +48,27 @@ axis = fig.add_subplot(2,1,1)
 
 i = 0
 for mass in config.masses:    
-    axis.plot(treated_data[str(mass[1])][:,0],treated_data[str(mass[1])][:,1], colors[i])
+    axis.plot(treated_data[str(mass[1])][:,0],treated_data[str(mass[1])][:,1], colors[i],label=str(mass[0]))
     i = i + 1
     
     
 axis.set_ylabel('Intensity', fontsize=20)
 axis.set_xlabel('Temperature', fontsize=20)
-
+axis.legend()
 axis = fig.add_subplot(2,1,2)
 i = 0
 for mass in config.masses:    
-    axis.plot(treated_data[str(mass[1])][:,1], colors[i])
+    axis.plot(treated_data[str(mass[1])][:,1], colors[i],label=str(mass[0]))
     i = i + 1
 
 axis.set_xlabel('Tentitative time', fontsize=20)
 axis.set_ylabel('Intensity', fontsize=20)
+
 axis2 = axis.twinx()
-axis2.plot(treated_data[str(mass[1])][:,0], 'k.')
+axis2.plot(treated_data[str(mass[1])][:,0], 'k.',label='Temperature')
 axis2.set_ylabel('Temperature / C', fontsize=20)
+
+axis.legend()
 
 #plt.tight_layout()
 plt.show()
