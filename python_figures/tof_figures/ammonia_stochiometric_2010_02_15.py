@@ -21,8 +21,8 @@ initial_db = 189
 masses = []
 #masses.append(['H',3.149])
 #masses.append(['H2',4.385])
-masses.append(['NH3',12.4175])
-masses.append(['OH',12.426])
+masses.append(['OH',12.4175])
+masses.append(['NH3',12.426])
 masses.append(['H2O',12.775])
 
 #masses = [12.43,12.77]
