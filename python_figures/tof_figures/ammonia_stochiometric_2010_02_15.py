@@ -25,4 +25,3 @@ masses.append(['OH',12.4175])
 masses.append(['NH3',12.426])
 masses.append(['H2O',12.775])
 
-#masses = [12.43,12.77]
