@@ -40,17 +40,20 @@ pp = PdfPages('multipage.pdf')
 for j in range(0,len(config.temperatures)):
     pdffig = plt.figure()
     i = 0
+    Data = data[j]
     for mass in config.masses:
         i = i + 1
         axis = pdffig.add_subplot(4,3,i)
         center = (int)(mass[1] * 2000) ## Notice... 
         center_mass = mass[1]
-        start = center - 8
+        Start = center -40 #Display range
+        End = center + 40
+        start = center - 8 #Fitting range
         end = center + 8
 
 
-        x_values = data[j][start:end,0]
-        y_values = data[j][start:end,1]
+        x_values = Data[start:end,0]
+        y_values = Data[start:end,1]
         #y_values = y_values - min(y_values)
         
         # Fit the first set
@@ -67,11 +70,11 @@ for j in range(0,len(config.temperatures)):
             print "p1:" + str(p1[0]) + " p1:" + str(p1[1]) + " p2:" + str(p1[2]) + " j: " + str(j)
             p1[1] = 0
 
-        axis.plot(data[j][start-30:end+30,0],data[j][start-30:end+30,1],'b-')
-        axis.plot([data[j][start,0],data[j][start,0]],[0,max(y_values)],'k-')
-        axis.plot([data[j][end,0],data[j][end,0]],[0,max(y_values)],'k-')
+        axis.plot(Data[Start:End,0],Data[Start:End,1],'b-')
+        axis.plot([Data[start,0],Data[start,0]],[0,max(y_values)],'k-')
+        axis.plot([Data[end,0],Data[end,0]],[0,max(y_values)],'k-')
 
-        axis.plot(data[j][start-40:end+40,0],fitfunc(p1, data[j][start-40:end+40,0]),'r-')
+        axis.plot(Data[Start:End,0],fitfunc(p1, Data[Start:End,0]),'r-')
         axis.tick_params(direction='in', length=2, width=1, colors='k',labelsize=8,axis='both',pad=5)
         axis.annotate(mass[0], xy=(.05,.85), xycoords='axes fraction',fontsize=8)
         axis.set_xticks(())
