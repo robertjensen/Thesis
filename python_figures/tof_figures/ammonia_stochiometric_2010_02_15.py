@@ -19,12 +19,11 @@ for i in range(180,95,-5): #Note last value is not included
 initial_db = 189
 
 masses = []
-#masses.append(['H',3.149])
-masses.append(['H2',4.385])
+masses.append(['H2',4.387])
 masses.append(['OH',12.4193])
 masses.append(['NH3',12.428])
 masses.append(['H2O',12.777])
-masses.append(['N2',15.883])
-masses.append(['O2',16.964])
-masses.append(['N2O',19.864])
+masses.append(['N2',15.89])
+masses.append(['O2',16.972])
+masses.append(['N2O',19.874])
 

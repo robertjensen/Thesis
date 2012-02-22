@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import MySQLdb
 import sys
+from matplotlib.backends.backend_pdf import PdfPages
 
 try:
     db = MySQLdb.connect(host="servcinf", user="cinf_reader",passwd = "cinf_reader", db = "cinfdata")
@@ -34,16 +35,18 @@ for mass in config.masses:
     treated_data[mass[0]] = np.zeros((len(config.temperatures),2))
 
 
+pp = PdfPages('multipage.pdf')
 
+for j in range(0,len(config.temperatures)):
+    pdffig = plt.figure()
+    for i in range(0,len(config.masses)): #This should iterate directly over config.masses...
 
-for i in range(0,len(config.masses)):
+        axis = pdffig.add_subplot(4,3,i+1)
+        center = (int)(config.masses[i][1] * 2000) ## Notice... 
+        center_mass = config.masses[i][1]
+        start = center - 8
+        end = center + 8
 
-    #axis = fig.add_subplot(4,3,i+1)
-    center = (int)(config.masses[i][1] * 2000) ## Notice... 
-    center_mass = config.masses[i][1]
-    start = center - 8
-    end = center + 8
-    for j in range(0,len(config.temperatures)):
 
         x_values = data[j][start:end,0]
         y_values = data[j][start:end,1]
@@ -56,28 +59,27 @@ for i in range(0,len(config.masses)):
 
         if (success > 4) or p1[1]>0.01:
             p0 = [5,0.00001,0]
-            p1, success = optimize.leastsq(errfunc, p0[:], args=(x_values[2:7], y_values[2:7]))
-            
-        if (success > 4) or p1[1]>0.01:
-            p0 = [5,0.00001,0]
             p1, success = optimize.leastsq(errfunc, p0[:], args=(x_values[2:5], y_values[2:5]))
        
-        if (success > 4) or p1[1]>0.01:
+        if success > 4 or p1[1]>0.01 or p1[1]<0:
             print "p1:" + str(p1[0]) + " p1:" + str(p1[1]) + " p2:" + str(p1[2]) + " j: " + str(j)
             p1[1] = 0
 
-        #axis.plot(data[j][start-40:end+60,0],data[j][start-40:end+60,1],'b-')
-        #axis.plot([data[j][start,0],data[j][start,0]],[0,100])
-        #axis.plot([data[j][end,0],data[j][end,0]],[0,100])
+        axis.plot(data[j][start-30:end+30,0],data[j][start-30:end+30,1],'b-')
+        axis.plot([data[j][start,0],data[j][start,0]],[0,50],'k-')
+        axis.plot([data[j][end,0],data[j][end,0]],[0,50],'k-')
 
-        #axis.plot(data[j][start-40:end+40,0],fitfunc(p1, data[j][start-40:end+40,0]),'r-')
+        axis.plot(data[j][start-40:end+40,0],fitfunc(p1, data[j][start-40:end+40,0]),'r-')
+        axis.tick_params(direction='in', length=2, width=1, colors='k',labelsize=8,axis='both',pad=5)
+        axis.annotate(config.masses[i][0], xy=(.05,.85), xycoords='axes fraction',fontsize=8)
+        axis.set_xticks(())
         
         charge = 0
         treated_data[config.masses[i][0]][j][0] = config.temperatures[j]
-        treated_data[config.masses[i][0]][j][1] = p1[0] * math.sqrt(p1[1])
-
-#plt.show()
-
+        treated_data[config.masses[i][0]][j][1] = math.sqrt(math.pi)*p1[0] * math.sqrt(p1[1])
+    plt.savefig(pp, format='pdf')
+    plt.close()
+pp.close()
 
 colors = ['ro-','bo-','go-','co-','mo-','yo-','r*-','b*-','g*-']
 fig = plt.figure()
@@ -90,8 +92,8 @@ for mass in config.masses:
     i = i + 1
     
     
-axis.set_ylabel('Intensity', fontsize=20)
-axis.set_xlabel('Temperature', fontsize=20)
+axis.set_ylabel('Response / mV$\cdot$s', fontsize=14)
+axis.set_xlabel('Temperature', fontsize=14)
 axis.legend()
 axis = fig.add_subplot(2,1,2)
 i = 0
@@ -99,12 +101,12 @@ for mass in config.masses:
     axis.plot(treated_data[mass[0]][:,1], colors[i],label=mass[0])
     i = i + 1
 
-axis.set_xlabel('Tentative time', fontsize=20)
-axis.set_ylabel('Intensity', fontsize=20)
+axis.set_xlabel('Tentative time', fontsize=14)
+axis.set_ylabel('Response / mV$\cdot$s', fontsize=14)
 
 axis2 = axis.twinx()
 axis2.plot(treated_data[mass[0]][:,0], 'k.',label='Temperature')
-axis2.set_ylabel('Temperature / C', fontsize=20)
+axis2.set_ylabel('Temperature / C', fontsize=14)
 
 axis.legend()
 
