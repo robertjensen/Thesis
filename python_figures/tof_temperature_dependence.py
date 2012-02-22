@@ -39,17 +39,19 @@ pp = PdfPages('multipage.pdf')
 
 for j in range(0,len(config.temperatures)):
     pdffig = plt.figure()
-    for i in range(0,len(config.masses)): #This should iterate directly over config.masses...
-
-        axis = pdffig.add_subplot(4,3,i+1)
-        center = (int)(config.masses[i][1] * 2000) ## Notice... 
-        center_mass = config.masses[i][1]
+    i = 0
+    for mass in config.masses:
+        i = i + 1
+        axis = pdffig.add_subplot(4,3,i)
+        center = (int)(mass[1] * 2000) ## Notice... 
+        center_mass = mass[1]
         start = center - 8
         end = center + 8
 
 
         x_values = data[j][start:end,0]
         y_values = data[j][start:end,1]
+        #y_values = y_values - min(y_values)
         
         # Fit the first set
         fitfunc = lambda p, x: p[0]*math.e**(-1*((x-center_mass-p[2])**2)/p[1])       # Target function
@@ -66,17 +68,17 @@ for j in range(0,len(config.temperatures)):
             p1[1] = 0
 
         axis.plot(data[j][start-30:end+30,0],data[j][start-30:end+30,1],'b-')
-        axis.plot([data[j][start,0],data[j][start,0]],[0,50],'k-')
-        axis.plot([data[j][end,0],data[j][end,0]],[0,50],'k-')
+        axis.plot([data[j][start,0],data[j][start,0]],[0,max(y_values)],'k-')
+        axis.plot([data[j][end,0],data[j][end,0]],[0,max(y_values)],'k-')
 
         axis.plot(data[j][start-40:end+40,0],fitfunc(p1, data[j][start-40:end+40,0]),'r-')
         axis.tick_params(direction='in', length=2, width=1, colors='k',labelsize=8,axis='both',pad=5)
-        axis.annotate(config.masses[i][0], xy=(.05,.85), xycoords='axes fraction',fontsize=8)
+        axis.annotate(mass[0], xy=(.05,.85), xycoords='axes fraction',fontsize=8)
         axis.set_xticks(())
         
         charge = 0
-        treated_data[config.masses[i][0]][j][0] = config.temperatures[j]
-        treated_data[config.masses[i][0]][j][1] = math.sqrt(math.pi)*p1[0] * math.sqrt(p1[1])
+        treated_data[mass[0]][j][0] = config.temperatures[j]
+        treated_data[mass[0]][j][1] = math.sqrt(math.pi)*p1[0] * math.sqrt(p1[1])
     plt.savefig(pp, format='pdf')
     plt.close()
 pp.close()
