@@ -36,7 +36,6 @@ for mass in config.masses:
 
 
 pp = PdfPages('multipage.pdf')
-
 for j in range(0,len(config.temperatures)):
     pdffig = plt.figure()
     i = 0
@@ -51,10 +50,11 @@ for j in range(0,len(config.temperatures)):
         start = center - 8 #Fitting range
         end = center + 8
 
-
+        offset = min(Data[Start:End,1])
         x_values = Data[start:end,0]
-        y_values = Data[start:end,1]
-        #y_values = y_values - min(y_values)
+        y_values = Data[start:end,1]-offset
+        X_values = Data[Start:End,0]
+        Y_values = Data[Start:End,1]-offset
         
         # Fit the first set
         fitfunc = lambda p, x: p[0]*math.e**(-1*((x-center_mass-p[2])**2)/p[1])       # Target function
@@ -70,11 +70,11 @@ for j in range(0,len(config.temperatures)):
             print "p1:" + str(p1[0]) + " p1:" + str(p1[1]) + " p2:" + str(p1[2]) + " j: " + str(j)
             p1[1] = 0
 
-        axis.plot(Data[Start:End,0],Data[Start:End,1],'b-')
+        axis.plot(X_values,Y_values,'b-')
         axis.plot([Data[start,0],Data[start,0]],[0,max(y_values)],'k-')
         axis.plot([Data[end,0],Data[end,0]],[0,max(y_values)],'k-')
 
-        axis.plot(Data[Start:End,0],fitfunc(p1, Data[Start:End,0]),'r-')
+        axis.plot(X_values,fitfunc(p1, X_values),'r-')
         axis.tick_params(direction='in', length=2, width=1, colors='k',labelsize=8,axis='both',pad=5)
         axis.annotate(mass[0], xy=(.05,.85), xycoords='axes fraction',fontsize=8)
         axis.set_xticks(())
