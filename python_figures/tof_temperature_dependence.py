@@ -9,6 +9,8 @@ import MySQLdb
 import sys
 from matplotlib.backends.backend_pdf import PdfPages
 
+matplotlib.rc('text',usetex=True) # Magic fix for the font warnings
+
 try:
     db = MySQLdb.connect(host="servcinf", user="cinf_reader",passwd = "cinf_reader", db = "cinfdata")
 except:
@@ -37,6 +39,7 @@ for mass in config.masses:
 
 pp = PdfPages('multipage.pdf')
 for j in range(0,len(config.temperatures)):
+    print j
     pdffig = plt.figure()
     i = 0
     Data = data[j]
@@ -47,8 +50,8 @@ for j in range(0,len(config.temperatures)):
         center_mass = mass[1]
         Start = center -40 #Display range
         End = center + 40
-        start = center - 8 #Fitting range
-        end = center + 8
+        start = center - mass[2] #Fitting range
+        end = center + mass[2]
 
         offset = min(Data[Start:End,1])
         x_values = Data[start:end,0]
@@ -60,7 +63,7 @@ for j in range(0,len(config.temperatures)):
         fitfunc = lambda p, x: p[0]*math.e**(-1*((x-center_mass-p[2])**2)/p[1])       # Target function
         errfunc = lambda p, x, y: fitfunc(p, x) - y # Distance to the target function
         p0 = [50,0.00001,0] # Initial guess for the parameters
-        p1, success = optimize.leastsq(errfunc, p0[:], args=(x_values, y_values))        
+        p1, success = optimize.leastsq(errfunc, p0[:], args=(x_values, y_values),maxfev=1000)        
 
         if (success > 4) or p1[1]>0.01:
             p0 = [5,0.00001,0]
