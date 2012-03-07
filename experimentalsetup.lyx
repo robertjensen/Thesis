@@ -70,7 +70,7 @@ The
 \begin_inset Formula $\mu$
 \end_inset
 
--reactor
+-reactor platform
 \end_layout
 
 \begin_layout Standard
@@ -102,7 +102,7 @@ key "Toke-phd"
  a reactor area with a small outlet capillary which is connected to a mass
  spectrometer.
  Once the catalyst to be tested is positioned in the reactor area (this
- can be done in a number of ways), the reactor is closed by annodic bonding
+ can be done in a number of ways), the reactor is closed by anodically bonding
  a pyrex lid to the sample.
  The clever idea about the design is that even though most of the incoming
  gas-flow is pumped away imidiately, every molecule that actually enters
@@ -142,6 +142,77 @@ Of course the design also has it downsides, the most import problem is properly
  the fact that it is almost impossible to apply any traditional surface
  science technique on the catalyst because the reactor it is hermetically
  sealed and no easy way of opening the lid is known.
+\end_layout
+
+\begin_layout Section
+The 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor
+\end_layout
+
+\begin_layout Standard
+The actual 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor chip is CleanRoom fabricated Si-based and has a size of 20x16
+\begin_inset Formula $\,$
+\end_inset
+
+mm .
+ The reactor consists of two inlets, a mixing zone allowing for diffusional
+ mixing of reactants, an outlet, a reactor volume of 240
+\begin_inset Formula $\,$
+\end_inset
+
+nL and a 
+\begin_inset Formula $5.4\,\mu$
+\end_inset
+
+m wide, 
+\begin_inset Formula $3\,\mu$
+\end_inset
+
+m high and 
+\begin_inset Formula $1500\,\mu$
+\end_inset
+
+m long capillary used for sniffing gases from the reactor volume.
+ The reactor is sealed by anodically bonding of a pyrex lid to the Si reactor
+ and is able to operate in a pressure range of 0 to at least 5
+\begin_inset space \thinspace{}
+\end_inset
+
+bar.
+ The reaction gases are supplied to the two inlets by flow controllers capable
+ of controlling the gas flow from 0-10 mL/min.
+ The capillary flow is fed into a quadropole mass-spectrometer (QMS) for
+ analysis while any surplus of gas from the inlets is passed directly through
+ to the outlet via a pressure controller allowing control of reactor pressure.
+ The design makes sure that all gases exposed to the catalyst under investigatio
+n are measured by the QMS ensuring an extremely high sensitivity of the
+ system.
+ During experiments the chip is mounted in a metal block wich is connected
+ to the main tubings for gas-handling.
+ The sealing between the chip and the metal block is done by o-rings, the
+ typical material of choise is Kalrez due to its ability to go to very high
+ temperatures.
+ For low temperature operation, also Viton can be considered.
+ Unfortunately rubber o-rings are not leak-tight especially not when they
+ are heated, this means that we have an inflow of air across all four o-rings,
+ this could be unfortunate in situation where oxygen is not wanted, e.g.
+ methanol synthesis.
+ Also, the air inflow through the o-ring sealing the outlet-capillary complicate
+s interpretration of data a lot since it will give a background of air on
+ top of the signal from the product gas.
+ To eliminate both problems the o-rings are continously flush by a flow
+ of Argon, if the flow is chosen sufficiently high, it will almost completely
+ out-compete the air-inflow and result in a pure Argon inflow, which is
+ at lot more acceptable.
+ Another solution to the problem is to evacuate the entire sourrindings
+ of the metal block, this option is discussed later in this chapter.
 \end_layout
 
 \begin_layout Section
@@ -191,10 +262,7 @@ reference "fig:old_old_setup"
 \end_inset
 
 .
- The setup has several problems which 
-\end_layout
-
-\begin_layout Standard
+ 
 \begin_inset Float figure
 wide false
 sideways false
@@ -260,7 +328,159 @@ mbar doing experiments.
 
 \end_inset
 
+The setup has several problems which it was needed to adress before the
+ setup was really ready to take do measurements beyond proof-of-concept
+ measurements.
+ First of all, it is evient from figure
+\begin_inset space ~
+\end_inset
 
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:old_old_setup"
+
+\end_inset
+
+ that all the gas-handling is pump directly by a rouging pump.
+ This means that the the system will be constantly contaminated by oil residues
+ from the pump which is the primary constituent in the residual pressure
+ from a roughing pump.
+ This also means that it is impossible to do a proper pump-down of the capillary
+ before opening to the mass-spectrometer and thus the background pressure
+ in the main chamber will typically be rather high, primarily because of
+ water, residual air and perhaps oil from the roughing pump depending on
+ how far the capillary was pumped down.
+ Another problem is the valves in front of the flow-controllers.
+ It is well known that flow-controllers are not very leak-tight across the
+ device even when the flow is set to zero.
+ This means that one wants to eliminate the background of the gasses available
+ on the setup, one needs to close the valve in front of it, however with
+ a manual valve, this makes it impossible to eliminate backgrounds from
+ gasses that are actually used during the experiment.
+\end_layout
+
+\begin_layout Standard
+For this reason, my first project on the setup was to update the setup to
+ prepare it to do actual measurements since the proof-of-concept measurements
+ was more or less all performed at this time.
+ The first iteration on this update is seen in figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:new_old_setup"
+
+\end_inset
+
+.
+  
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename svg_figures/microreactor_new_setup.svg
+	display false
+	width 240pt
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:new_old_setup"
+
+\end_inset
+
+The 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor setup after the first update.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ The most important change is the fact that no part of the setup is now
+ pumped by roughing pump.
+ All tubings that needs to be regularly evavuated are now connected to a
+ buffer volume which is in turn pumped by a turbo-pump through a 
+\begin_inset Formula $\frac{1}{4}"$
+\end_inset
+
+ pipe.
+ The role of the buffer volume is to provide a large volume to absorb burst
+ of gas to before they reach the turbo pump.
+ This is especially important when you put a turbo pump at the vacuum side
+ of a pressure controller since these devices will typically undershoot
+ quite a bit when they go down in pressure.
+ If the turbo pump is attached directly to the pressure controller these
+ undershoots will be extremely hard on the turbo, thus the buffervolume
+ purpose with life is to smoothen out these burst to make them tollerable
+ for the turbo.
+ The system works beautifull and makes it possible to pump down the entire
+ system to approximately 
+\begin_inset Formula $10^{-5}\,$
+\end_inset
+
+mbar with absolutely no oil in the residual gas.
+ Even though this is of course not real UHV it is still a background pressure
+ aproximately 8 orders of magnitude below the typical operating pressure
+ of the setup.
+ A small drawback on the new design is that all for the main gas-flow must
+ go through the turbo-pump thus somewhat limiting the total acceptable flow,
+ thus increasing the time needed to achive a stable flow of a given gas-mixture.
+ This problem is not too servery, however, experimentaion has shown that
+ we go as high as 
+\begin_inset Formula $\sim10\,$
+\end_inset
+
+mL/min without drawing exsesive currents in the turbo, this flow is high
+ enough for most purposes, and certainly high enough that pressure measurement
+ of the reactor becomes unreliable due to flow resitance in the main outlet,
+ thus we typically try to stay well below 
+\begin_inset Formula $10\,$
+\end_inset
+
+mL/min anyway.
+\end_layout
+
+\begin_layout Standard
+Further the system was also updated with four pneumatically operated valves
+ in front of the flow-controllers.
+ These valves are programmed to close every time the flow for the corresponding
+ flow controller is set to zero.
+ In this way we can decrease the background from unused gasses significantly.
+ Besides the work on the mechanical part of the setup, we also completely
+ changed the way heating and temperature measurement was performed, however
+ due to the complexity of this subject it has been moved to a seperate chapter
+ (chapter
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:Temperature"
+
+\end_inset
+
+).
 \end_layout
 
 \end_body
