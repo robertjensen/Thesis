@@ -48,7 +48,7 @@ for i in range(0,1):
     axis_array[i].annotate('C 1s', xy=(286, 26000),  xycoords='data', xytext=(220, 32000), textcoords='data', arrowprops=arrow, horizontalalignment='right', verticalalignment='top',fontsize=font,)
     #axis_array[i].annotate('O 2s', xy=(28, 2000),  xycoords='data', xytext=(20, 9000), textcoords='data', arrowprops=arrow, horizontalalignment='right', verticalalignment='top',fontsize=font,)    
     
-    axis_array[i].tick_params(direction='in', length=6, width=2, colors='k',labelsize=d.labelsize,axis='both',pad=5)
+    axis_array[i].tick_params(direction='in', length=d.ticklength, width=2, colors='k',labelsize=d.labelsize,axis='both',pad=d.pad)
     
 axis_array[0].set_ylabel('Counts / s', fontsize=d.y_axis_font)
 axis_array[0].set_xlabel('Binding Energy / eV', fontsize=d.x_axis_font)

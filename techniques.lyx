@@ -122,13 +122,16 @@ For this reason a more reliable method is wanted.
  saw and then pressurising the reactor to 2.5bar of overpressure hoping the
  pressure would push out a piece of the reactor.
  Etching the lid away with HF gas also been considered but this is a really
- bad solution both becasue it is rather dangerous and because it is a very
- dirty way of opening since HF will inevitably leak into the reactor volume.
+ bad solution both becasue of the long list of safety concerns with and
+ HF and also because it is a very dirty way of opening since HF will inevitably
+ leak into the reactor volume and thus contaminate the sample before the
+ further investigation.
 \end_layout
 
 \begin_layout Standard
-The answer to the problem turned out to be to cut four lines with a diamond
- saw in a way that leave the larges possible square of the reactor.
+The answer to the problem was invented by our clean room wizard Thomas Pedersen
+ and turned out to be to cut four lines with a diamond saw in a way that
+ leave the largest possible square of the reactor.
  If the cut is approximately 90% of the total depth of the reactor, it can
  quite easily be opened by hand once it is ready to be mounted in what ever
  instrument that should be used for the examination.
@@ -185,6 +188,40 @@ XPS spectrum of a sample exposed to very large amounts of CO at boh high
 
 \begin_layout Section
 Non-bonded samples
+\end_layout
+
+\begin_layout Standard
+Since one of our microreactor setups operates the entire sample in an evacuated
+ chamber, it is in principle possible to run experiments in potentially
+ leaking samples without atmospheric air entering the sample and without
+ risk of potentially poisonous gasses (in our setup the most posinous gass
+ is typically CO) escaping to the surroundings.
+ This means that we can run experiments that has not been bonded, simply
+ by mechanicaly clamping the lid to the sample and mount it in the setup.
+ This of couse has a majer disadvantage in the fact, that the reactor volume
+ will leak heavily into the containment volume, and thus we loose the property
+ that all reacting gas will enter the QMS and hence the sensitivity is lowered
+ significantly compared to a properly bonded sample.
+ However, the method has one great advantage in the fact, that we can now
+ non-destructively run 
+\emph on
+ex-situ
+\emph default
+ investigations, typically XPS on the sample, re-mount the sample and run
+ it again.
+ The loss in sensitivity is not of great concern since the measurement would
+ then be repeated on a bonded sample that is as identical as possible to
+ the non-bonded sample to get mass spectrometry of much higher quality.
+ The data from the non-bonded sample thus only needs be good enough that
+ it can be documented that the sample that was taken out for 
+\emph on
+ex-situ
+\emph default
+ studies has expeinced conditions identical to the bonded sample.
+\end_layout
+
+\begin_layout Standard
+Unfortunately, we never got time to do 
 \end_layout
 
 \begin_layout Section
