@@ -1,6 +1,6 @@
 import matplotlib
 #matplotlib.use('svg')
-#matplotlib.use('Agg')
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import numpy as np
 import MySQLdb
@@ -42,7 +42,7 @@ axis_array[0].set_xlabel('Time / Minutes', fontsize=20)
 
 
 #plt.tight_layout()
-plt.show()
+#plt.show()
 #plt.savefig('../svg_figures/original_oscillation.svg')
 
 
@@ -63,7 +63,10 @@ for i in range(0,2):
     
     axis_array[i].tick_params(direction='in', length=6, width=2, colors='k',labelsize=14,axis='both',pad=5)
     
-axis_array[0].set_ylabel('Ion Current / nA', fontsize=20)
-axis_array[0].set_xlabel('Time / Minutes', fontsize=20)
+axis_array[0].set_ylabel('Ion Current / nA', fontsize=12)
+axis_array[1].set_ylabel('Ion Current / nA', fontsize=12)
+axis_array[0].set_xlabel('Time / Minutes', fontsize=12)
+axis_array[1].set_xlabel('Time / Minutes', fontsize=12)
 plt.show()
 #plt.savefig('../svg_figures/original_oscillation_zoom.svg')
+plt.savefig('/home/robert/original_oscillation_zoom.png')
