@@ -62,6 +62,12 @@
 \begin_body
 
 \begin_layout Chapter
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Temperature"
+
+\end_inset
+
 Temperature - heating and measuring temperature
 \end_layout
 
