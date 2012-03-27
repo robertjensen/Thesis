@@ -88,11 +88,12 @@ key "Gunver2010,Lasse2009"
 \end_inset
 
 ).
- In short short the Hot Electron project was about trying to create a Metal-Insu
-later-Semiconductor (MIS) device which could be used as a tunnel device
- to perform chemistry with non-thermal electrons.
- Below is a very short introduction as well as a report of my work on the
- project.
+ In short the Hot Electron project was about trying to create a Metal-Insulater-
+Semiconductor (MIS) device which could be used as a tunnel device to perform
+ chemistry with non-thermal electrons, also the device could work as a low-tempe
+rature free electron emitter.
+ Below is a very short introduction as well as a report of some my work
+ on the project.
 \end_layout
 
 \begin_layout Section
@@ -119,14 +120,13 @@ key "GADZUK1991,GADZUK1995,Gadzuk1996"
 \end_layout
 
 \begin_layout Section
-The Hot-Electron Device
+The Hot-Electron Device 
 \end_layout
 
 \begin_layout Standard
 The original implementation of the device was done by Lasse and Gunver.
  The device is implemented as a Semiconductor-Insulator-Metal structure.
- The starting point is a wafer doped rather heavily with SB to achive a
- high conductance of the wafer, figure
+ The starting point is a plain Si-wafer (figure
 \begin_inset space ~
 \end_inset
 
@@ -137,7 +137,9 @@ reference "fig:hot_e-wafer"
 
 \end_inset
 
-.
+) doped rather heavily with SB to achive a high conductance of the wafer,
+ in fact the conductance is so high that for the relevant current densities,
+ it will act more or less as a metal conductor.
  
 \begin_inset Float figure
 wide false
@@ -268,9 +270,9 @@ reference "fig:hot_e-thickox"
 \end_inset
 
 .
- This is not a problem in this case since the oxide is not meant to part
- of the actual active hot-electron structure, but it will later work as
- an area of the chip that can be easily handled mechanically.
+ This is not a problem in this case since the oxide is not meant to be a
+ part of the actual active hot-electron structure, but it will later work
+ as an area of the chip that can be easily handled mechanically.
  
 \end_layout
 
@@ -572,7 +574,130 @@ reference "fig:hot_e-frontmetal"
 \end_layout
 
 \begin_layout Section
+Experimental setup
+\end_layout
+
+\begin_layout Standard
+The experiments are performed in a standard UHV chamber, at CINF knows as
+ the 'Volvo', the origin of name is slightly not completely clear to me,
+ but apparently it started its life at a Swedish car manufacturer.
+ The chamber has a typical base pressure of 
+\begin_inset Formula $1\times10^{-10}$
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+mbar and is pumped by a turbo pump ensuring a clean vacuum, the samples
+ is mounted from a load-lock pumped by a seperate turbo, and it is thus
+ possible to change the samples without compromising the vacuum of the main
+ chamber.
+ A scematic drawing of the chamber is seen in figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:volvo"
+
+\end_inset
+
+.
+ The chamber is equipped with a hemispherical analyzer, a quadropole mass
+ spectrometer, an x-ray gun and two ion guns.
+ This means that techniques such as XPS, ISS and TPDs are easily available.
+ The ion guns can also be used for sputter cleaning samples, even though
+ this is not a very good technique on the hot-electron devices since most
+ sputtering proccesses will severely degrade the gate-oxide thus introducing
+ large leak-currents and possibly even destroying the device completely.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/volvo.png
+	display false
+	width 240pt
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:volvo"
+
+\end_inset
+
+Schematic drawing of the UHV chamber.
+ Drawing originally from 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Gunver2010"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
 Results
+\end_layout
+
+\begin_layout Standard
+The experimental work on the devices is divided into two main sections,
+ hot-electron chemestry and free electron emission.
+ The original goal for the project was to do hot-electron chemestry, but
+ as it turned out, that the device could be used as a fairly efficient electron
+ emitter, some amount of work was also put into optimizing this property.
+ The overall scope of the two lines of work are very different, the attempt
+ to do chemestry is highly ambitious and could potentially have significant
+ consequences if it was actually brougt to work.
+ The free electron emission has a more technological perspective in areas
+ of research or industri where one would like an electron source that is
+ not heated to high temperatures like a filament.
+ Very conviniently such an area of reseach is exactly many kinds of UHV
+ science and therefore we where able to test this application directly in
+ our own setup.
+ The principle would be to try to run the mass-spectrometer with the hot-electro
+n device as electron source for the ionization instead of the normal filament.
+ However, this involves to get the mass-spectrometer to actually operate
+ without turning on the filament, in the normal mode of operation the mass-spect
+rometer hardware contains various safety mechanisms that will prevent the
+ mass-filter from operating when the filament is not turned on (properly
+ this is because a non-operating filament is an indirect indication that
+ the vacuum is somehow comprimised and it would then be dangeourous to turn
+ on the various voltages in the rod-system).
+ However, a mail to Pfeiffer support revealed that this safety mechanism
+ can be by-passed by connecting the filament wires to a resistor of approximatel
+y 
+\begin_inset Formula $1\,\Omega$
+\end_inset
+
+ and connect the resitor to ground through approximately 
+\begin_inset Formula $100\, k\Omega$
+\end_inset
+
+.
 \end_layout
 
 \end_body
