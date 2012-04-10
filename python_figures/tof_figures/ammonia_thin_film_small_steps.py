@@ -8,7 +8,7 @@ except:
 cursor = db.cursor()
 
 initial_db = 403
-number_of_spectrums = 34
+number_of_spectrums = 57
 
 temperatures = []
 for i in range(initial_db,initial_db+number_of_spectrums):
