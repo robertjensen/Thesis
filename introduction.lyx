@@ -65,5 +65,161 @@
 Introduction
 \end_layout
 
+\begin_layout Section
+The need for new catalysts
+\end_layout
+
+\begin_layout Standard
+The world is facing many challenges within the coming years.
+ Oil prices are rising, and so is the CO
+\begin_inset Formula $_{2}$
+\end_inset
+
+ level in the atmosphere, more and more cuntries becomes more and more dependant
+ on supplies of fossil fuels from fewer and fewer cuntries, and this is
+ just to mention the problems being discussed in the popular media.
+ In the real world many other challeges are facing us like the great lack
+ of many natural resources, espcially the so-called rate-earth metals.
+ To make the situation even more interesting, this resource is not even
+ as rare as name implies, more did we quite conciously stop mining these
+ resources because a single cuntry was willing to produce them slightly
+ cheaper than the world market price at that point.
+ In general it seems that we openmindedly are trying our very best to build
+ a very fragile society, even in areas where Nature itself actually do not
+ really limit the access to resource, so-called economic expert will make
+ sure to create a problem for us.
+ 
+\end_layout
+
+\begin_layout Standard
+.....
+\end_layout
+
+\begin_layout Standard
+....
+\end_layout
+
+\begin_layout Standard
+However, all these problems can also be seen as interesting challenges that
+ need new solutions, and this is where the scientific community steps in
+ to hopefully provide solutions for many of these problems.
+ Of course this will require inputs from many areas of research....
+ ....
+ ...
+ Obviously heterogenous catalysis is only a small part of this very large
+ and complicated field.
+\end_layout
+
+\begin_layout Standard
+....
+\end_layout
+
+\begin_layout Standard
+It is an interesting thought, that we as humans actually already know and
+ masters several technologies that can potentially solve large parts of
+ the energy problem.
+ Such solutions includes both energy saving initiatives such as better insulatio
+n in housing, buildings with less demands for cooling, more tele-working
+ reducing the demand for transportation...
+\end_layout
+
+\begin_layout Standard
+However, it seems to be a law of nature that despite all efforts to lower
+ energy consumption, on average the consumption integrated over the entire
+ world, inevitable goes up.
+ This means that it will be neseccary to find ways of producing fairly cheap
+ energy, preferebly without resorting the fossil fuels even more polluting
+ than what we are currently using.
+ Also in this field several candidates exists that is fully capable of providing
+ substantial (if not complete) parts of the worlds total energy consumption.
+ This technologies includes solar cells, solar-thermal electricity production,
+ hydro-power, nuclear power and wind turbines.
+ All of these technologies has their pros and cons, however, as I am myself
+ particular found of wind turbines, I will take the liberty of using this
+ technology as an example for a quick back-of-the-envelope calculation.
+ The total energy consumption is currently around 16
+\begin_inset space \thinspace{}
+\end_inset
+
+TW, but to make things simple we take it to be 
+\begin_inset Formula $P_{world}=20\,\mbox{TW}$
+\end_inset
+
+.
+ A typical wind turbine at the moment would be around 3 to 4
+\begin_inset space \thinspace{}
+\end_inset
+
+MW (although it seems that turbines even as large as 6 or 7
+\begin_inset space \thinspace{}
+\end_inset
+
+MW are soon entering the market).
+ With typical capacity factors between 0.25 and 0.33 it seems reasonoble to
+ take on avarage 
+\begin_inset Formula $P_{turbine}=1\,\mbox{MW}$
+\end_inset
+
+.
+ These convinient choise of numbers puts us with a needed number of wind
+ turbines to satisfy the worlds energy needs of 
+\begin_inset Formula $2\times10^{13}/1\times10^{6}=10^{7}$
+\end_inset
+
+ wind turbines, not including energy storage loss.
+ The design lifetime of almost all windturbines on the market is 20 years
+ (which in the real world seems to be a lower limit on the lifetime).
+ This gives us a final number of the required number of wind turbines pr.
+ year to be 
+\begin_inset Formula $10^{7}/20=5\times10^{5}$
+\end_inset
+
+ turbines or in units of peak power (which is the typical way of counting
+ many kinds of energy producing devices) , 
+\begin_inset Formula $\sim2\times10^{6}$
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+MW-peak.
+ Currently the wold production is on the order of ??? FIND TALLET!!!!.
+ As a rule of thumb, the price of the bare turbine, not including cabling
+ and mounting, is around 
+\begin_inset Formula $10^{6}\text{£}/\mbox{MW}$
+\end_inset
+
+, typical prices for cabling and mounting end up with a total price between
+ 2 and 5 times higher than this, a conservatime estimate of total cost would
+ thus be 
+\begin_inset Formula $10^{7}\text{£}/\mbox{MW}$
+\end_inset
+
+.
+ Thus it is straightforward to calculate to a conservative estimate of the
+ yearly price of proving 100% wind energy to the entire world:
+\begin_inset Formula 
+\[
+\mbox{Total\, cost}\sim2\times10^{6}\times10^{7}=2\times10^{13}\text{£}/\mbox{y}
+\]
+
+\end_inset
+
+, not including storage loss.
+\end_layout
+
+\begin_layout Section
+Microreactors for Heterogenous Catalysis
+\end_layout
+
+\begin_layout Standard
+As the title of this thesis indicates, the main part of this work has not
+ so much been on actual scientific results as it has been centered around
+ creating a world-class experimental setup for testing many kinds of heterogenou
+s catalysis.
+ 
+\end_layout
+
 \end_body
 \end_document
