@@ -18,8 +18,8 @@ for i in range(initial_db,initial_db+number_of_spectrums):
 
 
 masses = []
-masses.append(['H2',4.387,8])
-masses.append(['OH',12.415,6])
+#masses.append(['H2',4.387,8])
+masses.append(['OH',12.414,6])
 masses.append(['NH3',12.424,6])
 masses.append(['H2O',12.770,8])
 masses.append(['N2',15.8818,8])

@@ -8,7 +8,7 @@ except:
 cursor = db.cursor()
 
 initial_db = 461
-number_of_spectrums = 2
+number_of_spectrums = 200
 
 temperatures = []
 for i in range(initial_db,initial_db+number_of_spectrums):
@@ -18,12 +18,12 @@ for i in range(initial_db,initial_db+number_of_spectrums):
 
 
 masses = []
-masses.append(['H2',4.387,8])
-masses.append(['OH',12.415,6])
-masses.append(['NH3',12.424,6])
-masses.append(['H2O',12.770,8])
-masses.append(['N2',15.8818,8])
+masses.append(['H2',4.385,8])
+masses.append(['OH',12.411,5])
+masses.append(['NH3',12.419,5])
+masses.append(['H2O',12.769,8])
+masses.append(['N2',15.880,8])
 #masses.append(['NO',16.438,10])
-masses.append(['O2',16.967,8])
+masses.append(['O2',16.961,8])
 #masses.append(['N2O',19.8699,10])
 
