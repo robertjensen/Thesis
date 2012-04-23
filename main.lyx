@@ -76,7 +76,7 @@ LatexCommand tableofcontents
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "introduction.lyx"
+filename "lyx_files/introduction.lyx"
 
 \end_inset
 
@@ -86,7 +86,7 @@ filename "introduction.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "experimentalsetup.lyx"
+filename "lyx_files/experimentalsetup.lyx"
 
 \end_inset
 
@@ -96,7 +96,7 @@ filename "experimentalsetup.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "temperature.lyx"
+filename "lyx_files/temperature.lyx"
 
 \end_inset
 
@@ -106,7 +106,7 @@ filename "temperature.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "area_measurements.lyx"
+filename "lyx_files/area_measurements.lyx"
 
 \end_inset
 
@@ -116,7 +116,7 @@ filename "area_measurements.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "sensitivity.lyx"
+filename "lyx_files/sensitivity.lyx"
 
 \end_inset
 
@@ -126,7 +126,7 @@ filename "sensitivity.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "techniques.lyx"
+filename "lyx_files/techniques.lyx"
 
 \end_inset
 
@@ -136,7 +136,7 @@ filename "techniques.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "tof.lyx"
+filename "lyx_files/tof.lyx"
 
 \end_inset
 
@@ -146,7 +146,7 @@ filename "tof.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "oscillatingreactions.lyx"
+filename "lyx_files/oscillatingreactions.lyx"
 
 \end_inset
 
@@ -156,7 +156,7 @@ filename "oscillatingreactions.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "hotelectrons.lyx"
+filename "lyx_files/hotelectrons.lyx"
 
 \end_inset
 
@@ -166,7 +166,7 @@ filename "hotelectrons.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "danskresume.lyx"
+filename "lyx_files/danskresume.lyx"
 
 \end_inset
 

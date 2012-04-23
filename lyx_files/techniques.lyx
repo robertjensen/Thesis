@@ -4,7 +4,7 @@
 \begin_header
 \textclass book
 \use_default_options true
-\master main.lyx
+\master ../main.lyx
 \maintain_unincluded_children false
 \language english
 \language_package default
@@ -28,7 +28,7 @@
 \paperfontsize default
 \spacing single
 \use_hyperref false
-\papersize default
+\papersize a4paper
 \use_geometry false
 \use_amsmath 1
 \use_esint 1
@@ -147,15 +147,15 @@ SHOW XPS spectrum of clean sample
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
-	filename svg_figures/xps_looking_for_Ni.svg
+	filename /home/robertj/Documents/git/Thesis/svg_figures/xps_looking_for_Ni.svg
 	display false
-	width 120pt
+	width 13cm
 
 \end_inset
 

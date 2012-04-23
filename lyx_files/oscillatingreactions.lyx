@@ -4,7 +4,7 @@
 \begin_header
 \textclass book
 \use_default_options true
-\master main.lyx
+\master ../main.lyx
 \maintain_unincluded_children false
 \language english
 \language_package default
@@ -90,15 +90,15 @@ reference "fig:oscil_original"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
-	filename svg_figures/original_oscillation.svg
+	filename /home/robertj/Documents/git/Thesis/svg_figures/original_oscillation.svg
 	display false
-	width 240pt
+	width 13cm
 
 \end_inset
 
@@ -144,15 +144,15 @@ reference "fig:oscil_original_zoom"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
-	filename svg_figures/original_oscillation_zoom.svg
+	filename /home/robertj/Documents/git/Thesis/svg_figures/original_oscillation_zoom.svg
 	display false
-	width 240pt
+	width 13cm
 
 \end_inset
 
@@ -217,19 +217,11 @@ ation in agreement with the hypothethis that some kind of bulk oxidation
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
-\begin_inset Graphics
-	filename svg_figures/oscillations_gas_dependence.svg
-	display false
-	width 240pt
-
-\end_inset
-
-
 \begin_inset Caption
 
 \begin_layout Plain Layout
