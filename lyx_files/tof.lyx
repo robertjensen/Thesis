@@ -66,7 +66,145 @@ Time Of Flight Mass Sepectrometry
 \end_layout
 
 \begin_layout Standard
+As mentioned in chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:Analytical-techniques"
 
+\end_inset
+
+, the attachment of a Time Of Flight Mass Spectrometer to the new microreactor
+ setup, has turned out to be an extraordinary success.
+ Since this has proven to be such a usefull addition to the setup, I have
+ chosen to dedicate a chapter to this technique.
+\end_layout
+
+\begin_layout Section
+Instrumentation
+\end_layout
+
+\begin_layout Standard
+The instrument was bought as an assembly kit from Jordan TOF Products 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "JordanHomepage"
+
+\end_inset
+
+ and was put together here in the lab.
+ The frame and the pumps for the system was scavenged from an old molecular
+ beam setup that had been idling in the lab for some years.
+ and thus is a wonderfull mixture of many different kind of flanges and
+ pumps which happended to be available.
+ This turns out to be a 120
+\begin_inset space \thinspace{}
+\end_inset
+
+l/s ion pump, used to differentially pump the flight tube, and a 400
+\begin_inset space \thinspace{}
+\end_inset
+
+l/s ion pump and a 450
+\begin_inset space \thinspace{}
+\end_inset
+
+l/s turbo pump used to pump the source region.
+ At this point in time, we have not tried to bake the chamber and this means
+ we have a rather poor background pressure of 
+\begin_inset Formula $\sim10^{-9}\,$
+\end_inset
+
+mbar in both the source region and flight tube.
+ However, it will make good sense to actually bake the chamber to bring
+ down background pressure since the background pressure contributes with
+ dead-counts on the detector and thus degrades the signal to noise ratio
+ of the instrument.
+ All parts of the setup are fully UHV compatible and since we have quite
+ good pumping capacity, it is to be expected that we can get well below
+ 
+\begin_inset Formula $\sim10^{-10}\,$
+\end_inset
+
+mbar once the chamber is properly baked.
+\end_layout
+
+\begin_layout Standard
+The parts bought from Jordan of course constitutes the actual analytical
+ instruments and is what is known as a Orthogonal Acceleration TOF which
+ means that the ions to be measured enters the acceleration region orthonal
+ to the direction of flight.
+ This is especially well suited to measure on externally generated ions,
+ which is actually not the case when measuring on the microreactors, the
+ output from the capillary is obviously not ionsed when leaving the reactor.
+ However, the reason for choosing this type of instrument is, that we originally
+ expected to used the TOF as a characterization tool for the two cluster
+ source at the department, and these instrument actually do have an ionized
+ output.
+ This little experimental detail means, that we had to build our own ionization
+ source to be able to use the instrument at all.
+\end_layout
+
+\begin_layout Section
+Numerical model (direkte fra artikel...)
+\end_layout
+
+\begin_layout Standard
+Since the TOF-MS only measures flight time and not the actual mass of the
+ measured molecules or atoms it is necessary to determine the relationship
+ between flight time and actual mass.
+ This can be done by calibration masses expressing known patterns in the
+ mass spectrum.
+ In this way masses can be reasonably determined with subsequent fitting
+ of these values to get an expression for the flight time as a function
+ of mass.
+ This approach is in some cases adequate but does have the significant drawback
+ that several peaks of well known masses must be present in the flight spectrum
+ which is not always necessarily feasible.
+ To determine the relationship between mass and flight time we have made
+ a numeric model of the mass spectrometer which calculates the flight time
+ based only on the voltages for the pulser, 
+\begin_inset Formula $V_{P}$
+\end_inset
+
+, liner, 
+\begin_inset Formula $V_{L}$
+\end_inset
+
+, and reflectron, 
+\begin_inset Formula $V_{R1}$
+\end_inset
+
+ and 
+\begin_inset Formula $V_{R2}$
+\end_inset
+
+, and thus provides a relationship of flight time to mass.
+ Typically, the model is used together with the experimental determination
+ of a single mass since this will help fix the unknown delays originating
+ from the measurement trigger, rise time of the high-voltage pulse at the
+ repeller plate and cable delays.
+ As seen in Figure~
+\backslash
+ref{fig:model_error} the performance of the model is good despite its simplicity
+ giving a total error in flight time estimation of $
+\backslash
+sim$10
+\backslash
+,ns corresponding to $
+\backslash
+sim$50
+\backslash
+,milli-amu at 70
+\backslash
+,amu.
+ The model is written in Python and can be acquired online
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ModelGithub"
+
+\end_inset
+
+.
 \end_layout
 
 \end_body

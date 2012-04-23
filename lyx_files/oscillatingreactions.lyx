@@ -70,7 +70,7 @@ At some point in time, we were running a bachelors project concerning size
  dependence of reactivity of Pt nanoclusters in the microreactor setup.
  At one point we ran a simple light-off experiment to calibrate equipment
  and get some basic data for the student.
- This experiment was finished a Sataurday and since nobody was around to
+ This experiment was finished a Saturday and since nobody was around to
  change the sample, the setup was available for random experimentation.
  One of the things we had on list of 'experiments to perform when we get
  the time' was a lightoff experiment with very low CO concentration to see
@@ -90,13 +90,13 @@ reference "fig:oscil_original"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
-	filename /home/robertj/Documents/git/Thesis/svg_figures/original_oscillation.svg
+	filename /home/robert/Documents/git/Thesis/svg_figures/original_oscillation.svg
 	display false
 	width 13cm
 
@@ -112,7 +112,7 @@ name "fig:oscil_original"
 
 \end_inset
 
-The first data-set, showing oscillation behaviour.
+The first data-set, showing oscillation behavior.
 \end_layout
 
 \end_inset
@@ -122,13 +122,14 @@ The first data-set, showing oscillation behaviour.
 
 \end_inset
 
-, and we were initially not very satisfied with the result since it the
- data seems to show the expected light-off but also a very large amount
- of signal-noise.
+, and we were initially not very satisfied with the result since the data
+ seems to show the expected light-off but also a very large amount of signal-noi
+se.
  Normally the data is of much better quality, so we tried to investigate
  what could be the problem, and in this process it is natural to try to
- analyse the noise to see if it seems to contain a hit about the root of
- the problem, figure
+ analyze the noise to see if it seems to contain a hit about the root of
+ the problem.
+ In figure
 \begin_inset space ~
 \end_inset
 
@@ -139,18 +140,20 @@ reference "fig:oscil_original_zoom"
 
 \end_inset
 
-.
- 
+ is shown a zoom of the data with a timescale short enough to resolve the
+ individual spikes in the signal.
+ s
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
 \align center
+s
 \begin_inset Graphics
-	filename /home/robertj/Documents/git/Thesis/svg_figures/original_oscillation_zoom.svg
+	filename /home/robert/Documents/git/Thesis/svg_figures/original_oscillation_zoom.svg
 	display false
 	width 13cm
 
@@ -179,6 +182,125 @@ Two zooms of the 'noise' signal.
 
  Much to our surprise, the noise turned out to be very well ordered, the
  two signals was going up and down in perfect anti-correlation.
+ This of course strongly indicates that the signal is not caused by a simple
+ noise source such as electrical noise or loose cabling in the mass-spec.
+ The fact that the two signals was anti-correlated would be most easily
+ explained by changes in the activity of sample.
+ To test this hypothesis, we performed the experiment several times on the
+ same sample and came to the conclusion that the phenomenon was fully reproducib
+le, if the sample is exposed to a very oxygen-rich CO/O
+\begin_inset Formula $_{2}$
+\end_inset
+
+ mixture and slowly ramped up in temperature, it would start oscillating.
+ Soon we realized that this was a truly interesting phenomenon and we started
+ a thorough investigation.
+\end_layout
+
+\begin_layout Section
+References
+\end_layout
+
+\begin_layout Standard
+Once the initial excitment had settled and we came to the ordinary day to
+ day work on the oscillations, we of course also stated to look in to the
+ litterature to see if this had been seen before....
+\end_layout
+
+\begin_layout Standard
+Oscillations has been seen in many pressure ranges and was orignally pioneerd
+ by Ertl and co-works, see reviews: 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "IMBIHL1995,JAKUBITH1990"
+
+\end_inset
+
+ and of course the Nobel lecture by Ertl, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ertl2008"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Extended thin films: 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Singh2010"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Single crystals: 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Hendriksen2005"
+
+\end_inset
+
+, 
+\end_layout
+
+\begin_layout Standard
+STM: 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Hendriksen2002"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+FT-IR: 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Carlsson2006"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Monte Carlo simulations 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Zhdanov2002"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+DFT 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Gong2004"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Model: 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Hendriksen2010"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -190,8 +312,8 @@ To map out the dependence of the CO/O
 \begin_inset Formula $_{2}$
 \end_inset
 
- ratio, we made an experiement where the sample is kept at a constant temperatur
-e of 
+ ratio, we made an experiment where the sample is kept at a constant temperature
+ of 
 \begin_inset Formula $210^{\circ}\mbox{C}$
 \end_inset
 
@@ -208,8 +330,8 @@ reference "fig:oscil_gas-dependence"
 \end_inset
 
 .
- It is evident that the oscillations period increases with inceasing CO-concentr
-ation in agreement with the hypothethis that some kind of bulk oxidation
+ It is evident that the oscillations period increases with increasing CO-concent
+ration in agreement with the hypothesis that some kind of bulk oxidation
  is involved in the process.
 \end_layout
 

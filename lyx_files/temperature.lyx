@@ -198,7 +198,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename figures/new_temperature_control.png
+	filename /home/robert/Documents/git/Thesis/figures/new_temperature_control.png
 	display false
 	width 80text%
 
@@ -248,7 +248,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename figures/new_temperature_control2.png
+	filename /home/robert/Documents/git/Thesis/figures/new_temperature_control2.png
 	display false
 	width 80text%
 
@@ -302,8 +302,8 @@ key "Micro-bachelor"
 \end_inset
 
  and was used in that form for a long period of time.
- When we started to push the microreactors from prototypes to real measurement
- devices, a new and better algorithm was needed.
+ When we started to push the micssssssssroreactors from prototypes to real
+ measurement devices, a new and better algorithm was needed.
  A simple but very effective improvement is made by realising that purpose
  for the differential term is to counteract unwanted behaviour, such as
  overshoot, however in very easy system better ways exists to prevent this
@@ -424,9 +424,9 @@ status collapsed
 \noindent
 \align center
 \begin_inset Graphics
-	filename figures/thermo_image_old_heater.png
+	filename /home/robert/Documents/git/Thesis/figures/thermo_image_old_heater.png
 	display false
-	width 120pt
+	width 13cm
 
 \end_inset
 
@@ -503,9 +503,9 @@ status collapsed
 \noindent
 \align center
 \begin_inset Graphics
-	filename figures/reaktor_varmelegeme.png
+	filename /home/robert/Documents/git/Thesis/figures/reaktor_varmelegeme.png
 	display false
-	width 120pt
+	width 13cm
 
 \end_inset
 

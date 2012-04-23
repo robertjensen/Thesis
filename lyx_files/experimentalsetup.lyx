@@ -272,9 +272,9 @@ status collapsed
 \noindent
 \align center
 \begin_inset Graphics
-	filename svg_figures/microreactor_current_setup.svg
+	filename /home/robert/Documents/git/Thesis/svg_figures/microreactor_current_setup.svg
 	display false
-	width 240pt
+	width 13cm
 
 \end_inset
 
@@ -386,9 +386,9 @@ status collapsed
 \noindent
 \align center
 \begin_inset Graphics
-	filename svg_figures/microreactor_new_setup.svg
+	filename /home/robert/Documents/git/Thesis/svg_figures/microreactor_NGsetup.svg
 	display false
-	width 240pt
+	width 13cm
 
 \end_inset
 
