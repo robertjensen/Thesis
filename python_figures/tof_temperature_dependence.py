@@ -22,6 +22,7 @@ cursor = db.cursor()
 sys.path.append('tof_figures')
 #import ammonia_stochiometric_2010_02_15 as config
 import ammonia_thin_film_small_steps as config
+#import ammonia_3nm_cov10 as config
 
 data = {}
 
