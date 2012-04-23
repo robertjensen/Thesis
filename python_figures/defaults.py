@@ -2,11 +2,13 @@ y_axis_font = 12
 x_axis_font = 12
 labelsize = 12
 
-
+ratio = 0.618#Golden mean
+width = 13
 pad = 5
 ticklength = 6
 
-bottom_room = 0.1
-right_room = 0.85
+left_room = 0.15
+bottom_room = 0.15
+right_room = 0.9
 
 arrowfont = 10

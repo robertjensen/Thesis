@@ -1,5 +1,16 @@
-#backend = 'svg'
+backend = 'svg'
 execfile('std_header.py')
+
+fig = plt.figure()
+fig.subplots_adjust(left=d.left_room) 
+fig.subplots_adjust(bottom=d.bottom_room)
+fig.subplots_adjust(right=d.right_room) 
+
+ratio = d.ratio
+fig_width = d.width
+fig_width = fig_width /2.54     # width in cm converted to inches
+fig_height = fig_width*ratio
+fig.set_size_inches(fig_width,fig_height)
 
 data = {}
 #Silicon
@@ -11,7 +22,6 @@ cursor.execute("SELECT x,y FROM xy_values_bifrost where measurement = 3188")
 data['pt'] =  np.array(cursor.fetchall())
 
 axis_array = []
-fig = plt.figure()
 
 arrow = dict(facecolor='black', shrink=0.05,width=1)
 font = d.arrowfont
@@ -39,8 +49,5 @@ for i in range(0,1):
 axis_array[0].set_ylabel('Counts / s', fontsize=d.y_axis_font)
 axis_array[0].set_xlabel('Binding Energy / eV', fontsize=d.x_axis_font)
 
-
-
-#plt.tight_layout()
-plt.show()
+#plt.show()
 plt.savefig('../svg_figures/xps_looking_for_Ni.svg')
