@@ -1,4 +1,4 @@
-#backend = 'svg'
+backend = 'svg'
 execfile('std_header.py')
 
 data = {}
@@ -34,5 +34,5 @@ axis2 = axis.twinx()
 axis2.plot(data['TEMPERATURE'][:,0], data['TEMPERATURE'][:,1], 'k-')
 axis2.set_ylabel('Temperature / $^\circ$C', fontsize=d.y_axis_font)
 
-plt.show()
-#plt.savefig('../svg_figures/original_oscillation_zoom.svg')
+#plt.show()
+plt.savefig('../svg_figures/non_boded_sample.svg')

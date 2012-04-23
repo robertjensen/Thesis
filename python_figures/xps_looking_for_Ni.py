@@ -14,7 +14,7 @@ axis_array = []
 fig = plt.figure()
 
 arrow = dict(facecolor='black', shrink=0.05,width=1)
-font = 10
+font = d.arrowfont
 
 for i in range(0,1):
     axis_array.append(fig.add_subplot(1,1,i+1))

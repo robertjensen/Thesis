@@ -1,17 +1,5 @@
-import matplotlib
-#matplotlib.use('svg')
-matplotlib.use('Agg')
-import matplotlib.pyplot as plt
-import numpy as np
-import MySQLdb
-
-try:
-    db = MySQLdb.connect(host="servcinf", user="cinf_reader",passwd = "cinf_reader", db = "cinfdata")
-except:
-    db = MySQLdb.connect(host="127.0.0.1", port=9995, user="cinf_reader",passwd = "cinf_reader", db = "cinfdata")
-
-
-cursor = db.cursor()
+#backend = 'svg'
+execfile('std_header.py')
 
 data = {}
 #M28
@@ -34,10 +22,10 @@ for i in range(0,1):
     #axis_array[i].set_xlim(1100,0)
     
     
-    axis_array[i].tick_params(direction='in', length=6, width=2, colors='k',labelsize=14,axis='both',pad=5)
+    axis_array[i].tick_params(direction='in', length=d.ticklength, width=2, colors='k',labelsize=d.labelsize,axis='both',pad=d.pad)
     
-axis_array[0].set_ylabel('Ion Current / nA', fontsize=20)
-axis_array[0].set_xlabel('Time / Minutes', fontsize=20)
+axis_array[0].set_ylabel('Ion Current / nA', fontsize=d.y_axis_font)
+axis_array[0].set_xlabel('Time / Minutes', fontsize=d.x_axis_font)
 
 
 

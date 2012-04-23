@@ -1,15 +1,8 @@
-import matplotlib
-from scipy import optimize
-import math
-#matplotlib.use('svg')
-#matplotlib.use('Agg')
-import matplotlib.pyplot as plt
-import numpy as np
-import MySQLdb
-import sys
+#backend = 'svg'
+execfile('../std_header.py')
+
 from matplotlib.backends.backend_pdf import PdfPages
 
-matplotlib.rc('text',usetex=True) # Magic fix for the font warnings
 
 try:
     db = MySQLdb.connect(host="servcinf", user="cinf_reader",passwd = "cinf_reader", db = "cinfdata")
@@ -19,7 +12,6 @@ except:
 
 cursor = db.cursor()
 
-sys.path.append('tof_figures')
 #import ammonia_stochiometric_2010_02_15 as config
 import ammonia_thin_film_small_steps as config
 #import ammonia_3nm_cov10 as config

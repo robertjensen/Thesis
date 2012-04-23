@@ -1,10 +1,18 @@
-import defaults as d
+try:
+    import defaults as d
+except:
+    import sys
+    sys.path.append('../')
+    import defaults as d
+    
 import matplotlib
 if 'backend' in locals():
     matplotlib.use(backend)
 import matplotlib.pyplot as plt
 import numpy as np
 import MySQLdb
+from scipy import optimize
+import math
 
 matplotlib.rc('text',usetex=True) # Magic fix for the font warnings
 

@@ -1,18 +1,5 @@
-import matplotlib
-#matplotlib.use('svg')
-#matplotlib.use('Agg')
-import matplotlib.pyplot as plt
-import numpy as np
-import MySQLdb
-from scipy.interpolate import interp1d
-
-try:
-    db = MySQLdb.connect(host="servcinf", user="cinf_reader",passwd = "cinf_reader", db = "cinfdata")
-except:
-    db = MySQLdb.connect(host="127.0.0.1", port=9995, user="cinf_reader",passwd = "cinf_reader", db = "cinfdata")
-
-
-cursor = db.cursor()
+#backend = 'svg'
+execfile('std_header.py')
 
 data = {}
 #M44
