@@ -76,7 +76,7 @@ LatexCommand tableofcontents
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "lyx_files/introduction.lyx"
+filename "introduction.lyx"
 
 \end_inset
 
@@ -86,7 +86,7 @@ filename "lyx_files/introduction.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "lyx_files/experimentalsetup.lyx"
+filename "experimentalsetup.lyx"
 
 \end_inset
 
@@ -96,7 +96,7 @@ filename "lyx_files/experimentalsetup.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "lyx_files/temperature.lyx"
+filename "temperature.lyx"
 
 \end_inset
 
@@ -106,7 +106,7 @@ filename "lyx_files/temperature.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "lyx_files/area_measurements.lyx"
+filename "area_measurements.lyx"
 
 \end_inset
 
@@ -116,7 +116,7 @@ filename "lyx_files/area_measurements.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "lyx_files/sensitivity.lyx"
+filename "sensitivity.lyx"
 
 \end_inset
 
@@ -126,7 +126,7 @@ filename "lyx_files/sensitivity.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "lyx_files/techniques.lyx"
+filename "techniques.lyx"
 
 \end_inset
 
@@ -136,7 +136,7 @@ filename "lyx_files/techniques.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "lyx_files/tof.lyx"
+filename "tof.lyx"
 
 \end_inset
 
@@ -146,7 +146,7 @@ filename "lyx_files/tof.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "lyx_files/oscillatingreactions.lyx"
+filename "oscillatingreactions.lyx"
 
 \end_inset
 
@@ -156,7 +156,7 @@ filename "lyx_files/oscillatingreactions.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "lyx_files/hotelectrons.lyx"
+filename "hotelectrons.lyx"
 
 \end_inset
 
@@ -166,7 +166,7 @@ filename "lyx_files/hotelectrons.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "lyx_files/danskresume.lyx"
+filename "danskresume.lyx"
 
 \end_inset
 
