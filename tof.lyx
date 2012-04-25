@@ -46,8 +46,8 @@
 \end_index
 \secnumdepth 3
 \tocdepth 3
-\paragraph_separation indent
-\paragraph_indentation default
+\paragraph_separation skip
+\defskip smallskip
 \quotes_language english
 \papercolumns 1
 \papersides 1
@@ -62,11 +62,15 @@
 \begin_body
 
 \begin_layout Chapter
-Time Of Flight Mass Sepectrometry
+Time Of Flight Mass Spectrometry
 \end_layout
 
 \begin_layout Standard
-As mentioned in chapter 
+As mentioned in chapter
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "chap:Analytical-techniques"
@@ -75,7 +79,7 @@ reference "chap:Analytical-techniques"
 
 , the attachment of a Time Of Flight Mass Spectrometer to the new microreactor
  setup, has turned out to be an extraordinary success.
- Since this has proven to be such a usefull addition to the setup, I have
+ Since this has proven to be such a useful addition to the setup, I have
  chosen to dedicate a chapter to this technique.
 \end_layout
 
@@ -94,13 +98,54 @@ key "JordanHomepage"
  and was put together here in the lab.
  The frame and the pumps for the system was scavenged from an old molecular
  beam setup that had been idling in the lab for some years.
- and thus is a wonderfull mixture of many different kind of flanges and
- pumps which happended to be available.
+ and thus is a wonderful mixture of many different kind of flanges and pumps
+ which happened to be available, as can be seen in figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/TOF.jpg
+	display false
+	width 10cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tof_photo"
+
+\end_inset
+
+The Time-Of-Flight instrument in all its glory.
+ The electronics rack is barely visible in the background.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
  This turns out to be a 120
 \begin_inset space \thinspace{}
 \end_inset
 
-l/s ion pump, used to differentially pump the flight tube, and a 400
+l/s ion pump, used to deferentially pump the flight tube, and a 400
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -128,14 +173,375 @@ mbar in both the source region and flight tube.
 mbar once the chamber is properly baked.
 \end_layout
 
+\begin_layout Subsection
+Vacuum components
+\end_layout
+
 \begin_layout Standard
-The parts bought from Jordan of course constitutes the actual analytical
- instruments and is what is known as a Orthogonal Acceleration TOF which
- means that the ions to be measured enters the acceleration region orthonal
- to the direction of flight.
+The instruments consists of three main regions.
+ The entrance and acceleration region, the field free drift region, and
+ the reflectron.
+ Detectors are positioned both at the end of the flight tube (behind the
+ reflectron) and at the 'beginning' of the flight tube, which is where ions
+ are detected when the reflectron is in use.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/tof_source_region.png
+	display false
+	width 10cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:source_region"
+
+\end_inset
+
+Schematic of the acceleration region of the Time-Of-Flight instrument.
+ Drawing by Jordan Instruments
+\begin_inset CommandInset citation
+LatexCommand cite
+key "JordanHomepage"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+The source region is where the ions enter the instrument and where they
+ are accelerated.
+ The ions enter from the top of drawing, that is, orthogonal to the flight
+ direction.
+ On the way into the acceleration region, ions will pass through a number
+ of einzel lenses to focus the them as well as possible.
+ At a given point in time, a high voltage pulse on the acceleration plate
+ will accelerate the ions away from the source region and into the acceleration
+ region where the ions are further accelerated up to the final drift velocity.
+ Typical values for the acceleration is 400--800
+\begin_inset space \thinspace{}
+\end_inset
+
+V and typical drift energy is on the order of 2000
+\begin_inset space \thinspace{}
+\end_inset
+
+V.
+ Of course it is critical that the rise time of the acceleration pulse is
+ as short as possible, in our case it is on the order of SLÅ TALLET OP!!
+ From the acceleration region, the ions enter another set of focusing lenses
+ as well as the deflector which is designed to compensate for the initial
+ drift velocity orthogonal to the flight direction and will ideally ensure
+ that the ions proceeds into the flight tube in an angle of 
+\begin_inset Formula $7^{\circ}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+After entering the drift tube, the ions will float freely for almost a meter
+ (37.5
+\begin_inset space \thinspace{}
+\end_inset
+
+inches to be exact) before they enter the reflectron.
+ The flight tube consists of two concentric tubes, the outside tube is the
+ leak-tight barrier to atmosphere that ensures that we can hold a vacuum
+ in the chamber.
+ However, since this tube is exposed to the outside world, it would be most
+ inconvinient if this tube was held at -2000
+\begin_inset space \thinspace{}
+\end_inset
+
+V, it would consitute a significant danger for operators as well as complicate
+ the connection to other electroncs significantly.
+ This is where the second concentric tube, the so-called 'liner' enters
+ the equation.
+ This tube has a slightly smaller diameter than the outside tube and is
+ mounted on small cheramic tubes that rests on the outside tube and ensures
+ that the liner is electrically floating compared to the main chamber.
+ The liner perforated at the position of the flight tube pump to ensure
+ decent pumping of the liner.
+\end_layout
+
+\begin_layout Standard
+The TOF can be operated in two ways, linear mode or reflectron mode.
+ In linear mode all voltages on the reflectron is set to liner voltage.
+ In this case, ions will continue straight trough the reflectron and hit
+ a detector positioned in the end of the flight tube.
+ This is the simplest mode of operation but it also performs far worse than
+ the reflectron mode, partly because of the longer flight distance with
+ the reflectron, but more importantly because of the focusing effect of
+ the reflectron, which we will come back to in section
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Numerical-model"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+In the reflectron mode, suitable voltages are applied on grids in each end
+ of the reflectron to ensure that ions are stopped and re-accelerated in
+ the opposite direction where they will again enter the flight tube and
+ because of the 
+\begin_inset Formula $7^{\circ}$
+\end_inset
+
+ tilt of the ions, they will hit the second detector and not end up in the
+ acceleration region once more.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/TOF_microreactor.png
+	lyxscale 10
+	display false
+	width 12cm
+	clip
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tof_microreactor"
+
+\end_inset
+
+Schematic of the Time-Of-Flight instrument along with the connections to
+ the microreactor and the QMS.
+ Drawing by Thomas Andersen.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Both detectors are Multi Channel Plates which is a rather sophisticated
+ kind of electron multiplier.
+ The detector is has an area of approximately 10
+\begin_inset space \thinspace{}
+\end_inset
+
+cm
+\begin_inset Formula $^{2}$
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+CHECK!
+\end_layout
+
+\end_inset
+
+ and is very flat within the entire area.
+ This very large and flat detector area makes the detector very tollerant
+ for ions having sligtly different initial positions in the plane orthogonal
+ to the flight directions, since the various ions would make almost identical
+ trajectories only sligtly translated.
+ The MCP consists of a large number (typically several thousands) of small
+ channels coated with a material with low work function material.
+ The MCP is heavily biased between the front side and the back side, creating
+ a steep voltage gradient across the device.
+ When ions hit the surface of the MCP, it will release a number of electrons
+ which due to the high voltage gradient will accelerate further into the
+ channel.
+ Since each channel is very swallow, the electrons will only travel a short
+ distance before they again hit the surface and releases even more electrons.
+ In this way a single ion will be multiplies into a significant number of
+ electrons, how many is heavily dependant on the voltage across the device.
+ In our case, we have mounted a rather cheap MCP for the linear detection
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+FIND DATABLAD
+\end_layout
+
+\end_inset
+
+ (!!) and a substatially better one, a so-called Z-gap detector, with a
+ maximum bias of 5
+\begin_inset space \thinspace{}
+\end_inset
+
+kV for the reflectron detection.
+ Interestingly, the detector is what ultimately sets the limit for the highest
+ mass that can be detected.
+ It turns out that for heavy ions the detection efficiency drops significantly
+ with mass, 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Krems2005"
+
+\end_inset
+
+, because the energy of the particle is distributed on a larger and larger
+ area which increases the risk that the inital impact of the particle will
+ not release a single electron that can be further multipled.
+ Since we are among other things also interested in measuring on metal clusters,
+ a high mass limit is essential.
+ The current Z-gap detector has a nominal maximal detectable mass of 5000
+\begin_inset space \thinspace{}
+\end_inset
+
+amu, and furthermore, the chamber is equipped with feed-throughs for mounting
+ a 15
+\begin_inset space \thinspace{}
+\end_inset
+
+kV detector if it should be neseccary.
+ This should bring detection limit up to approximately 
+\begin_inset Formula $10^{6}$
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+REF?
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Electronics and data acquisition
+\end_layout
+
+\begin_layout Standard
+Looking at the wonderfull amounts of stainless steel in figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tof_photo"
+
+\end_inset
+
+, one coulde easily get the idea that all the interesting stuff happens
+ inside the vacuum chamber.
+ However, nothing could be more wrong, in reallity much of the magic of
+ the instrument takes place outside of the chamber in the rather substantial
+ amount of electronics that drives the instrument.
+ First of all, it turns out that one needs quite a lot of power supplies,
+ not only do we need high voltages for the liner potential, 
+\begin_inset Formula $V_{liner}$
+\end_inset
+
+, also the focus lens, 
+\begin_inset Formula $V_{focus}$
+\end_inset
+
+, the deflection plate, 
+\begin_inset Formula $V_{def}$
+\end_inset
+
+, the acceleration plate, 
+\begin_inset Formula $V_{pulse}$
+\end_inset
+
+, two reflectron voltages, 
+\begin_inset Formula $V_{R1}$
+\end_inset
+
+ and 
+\begin_inset Formula $V_{R2}$
+\end_inset
+
+ as well as the MCP detector, 
+\begin_inset Formula $V_{D}$
+\end_inset
+
+, needs high voltages, all in the range of -4000--4000
+\begin_inset space \thinspace{}
+\end_inset
+
+V.
+ Additionally the four entrance lenses needs a total of five different voltages
+ (on lense also acts as a deflector and thus is in two parts).
+ For one thing this means that we need quite a lot of power supplies, but
+ this is a minor problem, most of the voltages can be supplied by two power
+ multi-output supplies, since none of the components uses significant amounts
+ of power.
+ However, it is also evident that optimizing the system is not espicially
+ fun, since the parameter space is extremely large.
+ Luckily it turns out that the entrance lenses can be optimized almost independe
+nt of the rest of the system, reducing the problem from an 11-dimensional
+ problem to a five-dimensional problem and a six-dimensional problem.
+ This is however still quite a lot and the initial tuning just to get a
+ signal proved to be somewhat of challenge.
+ In this situation, it is highly recommended to operate the instrument in
+ linear mode since this takes out another to dimensions of the initial optimizat
+ion problem.
+ 
+\end_layout
+
+\begin_layout Subsection
+Ionization
+\end_layout
+
+\begin_layout Standard
+The parts bought from Jordan of course constitutes the actual analytic instrumen
+ts and is what is known as a Orthogonal Acceleration TOF which means that
+ the ions to be measured enters the acceleration region orthogonal to the
+ direction of flight.
  This is especially well suited to measure on externally generated ions,
  which is actually not the case when measuring on the microreactors, the
- output from the capillary is obviously not ionsed when leaving the reactor.
+ output from the capillary is obviously not ionized when leaving the reactor.
  However, the reason for choosing this type of instrument is, that we originally
  expected to used the TOF as a characterization tool for the two cluster
  source at the department, and these instrument actually do have an ionized
@@ -144,19 +550,167 @@ The parts bought from Jordan of course constitutes the actual analytical
  source to be able to use the instrument at all.
 \end_layout
 
+\begin_layout Standard
+Optimally all ions will enter with very low energy orthorgonal to the flight
+ direction, zero energy in the drift direction and perfectly centered between
+ the acceleration plate and the grounded grid imidieatly to the right.
+ Of course the ions will not have ideal positon and energy, which will ultimatel
+y set the limit of the resolution of the instrument.
+ 
+\end_layout
+
 \begin_layout Section
-Numerical model (direkte fra artikel...)
+Examples of operation
+\end_layout
+
+\begin_layout Standard
+Unfortunately, we cannot judge instruments only on the coolnes factor, they
+ also need to deliver actual results to merrit a position in the lab.
+ Fortunately the performance of the TOF is very good, the resolution is
+ much better than a traditional QMS....
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename svg_figures/untreated_data.svg
+	display false
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tof_untreated_data"
+
+\end_inset
+
+Raw data from the TOF
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename svg_figures/ammonia_OH_gauss_fit.svg
+	display false
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tof_ammonia_gauss_fit"
+
+\end_inset
+
+Gauss fit
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename svg_figures/dynamic_range.svg
+	display false
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tof_dynamic_range"
+
+\end_inset
+
+TOF dynamic range
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Numerical model
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Numerical-model"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 Since the TOF-MS only measures flight time and not the actual mass of the
  measured molecules or atoms it is necessary to determine the relationship
  between flight time and actual mass.
- This can be done by calibration masses expressing known patterns in the
- mass spectrum.
- In this way masses can be reasonably determined with subsequent fitting
- of these values to get an expression for the flight time as a function
- of mass.
+ This can be done by recognizing known pattern in a mass spectrum, this
+ could be water at mass
+\begin_inset space ~
+\end_inset
+
+18, CO at mass
+\begin_inset space ~
+\end_inset
+
+28 and CO
+\begin_inset Formula $_{2}$
+\end_inset
+
+ at mass 44, and then use the measured flight times of these 'known' masses
+ to fit an expression for the flight time as a function of mass.
  This approach is in some cases adequate but does have the significant drawback
  that several peaks of well known masses must be present in the flight spectrum
  which is not always necessarily feasible.
@@ -179,25 +733,96 @@ Since the TOF-MS only measures flight time and not the actual mass of the
 \end_inset
 
 , and thus provides a relationship of flight time to mass.
- Typically, the model is used together with the experimental determination
+ The model is implemented as a very simple 1D iterative solution of the
+ equation of motion of an ion initially positioned at an arbitrary position
+ in the acceleration region.
+ All measurements are based on the CAD-drawings as supplied by Jordan Instrument
+s.
+ A single free parameter, in the form of a correction to the length of the
+ flight tube) is allowed to be fitted to minimize systematic error.
+ This free parameter turns out to be as small as 4.2
+\begin_inset space \thinspace{}
+\end_inset
+
+mm which actually fits rather well with the added length from the cupper
+ gaskets not included in the CAD-drawings.
+\end_layout
+
+\begin_layout Standard
+Typically, the model is used together with the experimental determination
  of a single mass since this will help fix the unknown delays originating
  from the measurement trigger, rise time of the high-voltage pulse at the
  repeller plate and cable delays.
- As seen in Figure~
-\backslash
-ref{fig:model_error} the performance of the model is good despite its simplicity
- giving a total error in flight time estimation of $
-\backslash
-sim$10
-\backslash
-,ns corresponding to $
-\backslash
-sim$50
-\backslash
-,milli-amu at 70
-\backslash
-,amu.
- The model is written in Python and can be acquired online
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename svg_figures/model_error.svg
+	display false
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:model_error"
+
+\end_inset
+
+Plot of the model error as a function of mass.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+As seen in Figure~
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:model_error"
+
+\end_inset
+
+ the performance of the model is good despite its simplicity giving a total
+ error in flight time estimation of 
+\begin_inset Formula $\sim$
+\end_inset
+
+10
+\begin_inset space \thinspace{}
+\end_inset
+
+ns corresponding to 
+\begin_inset Formula $\sim$
+\end_inset
+
+50
+\begin_inset space \thinspace{}
+\end_inset
+
+milli-amu at 70
+\begin_inset space \thinspace{}
+\end_inset
+
+amu.
+ The model is written in Python and can be acquired as open source software
+ at Github 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "ModelGithub"
@@ -205,6 +830,93 @@ key "ModelGithub"
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Subsection
+Simulation of the reflectron
+\end_layout
+
+\begin_layout Standard
+An interesting side effect of the model is that besides predicting the expected
+ flighttimes for a given particel, it will also plot the trajectory of a
+ given ion on its way trough the flighttube.
+ This means that it can used to illustrate various concepts of the instrument.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename svg_figures/trajectory.svg
+	display false
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:simulated_reflectron"
+
+\end_inset
+
+Trajectory plots of three different ions each with different initial position
+ in the acceleration region.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ In figure~
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:simulated_reflectron"
+
+\end_inset
+
+ it is illustrated how the reflectron improves the resolution of the Time
+ Of Flight instrument.
+ The point is, that in the real world, ions are not ideally positioned in
+ the center of the acceleration region, some ions will be very close to
+ the acceleration plate and some will be close to the ground grid.
+ Ions starting exactly at the center will eventually reach a drift energy
+ of 
+\begin_inset Formula $E_{drift}=Z_{e}\left(V_{L}+V_{P}/2\right)$
+\end_inset
+
+, ions initially closer to the accelration plate will be faster, ions closer
+ to the ground grid will be slower.
+ This spread in energy inherently limits the resolution of a linear Time
+ Of Flight instrument.
+ However, as can be seen in figure~
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:simulated_reflectron"
+
+\end_inset
+
+, if the voltages on the reflectron is chosen correctly, the reflectron
+ will act as a focusing lens where the faster ions will dig deeper into
+ the reflectron than the slower ions and thus compensate for the increased
+ speed.
+ The task for the constructor of is instrument is now to position the MCP
+ in the focus point of the reflectrong, which is exactly the case in our
+ instrument.
+\end_layout
+
+\begin_layout Section
+Results
 \end_layout
 
 \end_body

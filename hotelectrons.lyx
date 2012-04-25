@@ -163,7 +163,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/robert/Documents/git/Thesis/figures/hot-electron-device/Wafer.png
+	filename figures/hot-electron-device/Wafer.png
 	display false
 	width 80text%
 
@@ -213,7 +213,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/robert/Documents/git/Thesis/figures/hot-electron-device/ThickOx.png
+	filename figures/hot-electron-device/ThickOx.png
 	display false
 	width 80text%
 
@@ -321,7 +321,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/robert/Documents/git/Thesis/figures/hot-electron-device/BackEtch.png
+	filename figures/hot-electron-device/BackEtch.png
 	display false
 	width 80text%
 
@@ -371,7 +371,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/robert/Documents/git/Thesis/figures/hot-electron-device/ThinnOx.png
+	filename figures/hot-electron-device/ThinnOx.png
 	display false
 	width 80text%
 
@@ -452,7 +452,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/robert/Documents/git/Thesis/figures/hot-electron-device/BackMetal.png
+	filename figures/hot-electron-device/BackMetal.png
 	display false
 	width 80text%
 
@@ -502,7 +502,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/robert/Documents/git/Thesis/figures/hot-electron-device/FrontMetal.png
+	filename figures/hot-electron-device/FrontMetal.png
 	display false
 	width 80text%
 
@@ -622,7 +622,7 @@ status collapsed
 \noindent
 \align center
 \begin_inset Graphics
-	filename /home/robert/Documents/git/Thesis/figures/volvo.png
+	filename figures/volvo.png
 	display false
 	width 13cm
 

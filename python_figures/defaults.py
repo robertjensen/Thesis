@@ -3,7 +3,7 @@ x_axis_font = 12
 labelsize = 12
 
 ratio = 0.618#Golden mean
-width = 13
+width = 12
 pad = 5
 ticklength = 6
 

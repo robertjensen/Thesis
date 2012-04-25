@@ -46,8 +46,8 @@
 \end_index
 \secnumdepth 3
 \tocdepth 3
-\paragraph_separation indent
-\paragraph_indentation default
+\paragraph_separation skip
+\defskip smallskip
 \quotes_language english
 \papercolumns 1
 \papersides 1
@@ -159,7 +159,7 @@ status collapsed
 \noindent
 \align center
 \begin_inset Graphics
-	filename /home/robert/Documents/git/Thesis/svg_figures/xps_looking_for_Ni.svg
+	filename svg_figures/xps_looking_for_Ni.svg
 	display false
 	width 13cm
 
