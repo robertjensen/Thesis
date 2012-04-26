@@ -46,8 +46,8 @@
 \end_index
 \secnumdepth 3
 \tocdepth 3
-\paragraph_separation indent
-\paragraph_indentation default
+\paragraph_separation skip
+\defskip smallskip
 \quotes_language english
 \papercolumns 1
 \papersides 1
@@ -418,7 +418,7 @@ stent position on the front side obviously resulted in very large uncertainties
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -497,7 +497,7 @@ reference "chap:Sensitivity-measurements"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -539,6 +539,33 @@ ity of the heating, all samples are heated in exactly the same way since
  problems of inhomogenous temperature across the reactor area, but as we
  shall se later in this chapter, the temperature distribution is still far
  from perfect.
+ 
+\end_layout
+
+\begin_layout Standard
+With the integrated heater, it has turned out that we can fairly easily
+ reach temperature of approximately 350
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C and with a bit of luck up to slightly above 400
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C.
+ At these temperatures the limiting factor is not so much the device itself,
+ which will not get into trouble until we reach a temperature where pyrex
+ lid will get soft or even melt, this is expected to happen around 
+\begin_inset Formula $\sim$
+\end_inset
+
+600
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C.
+ The problem is instead the power supply for the heating as well as the
+ rather high current densities in the heater.
  
 \end_layout
 

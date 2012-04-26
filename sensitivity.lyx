@@ -46,8 +46,8 @@
 \end_index
 \secnumdepth 3
 \tocdepth 3
-\paragraph_separation indent
-\paragraph_indentation default
+\paragraph_separation skip
+\defskip smallskip
 \quotes_language english
 \papercolumns 1
 \papersides 1
@@ -76,8 +76,304 @@ name "chap:Sensitivity-measurements"
 One of the original design goals of the microeactors was that the reactors
  should have a high sensitivity to able to measure on very small amounts
  of catalyst.
+ However, during the measurements on the oscillations, we relized that we
+ were able to reach full conversion on sample with even very small amounts
+ of catalyst.
+ At some point we realized that it would be interesting to test how small
+ amount of catalyst we can actually get to full conversion.
  To test the sensitivity we have performed of series of tests using CO oxidation
  on Pt thin films as the test reaction.
+\end_layout
+
+\begin_layout Section
+Experimental procedure
+\end_layout
+
+\begin_layout Standard
+The experiment is in principle very simple, allthough rather time consuming.
+ We had our good friends in the clean room make series of samples with consecuti
+vely smaller and smaller Pt-spots.
+ The experiments was all performed by a procedure looking as follows:
+\end_layout
+
+\begin_layout Standard
+Dose gas...
+ oxygen rich 
+\end_layout
+
+\begin_layout Standard
+varme....
+\end_layout
+
+\begin_layout Standard
+køle....
+\end_layout
+
+\begin_layout Standard
+pumpe....
+\end_layout
+
+\begin_layout Standard
+CO oxidation on Pt is a reaction the follows a so-called light-off curve
+ when the sample is heated.
+ This phenomenon originates from the fact that CO has a much higher sticking
+ coefficient 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Ref??
+\end_layout
+
+\end_inset
+
+ than oxygen on Pt.
+ Due to this high sticking coefficient, every free site on the sample will
+ be imidiately occupied by CO once the sample is exposed to the reacting
+ gas.
+ The lack of free sites on the sample prevents oxygen from adsorbing on
+ the catalyst and prevents the catalytic conversion.
+ When the temperature of the sample is increased, the residence time of
+ CO on the sample will get shorter and shorter, and eventually the oxygen
+ will gain access to free Pt-sites.
+ Once this happens, the oxygen will react with the CO according to the very
+ simple reaction equation:
+\begin_inset Formula 
+\[
+\mbox{2CO}+\mbox{O}_{2}\rightarrow\mbox{CO}_{2}
+\]
+
+\end_inset
+
+this oxygen molecule will thus burn off two CO molecules and leave CO
+\begin_inset Formula $_{2}$
+\end_inset
+
+ which has an extremely short residence time on Pt, thus leaving two additional
+ free sites.
+ These new free sites will provide room for even more oxygen molecules and
+ it is easy to imagine how the Pt surface will 'ignite' and react off all
+ CO very suddenly.
+ This phenomenon is what is known as lightoff and it has a clear experimental
+ signature in the form of an extremely sudden onset of the reaction as well
+ as significant temperature hysterises due to the fact that when the sample
+ cools down it still has all the free sites and thus it will sustain conversion
+ to far lower temperatures than the ignition temperature.
+\end_layout
+
+\begin_layout Standard
+As the spot size gets smaller and smaller, we need to go higher and higher
+ in temperature to achive full conversion of the reacting gas.
+ As mentioned in chapter
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:Temperature"
+
+\end_inset
+
+, the current heater design is not really comfortable going much higher
+ than 
+\begin_inset Formula $\sim$
+\end_inset
+
+375
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C.....
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Se på temperature af den varmeste
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Data treatment
+\end_layout
+
+\begin_layout Standard
+Even though the experiment sound simple, data treatment is actually slightly
+ complicated due to the nature of the microreactor.
+ First of all the microreactors has the intrinsic property, that the capillary
+ flow is decreased as the temperature increases due to an increase in the
+ flow resistance with temperature.
+ This means that even for constant conversion (as would be the case for
+ full conversion) the product signal in the mass-spec will drop.
+ For the same reason, the residence time of the reactor will increase and
+ thus the apparant activity of the reactor.
+ To correct for this effect, one will typically use the main chamber pressure
+ as a measure of the capillary flow.
+ However, this is also a non-trivial operation because of the way the pressure
+ in measured in the chamber, namely by an ion gauge.
+ Ion gauges meassures pressure by ionising the residual gas and the collect
+ the ions on a thin collector wire in the center of the device, the pressure
+ is then read as the current on the collector times a calibration factor
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "BAYARD1950"
+
+\end_inset
+
+.
+ The correction factor is what gives us problems in the current application
+ since the product CO
+\begin_inset Formula $_{2}$
+\end_inset
+
+ has a sensitivity factor that is considerably different from CO and O
+\begin_inset Formula $_{2}$
+\end_inset
+
+, compared to nitrogren the values are
+\begin_inset CommandInset citation
+LatexCommand cite
+key "gascorrection"
+
+\end_inset
+
+: CO: 1.05, O
+\begin_inset Formula $_{2}$
+\end_inset
+
+: 1.01, CO
+\begin_inset Formula $_{2}$
+\end_inset
+
+: 1.42.
+ Since CO
+\begin_inset Formula $_{2}$
+\end_inset
+
+ is the only gas to have a factor signifanctly different from 1, which means
+ that we should expect to see the apparant chamber pressure to increase
+ the sample get into lightoff.
+ 
+\end_layout
+
+\begin_layout Standard
+Besides correcting for the temperature dependence of the flow through the
+ capiilary, it is also necessary to correct for the background signals in
+ the mass-spectrometer.
+ Since the experiments are run in a rather large oxygen excess, oxygen will
+ always be present in the flow into the main chamber.
+ In the mass-spectrometer, the oxygen will give rise not only to a signal
+ at mass
+\begin_inset space ~
+\end_inset
+
+32 (the oxygen itself), but also a signal at mass
+\begin_inset space ~
+\end_inset
+
+44, which is in our case CO
+\begin_inset Formula $_{2}$
+\end_inset
+
+.
+ The reason for this is, that the mass-spectrometer filament will always
+ contain carbon and because of the very high temperature at the filmanet,
+ this carbon will react rather efficiently with the oxygen and produce CO
+\begin_inset Formula $_{2}$
+\end_inset
+
+.
+ For this reason, it is impossible to eliminate the CO
+\begin_inset Formula $_{2}$
+\end_inset
+
+ background even the main chamber has a good background pressure, and thus
+ the effect of this background must also be handled.
+\end_layout
+
+\begin_layout Standard
+Once all the correction are performed as well as possible, it is time to
+ extract an activation energy and a prefactor for each platinum spot.
+ The point of the experiment is to see how small the spot can be and still
+ withhold a constant activation energy and a prefactor liniar dependant
+ on the spot area.
+ To do this, we fit the data to the the Arrhenius equation 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+REF!
+\end_layout
+
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+k=Ae^{-E_{a}/k_{b}T}
+\]
+
+\end_inset
+
+, which will give activation energy as well as the pre-factor.
+ The fitting is performed by a small python script which takes data from
+ the CINF database and fits the data.
+\end_layout
+
+\begin_layout Section
+Results
+\end_layout
+
+\begin_layout Section
+Lessones to be learned
+\end_layout
+
+\begin_layout Standard
+Besides the obviously interesting point in measureing how high the turn-over
+ frequency can actually be, this results also put focus on the fact that
+ extremely small amounts of catalyst can be responsible for much reactivity.
+ In the case of the microreactors this is important in at least two ways.
+ First of all it means, that we must be extremely carefull to avoid any
+ kind of metal pollution in the reactor, especially platinum.
+ This can be slightly more tricky that it sounds, since in the cleanroom,
+ metal pollution in never far away, and we actually have seen examples of
+ metal pollution in the reactors with any attempt to find the source being
+ fruitless.
+ Also, one should remeber that we have the heater on the backside of the
+ reactor, which is made of Pt.
+ It is of crucial importantance to be able to deposit this heater without
+ even trace amount of Pt finding its way to the other side of the reactor.
+ This is ensured by e-beam evaporating the Pt through a shadow mask.
+ Other ways of depositing the heaters also exists, but these techniques
+ often involves various wet-chemistry steps which means that small amounts
+ of Pt could find its way from the backside to the frontside through the
+ liquid fase.
+\end_layout
+
+\begin_layout Standard
+The other important lesson to be learned is that one should be extremely
+ carefull when trying to apply in-situ methods.
+ Even though in-situ methods is not easy to apply in a microreactor, we
+ are continously considering our options in this field, since this would
+ significantly increase the usefullness of the microreactors.
+ However, even in the rather optimistic case, that we actually do succeed
+ in finding methods that would provide in-situ information, the fact that
+ such small areas of the reactor might, at least in some cases, be responsible
+ for all the conversion.
+ This means that whatever technique is being applied might primarily sample
+ areas of the sample that is not actually doing the conversion.
+ A technique with low spatial resolution might be easy to measure on the
+ converting part of catalyst, but the signal to noise ration will be poor,
+ potentially too low to see anyting.
+ A technique with better spatial resolution will give a much better signal
+ to noise, but faces the where real risk of not seeing the relevant part
+ of the sample at all.
 \end_layout
 
 \end_body

@@ -567,46 +567,16 @@ Examples of operation
 Unfortunately, we cannot judge instruments only on the coolnes factor, they
  also need to deliver actual results to merrit a position in the lab.
  Fortunately the performance of the TOF is very good, the resolution is
- much better than a traditional QMS....
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Graphics
-	filename svg_figures/untreated_data.svg
-	display false
-	width 12cm
-
+ much better than a traditional QMS, the manufacturer of our device claims
+ resolutions of up to 
+\begin_inset Formula $m/\Delta m\approx4000$
 \end_inset
 
-
-\begin_inset Caption
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:tof_untreated_data"
-
-\end_inset
-
-Raw data from the TOF
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+ is possible under optimal conditions.
+ Unfortunately we are working far from optimal conditions, primarily due
+ to our very primitive ion source which produces too few ions of too high
+ energy with a too large energy spread.
+ 
 \begin_inset Float figure
 wide false
 sideways false
@@ -642,11 +612,129 @@ Gauss fit
 
 \end_inset
 
+All this considered we are actually doing quite well and have reached resolution
+s better than 
+\begin_inset Formula $m/\Delta m\approx2000$
+\end_inset
 
+ which is enouth to sepeate many ineresting ions which would normally be
+ overlapping on traditional mass spectrometers.
+ I primary example of this would ammonia, NH
+\begin_inset Formula $_{3}$
+\end_inset
+
+ and hydroxyl
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Check...
+\end_layout
+
+\end_inset
+
+, OH, which are both at 17
+\begin_inset space \thinspace{}
+\end_inset
+
+amu.
+ However due to the diffeent mass defect of the involved atoms, the exact
+ mass of NH
+\begin_inset Formula $_{3}$
+\end_inset
+
+ is 17.02655
+\begin_inset space \thinspace{}
+\end_inset
+
+amu and of OH 17.00274
+\begin_inset space \thinspace{}
+\end_inset
+
+amu, leaving a mass difference of 23.8
+\begin_inset space \thinspace{}
+\end_inset
+
+mili-amu.
+ This is a small difference, but as shown on figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tof_ammonia_gauss_fit"
+
+\end_inset
+
+ it is enough to seperate the two components into two peaks that can be
+ individually fitted and quantified.
+\end_layout
+
+\begin_layout Standard
+The high resolution also completely eliminates any risk of spillover from
+ one mass to another, a problem often seen in classic mass spectrometers,
+ when a small mass is imidiately next to a large mass.
+ 
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename svg_figures/untreated_data.svg
+	display false
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tof_untreated_data"
+
+\end_inset
+
+Raw data from the TOF
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+An example of a spectrum is shown in figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tof_untreated_data"
+
+\end_inset
+
+ from which it is evident that the seperation between all compounds seperated
+ by at least 1
+\begin_inset space ~
+\end_inset
+
+amu is extremely large.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
