@@ -1,0 +1,136 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass book
+\use_default_options true
+\master main.lyx
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip smallskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Future plans
+\end_layout
+
+\begin_layout Standard
+Ever since I joined the microreactor team, the setup has been in a permanent
+ state of flux, and I am happy that this condition does not seem to end
+ any time soon.
+ So far we have several plans for enhancements, some is almost guaranteed
+ to be implemented and others are perhaps somewhat more optimistic.
+\end_layout
+
+\begin_layout Itemize
+Storing the flow-files with the data: It would be a great advantage in the
+ daily work to know exactly what flow-file was used to run a given experiment.
+ Right now we log all measured parameters, but we do log the intended values
+ of these parameters.
+ This means that if an experiment does not run exactly as expected, it can
+ be hard to tell whether it was simply the operator that set up the experiment
+ wrong, or if it was some sort of mal-function that prevented the exprirment
+ from running correctly.
+\end_layout
+
+\begin_layout Itemize
+Re-building the old setup.
+ Currently only one of our setups are equipped with the newest improvements
+ of full automization and an evacuated containment volume, these improvments
+ obviously need to be applied to the other setup as well.
+\end_layout
+
+\begin_layout Itemize
+In-situ deposition and bonding under UHV conditions.
+ This is a slightly ambitus project but with a potentially very high value.
+ The point would be to buld a chamber where it is possible to deposit cluster
+ samples on a microreactor, perform various kinds of analysis and finally
+ bond the sample, all under UHV conditions.
+ This would significantly enhance the microreactor platform as a tool to
+ bridge the pressure gap between traditional UHV analysis and the high pressure
+ conditions of the microreactor, since we would be able to measure on truly
+ clean samples that have never been exposed to air.
+ Of course transfor between this setup and the microreactor setup would
+ be a weak point since this cannot possibly be done under UHV conditions.
+ Our proposal for the transfer would be to fill the reactor with 1
+\begin_inset space \thinspace{}
+\end_inset
+
+bar of inert gas before removing it from the bonding setup.
+ Filled with gas, the reactor will only see air if the sample is exposed
+ to air long enough that it will diffuse all the way through the mixing
+ channels and into the reactor volume.
+ The time-scale for this should be sufficiently long that it is possible
+ to either mount the sample in the microreactor setup and evacuate it, or
+ to store the in a suitable clean environment, preferebly some sort of evacuated
+ storage.
+\end_layout
+
+\begin_layout Itemize
+UHV connection between sputter deposition chamber and cluster deposition.
+ CINF recently aquired a high-quality sputter deposition system capable
+ of depositing a very large range of materials, including many oxides.
+ If this system is attached to the future in-situ bonding setup, it would
+ be possible to use the microreactor for exploring a wide range of substrate
+ effects, since it would be possible to sputter-deposit the wanted substrate,
+ then deposit clusters, characterize the sample using either auger or TPDs
+ before finally bonding and remove the sample, all under highly clean conditions.
+\end_layout
+
+\begin_layout Itemize
+Application of in-situ techniques
+\end_layout
+
+\end_body
+\end_document
