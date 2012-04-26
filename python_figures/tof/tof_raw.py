@@ -1,14 +1,5 @@
 backend = 'svg'
 execfile('../std_header.py')
-import matplotlib.gridspec as gridspec
-
-try:
-    db = MySQLdb.connect(host="servcinf", user="cinf_reader",passwd = "cinf_reader", db = "cinfdata")
-except:
-    db = MySQLdb.connect(host="127.0.0.1", port=9995, user="cinf_reader",passwd = "cinf_reader", db = "cinfdata")
-
-
-cursor = db.cursor()
 
 #Mass of NH3: 17.0265491
 #Mass of OH: 17.0027397

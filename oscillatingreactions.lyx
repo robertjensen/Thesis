@@ -98,7 +98,7 @@ status collapsed
 \begin_inset Graphics
 	filename /home/robert/Documents/git/Thesis/svg_figures/original_oscillation.svg
 	display false
-	width 13cm
+	width 12cm
 
 \end_inset
 
@@ -151,11 +151,10 @@ status collapsed
 \begin_layout Plain Layout
 \noindent
 \align center
-s
 \begin_inset Graphics
 	filename /home/robert/Documents/git/Thesis/svg_figures/original_oscillation_zoom.svg
 	display false
-	width 13cm
+	width 12cm
 
 \end_inset
 
@@ -304,6 +303,193 @@ key "Hendriksen2010"
 \end_layout
 
 \begin_layout Section
+Experimental procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename svg_figures/oscil_initial_treatment.svg
+	display false
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:oscil_initial_treatment"
+
+\end_inset
+
+The initial treatment of the sample
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename svg_figures/oscil_temp_dependence.svg
+	display false
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:oscil_temp_dependence"
+
+\end_inset
+
+Temperature dependence
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename svg_figures/oscil_summary_of_4dmeas.svg
+	display false
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:oscil_4days_summary"
+
+\end_inset
+
+Summary of 4d measurement
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename svg_figures/oscil_extracts.svg
+	display false
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:oscil_extracts"
+
+\end_inset
+
+Extracts
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename svg_figures/oscil_dutycycle.svg
+	display false
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:oscil_dutycycle"
+
+\end_inset
+
+Duty cycle
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
 Gas dependence
 \end_layout
 
@@ -325,7 +511,7 @@ To map out the dependence of the CO/O
 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:oscil_gas-dependence"
+reference "fig:oscil_gas_dependence"
 
 \end_inset
 
@@ -333,27 +519,32 @@ reference "fig:oscil_gas-dependence"
  It is evident that the oscillations period increases with increasing CO-concent
 ration in agreement with the hypothesis that some kind of bulk oxidation
  is involved in the process.
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
 \align center
+\begin_inset Graphics
+	filename svg_figures/oscil_gas_dependence.svg
+	display false
+	width 12cm
+
+\end_inset
+
+
 \begin_inset Caption
 
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:oscil_gas-dependence"
+name "fig:oscil_gas_dependence"
 
 \end_inset
 
-Gas-dependence of the oscillations
+Gas dependence
 \end_layout
 
 \end_inset

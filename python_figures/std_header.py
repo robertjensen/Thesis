@@ -13,6 +13,8 @@ import numpy as np
 import MySQLdb
 from scipy import optimize
 import math
+import matplotlib.gridspec as gridspec
+from matplotlib.patches import Rectangle
 
 matplotlib.rc('text',usetex=True) # Magic fix for the font warnings
 
