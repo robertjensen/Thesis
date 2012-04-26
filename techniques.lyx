@@ -141,15 +141,27 @@ The answer to the problem was invented by our clean room wizard Thomas Pedersen
  If the cut is approximately 90% of the total depth of the reactor, it can
  quite easily be opened by hand once it is ready to be mounted in what ever
  instrument that should be used for the examination.
- INSERT XPS OF A SAMPLE EXPOSED TO LARGE AMOUNTS OF CO
-\end_layout
+ This technique is demonstrated in figure
+\begin_inset space ~
+\end_inset
 
-\begin_layout Subsection
-Cutting with a diamond saw
-\end_layout
 
-\begin_layout Standard
-SHOW XPS spectrum of clean sample
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:xps_looking_for_Ni"
+
+\end_inset
+
+ where we have taken a sample exposed to very large amounts of CO to be
+ sure that the sample is not polluted by Nickel carbonyl, 
+\begin_inset Formula $\mbox{Ni}\left(\mbox{CO}\right)_{4}$
+\end_inset
+
+ which is a know pollutant originating from the CO in the gas-lines reacting
+ with Ni from the steel tubing.
+ As can be seen from the figure, we do not have a problem with nickel carbonyl
+ pollution.
+ 
 \begin_inset Float figure
 wide false
 sideways false
@@ -192,12 +204,26 @@ XPS spectrum of a sample exposed to very large amounts of CO at boh high
 
 \end_layout
 
+\begin_layout Standard
+Of course post-mortem analysis is not always a usefull solution.
+ The sample is inreversibly destroyed and there is no chance of ever mounting
+ it in the setup again, and the method will therefore only be able to probe
+ the final state of the sample, no intermediate situations can be measured
+ unless one prepares a number of identical samples and stop them at various
+ intermediate steps of the measurement.
+ Also, the product surface will necessarily be exposed to air to be cut
+ out with the saw and to be mounted in a chamber equipped with XPS.
+ This of course somewhat limits scope of this kind of analysis.
+\end_layout
+
 \begin_layout Section
 Non-bonded samples
 \end_layout
 
 \begin_layout Standard
-Since one of our microreactor setups operates the entire sample in an evacuated
+To solve the problem of the destructive process of the diamond saw, we tried
+ another solution to be able to do XPS on our samples.
+ Since one of our microreactor setups operates the entire sample in an evacuated
  chamber, it is in principle possible to run experiments in potentially
  leaking samples without atmospheric air entering the sample and without
  risk of potentially poisonous gasses (in our setup the most posinous gass
