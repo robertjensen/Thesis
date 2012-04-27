@@ -85,6 +85,29 @@ Storing the flow-files with the data: It would be a great advantage in the
 \end_layout
 
 \begin_layout Itemize
+Adding an optional pumping path between the buffer chambers and the turbo.
+ Currently the buffer chambers are pumped by a turbo pump through 
+\begin_inset Formula $1/4"$
+\end_inset
+
+ tubing because this limited radius protects the turbo when large amount
+ of gas is being dumped in the buffer volume.
+ However, often one knows that no further gas is going to be dumped into
+ the buffer volume and one just wants to pump down the buffer sufficiently
+ to be able to start the experiment.
+ In situations like this, it would be extremely usefull to have an optional
+ pumping path of much larger diameter.
+ This could easily be achived by mounting a 
+\begin_inset Formula $2\frac{3}{4}"$
+\end_inset
+
+-bellow and a pneumatically controlled valve between the buffer and the
+ turbo.
+ Such a device would significantly reduce the time needed to pump down a
+ new sample before starting measurements.
+\end_layout
+
+\begin_layout Itemize
 Re-building the old setup.
  Currently only one of our setups are equipped with the newest improvements
  of full automization and an evacuated containment volume, these improvments
