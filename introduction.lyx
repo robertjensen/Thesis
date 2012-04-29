@@ -46,8 +46,8 @@
 \end_index
 \secnumdepth 3
 \tocdepth 3
-\paragraph_separation indent
-\paragraph_indentation default
+\paragraph_separation skip
+\defskip smallskip
 \quotes_language english
 \papercolumns 1
 \papersides 1
@@ -184,10 +184,21 @@ MW are soon entering the market).
 \end_inset
 
 MW-peak.
- Currently the wold production is on the order of ??? FIND TALLET!!!!.
+ Currently the wold yearly production is on the order of 41
+\begin_inset space \thinspace{}
+\end_inset
+
+GW
+\begin_inset CommandInset citation
+LatexCommand cite
+key "btmconsult"
+
+\end_inset
+
+.
  As a rule of thumb, the price of the bare turbine, not including cabling
  and mounting, is around 
-\begin_inset Formula $10^{6}\text{£}/\mbox{MW}$
+\begin_inset Formula $1.5\times10^{6}\text{£}/\mbox{MW}$
 \end_inset
 
 , typical prices for cabling and mounting end up with a total price between
@@ -201,12 +212,78 @@ MW-peak.
  yearly price of proving 100% wind energy to the entire world:
 \begin_inset Formula 
 \[
-\mbox{Total\,\ cost}\sim2\times10^{6}\times10^{7}=2\times10^{13}\text{£}/\mbox{y}
+\mbox{Total\, cost}\sim2\times10^{6}\times10^{7}=2\times10^{13}\,\text{£}/\mbox{y}
 \]
 
 \end_inset
 
 , not including storage loss.
+\end_layout
+
+\begin_layout Standard
+For comparison the total world GDP
+\begin_inset CommandInset citation
+LatexCommand cite
+key "world_gdp"
+
+\end_inset
+
+ was approximately 
+\begin_inset Formula $\sim5,3\times10^{13}$
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+£, that is only slightly more than the estimate price for 100% wind power
+ energy.
+ However, one should remember that this is an extremely rough estimate and
+ just the fact that it comes out lower than the world GDB should justify
+ a more thorough calculation on the subject, however this is luckily well
+ outside the scope of this introduction.
+ One thing to notice, however, is that the 
+\begin_inset Formula $2\times10^{13}\,\text{£}/\mbox{y}$
+\end_inset
+
+ includes every single watt consumed by the world for any purpose.
+ Realisticly, the amount of power needed will be well lower than this since
+ not all of the worlds energy conumption is currently fossil fules 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Mere om energiformer.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Finally, it might be resonable to ask not only to the economics but more
+ relevant (and interesting) also to discuss the actual physical energy resource,
+ given enough money and good will, is the world even big enough to provide
+ space for 
+\begin_inset Formula $10^{7}$
+\end_inset
+
+ wind turbines of 3.5
+\begin_inset space \thinspace{}
+\end_inset
+
+MW? 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Mere her...
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
