@@ -96,7 +96,7 @@ status collapsed
 \noindent
 \align center
 \begin_inset Graphics
-	filename /home/robert/Documents/git/Thesis/svg_figures/original_oscillation.svg
+	filename svg_figures/original_oscillation.svg
 	display false
 	width 12cm
 
@@ -142,7 +142,7 @@ reference "fig:oscil_original_zoom"
 
  is shown a zoom of the data with a timescale short enough to resolve the
  individual spikes in the signal.
- s
+ 
 \begin_inset Float figure
 wide false
 sideways false
@@ -152,7 +152,7 @@ status collapsed
 \noindent
 \align center
 \begin_inset Graphics
-	filename /home/robert/Documents/git/Thesis/svg_figures/original_oscillation_zoom.svg
+	filename svg_figures/original_oscillation_zoom.svg
 	display false
 	width 12cm
 
