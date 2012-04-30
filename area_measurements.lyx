@@ -46,8 +46,8 @@
 \end_index
 \secnumdepth 3
 \tocdepth 3
-\paragraph_separation indent
-\paragraph_indentation default
+\paragraph_separation skip
+\defskip smallskip
 \quotes_language english
 \papercolumns 1
 \papersides 1
@@ -621,6 +621,47 @@ C
 
 \begin_layout Subsection
 MR108, 5nm, 40% coverage
+\end_layout
+
+\begin_layout Standard
+On this sample, we first tried to run a few area measuremetns before doing
+ any attempts at cleaning the sample.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename svg_figures/area_MR108.svg
+	display false
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:area_MR108"
+
+\end_inset
+
+Plot of all measured areas on MR108
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard

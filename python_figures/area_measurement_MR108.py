@@ -2,8 +2,6 @@ backend = 'svg'
 execfile('std_header.py')
 
 sys.path.append('area_measurements')
-#import MR102_approx20cov_5_2nm as config
-#import MR102_approx20cov_5_2nm_II as config
 import MR108_40cov_5_0nm as config
 
 #matplotlib.rc('text',usetex=False) # Magic fix for the font warnings

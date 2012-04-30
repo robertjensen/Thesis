@@ -1,7 +1,7 @@
+import sys
 try:
     import defaults as d
 except:
-    import sys
     sys.path.append('../')
     import defaults as d
     
@@ -12,6 +12,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import MySQLdb
 from scipy import optimize
+from scipy import interpolate
 import math
 import matplotlib.gridspec as gridspec
 from matplotlib.patches import Rectangle
