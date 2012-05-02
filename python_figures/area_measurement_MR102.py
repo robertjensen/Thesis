@@ -59,11 +59,11 @@ for i in range(0,len(times)):
     mean_x = [data['M44'][start+20,0],data['M44'][end-20,0]]
     axis_array[i].plot(data['M44'][start:end,0], data['M44'][start:end,1], 'r-')
     axis_array[i].plot(mean_x, mean_y, 'b-')
-    axis_array[i].set_ylim(-0.1,1)
+    axis_array[i].set_ylim(-0.01,0.1)
     if not i % config.layout_x == 0:
         axis_array[i].set_yticks([])
     else:
-        axis_array[i].set_yticks([0,0.25,0.5,0.75])
+        axis_array[i].set_yticks([0,0.025,0.05,0.075])
     axis_array[i].set_xticks([])
     axis_array[i].ticklabel_format(useOffset=False)
     f2 = interpolate.interp1d([start,end], mean_y)

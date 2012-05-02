@@ -1,17 +1,15 @@
-#backend = 'svg'
+backend = 'svg'
 execfile('std_header.py')
 
 sys.path.append('area_measurements')
 import thinfilm_10cov as config
-
-#matplotlib.rc('text',usetex=False) # Magic fix for the font warnings
 
 fig = plt.figure()
 fig.subplots_adjust(left=d.left_room) 
 fig.subplots_adjust(bottom=d.bottom_room)
 fig.subplots_adjust(right=d.right_room) 
 
-ratio = 1.7
+ratio = d.ratio
 fig_width = d.width
 fig_width = fig_width /2.54     # width in cm converted to inches
 fig_height = fig_width*ratio
@@ -80,5 +78,5 @@ for i in range(0,len(times)):
 #axis_array[0].set_ylabel('Ion Current / nA', fontsize=d.y_axis_font)
 
 #plt.tight_layout()
-plt.show()
-#plt.savefig('../svg_figures/area_MR108.svg')
+#plt.show()
+plt.savefig('../svg_figures/area_thin_film.svg')

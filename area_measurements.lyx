@@ -79,11 +79,307 @@ Very often when doing measurements in the microreactor, one will want to
 \end_layout
 
 \begin_layout Section
+Procedure
+\end_layout
+
+\begin_layout Standard
+The classic UHV procedure for measuring surface area of a catalyst, is the
+ TPD.
+ The sample is exposed to a gas (typical CO) with subsequent heating of
+ the sample.
+ The amount of gas coming of the sample is a measure of the surface area.
+ However, this method is not quite as well suited in the microreactors.
+ We have tried to do TPDs and it certainly works, but sensitivity is rather
+ poor.
+ The problem is that in order to do a high-quality TPD you need really efficient
+ pumping since only one gas species is involved, CO is dosed and CO is measured.
+ In UHV this problem also exists but due to the generally very high pumping
+ capacity of UHV chambers it is possible to bring down the CO background
+ reasonobly fast.
+ In the microreactors we have long pieces of 
+\begin_inset Formula $\frac{1}{4}"$
+\end_inset
+
+ pibes which makes it difficult to eliminate the CO background after the
+ dose.
+ Thus one needs to do the TPD on this high background, with corresponding
+ bad signal-to-noise or wait for a very long time, which is both inefficient
+ and also includes the risk that some of CO might desorb while waiting unless
+ the sample is cooled below room temperature.
+ For all these reasons we wanted to find another method of area measurement,
+ even if it means accepting the price of finding seperate methods for each
+ type of sample.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename svg_figures/area_procedure.svg
+	display false
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:area_procedure"
+
+\end_inset
+
+Plot of the area measurement procedure.
+ For a zoom of the area peak, see figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:area_thinfilm_example"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+The solution we are using so far, is developed for Pt and will most likely
+ not work for most other systemes, since it relies on the specific catalytic
+ properties of Pt.
+ The idea is to circumvent the background problem by measuring other masses
+ than what is dosed.
+ This of course means that the process must involve a step of catalytic
+ conversion between the dosed species into a product of another mass.
+ Since Pt is so remarkably efficient at oxidizing CO, we chose a titrition-like
+ procedure which in short looks like this:
+\end_layout
+
+\begin_layout Itemize
+Dose oxygen
+\end_layout
+
+\begin_layout Itemize
+Evacuate reactor
+\end_layout
+
+\begin_layout Itemize
+Dose CO and look for CO
+\begin_inset Formula $_{2}$
+\end_inset
+
+ in the mass spec
+\end_layout
+
+\begin_layout Standard
+The oxygen dose (0.2
+\begin_inset space \thinspace{}
+\end_inset
+
+bar for 5
+\begin_inset space \thinspace{}
+\end_inset
+
+min) adsorbes a layler (the exact adsorbation mechanism is not entirely
+ understood
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Her skal nogle referencer om ilt på Pt ind!
+\end_layout
+
+\end_inset
+
+) of oxygen on all free surface sites.
+ This layer is very stable and will not desorb while the gas-phase oxygen
+ is pumped and flushed away).
+ In this way background is brought down signifcantly since we are now measuring
+ on a species that was not explicitly dosed.
+ However, the background is not totally eliminated since both CO and O
+\begin_inset Formula $_{2}$
+\end_inset
+
+ contributes with a background of CO
+\begin_inset Formula $_{2}$
+\end_inset
+
+ in the mass-spec, however the signal to noise is much better than a pure
+ TPD.
+ In reallity the procedure is somewhat more complicated than described here,
+ since we also need to dos a carrier gas before the CO to ensure a proper
+ flow from the reactor and into the capillary outlet, for this we typically
+ use He.
+ Also the He is used to flush away is oxygen after the initial dose since
+ this is faster than just pumping on the long tubes, especially on the old
+ setup where we can only pump the tubes through the outlet of the sample.
+ The complete procedure for area measurement is plotted in figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:area_procedure"
+
+\end_inset
+
+.
+ The entire procedure is performed at 70
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C, in principle we can also run at room temperature, but since the conversion
+ of adsorbed oxygen are much slower at this temperature, the slightly elevated
+ temperature, significantly increases the signal to noise ratio.
+ The actual choise of temperature is a comprimise between higher tempereture
+ which improves the measurement but might at the same time change the area
+ we want to measure by e.g.
+ sintering.
+ The current typical value of 70
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C seems to be a good compromise, signal is good and sintering is not expected
+ to be relavant for Pt at this temperature
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+REF!
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The result of such a procedure is seen in figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:area_thinfilm_example"
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename svg_figures/area_thin_film.svg
+	display false
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:area_thinfilm_example"
+
+\end_inset
+
+Zoom of the two first area measurements on the sample showed in figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:area_procedure"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ This is a particularly simple example of two consequtive area measurements
+ on a clean thin-film sample.
+ 
+\end_layout
+
+\begin_layout Section
 Area measurements on various samples
 \end_layout
 
 \begin_layout Subsection
 MR102, 5.2nm, 20% coverage (uncertain deposition)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename svg_figures/area_MR102.svg
+	display false
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:area_MR102"
+
+\end_inset
+
+Plot of all measured areas on MR102
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -629,7 +925,7 @@ On this sample, we first tried to run a few area measuremetns before doing
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
