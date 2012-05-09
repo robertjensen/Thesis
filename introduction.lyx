@@ -198,13 +198,13 @@ key "btmconsult"
 .
  As a rule of thumb, the price of the bare turbine, not including cabling
  and mounting, is around 
-\begin_inset Formula $1.5\times10^{6}\text{£}/\mbox{MW}$
+\begin_inset Formula $1.5\times10^{6}\text{€}/\mbox{MW}$
 \end_inset
 
 , typical prices for cabling and mounting end up with a total price between
  2 and 5 times higher than this, a conservative estimate of total cost would
  thus be 
-\begin_inset Formula $10^{7}\text{£}/\mbox{MW}$
+\begin_inset Formula $10^{7}\text{€}/\mbox{MW}$
 \end_inset
 
 .
@@ -212,7 +212,7 @@ key "btmconsult"
  yearly price of proving 100% wind energy to the entire world:
 \begin_inset Formula 
 \[
-\mbox{Total\,\ cost}\sim2\times10^{6}\times10^{7}=2\times10^{13}\,\text{£}/\mbox{y}
+\mbox{Total\,\ cost}\sim2\times10^{6}\times10^{7}=2\times10^{13}\,\text{€}/\mbox{y}
 \]
 
 \end_inset
@@ -236,14 +236,14 @@ key "world_gdp"
 \begin_inset space \thinspace{}
 \end_inset
 
-£, that is only slightly more than the estimate price for 100% wind power
+€, that is only slightly more than the estimate price for 100% wind power
  energy.
  However, one should remember that this is an extremely rough estimate and
  just the fact that it comes out lower than the world GDB should justify
  a more thorough calculation on the subject, however this is luckily well
  outside the scope of this introduction.
  One thing to notice, however, is that the 
-\begin_inset Formula $2\times10^{13}\,\text{£}/\mbox{y}$
+\begin_inset Formula $2\times10^{13}\,\text{€}/\mbox{y}$
 \end_inset
 
  includes every single watt consumed by the world for any purpose.
