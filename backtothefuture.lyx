@@ -80,7 +80,7 @@ Storing the flow-files with the data: It would be a great advantage in the
  of these parameters.
  This means that if an experiment does not run exactly as expected, it can
  be hard to tell whether it was simply the operator that set up the experiment
- wrong, or if it was some sort of mal-function that prevented the exprirment
+ wrong, or if it was some sort of malfunction that prevented the experiment
  from running correctly.
 \end_layout
 
@@ -89,7 +89,7 @@ Better software: Most of the software is currently written as a few rather
  monstrous LabView programs because this has been the default language at
  the department.
  However, are now slowly moving to a more modular approach where sub-sections
- of the code can be seperated into individual programs, possibly written
+ of the code can be separated into individual programs, possibly written
  in other programming languages, so far we already interface quite a few
  instruments in Python on other setups and it would be obvious to gradually
  also turn the microreactors in this direction.
@@ -106,9 +106,9 @@ Adding an optional pumping path between the buffer chambers and the turbo.
  However, often one knows that no further gas is going to be dumped into
  the buffer volume and one just wants to pump down the buffer sufficiently
  to be able to start the experiment.
- In situations like this, it would be extremely usefull to have an optional
+ In situations like this, it would be extremely useful to have an optional
  pumping path of much larger diameter.
- This could easily be achived by mounting a 
+ This could easily be achieved by mounting a 
 \begin_inset Formula $2\frac{3}{4}"$
 \end_inset
 
@@ -121,21 +121,21 @@ Adding an optional pumping path between the buffer chambers and the turbo.
 \begin_layout Itemize
 Re-building the old setup.
  Currently only one of our setups are equipped with the newest improvements
- of full automization and an evacuated containment volume, these improvments
+ of full automation and an evacuated containment volume, these improvements
  obviously need to be applied to the other setup as well.
 \end_layout
 
 \begin_layout Itemize
 In-situ deposition and bonding under UHV conditions.
- This is a slightly ambitus project but with a potentially very high value.
- The point would be to buld a chamber where it is possible to deposit cluster
+ This is a slightly ambitious project but with a potentially very high value.
+ The point would be to build a chamber where it is possible to deposit cluster
  samples on a microreactor, perform various kinds of analysis and finally
  bond the sample, all under UHV conditions.
  This would significantly enhance the microreactor platform as a tool to
  bridge the pressure gap between traditional UHV analysis and the high pressure
  conditions of the microreactor, since we would be able to measure on truly
  clean samples that have never been exposed to air.
- Of course transfor between this setup and the microreactor setup would
+ Of course transfer between this setup and the microreactor setup would
  be a weak point since this cannot possibly be done under UHV conditions.
  Our proposal for the transfer would be to fill the reactor with 1
 \begin_inset space \thinspace{}
@@ -147,13 +147,13 @@ bar of inert gas before removing it from the bonding setup.
  channels and into the reactor volume.
  The time-scale for this should be sufficiently long that it is possible
  to either mount the sample in the microreactor setup and evacuate it, or
- to store the in a suitable clean environment, preferebly some sort of evacuated
+ to store the in a suitable clean environment, preferably some sort of evacuated
  storage.
 \end_layout
 
 \begin_layout Itemize
 UHV connection between sputter deposition chamber and cluster deposition.
- CINF recently aquired a high-quality sputter deposition system capable
+ CINF recently acquired a high-quality sputter deposition system capable
  of depositing a very large range of materials, including many oxides.
  If this system is attached to the future in-situ bonding setup, it would
  be possible to use the microreactor for exploring a wide range of substrate

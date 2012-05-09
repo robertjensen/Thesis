@@ -68,23 +68,23 @@ name "chap:Analytical-techniques"
 
 \end_inset
 
-Analytical techniques
+Analytic techniques
 \end_layout
 
 \begin_layout Standard
-A majer disadvantage of the microreactor setup is the distinct lack of analytica
-l techniques available to investigate the catalyst doing measurements.
+A major disadvantage of the microreactor setup is the distinct lack of analytic
+ techniques available to investigate the catalyst doing measurements.
  In traditional reactors access to techniques such as XPS, AES or various
- infrared techniques gives extremely valueble insights into the state of
- the catalyst surface as well as sometimes even information about intermidiate
+ infrared techniques gives extremely valuable insights into the state of
+ the catalyst surface as well as sometimes even information about intermediate
  species on the surface.
- Such a luxury is not availble on the microractor, the sealed nature of
- the reactor makes it extremely difficult to access the sample with clasical
+ Such a luxury is not available on the microreactor, the sealed nature of
+ the reactor makes it extremely difficult to access the sample with classical
  techniques.
- Even post-mortem analysis is difficult because no known way exist to open
+ Even postmortem analysis is difficult because no known way exist to open
  up an anodic bonding in a non-destructive way.
  Doing the project we have time and time again discussed the possibility
- of adding any kind of instrumentation that would reveal insigt into either
+ of adding any kind of instrumentation that would reveal insight into either
  in-situ doing reaction or just means to investigate the surface before
  and after exposing it to reaction conditions.
 \end_layout
@@ -95,12 +95,12 @@ LIST THE VARIOUS TECHNIQUES THAT HAS BEEN DISCUSSED (RAMAN, FT-IR, plasmonic
 \end_layout
 
 \begin_layout Section
-Post-mortem analysis
+Postmortem analysis
 \end_layout
 
 \begin_layout Standard
 It would seem obvious that the least ambitious way of gaining insight into
- the surface is to simply analyse the surface after is has been exposed
+ the surface is to simply analyze the surface after is has been exposed
  to the relevant experiments.
  This will typically mean that the reactor is somehow opened up after the
  experiment.
@@ -115,8 +115,8 @@ It would seem obvious that the least ambitious way of gaining insight into
  bonded to a few pillars.
  This method works and has been used to open samples to do XPS, but it is
  a primitive and dangerous technique that might easily completely break
- the sample with no usefull pieces left.
- This is particulaly unfortunate since a sample one is trying to do post-mortem
+ the sample with no useful pieces left.
+ This is particularly unfortunate since a sample one is trying to do postmortem
  analysis on, is typically an important sample that would require large
  amounts of work to re-create.
 \end_layout
@@ -125,10 +125,10 @@ It would seem obvious that the least ambitious way of gaining insight into
 For this reason a more reliable method is wanted.
  We went through several attempts before coming up with a working solution.
  Among the failed attempts was attempts to weaken the reactor with a diamond
- saw and then pressurising the reactor to 2.5bar of overpressure hoping the
- pressure would push out a piece of the reactor.
+ saw and then pressurizing the reactor to 2.5bar of over pressure hoping
+ the pressure would push out a piece of the reactor.
  Etching the lid away with HF gas also been considered but this is a really
- bad solution both becasue of the long list of safety concerns with and
+ bad solution both because of the long list of safety concerns with and
  HF and also because it is a very dirty way of opening since HF will inevitably
  leak into the reactor volume and thus contaminate the sample before the
  further investigation.
@@ -187,7 +187,7 @@ name "fig:xps_looking_for_Ni"
 
 \end_inset
 
-XPS spectrum of a sample exposed to very large amounts of CO at boh high
+XPS spectrum of a sample exposed to very large amounts of CO at both high
  and low temperature.
  It is evident that no significant amount of Nickel carbonyl has been deposited
  on the surface.
@@ -205,8 +205,8 @@ XPS spectrum of a sample exposed to very large amounts of CO at boh high
 \end_layout
 
 \begin_layout Standard
-Of course post-mortem analysis is not always a usefull solution.
- The sample is inreversibly destroyed and there is no chance of ever mounting
+Of course postmortem analysis is not always a useful solution.
+ The sample is irreversibly destroyed and there is no chance of ever mounting
  it in the setup again, and the method will therefore only be able to probe
  the final state of the sample, no intermediate situations can be measured
  unless one prepares a number of identical samples and stop them at various
@@ -226,11 +226,11 @@ To solve the problem of the destructive process of the diamond saw, we tried
  Since one of our microreactor setups operates the entire sample in an evacuated
  chamber, it is in principle possible to run experiments in potentially
  leaking samples without atmospheric air entering the sample and without
- risk of potentially poisonous gasses (in our setup the most posinous gass
+ risk of potentially poisonous gasses (in our setup the most poisonous gas
  is typically CO) escaping to the surroundings.
  This means that we can run experiments that has not been bonded, simply
- by mechanicaly clamping the lid to the sample and mount it in the setup.
- This of couse has a majer disadvantage in the fact, that the reactor volume
+ by mechanically clamping the lid to the sample and mount it in the setup.
+ This of course has a major disadvantage in the fact, that the reactor volume
  will leak heavily into the containment volume, and thus we loose the property
  that all reacting gas will enter the QMS and hence the sensitivity is lowered
  significantly compared to a properly bonded sample.
@@ -249,7 +249,7 @@ ex-situ
 \emph on
 ex-situ
 \emph default
- studies has expeinced conditions identical to the bonded sample.
+ studies has experienced conditions identical to the bonded sample.
 \end_layout
 
 \begin_layout Standard

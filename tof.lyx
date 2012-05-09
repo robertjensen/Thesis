@@ -271,16 +271,16 @@ inches to be exact) before they enter the reflectron.
  leak-tight barrier to atmosphere that ensures that we can hold a vacuum
  in the chamber.
  However, since this tube is exposed to the outside world, it would be most
- inconvinient if this tube was held at -2000
+ inconvenient if this tube was held at -2000
 \begin_inset space \thinspace{}
 \end_inset
 
-V, it would consitute a significant danger for operators as well as complicate
- the connection to other electroncs significantly.
+V, it would constitute a significant danger for operators as well as complicate
+ the connection to other electronics significantly.
  This is where the second concentric tube, the so-called 'liner' enters
  the equation.
  This tube has a slightly smaller diameter than the outside tube and is
- mounted on small cheramic tubes that rests on the outside tube and ensures
+ mounted on small ceramic tubes that rests on the outside tube and ensures
  that the liner is electrically floating compared to the main chamber.
  The liner perforated at the position of the flight tube pump to ensure
  decent pumping of the liner.
@@ -383,10 +383,10 @@ CHECK!
 \end_inset
 
  and is very flat within the entire area.
- This very large and flat detector area makes the detector very tollerant
- for ions having sligtly different initial positions in the plane orthogonal
+ This very large and flat detector area makes the detector very tolerant
+ for ions having slightly different initial positions in the plane orthogonal
  to the flight directions, since the various ions would make almost identical
- trajectories only sligtly translated.
+ trajectories only slightly translated.
  The MCP consists of a large number (typically several thousands) of small
  channels coated with a material with low work function material.
  The MCP is heavily biased between the front side and the back side, creating
@@ -397,7 +397,7 @@ CHECK!
  Since each channel is very swallow, the electrons will only travel a short
  distance before they again hit the surface and releases even more electrons.
  In this way a single ion will be multiplies into a significant number of
- electrons, how many is heavily dependant on the voltage across the device.
+ electrons, how many is heavily dependent on the voltage across the device.
  In our case, we have mounted a rather cheap MCP for the linear detection
 \begin_inset Note Note
 status open
@@ -408,7 +408,7 @@ FIND DATABLAD
 
 \end_inset
 
- (!!) and a substatially better one, a so-called Z-gap detector, with a
+ (!!) and a substantially better one, a so-called Z-gap detector, with a
  maximum bias of 5
 \begin_inset space \thinspace{}
 \end_inset
@@ -425,20 +425,20 @@ key "Krems2005"
 \end_inset
 
 , because the energy of the particle is distributed on a larger and larger
- area which increases the risk that the inital impact of the particle will
- not release a single electron that can be further multipled.
+ area which increases the risk that the initial impact of the particle will
+ not release a single electron that can be further multiplied.
  Since we are among other things also interested in measuring on metal clusters,
  a high mass limit is essential.
  The current Z-gap detector has a nominal maximal detectable mass of 5000
 \begin_inset space \thinspace{}
 \end_inset
 
-amu, and furthermore, the chamber is equipped with feed-throughs for mounting
+amu, and furthermore, the chamber is equipped with feed-troughs for mounting
  a 15
 \begin_inset space \thinspace{}
 \end_inset
 
-kV detector if it should be neseccary.
+kV detector if it should be necessary.
  This should bring detection limit up to approximately 
 \begin_inset Formula $10^{6}$
 \end_inset
@@ -461,7 +461,7 @@ Electronics and data acquisition
 \end_layout
 
 \begin_layout Standard
-Looking at the wonderfull amounts of stainless steel in figure
+Looking at the wonderful amounts of stainless steel in figure
 \begin_inset space ~
 \end_inset
 
@@ -472,10 +472,10 @@ reference "fig:tof_photo"
 
 \end_inset
 
-, one coulde easily get the idea that all the interesting stuff happens
- inside the vacuum chamber.
- However, nothing could be more wrong, in reallity much of the magic of
- the instrument takes place outside of the chamber in the rather substantial
+, one could easily get the idea that all the interesting stuff happens inside
+ the vacuum chamber.
+ However, nothing could be more wrong, in reality much of the magic of the
+ instrument takes place outside of the chamber in the rather substantial
  amount of electronics that drives the instrument.
  First of all, it turns out that one needs quite a lot of power supplies,
  not only do we need high voltages for the liner potential, 
@@ -512,12 +512,12 @@ reference "fig:tof_photo"
 
 V.
  Additionally the four entrance lenses needs a total of five different voltages
- (one lense also acts as a deflector and thus is in two parts).
+ (one lens also acts as a deflector and thus is in two parts).
  For one thing this means that we need quite a lot of power supplies, but
  this is a minor problem, most of the voltages can be supplied by two power
  multi-output supplies, since none of the components uses significant amounts
  of power.
- However, it is also evident that optimizing the system is not espicially
+ However, it is also evident that optimizing the system is not especially
  fun, since the parameter space is extremely large.
  Luckily it turns out that the entrance lenses can be optimized almost independe
 nt of the rest of the system, reducing the problem from an 11-dimensional
@@ -552,11 +552,11 @@ ts and is what is known as a Orthogonal Acceleration TOF which means that
 \end_layout
 
 \begin_layout Standard
-Optimally all ions will enter with very low energy orthorgonal to the flight
+Optimally all ions will enter with very low energy orthogonal to the flight
  direction, zero energy in the drift direction and perfectly centered between
- the acceleration plate and the grounded grid imidieatly to the right.
- Of course the ions will not have ideal positon and energy, which will ultimatel
-y set the limit of the resolution of the instrument.
+ the acceleration plate and the grounded grid immediately to the right.
+ Of course the ions will not have ideal position and energy, which will
+ ultimately set the limit of the resolution of the instrument.
  
 \end_layout
 
@@ -564,8 +564,8 @@ y set the limit of the resolution of the instrument.
 Our current way of ionization is both very simple, very cheap and very much
  sub-optimal.
  Originally we only wanted to make a very primitive and cheap ionization
- souce to able to test the instrument by letting in a gas direcly from a
- leak valve, simply just to able to tune and optimize the instrument before
+ source to able to test the instrument by letting in a gas directly from
+ a leak valve, simply just to able to tune and optimize the instrument before
  mounting it on the cluster source.
  For this purpose we realized the classic UHV Bayard-Alpert ion gauge
 \begin_inset CommandInset citation
@@ -595,7 +595,7 @@ key "Nottingham1955"
 \end_inset
 
 A is run through the filament resulting in an emission current somewhere
- between 1 and 10,mA, in our current configuration we are now actively stabalizi
+ between 1 and 10,mA, in our current configuration we are not actively stabilizi
 ng the emission current, and we are typically not measuring it either.
  Fixing this is very high on the to-do list since the emission current is
  most likely not especially stable which of course is very bad for the self-cons
@@ -617,7 +617,7 @@ REF!
 
 \end_inset
 
-, the ionization cross section for most relevant spieces will peak between
+, the ionization cross section for most relevant species will peak between
  100 and 150
 \begin_inset space \thinspace{}
 \end_inset
@@ -660,8 +660,8 @@ Examples of operation
 \end_layout
 
 \begin_layout Standard
-Unfortunately, we cannot judge instruments only on the coolnes factor, they
- also need to deliver actual results to merrit a position in the lab.
+Unfortunately, we cannot judge instruments only on the coolness factor,
+ they also need to deliver actual results to merit a position in the lab.
  Fortunately the performance of the TOF is very good, the resolution is
  much better than a traditional QMS, the manufacturer of our device claims
  resolutions of up to 
@@ -713,8 +713,8 @@ s better than
 \begin_inset Formula $m/\Delta m\approx2000$
 \end_inset
 
- which is enouth to sepeate many ineresting ions which would normally be
- overlapping on traditional mass spectrometers.
+ which is enough to separate many interesting ions which would normally
+ be overlapping on traditional mass spectrometers.
  I primary example of this would ammonia, NH
 \begin_inset Formula $_{3}$
 \end_inset
@@ -734,7 +734,7 @@ Check...
 \end_inset
 
 amu.
- However due to the diffeent mass defect of the involved atoms, the exact
+ However due to the different mass defect of the involved atoms, the exact
  mass of NH
 \begin_inset Formula $_{3}$
 \end_inset
@@ -763,14 +763,14 @@ reference "fig:tof_ammonia_gauss_fit"
 
 \end_inset
 
- it is enough to seperate the two components into two peaks that can be
+ it is enough to separate the two components into two peaks that can be
  individually fitted and quantified.
 \end_layout
 
 \begin_layout Standard
 The high resolution also completely eliminates any risk of spillover from
  one mass to another, a problem often seen in classic mass spectrometers,
- when a small mass is imidiately next to a large mass.
+ when a small mass is immediately next to a large mass.
  
 \begin_inset Float figure
 wide false
@@ -818,7 +818,7 @@ reference "fig:tof_untreated_data"
 
 \end_inset
 
- from which it is evident that the seperation between all compounds seperated
+ from which it is evident that the separation between all compounds separated
  by at least 1
 \begin_inset space ~
 \end_inset
@@ -928,7 +928,7 @@ s.
 \begin_inset space \thinspace{}
 \end_inset
 
-mm which actually fits rather well with the added length from the cupper
+mm which actually fits rather well with the added length from the copper
  gaskets not included in the CAD-drawings.
 \end_layout
 
@@ -1022,8 +1022,8 @@ Simulation of the reflectron
 
 \begin_layout Standard
 An interesting side effect of the model is that besides predicting the expected
- flighttimes for a given particel, it will also plot the trajectory of a
- given ion on its way trough the flighttube.
+ flight times for a given particle, it will also plot the trajectory of
+ a given ion on its way trough the flight tube.
  This means that it can used to illustrate various concepts of the instrument.
  
 \begin_inset Float figure
@@ -1079,7 +1079,7 @@ reference "fig:simulated_reflectron"
 \begin_inset Formula $E_{drift}=Z_{e}\left(V_{L}+V_{P}/2\right)$
 \end_inset
 
-, ions initially closer to the accelration plate will be faster, ions closer
+, ions initially closer to the acceleration plate will be faster, ions closer
  to the ground grid will be slower.
  This spread in energy inherently limits the resolution of a linear Time
  Of Flight instrument.
@@ -1095,7 +1095,7 @@ reference "fig:simulated_reflectron"
  the reflectron than the slower ions and thus compensate for the increased
  speed.
  The task for the constructor of is instrument is now to position the MCP
- in the focus point of the reflectrong, which is exactly the case in our
+ in the focus point of the reflectron, which is exactly the case in our
  instrument.
 \end_layout
 
@@ -1104,7 +1104,7 @@ Results
 \end_layout
 
 \begin_layout Standard
-Since the TOF was not orignally constructed for the microreactor system,
+Since the TOF was not originally constructed for the microreactor system,
  we did not have a long list of experiments to perform with this new piece
  of equipment.
  Rather the situation was the opposite, suddenly we had access to an unexpected
@@ -1133,8 +1133,8 @@ Benzene Hydrogenation
 \end_layout
 
 \begin_layout Standard
-For a vacuum physicist, Benzene is a frightening compund.
- Just the fact that it cointaint ns no less than 12 atoms (C
+For a vacuum physicist, Benzene is a frightening compound.
+ Just the fact that it contains ns no less than 12 atoms (C
 \begin_inset Formula $_{6}$
 \end_inset
 
@@ -1143,8 +1143,8 @@ H
 \end_inset
 
 ) is certainly enough to complicate turn a typical nice and clean mass-spectrum
- into a forrest of peaks on a number of very non-typical masses, the number
- of ways for benzene to crack on a filament is largeref
+ into a forest of peaks on a number of very non-typical masses, the number
+ of ways for benzene to crack on a filament is large
 \begin_inset CommandInset citation
 LatexCommand cite
 key "nist-benzene"
@@ -1152,7 +1152,7 @@ key "nist-benzene"
 \end_inset
 
 , and adding isotopic effect on top of this does not help the situation.
- The toal mass of 78
+ The total mass of 78
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -1161,7 +1161,7 @@ amu is also a complication in itself.
 \begin_inset space \thinspace{}
 \end_inset
 
-amu, the sensitivty is typically both poor and not especially well known
+amu, the sensitivity is typically both poor and not especially well known
  at masses much over 50
 \begin_inset space \thinspace{}
 \end_inset
@@ -1171,8 +1171,8 @@ amu.
  complicated, but at least it any sign of problems with the mass range is
  completely eliminated.
  Also the very high resolution is a great help since it completely eliminates
- crosstalk between adjacant masses wich can easily become a problem in a
- QMS, especially when the number of peaks in the mass spectrum is as high
+ cross talk between adjacent masses which can easily become a problem in
+ a QMS, especially when the number of peaks in the mass spectrum is as high
  as in the case of benzene.
  
 \end_layout

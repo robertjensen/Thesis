@@ -28,7 +28,7 @@
 \paperfontsize default
 \spacing single
 \use_hyperref false
-\papersize default
+\papersize a4paper
 \use_geometry false
 \use_amsmath 1
 \use_esint 1
@@ -73,11 +73,11 @@ name "chap:Sensitivity-measurements"
 \end_layout
 
 \begin_layout Standard
-One of the original design goals of the microeactors was that the reactors
+One of the original design goals of the microreactors was that the reactors
  should have a high sensitivity to able to measure on very small amounts
  of catalyst.
- However, during the measurements on the oscillations, we relized that we
- were able to reach full conversion on sample with even very small amounts
+ However, during the measurements on the oscillations, we realized that
+ we were able to reach full conversion on sample with even very small amounts
  of catalyst.
  At some point we realized that it would be interesting to test how small
  amount of catalyst we can actually get to full conversion.
@@ -90,7 +90,7 @@ Experimental procedure
 \end_layout
 
 \begin_layout Standard
-The experiment is in principle very simple, allthough rather time consuming.
+The experiment is in principle very simple, although rather time consuming.
  We had our good friends in the clean room make series of samples with consecuti
 vely smaller and smaller Pt-spots.
  The experiments was all performed by a procedure looking as follows:
@@ -129,7 +129,7 @@ Ref??
 
  than oxygen on Pt.
  Due to this high sticking coefficient, every free site on the sample will
- be imidiately occupied by CO once the sample is exposed to the reacting
+ be immediately occupied by CO once the sample is exposed to the reacting
  gas.
  The lack of free sites on the sample prevents oxygen from adsorbing on
  the catalyst and prevents the catalytic conversion.
@@ -156,14 +156,14 @@ this oxygen molecule will thus burn off two CO molecules and leave CO
  CO very suddenly.
  This phenomenon is what is known as lightoff and it has a clear experimental
  signature in the form of an extremely sudden onset of the reaction as well
- as significant temperature hysterises due to the fact that when the sample
+ as significant temperature hysteresis due to the fact that when the sample
  cools down it still has all the free sites and thus it will sustain conversion
  to far lower temperatures than the ignition temperature.
 \end_layout
 
 \begin_layout Standard
 As the spot size gets smaller and smaller, we need to go higher and higher
- in temperature to achive full conversion of the reacting gas.
+ in temperature to achieve full conversion of the reacting gas.
  As mentioned in chapter
 \begin_inset space ~
 \end_inset
@@ -211,12 +211,12 @@ Even though the experiment sound simple, data treatment is actually slightly
  This means that even for constant conversion (as would be the case for
  full conversion) the product signal in the mass-spec will drop.
  For the same reason, the residence time of the reactor will increase and
- thus the apparant activity of the reactor.
+ thus the apparent activity of the reactor.
  To correct for this effect, one will typically use the main chamber pressure
  as a measure of the capillary flow.
  However, this is also a non-trivial operation because of the way the pressure
  in measured in the chamber, namely by an ion gauge.
- Ion gauges meassures pressure by ionising the residual gas and the collect
+ Ion gauges measures pressure by ionizing the residual gas and the collect
  the ions on a thin collector wire in the center of the device, the pressure
  is then read as the current on the collector times a calibration factor
  
@@ -236,7 +236,7 @@ key "BAYARD1950"
 \begin_inset Formula $_{2}$
 \end_inset
 
-, compared to nitrogren the values are
+, compared to nitrogen the values are
 \begin_inset CommandInset citation
 LatexCommand cite
 key "gascorrection"
@@ -256,15 +256,15 @@ key "gascorrection"
 \begin_inset Formula $_{2}$
 \end_inset
 
- is the only gas to have a factor signifanctly different from 1, which means
- that we should expect to see the apparant chamber pressure to increase
+ is the only gas to have a factor significantly different from 1, which
+ means that we should expect to see the apparent chamber pressure to increase
  the sample get into lightoff.
  
 \end_layout
 
 \begin_layout Standard
 Besides correcting for the temperature dependence of the flow through the
- capiilary, it is also necessary to correct for the background signals in
+ capillary, it is also necessary to correct for the background signals in
  the mass-spectrometer.
  Since the experiments are run in a rather large oxygen excess, oxygen will
  always be present in the flow into the main chamber.
@@ -283,7 +283,7 @@ Besides correcting for the temperature dependence of the flow through the
 
 .
  The reason for this is, that the mass-spectrometer filament will always
- contain carbon and because of the very high temperature at the filmanet,
+ contain carbon and because of the very high temperature at the filament,
  this carbon will react rather efficiently with the oxygen and produce CO
 \begin_inset Formula $_{2}$
 \end_inset
@@ -301,7 +301,7 @@ Besides correcting for the temperature dependence of the flow through the
 Once all the correction are performed as well as possible, it is time to
  extract an activation energy and a prefactor for each platinum spot.
  The point of the experiment is to see how small the spot can be and still
- withhold a constant activation energy and a prefactor liniar dependant
+ withhold a constant activation energy and a prefactor linear dependent
  on the spot area.
  To do this, we fit the data to the the Arrhenius equation 
 \begin_inset Note Note
@@ -321,7 +321,7 @@ k=Ae^{-E_{a}/k_{b}T}
 
 \end_inset
 
-, which will give activation energy as well as the pre-factor.
+, which will give activation energy as well as the prefactor.
  The fitting is performed by a small python script which takes data from
  the CINF database and fits the data.
 \end_layout
@@ -331,37 +331,37 @@ Results
 \end_layout
 
 \begin_layout Section
-Lessones to be learned
+Lessons to be learned
 \end_layout
 
 \begin_layout Standard
-Besides the obviously interesting point in measureing how high the turn-over
+Besides the obviously interesting point in measuring how high the turn-over
  frequency can actually be, this results also put focus on the fact that
  extremely small amounts of catalyst can be responsible for much reactivity.
  In the case of the microreactors this is important in at least two ways.
- First of all it means, that we must be extremely carefull to avoid any
- kind of metal pollution in the reactor, especially platinum.
+ First of all it means, that we must be extremely careful to avoid any kind
+ of metal pollution in the reactor, especially platinum.
  This can be slightly more tricky that it sounds, since in the cleanroom,
  metal pollution in never far away, and we actually have seen examples of
  metal pollution in the reactors with any attempt to find the source being
  fruitless.
- Also, one should remeber that we have the heater on the backside of the
+ Also, one should remember that we have the heater on the backside of the
  reactor, which is made of Pt.
- It is of crucial importantance to be able to deposit this heater without
- even trace amount of Pt finding its way to the other side of the reactor.
+ It is of crucial importance to be able to deposit this heater without even
+ trace amount of Pt finding its way to the other side of the reactor.
  This is ensured by e-beam evaporating the Pt through a shadow mask.
  Other ways of depositing the heaters also exists, but these techniques
  often involves various wet-chemistry steps which means that small amounts
- of Pt could find its way from the backside to the frontside through the
- liquid fase.
+ of Pt could find its way from the backside to the front side through the
+ liquid phase.
 \end_layout
 
 \begin_layout Standard
 The other important lesson to be learned is that one should be extremely
- carefull when trying to apply in-situ methods.
+ careful when trying to apply in-situ methods.
  Even though in-situ methods is not easy to apply in a microreactor, we
- are continously considering our options in this field, since this would
- significantly increase the usefullness of the microreactors.
+ are continuously considering our options in this field, since this would
+ significantly increase the usefulness of the microreactors.
  However, even in the rather optimistic case, that we actually do succeed
  in finding methods that would provide in-situ information, the fact that
  such small areas of the reactor might, at least in some cases, be responsible
@@ -370,7 +370,7 @@ The other important lesson to be learned is that one should be extremely
  areas of the sample that is not actually doing the conversion.
  A technique with low spatial resolution might be easy to measure on the
  converting part of catalyst, but the signal to noise ration will be poor,
- potentially too low to see anyting.
+ potentially too low to see anything.
  A technique with better spatial resolution will give a much better signal
  to noise, but faces the where real risk of not seeing the relevant part
  of the sample at all.

@@ -70,7 +70,7 @@ In the first part of my Ph.D.
  I was not working with microreactors, but with a completely different system
  where the goal was to do non-thermal catalysis using a so-called Hot-Electron
  Device.
- The devices was originally devoloped at CINF by Ph.D.
+ The devices was originally developed at CINF by Ph.D.
  students Gunver Nielsen and Lasse Thomsen, who made a number of publication
  on the subject (
 \begin_inset CommandInset citation
@@ -112,7 +112,7 @@ key "GADZUK1991,GADZUK1995,Gadzuk1996"
  (that is, having more energy than what would be expected from the temperature
  of the material) electron directly at the reaction coordinate.
  In this way it would in principle be possible to do certain chemical reactions
- extremely efficiently since all aplied energy would go directly do the
+ extremely efficiently since all applied energy would go directly do the
  desired process and not as a general heating of the entire system.
  This would also in principle open a route to do extremely specific reactions
  even if they are thermodynamically competing with other unwanted reaction
@@ -137,7 +137,7 @@ reference "fig:hot_e-wafer"
 
 \end_inset
 
-) doped rather heavily with SB to achive a high conductance of the wafer,
+) doped rather heavily with SB to achieve a high conductance of the wafer,
  in fact the conductance is so high that for the relevant current densities,
  it will act more or less as a metal conductor.
  
@@ -261,8 +261,8 @@ reference "fig:hot_e-thickox"
 \end_inset
 
 .
- This oxide is grown as a co-called wet-oxide meaning that it is oxidzed
- in a wet atmosphere wich speeds up the process significantly.
+ This oxide is grown as a co-called wet-oxide meaning that it is oxidized
+ in a wet atmosphere which speeds up the process significantly.
  The price of the fast growth is that the quality of the oxide is rather
  poor, it contains a lot of defects and is general not nearly as good an
  insulator as perfect SiO
@@ -279,7 +279,7 @@ reference "fig:hot_e-thickox"
 \begin_layout Standard
 After the growth of the thick oxide, the area that is later to become the
  active area, is then back-etched in HF, with the rest of the oxide being
- protected by a protective layer applied by photolitography, figure
+ protected by a protective layer applied by photolithography, figure
 \begin_inset space ~
 \end_inset
 
@@ -407,9 +407,9 @@ At this point we have a device structure of an outer rim of thick oxide
  the bare wafer.
  Next step is to grow the final thin, high-quality oxide, that will work
  as the tunnel barrier.
- To do this, the wafers are first so-called RCA cleaned and imidiately after
- transfered into an extremely clean furnace where the the oxidtion is performed
- in a dry oxygen atmosphere, figure
+ To do this, the wafers are first so-called RCA cleaned and immediately
+ after transferred into an extremely clean furnace where the oxidation is
+ performed in a dry oxygen atmosphere, figure
 \begin_inset space ~
 \end_inset
 
@@ -426,7 +426,7 @@ reference "fig:hot_e-thinox"
  the performance of the device.
  It is thus extremely important that the cleaning is done right, and that
  absolutely no particles is contaminating the surface when the wafers are
- transfered into the furnace.
+ transferred into the furnace.
 \end_layout
 
 \begin_layout Standard
@@ -552,8 +552,8 @@ reference "fig:hot_e-backmetal"
 \begin_inset space \thinspace{}
 \end_inset
 
-nm Au on top of a few nanometers of Ti as an adheasion layer between the
- the silicon and the gold.
+nm Au on top of a few nm of Ti as an adhesion layer between the the silicon
+ and the gold.
  At this point the wafers are ready for the final step, which is to deposit
  the front side metal, figure
 \begin_inset space ~
@@ -579,8 +579,8 @@ Experimental setup
 
 \begin_layout Standard
 The experiments are performed in a standard UHV chamber, at CINF knows as
- the 'Volvo', the origin of name is slightly not completely clear to me,
- but apparently it started its life at a Swedish car manufacturer.
+ the 'Volvo', the origin of name is not completely clear to me, but apparently
+ it started its life at a Swedish car manufacturer.
  The chamber has a typical base pressure of 
 \begin_inset Formula $1\times10^{-10}$
 \end_inset
@@ -590,10 +590,10 @@ The experiments are performed in a standard UHV chamber, at CINF knows as
 \end_inset
 
 mbar and is pumped by a turbo pump ensuring a clean vacuum, the samples
- is mounted from a load-lock pumped by a seperate turbo, and it is thus
+ is mounted from a load-lock pumped by a separate turbo, and it is thus
  possible to change the samples without compromising the vacuum of the main
  chamber.
- A scematic drawing of the chamber is seen in figure
+ A schematic drawing of the chamber is seen in figure
 \begin_inset space ~
 \end_inset
 
@@ -610,7 +610,7 @@ reference "fig:volvo"
  This means that techniques such as XPS, ISS and TPDs are easily available.
  The ion guns can also be used for sputter cleaning samples, even though
  this is not a very good technique on the hot-electron devices since most
- sputtering proccesses will severely degrade the gate-oxide thus introducing
+ sputtering processes will severely degrade the gate-oxide thus introducing
  large leak-currents and possibly even destroying the device completely.
  
 \begin_inset Float figure
@@ -665,17 +665,17 @@ Results
 
 \begin_layout Standard
 The experimental work on the devices is divided into two main sections,
- hot-electron chemestry and free electron emission.
- The original goal for the project was to do hot-electron chemestry, but
+ hot-electron chemistry and free electron emission.
+ The original goal for the project was to do hot-electron chemistry, but
  as it turned out, that the device could be used as a fairly efficient electron
  emitter, some amount of work was also put into optimizing this property.
  The overall scope of the two lines of work are very different, the attempt
- to do chemestry is highly ambitious and could potentially have significant
- consequences if it was actually brougt to work.
+ to do chemistry is highly ambitious and could potentially have significant
+ consequences if it was actually brought to work.
  The free electron emission has a more technological perspective in areas
- of research or industri where one would like an electron source that is
+ of research or industry where one would like an electron source that is
  not heated to high temperatures like a filament.
- Very conviniently such an area of reseach is exactly many kinds of UHV
+ Very conveniently such an area of research is exactly many kinds of UHV
  science and therefore we where able to test this application directly in
  our own setup.
  The principle would be to try to run the mass-spectrometer with the hot-electro
@@ -685,7 +685,7 @@ n device as electron source for the ionization instead of the normal filament.
 rometer hardware contains various safety mechanisms that will prevent the
  mass-filter from operating when the filament is not turned on (properly
  this is because a non-operating filament is an indirect indication that
- the vacuum is somehow comprimised and it would then be dangeourous to turn
+ the vacuum is somehow compromised and it would then be dangerous to turn
  on the various voltages in the rod-system).
  However, a mail to Pfeiffer support revealed that this safety mechanism
  can be by-passed by connecting the filament wires to a resistor of approximatel
@@ -693,7 +693,7 @@ y
 \begin_inset Formula $1\,\Omega$
 \end_inset
 
- and connect the resitor to ground through approximately 
+ and connect the resistor to ground through approximately 
 \begin_inset Formula $100\, k\Omega$
 \end_inset
 

@@ -95,19 +95,19 @@ The classic UHV procedure for measuring surface area of a catalyst, is the
  pumping since only one gas species is involved, CO is dosed and CO is measured.
  In UHV this problem also exists but due to the generally very high pumping
  capacity of UHV chambers it is possible to bring down the CO background
- reasonobly fast.
+ reasonably fast.
  In the microreactors we have long pieces of 
 \begin_inset Formula $\frac{1}{4}"$
 \end_inset
 
- pibes which makes it difficult to eliminate the CO background after the
+ pipes which makes it difficult to eliminate the CO background after the
  dose.
  Thus one needs to do the TPD on this high background, with corresponding
  bad signal-to-noise or wait for a very long time, which is both inefficient
  and also includes the risk that some of CO might desorb while waiting unless
  the sample is cooled below room temperature.
  For all these reasons we wanted to find another method of area measurement,
- even if it means accepting the price of finding seperate methods for each
+ even if it means accepting the price of finding separate methods for each
  type of sample.
  
 \end_layout
@@ -161,13 +161,13 @@ reference "fig:area_thinfilm_example"
 \end_inset
 
 The solution we are using so far, is developed for Pt and will most likely
- not work for most other systemes, since it relies on the specific catalytic
+ not work for most other systems, since it relies on the specific catalytic
  properties of Pt.
  The idea is to circumvent the background problem by measuring other masses
  than what is dosed.
  This of course means that the process must involve a step of catalytic
  conversion between the dosed species into a product of another mass.
- Since Pt is so remarkably efficient at oxidizing CO, we chose a titrition-like
+ Since Pt is so remarkably efficient at oxidizing CO, we chose a titration-like
  procedure which in short looks like this:
 \end_layout
 
@@ -196,8 +196,7 @@ bar for 5
 \begin_inset space \thinspace{}
 \end_inset
 
-min) adsorbes a layler (the exact adsorbation mechanism is not entirely
- understood
+min) adsorbs a layer (the exact adsorption mechanism is not entirely understood
 \begin_inset Note Note
 status collapsed
 
@@ -210,7 +209,7 @@ Her skal nogle referencer om ilt på Pt ind!
 ) of oxygen on all free surface sites.
  This layer is very stable and will not desorb while the gas-phase oxygen
  is pumped and flushed away).
- In this way background is brought down signifcantly since we are now measuring
+ In this way background is brought down significantly since we are now measuring
  on a species that was not explicitly dosed.
  However, the background is not totally eliminated since both CO and O
 \begin_inset Formula $_{2}$
@@ -222,7 +221,7 @@ Her skal nogle referencer om ilt på Pt ind!
 
  in the mass-spec, however the signal to noise is much better than a pure
  TPD.
- In reallity the procedure is somewhat more complicated than described here,
+ In reality the procedure is somewhat more complicated than described here,
  since we also need to dos a carrier gas before the CO to ensure a proper
  flow from the reactor and into the capillary outlet, for this we typically
  use He.
@@ -248,7 +247,7 @@ reference "fig:area_procedure"
 C, in principle we can also run at room temperature, but since the conversion
  of adsorbed oxygen are much slower at this temperature, the slightly elevated
  temperature, significantly increases the signal to noise ratio.
- The actual choise of temperature is a comprimise between higher tempereture
+ The actual choice of temperature is a compromise between higher temperature
  which improves the measurement but might at the same time change the area
  we want to measure by e.g.
  sintering.
@@ -257,7 +256,7 @@ C, in principle we can also run at room temperature, but since the conversion
 \end_inset
 
 C seems to be a good compromise, signal is good and sintering is not expected
- to be relavant for Pt at this temperature
+ to be relevant for Pt at this temperature
 \begin_inset Note Note
 status open
 
@@ -330,7 +329,7 @@ reference "fig:area_procedure"
 \end_inset
 
 .
- This is a particularly simple example of two consequtive area measurements
+ This is a particularly simple example of two consecutive area measurements
  on a clean thin-film sample.
  
 \end_layout
@@ -920,7 +919,7 @@ MR108, 5nm, 40% coverage
 \end_layout
 
 \begin_layout Standard
-On this sample, we first tried to run a few area measuremetns before doing
+On this sample, we first tried to run a few area measurements before doing
  any attempts at cleaning the sample.
 \begin_inset Float figure
 wide false

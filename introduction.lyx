@@ -106,7 +106,7 @@ However, all these problems can also be seen as interesting challenges that
  Of course this will require inputs from many areas of research....
  ....
  ...
- Obviously heterogenous catalysis is only a small part of this very large
+ Obviously heterogeneous catalysis is only a small part of this very large
  and complicated field.
 \end_layout
 
@@ -127,8 +127,8 @@ n in housing, buildings with less demands for cooling, more tele-working
 However, it seems to be a law of nature that despite all efforts to lower
  energy consumption, on average the consumption integrated over the entire
  world, inevitable goes up.
- This means that it will be neseccary to find ways of producing fairly cheap
- energy, preferebly without resorting the fossil fuels even more polluting
+ This means that it will be necessary to find ways of producing fairly cheap
+ energy, preferably without resorting the fossil fuels even more polluting
  than what we are currently using.
  Also in this field several candidates exists that is fully capable of providing
  substantial (if not complete) parts of the worlds total energy consumption.
@@ -155,19 +155,19 @@ MW (although it seems that turbines even as large as 6 or 7
 \end_inset
 
 MW are soon entering the market).
- With typical capacity factors between 0.25 and 0.33 it seems reasonoble to
- take on avarage 
+ With typical capacity factors between 0.25 and 0.33 it seems reasonable to
+ take on average 
 \begin_inset Formula $P_{turbine}=1\,\mbox{MW}$
 \end_inset
 
 .
- These convinient choise of numbers puts us with a needed number of wind
+ These convenient choice of numbers puts us with a needed number of wind
  turbines to satisfy the worlds energy needs of 
 \begin_inset Formula $2\times10^{13}/1\times10^{6}=10^{7}$
 \end_inset
 
  wind turbines, not including energy storage loss.
- The design lifetime of almost all windturbines on the market is 20 years
+ The design lifetime of almost all wind turbines on the market is 20 years
  (which in the real world seems to be a lower limit on the lifetime).
  This gives us a final number of the required number of wind turbines pr.
  year to be 
@@ -202,7 +202,7 @@ key "btmconsult"
 \end_inset
 
 , typical prices for cabling and mounting end up with a total price between
- 2 and 5 times higher than this, a conservatime estimate of total cost would
+ 2 and 5 times higher than this, a conservative estimate of total cost would
  thus be 
 \begin_inset Formula $10^{7}\text{£}/\mbox{MW}$
 \end_inset
@@ -212,7 +212,7 @@ key "btmconsult"
  yearly price of proving 100% wind energy to the entire world:
 \begin_inset Formula 
 \[
-\mbox{Total\, cost}\sim2\times10^{6}\times10^{7}=2\times10^{13}\,\text{£}/\mbox{y}
+\mbox{Total\,\ cost}\sim2\times10^{6}\times10^{7}=2\times10^{13}\,\text{£}/\mbox{y}
 \]
 
 \end_inset
@@ -247,8 +247,9 @@ key "world_gdp"
 \end_inset
 
  includes every single watt consumed by the world for any purpose.
- Realisticly, the amount of power needed will be well lower than this since
- not all of the worlds energy conumption is currently fossil fules 
+ Realistically, the amount of power needed will be well lower than this
+ since not all of the worlds energy consumption is currently fossil fuels
+ 
 \begin_inset Note Note
 status open
 
@@ -262,7 +263,7 @@ Mere om energiformer.
 \end_layout
 
 \begin_layout Standard
-Finally, it might be resonable to ask not only to the economics but more
+Finally, it might be reasonable to ask not only to the economics but more
  relevant (and interesting) also to discuss the actual physical energy resource,
  given enough money and good will, is the world even big enough to provide
  space for 
@@ -287,14 +288,14 @@ Mere her...
 \end_layout
 
 \begin_layout Section
-Microreactors for Heterogenous Catalysis
+Microreactors for Heterogeneous Catalysis
 \end_layout
 
 \begin_layout Standard
 As the title of this thesis indicates, the main part of this work has not
  so much been on actual scientific results as it has been centered around
- creating a world-class experimental setup for testing many kinds of heterogenou
-s catalysis.
+ creating a world-class experimental setup for testing many kinds of heterogeneo
+us catalysis.
  
 \end_layout
 
