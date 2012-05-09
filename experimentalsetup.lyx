@@ -621,6 +621,22 @@ Ref?
  flanges.
  The tube is equppied with severeal mini-cf flanges for mounting electrical
  connections and a thermocouple.
+ Pressure is measured using a KMS 925 MicroPirani
+\begin_inset CommandInset citation
+LatexCommand cite
+key "kms_pirani"
+
+\end_inset
+
+, which will measure from 
+\begin_inset Formula $10^{-5}$
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+mbar to atmosphere and contains a serial communication interface.
  The gas handling is implemented as 
 \begin_inset Formula $\frac{1}{4}"$
 \end_inset
@@ -633,7 +649,27 @@ Ref?
 
  flange (that is, the 'lid' of the construction) we currently have to choises.
  Either we can mount a full-sized window providing optical contact to the
- sample, or a traditional 
+ sample, or a traditional blind flange with a hole drilled by our wonderfull
+ workshop at the position exactly above the sample.
+ Here we can mount a 2
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+CHECK.....
+\end_layout
+
+\end_inset
+
+ Germanium wafer.
+ Since Germanium is transparent in the infrared part of the light-spectrum
+ this window allows us to take thermographic images of the sample under
+ vacuum.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -653,7 +689,162 @@ Replacing the manual valves with pneumatically controled valves was a high
 \end_layout
 
 \begin_layout Standard
-Better pumping of tubing
+Another great advantage of pneumatic valves is that it opens up for much
+ better pumping of the tubing.
+ On the old setup, det only way to evacuate the gas-system doing an experiment
+ is to set the pressure controller to 0 and pump out through the sample.
+ Since this is an extremely bad pumping route it takes very long time to
+ pump down in this way.
+ In the new design, we have attached pneumatic valves that will allow direct
+ acess through 
+\begin_inset Formula $\frac{1}{4}"$
+\end_inset
+
+ tubes between the gas system and the buffer volume allow for much better
+ and faster pumping.
+\end_layout
+
+\begin_layout Standard
+Experimentally it takes a bit of work to operate pneumatic valves.
+ The valves we have chosen are from Swagelok 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Find model
+\end_layout
+
+\end_inset
+
+ because we know them to be leak-tight and because the have the same dimensions
+ as the manual valves we have typically been using.
+ These valves are typically normally-closed by a spring load and will open
+ by applying pressurized air at approximately 3
+\begin_inset space \thinspace{}
+\end_inset
+
+bars.
+ This means we need a way of actuaing the pressurized air which is most
+ easily done by solenoiodal valves since they be directly electrically controlle
+d.
+ However, to have sufficiently dynamic range on the solenoid to be able
+ to both open and close sufficiently well, a rather high voltage of typically
+ 24
+\begin_inset space \thinspace{}
+\end_inset
+
+V is needed.
+ Since in the end we want to control this programtically, we need a computer
+ contolled 24
+\begin_inset space \thinspace{}
+\end_inset
+
+V supply wich is not cheaply available.
+ For this reason we decied to have our electronic workshop build a truly
+ wonderfull 20 channel 5
+\begin_inset space \thinspace{}
+\end_inset
+
+V to 24
+\begin_inset space \thinspace{}
+\end_inset
+
+V converter which allows us to control the entire thing using standard TTL
+ 5
+\begin_inset space \thinspace{}
+\end_inset
+
+V signals which is very easily available.
+ In practice we use National Instrument DAQ-cards but many other options
+ are available for this kind of task.
+ In the end the procedure of opening a single valve may sound rather compicated;
+ Computer 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+5
+\begin_inset space \thinspace{}
+\end_inset
+
+V
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+24
+\begin_inset space \thinspace{}
+\end_inset
+
+V
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+solenoid valve
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+pressurized air
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+valve opening.
+ However in practice it works like a charm and problems with the intermediate
+ steps are basically limited to the inital wiring which does take quite
+ a lot of work.
+\end_layout
+
+\begin_layout Subsection
+Pumps
+\end_layout
+
+\begin_layout Standard
+The new setup consists of no less than three seperate vacuum chambers and
+ including the old setup we end up at five chambers.
+ Each of these chambers are equipped with seperate turbo pumps bringing
+ us to a total of five turbo pumps.
+ Each turbo of course needs a corresponding roughing pump, and we also need
+ a roughing pump to pump down the containment volume every time a smple
+ is changed, ending up at a total of six roughing pumps to cover all the
+ needs.
+ But adding six roughing pumps to the system is not really a realistic option,
+ partly because roughing pumps are expensive and partly because of very
+ low-tech problems regarding having so many roughing pumps in lab.
+ For this reason we have designed the system in a way, where 'only' three
+ rouginh pumps are needed to run both microreactor system.
+ One pump is shared between the main chambers of the old and the NG setup.
+ Since the main chambers are true UHV chambers, the gas-load is low and
+ we have no problems with pumping capacity.
+ Backflow of gas between the two chambers through the shared roughing line
+ can be a small problem, but modern tubo pumps have very high compression
+ and thus the problem is basicly limited to hydrogren, which actually can
+ backflow through a turbo.
+ However, this has not turned out to give real-world problems since we do
+ not use hydrogen very often and thus using it on both chambers at the same
+ time is a very unlikely event.
+ The second roughing pump is dedicated to the buffer volume of the old setup
+ and is simply mounted directly on the turbo with suitalbe tee-pieces and
+ valves to allow pumping down the buffer volume from atmosphere if nescessary.
+ This pump also backs the Time-Of-Flight instrument when it is attached
+ to the microreactorsystem.
+ The third roughing pump backs the buffer turbo of the NG chamber as well
+ as the tubo pump on the containment volume.
+ However, this is also the pump that does the inital pumping of the containment
+ volume every time it is vented to change the sample.
+ To achive this we need to close the valves to the turbos while pumping
+ down since the roughing pressure will temporarely be way to high for the
+ turbos.
+ Since we change samples quite often we soon relized that we need an automatic
+ procedure for this opening and closing of the valves behind the two turbos.
+ 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Find fabrikat på automatisk kf-ventil
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -661,7 +852,51 @@ Other improvements
 \end_layout
 
 \begin_layout Standard
-Cooling...
+Besides the obvious improvements we wanted for the NG setup, we also added
+ a number exrta features which are not quite as much need-to-have but are
+ nonetheless nice and usefull additions to the setup.
+ First of all we added a thick cupper feed-through connected to a cupper
+ braid endning in a thin cupper plate that can be mechanically positioned
+ on top of the sample.
+ By cooling the feed-through from the outside of the containment we are
+ thus able to cool the sample which can sometimes be convinient.
+ The lowest achivable temperature has not been really tested yet, but most
+ likely the limit will be set by the o-rings which will not go much lower
+ than ...
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Find tallet!!! 
+\end_layout
+
+\end_inset
+
+ depending on the choise of o-ring material.
+\end_layout
+
+\begin_layout Standard
+Another usefull modification that has so far been used way to little is
+ the addition of a sniffer line from the reactor outlet via a computer actuated
+ leak valve into the main chamber.
+ The line is implemented as a 
+\begin_inset Formula $\frac{1}{8}"$
+\end_inset
+
+ gas-line that connects the reactor outlet to the main chamber via the leak
+ valve.
+ It is very important that the line is as short as possible and with a small
+ diameter since this lines contains the gas mixture of the experiment at
+ high pressures, and since this mixture might be explosive or poisonous
+ the total volume should be minimized.
+ The advantage of the line is that is open up the option of doing in-situ
+ blank experiments without removing the sample.
+ Since mass spectrometers can give results that can be slightly difficult
+ to interpret, it is often nescessary to do a blank experiments to judge
+ the mass-spec signal from just the reactants with no catalyst available.
+ However, with the sniffer line it is actually possible to do this test
+ without changing the sample.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -670,6 +905,80 @@ Better heat distribution, optical acess to sample
 
 \begin_layout Subsection
 Safty mechanisms
+\end_layout
+
+\begin_layout Standard
+Because all our valves are pneumaticly activated, we have the option of
+ implementing a number of safty mechanisms which will protect the equipment
+ if something goes wrong.
+ These mechanisms fall in two distinct catagories, one is the software controlle
+d cheks which reley which will programatically intervene in the experiment
+ if some parameter fall outside of the allowed range.
+ The other type is the purely electrical mechanisms which will close relevant
+ valves bases purely on hardware based triggers.
+\end_layout
+
+\begin_layout Standard
+The programatially controlled safte features includes that the software
+ will continously monitor the pressure in the containment volume, if the
+ pressure becomes too high, typically beceause of bonding errors, the software
+ will prevent heating of the sample.
+ This is done to prevent gas-convection to transport heat to the 
+\begin_inset Formula $8"$
+\end_inset
+
+ glass lid which will not survice too large temperature gradients.
+ 
+\end_layout
+
+\begin_layout Standard
+The purely electrical safty features are of course the most important, since
+ they will react much faster and much more reliable than the software will
+ be able to, espcially because the need of activating a safty feature might
+ easily be due to bugs in the software.
+ The system is based on setpoints on the gauge controller.
+ The controller (Agilent XGS600
+\begin_inset CommandInset citation
+LatexCommand cite
+key "xgs600"
+
+\end_inset
+
+) contains 8 so-called open-collector outputs which will turn on or off
+ based on pre-programmed pressure ranges.
+ The electronic workshop has build an 8-channel open-collector
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+24
+\begin_inset space \thinspace{}
+\end_inset
+
+V box which will open or close the pneumatic valves based on the setpoints.
+ This means that the main chamber valve will close immidiately if the pressure
+ in the main chamber exceeds a pre-programmed pressure, typically we set
+ the safety limit to 
+\begin_inset Formula $10^{.6}$
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+mbar.
+\end_layout
+
+\begin_layout Standard
+For the containment and buffer volume, the check is done on the roughing
+ lines since the pirani gauges mounted directly on the chambers is not read
+ out by the XGS controller.
+ The typical safty limit for these chambers is 1
+\begin_inset space \thinspace{}
+\end_inset
+
+mbar in the roughing line, if the pressure exceeds this value, it is assumed
+ we have a too large leak and the valves above the turbos will be closed.
+ 
 \end_layout
 
 \begin_layout Section
