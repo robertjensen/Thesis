@@ -414,7 +414,7 @@ reference "fig:thermographic_old_heater"
  is was done by manually placing a thermocouple on top the sample.
  The combination of non-consistent point heating from the backside and non-consi
 stent position on the front side obviously resulted in very large uncertainties
- of the temperature, not what one wants in heterogeneous catalysis...
+ of the temperature, not what one wants in heterogeneous catalysis.
 \begin_inset Float figure
 wide false
 sideways false
@@ -475,11 +475,31 @@ reference "fig:reactor_new_heating_scheme"
 \begin_inset space \thinspace{}
 \end_inset
 
-nm of Pt on top of an adhesion layer of ??
+nm
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+CHECK
+\end_layout
+
+\end_inset
+
+ of Pt on top of an adhesion layer of ??
 \begin_inset space \thinspace{}
 \end_inset
 
-nm of Ti through a shadow-mask.
+nm
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+CHECK
+\end_layout
+
+\end_inset
+
+ of Ti through a shadow-mask.
  This deposition method guarantees that absolelutely no Pt finds its way
  to the front-side of the reactor, this is very important since as it is
  demonstrated in chapter
@@ -567,6 +587,137 @@ C.
  The problem is instead the power supply for the heating as well as the
  rather high current densities in the heater.
  
+\end_layout
+
+\begin_layout Section
+Operating the RTD-heater
+\end_layout
+
+\begin_layout Standard
+As seen in figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:reactor_new_heating_scheme"
+
+\end_inset
+
+ the combined heater and RTD is implemented as a Pt strip with four contacts.
+ Temperature is thus measured as the four point restance of the Pt strip
+ calibrated to a thermocouple at room temperature.
+ The thermocouple stays on top of the sample for the entire measurement,
+ even though it will not record the correct temperature, the apparant temperatur
+e will still be a consistent function of the actual temperature and thus
+ the TC can be used as a sanity check of the RTD measurement.
+ The challenge now is to heat the sample through the same Pt strip while
+ still being able to measure the resistance reliably.
+ To do this one essentially needs a Source-Measure instrument to ensure
+ perfect synchronisation between the measurement of the voltage and current.
+ In our case we use a Keithley
+\begin_inset space ~
+\end_inset
+
+2635A
+\begin_inset space ~
+\end_inset
+
+SMU
+\begin_inset CommandInset citation
+LatexCommand cite
+key "smu"
+
+\end_inset
+
+ which will source up to 1.5
+\begin_inset space \thinspace{}
+\end_inset
+
+A at 20
+\begin_inset space \thinspace{}
+\end_inset
+
+V.
+ This is sufficient to reach temperatures around 400
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C.
+ The sample is contacted through four pogo-pins mounted in a cheramic holder
+ that mounted with four screws that can be individually adjusted to ensure
+ good contact of all four pins.
+ To increase the maximum achieveble temperature and to measure a slightly
+ more realistic temperature from the thermo couple, two layers of insulation
+ is placed on top of the sample.
+ This insulation should also help a bit on the temperaure distribution.
+\end_layout
+
+\begin_layout Section
+Temperature profiles
+\end_layout
+
+\begin_layout Standard
+Originally we expected that the integreted heater would magically solve
+ all our temperature distribution problems.
+ The idea was that the very high heat conductance of sillicon would ensure
+ that the power delivered to the strip was evenly distributed to the sample.
+ However in hindsight it is easy to see that this was a rather naive expectation
+, in reallity we have a quite large heat gradient across the sample.
+ Fortunately, sine we are measuring the temperature at exectly the same
+ place as we are heating, we are most likely not under-estimating the temperatur
+e.
+ More likely are we measuring the absolute highest temperature with all
+ other parts of the reactor being colder than the measured temperature and
+ thus we tend to under-estimate the performance of a given catalyst under
+ test because onlt a fraction of the sample is a the expected temperature.
+\end_layout
+
+\begin_layout Section
+New heater
+\end_layout
+
+\begin_layout Standard
+The problem with the current design is that the SMU is a very expensive
+ way of performing an operation as simple as sourcing current for a heating
+ element.
+ This also means that it is hard for us to increase the temperature further
+ since Source-Measure instruments that will source more power is even more
+ exspensive.
+ At the same time we have the problem with non-uniform heatnig which also
+ hints that we might need a new design for the heater.
+ The reason we originally combined all functions into a single strip was
+ that we were afraid that we would get problems contacting the samples if
+ we had too many contacts on the rather small area.
+ However the experience gained from operating the heater is, that contacting
+ is really not too much of a problem.
+ For this reason we have recently designed a new heating system based on
+ the experience gained from the old heater.
+ This time we have three seperate heating element as well as a four-point
+ RTD directly under the reactor volume.
+ This means that we can now measure RTD using standard (and cheap) DMMs
+ and the heating can be performed with real power supplies and thus we no
+ longer have problems sourcing enough power into the sample.
+ Besided the changes in the hearing itself, we also increased the length
+ of the sample from ?? to ??
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+CHCEK
+\end_layout
+
+\end_inset
+
+ to increase the distance between the sample and the heat sink in the mounting
+ block.
+\end_layout
+
+\begin_layout Standard
+As an evidence that we no longer have problems sourcing enough power, figure
+ ??? shows an image of a sample that was accidentially heating too high,
+ it is evident that the lid has melted.
 \end_layout
 
 \end_body
