@@ -123,8 +123,7 @@ nL, meaning that we are able to measure on very small amounts of catalyst,
 
 \begin_layout Itemize
 Only very small amounts of the reacting gasses needs to be mixed, meaning
- that potentially explosive mixtures can be measured without rising safety
- issues
+ that potentially explosive mixtures can be measured without safety issues
 \end_layout
 
 \begin_layout Itemize
@@ -135,6 +134,46 @@ The thermal mass is very low, and the temperature of the reactor can therefore
 \begin_layout Itemize
 The glass lid of the reactor gives easy optical contact to the catalyst,
  meaning that the reactor can be used for photo-catalysis.
+\end_layout
+
+\begin_layout Itemize
+The diffusion length of the reactants and products gases in the microreactor
+ reactor volume is almost an order of magnitude longer than the radius of
+ the reactor volume ensuring full contact of the gas with the catalyst.
+ We have tested this property by repeating CO oxidation measurements on
+ small Pt spots located at different points in the the reactor volume, all
+ spots are able to achive full conversion thus showing that the gas is optimally
+ mixed in the reactor
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Ref til Zubyers afhandling
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+The two gas inlets are combined on the chip where the inlet gases mix by
+ diffusion.
+ The capillary is designed such that approximately 
+\begin_inset Formula $3\times10^{14}$
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+molecules/s are probed from the reactor volume when operated at 1
+\begin_inset space \thinspace{}
+\end_inset
+
+bar.
+ Any surplus of gas from the two inlets that does not enter the reactor
+ volume is directed through an outlet to a turbo pump.
 \end_layout
 
 \begin_layout Standard
