@@ -167,7 +167,14 @@ The two gas inlets are combined on the chip where the inlet gases mix by
 \begin_inset space \thinspace{}
 \end_inset
 
-molecules/s are probed from the reactor volume when operated at 1
+molecules/s
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Toke-phd"
+
+\end_inset
+
+ are probed from the reactor volume when operated at 1
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -260,6 +267,88 @@ Interface block...
 
 \begin_layout Standard
 Flow controllers
+\end_layout
+
+\begin_layout Standard
+The reactor has a fairly short residence time which can easily be estimate
+ from the known values of the volume and the gas flow through the capillary.
+ Since one mole of ideal gas has a volume of 24
+\begin_inset space ~
+\end_inset
+
+L at room temperature, we can easily find the number of molecules in the
+ reactor:
+\begin_inset Formula 
+\[
+N_{reactor}=\frac{240\times10^{-9}\,\mbox{L}}{24\mbox{L}}N_{A}=10^{-8}\cdot N_{A}=6\times10^{15}\,\mbox{molecules}
+\]
+
+\end_inset
+
+giving a residence time of 
+\begin_inset Formula 
+\[
+T_{res}=\frac{6\times10^{15}}{3\times10^{14}\mbox{s}^{-1}}=20\,\mbox{s}
+\]
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Der er da vist noget der skal opklares...
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Bonding
+\end_layout
+
+\begin_layout Standard
+Once the reactor is made in the clean room and the wanted catalyst to be
+ tested is deposited in the reactor volume, the sample of course needs to
+ be sealed to form a complete reactor.
+ This is done through the process of anodic bonding, which is thoroughly
+ described in earlier theses from the group and will only very briefly describe
+ it here.
+ The point in anodic bonding is hermeticly seal a pyrex lid to a silicon
+ wafer which is done by applying a high potential to the lid compared to
+ the silicon and heat the structure to a temperature where the pyrex becomes
+ ionically conductiong, which happens around 
+\begin_inset Formula $\sim$
+\end_inset
+
+280
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C.
+ In this configuration ions from the lid will be transported to the wafer
+ and at the same time forming strong chemical bonds that seals the lid to
+ the wafer.
+ Once the bonding is complete it will be so strong that the interface will
+ not be any weaker than the rest reactor structure.
+ Unfortunately no method of reversing the process is known and thus the
+ lid cannot be removed from the sample, once the bonding is performed.
+ In the microreactors, we often deposit samples that we do not want to heat,
+ especially not in air, and for that reason, we often do a so called cold-bondin
+g method, which was developed here at CINF
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Vesborg2010"
+
+\end_inset
+
+.
+ When cold bonding, the reactor is carefully positioned on top of a cold-finger
+ which will keep the reactor area at temperatures close to room temperature
+ while the rest of the sample is heated and thus protects the sample.
 \end_layout
 
 \begin_layout Section

@@ -96,6 +96,11 @@ Better software: Most of the software is currently written as a few rather
 \end_layout
 
 \begin_layout Itemize
+Mounting for a microscope on the NG setup.
+ 
+\end_layout
+
+\begin_layout Itemize
 Adding an optional pumping path between the buffer chambers and the turbo.
  Currently the buffer chambers are pumped by a turbo pump through 
 \begin_inset Formula $1/4"$
