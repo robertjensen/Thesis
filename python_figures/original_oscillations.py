@@ -60,20 +60,21 @@ fig.set_size_inches(fig_width,fig_height)
 
 
 xlim = [(900,1000),(950,980)]
-
+xticks = [(920,940,960,980),(955,960,965,970,975)]
 for i in range(0,2):
     axis_array.append(fig.add_subplot(2,1,i+1))
     axis_array[i].plot(data['M28'][:,0], data['M28'][:,1], 'r-')
     axis_array[i].plot(data['M44'][:,0], data['M44'][:,1], 'b-')
     axis_array[i].set_ylim(0,0.5)
     axis_array[i].set_xlim(xlim[i])
-    
+    axis_array[i].set_xticks(xticks[i])
+    axis_array[i].set_yticks((0.1,0.2,0.3,0.4))
     
     axis_array[i].tick_params(direction='in', length=d.ticklength, width=2, colors='k',labelsize=d.labelsize,axis='both',pad=d.pad)
     
-axis_array[0].set_ylabel('Ion Current / nA', fontsize=d.y_axis_font)
-axis_array[1].set_ylabel('Ion Current / nA', fontsize=d.y_axis_font)
-axis_array[0].set_xlabel('Time / Minutes', fontsize=d.x_axis_font)
+axis_array[0].set_ylabel('SEM Curr. / nA', fontsize=d.y_axis_font)
+axis_array[1].set_ylabel('SEM Curr. / nA', fontsize=d.y_axis_font)
+#axis_array[0].set_xlabel('Time / Minutes', fontsize=d.x_axis_font)
 axis_array[1].set_xlabel('Time / Minutes', fontsize=d.x_axis_font)
 #plt.show()
 plt.savefig('../svg_figures/original_oscillation_zoom.svg')

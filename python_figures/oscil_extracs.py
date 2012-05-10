@@ -17,9 +17,9 @@ data['TEMPERATURE'] = np.array(cursor.fetchall())
 fig = plt.figure()
 fig.subplots_adjust(left=d.left_room) 
 fig.subplots_adjust(bottom=d.bottom_room)
-fig.subplots_adjust(right=d.right_room) 
+fig.subplots_adjust(right=d.right_room*0.95) 
 
-ratio = d.ratio
+ratio = 1
 fig_width = d.width
 fig_width = fig_width /2.54     # width in cm converted to inches
 fig_height = fig_width*ratio

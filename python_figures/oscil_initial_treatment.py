@@ -17,9 +17,9 @@ data['TEMPERATURE'] = np.array(cursor.fetchall())
 fig = plt.figure()
 fig.subplots_adjust(left=d.left_room) 
 fig.subplots_adjust(bottom=d.bottom_room)
-fig.subplots_adjust(right=d.right_room) 
+fig.subplots_adjust(right=d.right_room*0.95) 
 
-ratio = d.ratio
+ratio = d.ratio*1.3
 fig_width = d.width
 fig_width = fig_width /2.54     # width in cm converted to inches
 fig_height = fig_width*ratio
@@ -76,7 +76,7 @@ axis2.plot(data['TEMPERATURE'][:,0], data['TEMPERATURE'][:,1], 'b-')
 axis2.set_ylim(0,300)
 #axis2.set_yticks((170,180,190,200))
 axis.set_xlim(460,490)
-axis.set_ylabel('SEM Current / nA', fontsize=d.y_axis_font)
+axis.set_ylabel('SEM Curr. / nA', fontsize=d.y_axis_font)
 axis2.set_ylabel('', fontsize=d.y_axis_font)
 axis.set_xticks((465,475,485))
 axis2.set_yticks(())

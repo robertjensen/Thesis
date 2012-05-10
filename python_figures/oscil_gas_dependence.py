@@ -32,8 +32,9 @@ steps = len(flow_sections)
 fig = plt.figure()
 fig = plt.figure()
 fig.subplots_adjust(left=d.left_room) 
-fig.subplots_adjust(bottom=d.bottom_room)
-fig.subplots_adjust(right=d.right_room) 
+fig.subplots_adjust(bottom=0.075)
+fig.subplots_adjust(right=d.right_room*0.95) 
+fig.subplots_adjust(hspace=0.25)
 
 ratio = 1.5
 fig_width = d.width
@@ -60,16 +61,22 @@ for i in range(0,steps-1):
         axis2_array[i].set_yticks(())
 
     if i%3 == 2:
-        axis2_array[i].set_ylabel('CO/O$_2$-ratio', fontsize=d.y_axis_font)    
+        axis2_array[i].set_yticks((0.05,0.15,0.25))
 
     if i == 16:
         axis_array[i].set_xlabel('Time / Hours', fontsize=d.x_axis_font)    
+
+    if i == 9:
+        axis_array[i].set_ylabel('SEM Current / nA', fontsize=d.y_axis_font)    
+
+    if i == 11:
+        axis2_array[i].set_ylabel('CO/O$_2$-ratio', fontsize=d.y_axis_font)    
 
     if i%3 > 0:
         axis_array[i].set_yticks(())    
     else:
         axis2_array[i].set_yticks(())
-        axis_array[i].set_ylabel('SEM Current / nA', fontsize=d.y_axis_font)    
+        axis_array[i].set_yticks((0.4,0.8,1.2))
     
     st = math.ceil(flow_sections[i])
     axis_array[i].set_xticks((st,st+1,st+2,st+3))

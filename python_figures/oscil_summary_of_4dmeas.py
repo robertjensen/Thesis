@@ -46,10 +46,11 @@ fig.set_size_inches(fig_width,fig_height)
 
 axis = fig.add_subplot(1,1,1)
 axis.plot(oscillations, periods, 'b.')
+axis.set_ylim(0,50)
+"""
 #axis.plot([750,6000],[1.8,17],'r-')
 #axis.plot([750,5000],[5,43],'r-')
 range = np.arange(700,6500)
-
 fitfunc = lambda p, x: p[0]*(x**p[1])+p[2]       # Target function
 errfunc = lambda p, x, y: fitfunc(p, x) - y # Distance to the target function
 p0 = [0.2,0.6,2] # Initial guess for the parameters
@@ -60,6 +61,7 @@ axis.plot(range,p1[0]*(range**(p1[1]))+p1[2],'r-')
 p1, success = optimize.leastsq(errfunc, p0[:], args=([500,1000,2000,4000,6000],[0,2,9,11,16]),maxfev=1000)
 print p1, success
 axis.plot(range,p1[0]*(range**(p1[1]))+p1[2],'r-')
+"""
 #axis.plot(data['M28'][:,0], data['M28'][:,1], 'r-')
 #axis.plot(data['M44'][:,0], data['M44'][:,1], 'b-')
 #axis.set_ylim(0,7)
@@ -71,9 +73,9 @@ axis.grid(False)
 axis.set_ylabel('Oscil. period / minutes', fontsize=d.y_axis_font)
 axis.set_xlabel('Time / min', fontsize=d.x_axis_font)
 
-a = plt.axes([.18, .65, .3, .15], axisbg='w')
+a = plt.axes([.2, .65, .3, .15], axisbg='w')
 a.plot(oscillations, periods, 'b,')
-a.tick_params(direction='in', length=d.ticklength, width=2, colors='k',labelsize=d.labelsize,axis='both',pad=d.pad)
+a.tick_params(direction='in', length=d.ticklength, width=2, colors='k',labelsize=d.labelsize-1,axis='both',pad=d.pad)
 plt.setp(a, xlim=(700,1500), ylim=(2,8),xticks=[900,1100,1300], yticks=[3,5,7])
 
 #plt.tight_layout()
