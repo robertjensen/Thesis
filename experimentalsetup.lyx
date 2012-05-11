@@ -97,13 +97,6 @@ key "Toke-phd"
 \end_inset
 
 .
- In summary the device is a clean-room fabricated silicon chip with two
- gas-inlets, a outlet carrying the main gas-flow out of the reactor and
- a reactor area with a small outlet capillary which is connected to a mass
- spectrometer.
- Once the catalyst to be tested is positioned in the reactor area (this
- can be done in a number of ways), the reactor is closed by anodically bonding
- a pyrex lid to the sample.
  The clever idea about the design is that even though most of the incoming
  gas-flow is pumped away immediately, every molecule that actually enters
  the reactor area, will be led into the mass spectrometer and thus the sensitivi
@@ -113,7 +106,7 @@ ty of the device is very high.
 \end_layout
 
 \begin_layout Itemize
-The total volume of the reactor is just 240
+The total volume of the reactor is just 2360
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -188,6 +181,19 @@ Of course the design also has it downsides, the most import problem is properly
  the fact that it is almost impossible to apply any traditional surface
  science technique on the catalyst because the reactor it is hermetically
  sealed and no easy way of opening the lid is known.
+ Also the maximum temperature achivabel is much lower than in traditional
+ UHV-setups.
+ We are ultimately limited by the melting point of the lid which is on the
+ order of 
+\begin_inset Formula $\sim650^{\circ}$
+\end_inset
+
+C, traditional UHV setups have no problems reaching temperature well above
+ 1000
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C.
 \end_layout
 
 \begin_layout Section
@@ -317,7 +323,7 @@ Once the reactor is made in the clean room and the wanted catalyst to be
  This is done through the process of anodic bonding, which is thoroughly
  described in earlier theses from the group and will only very briefly describe
  it here.
- The point in anodic bonding is hermeticly seal a pyrex lid to a silicon
+ The point in anodic bonding is to hermeticly seal a pyrex lid to a silicon
  wafer which is done by applying a high potential to the lid compared to
  the silicon and heat the structure to a temperature where the pyrex becomes
  ionically conductiong, which happens around 
@@ -333,12 +339,12 @@ C.
  and at the same time forming strong chemical bonds that seals the lid to
  the wafer.
  Once the bonding is complete it will be so strong that the interface will
- not be any weaker than the rest reactor structure.
+ not be any weaker than the rest of the reactor structure.
  Unfortunately no method of reversing the process is known and thus the
  lid cannot be removed from the sample, once the bonding is performed.
  In the microreactors, we often deposit samples that we do not want to heat,
- especially not in air, and for that reason, we often do a so called cold-bondin
-g method, which was developed here at CINF
+ especially not in air, and for that reason, we often use a so called cold-bondi
+ng method, which was developed here at CINF
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Vesborg2010"
@@ -361,7 +367,7 @@ Since I was not the first Ph.D.
 \begin_inset Formula $\mu$
 \end_inset
 
--reactor setup, I did not built the original experimental setup.
+-reactor setup, I did not build the original experimental setup.
  The original setup is extensively described in the theses of Peter Vesborg
  
 \begin_inset CommandInset citation
@@ -379,7 +385,7 @@ key "Olsen-phd"
 
 .
  This chapter will be a short summary of the state of the setup as of when
- I came (which happens to be same time as Peter and Jakob left it).
+ I came (which happens to be the same time as Peter and Jakob left it).
  The 
 \begin_inset Formula $\mu$
 \end_inset
@@ -464,7 +470,7 @@ mbar doing experiments.
 
 \end_inset
 
-The setup has several problems which it was needed to address before the
+The setup had several problems which it was needed to address before the
  setup was really ready to take do measurements beyond proof-of-concept
  measurements.
  First of all, it is evident from figure
@@ -478,7 +484,7 @@ reference "fig:old_old_setup"
 
 \end_inset
 
- that all the gas-handling is pump directly by a rouging pump.
+ that all the gas-handling is pumped directly by a rouging pump.
  This means that the the system will be constantly contaminated by oil residues
  from the pump which is the primary constituent in the residual pressure
  from a roughing pump.
@@ -488,12 +494,12 @@ reference "fig:old_old_setup"
  water, residual air and perhaps oil from the roughing pump depending on
  how far the capillary was pumped down.
  Another problem is the valves in front of the flow-controllers.
- It is well known that flow-controllers are not very leak-tight across the
- device even when the flow is set to zero.
- This means that one wants to eliminate the background of the gasses available
- on the setup, one needs to close the valve in front of it, however with
- a manual valve, this makes it impossible to eliminate backgrounds from
- gasses that are actually used during the experiment.
+ It is well known that flow-controllers are not very internally leak-tight
+ even when the flow is set to zero.
+ This means that if one wants to eliminate the background of the gasses
+ available on the setup, one needs to close the valve in front of it, however
+ with a manual valve, this makes it impossible to eliminate backgrounds
+ from gasses that are actually used during the experiment.
 \end_layout
 
 \begin_layout Standard
@@ -560,13 +566,13 @@ The
 \end_inset
 
  pipe.
- The role of the buffer volume is to provide a large volume to absorb burst
- of gas to before they reach the turbo pump.
+ The role of the buffer volume is to provide a large volume to absorb bursts
+ of gas before they reach the turbo pump.
  This is especially important when you put a turbo pump at the vacuum side
  of a pressure controller since these devices will typically undershoot
  quite a bit when they go down in pressure.
  If the turbo pump is attached directly to the pressure controller these
- undershoots will be extremely hard on the turbo, thus the buffer volume
+ undershoots will be extremely hard on the turbo, thus the buffer volume's
  purpose with life is to smoothen out these burst to make them tolerable
  for the turbo.
  The system works beautifully and makes it possible to pump down the entire
@@ -578,18 +584,18 @@ mbar with absolutely no oil in the residual gas.
  Even though this is of course not real UHV it is still a background pressure
  approximately 8 orders of magnitude below the typical operating pressure
  of the setup.
- A small drawback on the new design is that all for the main gas-flow must
+ A small drawback on the new design is that all of the main gas flow must
  go through the turbo-pump thus somewhat limiting the total acceptable flow,
  thus increasing the time needed to achieve a stable flow of a given gas-mixture.
- This problem is not too servery, however, experimentation has shown that
- we go as high as 
+ However, experimentation has shown that we go as high as 
 \begin_inset Formula $\sim10\,$
 \end_inset
 
 mL/min without drawing excessive currents in the turbo, this flow is high
- enough for most purposes, and certainly high enough that pressure measurement
- of the reactor becomes unreliable due to flow resistance in the main outlet,
- thus we typically try to stay well below 
+ enough for most purposes.
+ Certainly this flow is high enough that pressure measurement of the reactor
+ becomes unreliable due to flow resistance in the main outlet, thus we typically
+ try to stay well below 
 \begin_inset Formula $10\,$
 \end_inset
 
@@ -659,7 +665,7 @@ The so-called 'Next Generation' setup.
 
 \end_inset
 
-At some point we realized that the amount with the amount of samples we
+At some point we realized that with the amount the amount of samples we
  wanted to measure at the same time as we wanted to keep modifying and improving
  the setup, we simply did not have enough time to do it all.
  It was thus decided to build another setup using the experience gained
@@ -680,7 +686,7 @@ At a first glance, the solution to the leaking o-rings of flushing with
  For one thing it is hard to tell how well it is actually working.
  Of course one can measure with the mass-spectrometer if huge amounts of
  air leaks in along with the argon, however smaller amounts might be difficult
- to detect even though it might still be enough to a problem.
+ to detect even though it might still be enough to be a problem.
  If one for instance is running a methanation reaction, 
 \begin_inset Formula $\mbox{CO}+3\mbox{H}_{2}\rightarrow\mbox{CH}_{4}+\mbox{H}_{2}\mbox{O}$
 \end_inset
@@ -693,7 +699,7 @@ At a first glance, the solution to the leaking o-rings of flushing with
  and was often not doing actual measurements.
  However today, it is not uncommon for the setup to run continuously for
  several weeks.
- The argon consumption in such periods is between one and two bottles (60
+ The argon consumption in such periods is between one and two bottles (50
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -701,17 +707,7 @@ L, 200
 \begin_inset space \thinspace{}
 \end_inset
 
-bar)
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Check!
-\end_layout
-
-\end_inset
-
- pr week which turns out to be a non-negligible cost.
+bar) pr week which turns out to be a non-negligible cost.
  Thirdly, it can sometime happen that we simply run out of argon doing a
  long experiment, especially over the weekend.
  When starting an experiment one needs to judge whether the remaining argon
@@ -720,7 +716,7 @@ Check!
  the experiment which will typically render the experiment useless.
  This also means that it is basically impossible to keep a sample in the
  setup over a holiday and run a few experiments from home, since the argon
- supply will only not last more than approximately 4--5 days.
+ supply will not last more than approximately 4--5 days.
 \end_layout
 
 \begin_layout Standard
@@ -728,18 +724,15 @@ For all these reasons it was clear that the NG setup should have another
  solution to the problem of the leaking o-rings.
  The best solution would of course be to have a properly leak-tight sealing
  between the reactor and the metal tubing, but this strategy has been tried
- before 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Ref?
-\end_layout
+ before
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Olsen-phd"
 
 \end_inset
 
- and failed and thus we did not feel like trying that solution.
- Instead we chose the brute-force solution of simply evacuate the entire
+ and failed and thus we did not feel like trying that agin.
+ Instead we chose the brute-force solution of simply evacuating the entire
  surroundings of the microreactor.
  The workshop manufactured a small chamber (known in daily language as the
  'containment volume'), which is basically a short tube closed by two 8
@@ -775,22 +768,12 @@ mbar to atmosphere and contains a serial communication interface.
 \begin_inset Quotes erd
 \end_inset
 
- flange (that is, the 'lid' of the construction) we currently have to choices.
+ flange (that is, the 'lid' of the construction) we currently have two choices.
  Either we can mount a full-sized window providing optical contact to the
  sample, or a traditional blind flange with a hole drilled by our wonderful
  workshop at the position exactly above the sample.
  Here we can mount a 2
 \begin_inset Quotes erd
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-CHECK.....
-\end_layout
-
 \end_inset
 
  Germanium wafer.
@@ -813,7 +796,7 @@ Replacing the manual valves with pneumatically controlled valves was a high
  normal working hours.
  With a pneumatic valve between the capillary and the main chamber it becomes
  possible to start the measurements from the comfort of the operators own
- home.
+ home, with the old setup one needs to wait until the next morning.
 \end_layout
 
 \begin_layout Standard
@@ -834,18 +817,9 @@ Another great advantage of pneumatic valves is that it opens up for much
 
 \begin_layout Standard
 Experimentally it takes a bit of work to operate pneumatic valves.
- The valves we have chosen are from Swagelok 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Find model
-\end_layout
-
-\end_inset
-
- because we know them to be leak-tight and because the have the same dimensions
- as the manual valves we have typically been using.
+ The valves we have chosen are from Swagelok because we know them to be
+ leak-tight and because the have the same dimensions as the manual valves
+ we have typically been using.
  These valves are typically normally-closed by a spring load and will open
  by applying pressurized air at approximately 3
 \begin_inset space \thinspace{}
@@ -853,7 +827,8 @@ Find model
 
 bars.
  This means we need a way of actuating the pressurized air which is most
- easily done by solenoidal valves since they be directly electrically controlled.
+ easily done by solenoidal valves since they can be directly electrically
+ controlled.
  However, to have sufficiently dynamic range on the solenoid to be able
  to both open and close sufficiently well, a rather high voltage of typically
  24
@@ -961,17 +936,13 @@ The new setup consists of no less than three separate vacuum chambers and
  turbos.
  Since we change samples quite often we soon realized that we need an automatic
  procedure for this opening and closing of the valves behind the two turbos.
- 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Find fabrikat på automatisk kf-ventil
-\end_layout
-
+ This was solved by an solenodial actuated Bellow valve from Lesker.
+ This valve is actuated by a 24
+\begin_inset space \thinspace{}
 \end_inset
 
-
+V signal and ensures that the turbos are protected when the roughing line
+ is used to pump down the containment volume.
 \end_layout
 
 \begin_layout Subsection
@@ -1013,16 +984,16 @@ Another useful modification that has so far been used way to little is the
  gas-line that connects the reactor outlet to the main chamber via the leak
  valve.
  It is very important that the line is as short as possible and with a small
- diameter since this lines contains the gas mixture of the experiment at
+ diameter since this line contains the gas mixture of the experiment at
  high pressures, and since this mixture might be explosive or poisonous
  the total volume should be minimized.
- The advantage of the line is that is open up the option of doing in-situ
+ The advantage of the line is that it opens up the option of doing in-situ
  blank experiments without removing the sample.
  Since mass spectrometers can give results that can be slightly difficult
  to interpret, it is often necessary to do a blank experiments to judge
  the mass-spec signal from just the reactants with no catalyst available.
- However, with the sniffer line it is actually possible to do this test
- without changing the sample.
+ With the sniffer line it is possible to do this test without changing the
+ sample.
  
 \end_layout
 
@@ -1039,10 +1010,10 @@ Because all our valves are pneumatically activated, we have the option of
  implementing a number of safety mechanisms which will protect the equipment
  if something goes wrong.
  These mechanisms fall in two distinct categories, one is the software controlle
-d checks which rely which will programmatically intervene in the experiment
- if some parameter fall outside of the allowed range.
+d checks which will programmatically intervene in the experiment if some
+ parameter fall outside of the allowed range.
  The other type is the purely electrical mechanisms which will close relevant
- valves bases purely on hardware based triggers.
+ valves based purely on hardware triggers.
 \end_layout
 
 \begin_layout Standard
