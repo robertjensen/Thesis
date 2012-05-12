@@ -408,13 +408,13 @@ reference "fig:old_old_setup"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
-	filename svg_figures/microreactor_current_setup.svg
+	filename figures/microreactor_current_setup.png
 	display false
 	width 12cm
 
@@ -461,6 +461,8 @@ mbar.
 \end_inset
 
 mbar doing experiments.
+ The drawing of the reactor chip is only schematic and does not reflect
+ the actual layout.
 \end_layout
 
 \end_inset
@@ -493,7 +495,10 @@ reference "fig:old_old_setup"
  in the main chamber will typically be rather high, primarily because of
  water, residual air and perhaps oil from the roughing pump depending on
  how far the capillary was pumped down.
- Another problem is the valves in front of the flow-controllers.
+\end_layout
+
+\begin_layout Standard
+Another problem is the valves in front of the flow-controllers.
  It is well known that flow-controllers are not very internally leak-tight
  even when the flow is set to zero.
  This means that if one wants to eliminate the background of the gasses

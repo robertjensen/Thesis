@@ -14,7 +14,7 @@
    height="744.09448"
    id="svg2"
    version="1.1"
-   inkscape:version="0.47 r22583"
+   inkscape:version="0.48.1 r9760"
    sodipodi:docname="microreactor_new_setup.svg">
   <defs
      id="defs4">
@@ -1401,9 +1401,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.89066784"
+     inkscape:zoom="0.89048348"
      inkscape:cx="594.72135"
-     inkscape:cy="346.60557"
+     inkscape:cy="256.79463"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -1411,10 +1411,10 @@
      guidetolerance="7"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1280"
-     inkscape:window-height="948"
+     inkscape:window-width="1680"
+     inkscape:window-height="992"
      inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-y="26"
      inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
@@ -1435,7 +1435,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1444,21 +1444,162 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-308.2677)">
+    <rect
+       style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299222;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect5920"
+       width="182.31523"
+       height="148.07088"
+       x="576.88043"
+       y="880.64722"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_current_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 610.54963,909.82374 c 0,15.95491 0,15.95491 0,15.95491"
+       id="path7157"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_current_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 636.97495,909.82374 c 0,15.95491 0,15.95491 0,15.95491"
+       id="path7157-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_current_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 637.05307,925.30562 c -26.83093,0 -26.83093,0 -26.83093,0"
+       id="path7157-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_current_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 623.97658,925.88146 c 0,15.95491 0,15.95491 0,15.95491"
+       id="path7157-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_current_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 623.97588,941.78665 c -26.83093,0 -26.83093,0 -26.83093,0"
+       id="path7157-8-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_current_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 597.75408,941.73693 c 0,15.95491 0,15.95491 0,15.95491"
+       id="path7157-0-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_current_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 624.28079,957.3372 c -26.83093,0 -26.83093,0 -26.83093,0"
+       id="path7157-8-1-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_current_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 623.67167,956.98256 c 0,15.95491 0,15.95491 0,15.95491"
+       id="path7157-0-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_current_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 623.97587,972.88775 c -26.83093,0 -26.83093,0 -26.83093,0"
+       id="path7157-8-1-0-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_current_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 597.75408,972.83803 c 0,15.95491 0,15.95491 0,15.95491"
+       id="path7157-0-8-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_current_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.99921268;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 663.66826,988.13339 c -65.60856,0 -65.60856,0 -65.60856,0"
+       id="path7157-8-1-0-1-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_current_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:0.99921262;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path7353"
+       sodipodi:cx="718.22198"
+       sodipodi:cy="653.68787"
+       sodipodi:rx="33.083031"
+       sodipodi:ry="33.083031"
+       d="m 751.30502,653.68787 a 33.083031,33.083031 0 1 1 -66.16607,0 33.083031,33.083031 0 1 1 66.16607,0 z"
+       transform="translate(-21.5237,336.42746)"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_current_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 657.51698,931.66006 c 0,56.51497 0,56.51497 0,56.51497"
+       id="path7157-0-8-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_current_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 675.36556,932.02944 c -17.84789,0 -17.84789,0 -17.84789,0"
+       id="path7157-8-1-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_current_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 675.20191,902.76863 c 0,29.01299 0,29.01299 0,29.01299"
+       id="path7157-0-8-1-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_current_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 738.7381,965.26493 c -20.54279,0 -20.54279,0 -20.54279,0"
+       id="path7157-8-1-0-1-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_current_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 737.70903,908.95547 c 0,56.51497 0,56.51497 0,56.51497"
+       id="path7157-0-8-1-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_current_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299210000000000;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="M 545.0625 124.53125 L 545.0625 157.84375 L 205.28125 157.84375 L 205.28125 167.25 L 205.375 167.25 L 205.375 279.75 L 214.78125 279.75 L 214.78125 167.25 L 506 167.25 L 506 271.59375 L 515.375 271.59375 L 515.375 228.96875 L 585.46875 228.96875 L 585.46875 219.59375 L 515.375 219.59375 L 515.375 167.25 L 545.0625 167.25 L 545.0625 193.15625 L 611.875 193.15625 L 611.875 167.25 L 623.96875 167.25 L 623.96875 167.21875 L 646.4375 167.21875 L 646.4375 206.71875 L 646.3125 206.71875 L 646.3125 216.125 L 684.03125 216.125 L 684.03125 206.71875 L 655.8125 206.71875 L 655.8125 167.21875 L 697.5 167.21875 L 697.5 157.8125 L 622.03125 157.8125 L 622.03125 157.875 L 611.875 157.875 L 611.875 124.53125 L 545.0625 124.53125 z "
        transform="translate(0,308.2677)"
        id="rect4008-8-8-9-6"
-       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <rect
-       style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299222;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect5920"
-       width="182.31523"
-       height="73.07692"
-       x="575.89154"
-       y="879.33795"
        inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
@@ -1478,7 +1619,7 @@
        inkscape:export-ydpi="90">
       <path
          transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -1493,7 +1634,7 @@
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -1525,7 +1666,7 @@
        inkscape:export-ydpi="90">
       <path
          transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -1540,7 +1681,7 @@
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -1570,7 +1711,7 @@
        inkscape:flatsided="false"
        inkscape:rounded="0"
        inkscape:randomized="0"
-       d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+       d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
        transform="matrix(4.0535239,0,0,3.5082705,-430.26893,432.95226)"
        inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
        inkscape:export-xdpi="90"
@@ -1590,7 +1731,7 @@
        inkscape:flatsided="false"
        inkscape:rounded="0"
        inkscape:randomized="0"
-       d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+       d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
        inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
@@ -1602,7 +1743,7 @@
        inkscape:export-ydpi="90">
       <path
          transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -1617,7 +1758,7 @@
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -1734,10 +1875,11 @@
        transform="matrix(4.0535239,0,0,3.5082705,-120.54595,-805.87676)"
        inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
+       inkscape:export-ydpi="90"
+       style="fill:#ff0000">
       <path
          transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -1749,10 +1891,10 @@
          sodipodi:cx="123.41632"
          sodipodi:sides="3"
          id="path4221-4-3"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.35433071999999999;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -1764,7 +1906,7 @@
          sodipodi:cx="123.41632"
          sodipodi:sides="3"
          id="path4221-2-4-1"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.35433071999999999;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star"
          transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
     </g>
@@ -1799,7 +1941,7 @@
            inkscape:flatsided="false"
            inkscape:rounded="0"
            inkscape:randomized="0"
-           d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+           d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
            transform="translate(0,308.2677)" />
         <path
            transform="matrix(-1,0,0,-1,246.83264,584.10409)"
@@ -1816,7 +1958,7 @@
            inkscape:flatsided="false"
            inkscape:rounded="0"
            inkscape:randomized="0"
-           d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z" />
+           d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z" />
       </g>
     </g>
     <g
@@ -1827,7 +1969,7 @@
        inkscape:export-ydpi="90">
       <path
          transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -1842,7 +1984,7 @@
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -1866,7 +2008,7 @@
        inkscape:export-ydpi="90">
       <path
          transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -1881,7 +2023,7 @@
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -1905,7 +2047,7 @@
        inkscape:export-ydpi="90">
       <path
          transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -1920,7 +2062,7 @@
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -1944,7 +2086,7 @@
        inkscape:export-ydpi="90">
       <path
          transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -1959,7 +2101,7 @@
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2006,7 +2148,7 @@
            inkscape:flatsided="false"
            inkscape:rounded="0"
            inkscape:randomized="0"
-           d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+           d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
            transform="translate(0,308.2677)" />
         <path
            transform="matrix(-1,0,0,-1,246.83264,584.10409)"
@@ -2023,7 +2165,7 @@
            inkscape:flatsided="false"
            inkscape:rounded="0"
            inkscape:randomized="0"
-           d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z" />
+           d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z" />
       </g>
     </g>
     <g
@@ -2034,7 +2176,7 @@
        inkscape:export-ydpi="90">
       <path
          transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2049,7 +2191,7 @@
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2073,7 +2215,7 @@
        inkscape:export-ydpi="90">
       <path
          transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2088,7 +2230,7 @@
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2109,10 +2251,11 @@
        transform="matrix(4.0535239,0,0,3.5082705,-120.54595,-728.36325)"
        inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
+       inkscape:export-ydpi="90"
+       style="fill:#ff0000">
       <path
          transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2124,10 +2267,10 @@
          sodipodi:cx="123.41632"
          sodipodi:sides="3"
          id="path4221-4-3-4"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.35433071999999999;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2139,7 +2282,7 @@
          sodipodi:cx="123.41632"
          sodipodi:sides="3"
          id="path4221-2-4-1-6"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.35433071999999999;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star"
          transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
     </g>
@@ -2156,10 +2299,11 @@
        transform="matrix(4.0535239,0,0,3.5082705,-120.54595,-649.32779)"
        inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
+       inkscape:export-ydpi="90"
+       style="fill:#ff0000">
       <path
          transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2171,10 +2315,10 @@
          sodipodi:cx="123.41632"
          sodipodi:sides="3"
          id="path4221-4-3-40"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.35433071999999999;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2186,7 +2330,7 @@
          sodipodi:cx="123.41632"
          sodipodi:sides="3"
          id="path4221-2-4-1-8"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.35433071999999999;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star"
          transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
     </g>
@@ -2195,10 +2339,11 @@
        transform="matrix(4.0535239,0,0,3.5082705,-120.54595,-573.08954)"
        inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
+       inkscape:export-ydpi="90"
+       style="fill:#ff0000">
       <path
          transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2210,10 +2355,10 @@
          sodipodi:cx="123.41632"
          sodipodi:sides="3"
          id="path4221-4-3-2"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.35433071999999999;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2225,7 +2370,7 @@
          sodipodi:cx="123.41632"
          sodipodi:sides="3"
          id="path4221-2-4-1-1"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.35433071999999999;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star"
          transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
     </g>
@@ -2237,7 +2382,7 @@
        inkscape:export-ydpi="90">
       <path
          transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2252,7 +2397,7 @@
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2276,7 +2421,7 @@
        inkscape:export-ydpi="90">
       <path
          transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2291,7 +2436,7 @@
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2315,7 +2460,7 @@
        inkscape:export-ydpi="90">
       <path
          transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2330,7 +2475,7 @@
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2354,7 +2499,7 @@
        inkscape:export-ydpi="90">
       <path
          transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2369,7 +2514,7 @@
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2393,7 +2538,7 @@
        inkscape:export-ydpi="90">
       <path
          transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2408,7 +2553,7 @@
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2432,7 +2577,7 @@
        inkscape:export-ydpi="90">
       <path
          transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2447,7 +2592,7 @@
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2471,7 +2616,7 @@
        inkscape:export-ydpi="90">
       <path
          transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2486,7 +2631,7 @@
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2502,45 +2647,6 @@
          sodipodi:type="star"
          transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
     </g>
-    <path
-       sodipodi:type="arc"
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="path3360"
-       sodipodi:cx="525.29016"
-       sodipodi:cy="645.67737"
-       sodipodi:rx="8.675066"
-       sodipodi:ry="8.675066"
-       d="m 533.96523,645.67737 c 0,4.7911 -3.88396,8.67506 -8.67507,8.67506 -4.79111,0 -8.67506,-3.88396 -8.67506,-8.67506 0,-4.79111 3.88395,-8.67507 8.67506,-8.67507 4.79111,0 8.67507,3.88396 8.67507,8.67507 z"
-       transform="translate(83.460115,256.51643)"
-       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="path3360-9"
-       sodipodi:cx="525.29016"
-       sodipodi:cy="645.67737"
-       sodipodi:rx="8.675066"
-       sodipodi:ry="8.675066"
-       d="m 533.96523,645.67737 c 0,4.7911 -3.88396,8.67506 -8.67507,8.67506 -4.79111,0 -8.67506,-3.88396 -8.67506,-8.67506 0,-4.79111 3.88395,-8.67507 8.67506,-8.67507 4.79111,0 8.67507,3.88396 8.67507,8.67507 z"
-       transform="translate(110.6819,256.51643)"
-       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="path3360-7"
-       sodipodi:cx="525.29016"
-       sodipodi:cy="645.67737"
-       sodipodi:rx="8.675066"
-       sodipodi:ry="8.675066"
-       d="m 533.96523,645.67737 c 0,4.7911 -3.88396,8.67506 -8.67507,8.67506 -4.79111,0 -8.67506,-3.88396 -8.67506,-8.67506 0,-4.79111 3.88395,-8.67507 8.67506,-8.67507 4.79111,0 8.67507,3.88396 8.67507,8.67507 z"
-       transform="translate(148.07442,256.51643)"
-       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
     <g
        id="g3882"
        inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
@@ -2655,7 +2761,7 @@
        inkscape:export-ydpi="90">
       <path
          transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2670,7 +2776,7 @@
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2704,7 +2810,7 @@
        inkscape:export-ydpi="90">
       <path
          transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2719,7 +2825,7 @@
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2743,7 +2849,7 @@
        inkscape:export-ydpi="90">
       <path
          transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2758,7 +2864,7 @@
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2782,7 +2888,7 @@
        inkscape:export-ydpi="90">
       <path
          transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2797,7 +2903,7 @@
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2951,19 +3057,6 @@
        inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
-    <path
-       sodipodi:type="arc"
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="path3360-5"
-       sodipodi:cx="525.29016"
-       sodipodi:cy="645.67737"
-       sodipodi:rx="8.675066"
-       sodipodi:ry="8.675066"
-       d="m 533.96523,645.67737 c 0,4.7911 -3.88396,8.67506 -8.67507,8.67506 -4.79111,0 -8.67506,-3.88396 -8.67506,-8.67506 0,-4.79111 3.88395,-8.67507 8.67506,-8.67507 4.79111,0 8.67507,3.88396 8.67507,8.67507 z"
-       transform="translate(209.45776,256.51643)"
-       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
     <g
        id="g4245-2-7-0-2-7-36"
        transform="matrix(0,4.0535239,-3.5082705,0,2300.459,100.53445)"
@@ -2972,7 +3065,7 @@
        inkscape:export-ydpi="90">
       <path
          transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -2987,7 +3080,7 @@
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -3011,7 +3104,7 @@
        inkscape:export-ydpi="90">
       <path
          transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -3026,7 +3119,7 @@
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -3050,7 +3143,7 @@
        inkscape:export-ydpi="90">
       <path
          transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -3065,7 +3158,7 @@
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -3169,7 +3262,7 @@
        inkscape:export-ydpi="90">
       <path
          transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -3184,7 +3277,7 @@
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -3208,7 +3301,7 @@
        inkscape:export-ydpi="90">
       <path
          transform="translate(-9.247761,308.37455)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -3223,7 +3316,7 @@
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.35433072;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 -1.06315,1.84142 z"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="false"
@@ -3329,5 +3422,57 @@
          id="tspan4790-47-2-3-7-1"
          x="42.225517"
          y="774.47906">2</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3360-5-7"
+       sodipodi:cx="525.29016"
+       sodipodi:cy="645.67737"
+       sodipodi:rx="8.675066"
+       sodipodi:ry="8.675066"
+       d="m 533.96523,645.67737 a 8.675066,8.675066 0 1 1 -17.35013,0 8.675066,8.675066 0 1 1 17.35013,0 z"
+       transform="translate(210.44662,257.82574)"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_current_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3360-7-2"
+       sodipodi:cx="525.29016"
+       sodipodi:cy="645.67737"
+       sodipodi:rx="8.675066"
+       sodipodi:ry="8.675066"
+       d="m 533.96523,645.67737 a 8.675066,8.675066 0 1 1 -17.35013,0 8.675066,8.675066 0 1 1 17.35013,0 z"
+       transform="translate(149.06328,257.82574)"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_current_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3360-9-7"
+       sodipodi:cx="525.29016"
+       sodipodi:cy="645.67737"
+       sodipodi:rx="8.675066"
+       sodipodi:ry="8.675066"
+       d="m 533.96523,645.67737 a 8.675066,8.675066 0 1 1 -17.35013,0 8.675066,8.675066 0 1 1 17.35013,0 z"
+       transform="translate(111.67076,257.82574)"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_current_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3360-56"
+       sodipodi:cx="525.29016"
+       sodipodi:cy="645.67737"
+       sodipodi:rx="8.675066"
+       sodipodi:ry="8.675066"
+       d="m 533.96523,645.67737 a 8.675066,8.675066 0 1 1 -17.35013,0 8.675066,8.675066 0 1 1 17.35013,0 z"
+       transform="translate(84.44897,257.82574)"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_current_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
   </g>
 </svg>

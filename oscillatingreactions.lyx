@@ -90,9 +90,11 @@ key "RasumusNielsen2009,RasmusNielsen2010"
  filter.
  The cluster source is supposed to be able to produce Pt nanoparticles with
  diameters in the range of 2--16
-\backslash
-,nm, however, the operators typically start to complain if one asks for
- particles below 3
+\begin_inset space \thinspace{}
+\end_inset
+
+nm, however, the operators typically start to complain if one asks for particles
+ below 3
 \begin_inset space \thinspace{}
 \end_inset
 
