@@ -408,7 +408,7 @@ reference "fig:old_old_setup"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -452,7 +452,7 @@ bars.
 
 mbar.
  Green tubes are pumped by a turbo pump and are typically operated at pressures
- around 
+ around or below 
 \begin_inset Formula $\sim10^{-6}$
 \end_inset
 
@@ -505,6 +505,18 @@ Another problem is the valves in front of the flow-controllers.
  available on the setup, one needs to close the valve in front of it, however
  with a manual valve, this makes it impossible to eliminate backgrounds
  from gasses that are actually used during the experiment.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Gas-linjer med dårlige ventiler og skæreringe.
+ Flere gasser pr.
+ MFC.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -527,13 +539,13 @@ reference "fig:new_old_setup"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
-	filename svg_figures/microreactor_new_setup.svg
+	filename figures/microreactor_new_setup.png
 	display false
 	width 12cm
 
@@ -554,6 +566,9 @@ The
 \end_inset
 
 -reactor setup after the first update.
+ Grey valves are pneumatically activated.
+ Besides these valves, the main new feature is the introduction of a turbo
+ pump to ensure oil-free vacuum in the entire gas handling system.
 \end_layout
 
 \end_inset
