@@ -471,35 +471,15 @@ reference "fig:reactor_new_heating_scheme"
 \end_inset
 
 .
- The structure is implemented in the cleanroom by e-beam evaporating ??
+ The structure is implemented in the cleanroom by e-beam evaporating 100
 \begin_inset space \thinspace{}
 \end_inset
 
-nm
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-CHECK
-\end_layout
-
-\end_inset
-
- of Pt on top of an adhesion layer of ??
+nm of Pt on top of an adhesion layer of 3
 \begin_inset space \thinspace{}
 \end_inset
 
-nm
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-CHECK
-\end_layout
-
-\end_inset
-
- of Ti through a shadow-mask.
+nm of Ti through a shadow-mask.
  This deposition method guarantees that absolutely no Pt finds its way to
  the front-side of the reactor, this is very important since as it is demonstrat
 ed in chapter
@@ -700,24 +680,70 @@ The problem with the current design is that the SMU is a very expensive
  and the heating can be performed with real power supplies and thus we no
  longer have problems sourcing enough power into the sample.
  Besides the changes in the heating itself, we also increased the length
- of the sample from ?? to ??
-\begin_inset Note Note
-status open
+ of the sample from 20.1
+\begin_inset space \thinspace{}
+\end_inset
+
+nm to 27
+\begin_inset space \thinspace{}
+\end_inset
+
+mm to increase the distance between the sample and the heat sink in the
+ mounting block.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
-CHCEK
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/long_sample_melted.jpg
+	display false
+	width 8cm
+	rotateAngle 90
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:melted_reactor"
+
+\end_inset
+
+The new heating structure.
+ This is the heating mechanism that has been used for almost all work in
+ this thesis.
 \end_layout
 
 \end_inset
 
- to increase the distance between the sample and the heat sink in the mounting
- block.
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 As an evidence that we no longer have problems sourcing enough power, figure
- ??? shows an image of a sample that was accidentally heating too high,
- it is evident that the lid has melted.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:melted_reactor"
+
+\end_inset
+
+ shows an image of a sample that was accidentally heatied too high.
 \end_layout
 
 \end_body

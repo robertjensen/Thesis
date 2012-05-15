@@ -1375,16 +1375,6 @@
          style="stop-color:#ff0000;stop-opacity:1;" />
     </linearGradient>
     <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4113-7"
-       id="linearGradient13191"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1,0,0,1.3789788,-206.3486,-1352.4477)"
-       x1="853.33411"
-       y1="661.75629"
-       x2="896.85114"
-       y2="661.75629" />
-    <linearGradient
        y2="629.43195"
        x2="892.65491"
        y1="629.43195"
@@ -1420,7 +1410,7 @@
        x2="799.60724"
        y1="374.70377"
        x1="799.60724"
-       gradientTransform="matrix(0,-0.99999997,-0.99999996,0,-216.10879,-15.367027)"
+       gradientTransform="matrix(0,-0.99999997,-0.99999996,0,-292.5309,116.04172)"
        gradientUnits="userSpaceOnUse"
        id="linearGradient4709"
        xlink:href="#linearGradient4179-7-9-6-8"
@@ -1462,11 +1452,42 @@
        x2="799.45801"
        y1="338.07126"
        x1="799.45801"
-       gradientTransform="matrix(0,-1,-1,0,-216.10879,-15.367017)"
+       gradientTransform="matrix(0,-1,-1,0,-292.5309,116.04173)"
        gradientUnits="userSpaceOnUse"
        id="linearGradient13329"
        xlink:href="#linearGradient4113-4"
        inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient4113-7-8">
+      <stop
+         id="stop4583-0-1"
+         offset="0"
+         style="stop-color:#00ff00;stop-opacity:1;" />
+      <stop
+         id="stop4121-0-6"
+         offset="1"
+         style="stop-color:#ff0000;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4113-7-8"
+       id="linearGradient6402"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.3789788,-206.3486,-1352.4477)"
+       x1="853.33411"
+       y1="661.75629"
+       x2="896.85114"
+       y2="661.75629" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4113-7"
+       id="linearGradient6544"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.3789788,41.86209,-192.2605)"
+       x1="853.33411"
+       y1="661.75629"
+       x2="896.85114"
+       y2="661.75629" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -1475,9 +1496,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.0729879"
-     inkscape:cx="383.98541"
-     inkscape:cy="303.50205"
+     inkscape:zoom="0.56940429"
+     inkscape:cx="541.67721"
+     inkscape:cy="341.49836"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -1485,13 +1506,15 @@
      guidetolerance="7"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1680"
-     inkscape:window-height="992"
+     inkscape:window-width="1280"
+     inkscape:window-height="966"
      inkscape:window-x="0"
      inkscape:window-y="26"
      inkscape:window-maximized="1"
      inkscape:bbox-paths="true"
-     inkscape:snap-global="false">
+     inkscape:snap-global="false"
+     units="mm"
+     objecttolerance="20">
     <inkscape:grid
        type="xygrid"
        id="grid2816"
@@ -1501,7 +1524,8 @@
        snapvisiblegridlinesonly="true"
        units="mm"
        spacingx="1mm"
-       spacingy="1mm" />
+       spacingy="1mm"
+       dotted="true" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -1520,214 +1544,158 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-308.2677)">
-    <g
-       id="g12970"
-       transform="translate(-411.1695,0)">
-      <rect
-         transform="matrix(0,-1,1,0,0,0)"
-         inkscape:export-ydpi="300"
-         inkscape:export-xdpi="300"
-         inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-         y="1066.6322"
-         x="-848.67645"
-         height="128.42903"
-         width="124.35721"
-         id="rect5920"
-         style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299222;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      <path
-         inkscape:export-ydpi="300"
-         inkscape:export-xdpi="300"
-         inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-         inkscape:connector-curvature="0"
-         id="path7157"
-         d="m 1090.5708,828.66536 c 15.9549,0 15.9549,0 15.9549,0"
-         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         inkscape:export-ydpi="300"
-         inkscape:export-xdpi="300"
-         inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-         inkscape:connector-curvature="0"
-         id="path7157-7"
-         d="m 1090.5708,802.24006 c 15.9549,0 15.9549,0 15.9549,0"
-         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         inkscape:export-ydpi="300"
-         inkscape:export-xdpi="300"
-         inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-         inkscape:connector-curvature="0"
-         id="path7157-8"
-         d="m 1106.0527,802.16196 c 0,26.8309 0,26.8309 0,26.8309"
-         style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         inkscape:export-ydpi="300"
-         inkscape:export-xdpi="300"
-         inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-         inkscape:connector-curvature="0"
-         id="path7157-0"
-         d="m 1106.6286,815.23846 c 15.9549,0 15.9549,0 15.9549,0"
-         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         inkscape:export-ydpi="300"
-         inkscape:export-xdpi="300"
-         inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-         inkscape:connector-curvature="0"
-         id="path7157-8-1"
-         d="m 1122.5337,815.23916 c 0,26.8309 0,26.8309 0,26.8309"
-         style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         inkscape:export-ydpi="300"
-         inkscape:export-xdpi="300"
-         inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-         inkscape:connector-curvature="0"
-         id="path7157-0-7"
-         d="m 1122.484,841.46096 c 15.9549,0 15.9549,0 15.9549,0"
-         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         inkscape:export-ydpi="300"
-         inkscape:export-xdpi="300"
-         inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-         inkscape:connector-curvature="0"
-         id="path7157-8-1-7"
-         d="m 1138.0843,814.93426 c 0,26.8309 0,26.8309 0,26.8309"
-         style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         inkscape:export-ydpi="300"
-         inkscape:export-xdpi="300"
-         inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-         inkscape:connector-curvature="0"
-         id="path7157-0-8"
-         d="m 1137.7297,815.54336 c 15.9549,0 15.9549,0 15.9549,0"
-         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         inkscape:export-ydpi="300"
-         inkscape:export-xdpi="300"
-         inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-         inkscape:connector-curvature="0"
-         id="path7157-8-1-0-1"
-         d="m 1153.6348,815.23916 c 0,26.8309 0,26.8309 0,26.8309"
-         style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         inkscape:export-ydpi="300"
-         inkscape:export-xdpi="300"
-         inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-         inkscape:connector-curvature="0"
-         id="path7157-0-8-7"
-         d="m 1153.5851,841.46096 c 15.9549,0 15.9549,0 15.9549,0"
-         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         inkscape:export-ydpi="300"
-         inkscape:export-xdpi="300"
-         inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-         inkscape:connector-curvature="0"
-         id="path7157-8-1-0-1-2"
-         d="m 1168.8805,787.45509 c 0,53.57024 0,53.57024 0,53.57024"
-         style="fill:none;stroke:#000000;stroke-width:0.99921268;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      <path
-         inkscape:export-ydpi="300"
-         inkscape:export-xdpi="300"
-         inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-         transform="matrix(0,-0.74272398,0.74272398,0,677.8643,1296.4689)"
-         d="m 751.30502,653.68787 c 0,18.27125 -14.81178,33.08303 -33.08304,33.08303 -18.27125,0 -33.08303,-14.81178 -33.08303,-33.08303 0,-18.27126 14.81178,-33.08303 33.08303,-33.08303 18.27126,0 33.08304,14.81177 33.08304,33.08303 z"
-         sodipodi:ry="33.083031"
-         sodipodi:rx="33.083031"
-         sodipodi:cy="653.68787"
-         sodipodi:cx="718.22198"
-         id="path7353"
-         style="fill:none;stroke:#000000;stroke-width:1.34533513;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="arc" />
-      <path
-         inkscape:export-ydpi="300"
-         inkscape:export-xdpi="300"
-         inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-         inkscape:connector-curvature="0"
-         id="path7157-0-8-1"
-         d="m 1112.4072,793.69806 c 56.5149,0 56.5149,0 56.5149,0"
-         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         inkscape:export-ydpi="300"
-         inkscape:export-xdpi="300"
-         inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-         inkscape:connector-curvature="0"
-         id="path7157-8-1-6"
-         d="m 1112.7765,775.84946 c 0,17.8479 0,17.8479 0,17.8479"
-         style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         inkscape:export-ydpi="300"
-         inkscape:export-xdpi="300"
-         inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-         inkscape:connector-curvature="0"
-         id="path7157-0-8-1-7"
-         d="m 1083.5157,776.01306 c 29.013,0 29.013,0 29.013,0"
-         style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         inkscape:export-ydpi="300"
-         inkscape:export-xdpi="300"
-         inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-         inkscape:connector-curvature="0"
-         id="path7157-8-1-0-1-4"
-         d="m 1146.012,736.84126 c 0,8.47219 0,8.47219 0,8.47219"
-         style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         inkscape:export-ydpi="300"
-         inkscape:export-xdpi="300"
-         inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-         inkscape:connector-curvature="0"
-         id="path7157-0-8-1-5"
-         d="m 1089.7026,737.50596 c 56.5149,0 56.5149,0 56.5149,0"
-         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         inkscape:export-ydpi="300"
-         inkscape:export-xdpi="300"
-         inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-         transform="matrix(0,-1,1,0,438.5729,1262.7684)"
-         d="m 533.96523,645.67737 c 0,4.7911 -3.88396,8.67506 -8.67507,8.67506 -4.79111,0 -8.67506,-3.88396 -8.67506,-8.67506 0,-4.79111 3.88395,-8.67507 8.67506,-8.67507 4.79111,0 8.67507,3.88396 8.67507,8.67507 z"
-         sodipodi:ry="8.675066"
-         sodipodi:rx="8.675066"
-         sodipodi:cy="645.67737"
-         sodipodi:cx="525.29016"
-         id="path3360-5-7"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="arc" />
-      <path
-         inkscape:export-ydpi="300"
-         inkscape:export-xdpi="300"
-         inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-         transform="matrix(0,-1,1,0,438.5729,1302.1518)"
-         d="m 533.96523,645.67737 c 0,4.7911 -3.88396,8.67506 -8.67507,8.67506 -4.79111,0 -8.67506,-3.88396 -8.67506,-8.67506 0,-4.79111 3.88395,-8.67507 8.67506,-8.67507 4.79111,0 8.67507,3.88396 8.67507,8.67507 z"
-         sodipodi:ry="8.675066"
-         sodipodi:rx="8.675066"
-         sodipodi:cy="645.67737"
-         sodipodi:cx="525.29016"
-         id="path3360-7-2"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="arc" />
-      <path
-         inkscape:export-ydpi="300"
-         inkscape:export-xdpi="300"
-         inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-         transform="matrix(0,-1,1,0,438.5729,1327.5443)"
-         d="m 533.96523,645.67737 c 0,4.7911 -3.88396,8.67506 -8.67507,8.67506 -4.79111,0 -8.67506,-3.88396 -8.67506,-8.67506 0,-4.79111 3.88395,-8.67507 8.67506,-8.67507 4.79111,0 8.67507,3.88396 8.67507,8.67507 z"
-         sodipodi:ry="8.675066"
-         sodipodi:rx="8.675066"
-         sodipodi:cy="645.67737"
-         sodipodi:cx="525.29016"
-         id="path3360-9-7"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="arc" />
-      <path
-         inkscape:export-ydpi="300"
-         inkscape:export-xdpi="300"
-         inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-         transform="matrix(0,-1,1,0,438.5729,1354.7661)"
-         d="m 533.96523,645.67737 c 0,4.7911 -3.88396,8.67506 -8.67507,8.67506 -4.79111,0 -8.67506,-3.88396 -8.67506,-8.67506 0,-4.79111 3.88395,-8.67507 8.67506,-8.67507 4.79111,0 8.67507,3.88396 8.67507,8.67507 z"
-         sodipodi:ry="8.675066"
-         sodipodi:rx="8.675066"
-         sodipodi:cy="645.67737"
-         sodipodi:cx="525.29016"
-         id="path3360-56"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="arc" />
-    </g>
+    <rect
+       style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299222;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect5920"
+       width="124.35721"
+       height="128.42903"
+       x="-848.67645"
+       y="655.46271"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 679.4013,834.66536 c 15.9549,0 15.9549,0 15.9549,0"
+       id="path7157"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 679.4013,798.24006 c 15.9549,0 15.9549,0 15.9549,0"
+       id="path7157-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 695.90586,798.24128 c 0,36.71765 0,36.71765 0,36.71765"
+       id="path7157-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 695.4591,815.23846 c 15.9549,0 15.9549,0 15.9549,0"
+       id="path7157-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 711.3642,815.23916 c 0,26.8309 0,26.8309 0,26.8309"
+       id="path7157-8-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 711.3145,841.46096 c 15.9549,0 15.9549,0 15.9549,0"
+       id="path7157-0-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 726.9148,814.93426 c 0,26.8309 0,26.8309 0,26.8309"
+       id="path7157-8-1-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 726.5602,815.54336 c 15.9549,0 15.9549,0 15.9549,0"
+       id="path7157-0-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 742.4653,815.23916 c 0,26.8309 0,26.8309 0,26.8309"
+       id="path7157-8-1-0-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 742.4156,841.46096 c 15.9549,0 15.9549,0 15.9549,0"
+       id="path7157-0-8-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.99921268;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 757.711,787.45509 c 0,53.57024 0,53.57024 0,53.57024"
+       id="path7157-8-1-0-1-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1.34533513;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path7353"
+       sodipodi:cx="718.22198"
+       sodipodi:cy="653.68787"
+       sodipodi:rx="33.083031"
+       sodipodi:ry="33.083031"
+       d="m 751.30502,653.68787 a 33.083031,33.083031 0 1 1 -66.16607,0 33.083031,33.083031 0 1 1 66.16607,0 z"
+       transform="matrix(0,-0.74272398,0.74272398,0,266.6948,1296.4689)"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 701.2377,793.69806 c 56.5149,0 56.5149,0 56.5149,0"
+       id="path7157-0-8-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 701.607,769.87612 c 0,23.65845 0,23.65845 0,23.65845"
+       id="path7157-8-1-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 672.3462,770.01306 c 29.013,0 29.013,0 29.013,0"
+       id="path7157-0-8-1-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 734.8425,736.84126 c 0,8.47219 0,8.47219 0,8.47219"
+       id="path7157-8-1-0-1-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 678.5331,737.50596 c 56.5149,0 56.5149,0 56.5149,0"
+       id="path7157-0-8-1-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <flowRoot
        transform="translate(-11.84555,396.98844)"
        style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
@@ -1739,96 +1707,36 @@
            height="79.919601"
            width="97.832611"
            id="rect3999" /></flowRegion><flowPara
-         id="flowPara4001" /></flowRoot>    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299198;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3"
-       width="4.2519684"
-       height="378.2677"
-       x="751.44318"
-       y="-428.25018"
-       transform="matrix(0,1,-1,0,0,0)" />
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299198;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3-7"
-       width="4.2519684"
-       height="376.2677"
-       x="793.41315"
-       y="-428.25018"
-       transform="matrix(0,1,-1,0,0,0)" />
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299198;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3-4"
-       width="4.2519684"
-       height="374.2677"
-       x="919.323"
-       y="-428.25018"
-       transform="matrix(0,1,-1,0,0,0)" />
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299198;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3-5"
-       width="4.2519684"
-       height="376.2677"
-       x="961.29297"
-       y="-428.25018"
-       transform="matrix(0,1,-1,0,0,0)" />
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299198;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3-3"
-       width="4.2519684"
-       height="372.2677"
-       x="835.38312"
-       y="-428.25018"
-       transform="matrix(0,1,-1,0,0,0)" />
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299198;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3-41"
-       width="4.2519684"
-       height="373.2677"
-       x="877.35303"
-       y="-428.25018"
-       transform="matrix(0,1,-1,0,0,0)" />
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-4"
-       width="4.2519684"
-       height="75.73465"
-       x="135.44609"
-       y="676.31702" />
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-4-2"
-       width="4.2519684"
-       height="201.59291"
-       x="235.2428"
-       y="676.31836" />
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-4-5"
-       width="4.2519684"
-       height="118.99842"
-       x="168.71165"
-       y="676.31738" />
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-4-9"
-       width="4.2519684"
-       height="160.29567"
-       x="201.97723"
-       y="676.31793" />
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-4-52"
-       width="4.2519684"
-       height="287.13898"
-       x="301.77393"
-       y="676.3175" />
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-4-1"
-       width="4.2519684"
-       height="243.87518"
-       x="268.50836"
-       y="676.31702" />
+         id="flowPara4001" /></flowRoot>    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1.06299198;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 179.4375 368.0625 L 179.4375 443.1875 L 161.53125 443.1875 L 161.53125 419.71875 L 157.28125 419.71875 L 157.28125 443.1875 L 103.5625 443.1875 L 103.5625 447.4375 L 428.25 447.4375 L 428.25 443.1875 L 183.6875 443.1875 L 183.6875 368.0625 L 179.4375 368.0625 z "
+       transform="translate(0,308.2677)"
+       id="rect4008-8-8-3" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1.06299198;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 202.71875 368.0625 L 202.71875 485.15625 L 161.53125 485.15625 L 161.53125 461.6875 L 157.28125 461.6875 L 157.28125 485.15625 L 102.5 485.15625 L 102.5 489.40625 L 157.28125 489.40625 L 161.53125 489.40625 L 428.25 489.40625 L 489 489.40625 L 489 561.40625 L 493.28125 561.40625 L 493.28125 489.40625 L 618.59375 489.40625 L 618.59375 485.15625 L 429.875 485.15625 L 429.875 443.1875 L 425.625 443.1875 L 425.625 485.15625 L 206.96875 485.15625 L 206.96875 368.0625 L 202.71875 368.0625 z "
+       transform="translate(0,308.2677)"
+       id="rect4008-8-8-3-7" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1.06299198;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 276.5 368.0625 L 276.5 611.0625 L 161.53125 611.0625 L 161.53125 587.59375 L 157.28125 587.59375 L 157.28125 611.0625 L 103.71875 611.0625 L 103.71875 615.3125 L 428.25 615.3125 L 428.25 611.0625 L 280.75 611.0625 L 280.75 368.0625 L 276.5 368.0625 z "
+       transform="translate(0,308.2677)"
+       id="rect4008-8-8-3-4" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1.06299198;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 301.78125 368.0625 L 301.78125 653.03125 L 161.53125 653.03125 L 161.53125 629.5625 L 157.28125 629.5625 L 157.28125 653.03125 L 103.46875 653.03125 L 103.46875 657.28125 L 428.25 657.28125 L 428.25 653.03125 L 306.03125 653.03125 L 306.03125 368.0625 L 301.78125 368.0625 z "
+       transform="translate(0,308.2677)"
+       id="rect4008-8-8-3-5" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1.06299198;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 227.96875 368.0625 L 227.96875 527.125 L 161.53125 527.125 L 161.53125 503.65625 L 157.28125 503.65625 L 157.28125 527.125 L 103.3125 527.125 L 103.3125 531.375 L 157.28125 531.375 L 161.53125 531.375 L 428.25 531.375 L 428.25 527.125 L 232.21875 527.125 L 232.21875 368.0625 L 227.96875 368.0625 z "
+       transform="translate(0,308.2677)"
+       id="rect4008-8-8-3-3" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1.06299198;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 251.25 368.0625 L 251.25 569.09375 L 161.53125 569.09375 L 161.53125 545.625 L 157.28125 545.625 L 157.28125 569.09375 L 103 569.09375 L 103 573.34375 L 428.25 573.34375 L 428.25 569.09375 L 255.5 569.09375 L 255.5 368.0625 L 251.25 368.0625 z "
+       transform="translate(0,308.2677)"
+       id="rect4008-8-8-3-41" />
     <g
        id="g4245-22-7-9"
        transform="matrix(2.5665956,0,0,2.178231,86.897457,-219.22443)"
@@ -2071,7 +1979,7 @@
     </g>
     <g
        id="g4245-22-7-9-7-1"
-       transform="matrix(0,2.5665956,-2.178231,0,1142.8974,394.70683)"
+       transform="matrix(0,2.5665956,-2.178231,0,1176.8974,394.70683)"
        inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
@@ -2110,7 +2018,7 @@
     </g>
     <g
        id="g4245-22-7-9-7-4"
-       transform="matrix(0,2.5665956,-2.178231,0,1175.9445,394.70683)"
+       transform="matrix(0,2.5665956,-2.178231,0,1201.9445,394.70683)"
        inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
@@ -2149,7 +2057,7 @@
     </g>
     <g
        id="g4245-22-7-9-7-9"
-       transform="matrix(0,2.5665956,-2.178231,0,1209.2724,394.70683)"
+       transform="matrix(0,2.5665956,-2.178231,0,1225.2724,394.70683)"
        inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
@@ -2188,7 +2096,7 @@
     </g>
     <g
        id="g4245-22-7-9-7-17"
-       transform="matrix(0,2.5665956,-2.178231,0,1242.3195,394.70683)"
+       transform="matrix(0,2.5665956,-2.178231,0,1250.3195,394.70683)"
        inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
@@ -2266,7 +2174,7 @@
     </g>
     <g
        id="g4245-22-7-9-7"
-       transform="matrix(0,2.5665956,-2.178231,0,1109.2885,394.70683)"
+       transform="matrix(0,2.5665956,-2.178231,0,1153.2885,394.70683)"
        inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
@@ -2303,229 +2211,14 @@
          sodipodi:type="star"
          transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
     </g>
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3-1"
-       width="4.2519684"
-       height="170.57982"
-       x="676.3175"
-       y="-306.02591"
-       transform="matrix(0,1,-1,0,0,0)" />
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3-1-2"
-       width="4.2519684"
-       height="60.690498"
-       x="-223.40628"
-       y="-680.56946"
-       transform="scale(-1,-1)" />
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3-1-2-2"
-       width="4.2519684"
-       height="27.723524"
-       x="-89.537239"
-       y="-755.69513"
-       transform="scale(-1,-1)" />
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3-1-2-2-6"
-       width="4.2519684"
-       height="27.723524"
-       x="-89.537239"
-       y="-797.6651"
-       transform="scale(-1,-1)" />
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3-1-2-2-6-9"
-       width="4.2519684"
-       height="27.723524"
-       x="-89.537239"
-       y="-839.63507"
-       transform="scale(-1,-1)" />
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3-1-2-2-6-0"
-       width="4.2519684"
-       height="27.723524"
-       x="-89.537239"
-       y="-881.60498"
-       transform="scale(-1,-1)" />
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3-1-2-2-6-0-3"
-       width="4.2519684"
-       height="27.723524"
-       x="-89.537239"
-       y="-923.57495"
-       transform="scale(-1,-1)" />
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3-1-2-2-6-0-1"
-       width="4.2519684"
-       height="27.723524"
-       x="-89.537239"
-       y="-965.54492"
-       transform="scale(-1,-1)" />
-    <g
-       id="g4245-22-7-9-7-41"
-       transform="matrix(0,2.5665956,-2.178231,0,1059.3072,578.7546)"
-       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
-      <path
-         transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
-         inkscape:randomized="0"
-         inkscape:rounded="0"
-         inkscape:flatsided="false"
-         sodipodi:arg2="2.6179939"
-         sodipodi:arg1="1.5707963"
-         sodipodi:r2="1.227616"
-         sodipodi:r1="2.4552319"
-         sodipodi:cy="135.11514"
-         sodipodi:cx="123.41632"
-         sodipodi:sides="3"
-         id="path4221-4-3-5-3-3"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="star" />
-      <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
-         inkscape:randomized="0"
-         inkscape:rounded="0"
-         inkscape:flatsided="false"
-         sodipodi:arg2="2.6179939"
-         sodipodi:arg1="1.5707963"
-         sodipodi:r2="1.227616"
-         sodipodi:r1="2.4552319"
-         sodipodi:cy="135.11514"
-         sodipodi:cx="123.41632"
-         sodipodi:sides="3"
-         id="path4221-2-4-1-4-87-07"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="star"
-         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
-    </g>
-    <g
-       id="g4245-22-7-9-7-72"
-       transform="matrix(0,2.5665956,-2.178231,0,1059.3072,536.89569)"
-       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
-      <path
-         transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
-         inkscape:randomized="0"
-         inkscape:rounded="0"
-         inkscape:flatsided="false"
-         sodipodi:arg2="2.6179939"
-         sodipodi:arg1="1.5707963"
-         sodipodi:r2="1.227616"
-         sodipodi:r1="2.4552319"
-         sodipodi:cy="135.11514"
-         sodipodi:cx="123.41632"
-         sodipodi:sides="3"
-         id="path4221-4-3-5-3-80"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="star" />
-      <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
-         inkscape:randomized="0"
-         inkscape:rounded="0"
-         inkscape:flatsided="false"
-         sodipodi:arg2="2.6179939"
-         sodipodi:arg1="1.5707963"
-         sodipodi:r2="1.227616"
-         sodipodi:r1="2.4552319"
-         sodipodi:cy="135.11514"
-         sodipodi:cx="123.41632"
-         sodipodi:sides="3"
-         id="path4221-2-4-1-4-87-6"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="star"
-         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
-    </g>
-    <g
-       id="g4245-22-7-9-7-7"
-       transform="matrix(0,2.5665956,-2.178231,0,1059.3072,495.28301)"
-       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
-      <path
-         transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
-         inkscape:randomized="0"
-         inkscape:rounded="0"
-         inkscape:flatsided="false"
-         sodipodi:arg2="2.6179939"
-         sodipodi:arg1="1.5707963"
-         sodipodi:r2="1.227616"
-         sodipodi:r1="2.4552319"
-         sodipodi:cy="135.11514"
-         sodipodi:cx="123.41632"
-         sodipodi:sides="3"
-         id="path4221-4-3-5-3-15"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="star" />
-      <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
-         inkscape:randomized="0"
-         inkscape:rounded="0"
-         inkscape:flatsided="false"
-         sodipodi:arg2="2.6179939"
-         sodipodi:arg1="1.5707963"
-         sodipodi:r2="1.227616"
-         sodipodi:r1="2.4552319"
-         sodipodi:cy="135.11514"
-         sodipodi:cx="123.41632"
-         sodipodi:sides="3"
-         id="path4221-2-4-1-4-87-0"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="star"
-         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
-    </g>
-    <g
-       id="g4245-22-7-9-7-3"
-       transform="matrix(0,2.5665956,-2.178231,0,1059.3072,453.17787)"
-       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
-      <path
-         transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
-         inkscape:randomized="0"
-         inkscape:rounded="0"
-         inkscape:flatsided="false"
-         sodipodi:arg2="2.6179939"
-         sodipodi:arg1="1.5707963"
-         sodipodi:r2="1.227616"
-         sodipodi:r1="2.4552319"
-         sodipodi:cy="135.11514"
-         sodipodi:cx="123.41632"
-         sodipodi:sides="3"
-         id="path4221-4-3-5-3-84"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="star" />
-      <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
-         inkscape:randomized="0"
-         inkscape:rounded="0"
-         inkscape:flatsided="false"
-         sodipodi:arg2="2.6179939"
-         sodipodi:arg1="1.5707963"
-         sodipodi:r2="1.227616"
-         sodipodi:r1="2.4552319"
-         sodipodi:cy="135.11514"
-         sodipodi:cx="123.41632"
-         sodipodi:sides="3"
-         id="path4221-2-4-1-4-87-71"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="star"
-         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
-    </g>
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 241.15625 333.03125 L 241.15625 368.0625 L 179.5625 368.0625 L 179.5625 372.3125 L 241.15625 372.3125 L 245.40625 372.3125 L 306.03125 372.3125 L 306.03125 368.0625 L 245.40625 368.0625 L 245.40625 333.03125 L 241.15625 333.03125 z "
+       transform="translate(0,308.2677)"
+       id="rect4008-8-8-3-1" />
     <g
        id="g4245-22-7-9-7-2"
-       transform="matrix(0,2.5665956,-2.178231,0,1059.3072,411.31896)"
+       transform="matrix(0,2.5665956,-2.178231,0,1131.3072,411.31896)"
        inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
@@ -2563,45 +2256,6 @@
          transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
     </g>
     <g
-       id="g4245-22-7-9-7-41-3"
-       transform="matrix(0,2.5665956,-2.178231,0,1059.3072,620.85974)"
-       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
-      <path
-         transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
-         inkscape:randomized="0"
-         inkscape:rounded="0"
-         inkscape:flatsided="false"
-         sodipodi:arg2="2.6179939"
-         sodipodi:arg1="1.5707963"
-         sodipodi:r2="1.227616"
-         sodipodi:r1="2.4552319"
-         sodipodi:cy="135.11514"
-         sodipodi:cx="123.41632"
-         sodipodi:sides="3"
-         id="path4221-4-3-5-3-3-2"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="star" />
-      <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
-         inkscape:randomized="0"
-         inkscape:rounded="0"
-         inkscape:flatsided="false"
-         sodipodi:arg2="2.6179939"
-         sodipodi:arg1="1.5707963"
-         sodipodi:r2="1.227616"
-         sodipodi:r1="2.4552319"
-         sodipodi:cy="135.11514"
-         sodipodi:cx="123.41632"
-         sodipodi:sides="3"
-         id="path4221-2-4-1-4-87-07-9"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="star"
-         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
-    </g>
-    <g
        id="g4883"
        transform="translate(11.935388,203.36179)"
        inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
@@ -2616,14 +2270,15 @@
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.85393703;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
       <text
          id="text4788"
-         y="559.66431"
-         x="316.58481"
+         y="557.66431"
+         x="320.58481"
          style="font-size:24.67599869px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
          xml:space="preserve"><tspan
-           y="559.66431"
-           x="316.58481"
+           y="557.66431"
+           x="320.58481"
            id="tspan4790"
-           sodipodi:role="line">MFC</tspan></text>
+           sodipodi:role="line"
+           style="font-size:20px">MFC</tspan></text>
     </g>
     <g
        id="g4883-3"
@@ -2647,7 +2302,8 @@
            y="559.66431"
            x="316.58481"
            id="tspan4790-7"
-           sodipodi:role="line">MFC</tspan></text>
+           sodipodi:role="line"
+           style="font-size:20px">MFC</tspan></text>
     </g>
     <g
        id="g4883-9"
@@ -2671,7 +2327,8 @@
            y="559.66431"
            x="316.58481"
            id="tspan4790-4"
-           sodipodi:role="line">MFC</tspan></text>
+           sodipodi:role="line"
+           style="font-size:20px">MFC</tspan></text>
     </g>
     <g
        id="g4883-94"
@@ -2695,7 +2352,8 @@
            y="559.66431"
            x="316.58481"
            id="tspan4790-6"
-           sodipodi:role="line">MFC</tspan></text>
+           sodipodi:role="line"
+           style="font-size:20px">MFC</tspan></text>
     </g>
     <g
        id="g4883-93"
@@ -2719,7 +2377,8 @@
            y="559.66431"
            x="316.58481"
            id="tspan4790-2"
-           sodipodi:role="line">MFC</tspan></text>
+           sodipodi:role="line"
+           style="font-size:20px">MFC</tspan></text>
     </g>
     <g
        id="g4883-7"
@@ -2743,39 +2402,24 @@
            y="559.66431"
            x="316.58481"
            id="tspan4790-8"
-           sodipodi:role="line">MFC</tspan></text>
+           sodipodi:role="line"
+           style="font-size:20px">MFC</tspan></text>
     </g>
     <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3-1-2-3"
-       width="4.2519684"
-       height="45.947296"
-       x="-429.8905"
-       y="-797.39044"
-       transform="scale(-1,-1)" />
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1.06299174;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect4008-8-8-3-1-2-3-8"
        width="4.2519684"
-       height="130.16185"
-       x="-428.99805"
-       y="-965.54492"
+       height="129.9435"
+       x="-429.3287"
+       y="-965.5058"
        transform="scale(-1,-1)" />
     <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3-1-2-3-6"
-       width="4.2519684"
-       height="192.07774"
-       x="-797.6651"
-       y="426.50116"
-       transform="matrix(0,-1,1,0,0,0)" />
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect4008-8-8-3-1-2-3-6-4"
        width="4.2519684"
-       height="193.18164"
+       height="243.49771"
        x="-839.56219"
-       y="424.74606"
+       y="425.46317"
        transform="matrix(0,-1,1,0,0,0)" />
     <g
        id="g4245-22-7-9-72"
@@ -2855,14 +2499,6 @@
          sodipodi:type="star"
          transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
     </g>
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3-1-2-3-69"
-       width="4.2519684"
-       height="35.519142"
-       x="-493.26733"
-       y="-834.24725"
-       transform="scale(-1,-1)" />
     <g
        id="g4245-22-7-9-7-40-0"
        transform="matrix(0,2.5665956,-2.178231,0,1463.0373,498.01002)"
@@ -2907,13 +2543,13 @@
        style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect4008-8-8-3-1-2-3-69-2"
        width="4.2519684"
-       height="45.067856"
+       height="19.904478"
        x="-493.26733"
        y="-885.69122"
        transform="scale(-1,-1)" />
     <g
        id="g4245-22-7-9-7-40-0-6"
-       transform="matrix(0,2.5665956,-2.178231,0,1463.0373,547.12997)"
+       transform="matrix(0,2.5665956,-2.178231,0,1463.0373,548.94874)"
        inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
@@ -2952,47 +2588,8 @@
          transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
     </g>
     <g
-       id="g4245-22-7-9-7-40-0-6-8"
-       transform="matrix(0,2.5665956,-2.178231,0,1194.6773,324.41028)"
-       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90">
-      <path
-         transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
-         inkscape:randomized="0"
-         inkscape:rounded="0"
-         inkscape:flatsided="false"
-         sodipodi:arg2="2.6179939"
-         sodipodi:arg1="1.5707963"
-         sodipodi:r2="1.227616"
-         sodipodi:r1="2.4552319"
-         sodipodi:cy="135.11514"
-         sodipodi:cx="123.41632"
-         sodipodi:sides="3"
-         id="path4221-4-3-5-3-8-0-7-1"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="star" />
-      <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
-         inkscape:randomized="0"
-         inkscape:rounded="0"
-         inkscape:flatsided="false"
-         sodipodi:arg2="2.6179939"
-         sodipodi:arg1="1.5707963"
-         sodipodi:r2="1.227616"
-         sodipodi:r1="2.4552319"
-         sodipodi:cy="135.11514"
-         sodipodi:cx="123.41632"
-         sodipodi:sides="3"
-         id="path4221-2-4-1-4-87-7-1-9-8"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="star"
-         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
-    </g>
-    <g
        id="g4245-22-7-9-72-2"
-       transform="matrix(2.5665956,0,0,2.178231,288.16551,-177.14718)"
+       transform="matrix(2.5665956,0,0,2.178231,290.56991,-177.14718)"
        inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
@@ -3011,7 +2608,7 @@
          sodipodi:cx="123.41632"
          sodipodi:sides="3"
          id="path4221-4-3-5-29-5"
-         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
          d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
@@ -3026,13 +2623,13 @@
          sodipodi:cx="123.41632"
          sodipodi:sides="3"
          id="path4221-2-4-1-4-06-1"
-         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star"
          transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
     </g>
     <g
        id="g4245-22-7-9-72-1-4"
-       transform="matrix(2.5665956,0,0,2.178231,288.16551,-134.84072)"
+       transform="matrix(2.5665956,0,0,2.178231,290.56991,-134.84072)"
        inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
@@ -3051,7 +2648,7 @@
          sodipodi:cx="123.41632"
          sodipodi:sides="3"
          id="path4221-4-3-5-29-8-9"
-         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
          d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
@@ -3066,7 +2663,7 @@
          sodipodi:cx="123.41632"
          sodipodi:sides="3"
          id="path4221-2-4-1-4-06-9-6"
-         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star"
          transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
     </g>
@@ -3079,28 +2676,13 @@
        y="-863.61584"
        transform="scale(-1,-1)" />
     <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect4008-8-8-3-1-2-3-1"
        width="4.2519684"
-       height="45.947296"
+       height="50.447109"
        x="-797.7821"
        y="618.28546"
        transform="matrix(0,-1,1,0,0,0)" />
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3-1-2-3-1-3"
-       width="4.2519684"
-       height="45.947296"
-       x="-839.45746"
-       y="618.28546"
-       transform="matrix(0,-1,1,0,0,0)" />
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3-1-2-3-1-2-5"
-       width="4.2519684"
-       height="29.766663"
-       x="717.90717"
-       y="864.90027" />
     <rect
        style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1.06299185999999990;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect4008-8-8-3-1-2-3-1-2-5-2"
@@ -3119,7 +2701,7 @@
        style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1.06299198;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect4008-8-8-3-1-2-3-1-2-5-1-0"
        width="4.2519684"
-       height="132.10373"
+       height="186.94286"
        x="965.19812"
        y="-852.76337"
        transform="matrix(0,1,-1,0,0,0)" />
@@ -3168,62 +2750,11 @@
          sodipodi:type="star"
          transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
     </g>
-    <g
-       id="g4245-22-7-9-6-2-0-9"
-       transform="matrix(0,2.5665956,-2.178231,0,1691.1388,560.568)"
-       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"
-       style="fill:#cccccc">
-      <path
-         transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
-         inkscape:randomized="0"
-         inkscape:rounded="0"
-         inkscape:flatsided="false"
-         sodipodi:arg2="2.6179939"
-         sodipodi:arg1="1.5707963"
-         sodipodi:r2="1.227616"
-         sodipodi:r1="2.4552319"
-         sodipodi:cy="135.11514"
-         sodipodi:cx="123.41632"
-         sodipodi:sides="3"
-         id="path4221-4-3-5-8-6-9-4"
-         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="star" />
-      <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
-         inkscape:randomized="0"
-         inkscape:rounded="0"
-         inkscape:flatsided="false"
-         sodipodi:arg2="2.6179939"
-         sodipodi:arg1="1.5707963"
-         sodipodi:r2="1.227616"
-         sodipodi:r1="2.4552319"
-         sodipodi:cy="135.11514"
-         sodipodi:cx="123.41632"
-         sodipodi:sides="3"
-         id="path4221-2-4-1-4-0-4-7-3"
-         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="star"
-         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
-    </g>
-    <rect
+    <path
        style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3-1-2-3-1-9"
-       width="4.2519684"
-       height="45.947296"
-       x="-771.06464"
-       y="618.28546"
-       transform="matrix(0,-1,1,0,0,0)" />
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3-1-2-3-1-6"
-       width="4.2519684"
-       height="45.890636"
-       x="-741.8493"
-       y="618.3421"
-       transform="matrix(0,-1,1,0,0,0)" />
+       d="M 594.46875 310.96875 L 594.46875 315.21875 L 594.625 315.21875 L 594.625 431.5625 L 595.03125 431.5625 L 595.03125 431.59375 L 668.3125 431.59375 L 668.3125 427.34375 L 598.875 427.34375 L 598.875 315.21875 L 669.46875 315.21875 L 669.46875 310.96875 L 594.46875 310.96875 z "
+       transform="translate(0,308.2677)"
+       id="rect4008-8-8-3-1-2-3-1-6" />
     <rect
        style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect4008-8-8-3-1-2-3-1-2-5-3"
@@ -3232,63 +2763,8 @@
        x="798.77228"
        y="877.40039" />
     <g
-       id="g4245-22-7-9-6-2-0-9-8"
-       transform="matrix(0,2.5665956,-2.178231,0,1772.6674,560.568)"
-       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"
-       style="fill:#cccccc">
-      <path
-         transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
-         inkscape:randomized="0"
-         inkscape:rounded="0"
-         inkscape:flatsided="false"
-         sodipodi:arg2="2.6179939"
-         sodipodi:arg1="1.5707963"
-         sodipodi:r2="1.227616"
-         sodipodi:r1="2.4552319"
-         sodipodi:cy="135.11514"
-         sodipodi:cx="123.41632"
-         sodipodi:sides="3"
-         id="path4221-4-3-5-8-6-9-4-9"
-         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="star" />
-      <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
-         inkscape:randomized="0"
-         inkscape:rounded="0"
-         inkscape:flatsided="false"
-         sodipodi:arg2="2.6179939"
-         sodipodi:arg1="1.5707963"
-         sodipodi:r2="1.227616"
-         sodipodi:r1="2.4552319"
-         sodipodi:cy="135.11514"
-         sodipodi:cx="123.41632"
-         sodipodi:sides="3"
-         id="path4221-2-4-1-4-0-4-7-3-9"
-         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="star"
-         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
-    </g>
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3-1-2-3-1-9-0"
-       width="4.2519684"
-       height="76.157982"
-       x="-771.06464"
-       y="541.99591"
-       transform="matrix(0,-1,1,0,0,0)" />
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3-1-2-3-1-6-4"
-       width="4.2519684"
-       height="119.9942"
-       x="470.86914"
-       y="651.07037" />
-    <g
        id="g5874"
-       transform="translate(-152.77221,-199.28697)">
+       transform="translate(-19.447463,99.435476)">
       <rect
          y="653.5224"
          x="522.83826"
@@ -3307,113 +2783,31 @@
            id="tspan4790-0"
            sodipodi:role="line">PC</tspan></text>
     </g>
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3-1-2-3-1-6-4-4-5-7"
-       width="4.2519684"
-       height="120.78413"
-       x="586.61499"
-       y="617.0387" />
     <g
-       id="g4245-22-7-9-72-2-9"
-       transform="matrix(2.5665956,0,0,2.178231,288.16551,-202.90167)"
-       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"
-       style="fill:#cccccc">
-      <path
-         transform="translate(0,308.2677)"
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
-         inkscape:randomized="0"
-         inkscape:rounded="0"
-         inkscape:flatsided="false"
-         sodipodi:arg2="2.6179939"
-         sodipodi:arg1="1.5707963"
-         sodipodi:r2="1.227616"
-         sodipodi:r1="2.4552319"
-         sodipodi:cy="135.11514"
-         sodipodi:cx="123.41632"
-         sodipodi:sides="3"
-         id="path4221-4-3-5-29-5-0"
-         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="star" />
-      <path
-         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
-         inkscape:randomized="0"
-         inkscape:rounded="0"
-         inkscape:flatsided="false"
-         sodipodi:arg2="2.6179939"
-         sodipodi:arg1="1.5707963"
-         sodipodi:r2="1.227616"
-         sodipodi:r1="2.4552319"
-         sodipodi:cy="135.11514"
-         sodipodi:cx="123.41632"
-         sodipodi:sides="3"
-         id="path4221-2-4-1-4-06-1-2"
-         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="star"
-         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+       id="g6245"
+       transform="matrix(1.2035135,0,0,1.2035135,-121.56916,-104.68113)">
+      <rect
+         y="574.2337"
+         x="643.13098"
+         height="11.966368"
+         width="13.991104"
+         id="rect4792-2-5"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.8832407;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         transform="scale(0.96449968,1.036807)"
+         id="text4788-6-6"
+         y="563.81671"
+         x="667.24365"
+         style="font-size:11.34215355px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="563.81671"
+           x="667.24365"
+           id="tspan4790-0-6"
+           sodipodi:role="line">LV</tspan></text>
     </g>
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3-1-2-3-1-9-0-2"
-       width="4.2519684"
-       height="33.140247"
-       x="-741.8493"
-       y="585.84473"
-       transform="matrix(0,-1,1,0,0,0)" />
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3-1-2-3-1-9-0-3"
-       width="102.13929"
-       height="57.848122"
-       x="-634.06525"
-       y="648.18866"
-       transform="matrix(0,-1,1,0,0,0)" />
-    <g
-       id="g5874-3"
-       transform="translate(37.670507,-135.45346)">
-      <g
-         id="g6105"
-         transform="translate(-61.267606,-66.197183)">
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.41732287;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-           id="rect4792-2-5"
-           width="31.559427"
-           height="25.109823"
-           x="522.83826"
-           y="653.5224" />
-        <text
-           xml:space="preserve"
-           style="font-size:24.67599869px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-           x="523.79761"
-           y="675.20984"
-           id="text4788-6-6"><tspan
-             sodipodi:role="line"
-             id="tspan4790-0-6"
-             x="523.79761"
-             y="675.20984">LV</tspan></text>
-      </g>
-    </g>
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3-1-2-3-1-9-0-2-2-5"
-       width="4.2519684"
-       height="71.168419"
-       x="-570.6853"
-       y="577.79608"
-       transform="matrix(0,-1,1,0,0,0)" />
-    <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3-1-2-3-1-9-0-2-2-5-8"
-       width="4.2519684"
-       height="62.013489"
-       x="-620.68536"
-       y="586.95099"
-       transform="matrix(0,-1,1,0,0,0)" />
     <g
        id="g4245-22-7-9-72-2-9-9"
-       transform="matrix(2.5665956,0,0,2.178231,319.15571,-352.63236)"
+       transform="matrix(2.5665956,0,0,2.178231,323.16903,-350.48693)"
        inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
@@ -3432,7 +2826,7 @@
          sodipodi:cx="123.41632"
          sodipodi:sides="3"
          id="path4221-4-3-5-29-5-0-6"
-         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
          d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
@@ -3447,13 +2841,83 @@
          sodipodi:cx="123.41632"
          sodipodi:sides="3"
          id="path4221-2-4-1-4-06-1-2-3"
-         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star"
          transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
     </g>
+    <path
+       style="fill:#ff6600;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 813 403.4375 C 800.97049 403.4375 791.21875 412.14979 791.21875 422.875 C 791.21875 433.60021 800.97049 442.28125 813 442.28125 C 813.56924 442.28125 814.12926 442.25698 814.6875 442.21875 L 814.6875 481.25 L 818.9375 481.25 L 818.9375 481.21875 L 862 481.21875 L 862 495.09375 L 888 495.09375 L 888 467.09375 L 862 467.09375 L 862 476.96875 L 818.9375 476.96875 L 818.9375 441.53125 C 828.07282 439.22187 834.78125 431.75973 834.78125 422.875 C 834.78125 412.14979 825.02951 403.4375 813 403.4375 z "
+       transform="translate(0,308.2677)"
+       id="path6679" />
+    <rect
+       style="fill:url(#linearGradient6544);fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4792-1-7"
+       width="42.453987"
+       height="34.625912"
+       x="895.72772"
+       y="702.97449"
+       transform="matrix(0,1,1,0,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-size:24.67599869px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="901.95398"
+       y="-711.81421"
+       id="text4788-39-2"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       transform="matrix(0,1,-1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan4790-47-2"
+         x="901.95398"
+         y="-711.81421">TP</tspan></text>
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       id="rect4980"
+       width="1.3475177"
+       height="3.2420011"
+       x="937.56488"
+       y="-720.90082"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       transform="matrix(0,1,-1,0,0,0)" />
     <g
-       id="g4245-22-7-9-7-40-0-6-9"
-       transform="matrix(0,2.5665956,-2.178231,0,1584.572,291.2362)"
+       id="g13152-6"
+       transform="translate(206.97595,412.43123)">
+      <rect
+         transform="scale(-1,-1)"
+         y="-512.73541"
+         x="-305.54822"
+         height="38.55209"
+         width="41.882931"
+         id="rect4008-8-8-3-1-2-3-69-2-5-6"
+         style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+         id="text4788-39-2-8-3"
+         y="502.55753"
+         x="268.38599"
+         style="font-size:24.67599869px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="502.55753"
+           x="268.38599"
+           id="tspan4790-47-2-2-5"
+           sodipodi:role="line">BV</tspan></text>
+    </g>
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-2-5-2-0"
+       width="4.2519684"
+       height="14.040618"
+       x="655.21906"
+       y="864.57166" />
+    <g
+       id="g4245-22-7-9-6-2-0"
+       transform="matrix(0,2.5665956,-2.178231,0,1629.1109,561.88833)"
        inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
@@ -3471,8 +2935,8 @@
          sodipodi:cy="135.11514"
          sodipodi:cx="123.41632"
          sodipodi:sides="3"
-         id="path4221-4-3-5-3-8-0-7-6"
-         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path4221-4-3-5-8-6-9"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
          d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
@@ -3486,40 +2950,956 @@
          sodipodi:cy="135.11514"
          sodipodi:cx="123.41632"
          sodipodi:sides="3"
-         id="path4221-2-4-1-4-87-7-1-9-9"
-         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path4221-2-4-1-4-0-4-7"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star"
          transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
     </g>
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-2-5-2-0-2"
+       width="4.2519684"
+       height="12.500233"
+       x="798.77228"
+       y="865.11206" />
+    <rect
+       style="fill:url(#linearGradient13278);fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4792-1-7-7"
+       width="42.453987"
+       height="34.625912"
+       x="853.59558"
+       y="-985.67511"
+       transform="scale(1,-1)"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-size:24.67599869px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="858.37341"
+       y="977.13763"
+       id="text4788-39-2-0"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4790-47-2-8"
+         x="858.37341"
+         y="977.13763">RP</tspan></text>
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       id="rect4980-7"
+       width="2.5053115"
+       height="3.1340382"
+       x="851.6911"
+       y="965.7428"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:url(#linearGradient13329);fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4662"
+       width="35.100712"
+       height="28.290129"
+       x="-667.01978"
+       y="-698.21613"
+       transform="matrix(0,-1,-1,0,0,0)"
+       inkscape:transform-center-y="2.3114799"
+       inkscape:transform-center-x="2.2556965"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-size:20.82731247px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="671.50531"
+       y="655.84607"
+       id="text4788-39-4"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4790-47-8"
+         x="671.50531"
+         y="655.84607">TP</tspan></text>
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4690"
+       width="28.241091"
+       height="45.873257"
+       x="669.91077"
+       y="586.15326"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:url(#linearGradient4709);fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4662-2"
+       width="25.022179"
+       height="22.792746"
+       x="-692.78839"
+       y="-694.96185"
+       transform="matrix(0,-1,-1,0,0,0)"
+       inkscape:transform-center-y="1.6477616"
+       inkscape:transform-center-x="1.8173924"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       id="rect4732"
+       width="21.713909"
+       height="2.2925932"
+       x="672.71552"
+       y="666.20667"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-size:18.13323212px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="671.64496"
+       y="683.96417"
+       id="text4788-39-4-3"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4790-47-8-3"
+         x="671.64496"
+         y="683.96417">RP</tspan></text>
+    <path
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 498.6875 363.8125 L 498.6875 402.375 L 517.25 402.375 L 517.25 444.84375 L 521.5 444.84375 L 521.5 402.375 L 540.5625 402.375 L 540.5625 363.8125 L 498.6875 363.8125 z "
+       transform="translate(0,308.2677)"
+       id="rect4008-8-8-3-1-2-3-69-2-5-6-9" />
+    <text
+       xml:space="preserve"
+       style="font-size:24.67599869px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="503.40973"
+       y="700.466"
+       id="text4788-39-2-8-3-6"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4790-47-2-2-5-8"
+         x="503.40973"
+         y="700.466">BV</tspan></text>
     <path
        sodipodi:type="arc"
-       style="fill:#ff6600;fill-opacity:1;stroke:#000000;stroke-width:1.45433681;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="path6679"
-       sodipodi:cx="750.5"
-       sodipodi:cy="478.09448"
-       sodipodi:rx="23.5"
-       sodipodi:ry="21"
-       d="m 774,478.09448 a 23.5,21 0 1 1 -47,0 23.5,21 0 1 1 47,0 z"
-       transform="matrix(0.73203099,0,0,0.72979459,260.90928,399.91365)" />
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3360-5-7"
+       sodipodi:cx="525.29016"
+       sodipodi:cy="645.67737"
+       sodipodi:rx="8.675066"
+       sodipodi:ry="8.675066"
+       d="m 533.96523,645.67737 a 8.675066,8.675066 0 1 1 -17.35013,0 8.675066,8.675066 0 1 1 17.35013,0 z"
+       transform="matrix(0,-1,1,0,27.4034,1262.7684)"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 568.4375 284.875 L 568.4375 458.53125 L 539 458.53125 L 539 462.8125 L 667.65625 462.8125 L 667.65625 458.53125 L 570.625 458.53125 L 570.625 284.875 L 568.4375 284.875 z "
+       transform="translate(0,308.2677)"
+       id="rect4008-8-8-3-1-2-3-1-9-0" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3360-7-2"
+       sodipodi:cx="525.29016"
+       sodipodi:cy="645.67737"
+       sodipodi:rx="8.675066"
+       sodipodi:ry="8.675066"
+       d="m 533.96523,645.67737 a 8.675066,8.675066 0 1 1 -17.35013,0 8.675066,8.675066 0 1 1 17.35013,0 z"
+       transform="matrix(0,-1,1,0,27.4034,1296.1518)"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3360-9-7"
+       sodipodi:cx="525.29016"
+       sodipodi:cy="645.67737"
+       sodipodi:rx="8.675066"
+       sodipodi:ry="8.675066"
+       d="m 533.96523,645.67737 a 8.675066,8.675066 0 1 1 -17.35013,0 8.675066,8.675066 0 1 1 17.35013,0 z"
+       transform="matrix(0,-1,1,0,27.4034,1321.5443)"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3360-56"
+       sodipodi:cx="525.29016"
+       sodipodi:cy="645.67737"
+       sodipodi:rx="8.675066"
+       sodipodi:ry="8.675066"
+       d="m 533.96523,645.67737 a 8.675066,8.675066 0 1 1 -17.35013,0 8.675066,8.675066 0 1 1 17.35013,0 z"
+       transform="matrix(0,-1,1,0,27.4034,1360.7661)"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <rect
-       style="fill:#ff6600;fill-opacity:1;stroke:#000000;stroke-width:1.06299213;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3-1-2-3-1-9-0-2-2-5-2-58"
-       width="4.2519684"
-       height="59.914223"
-       x="-789.48816"
-       y="814.86719"
+       style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-6-4-2"
+       width="2.6156731"
+       height="84.087479"
+       x="-594.84839"
+       y="568.40588"
        transform="matrix(0,-1,1,0,0,0)" />
     <rect
-       style="fill:#ff6600;fill-opacity:1;stroke:#000000;stroke-width:1.06299213;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect6699"
-       width="26"
-       height="28"
-       x="862"
-       y="467.09448"
-       transform="translate(0,308.2677)" />
+       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       id="rect4690-3"
+       width="27.113249"
+       height="1.3028694"
+       x="670.42621"
+       y="631.36523"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 563.6875 636.3125 L 563.6875 674.84375 L 605.5625 674.84375 L 605.5625 671 L 623.46875 671 L 623.46875 666.71875 L 605.5625 666.71875 L 605.5625 642 L 648.1875 642 L 648.1875 637.75 L 605.5625 637.75 L 605.5625 636.3125 L 563.6875 636.3125 z "
+       transform="translate(0,308.2677)"
+       id="rect4008-8-8-3-1-2-3-69-2-5-6-8" />
+    <text
+       xml:space="preserve"
+       style="font-size:24.67599869px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="568.40118"
+       y="972.94379"
+       id="text4788-39-2-8-3-7"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4790-47-2-2-5-0"
+         x="568.40118"
+         y="972.94379">BV</tspan></text>
+    <g
+       id="g4759-8"
+       transform="matrix(1,0,0,-1,-24.220622,1420.0687)"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         transform="scale(1,-1)"
+         y="-457.21274"
+         x="647.51703"
+         height="34.625912"
+         width="42.453987"
+         id="rect4792-1-7-4"
+         style="fill:url(#linearGradient6402);fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:24.67599869px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="631.09119"
+       y="990.65405"
+       id="text4788-39-2-4"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4790-47-2-88"
+         x="631.09119"
+         y="990.65405">TP</tspan></text>
+    <g
+       id="g4245-22-7-9-6-2-0-9-2"
+       transform="matrix(-2.5665956,0,0,-2.178231,1076.6301,1939.7416)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="fill:#cccccc">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-8-6-9-4-1"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-0-4-7-3-3"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-6-2-9"
+       transform="matrix(-2.5665956,0,0,-2.178231,993.46676,1939.0829)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-8-6-3"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-0-4-6"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-2-5-1-1"
+       width="4.2519684"
+       height="18.822472"
+       x="686.92847"
+       y="946.11847" />
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-2-5-1-02"
+       width="4.2519684"
+       height="43.350704"
+       x="946.05176"
+       y="-690.90942"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <g
+       id="g4245-22-7-9-72-2-9"
+       transform="matrix(2.5665956,0,0,2.178231,290.56991,-202.90167)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="fill:#cccccc">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-29-5-0"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-06-1-2"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       id="rect4980-4"
+       width="2.1568704"
+       height="3.2420011"
+       x="894.8548"
+       y="-721.65308"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <g
+       id="g4245-22-7-9-6-2-9-4"
+       transform="matrix(-2.5665956,0,0,-2.178231,964.36403,1919.7113)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-8-6-3-4"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-0-4-6-0"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       id="rect4980-6"
+       width="1.3475177"
+       height="3.2420011"
+       x="-623.91449"
+       y="-978.67896"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       transform="scale(-1,-1)" />
+    <path
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 223.46875 256.25 L 223.46875 294.8125 L 240.96875 294.8125 L 240.96875 332.9375 L 245.21875 332.9375 L 245.21875 294.8125 L 265.34375 294.8125 L 265.34375 256.25 L 223.46875 256.25 z "
+       transform="translate(0,308.2677)"
+       id="rect4008-8-8-3-1-2-3-69-2-5" />
+    <text
+       xml:space="preserve"
+       style="font-size:24.67599869px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="228.19218"
+       y="592.89343"
+       id="text4788-39-2-8"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4790-47-2-2"
+         x="228.19218"
+         y="592.89343">BV</tspan></text>
+    <g
+       id="g4245-22-7-9-7-40-0-6-8"
+       transform="matrix(0,2.5665956,-2.178231,0,1214.6773,324.41028)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-3-8-0-7-1"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-87-7-1-9-8"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <rect
+       style="fill:#0000ff;fill-opacity:1;stroke:none"
+       id="rect6654-2"
+       width="3.2405517"
+       height="7.7090816"
+       x="203.22269"
+       y="678.96265" />
+    <rect
+       style="fill:#0000ff;fill-opacity:1;stroke:none"
+       id="rect6654-2-8"
+       width="3.2405517"
+       height="7.7090816"
+       x="179.98941"
+       y="678.54883" />
+    <rect
+       style="fill:#0000ff;fill-opacity:1;stroke:none"
+       id="rect6654-2-0"
+       width="3.2405517"
+       height="7.7090816"
+       x="228.52507"
+       y="679.02179" />
+    <rect
+       style="fill:#0000ff;fill-opacity:1;stroke:none"
+       id="rect6654-2-7"
+       width="3.2405517"
+       height="7.7090816"
+       x="251.75835"
+       y="677.8985" />
+    <rect
+       style="fill:#0000ff;fill-opacity:1;stroke:none"
+       id="rect6654-2-6"
+       width="3.2405517"
+       height="7.7090816"
+       x="277.06073"
+       y="678.54883" />
+    <rect
+       style="fill:#0000ff;fill-opacity:1;stroke:none"
+       id="rect6654-2-4"
+       width="3.2405517"
+       height="7.7090816"
+       x="302.30402"
+       y="678.66705" />
+    <rect
+       style="fill:#0000ff;fill-opacity:1;stroke:none"
+       id="rect6654-2-01"
+       width="3.2405517"
+       height="3.1227233"
+       x="424.90817"
+       y="752.03986" />
+    <rect
+       style="fill:#0000ff;fill-opacity:1;stroke:none"
+       id="rect6654-2-01-6"
+       width="3.2405517"
+       height="3.1227233"
+       x="423.99625"
+       y="835.95624" />
+    <rect
+       style="fill:#0000ff;fill-opacity:1;stroke:none"
+       id="rect6654-2-01-5"
+       width="3.2405517"
+       height="3.1227233"
+       x="425.53934"
+       y="838.35864" />
+    <rect
+       style="fill:#0000ff;fill-opacity:1;stroke:none"
+       id="rect6654-2-01-5-6"
+       width="3.2405517"
+       height="3.1227233"
+       x="424.30273"
+       y="877.86969" />
+    <rect
+       style="fill:#0000ff;fill-opacity:1;stroke:none"
+       id="rect6654-2-01-5-7"
+       width="3.2405517"
+       height="3.1227233"
+       x="423.57495"
+       y="919.86517" />
+    <rect
+       style="fill:#0000ff;fill-opacity:1;stroke:none"
+       id="rect6654-2-01-5-2"
+       width="3.2405517"
+       height="3.1227233"
+       x="423.211"
+       y="961.78784" />
+    <rect
+       style="fill:#0000ff;fill-opacity:1;stroke:none"
+       id="rect6654-2-01-5-65"
+       width="3.1927047"
+       height="6.8069339"
+       x="489.52396"
+       y="833.58063" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       id="rect4690-3-0"
+       width="4.3953066"
+       height="3.1700976"
+       x="666.89246"
+       y="619.75861"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#0000ff;fill-opacity:1;stroke:none"
+       id="rect4690-3-2"
+       width="1.1283288"
+       height="4.4149165"
+       x="568.95947"
+       y="593.79016"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299174;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-1-2-5"
+       width="4.2519684"
+       height="30.537601"
+       x="717.90717"
+       y="864.90015" />
+    <g
+       id="g4245-22-7-9-6-2-0-9"
+       transform="matrix(0,2.5665956,-2.178231,0,1691.5789,560.34795)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="fill:#cccccc">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-8-6-9-4"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-0-4-7-3"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-6-2-0-9-8"
+       transform="matrix(0,2.5665956,-2.178231,0,1772.6674,561.00811)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="fill:#cccccc">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-8-6-9-4-9"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-0-4-7-3-9"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       id="rect4980-0"
+       width="1.3475177"
+       height="3.2420011"
+       x="964.5188"
+       y="-720.94922"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       id="rect4980-5"
+       width="1.7329803"
+       height="3.2420011"
+       x="964.35364"
+       y="-690.66284"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       id="rect4980-57"
+       width="4.4862843"
+       height="3.1869349"
+       x="946.5672"
+       y="-690.66284"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       id="rect4980-8"
+       width="3.2197645"
+       height="3.2420011"
+       x="965.73022"
+       y="-668.03064"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <g
+       id="g4245-22-7-9-7-41"
+       transform="matrix(0,2.5665956,-2.178231,0,1131.3072,578.7546)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-3-3"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-87-07"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-7-72"
+       transform="matrix(0,2.5665956,-2.178231,0,1131.3072,536.89569)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-3-80"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-87-6"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-7-7"
+       transform="matrix(0,2.5665956,-2.178231,0,1131.3072,495.28301)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="fill:#000000">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-3-15"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-87-0"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-7-3"
+       transform="matrix(0,2.5665956,-2.178231,0,1131.3072,453.17787)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-3-84"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-87-71"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
+    <g
+       id="g4245-22-7-9-7-41-3"
+       transform="matrix(0,2.5665956,-2.178231,0,1131.3072,620.85974)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-3-3-2"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-87-07-9"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
     <g
        id="g4245-22-7-9-72-1-7"
-       transform="matrix(2.5665956,0,0,2.178231,-246.75978,-221.53376)"
+       transform="matrix(2.5665956,0,0,2.178231,-198.75978,-221.53376)"
        inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
@@ -3558,7 +3938,7 @@
     </g>
     <g
        id="g4245-22-7-9-72-1-9"
-       transform="matrix(2.5665956,0,0,2.178231,-246.75978,-178.3671)"
+       transform="matrix(2.5665956,0,0,2.178231,-198.75978,-178.3671)"
        inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
@@ -3597,7 +3977,7 @@
     </g>
     <g
        id="g4245-22-7-9-72-1-6"
-       transform="matrix(2.5665956,0,0,2.178231,-246.75978,-133.20042)"
+       transform="matrix(2.5665956,0,0,2.178231,-198.75978,-133.20042)"
        inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
@@ -3636,7 +4016,7 @@
     </g>
     <g
        id="g4245-22-7-9-72-1-92"
-       transform="matrix(2.5665956,0,0,2.178231,-246.75978,-90.867102)"
+       transform="matrix(2.5665956,0,0,2.178231,-198.75978,-90.867102)"
        inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
@@ -3675,7 +4055,7 @@
     </g>
     <g
        id="g4245-22-7-9-72-1-75"
-       transform="matrix(2.5665956,0,0,2.178231,-246.75978,-49.700434)"
+       transform="matrix(2.5665956,0,0,2.178231,-198.75978,-49.700434)"
        inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
@@ -3714,7 +4094,7 @@
     </g>
     <g
        id="g4245-22-7-9-72-1-19"
-       transform="matrix(2.5665956,0,0,2.178231,-246.75978,-10.533766)"
+       transform="matrix(2.5665956,0,0,2.178231,-198.75978,-10.533766)"
        inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
@@ -3751,108 +4131,27 @@
          sodipodi:type="star"
          transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
     </g>
-    <g
-       id="g13184"
-       transform="matrix(0,1,-1,0,1156.7752,281.03173)">
-      <g
-         inkscape:export-ydpi="300"
-         inkscape:export-xdpi="300"
-         inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-         transform="translate(-32.821035,-3.4120218)"
-         id="g4759">
-        <rect
-           style="fill:url(#linearGradient13191);fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-           id="rect4792-1-7"
-           width="42.453987"
-           height="34.625912"
-           x="647.51703"
-           y="-457.21274"
-           transform="scale(1,-1)" />
-      </g>
-      <text
-         inkscape:export-ydpi="300"
-         inkscape:export-xdpi="300"
-         inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-         id="text4788-39-2"
-         y="444.961"
-         x="620.92224"
-         style="font-size:24.67599869px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         xml:space="preserve"><tspan
-           y="444.961"
-           x="620.92224"
-           id="tspan4790-47-2"
-           sodipodi:role="line">TP</tspan></text>
-      <rect
-         inkscape:export-ydpi="300"
-         inkscape:export-xdpi="300"
-         inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-         y="433.75494"
-         x="656.53314"
-         height="8.1560287"
-         width="1.3475177"
-         id="rect4980"
-         style="fill:#ff0000;fill-opacity:1;stroke:none" />
-    </g>
-    <g
-       id="g13152"
-       transform="translate(-60.1938,104.33592)">
-      <rect
-         transform="scale(-1,-1)"
-         y="-512.73541"
-         x="-305.54822"
-         height="38.55209"
-         width="41.882931"
-         id="rect4008-8-8-3-1-2-3-69-2-5"
-         style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      <text
-         inkscape:export-ydpi="300"
-         inkscape:export-xdpi="300"
-         inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-         id="text4788-39-2-8"
-         y="502.55753"
-         x="268.38599"
-         style="font-size:24.67599869px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         xml:space="preserve"><tspan
-           y="502.55753"
-           x="268.38599"
-           id="tspan4790-47-2-2"
-           sodipodi:role="line">BV</tspan></text>
-    </g>
-    <g
-       id="g13152-6"
-       transform="translate(206.97595,412.43123)">
-      <rect
-         transform="scale(-1,-1)"
-         y="-512.73541"
-         x="-305.54822"
-         height="38.55209"
-         width="41.882931"
-         id="rect4008-8-8-3-1-2-3-69-2-5-6"
-         style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      <text
-         inkscape:export-ydpi="300"
-         inkscape:export-xdpi="300"
-         inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-         id="text4788-39-2-8-3"
-         y="502.55753"
-         x="268.38599"
-         style="font-size:24.67599869px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         xml:space="preserve"><tspan
-           y="502.55753"
-           x="268.38599"
-           id="tspan4790-47-2-2-5"
-           sodipodi:role="line">BV</tspan></text>
-    </g>
     <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299185999999990;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3-1-2-3-1-2-5-2-0"
+       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4008-8-8-3-1-2-3-69-2-3"
        width="4.2519684"
-       height="12.500233"
-       x="655.21906"
-       y="866.112" />
+       height="54.07024"
+       x="-695.83508"
+       y="540.50464"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       id="rect4690-3-0-6"
+       width="1.5027177"
+       height="3.1700976"
+       x="593.76746"
+       y="692.1286"
+       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <g
-       id="g4245-22-7-9-6-2-0"
-       transform="matrix(0,2.5665956,-2.178231,0,1628.4507,560.568)"
+       id="g4245-22-7-9-72-2-9-9-5"
+       transform="matrix(2.5665956,0,0,2.178231,233.35226,-278.85166)"
        inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
@@ -3870,8 +4169,8 @@
          sodipodi:cy="135.11514"
          sodipodi:cx="123.41632"
          sodipodi:sides="3"
-         id="path4221-4-3-5-8-6-9"
-         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path4221-4-3-5-29-5-0-6-2"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star" />
       <path
          d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
@@ -3885,123 +4184,60 @@
          sodipodi:cy="135.11514"
          sodipodi:cx="123.41632"
          sodipodi:sides="3"
-         id="path4221-2-4-1-4-0-4-7"
-         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046000000005;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path4221-2-4-1-4-06-1-2-3-7"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          sodipodi:type="star"
          transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
     </g>
     <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:1.06299186;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4008-8-8-3-1-2-3-1-2-5-2-0-2"
-       width="4.2519684"
-       height="12.500233"
-       x="798.77228"
-       y="865.11206" />
-    <rect
-       style="fill:url(#linearGradient13278);fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4792-1-7-7"
-       width="42.453987"
-       height="34.625912"
-       x="853.59558"
-       y="-985.67511"
-       transform="scale(1,-1)"
-       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <text
-       xml:space="preserve"
-       style="font-size:24.67599869px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-       x="858.37341"
-       y="977.13763"
-       id="text4788-39-2-0"
-       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"><tspan
-         sodipodi:role="line"
-         id="tspan4790-47-2-8"
-         x="858.37341"
-         y="977.13763">RP</tspan></text>
-    <rect
-       style="fill:#ff0000;fill-opacity:1;stroke:none"
-       id="rect4980-7"
-       width="1.7774868"
-       height="8.1560287"
-       x="852.41895"
-       y="963.63208"
-       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <rect
-       style="fill:url(#linearGradient13329);fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4662"
-       width="35.100712"
-       height="28.290129"
-       x="-590.59766"
-       y="-829.62488"
-       transform="matrix(0,-1,-1,0,0,0)"
-       inkscape:transform-center-y="2.3114799"
-       inkscape:transform-center-x="2.2556965"
-       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <text
-       xml:space="preserve"
-       style="font-size:20.82731247px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-       x="802.91406"
-       y="579.42395"
-       id="text4788-39-4"
-       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"><tspan
-         sodipodi:role="line"
-         id="tspan4790-47-8"
-         x="802.91406"
-         y="579.42395">TP</tspan></text>
-    <rect
        style="fill:#00ff00;fill-opacity:1;stroke:none"
-       id="rect4690"
-       width="27.374229"
-       height="6.286695"
-       x="801.72864"
-       y="550.25793"
+       id="rect4690-3-0-6-9"
+       width="1.5027177"
+       height="3.1700976"
+       x="539.79816"
+       y="692.11346"
        inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
-    <rect
-       style="fill:url(#linearGradient4709);fill-opacity:1;stroke:#000000;stroke-width:1.0629921;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4662-2"
-       width="25.022179"
-       height="22.792746"
-       x="-616.36627"
-       y="-826.37061"
-       transform="matrix(0,-1,-1,0,0,0)"
-       inkscape:transform-center-y="1.6477616"
-       inkscape:transform-center-x="1.8173924"
-       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <rect
-       style="fill:#ff0000;fill-opacity:1;stroke:none"
-       id="rect4732"
-       width="21.713909"
-       height="2.2925932"
-       x="804.12427"
-       y="589.78455"
-       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <text
-       xml:space="preserve"
-       style="font-size:18.13323212px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-       x="803.05371"
-       y="607.54205"
-       id="text4788-39-4-3"
-       inkscape:export-filename="/home/robert/Documents/git/Thesis/figures/microreactor_new_setup.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"><tspan
-         sodipodi:role="line"
-         id="tspan4790-47-8-3"
-         x="803.05371"
-         y="607.54205">RP</tspan></text>
+    <g
+       id="g4245-22-7-9-6-2-0-9-2-3"
+       transform="matrix(-2.5665956,0,0,-2.178231,932.41637,1949.5107)"
+       inkscape:export-filename="/home/robertj/demon/robert/ForedragOgOplaeg/Hot_News_2010_12_03/new_microreactor_design.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="fill:#cccccc">
+      <path
+         transform="translate(0,308.2677)"
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-4-3-5-8-6-9-4-1-6"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star" />
+      <path
+         d="m 123.41632,137.57037 -1.06315,-1.84142 -1.06314,-1.84142 2.12629,0 2.12629,0 -1.06314,1.84142 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.6179939"
+         sodipodi:arg1="1.5707963"
+         sodipodi:r2="1.227616"
+         sodipodi:r1="2.4552319"
+         sodipodi:cy="135.11514"
+         sodipodi:cx="123.41632"
+         sodipodi:sides="3"
+         id="path4221-2-4-1-4-0-4-7-3-3-6"
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.56512046;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         transform="matrix(-1,0,0,-1,246.83264,584.10409)" />
+    </g>
   </g>
 </svg>

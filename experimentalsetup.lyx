@@ -505,18 +505,10 @@ Another problem is the valves in front of the flow-controllers.
  available on the setup, one needs to close the valve in front of it, however
  with a manual valve, this makes it impossible to eliminate backgrounds
  from gasses that are actually used during the experiment.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Gas-linjer med dårlige ventiler og skæreringe.
- Flere gasser pr.
- MFC.
-\end_layout
-
-\end_inset
-
-
+ Finally many gas-lines was implemented with gasket-less swagelock type
+ connections, which are not UHV-compatibale, and along with rebuilding the
+ system, it was obvious to also change all gas handling to copper seald
+ VCR connections.
 \end_layout
 
 \begin_layout Standard
@@ -569,6 +561,9 @@ The
  Grey valves are pneumatically activated.
  Besides these valves, the main new feature is the introduction of a turbo
  pump to ensure oil-free vacuum in the entire gas handling system.
+ Typically we mount two different gasses to each MFC, of course only one
+ can be used at any time, but in this way it is fairly easy to switch between
+ the various gasses.
 \end_layout
 
 \end_inset
@@ -659,7 +654,7 @@ status collapsed
 \noindent
 \align center
 \begin_inset Graphics
-	filename svg_figures/microreactor_NGsetup.svg
+	filename figures/microreactor_NGsetup.png
 	display false
 	width 12cm
 
@@ -676,6 +671,13 @@ name "fig:NGsetup'"
 \end_inset
 
 The so-called 'Next Generation' setup.
+ To simplify the drawing, the buffer volume has been drawn several times.
+ Tha black square represents the containment volume.
+ The valve pointing into nothing is used for ventilating the containment
+ volume.
+ De orange structure connected via a feed-through into the containment volume
+ is the cooling braid.
+ The box named 'LV' is the piezo-actuated leak valve.
 \end_layout
 
 \end_inset
@@ -980,13 +982,14 @@ Besides the obvious improvements we wanted for the NG setup, we also added
  thus able to cool the sample which can sometimes be convenient.
  The lowest achievable temperature has not been really tested yet, but most
  likely the limit will be set by the o-rings which will not go much lower
- than ...
-\begin_inset Note Note
-status open
+ than -60
+\begin_inset Formula $^{\circ}$
+\end_inset
 
-\begin_layout Plain Layout
-Find tallet!!! 
-\end_layout
+C
+\begin_inset CommandInset citation
+LatexCommand cite
+key "oringe"
 
 \end_inset
 
