@@ -762,13 +762,13 @@ reference "fig:temp_profile_insulation"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
-	filename figures/IR_0200.jpg
+	filename figures/IR_0200_with_reactor.png
 	display false
 	width 9cm
 
