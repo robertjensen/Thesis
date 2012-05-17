@@ -153,7 +153,7 @@ Ref til Zubyers afhandling
 The two gas inlets are combined on the chip where the inlet gases mix by
  diffusion.
  The capillary is designed such that approximately 
-\begin_inset Formula $3\times10^{14}$
+\begin_inset Formula $6\times10^{14}$
 \end_inset
 
 
@@ -163,7 +163,7 @@ The two gas inlets are combined on the chip where the inlet gases mix by
 molecules/s
 \begin_inset CommandInset citation
 LatexCommand cite
-key "Toke-phd"
+key "Toke-phd,Henriksen2009"
 
 \end_inset
 
@@ -352,12 +352,57 @@ V signal, this makes it very easy to interface the flow controllers with
 
 \begin_layout Standard
 The capillary flow is fed into a quadropole mass-spectrometer (QMS) for
- analysis while any surplus of gas from the inlets is passed directly through
- to the outlet via a pressure controller allowing control of reactor pressure.
- The design makes sure that all gases exposed to the catalyst under investigatio
-n are measured by the QMS ensuring an extremely high sensitivity of the
- system.
- 
+ analysis.
+ The QMS is mounted in a fully traditional, however rather small UHV setup
+ consiting pumped by a turbo pump.
+ It is of greate importance to keep the base pressure as good as possible
+ in the chamber since this background is superimposed on all measurements
+ and thus it will often be the practical limit to the sensitivity of the
+ measurements.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Der kunne vist godt skrives noget mere om UHV-delen....
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+All surplus of gas from the inlets is passed directly through to the outlet
+ via a pressure controller allowing control of reactor pressure.
+ The design of the reactor makes sure that all gases exposed to the catalyst
+ under investigation are measured by the QMS ensuring an extremely high
+ sensitivity of the system.
+ One could wonder why we need this main outlow flow at all, since this gas
+ flow is not used and does not contribute to the measurement.
+ The reason is that the capillary flow is simply too small to handle in
+ the external gas-system.
+ We need reasonobly hight flows both because there is a lower limit towards
+ how low mass-flow controllers can work reliable and because the tubing
+ contains a non-vanishing volume, espically since we are using 
+\begin_inset Formula $\frac{1}{4}"$
+\end_inset
+
+ tubes in the entire system to ensure that we can withhold high cleanliness
+ in the system.
+ Also the pressure controller needs some amount of flow to be able to keep
+ a contrant presure in the system.
+ That being said, it is possible to run the system with rather low flows
+ if this is wanted, eg.
+ in the case of expensive isotopically labelled gasses.
+ Continous operation with gas-flows lower than 0.5
+\begin_inset space \thinspace{}
+\end_inset
+
+mL/min pr.
+ gas-speices is certainly possible.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Note Note
 status collapsed
 
@@ -409,7 +454,7 @@ N_{reactor}=\frac{240\times10^{-9}\,\mbox{L}}{24\mbox{L}}N_{A}=10^{-8}\cdot N_{A
 giving a residence time of 
 \begin_inset Formula 
 \[
-T_{res}=\frac{6\times10^{15}}{3\times10^{14}\mbox{s}^{-1}}=20\,\mbox{s}
+T_{res}=\frac{6\times10^{15}}{6\times10^{14}\mbox{s}^{-1}}=10\,\mbox{s}
 \]
 
 \end_inset
@@ -601,7 +646,7 @@ reference "fig:new_old_setup"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent

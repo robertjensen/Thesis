@@ -27,7 +27,7 @@ class dataHolder:
     pass
 
 parameters = []
-
+"""
 N5_up = dataHolder()
 N5_up.name = "N5 up"
 N5_up.m44 = "497"
@@ -58,7 +58,7 @@ N5_down.M44_ini = 5.4662794434e-10
 N5_down.P_ini = 2.067e-7
 N5_down.area = 38
 parameters.append(N5_down)
-
+"""
 N8_up = dataHolder()
 N8_up.name = "N8 up"
 N8_up.m44 = "458"
@@ -88,7 +88,7 @@ N8_down.P_ini = 2.022e-7
 N8_down.M44_ini = 5.3035797149e-10
 N8_down.area = 707
 parameters.append(N8_down)
-
+"""
 N9_up = dataHolder()
 N9_up.name = "N9 up"
 N9_up.m44 = "445"
@@ -163,7 +163,7 @@ parameters.append(N11_up)
 #N11_down.M44_ini = 2.8776756951e-10
 #N11_down.area = 196000
 #parameters.append(N11_down)
-
+"""
 
 #colors = ['r-','b-','g-','c-','m-','y-','r--','b--','g--','c--','m--','y--']
 

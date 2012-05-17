@@ -126,6 +126,14 @@ Dansk Resumé
 
 \end_layout
 
+\begin_layout Section*
+List of included papers
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
