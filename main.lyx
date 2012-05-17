@@ -87,6 +87,31 @@ Preface
 
 \begin_layout Section*
 Abstract
+\end_layout
+
+\begin_layout Standard
+This thesis is the summary of my work on the microreactor platform.
+ The concept of microreactors are presented and some of the experimental
+ challenges are outlined.
+ The various experimental issues regarding the platform is discussed and
+ the actual implementation of three generations of the setup is discussed
+ in detail.
+ Since heating and temperature measurement is an extremly important point
+ in heterogenous catalysis, an entire chapter is dedicated to this subject,
+ three different types of heaters has been implemented and tested.
+ It is shown how it is in principle possible to quantify the available amount
+ of active catalys surface area by reacting of an adsorbed layer of oxygen
+ with CO.
+ Some results from the reactors are presented, in particular oscillating
+ CO-oxidation on Pt nanoparticles are discussed, but also data from a sensitivit
+y measurement is presented.
+ Various methods of gaining insight into the reactor besides the normal
+ quadropole mass spectrometer is discussed, in particaluar a chapter is
+ devoted to the application of a Time-Of-Flight mass spectrometer on the
+ setup.
+ Finally the thesis contains an outlook of the possible future of the setup,
+ several suggestions for improvements is discussed.
+ 
 \begin_inset Newpage pagebreak
 \end_inset
 
