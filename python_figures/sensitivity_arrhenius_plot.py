@@ -45,24 +45,28 @@ for i in range(0,len(parameters)):
 
     temp_interp = interpolate.interp1d(data['TEMPERATURE'][:,0],data['TEMPERATURE'][:,1], bounds_error=False)
     m32_interp = interpolate.interp1d(data['M32'][:,0],data['M32'][:,1], bounds_error=False)
-    m44_interp = interpolate.interp1d(data['M44'][:,0],data['M44'][:,1], bounds_error=False)
-
+    #m44_interp = interpolate.interp1d(data['M44'][:,0],data['M44'][:,1], bounds_error=False)
+    
     x_values = 1000.0/(273.15+temp_interp(data['M44'][:,0]))
     y_values = data['M44'][:,1]-bg-oxygen_factor*m32_interp(data['M44'][:,0])
-    #axis.plot(x_values, y_values, p.color)
+    m44_interp = interpolate.interp1d(data['M44'][:,0],y_values, bounds_error=False)
+
+    axis.plot(x_values, y_values, p.color)
     
-    fit_x = range(p.fitx[0]/60000,p.fitx[1]/60000,0.1)
+    fit_x = np.linspace(p.fitx[0]/60000,p.fitx[1]/60000,100)
+    fit_x_values = 273.15+temp_interp(fit_x)
+    fit_plot_values = np.linspace(500,700,500)
     fitfunc = lambda p, x: p[0]*np.e**(-1*p[1]/x)       # Target function
     errfunc = lambda p, x, y: fitfunc(p, x) - y # Distance to the target function
     p0 = [p.prefactor,10000] # Initial guess for the parameters
-    p1, success = optimize.leastsq(errfunc, p0[:], args=(273.15+temp_interp(fit_x),m44_interp(fit_x)),maxfev=1000)
+    p1, success = optimize.leastsq(errfunc, p0[:], args=(fit_x_values,m44_interp(fit_x)),maxfev=1000)
     print success
-    axis.plot(1000.0/(273.15+temp_interp(fit_x)), m44_interp(fit_x), 'k-')
-    print fit_x
+    axis.plot(1000.0/fit_plot_values, fitfunc(p1,fit_plot_values), 'k-')
+
     #print temp_interp(fit_x)
     
 
-#axis.set_yscale('log')
+axis.set_yscale('log')
 #axis.set_xlim(1.4,2.4)
 #axis.set_ylim(1e-2,20)
 
