@@ -1,4 +1,4 @@
-#backend = 'svg'
+backend = 'svg'
 execfile('std_header.py')
 
 data = {}

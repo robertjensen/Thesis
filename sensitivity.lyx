@@ -660,7 +660,51 @@ Even though the experiment sound simple, data treatment is actually slightly
  temperature.
  For the same reason, the residence time of the reactor will increase and
  thus also the apparent activity of the sample.
- To correct for this effect, one will typically use the main chamber pressure
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename svg_figures/sensitivity_gas_correction.svg
+	display false
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:sensitivity_gas_correction"
+
+\end_inset
+
+Due to increased flow resistance in the capillary, the pressure in the main
+ chamber drops with temperature.
+ It is easy to see that the apparant pressure increses once the sample reaches
+ full conversion, this is an artifact because of the high ionisation cross
+ section of CO
+\begin_inset Formula $_{2}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+To correct for this effect, one will typically use the main chamber pressure
  as a measure of the capillary flow.
  However, this is also a non-trivial operation because of the way the pressure
  in measured in the chamber, namely by an ion gauge.
@@ -718,6 +762,9 @@ reference "fig:sensitivity_gas_correction"
 \end_inset
 
 .
+ Both this effect and because our ion gauge signal is a bit more noisy than
+ one would like, it would be desireable to find an analytic expression to
+ estimate the flow as a function of temperature.
 \begin_inset Float figure
 wide false
 sideways false
@@ -727,7 +774,7 @@ status collapsed
 \noindent
 \align center
 \begin_inset Graphics
-	filename svg_figures/sensitivity_gas_correction.svg
+	filename svg_figures/sensitivity_temp_flow.svg
 	display false
 	width 12cm
 
@@ -739,19 +786,16 @@ status collapsed
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:sensitivity_gas_correction"
+name "fig:sensitivity_temp_flow"
 
 \end_inset
 
-Due to increased flow resistance in the capillary, the pressure in the main
- chamber drops with temperature.
- It is easy to see that the apparant pressure increses once the sample reaches
- full conversion, this is an artifact because of the high ionisation cross
- section of CO
-\begin_inset Formula $_{2}$
-\end_inset
-
-.
+Fitting og analytical functions to the temperature dependence of the flows.
+ For clarity the upper panel shows only two sets of data along with the
+ corresponding fit.
+ Middel panel shows all raw data and lower panel shows all corresponding
+ fits.
+ Color code: N5: Red, N8: Blue, N9: Green, N10: Black, N11: Cyan.
 \end_layout
 
 \end_inset
@@ -761,8 +805,37 @@ Due to increased flow resistance in the capillary, the pressure in the main
 
 \end_inset
 
- Luckily the effect is not too large, but one need to keep it in mind when
- using the pressure as a correction for the flow.
+ According to litterature
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+REF!!!
+\end_layout
+
+\end_inset
+
+, the expected behaviour is on the form
+\begin_inset Formula 
+\[
+F=\frac{k1}{k2+T}
+\]
+
+\end_inset
+
+, in figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:sensitivity_temp_flow"
+
+\end_inset
+
+ this expression has been fitted to all five measurements and it is seen
+ that data can be fitted reasonobly well.
 \end_layout
 
 \begin_layout Standard
@@ -787,12 +860,12 @@ Besides correcting for the temperature dependence of the flow through the
 .
  The reason for this is, that the mass-spectrometer filament will always
  contain carbon and because of the very high temperature at the filament,
- this carbon will react rather efficiently with the oxygen and produce CO
+ this carbon will react efficiently with the oxygen and produce CO
 \begin_inset Formula $_{2}$
 \end_inset
 
 .
- On could also imagine that the CO and O
+ One could also imagine that the CO and O
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -893,6 +966,112 @@ reference "fig:sensitivity_co2_background"
 \end_inset
 
  times the oxygen signal.
+ In figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:sensitivity_background_correction"
+
+\end_inset
+
+ the background correction is performed for sample N8, it is evident that
+ correction greatly extends the temperature range with arrhenius behaviour.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename svg_figures/sensitivity_background_correction.svg
+	display false
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:sensitivity_background_correction"
+
+\end_inset
+
+Example of the background correction.
+ The green line is the raw M44 signal from the mass spectrometer.
+ Blue line is the same signal subtracted 
+\begin_inset Formula $8.2\times10^{-3}$
+\end_inset
+
+ times the oxygen signal.
+ Black line is the blue line minus a constant value of 0.12
+\begin_inset space \thinspace{}
+\end_inset
+
+nA, which corresponds to the constant M44 background in the chamber.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ In figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:sensitivity_background_correction_complete"
+
+\end_inset
+
+ the background correction is performed on all measured samples.
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename svg_figures/sensitivity_background_correction_complete.svg
+	display false
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:sensitivity_background_correction_complete"
+
+\end_inset
+
+Background correction for all measured samples.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
  
 \end_layout
 
@@ -902,17 +1081,7 @@ Once all the corrections are performed as well as possible, it is time to
  The point of the experiment is to see how small the spot can be and still
  withhold a constant activation energy and a prefactor linear dependent
  on the spot area.
- To do this, we fit the data to the the Arrhenius equation 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-REF!
-\end_layout
-
-\end_inset
-
-:
+ To do this, we fit the data to the the Arrhenius equation:
 \begin_inset Formula 
 \[
 k=Ae^{-E_{a}/k_{b}T}
