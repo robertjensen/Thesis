@@ -60,21 +60,66 @@ for i in range(0,len(parameters)):
     errfunc = lambda p, x, y: fitfunc(p, x) - y # Distance to the target function
     p0 = [p.prefactor,10000] # Initial guess for the parameters
     p1, success = optimize.leastsq(errfunc, p0[:], args=(fit_x_values,m44_interp(fit_x)),maxfev=1000)
-    print success
-    axis.plot(1000.0/fit_plot_values, fitfunc(p1,fit_plot_values), 'k-')
-
+    print p1
+    #axis.plot(1000.0/fit_plot_values, fitfunc(p1,fit_plot_values), 'k-')
+    axis.plot(1000.0/fit_x_values, fitfunc(p1,fit_x_values), 'k-',linewidth=3)
+    p.ae = p1[1]
+    p.prefactor = p1[0]
     #print temp_interp(fit_x)
+    axis.plot(x_values, y_values, p.color)
+
     
 
 axis.set_yscale('log')
-#axis.set_xlim(1.4,2.4)
-#axis.set_ylim(1e-2,20)
+axis.set_xlim(1.4,2.4)
+axis.set_ylim(1e-1,20)
 
 axis.set_ylabel('SEM Current / nA', fontsize=d.y_axis_font)
 axis.set_xlabel('1000K / Temperature', fontsize=d.y_axis_font)
 
 axis.tick_params(direction='in', length=d.ticklength, width=2, colors='k',labelsize=d.labelsize,axis='both',pad=d.pad)
-
-
 plt.show()
 #plt.savefig('../svg_figures/sensitivity_background_correction_complete.svg')
+
+del fig
+
+ae_list_up = []
+ae_list_down = []
+for i in range(0,len(parameters)):
+    p = parameters[i]
+    if p.name.endswith("down"):
+        ae_list_down.append([p.area,p.ae,p.prefactor])
+    else:
+        ae_list_up.append([p.area,p.ae,p.prefactor])
+    
+ae_list_up =  np.array(ae_list_up)
+ae_list_down =  np.array(ae_list_down)
+
+fig = plt.figure()
+fig.subplots_adjust(left=d.left_room) 
+fig.subplots_adjust(bottom=d.bottom_room)
+fig.subplots_adjust(right=d.right_room) 
+fig.subplots_adjust(hspace=0.2)
+fig.subplots_adjust(wspace=0.1)
+
+ratio = 1
+fig_width = d.width
+fig_width = fig_width /2.54     # width in cm converted to inches
+fig_height = fig_width*ratio
+fig.set_size_inches(fig_width,fig_height)
+axis = fig.add_subplot(1,1,1)
+
+axis.plot(ae_list_up[:,0],ae_list_up[:,1], 'ko-')
+axis.plot(ae_list_down[:,0],ae_list_down[:,1], 'k*--')
+axis.set_ylim(0,20000)
+axis.set_ylabel('Activation Energy / ', fontsize=d.y_axis_font)
+axis.set_xlabel('Pt spot area / ($\mu$m)$^2$', fontsize=d.y_axis_font)
+axis.set_xscale('log')
+
+axis2 = axis.twinx()
+axis2.plot(ae_list_up[:,0],ae_list_up[:,2], 'ro-')
+axis2.plot(ae_list_down[:,0],ae_list_down[:,2], 'r*--')
+axis2.set_ylabel('Prefactor / au.', fontsize=d.y_axis_font)
+axis2.set_yscale('log')
+axis2.set_xscale('log')
+plt.show()

@@ -124,15 +124,12 @@ axis.tick_params(direction='in', length=d.ticklength, width=2, colors='k',labels
 axis2.tick_params(direction='in', length=d.ticklength, width=2, colors='k',labelsize=d.labelsize,axis='both',pad=d.pad)
 
 arrow = dict(facecolor='black',arrowstyle='->')
-axis.annotate('NH$_3$', xy=(110, 2350),  xycoords='data', xytext=(80, 1600), textcoords='data', arrowprops=arrow, horizontalalignment='right', verticalalignment='center',fontsize=d.arrowfont,)
-axis.annotate('H$_2$O', xy=(205, 2500),  xycoords='data', xytext=(180, 2200), textcoords='data', arrowprops=arrow, horizontalalignment='right', verticalalignment='center',fontsize=d.arrowfont,)
-axis.annotate('N$_2$', xy=(250, 170),  xycoords='data', xytext=(245, 140), textcoords='data', arrowprops=arrow, horizontalalignment='right', verticalalignment='center',fontsize=d.arrowfont,)
-axis.annotate('N$_2$O', xy=(170, 200),  xycoords='data', xytext=(158, 245), textcoords='data', arrowprops=arrow, horizontalalignment='right', verticalalignment='center',fontsize=d.arrowfont,)
-axis.annotate('O$_2$', xy=(170, 200),  xycoords='data', xytext=(158, 245), textcoords='data', arrowprops=arrow, horizontalalignment='right', verticalalignment='center',fontsize=d.arrowfont,)
-axis.annotate('Temp', xy=(200, 3000),  xycoords='data', xytext=(150, 3500), textcoords='data', arrowprops=arrow, horizontalalignment='right', verticalalignment='center',fontsize=d.arrowfont,)
-
-
-axis.legend()
+axis.annotate('NH$_3$', xy=(110, 2350),  xycoords='data', xytext=(90, 1800), textcoords='data', arrowprops=arrow, horizontalalignment='right', verticalalignment='center',fontsize=d.arrowfont,)
+axis.annotate('H$_2$O', xy=(205, 2500),  xycoords='data', xytext=(180, 2400), textcoords='data', arrowprops=arrow, horizontalalignment='right', verticalalignment='center',fontsize=d.arrowfont,)
+axis.annotate('N$_2$',  xy=(280, 1700),  xycoords='data', xytext=(250, 2000), textcoords='data', arrowprops=arrow, horizontalalignment='right', verticalalignment='center',fontsize=d.arrowfont,)
+axis.annotate('OH',     xy=(300, 400),  xycoords='data', xytext=(260, 900), textcoords='data', arrowprops=arrow, horizontalalignment='right', verticalalignment='center',fontsize=d.arrowfont,)
+axis.annotate('O$_2$',  xy=(120, 1000),  xycoords='data', xytext=(100, 1400), textcoords='data', arrowprops=arrow, horizontalalignment='right', verticalalignment='center',fontsize=d.arrowfont,)
+axis.annotate('Temp',   xy=(190, 3100),  xycoords='data', xytext=(150, 3500), textcoords='data', arrowprops=arrow, horizontalalignment='right', verticalalignment='center',fontsize=d.arrowfont,)
 
 #plt.tight_layout()
 plt.show()
