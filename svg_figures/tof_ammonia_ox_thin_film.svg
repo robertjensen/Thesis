@@ -3544,8 +3544,8 @@ C15.593750 22.640625 17.406250 21.171875 17.500000 18.390625z"/>
 <path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000"  d="M51.023622 178.684724L51.023622 21.021732"/>
 </g>
 <g id="patch7">
-<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: round;  opacity: 1.000000"  d="M77.144356 108.002543Q89.978420 96.705977 101.973245 86.148111"/>
-<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: round;  opacity: 1.000000"  d="M97.649265 87.289687L101.973245 86.148111L100.292118 90.292241"/>
+<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: round;  opacity: 1.000000"  d="M96.916796 99.966695Q102.604618 93.750781 107.537686 88.359697"/>
+<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: round;  opacity: 1.000000"  d="M103.361892 89.960555L107.537686 88.359697L106.312896 92.660847"/>
 </g>
 <g id="text22">
 <defs>
@@ -3807,15 +3807,15 @@ C8.156250 15.671875 6.703125 16.781250 6.703125 18.656250
 C6.703125 21.078125 8.843750 22.640625 12.250000 22.640625
 C15.593750 22.640625 17.406250 21.171875 17.500000 18.390625z"/>
 </defs>
-<g style="fill: #000000; opacity: 1.000000" transform="translate(59.312060,119.915878)scale(0.200000,-0.200000)">
+<g style="fill: #000000; opacity: 1.000000" transform="translate(80.628595,112.032728)scale(0.200000,-0.200000)">
 <use xlink:href="#Nimbus_Sans_L_Regular-78" x="0.000000" y="7.499969" transform="scale(0.996264)"/>
 <use xlink:href="#Nimbus_Sans_L_Regular-72" x="36.099854" y="7.499969" transform="scale(0.996264)"/>
 <use xlink:href="#CMR17-51" x="103.142888" y="0.000000" transform="scale(0.697382)"/>
 </g><!-- style -->
 </g>
 <g id="patch8">
-<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: round;  opacity: 1.000000"  d="M139.599148 153.029046Q149.661849 117.550293 159.419479 83.147148"/>
-<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: round;  opacity: 1.000000"  d="M156.403920 86.449633L159.419479 83.147148L160.252131 87.541086"/>
+<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: round;  opacity: 1.000000"  d="M150.920751 81.745662Q154.611947 81.113900 157.201132 80.670751"/>
+<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: round;  opacity: 1.000000"  d="M152.921061 79.374219L157.201132 80.670751L153.595864 83.316888"/>
 </g>
 <g id="text23">
 <defs>
@@ -4088,15 +4088,15 @@ C8.156250 15.671875 6.703125 16.781250 6.703125 18.656250
 C6.703125 21.078125 8.843750 22.640625 12.250000 22.640625
 C15.593750 22.640625 17.406250 21.171875 17.500000 18.390625z"/>
 </defs>
-<g style="fill: #000000; opacity: 1.000000" transform="translate(127.534839,165.730329)scale(0.200000,-0.200000)">
+<g style="fill: #000000; opacity: 1.000000" transform="translate(127.534839,88.475463)scale(0.200000,-0.200000)">
 <use xlink:href="#Nimbus_Sans_L_Regular-72" x="0.000000" y="7.499969" transform="scale(0.996264)"/>
 <use xlink:href="#CMR17-50" x="51.571444" y="0.000000" transform="scale(0.697382)"/>
 <use xlink:href="#Nimbus_Sans_L_Regular-79" x="52.651413" y="7.499969" transform="scale(0.996264)"/>
 </g><!-- style -->
 </g>
 <g id="patch9">
-<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: round;  opacity: 1.000000"  d="M183.587563 170.629708Q183.919766 170.518563 183.191703 170.762152"/>
-<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: round;  opacity: 1.000000"  d="M178.763812 170.134627L183.191703 170.762152L180.032948 173.927949"/>
+<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: round;  opacity: 1.000000"  d="M188.002307 104.969417Q193.243989 107.842983 197.505293 110.179092"/>
+<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: round;  opacity: 1.000000"  d="M194.959220 106.502474L197.505293 110.179092L193.036355 110.009979"/>
 </g>
 <g id="text24">
 <defs>
@@ -4369,14 +4369,14 @@ C8.156250 15.671875 6.703125 16.781250 6.703125 18.656250
 C6.703125 21.078125 8.843750 22.640625 12.250000 22.640625
 C15.593750 22.640625 17.406250 21.171875 17.500000 18.390625z"/>
 </defs>
-<g style="fill: #000000; opacity: 1.000000" transform="translate(170.423167,177.462870)scale(0.200000,-0.200000)">
+<g style="fill: #000000; opacity: 1.000000" transform="translate(173.087734,104.149579)scale(0.200000,-0.200000)">
 <use xlink:href="#Nimbus_Sans_L_Regular-78" x="0.000000" y="7.499969" transform="scale(0.996264)"/>
 <use xlink:href="#CMR17-50" x="51.571444" y="0.000000" transform="scale(0.697382)"/>
 </g><!-- style -->
 </g>
 <g id="patch10">
-<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: round;  opacity: 1.000000"  d="M139.208987 170.536105Q139.418442 170.559178 138.516586 170.459832"/>
-<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: round;  opacity: 1.000000"  d="M134.759627 168.033876L138.516586 170.459832L134.321646 172.009825"/>
+<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: round;  opacity: 1.000000"  d="M192.135729 150.074476Q200.691040 155.931236 208.323787 161.156429"/>
+<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: round;  opacity: 1.000000"  d="M206.152898 157.246539L208.323787 161.156429L203.893342 160.547206"/>
 </g>
 <g id="text25">
 <defs>
@@ -4649,15 +4649,14 @@ C8.156250 15.671875 6.703125 16.781250 6.703125 18.656250
 C6.703125 21.078125 8.843750 22.640625 12.250000 22.640625
 C15.593750 22.640625 17.406250 21.171875 17.500000 18.390625z"/>
 </defs>
-<g style="fill: #000000; opacity: 1.000000" transform="translate(115.810744,173.416400)scale(0.200000,-0.200000)">
-<use xlink:href="#Nimbus_Sans_L_Regular-78" x="0.000000" y="7.499969" transform="scale(0.996264)"/>
-<use xlink:href="#CMR17-50" x="51.571444" y="0.000000" transform="scale(0.697382)"/>
-<use xlink:href="#Nimbus_Sans_L_Regular-79" x="52.651413" y="7.499969" transform="scale(0.996264)"/>
+<g style="fill: #000000; opacity: 1.000000" transform="translate(174.637279,146.941525)scale(0.200000,-0.200000)">
+<use xlink:href="#Nimbus_Sans_L_Regular-79" x="0.000000" y="0.899689" transform="scale(0.996264)"/>
+<use xlink:href="#Nimbus_Sans_L_Regular-72" x="38.899506" y="0.899689" transform="scale(0.996264)"/>
 </g><!-- style -->
 </g>
 <g id="patch11">
-<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: round;  opacity: 1.000000"  d="M139.202220 170.451829Q139.421703 170.483593 138.534680 170.355221"/>
-<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: round;  opacity: 1.000000"  d="M134.862381 167.802924L138.534680 170.355221L134.289463 171.761682"/>
+<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: round;  opacity: 1.000000"  d="M106.593369 131.271097Q110.060086 134.579790 112.718014 137.116562"/>
+<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: round;  opacity: 1.000000"  d="M111.205261 132.908050L112.718014 137.116562L108.443552 135.801658"/>
 </g>
 <g id="text26">
 <defs>
@@ -4930,14 +4929,14 @@ C8.156250 15.671875 6.703125 16.781250 6.703125 18.656250
 C6.703125 21.078125 8.843750 22.640625 12.250000 22.640625
 C15.593750 22.640625 17.406250 21.171875 17.500000 18.390625z"/>
 </defs>
-<g style="fill: #000000; opacity: 1.000000" transform="translate(123.501873,173.416400)scale(0.200000,-0.200000)">
+<g style="fill: #000000; opacity: 1.000000" transform="translate(92.592897,127.891211)scale(0.200000,-0.200000)">
 <use xlink:href="#Nimbus_Sans_L_Regular-79" x="0.000000" y="7.499969" transform="scale(0.996264)"/>
 <use xlink:href="#CMR17-50" x="55.570965" y="0.000000" transform="scale(0.697382)"/>
 </g><!-- style -->
 </g>
 <g id="patch12">
-<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: round;  opacity: 1.000000"  d="M123.772098 49.056913Q158.829905 108.083049 193.316780 166.147916"/>
-<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: round;  opacity: 1.000000"  d="M192.993717 161.687464L193.316780 166.147916L189.554581 163.730095"/>
+<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: round;  opacity: 1.000000"  d="M134.661776 48.193319Q142.564188 51.917929 149.455269 55.165873"/>
+<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: round;  opacity: 1.000000"  d="M146.689709 51.651378L149.455269 55.165873L144.984336 55.269624"/>
 </g>
 <g id="text27">
 <defs>
@@ -5217,17 +5216,94 @@ C15.593750 22.640625 17.406250 21.171875 17.500000 18.390625z"/>
 <use xlink:href="#Nimbus_Sans_L_Regular-112" x="93.999695" y="10.649719" transform="scale(0.996264)"/>
 </g><!-- style -->
 </g>
-<g id="legend1">
-<g id="patch13">
-<path style="fill: #ffffff; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000"  d="M202.299159 132.926784L283.634646 132.926784L283.634646 28.221732
-L202.299159 28.221732L202.299159 132.926784z"/>
 </g>
+<g id="axes2">
 <g id="line2d35">
-<path style="fill: none; stroke: #ff0000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000"  d="M212.379159 39.428788L232.539159 39.428788"/>
-</g>
+<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#p637ec22eb26b8243c3561448fbe9fa39)" d="M58.804157 165.425393L59.212724 165.508954L70.244031 90.385881
+L74.027717 88.807990L77.811402 87.234513L81.595087 85.662298
+L85.387654 84.095758L89.171339 82.490749L92.955024 80.932408
+L96.738709 79.361454L100.522394 77.779148L104.314961 76.216393
+L108.098646 74.642916L111.882331 73.050520L115.666016 71.484611
+L119.458583 69.906720L123.242268 68.327567L127.025953 66.750307
+L130.765228 65.171154L134.557795 63.593263L138.341480 62.005912
+L142.125165 60.446940L145.908850 58.858328L149.701417 57.287374
+L153.485102 55.717681L157.268787 54.129069L161.052472 52.566944
+L164.836157 50.983377L168.619843 49.411792L172.412409 47.822549
+L176.196094 46.233937L179.979780 44.675596L183.763465 43.114101
+L187.547150 44.688839L191.330835 46.265469L195.123402 47.820657
+L198.907087 49.389719L202.646362 50.972656L206.430047 52.558745
+L210.213732 54.118978L214.006299 55.704437L217.789984 57.288004
+L221.573669 58.864634L225.357354 60.441895L229.185449 62.034291
+L232.924724 63.604615L236.717291 65.173046L240.500976 66.752198
+L244.284661 68.337027L248.068346 69.902936L251.852031 71.473890
+L255.644598 73.060610L259.428283 74.641024L263.211969 76.220176
+L266.995654 77.792392L270.779339 79.363977L274.563024 80.953220
+L278.346709 82.514083L282.130394 84.097650"/>
+<g clip-path="url(#p637ec22eb26b8243c3561448fbe9fa39)"><use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="58.804157" y="165.425393"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="59.212724" y="165.508954"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="70.244031" y="90.385881"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="74.027717" y="88.807990"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="77.811402" y="87.234513"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="81.595087" y="85.662298"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="85.387654" y="84.095758"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="89.171339" y="82.490749"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="92.955024" y="80.932408"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="96.738709" y="79.361454"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="100.522394" y="77.779148"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="104.314961" y="76.216393"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="108.098646" y="74.642916"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="111.882331" y="73.050520"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="115.666016" y="71.484611"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="119.458583" y="69.906720"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="123.242268" y="68.327567"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="127.025953" y="66.750307"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="130.765228" y="65.171154"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="134.557795" y="63.593263"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="138.341480" y="62.005912"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="142.125165" y="60.446940"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="145.908850" y="58.858328"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="149.701417" y="57.287374"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="153.485102" y="55.717681"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="157.268787" y="54.129069"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="161.052472" y="52.566944"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="164.836157" y="50.983377"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="168.619843" y="49.411792"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="172.412409" y="47.822549"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="176.196094" y="46.233937"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="179.979780" y="44.675596"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="183.763465" y="43.114101"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="187.547150" y="44.688839"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="191.330835" y="46.265469"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="195.123402" y="47.820657"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="198.907087" y="49.389719"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="202.646362" y="50.972656"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="206.430047" y="52.558745"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="210.213732" y="54.118978"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="214.006299" y="55.704437"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="217.789984" y="57.288004"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="221.573669" y="58.864634"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="225.357354" y="60.441895"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="229.185449" y="62.034291"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="232.924724" y="63.604615"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="236.717291" y="65.173046"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="240.500976" y="66.752198"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="244.284661" y="68.337027"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="248.068346" y="69.902936"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="251.852031" y="71.473890"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="255.644598" y="73.060610"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="259.428283" y="74.641024"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="263.211969" y="76.220176"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="266.995654" y="77.792392"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="270.779339" y="79.363977"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="274.563024" y="80.953220"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="278.346709" y="82.514083"/>
+<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="282.130394" y="84.097650"/>
+</g></g>
+<g id="matplotlib.axis3">
+<g id="ytick10">
 <g id="line2d36">
-<g ><use style="fill: #ff0000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="212.379159" y="39.428788"/>
-<use style="fill: #ff0000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="232.539159" y="39.428788"/>
+<defs><path id="mb5f680a2952446ef8148975d730bbae7" d="M0.000000 0.000000L-6.000000 0.000000"/></defs>
+<g ><use style="fill: none; stroke: #000000; stroke-width: 2.000000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#mb5f680a2952446ef8148975d730bbae7" x="290.834646" y="178.684724"/>
 </g></g>
 <g id="text28">
 <defs>
@@ -5500,17 +5576,14 @@ C8.156250 15.671875 6.703125 16.781250 6.703125 18.656250
 C6.703125 21.078125 8.843750 22.640625 12.250000 22.640625
 C15.593750 22.640625 17.406250 21.171875 17.500000 18.390625z"/>
 </defs>
-<g style="fill: #000000; opacity: 1.000000" transform="translate(248.379159,44.726930)scale(0.288000,-0.288000)">
-<use xlink:href="#Nimbus_Sans_L_Regular-79" x="0.000000" y="0.899689" transform="scale(0.996264)"/>
-<use xlink:href="#Nimbus_Sans_L_Regular-72" x="38.899506" y="0.899689" transform="scale(0.996264)"/>
+<g style="fill: #000000; opacity: 1.000000" transform="translate(295.834646,182.536940)scale(0.240000,-0.240000)">
+<use xlink:href="#CMR17-48" x="0.000000" y="0.000000" transform="scale(0.996264)"/>
 </g><!-- style -->
 </g>
-<g id="line2d37">
-<path style="fill: none; stroke: #0000ff; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000"  d="M212.379159 59.906010L232.539159 59.906010"/>
 </g>
-<g id="line2d38">
-<g ><use style="fill: #0000ff; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="212.379159" y="59.906010"/>
-<use style="fill: #0000ff; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="232.539159" y="59.906010"/>
+<g id="ytick11">
+<g id="line2d37">
+<g ><use style="fill: none; stroke: #000000; stroke-width: 2.000000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#mb5f680a2952446ef8148975d730bbae7" x="290.834646" y="147.152126"/>
 </g></g>
 <g id="text29">
 <defs>
@@ -5703,23 +5776,6 @@ C13.500000 33.109375 16.156250 31.750000 17.093750 27.656250
 C17.750000 24.796875 17.796875 21.437500 17.796875 17.437500
 C17.796875 14.171875 17.796875 10.171875 17.203125 7.218750
 C16.156250 1.750000 13.203125 0.796875 11.453125 0.796875"/>
-<path id="Nimbus_Sans_L_Regular-51" d="M11.046875 16.250000L11.593750 16.250000L13.453125 16.250000
-C18.296875 16.250000 20.796875 14.078125 20.796875 9.890625
-C20.796875 5.515625 18.046875 2.906250 13.453125 2.906250
-C8.656250 2.906250 6.296875 5.281250 6.000000 10.359375L1.593750 10.359375
-C1.796875 7.546875 2.296875 5.703125 3.156250 4.109375
-C4.953125 0.734375 8.453125 -1.000000 13.296875 -1.000000
-C20.593750 -1.000000 25.296875 3.312500 25.296875 9.968750
-C25.296875 14.421875 23.546875 16.906250 19.296875 18.343750
-C22.593750 19.687500 24.250000 22.234375 24.250000 25.875000
-C24.250000 32.125000 20.203125 35.859375 13.453125 35.859375
-C6.296875 35.859375 2.500000 31.875000 2.343750 24.140625
-L6.750000 24.140625
-C6.796875 26.375000 7.000000 27.593750 7.546875 28.734375
-C8.546875 30.750000 10.750000 32.000000 13.500000 32.000000
-C17.406250 32.000000 19.750000 29.609375 19.750000 25.718750
-C19.750000 23.125000 18.843750 21.578125 16.906250 20.734375
-C15.703125 20.203125 14.156250 20.000000 11.046875 20.000000z"/>
 <path id="Nimbus_Sans_L_Regular-82" d="M9.296875 16.000000L21.296875 16.000000
 C25.453125 16.000000 27.296875 14.000000 27.296875 9.531250
 L27.250000 6.296875
@@ -5800,18 +5856,15 @@ C8.156250 15.671875 6.703125 16.781250 6.703125 18.656250
 C6.703125 21.078125 8.843750 22.640625 12.250000 22.640625
 C15.593750 22.640625 17.406250 21.171875 17.500000 18.390625z"/>
 </defs>
-<g style="fill: #000000; opacity: 1.000000" transform="translate(248.379159,65.204151)scale(0.288000,-0.288000)">
-<use xlink:href="#Nimbus_Sans_L_Regular-78" x="0.000000" y="0.899689" transform="scale(0.996264)"/>
-<use xlink:href="#Nimbus_Sans_L_Regular-72" x="36.099854" y="0.899689" transform="scale(0.996264)"/>
-<use xlink:href="#Nimbus_Sans_L_Regular-51" x="72.199707" y="0.899689" transform="scale(0.996264)"/>
+<g style="fill: #000000; opacity: 1.000000" transform="translate(295.834646,151.004341)scale(0.240000,-0.240000)">
+<use xlink:href="#CMR17-53" x="0.000000" y="0.000000" transform="scale(0.996264)"/>
+<use xlink:href="#CMR17-48" x="22.930908" y="0.000000" transform="scale(0.996264)"/>
 </g><!-- style -->
 </g>
-<g id="line2d39">
-<path style="fill: none; stroke: #008000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000"  d="M212.379159 80.648715L232.539159 80.648715"/>
 </g>
-<g id="line2d40">
-<g ><use style="fill: #008000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="212.379159" y="80.648715"/>
-<use style="fill: #008000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="232.539159" y="80.648715"/>
+<g id="ytick12">
+<g id="line2d38">
+<g ><use style="fill: none; stroke: #000000; stroke-width: 2.000000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#mb5f680a2952446ef8148975d730bbae7" x="290.834646" y="115.619528"/>
 </g></g>
 <g id="text30">
 <defs>
@@ -6004,38 +6057,6 @@ C13.500000 33.109375 16.156250 31.750000 17.093750 27.656250
 C17.750000 24.796875 17.796875 21.437500 17.796875 17.437500
 C17.796875 14.171875 17.796875 10.171875 17.203125 7.218750
 C16.156250 1.750000 13.203125 0.796875 11.453125 0.796875"/>
-<path id="Nimbus_Sans_L_Regular-50" d="M25.296875 4.359375L6.656250 4.359375
-C7.093750 7.296875 8.703125 9.156250 13.046875 11.750000
-L18.046875 14.484375
-C23.000000 17.218750 25.546875 20.921875 25.546875 25.328125
-C25.546875 28.312500 24.343750 31.093750 22.250000 33.015625
-C20.156250 34.937500 17.546875 35.859375 14.203125 35.859375
-C9.703125 35.859375 6.343750 34.234375 4.406250 31.203125
-C3.156250 29.281250 2.593750 27.062500 2.500000 23.421875
-L6.906250 23.421875
-C7.046875 25.859375 7.343750 27.328125 7.953125 28.500000
-C9.093750 30.687500 11.406250 32.000000 14.046875 32.000000
-C18.046875 32.000000 21.046875 29.109375 21.046875 25.265625
-C21.046875 22.421875 19.406250 20.000000 16.250000 18.171875
-L11.656250 15.546875C4.250000 11.296875 2.093750 7.890625 1.703125 0.000000
-L25.296875 0.000000z"/>
-<path id="Nimbus_Sans_L_Regular-51" d="M11.046875 16.250000L11.593750 16.250000L13.453125 16.250000
-C18.296875 16.250000 20.796875 14.078125 20.796875 9.890625
-C20.796875 5.515625 18.046875 2.906250 13.453125 2.906250
-C8.656250 2.906250 6.296875 5.281250 6.000000 10.359375L1.593750 10.359375
-C1.796875 7.546875 2.296875 5.703125 3.156250 4.109375
-C4.953125 0.734375 8.453125 -1.000000 13.296875 -1.000000
-C20.593750 -1.000000 25.296875 3.312500 25.296875 9.968750
-C25.296875 14.421875 23.546875 16.906250 19.296875 18.343750
-C22.593750 19.687500 24.250000 22.234375 24.250000 25.875000
-C24.250000 32.125000 20.203125 35.859375 13.453125 35.859375
-C6.296875 35.859375 2.500000 31.875000 2.343750 24.140625
-L6.750000 24.140625
-C6.796875 26.375000 7.000000 27.593750 7.546875 28.734375
-C8.546875 30.750000 10.750000 32.000000 13.500000 32.000000
-C17.406250 32.000000 19.750000 29.609375 19.750000 25.718750
-C19.750000 23.125000 18.843750 21.578125 16.906250 20.734375
-C15.703125 20.203125 14.156250 20.000000 11.046875 20.000000z"/>
 <path id="Nimbus_Sans_L_Regular-82" d="M9.296875 16.000000L21.296875 16.000000
 C25.453125 16.000000 27.296875 14.000000 27.296875 9.531250
 L27.250000 6.296875
@@ -6116,18 +6137,16 @@ C8.156250 15.671875 6.703125 16.781250 6.703125 18.656250
 C6.703125 21.078125 8.843750 22.640625 12.250000 22.640625
 C15.593750 22.640625 17.406250 21.171875 17.500000 18.390625z"/>
 </defs>
-<g style="fill: #000000; opacity: 1.000000" transform="translate(248.379159,85.946857)scale(0.288000,-0.288000)">
-<use xlink:href="#Nimbus_Sans_L_Regular-72" x="0.000000" y="0.899689" transform="scale(0.996264)"/>
-<use xlink:href="#Nimbus_Sans_L_Regular-50" x="36.099854" y="0.899689" transform="scale(0.996264)"/>
-<use xlink:href="#Nimbus_Sans_L_Regular-79" x="63.899551" y="0.899689" transform="scale(0.996264)"/>
+<g style="fill: #000000; opacity: 1.000000" transform="translate(295.834646,119.471743)scale(0.240000,-0.240000)">
+<use xlink:href="#CMR17-49" x="0.000000" y="0.000000" transform="scale(0.996264)"/>
+<use xlink:href="#CMR17-48" x="22.930908" y="0.000000" transform="scale(0.996264)"/>
+<use xlink:href="#CMR17-48" x="45.861816" y="0.000000" transform="scale(0.996264)"/>
 </g><!-- style -->
 </g>
-<g id="line2d41">
-<path style="fill: none; stroke: #00bfbf; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000"  d="M212.379159 101.125937L232.539159 101.125937"/>
 </g>
-<g id="line2d42">
-<g ><use style="fill: #00bfbf; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="212.379159" y="101.125937"/>
-<use style="fill: #00bfbf; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="232.539159" y="101.125937"/>
+<g id="ytick13">
+<g id="line2d39">
+<g ><use style="fill: none; stroke: #000000; stroke-width: 2.000000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#mb5f680a2952446ef8148975d730bbae7" x="290.834646" y="84.086929"/>
 </g></g>
 <g id="text31">
 <defs>
@@ -6320,38 +6339,6 @@ C13.500000 33.109375 16.156250 31.750000 17.093750 27.656250
 C17.750000 24.796875 17.796875 21.437500 17.796875 17.437500
 C17.796875 14.171875 17.796875 10.171875 17.203125 7.218750
 C16.156250 1.750000 13.203125 0.796875 11.453125 0.796875"/>
-<path id="Nimbus_Sans_L_Regular-50" d="M25.296875 4.359375L6.656250 4.359375
-C7.093750 7.296875 8.703125 9.156250 13.046875 11.750000
-L18.046875 14.484375
-C23.000000 17.218750 25.546875 20.921875 25.546875 25.328125
-C25.546875 28.312500 24.343750 31.093750 22.250000 33.015625
-C20.156250 34.937500 17.546875 35.859375 14.203125 35.859375
-C9.703125 35.859375 6.343750 34.234375 4.406250 31.203125
-C3.156250 29.281250 2.593750 27.062500 2.500000 23.421875
-L6.906250 23.421875
-C7.046875 25.859375 7.343750 27.328125 7.953125 28.500000
-C9.093750 30.687500 11.406250 32.000000 14.046875 32.000000
-C18.046875 32.000000 21.046875 29.109375 21.046875 25.265625
-C21.046875 22.421875 19.406250 20.000000 16.250000 18.171875
-L11.656250 15.546875C4.250000 11.296875 2.093750 7.890625 1.703125 0.000000
-L25.296875 0.000000z"/>
-<path id="Nimbus_Sans_L_Regular-51" d="M11.046875 16.250000L11.593750 16.250000L13.453125 16.250000
-C18.296875 16.250000 20.796875 14.078125 20.796875 9.890625
-C20.796875 5.515625 18.046875 2.906250 13.453125 2.906250
-C8.656250 2.906250 6.296875 5.281250 6.000000 10.359375L1.593750 10.359375
-C1.796875 7.546875 2.296875 5.703125 3.156250 4.109375
-C4.953125 0.734375 8.453125 -1.000000 13.296875 -1.000000
-C20.593750 -1.000000 25.296875 3.312500 25.296875 9.968750
-C25.296875 14.421875 23.546875 16.906250 19.296875 18.343750
-C22.593750 19.687500 24.250000 22.234375 24.250000 25.875000
-C24.250000 32.125000 20.203125 35.859375 13.453125 35.859375
-C6.296875 35.859375 2.500000 31.875000 2.343750 24.140625
-L6.750000 24.140625
-C6.796875 26.375000 7.000000 27.593750 7.546875 28.734375
-C8.546875 30.750000 10.750000 32.000000 13.500000 32.000000
-C17.406250 32.000000 19.750000 29.609375 19.750000 25.718750
-C19.750000 23.125000 18.843750 21.578125 16.906250 20.734375
-C15.703125 20.203125 14.156250 20.000000 11.046875 20.000000z"/>
 <path id="Nimbus_Sans_L_Regular-82" d="M9.296875 16.000000L21.296875 16.000000
 C25.453125 16.000000 27.296875 14.000000 27.296875 9.531250
 L27.250000 6.296875
@@ -6432,17 +6419,16 @@ C8.156250 15.671875 6.703125 16.781250 6.703125 18.656250
 C6.703125 21.078125 8.843750 22.640625 12.250000 22.640625
 C15.593750 22.640625 17.406250 21.171875 17.500000 18.390625z"/>
 </defs>
-<g style="fill: #000000; opacity: 1.000000" transform="translate(248.379159,106.165937)scale(0.288000,-0.288000)">
-<use xlink:href="#Nimbus_Sans_L_Regular-78" x="0.000000" y="0.000000" transform="scale(0.996264)"/>
-<use xlink:href="#Nimbus_Sans_L_Regular-50" x="36.099854" y="0.000000" transform="scale(0.996264)"/>
+<g style="fill: #000000; opacity: 1.000000" transform="translate(295.834646,87.939144)scale(0.240000,-0.240000)">
+<use xlink:href="#CMR17-49" x="0.000000" y="0.000000" transform="scale(0.996264)"/>
+<use xlink:href="#CMR17-53" x="22.930908" y="0.000000" transform="scale(0.996264)"/>
+<use xlink:href="#CMR17-48" x="45.861816" y="0.000000" transform="scale(0.996264)"/>
 </g><!-- style -->
 </g>
-<g id="line2d43">
-<path style="fill: none; stroke: #bf00bf; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000"  d="M212.379159 121.868642L232.539159 121.868642"/>
 </g>
-<g id="line2d44">
-<g ><use style="fill: #bf00bf; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="212.379159" y="121.868642"/>
-<use style="fill: #bf00bf; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="232.539159" y="121.868642"/>
+<g id="ytick14">
+<g id="line2d40">
+<g ><use style="fill: none; stroke: #000000; stroke-width: 2.000000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#mb5f680a2952446ef8148975d730bbae7" x="290.834646" y="52.554331"/>
 </g></g>
 <g id="text32">
 <defs>
@@ -6635,38 +6621,6 @@ C13.500000 33.109375 16.156250 31.750000 17.093750 27.656250
 C17.750000 24.796875 17.796875 21.437500 17.796875 17.437500
 C17.796875 14.171875 17.796875 10.171875 17.203125 7.218750
 C16.156250 1.750000 13.203125 0.796875 11.453125 0.796875"/>
-<path id="Nimbus_Sans_L_Regular-50" d="M25.296875 4.359375L6.656250 4.359375
-C7.093750 7.296875 8.703125 9.156250 13.046875 11.750000
-L18.046875 14.484375
-C23.000000 17.218750 25.546875 20.921875 25.546875 25.328125
-C25.546875 28.312500 24.343750 31.093750 22.250000 33.015625
-C20.156250 34.937500 17.546875 35.859375 14.203125 35.859375
-C9.703125 35.859375 6.343750 34.234375 4.406250 31.203125
-C3.156250 29.281250 2.593750 27.062500 2.500000 23.421875
-L6.906250 23.421875
-C7.046875 25.859375 7.343750 27.328125 7.953125 28.500000
-C9.093750 30.687500 11.406250 32.000000 14.046875 32.000000
-C18.046875 32.000000 21.046875 29.109375 21.046875 25.265625
-C21.046875 22.421875 19.406250 20.000000 16.250000 18.171875
-L11.656250 15.546875C4.250000 11.296875 2.093750 7.890625 1.703125 0.000000
-L25.296875 0.000000z"/>
-<path id="Nimbus_Sans_L_Regular-51" d="M11.046875 16.250000L11.593750 16.250000L13.453125 16.250000
-C18.296875 16.250000 20.796875 14.078125 20.796875 9.890625
-C20.796875 5.515625 18.046875 2.906250 13.453125 2.906250
-C8.656250 2.906250 6.296875 5.281250 6.000000 10.359375L1.593750 10.359375
-C1.796875 7.546875 2.296875 5.703125 3.156250 4.109375
-C4.953125 0.734375 8.453125 -1.000000 13.296875 -1.000000
-C20.593750 -1.000000 25.296875 3.312500 25.296875 9.968750
-C25.296875 14.421875 23.546875 16.906250 19.296875 18.343750
-C22.593750 19.687500 24.250000 22.234375 24.250000 25.875000
-C24.250000 32.125000 20.203125 35.859375 13.453125 35.859375
-C6.296875 35.859375 2.500000 31.875000 2.343750 24.140625
-L6.750000 24.140625
-C6.796875 26.375000 7.000000 27.593750 7.546875 28.734375
-C8.546875 30.750000 10.750000 32.000000 13.500000 32.000000
-C17.406250 32.000000 19.750000 29.609375 19.750000 25.718750
-C19.750000 23.125000 18.843750 21.578125 16.906250 20.734375
-C15.703125 20.203125 14.156250 20.000000 11.046875 20.000000z"/>
 <path id="Nimbus_Sans_L_Regular-82" d="M9.296875 16.000000L21.296875 16.000000
 C25.453125 16.000000 27.296875 14.000000 27.296875 9.531250
 L27.250000 6.296875
@@ -6747,100 +6701,16 @@ C8.156250 15.671875 6.703125 16.781250 6.703125 18.656250
 C6.703125 21.078125 8.843750 22.640625 12.250000 22.640625
 C15.593750 22.640625 17.406250 21.171875 17.500000 18.390625z"/>
 </defs>
-<g style="fill: #000000; opacity: 1.000000" transform="translate(248.379159,127.166784)scale(0.288000,-0.288000)">
-<use xlink:href="#Nimbus_Sans_L_Regular-79" x="0.000000" y="0.899689" transform="scale(0.996264)"/>
-<use xlink:href="#Nimbus_Sans_L_Regular-50" x="38.899506" y="0.899689" transform="scale(0.996264)"/>
+<g style="fill: #000000; opacity: 1.000000" transform="translate(295.834646,56.406546)scale(0.240000,-0.240000)">
+<use xlink:href="#CMR17-50" x="0.000000" y="0.000000" transform="scale(0.996264)"/>
+<use xlink:href="#CMR17-48" x="22.930908" y="0.000000" transform="scale(0.996264)"/>
+<use xlink:href="#CMR17-48" x="45.861816" y="0.000000" transform="scale(0.996264)"/>
 </g><!-- style -->
 </g>
 </g>
-</g>
-<g id="axes2">
-<g id="line2d45">
-<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#p637ec22eb26b8243c3561448fbe9fa39)" d="M58.804157 165.425393L59.212724 165.508954L70.244031 90.385881
-L74.027717 88.807990L77.811402 87.234513L81.595087 85.662298
-L85.387654 84.095758L89.171339 82.490749L92.955024 80.932408
-L96.738709 79.361454L100.522394 77.779148L104.314961 76.216393
-L108.098646 74.642916L111.882331 73.050520L115.666016 71.484611
-L119.458583 69.906720L123.242268 68.327567L127.025953 66.750307
-L130.765228 65.171154L134.557795 63.593263L138.341480 62.005912
-L142.125165 60.446940L145.908850 58.858328L149.701417 57.287374
-L153.485102 55.717681L157.268787 54.129069L161.052472 52.566944
-L164.836157 50.983377L168.619843 49.411792L172.412409 47.822549
-L176.196094 46.233937L179.979780 44.675596L183.763465 43.114101
-L187.547150 44.688839L191.330835 46.265469L195.123402 47.820657
-L198.907087 49.389719L202.646362 50.972656L206.430047 52.558745
-L210.213732 54.118978L214.006299 55.704437L217.789984 57.288004
-L221.573669 58.864634L225.357354 60.441895L229.185449 62.034291
-L232.924724 63.604615L236.717291 65.173046L240.500976 66.752198
-L244.284661 68.337027L248.068346 69.902936L251.852031 71.473890
-L255.644598 73.060610L259.428283 74.641024L263.211969 76.220176
-L266.995654 77.792392L270.779339 79.363977L274.563024 80.953220
-L278.346709 82.514083L282.130394 84.097650"/>
-<g clip-path="url(#p637ec22eb26b8243c3561448fbe9fa39)"><use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="58.804157" y="165.425393"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="59.212724" y="165.508954"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="70.244031" y="90.385881"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="74.027717" y="88.807990"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="77.811402" y="87.234513"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="81.595087" y="85.662298"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="85.387654" y="84.095758"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="89.171339" y="82.490749"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="92.955024" y="80.932408"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="96.738709" y="79.361454"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="100.522394" y="77.779148"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="104.314961" y="76.216393"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="108.098646" y="74.642916"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="111.882331" y="73.050520"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="115.666016" y="71.484611"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="119.458583" y="69.906720"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="123.242268" y="68.327567"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="127.025953" y="66.750307"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="130.765228" y="65.171154"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="134.557795" y="63.593263"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="138.341480" y="62.005912"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="142.125165" y="60.446940"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="145.908850" y="58.858328"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="149.701417" y="57.287374"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="153.485102" y="55.717681"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="157.268787" y="54.129069"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="161.052472" y="52.566944"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="164.836157" y="50.983377"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="168.619843" y="49.411792"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="172.412409" y="47.822549"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="176.196094" y="46.233937"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="179.979780" y="44.675596"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="183.763465" y="43.114101"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="187.547150" y="44.688839"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="191.330835" y="46.265469"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="195.123402" y="47.820657"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="198.907087" y="49.389719"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="202.646362" y="50.972656"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="206.430047" y="52.558745"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="210.213732" y="54.118978"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="214.006299" y="55.704437"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="217.789984" y="57.288004"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="221.573669" y="58.864634"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="225.357354" y="60.441895"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="229.185449" y="62.034291"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="232.924724" y="63.604615"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="236.717291" y="65.173046"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="240.500976" y="66.752198"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="244.284661" y="68.337027"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="248.068346" y="69.902936"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="251.852031" y="71.473890"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="255.644598" y="73.060610"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="259.428283" y="74.641024"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="263.211969" y="76.220176"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="266.995654" y="77.792392"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="270.779339" y="79.363977"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="274.563024" y="80.953220"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="278.346709" y="82.514083"/>
-<use style="fill: #000000; stroke: #000000; stroke-width: 0.500000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#me000f297901fbb8743bae25bd3959efa" x="282.130394" y="84.097650"/>
-</g></g>
-<g id="matplotlib.axis3">
-<g id="ytick10">
-<g id="line2d46">
-<defs><path id="mb5f680a2952446ef8148975d730bbae7" d="M0.000000 0.000000L-6.000000 0.000000"/></defs>
-<g ><use style="fill: none; stroke: #000000; stroke-width: 2.000000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#mb5f680a2952446ef8148975d730bbae7" x="290.834646" y="178.684724"/>
+<g id="ytick15">
+<g id="line2d41">
+<g ><use style="fill: none; stroke: #000000; stroke-width: 2.000000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#mb5f680a2952446ef8148975d730bbae7" x="290.834646" y="21.021732"/>
 </g></g>
 <g id="text33">
 <defs>
@@ -7033,1605 +6903,6 @@ C13.500000 33.109375 16.156250 31.750000 17.093750 27.656250
 C17.750000 24.796875 17.796875 21.437500 17.796875 17.437500
 C17.796875 14.171875 17.796875 10.171875 17.203125 7.218750
 C16.156250 1.750000 13.203125 0.796875 11.453125 0.796875"/>
-<path id="Nimbus_Sans_L_Regular-50" d="M25.296875 4.359375L6.656250 4.359375
-C7.093750 7.296875 8.703125 9.156250 13.046875 11.750000
-L18.046875 14.484375
-C23.000000 17.218750 25.546875 20.921875 25.546875 25.328125
-C25.546875 28.312500 24.343750 31.093750 22.250000 33.015625
-C20.156250 34.937500 17.546875 35.859375 14.203125 35.859375
-C9.703125 35.859375 6.343750 34.234375 4.406250 31.203125
-C3.156250 29.281250 2.593750 27.062500 2.500000 23.421875
-L6.906250 23.421875
-C7.046875 25.859375 7.343750 27.328125 7.953125 28.500000
-C9.093750 30.687500 11.406250 32.000000 14.046875 32.000000
-C18.046875 32.000000 21.046875 29.109375 21.046875 25.265625
-C21.046875 22.421875 19.406250 20.000000 16.250000 18.171875
-L11.656250 15.546875C4.250000 11.296875 2.093750 7.890625 1.703125 0.000000
-L25.296875 0.000000z"/>
-<path id="Nimbus_Sans_L_Regular-51" d="M11.046875 16.250000L11.593750 16.250000L13.453125 16.250000
-C18.296875 16.250000 20.796875 14.078125 20.796875 9.890625
-C20.796875 5.515625 18.046875 2.906250 13.453125 2.906250
-C8.656250 2.906250 6.296875 5.281250 6.000000 10.359375L1.593750 10.359375
-C1.796875 7.546875 2.296875 5.703125 3.156250 4.109375
-C4.953125 0.734375 8.453125 -1.000000 13.296875 -1.000000
-C20.593750 -1.000000 25.296875 3.312500 25.296875 9.968750
-C25.296875 14.421875 23.546875 16.906250 19.296875 18.343750
-C22.593750 19.687500 24.250000 22.234375 24.250000 25.875000
-C24.250000 32.125000 20.203125 35.859375 13.453125 35.859375
-C6.296875 35.859375 2.500000 31.875000 2.343750 24.140625
-L6.750000 24.140625
-C6.796875 26.375000 7.000000 27.593750 7.546875 28.734375
-C8.546875 30.750000 10.750000 32.000000 13.500000 32.000000
-C17.406250 32.000000 19.750000 29.609375 19.750000 25.718750
-C19.750000 23.125000 18.843750 21.578125 16.906250 20.734375
-C15.703125 20.203125 14.156250 20.000000 11.046875 20.000000z"/>
-<path id="Nimbus_Sans_L_Regular-82" d="M9.296875 16.000000L21.296875 16.000000
-C25.453125 16.000000 27.296875 14.000000 27.296875 9.531250
-L27.250000 6.296875
-C27.250000 4.062500 27.656250 1.875000 28.296875 0.390625
-L33.953125 0.390625L33.953125 1.531250
-C32.203125 2.734375 31.843750 4.015625 31.750000 8.843750
-C31.703125 14.812500 30.750000 16.609375 26.796875 18.296875
-C30.906250 20.328125 32.546875 22.906250 32.546875 27.125000
-C32.546875 33.500000 28.593750 37.000000 21.453125 37.000000
-L4.656250 37.000000L4.656250 0.390625L9.296875 0.390625zM9.296875 20.093750
-L9.296875 32.890625L20.546875 32.890625
-C23.156250 32.890625 24.656250 32.484375 25.796875 31.453125
-C27.046875 30.390625 27.703125 28.703125 27.703125 26.468750
-C27.703125 22.078125 25.500000 20.093750 20.546875 20.093750z"/>
-<path id="Nimbus_Sans_L_Regular-112" d="M2.703125 -11.000000L6.906250 -11.000000L6.906250 2.906250
-C9.093750 0.203125 11.546875 -1.000000 14.953125 -1.000000
-C21.703125 -1.000000 26.156250 4.343750 26.156250 12.500000
-C26.156250 21.109375 21.843750 26.500000 14.906250 26.500000
-C11.343750 26.500000 8.500000 24.906250 6.546875 21.812500
-L6.546875 26.000000L2.703125 26.000000zM14.203125 22.593750
-C18.796875 22.593750 21.796875 18.656250 21.796875 12.593750
-C21.796875 6.843750 18.750000 2.906250 14.203125 2.906250
-C9.796875 2.906250 6.906250 6.796875 6.906250 12.750000
-C6.906250 18.703125 9.796875 22.593750 14.203125 22.593750"/>
-<path id="CMR17-49" d="M13.296875 31.906250
-C13.296875 32.953125 13.250000 33.000000 12.546875 33.000000
-C10.593750 30.781250 7.656250 30.093750 4.843750 30.093750
-C4.703125 30.093750 4.453125 30.093750 4.406250 29.953125
-C4.343750 29.859375 4.343750 29.750000 4.343750 28.718750
-C5.906250 28.718750 8.500000 29.015625 10.500000 30.187500
-L10.500000 3.625000C10.500000 1.843750 10.406250 1.250000 6.093750 1.250000
-L4.593750 1.250000L4.593750 0.000000
-C7.000000 0.000000 9.500000 0.000000 11.906250 0.000000
-C14.296875 0.000000 16.796875 0.000000 19.203125 0.000000
-L19.203125 1.250000L17.703125 1.250000
-C13.406250 1.250000 13.296875 1.796875 13.296875 3.609375z"/>
-<path id="Nimbus_Sans_L_Regular-111" d="M13.593750 26.500000
-C6.250000 26.500000 1.796875 21.203125 1.796875 12.312500
-C1.796875 3.437500 6.203125 -1.859375 13.656250 -1.859375
-C21.000000 -1.859375 25.500000 3.437500 25.500000 12.109375
-C25.500000 21.250000 21.156250 26.500000 13.593750 26.500000
-M13.656250 22.640625
-C18.343750 22.640625 21.156250 18.750000 21.156250 12.156250
-C21.156250 5.937500 18.250000 2.000000 13.656250 2.000000
-C9.000000 2.000000 6.156250 5.890625 6.156250 12.328125
-C6.156250 18.703125 9.000000 22.640625 13.656250 22.640625"/>
-<path id="Nimbus_Sans_L_Regular-116" d="M12.703125 26.000000L8.406250 26.000000L8.406250 33.093750
-L4.250000 33.093750L4.250000 26.000000L0.703125 26.000000
-L0.703125 22.593750L4.250000 22.593750L4.250000 2.546875
-C4.250000 -0.140625 6.046875 -1.656250 9.296875 -1.656250
-C10.296875 -1.656250 11.296875 -1.546875 12.703125 -1.312500
-L12.703125 2.203125
-C12.156250 2.046875 11.500000 2.000000 10.703125 2.000000
-C8.906250 2.000000 8.406250 2.500000 8.406250 4.390625L8.406250 22.593750
-L12.703125 22.593750z"/>
-<path id="Nimbus_Sans_L_Regular-117" d="M24.093750 -0.250000L24.093750 26.000000L19.953125 26.000000
-L19.953125 10.968750
-C19.953125 5.546875 17.156250 2.000000 12.796875 2.000000
-C9.500000 2.000000 7.406250 4.031250 7.406250 7.203125L7.406250 26.000000
-L3.250000 26.000000L3.250000 5.578125
-C3.250000 1.187500 6.500000 -1.656250 11.593750 -1.656250
-C15.453125 -1.656250 17.906250 -0.296875 20.343750 3.171875
-L20.343750 -0.250000z"/>
-<path id="Nimbus_Sans_L_Regular-115" d="M21.906250 18.390625
-C21.843750 23.578125 18.453125 26.500000 12.406250 26.500000
-C6.296875 26.500000 2.343750 23.312500 2.343750 18.421875
-C2.343750 14.281250 4.453125 12.296875 10.656250 10.796875
-L14.546875 9.828125
-C17.453125 9.125000 18.593750 8.062500 18.593750 6.140625
-C18.593750 3.671875 16.156250 2.000000 12.500000 2.000000
-C10.250000 2.000000 8.343750 2.656250 7.296875 3.765625
-C6.656250 4.515625 6.343750 5.281250 6.093750 7.156250L1.703125 7.156250
-C1.906250 1.062500 5.296875 -1.859375 12.156250 -1.859375
-C18.750000 -1.859375 22.953125 1.437500 22.953125 6.515625
-C22.953125 10.468750 20.750000 12.640625 15.546875 13.890625
-L11.546875 14.859375
-C8.156250 15.671875 6.703125 16.781250 6.703125 18.656250
-C6.703125 21.078125 8.843750 22.640625 12.250000 22.640625
-C15.593750 22.640625 17.406250 21.171875 17.500000 18.390625z"/>
-</defs>
-<g style="fill: #000000; opacity: 1.000000" transform="translate(295.834646,182.536940)scale(0.240000,-0.240000)">
-<use xlink:href="#CMR17-48" x="0.000000" y="0.000000" transform="scale(0.996264)"/>
-</g><!-- style -->
-</g>
-</g>
-<g id="ytick11">
-<g id="line2d47">
-<g ><use style="fill: none; stroke: #000000; stroke-width: 2.000000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#mb5f680a2952446ef8148975d730bbae7" x="290.834646" y="147.152126"/>
-</g></g>
-<g id="text34">
-<defs>
-<path id="Nimbus_Sans_L_Regular-72" d="M27.546875 17.000000L27.546875 0.484375L32.203125 0.484375
-L32.203125 37.000000L27.546875 37.000000L27.546875 21.109375
-L8.796875 21.109375L8.796875 37.000000L4.156250 37.000000L4.156250 0.484375
-L8.843750 0.484375L8.843750 17.000000z"/>
-<path id="Nimbus_Sans_L_Regular-78" d="M32.296875 37.000000L27.906250 37.000000L27.906250 7.140625
-L8.843750 37.000000L3.796875 37.000000L3.796875 0.484375L8.203125 0.484375
-L8.203125 30.093750L27.046875 0.484375L32.296875 0.484375z"/>
-<path id="Nimbus_Sans_L_Regular-79" d="M19.453125 37.500000
-C9.000000 37.500000 1.906250 29.750000 1.906250 18.265625
-C1.906250 6.765625 9.000000 -1.000000 19.500000 -1.000000
-C23.906250 -1.000000 27.843750 0.375000 30.796875 2.890625
-C34.750000 6.265625 37.093750 11.953125 37.093750 17.953125
-C37.093750 29.796875 30.156250 37.500000 19.453125 37.500000
-M19.453125 33.390625
-C27.343750 33.390625 32.453125 27.343750 32.453125 18.046875
-C32.453125 9.171875 27.203125 3.109375 19.500000 3.109375
-C11.750000 3.109375 6.546875 9.171875 6.546875 18.265625
-C6.546875 27.343750 11.750000 33.390625 19.453125 33.390625"/>
-<path id="Nimbus_Sans_L_Regular-47" d="M11.453125 37.000000L-0.406250 -0.500000L2.343750 -0.500000
-L14.203125 37.000000z"/>
-<path id="CMR17-50" d="M20.843750 7.609375L19.953125 7.609375
-C19.453125 4.156250 19.046875 3.562500 18.843750 3.265625
-C18.593750 2.890625 15.000000 2.890625 14.296875 2.890625L4.703125 2.890625
-C6.500000 4.843750 10.000000 8.390625 14.250000 12.500000
-C17.296875 15.390625 20.843750 18.796875 20.843750 23.750000
-C20.843750 29.656250 16.156250 33.046875 10.906250 33.046875
-C5.406250 33.046875 2.046875 27.984375 2.046875 23.296875
-C2.046875 21.265625 3.500000 21.000000 4.093750 21.000000
-C4.593750 21.000000 6.093750 21.296875 6.093750 23.046875
-C6.093750 24.593750 4.796875 25.031250 4.093750 25.031250
-C3.796875 25.031250 3.500000 24.984375 3.296875 24.875000
-C4.250000 29.500000 7.156250 31.765625 10.203125 31.765625
-C14.546875 31.765625 17.406250 28.328125 17.406250 23.765625
-C17.406250 19.406250 14.843750 15.656250 12.000000 12.406250
-L2.046875 1.140625L2.046875 0.000000L19.656250 0.000000z"/>
-<path id="CMR17-51" d="M11.046875 17.828125
-C15.500000 17.828125 17.453125 13.968750 17.453125 9.500000
-C17.453125 3.500000 14.250000 1.187500 11.343750 1.187500
-C8.703125 1.187500 4.406250 2.421875 3.046875 6.093750
-C3.296875 6.000000 3.546875 6.000000 3.796875 6.000000
-C5.000000 6.000000 5.906250 6.796875 5.906250 8.093750
-C5.906250 9.546875 4.796875 10.187500 3.796875 10.187500
-C2.953125 10.187500 1.656250 9.796875 1.656250 8.000000
-C1.656250 3.500000 6.156250 0.000000 11.453125 0.000000
-C17.000000 0.000000 21.250000 4.359375 21.250000 9.468750
-C21.250000 14.312500 17.250000 17.828125 12.500000 18.375000
-C16.296875 19.187500 19.953125 22.609375 19.953125 27.187500
-C19.953125 31.109375 16.000000 33.968750 11.500000 33.968750
-C6.953125 33.968750 2.953125 31.140625 2.953125 27.078125
-C2.953125 25.296875 4.250000 25.000000 4.906250 25.000000
-C5.953125 25.000000 6.843750 25.656250 6.843750 26.937500
-C6.843750 28.234375 5.953125 28.890625 4.906250 28.890625
-C4.703125 28.890625 4.453125 28.890625 4.250000 28.796875
-C5.703125 32.218750 9.656250 32.843750 11.406250 32.843750
-C13.156250 32.843750 16.453125 31.984375 16.453125 27.125000
-C16.453125 25.718750 16.250000 23.171875 14.546875 20.953125
-C13.046875 18.984375 11.343750 18.984375 9.703125 18.781250
-C9.453125 18.781250 8.296875 18.781250 8.093750 18.781250
-C7.750000 18.718750 7.546875 18.656250 7.546875 18.281250
-C7.546875 17.890625 7.593750 17.828125 8.593750 17.828125z"/>
-<path id="CMR17-52" d="M16.796875 32.890625
-C16.796875 33.953125 16.750000 34.000000 15.843750 34.000000
-L1.000000 10.046875L1.000000 8.765625L13.906250 8.765625L13.906250 3.640625
-C13.906250 1.781250 13.796875 1.250000 10.296875 1.250000L9.343750 1.250000
-L9.343750 0.000000C10.953125 0.000000 13.656250 0.000000 15.343750 0.000000
-C17.046875 0.000000 19.750000 0.000000 21.343750 0.000000
-L21.343750 1.250000L20.406250 1.250000
-C16.906250 1.250000 16.796875 1.781250 16.796875 3.640625
-L16.796875 8.765625L21.906250 8.765625L21.906250 10.046875
-L16.796875 10.046875zM14.046875 29.546875L14.046875 10.046875
-L2.000000 10.046875z"/>
-<path id="CMR17-53" d="M5.703125 29.843750
-C6.203125 29.640625 8.250000 29.000000 10.343750 29.000000
-C15.000000 29.000000 17.546875 31.500000 19.000000 32.953125
-C19.000000 33.359375 19.000000 33.625000 18.703125 33.625000
-C18.656250 33.625000 18.546875 33.625000 18.156250 33.421875
-C16.406250 32.640625 14.343750 32.031250 11.843750 32.031250
-C10.343750 32.031250 8.093750 32.234375 5.656250 33.375000
-C5.093750 33.625000 5.000000 33.625000 4.953125 33.625000
-C4.703125 33.625000 4.656250 33.578125 4.656250 32.578125
-L4.656250 18.140625
-C4.656250 17.250000 4.656250 17.000000 5.156250 17.000000
-C5.406250 17.000000 5.500000 17.109375 5.750000 17.500000
-C7.343750 20.046875 9.546875 21.109375 12.046875 21.109375
-C13.796875 21.109375 17.546875 19.984375 17.546875 11.281250
-C17.546875 9.640625 17.546875 6.703125 16.046875 4.359375
-C14.796875 2.265625 12.843750 1.187500 10.703125 1.187500
-C7.406250 1.187500 4.046875 3.515625 3.156250 7.375000
-C3.343750 7.328125 3.750000 7.218750 3.953125 7.218750
-C4.593750 7.218750 5.843750 7.562500 5.843750 9.109375
-C5.843750 10.453125 4.906250 11.000000 3.953125 11.000000
-C2.796875 11.000000 2.046875 10.296875 2.046875 8.890625
-C2.046875 4.546875 5.500000 0.000000 10.796875 0.000000
-C15.953125 0.000000 20.843750 4.531250 20.843750 11.078125
-C20.843750 17.171875 16.953125 21.890625 12.093750 21.890625
-C9.546875 21.890625 7.406250 20.875000 5.703125 18.906250z"/>
-<path id="Nimbus_Sans_L_Regular-109" d="M3.500000 26.000000L3.500000 -0.250000L7.703125 -0.250000
-L7.703125 16.062500
-C7.703125 19.812500 10.453125 22.843750 13.843750 22.843750
-C16.953125 22.843750 18.703125 20.953125 18.703125 17.640625
-L18.703125 -0.250000L22.906250 -0.250000L22.906250 16.062500
-C22.906250 19.812500 25.656250 22.843750 29.046875 22.843750
-C32.093750 22.843750 33.906250 20.906250 33.906250 17.640625
-L33.906250 -0.250000L38.093750 -0.250000L38.093750 19.250000
-C38.093750 23.921875 35.406250 26.500000 30.500000 26.500000
-C27.000000 26.500000 24.906250 25.437500 22.453125 22.500000
-C20.906250 25.296875 18.796875 26.500000 15.406250 26.500000
-C11.906250 26.500000 9.593750 25.187500 7.343750 22.046875
-L7.343750 26.000000z"/>
-<path id="Nimbus_Sans_L_Regular-105" d="M7.500000 26.000000L3.343750 26.000000L3.343750 -0.250000
-L7.500000 -0.250000zM7.500000 37.000000L3.296875 37.000000
-L3.296875 31.734375L7.500000 31.734375z"/>
-<path id="Nimbus_Sans_L_Regular-86" d="M19.593750 0.500000L32.250000 37.000000L27.296875 37.000000
-L17.203125 6.109375L6.500000 37.000000L1.500000 37.000000
-L14.593750 0.500000z"/>
-<path id="Nimbus_Sans_L_Regular-84" d="M17.703125 32.890625L29.656250 32.890625L29.656250 37.000000
-L1.046875 37.000000L1.046875 32.890625L13.046875 32.890625
-L13.046875 0.390625L17.703125 0.390625z"/>
-<path id="Nimbus_Sans_L_Regular-101" d="M25.656250 11.000000
-C25.656250 15.078125 25.343750 17.500000 24.593750 19.484375
-C22.906250 23.859375 18.906250 26.500000 14.000000 26.500000
-C6.703125 26.500000 2.000000 20.843750 2.000000 12.156250
-C2.000000 3.484375 6.546875 -1.859375 13.906250 -1.859375
-C19.906250 -1.859375 24.046875 1.546875 25.093750 7.250000
-L20.906250 7.250000
-C19.750000 3.812500 17.406250 2.000000 14.046875 2.000000
-C11.406250 2.000000 9.156250 3.203125 7.750000 5.406250
-C6.750000 6.890625 6.406250 8.390625 6.343750 11.000000zM6.453125 14.406250
-C6.796875 19.390625 9.750000 22.640625 13.953125 22.640625
-C18.046875 22.640625 21.203125 19.140625 21.203125 14.718750
-C21.203125 14.609375 21.203125 14.500000 21.156250 14.406250z"/>
-<path id="CMMI12-22" d="M7.203125 1.578125C8.453125 0.453125 10.296875 0.000000 12.000000 0.000000
-C15.203125 0.000000 17.406250 2.109375 18.546875 3.625000
-C19.046875 1.031250 21.156250 0.000000 22.906250 0.000000
-C24.406250 0.000000 25.593750 0.890625 26.500000 2.640625
-C27.296875 4.296875 28.000000 7.281250 28.000000 7.484375
-C28.000000 7.718750 27.796875 7.906250 27.500000 7.906250
-C27.046875 7.906250 27.000000 7.656250 26.796875 6.953125
-C26.046875 4.062500 25.093750 1.000000 23.046875 1.000000
-C21.593750 1.000000 21.500000 2.265625 21.500000 3.250000
-C21.500000 4.359375 21.953125 6.109375 22.296875 7.578125
-C22.750000 9.328125 23.250000 11.093750 23.703125 12.843750
-C23.906250 13.781250 24.453125 15.953125 24.703125 16.843750
-C25.000000 18.000000 25.546875 20.109375 25.546875 20.296875
-C25.546875 21.031250 24.953125 21.515625 24.203125 21.515625
-C23.750000 21.515625 22.703125 21.312500 22.296875 19.859375
-L18.796875 6.312500
-C18.546875 5.328125 18.546875 5.250000 17.906250 4.468750
-C17.296875 3.625000 15.343750 1.000000 12.203125 1.000000
-C9.406250 1.000000 8.500000 3.000000 8.500000 5.281250
-C8.500000 6.703125 8.953125 8.406250 9.156250 9.234375L11.406250 18.000000
-C11.656250 18.937500 12.046875 20.484375 12.046875 20.781250
-C12.046875 21.562500 11.406250 22.000000 10.750000 22.000000
-C10.296875 22.000000 9.203125 21.859375 8.796875 20.296875
-L1.546875 -7.937500
-C1.500000 -8.187500 1.406250 -8.484375 1.406250 -8.781250
-C1.406250 -9.515625 2.000000 -10.000000 2.750000 -10.000000
-C4.203125 -10.000000 4.500000 -8.875000 4.843750 -7.500000
-C5.406250 -5.453125 5.093750 -6.421875 7.203125 1.578125"/>
-<path id="CMSY10-1" d="M9.593750 12.656250
-C9.593750 14.109375 8.406250 15.312500 6.953125 15.312500
-C5.500000 15.312500 4.296875 14.109375 4.296875 12.656250
-C4.296875 11.203125 5.500000 10.000000 6.953125 10.000000
-C8.406250 10.000000 9.593750 11.203125 9.593750 12.656250"/>
-<path id="Nimbus_Sans_L_Regular-110" d="M3.500000 26.000000L3.500000 -0.250000L7.703125 -0.250000
-L7.703125 14.062500
-C7.703125 19.359375 10.500000 22.843750 14.796875 22.843750
-C18.093750 22.843750 20.203125 20.859375 20.203125 17.750000
-L20.203125 -0.250000L24.343750 -0.250000L24.343750 19.390625
-C24.343750 23.718750 21.093750 26.500000 16.046875 26.500000
-C12.156250 26.500000 9.656250 25.000000 7.343750 21.359375
-L7.343750 26.000000z"/>
-<path id="CMR17-48" d="M21.000000 16.875000
-C21.000000 19.921875 20.953125 25.140625 18.843750 29.140625
-C17.000000 32.656250 14.046875 33.890625 11.453125 33.890625
-C9.046875 33.890625 6.000000 32.796875 4.093750 29.187500
-C2.093750 25.437500 1.906250 20.765625 1.906250 16.875000
-C1.906250 14.015625 1.953125 9.656250 3.500000 5.859375
-C5.656250 0.703125 9.500000 0.000000 11.453125 0.000000
-C13.750000 0.000000 17.250000 0.953125 19.296875 5.703125
-C20.796875 9.156250 21.000000 13.218750 21.000000 16.875000
-M11.453125 0.796875C8.250000 0.796875 6.343750 3.546875 5.656250 7.359375
-C5.093750 10.312500 5.093750 14.625000 5.093750 17.437500
-C5.093750 21.281250 5.093750 24.500000 5.750000 27.562500
-C6.703125 31.796875 9.500000 33.109375 11.453125 33.109375
-C13.500000 33.109375 16.156250 31.750000 17.093750 27.656250
-C17.750000 24.796875 17.796875 21.437500 17.796875 17.437500
-C17.796875 14.171875 17.796875 10.171875 17.203125 7.218750
-C16.156250 1.750000 13.203125 0.796875 11.453125 0.796875"/>
-<path id="Nimbus_Sans_L_Regular-50" d="M25.296875 4.359375L6.656250 4.359375
-C7.093750 7.296875 8.703125 9.156250 13.046875 11.750000
-L18.046875 14.484375
-C23.000000 17.218750 25.546875 20.921875 25.546875 25.328125
-C25.546875 28.312500 24.343750 31.093750 22.250000 33.015625
-C20.156250 34.937500 17.546875 35.859375 14.203125 35.859375
-C9.703125 35.859375 6.343750 34.234375 4.406250 31.203125
-C3.156250 29.281250 2.593750 27.062500 2.500000 23.421875
-L6.906250 23.421875
-C7.046875 25.859375 7.343750 27.328125 7.953125 28.500000
-C9.093750 30.687500 11.406250 32.000000 14.046875 32.000000
-C18.046875 32.000000 21.046875 29.109375 21.046875 25.265625
-C21.046875 22.421875 19.406250 20.000000 16.250000 18.171875
-L11.656250 15.546875C4.250000 11.296875 2.093750 7.890625 1.703125 0.000000
-L25.296875 0.000000z"/>
-<path id="Nimbus_Sans_L_Regular-51" d="M11.046875 16.250000L11.593750 16.250000L13.453125 16.250000
-C18.296875 16.250000 20.796875 14.078125 20.796875 9.890625
-C20.796875 5.515625 18.046875 2.906250 13.453125 2.906250
-C8.656250 2.906250 6.296875 5.281250 6.000000 10.359375L1.593750 10.359375
-C1.796875 7.546875 2.296875 5.703125 3.156250 4.109375
-C4.953125 0.734375 8.453125 -1.000000 13.296875 -1.000000
-C20.593750 -1.000000 25.296875 3.312500 25.296875 9.968750
-C25.296875 14.421875 23.546875 16.906250 19.296875 18.343750
-C22.593750 19.687500 24.250000 22.234375 24.250000 25.875000
-C24.250000 32.125000 20.203125 35.859375 13.453125 35.859375
-C6.296875 35.859375 2.500000 31.875000 2.343750 24.140625
-L6.750000 24.140625
-C6.796875 26.375000 7.000000 27.593750 7.546875 28.734375
-C8.546875 30.750000 10.750000 32.000000 13.500000 32.000000
-C17.406250 32.000000 19.750000 29.609375 19.750000 25.718750
-C19.750000 23.125000 18.843750 21.578125 16.906250 20.734375
-C15.703125 20.203125 14.156250 20.000000 11.046875 20.000000z"/>
-<path id="Nimbus_Sans_L_Regular-82" d="M9.296875 16.000000L21.296875 16.000000
-C25.453125 16.000000 27.296875 14.000000 27.296875 9.531250
-L27.250000 6.296875
-C27.250000 4.062500 27.656250 1.875000 28.296875 0.390625
-L33.953125 0.390625L33.953125 1.531250
-C32.203125 2.734375 31.843750 4.015625 31.750000 8.843750
-C31.703125 14.812500 30.750000 16.609375 26.796875 18.296875
-C30.906250 20.328125 32.546875 22.906250 32.546875 27.125000
-C32.546875 33.500000 28.593750 37.000000 21.453125 37.000000
-L4.656250 37.000000L4.656250 0.390625L9.296875 0.390625zM9.296875 20.093750
-L9.296875 32.890625L20.546875 32.890625
-C23.156250 32.890625 24.656250 32.484375 25.796875 31.453125
-C27.046875 30.390625 27.703125 28.703125 27.703125 26.468750
-C27.703125 22.078125 25.500000 20.093750 20.546875 20.093750z"/>
-<path id="Nimbus_Sans_L_Regular-112" d="M2.703125 -11.000000L6.906250 -11.000000L6.906250 2.906250
-C9.093750 0.203125 11.546875 -1.000000 14.953125 -1.000000
-C21.703125 -1.000000 26.156250 4.343750 26.156250 12.500000
-C26.156250 21.109375 21.843750 26.500000 14.906250 26.500000
-C11.343750 26.500000 8.500000 24.906250 6.546875 21.812500
-L6.546875 26.000000L2.703125 26.000000zM14.203125 22.593750
-C18.796875 22.593750 21.796875 18.656250 21.796875 12.593750
-C21.796875 6.843750 18.750000 2.906250 14.203125 2.906250
-C9.796875 2.906250 6.906250 6.796875 6.906250 12.750000
-C6.906250 18.703125 9.796875 22.593750 14.203125 22.593750"/>
-<path id="CMR17-49" d="M13.296875 31.906250
-C13.296875 32.953125 13.250000 33.000000 12.546875 33.000000
-C10.593750 30.781250 7.656250 30.093750 4.843750 30.093750
-C4.703125 30.093750 4.453125 30.093750 4.406250 29.953125
-C4.343750 29.859375 4.343750 29.750000 4.343750 28.718750
-C5.906250 28.718750 8.500000 29.015625 10.500000 30.187500
-L10.500000 3.625000C10.500000 1.843750 10.406250 1.250000 6.093750 1.250000
-L4.593750 1.250000L4.593750 0.000000
-C7.000000 0.000000 9.500000 0.000000 11.906250 0.000000
-C14.296875 0.000000 16.796875 0.000000 19.203125 0.000000
-L19.203125 1.250000L17.703125 1.250000
-C13.406250 1.250000 13.296875 1.796875 13.296875 3.609375z"/>
-<path id="Nimbus_Sans_L_Regular-111" d="M13.593750 26.500000
-C6.250000 26.500000 1.796875 21.203125 1.796875 12.312500
-C1.796875 3.437500 6.203125 -1.859375 13.656250 -1.859375
-C21.000000 -1.859375 25.500000 3.437500 25.500000 12.109375
-C25.500000 21.250000 21.156250 26.500000 13.593750 26.500000
-M13.656250 22.640625
-C18.343750 22.640625 21.156250 18.750000 21.156250 12.156250
-C21.156250 5.937500 18.250000 2.000000 13.656250 2.000000
-C9.000000 2.000000 6.156250 5.890625 6.156250 12.328125
-C6.156250 18.703125 9.000000 22.640625 13.656250 22.640625"/>
-<path id="Nimbus_Sans_L_Regular-116" d="M12.703125 26.000000L8.406250 26.000000L8.406250 33.093750
-L4.250000 33.093750L4.250000 26.000000L0.703125 26.000000
-L0.703125 22.593750L4.250000 22.593750L4.250000 2.546875
-C4.250000 -0.140625 6.046875 -1.656250 9.296875 -1.656250
-C10.296875 -1.656250 11.296875 -1.546875 12.703125 -1.312500
-L12.703125 2.203125
-C12.156250 2.046875 11.500000 2.000000 10.703125 2.000000
-C8.906250 2.000000 8.406250 2.500000 8.406250 4.390625L8.406250 22.593750
-L12.703125 22.593750z"/>
-<path id="Nimbus_Sans_L_Regular-117" d="M24.093750 -0.250000L24.093750 26.000000L19.953125 26.000000
-L19.953125 10.968750
-C19.953125 5.546875 17.156250 2.000000 12.796875 2.000000
-C9.500000 2.000000 7.406250 4.031250 7.406250 7.203125L7.406250 26.000000
-L3.250000 26.000000L3.250000 5.578125
-C3.250000 1.187500 6.500000 -1.656250 11.593750 -1.656250
-C15.453125 -1.656250 17.906250 -0.296875 20.343750 3.171875
-L20.343750 -0.250000z"/>
-<path id="Nimbus_Sans_L_Regular-115" d="M21.906250 18.390625
-C21.843750 23.578125 18.453125 26.500000 12.406250 26.500000
-C6.296875 26.500000 2.343750 23.312500 2.343750 18.421875
-C2.343750 14.281250 4.453125 12.296875 10.656250 10.796875
-L14.546875 9.828125
-C17.453125 9.125000 18.593750 8.062500 18.593750 6.140625
-C18.593750 3.671875 16.156250 2.000000 12.500000 2.000000
-C10.250000 2.000000 8.343750 2.656250 7.296875 3.765625
-C6.656250 4.515625 6.343750 5.281250 6.093750 7.156250L1.703125 7.156250
-C1.906250 1.062500 5.296875 -1.859375 12.156250 -1.859375
-C18.750000 -1.859375 22.953125 1.437500 22.953125 6.515625
-C22.953125 10.468750 20.750000 12.640625 15.546875 13.890625
-L11.546875 14.859375
-C8.156250 15.671875 6.703125 16.781250 6.703125 18.656250
-C6.703125 21.078125 8.843750 22.640625 12.250000 22.640625
-C15.593750 22.640625 17.406250 21.171875 17.500000 18.390625z"/>
-</defs>
-<g style="fill: #000000; opacity: 1.000000" transform="translate(295.834646,151.004341)scale(0.240000,-0.240000)">
-<use xlink:href="#CMR17-53" x="0.000000" y="0.000000" transform="scale(0.996264)"/>
-<use xlink:href="#CMR17-48" x="22.930908" y="0.000000" transform="scale(0.996264)"/>
-</g><!-- style -->
-</g>
-</g>
-<g id="ytick12">
-<g id="line2d48">
-<g ><use style="fill: none; stroke: #000000; stroke-width: 2.000000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#mb5f680a2952446ef8148975d730bbae7" x="290.834646" y="115.619528"/>
-</g></g>
-<g id="text35">
-<defs>
-<path id="Nimbus_Sans_L_Regular-72" d="M27.546875 17.000000L27.546875 0.484375L32.203125 0.484375
-L32.203125 37.000000L27.546875 37.000000L27.546875 21.109375
-L8.796875 21.109375L8.796875 37.000000L4.156250 37.000000L4.156250 0.484375
-L8.843750 0.484375L8.843750 17.000000z"/>
-<path id="Nimbus_Sans_L_Regular-78" d="M32.296875 37.000000L27.906250 37.000000L27.906250 7.140625
-L8.843750 37.000000L3.796875 37.000000L3.796875 0.484375L8.203125 0.484375
-L8.203125 30.093750L27.046875 0.484375L32.296875 0.484375z"/>
-<path id="Nimbus_Sans_L_Regular-79" d="M19.453125 37.500000
-C9.000000 37.500000 1.906250 29.750000 1.906250 18.265625
-C1.906250 6.765625 9.000000 -1.000000 19.500000 -1.000000
-C23.906250 -1.000000 27.843750 0.375000 30.796875 2.890625
-C34.750000 6.265625 37.093750 11.953125 37.093750 17.953125
-C37.093750 29.796875 30.156250 37.500000 19.453125 37.500000
-M19.453125 33.390625
-C27.343750 33.390625 32.453125 27.343750 32.453125 18.046875
-C32.453125 9.171875 27.203125 3.109375 19.500000 3.109375
-C11.750000 3.109375 6.546875 9.171875 6.546875 18.265625
-C6.546875 27.343750 11.750000 33.390625 19.453125 33.390625"/>
-<path id="Nimbus_Sans_L_Regular-47" d="M11.453125 37.000000L-0.406250 -0.500000L2.343750 -0.500000
-L14.203125 37.000000z"/>
-<path id="CMR17-50" d="M20.843750 7.609375L19.953125 7.609375
-C19.453125 4.156250 19.046875 3.562500 18.843750 3.265625
-C18.593750 2.890625 15.000000 2.890625 14.296875 2.890625L4.703125 2.890625
-C6.500000 4.843750 10.000000 8.390625 14.250000 12.500000
-C17.296875 15.390625 20.843750 18.796875 20.843750 23.750000
-C20.843750 29.656250 16.156250 33.046875 10.906250 33.046875
-C5.406250 33.046875 2.046875 27.984375 2.046875 23.296875
-C2.046875 21.265625 3.500000 21.000000 4.093750 21.000000
-C4.593750 21.000000 6.093750 21.296875 6.093750 23.046875
-C6.093750 24.593750 4.796875 25.031250 4.093750 25.031250
-C3.796875 25.031250 3.500000 24.984375 3.296875 24.875000
-C4.250000 29.500000 7.156250 31.765625 10.203125 31.765625
-C14.546875 31.765625 17.406250 28.328125 17.406250 23.765625
-C17.406250 19.406250 14.843750 15.656250 12.000000 12.406250
-L2.046875 1.140625L2.046875 0.000000L19.656250 0.000000z"/>
-<path id="CMR17-51" d="M11.046875 17.828125
-C15.500000 17.828125 17.453125 13.968750 17.453125 9.500000
-C17.453125 3.500000 14.250000 1.187500 11.343750 1.187500
-C8.703125 1.187500 4.406250 2.421875 3.046875 6.093750
-C3.296875 6.000000 3.546875 6.000000 3.796875 6.000000
-C5.000000 6.000000 5.906250 6.796875 5.906250 8.093750
-C5.906250 9.546875 4.796875 10.187500 3.796875 10.187500
-C2.953125 10.187500 1.656250 9.796875 1.656250 8.000000
-C1.656250 3.500000 6.156250 0.000000 11.453125 0.000000
-C17.000000 0.000000 21.250000 4.359375 21.250000 9.468750
-C21.250000 14.312500 17.250000 17.828125 12.500000 18.375000
-C16.296875 19.187500 19.953125 22.609375 19.953125 27.187500
-C19.953125 31.109375 16.000000 33.968750 11.500000 33.968750
-C6.953125 33.968750 2.953125 31.140625 2.953125 27.078125
-C2.953125 25.296875 4.250000 25.000000 4.906250 25.000000
-C5.953125 25.000000 6.843750 25.656250 6.843750 26.937500
-C6.843750 28.234375 5.953125 28.890625 4.906250 28.890625
-C4.703125 28.890625 4.453125 28.890625 4.250000 28.796875
-C5.703125 32.218750 9.656250 32.843750 11.406250 32.843750
-C13.156250 32.843750 16.453125 31.984375 16.453125 27.125000
-C16.453125 25.718750 16.250000 23.171875 14.546875 20.953125
-C13.046875 18.984375 11.343750 18.984375 9.703125 18.781250
-C9.453125 18.781250 8.296875 18.781250 8.093750 18.781250
-C7.750000 18.718750 7.546875 18.656250 7.546875 18.281250
-C7.546875 17.890625 7.593750 17.828125 8.593750 17.828125z"/>
-<path id="CMR17-52" d="M16.796875 32.890625
-C16.796875 33.953125 16.750000 34.000000 15.843750 34.000000
-L1.000000 10.046875L1.000000 8.765625L13.906250 8.765625L13.906250 3.640625
-C13.906250 1.781250 13.796875 1.250000 10.296875 1.250000L9.343750 1.250000
-L9.343750 0.000000C10.953125 0.000000 13.656250 0.000000 15.343750 0.000000
-C17.046875 0.000000 19.750000 0.000000 21.343750 0.000000
-L21.343750 1.250000L20.406250 1.250000
-C16.906250 1.250000 16.796875 1.781250 16.796875 3.640625
-L16.796875 8.765625L21.906250 8.765625L21.906250 10.046875
-L16.796875 10.046875zM14.046875 29.546875L14.046875 10.046875
-L2.000000 10.046875z"/>
-<path id="CMR17-53" d="M5.703125 29.843750
-C6.203125 29.640625 8.250000 29.000000 10.343750 29.000000
-C15.000000 29.000000 17.546875 31.500000 19.000000 32.953125
-C19.000000 33.359375 19.000000 33.625000 18.703125 33.625000
-C18.656250 33.625000 18.546875 33.625000 18.156250 33.421875
-C16.406250 32.640625 14.343750 32.031250 11.843750 32.031250
-C10.343750 32.031250 8.093750 32.234375 5.656250 33.375000
-C5.093750 33.625000 5.000000 33.625000 4.953125 33.625000
-C4.703125 33.625000 4.656250 33.578125 4.656250 32.578125
-L4.656250 18.140625
-C4.656250 17.250000 4.656250 17.000000 5.156250 17.000000
-C5.406250 17.000000 5.500000 17.109375 5.750000 17.500000
-C7.343750 20.046875 9.546875 21.109375 12.046875 21.109375
-C13.796875 21.109375 17.546875 19.984375 17.546875 11.281250
-C17.546875 9.640625 17.546875 6.703125 16.046875 4.359375
-C14.796875 2.265625 12.843750 1.187500 10.703125 1.187500
-C7.406250 1.187500 4.046875 3.515625 3.156250 7.375000
-C3.343750 7.328125 3.750000 7.218750 3.953125 7.218750
-C4.593750 7.218750 5.843750 7.562500 5.843750 9.109375
-C5.843750 10.453125 4.906250 11.000000 3.953125 11.000000
-C2.796875 11.000000 2.046875 10.296875 2.046875 8.890625
-C2.046875 4.546875 5.500000 0.000000 10.796875 0.000000
-C15.953125 0.000000 20.843750 4.531250 20.843750 11.078125
-C20.843750 17.171875 16.953125 21.890625 12.093750 21.890625
-C9.546875 21.890625 7.406250 20.875000 5.703125 18.906250z"/>
-<path id="Nimbus_Sans_L_Regular-109" d="M3.500000 26.000000L3.500000 -0.250000L7.703125 -0.250000
-L7.703125 16.062500
-C7.703125 19.812500 10.453125 22.843750 13.843750 22.843750
-C16.953125 22.843750 18.703125 20.953125 18.703125 17.640625
-L18.703125 -0.250000L22.906250 -0.250000L22.906250 16.062500
-C22.906250 19.812500 25.656250 22.843750 29.046875 22.843750
-C32.093750 22.843750 33.906250 20.906250 33.906250 17.640625
-L33.906250 -0.250000L38.093750 -0.250000L38.093750 19.250000
-C38.093750 23.921875 35.406250 26.500000 30.500000 26.500000
-C27.000000 26.500000 24.906250 25.437500 22.453125 22.500000
-C20.906250 25.296875 18.796875 26.500000 15.406250 26.500000
-C11.906250 26.500000 9.593750 25.187500 7.343750 22.046875
-L7.343750 26.000000z"/>
-<path id="Nimbus_Sans_L_Regular-105" d="M7.500000 26.000000L3.343750 26.000000L3.343750 -0.250000
-L7.500000 -0.250000zM7.500000 37.000000L3.296875 37.000000
-L3.296875 31.734375L7.500000 31.734375z"/>
-<path id="Nimbus_Sans_L_Regular-86" d="M19.593750 0.500000L32.250000 37.000000L27.296875 37.000000
-L17.203125 6.109375L6.500000 37.000000L1.500000 37.000000
-L14.593750 0.500000z"/>
-<path id="Nimbus_Sans_L_Regular-84" d="M17.703125 32.890625L29.656250 32.890625L29.656250 37.000000
-L1.046875 37.000000L1.046875 32.890625L13.046875 32.890625
-L13.046875 0.390625L17.703125 0.390625z"/>
-<path id="Nimbus_Sans_L_Regular-101" d="M25.656250 11.000000
-C25.656250 15.078125 25.343750 17.500000 24.593750 19.484375
-C22.906250 23.859375 18.906250 26.500000 14.000000 26.500000
-C6.703125 26.500000 2.000000 20.843750 2.000000 12.156250
-C2.000000 3.484375 6.546875 -1.859375 13.906250 -1.859375
-C19.906250 -1.859375 24.046875 1.546875 25.093750 7.250000
-L20.906250 7.250000
-C19.750000 3.812500 17.406250 2.000000 14.046875 2.000000
-C11.406250 2.000000 9.156250 3.203125 7.750000 5.406250
-C6.750000 6.890625 6.406250 8.390625 6.343750 11.000000zM6.453125 14.406250
-C6.796875 19.390625 9.750000 22.640625 13.953125 22.640625
-C18.046875 22.640625 21.203125 19.140625 21.203125 14.718750
-C21.203125 14.609375 21.203125 14.500000 21.156250 14.406250z"/>
-<path id="CMMI12-22" d="M7.203125 1.578125C8.453125 0.453125 10.296875 0.000000 12.000000 0.000000
-C15.203125 0.000000 17.406250 2.109375 18.546875 3.625000
-C19.046875 1.031250 21.156250 0.000000 22.906250 0.000000
-C24.406250 0.000000 25.593750 0.890625 26.500000 2.640625
-C27.296875 4.296875 28.000000 7.281250 28.000000 7.484375
-C28.000000 7.718750 27.796875 7.906250 27.500000 7.906250
-C27.046875 7.906250 27.000000 7.656250 26.796875 6.953125
-C26.046875 4.062500 25.093750 1.000000 23.046875 1.000000
-C21.593750 1.000000 21.500000 2.265625 21.500000 3.250000
-C21.500000 4.359375 21.953125 6.109375 22.296875 7.578125
-C22.750000 9.328125 23.250000 11.093750 23.703125 12.843750
-C23.906250 13.781250 24.453125 15.953125 24.703125 16.843750
-C25.000000 18.000000 25.546875 20.109375 25.546875 20.296875
-C25.546875 21.031250 24.953125 21.515625 24.203125 21.515625
-C23.750000 21.515625 22.703125 21.312500 22.296875 19.859375
-L18.796875 6.312500
-C18.546875 5.328125 18.546875 5.250000 17.906250 4.468750
-C17.296875 3.625000 15.343750 1.000000 12.203125 1.000000
-C9.406250 1.000000 8.500000 3.000000 8.500000 5.281250
-C8.500000 6.703125 8.953125 8.406250 9.156250 9.234375L11.406250 18.000000
-C11.656250 18.937500 12.046875 20.484375 12.046875 20.781250
-C12.046875 21.562500 11.406250 22.000000 10.750000 22.000000
-C10.296875 22.000000 9.203125 21.859375 8.796875 20.296875
-L1.546875 -7.937500
-C1.500000 -8.187500 1.406250 -8.484375 1.406250 -8.781250
-C1.406250 -9.515625 2.000000 -10.000000 2.750000 -10.000000
-C4.203125 -10.000000 4.500000 -8.875000 4.843750 -7.500000
-C5.406250 -5.453125 5.093750 -6.421875 7.203125 1.578125"/>
-<path id="CMSY10-1" d="M9.593750 12.656250
-C9.593750 14.109375 8.406250 15.312500 6.953125 15.312500
-C5.500000 15.312500 4.296875 14.109375 4.296875 12.656250
-C4.296875 11.203125 5.500000 10.000000 6.953125 10.000000
-C8.406250 10.000000 9.593750 11.203125 9.593750 12.656250"/>
-<path id="Nimbus_Sans_L_Regular-110" d="M3.500000 26.000000L3.500000 -0.250000L7.703125 -0.250000
-L7.703125 14.062500
-C7.703125 19.359375 10.500000 22.843750 14.796875 22.843750
-C18.093750 22.843750 20.203125 20.859375 20.203125 17.750000
-L20.203125 -0.250000L24.343750 -0.250000L24.343750 19.390625
-C24.343750 23.718750 21.093750 26.500000 16.046875 26.500000
-C12.156250 26.500000 9.656250 25.000000 7.343750 21.359375
-L7.343750 26.000000z"/>
-<path id="CMR17-48" d="M21.000000 16.875000
-C21.000000 19.921875 20.953125 25.140625 18.843750 29.140625
-C17.000000 32.656250 14.046875 33.890625 11.453125 33.890625
-C9.046875 33.890625 6.000000 32.796875 4.093750 29.187500
-C2.093750 25.437500 1.906250 20.765625 1.906250 16.875000
-C1.906250 14.015625 1.953125 9.656250 3.500000 5.859375
-C5.656250 0.703125 9.500000 0.000000 11.453125 0.000000
-C13.750000 0.000000 17.250000 0.953125 19.296875 5.703125
-C20.796875 9.156250 21.000000 13.218750 21.000000 16.875000
-M11.453125 0.796875C8.250000 0.796875 6.343750 3.546875 5.656250 7.359375
-C5.093750 10.312500 5.093750 14.625000 5.093750 17.437500
-C5.093750 21.281250 5.093750 24.500000 5.750000 27.562500
-C6.703125 31.796875 9.500000 33.109375 11.453125 33.109375
-C13.500000 33.109375 16.156250 31.750000 17.093750 27.656250
-C17.750000 24.796875 17.796875 21.437500 17.796875 17.437500
-C17.796875 14.171875 17.796875 10.171875 17.203125 7.218750
-C16.156250 1.750000 13.203125 0.796875 11.453125 0.796875"/>
-<path id="Nimbus_Sans_L_Regular-50" d="M25.296875 4.359375L6.656250 4.359375
-C7.093750 7.296875 8.703125 9.156250 13.046875 11.750000
-L18.046875 14.484375
-C23.000000 17.218750 25.546875 20.921875 25.546875 25.328125
-C25.546875 28.312500 24.343750 31.093750 22.250000 33.015625
-C20.156250 34.937500 17.546875 35.859375 14.203125 35.859375
-C9.703125 35.859375 6.343750 34.234375 4.406250 31.203125
-C3.156250 29.281250 2.593750 27.062500 2.500000 23.421875
-L6.906250 23.421875
-C7.046875 25.859375 7.343750 27.328125 7.953125 28.500000
-C9.093750 30.687500 11.406250 32.000000 14.046875 32.000000
-C18.046875 32.000000 21.046875 29.109375 21.046875 25.265625
-C21.046875 22.421875 19.406250 20.000000 16.250000 18.171875
-L11.656250 15.546875C4.250000 11.296875 2.093750 7.890625 1.703125 0.000000
-L25.296875 0.000000z"/>
-<path id="Nimbus_Sans_L_Regular-51" d="M11.046875 16.250000L11.593750 16.250000L13.453125 16.250000
-C18.296875 16.250000 20.796875 14.078125 20.796875 9.890625
-C20.796875 5.515625 18.046875 2.906250 13.453125 2.906250
-C8.656250 2.906250 6.296875 5.281250 6.000000 10.359375L1.593750 10.359375
-C1.796875 7.546875 2.296875 5.703125 3.156250 4.109375
-C4.953125 0.734375 8.453125 -1.000000 13.296875 -1.000000
-C20.593750 -1.000000 25.296875 3.312500 25.296875 9.968750
-C25.296875 14.421875 23.546875 16.906250 19.296875 18.343750
-C22.593750 19.687500 24.250000 22.234375 24.250000 25.875000
-C24.250000 32.125000 20.203125 35.859375 13.453125 35.859375
-C6.296875 35.859375 2.500000 31.875000 2.343750 24.140625
-L6.750000 24.140625
-C6.796875 26.375000 7.000000 27.593750 7.546875 28.734375
-C8.546875 30.750000 10.750000 32.000000 13.500000 32.000000
-C17.406250 32.000000 19.750000 29.609375 19.750000 25.718750
-C19.750000 23.125000 18.843750 21.578125 16.906250 20.734375
-C15.703125 20.203125 14.156250 20.000000 11.046875 20.000000z"/>
-<path id="Nimbus_Sans_L_Regular-82" d="M9.296875 16.000000L21.296875 16.000000
-C25.453125 16.000000 27.296875 14.000000 27.296875 9.531250
-L27.250000 6.296875
-C27.250000 4.062500 27.656250 1.875000 28.296875 0.390625
-L33.953125 0.390625L33.953125 1.531250
-C32.203125 2.734375 31.843750 4.015625 31.750000 8.843750
-C31.703125 14.812500 30.750000 16.609375 26.796875 18.296875
-C30.906250 20.328125 32.546875 22.906250 32.546875 27.125000
-C32.546875 33.500000 28.593750 37.000000 21.453125 37.000000
-L4.656250 37.000000L4.656250 0.390625L9.296875 0.390625zM9.296875 20.093750
-L9.296875 32.890625L20.546875 32.890625
-C23.156250 32.890625 24.656250 32.484375 25.796875 31.453125
-C27.046875 30.390625 27.703125 28.703125 27.703125 26.468750
-C27.703125 22.078125 25.500000 20.093750 20.546875 20.093750z"/>
-<path id="Nimbus_Sans_L_Regular-112" d="M2.703125 -11.000000L6.906250 -11.000000L6.906250 2.906250
-C9.093750 0.203125 11.546875 -1.000000 14.953125 -1.000000
-C21.703125 -1.000000 26.156250 4.343750 26.156250 12.500000
-C26.156250 21.109375 21.843750 26.500000 14.906250 26.500000
-C11.343750 26.500000 8.500000 24.906250 6.546875 21.812500
-L6.546875 26.000000L2.703125 26.000000zM14.203125 22.593750
-C18.796875 22.593750 21.796875 18.656250 21.796875 12.593750
-C21.796875 6.843750 18.750000 2.906250 14.203125 2.906250
-C9.796875 2.906250 6.906250 6.796875 6.906250 12.750000
-C6.906250 18.703125 9.796875 22.593750 14.203125 22.593750"/>
-<path id="CMR17-49" d="M13.296875 31.906250
-C13.296875 32.953125 13.250000 33.000000 12.546875 33.000000
-C10.593750 30.781250 7.656250 30.093750 4.843750 30.093750
-C4.703125 30.093750 4.453125 30.093750 4.406250 29.953125
-C4.343750 29.859375 4.343750 29.750000 4.343750 28.718750
-C5.906250 28.718750 8.500000 29.015625 10.500000 30.187500
-L10.500000 3.625000C10.500000 1.843750 10.406250 1.250000 6.093750 1.250000
-L4.593750 1.250000L4.593750 0.000000
-C7.000000 0.000000 9.500000 0.000000 11.906250 0.000000
-C14.296875 0.000000 16.796875 0.000000 19.203125 0.000000
-L19.203125 1.250000L17.703125 1.250000
-C13.406250 1.250000 13.296875 1.796875 13.296875 3.609375z"/>
-<path id="Nimbus_Sans_L_Regular-111" d="M13.593750 26.500000
-C6.250000 26.500000 1.796875 21.203125 1.796875 12.312500
-C1.796875 3.437500 6.203125 -1.859375 13.656250 -1.859375
-C21.000000 -1.859375 25.500000 3.437500 25.500000 12.109375
-C25.500000 21.250000 21.156250 26.500000 13.593750 26.500000
-M13.656250 22.640625
-C18.343750 22.640625 21.156250 18.750000 21.156250 12.156250
-C21.156250 5.937500 18.250000 2.000000 13.656250 2.000000
-C9.000000 2.000000 6.156250 5.890625 6.156250 12.328125
-C6.156250 18.703125 9.000000 22.640625 13.656250 22.640625"/>
-<path id="Nimbus_Sans_L_Regular-116" d="M12.703125 26.000000L8.406250 26.000000L8.406250 33.093750
-L4.250000 33.093750L4.250000 26.000000L0.703125 26.000000
-L0.703125 22.593750L4.250000 22.593750L4.250000 2.546875
-C4.250000 -0.140625 6.046875 -1.656250 9.296875 -1.656250
-C10.296875 -1.656250 11.296875 -1.546875 12.703125 -1.312500
-L12.703125 2.203125
-C12.156250 2.046875 11.500000 2.000000 10.703125 2.000000
-C8.906250 2.000000 8.406250 2.500000 8.406250 4.390625L8.406250 22.593750
-L12.703125 22.593750z"/>
-<path id="Nimbus_Sans_L_Regular-117" d="M24.093750 -0.250000L24.093750 26.000000L19.953125 26.000000
-L19.953125 10.968750
-C19.953125 5.546875 17.156250 2.000000 12.796875 2.000000
-C9.500000 2.000000 7.406250 4.031250 7.406250 7.203125L7.406250 26.000000
-L3.250000 26.000000L3.250000 5.578125
-C3.250000 1.187500 6.500000 -1.656250 11.593750 -1.656250
-C15.453125 -1.656250 17.906250 -0.296875 20.343750 3.171875
-L20.343750 -0.250000z"/>
-<path id="Nimbus_Sans_L_Regular-115" d="M21.906250 18.390625
-C21.843750 23.578125 18.453125 26.500000 12.406250 26.500000
-C6.296875 26.500000 2.343750 23.312500 2.343750 18.421875
-C2.343750 14.281250 4.453125 12.296875 10.656250 10.796875
-L14.546875 9.828125
-C17.453125 9.125000 18.593750 8.062500 18.593750 6.140625
-C18.593750 3.671875 16.156250 2.000000 12.500000 2.000000
-C10.250000 2.000000 8.343750 2.656250 7.296875 3.765625
-C6.656250 4.515625 6.343750 5.281250 6.093750 7.156250L1.703125 7.156250
-C1.906250 1.062500 5.296875 -1.859375 12.156250 -1.859375
-C18.750000 -1.859375 22.953125 1.437500 22.953125 6.515625
-C22.953125 10.468750 20.750000 12.640625 15.546875 13.890625
-L11.546875 14.859375
-C8.156250 15.671875 6.703125 16.781250 6.703125 18.656250
-C6.703125 21.078125 8.843750 22.640625 12.250000 22.640625
-C15.593750 22.640625 17.406250 21.171875 17.500000 18.390625z"/>
-</defs>
-<g style="fill: #000000; opacity: 1.000000" transform="translate(295.834646,119.471743)scale(0.240000,-0.240000)">
-<use xlink:href="#CMR17-49" x="0.000000" y="0.000000" transform="scale(0.996264)"/>
-<use xlink:href="#CMR17-48" x="22.930908" y="0.000000" transform="scale(0.996264)"/>
-<use xlink:href="#CMR17-48" x="45.861816" y="0.000000" transform="scale(0.996264)"/>
-</g><!-- style -->
-</g>
-</g>
-<g id="ytick13">
-<g id="line2d49">
-<g ><use style="fill: none; stroke: #000000; stroke-width: 2.000000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#mb5f680a2952446ef8148975d730bbae7" x="290.834646" y="84.086929"/>
-</g></g>
-<g id="text36">
-<defs>
-<path id="Nimbus_Sans_L_Regular-72" d="M27.546875 17.000000L27.546875 0.484375L32.203125 0.484375
-L32.203125 37.000000L27.546875 37.000000L27.546875 21.109375
-L8.796875 21.109375L8.796875 37.000000L4.156250 37.000000L4.156250 0.484375
-L8.843750 0.484375L8.843750 17.000000z"/>
-<path id="Nimbus_Sans_L_Regular-78" d="M32.296875 37.000000L27.906250 37.000000L27.906250 7.140625
-L8.843750 37.000000L3.796875 37.000000L3.796875 0.484375L8.203125 0.484375
-L8.203125 30.093750L27.046875 0.484375L32.296875 0.484375z"/>
-<path id="Nimbus_Sans_L_Regular-79" d="M19.453125 37.500000
-C9.000000 37.500000 1.906250 29.750000 1.906250 18.265625
-C1.906250 6.765625 9.000000 -1.000000 19.500000 -1.000000
-C23.906250 -1.000000 27.843750 0.375000 30.796875 2.890625
-C34.750000 6.265625 37.093750 11.953125 37.093750 17.953125
-C37.093750 29.796875 30.156250 37.500000 19.453125 37.500000
-M19.453125 33.390625
-C27.343750 33.390625 32.453125 27.343750 32.453125 18.046875
-C32.453125 9.171875 27.203125 3.109375 19.500000 3.109375
-C11.750000 3.109375 6.546875 9.171875 6.546875 18.265625
-C6.546875 27.343750 11.750000 33.390625 19.453125 33.390625"/>
-<path id="Nimbus_Sans_L_Regular-47" d="M11.453125 37.000000L-0.406250 -0.500000L2.343750 -0.500000
-L14.203125 37.000000z"/>
-<path id="CMR17-50" d="M20.843750 7.609375L19.953125 7.609375
-C19.453125 4.156250 19.046875 3.562500 18.843750 3.265625
-C18.593750 2.890625 15.000000 2.890625 14.296875 2.890625L4.703125 2.890625
-C6.500000 4.843750 10.000000 8.390625 14.250000 12.500000
-C17.296875 15.390625 20.843750 18.796875 20.843750 23.750000
-C20.843750 29.656250 16.156250 33.046875 10.906250 33.046875
-C5.406250 33.046875 2.046875 27.984375 2.046875 23.296875
-C2.046875 21.265625 3.500000 21.000000 4.093750 21.000000
-C4.593750 21.000000 6.093750 21.296875 6.093750 23.046875
-C6.093750 24.593750 4.796875 25.031250 4.093750 25.031250
-C3.796875 25.031250 3.500000 24.984375 3.296875 24.875000
-C4.250000 29.500000 7.156250 31.765625 10.203125 31.765625
-C14.546875 31.765625 17.406250 28.328125 17.406250 23.765625
-C17.406250 19.406250 14.843750 15.656250 12.000000 12.406250
-L2.046875 1.140625L2.046875 0.000000L19.656250 0.000000z"/>
-<path id="CMR17-51" d="M11.046875 17.828125
-C15.500000 17.828125 17.453125 13.968750 17.453125 9.500000
-C17.453125 3.500000 14.250000 1.187500 11.343750 1.187500
-C8.703125 1.187500 4.406250 2.421875 3.046875 6.093750
-C3.296875 6.000000 3.546875 6.000000 3.796875 6.000000
-C5.000000 6.000000 5.906250 6.796875 5.906250 8.093750
-C5.906250 9.546875 4.796875 10.187500 3.796875 10.187500
-C2.953125 10.187500 1.656250 9.796875 1.656250 8.000000
-C1.656250 3.500000 6.156250 0.000000 11.453125 0.000000
-C17.000000 0.000000 21.250000 4.359375 21.250000 9.468750
-C21.250000 14.312500 17.250000 17.828125 12.500000 18.375000
-C16.296875 19.187500 19.953125 22.609375 19.953125 27.187500
-C19.953125 31.109375 16.000000 33.968750 11.500000 33.968750
-C6.953125 33.968750 2.953125 31.140625 2.953125 27.078125
-C2.953125 25.296875 4.250000 25.000000 4.906250 25.000000
-C5.953125 25.000000 6.843750 25.656250 6.843750 26.937500
-C6.843750 28.234375 5.953125 28.890625 4.906250 28.890625
-C4.703125 28.890625 4.453125 28.890625 4.250000 28.796875
-C5.703125 32.218750 9.656250 32.843750 11.406250 32.843750
-C13.156250 32.843750 16.453125 31.984375 16.453125 27.125000
-C16.453125 25.718750 16.250000 23.171875 14.546875 20.953125
-C13.046875 18.984375 11.343750 18.984375 9.703125 18.781250
-C9.453125 18.781250 8.296875 18.781250 8.093750 18.781250
-C7.750000 18.718750 7.546875 18.656250 7.546875 18.281250
-C7.546875 17.890625 7.593750 17.828125 8.593750 17.828125z"/>
-<path id="CMR17-52" d="M16.796875 32.890625
-C16.796875 33.953125 16.750000 34.000000 15.843750 34.000000
-L1.000000 10.046875L1.000000 8.765625L13.906250 8.765625L13.906250 3.640625
-C13.906250 1.781250 13.796875 1.250000 10.296875 1.250000L9.343750 1.250000
-L9.343750 0.000000C10.953125 0.000000 13.656250 0.000000 15.343750 0.000000
-C17.046875 0.000000 19.750000 0.000000 21.343750 0.000000
-L21.343750 1.250000L20.406250 1.250000
-C16.906250 1.250000 16.796875 1.781250 16.796875 3.640625
-L16.796875 8.765625L21.906250 8.765625L21.906250 10.046875
-L16.796875 10.046875zM14.046875 29.546875L14.046875 10.046875
-L2.000000 10.046875z"/>
-<path id="CMR17-53" d="M5.703125 29.843750
-C6.203125 29.640625 8.250000 29.000000 10.343750 29.000000
-C15.000000 29.000000 17.546875 31.500000 19.000000 32.953125
-C19.000000 33.359375 19.000000 33.625000 18.703125 33.625000
-C18.656250 33.625000 18.546875 33.625000 18.156250 33.421875
-C16.406250 32.640625 14.343750 32.031250 11.843750 32.031250
-C10.343750 32.031250 8.093750 32.234375 5.656250 33.375000
-C5.093750 33.625000 5.000000 33.625000 4.953125 33.625000
-C4.703125 33.625000 4.656250 33.578125 4.656250 32.578125
-L4.656250 18.140625
-C4.656250 17.250000 4.656250 17.000000 5.156250 17.000000
-C5.406250 17.000000 5.500000 17.109375 5.750000 17.500000
-C7.343750 20.046875 9.546875 21.109375 12.046875 21.109375
-C13.796875 21.109375 17.546875 19.984375 17.546875 11.281250
-C17.546875 9.640625 17.546875 6.703125 16.046875 4.359375
-C14.796875 2.265625 12.843750 1.187500 10.703125 1.187500
-C7.406250 1.187500 4.046875 3.515625 3.156250 7.375000
-C3.343750 7.328125 3.750000 7.218750 3.953125 7.218750
-C4.593750 7.218750 5.843750 7.562500 5.843750 9.109375
-C5.843750 10.453125 4.906250 11.000000 3.953125 11.000000
-C2.796875 11.000000 2.046875 10.296875 2.046875 8.890625
-C2.046875 4.546875 5.500000 0.000000 10.796875 0.000000
-C15.953125 0.000000 20.843750 4.531250 20.843750 11.078125
-C20.843750 17.171875 16.953125 21.890625 12.093750 21.890625
-C9.546875 21.890625 7.406250 20.875000 5.703125 18.906250z"/>
-<path id="Nimbus_Sans_L_Regular-109" d="M3.500000 26.000000L3.500000 -0.250000L7.703125 -0.250000
-L7.703125 16.062500
-C7.703125 19.812500 10.453125 22.843750 13.843750 22.843750
-C16.953125 22.843750 18.703125 20.953125 18.703125 17.640625
-L18.703125 -0.250000L22.906250 -0.250000L22.906250 16.062500
-C22.906250 19.812500 25.656250 22.843750 29.046875 22.843750
-C32.093750 22.843750 33.906250 20.906250 33.906250 17.640625
-L33.906250 -0.250000L38.093750 -0.250000L38.093750 19.250000
-C38.093750 23.921875 35.406250 26.500000 30.500000 26.500000
-C27.000000 26.500000 24.906250 25.437500 22.453125 22.500000
-C20.906250 25.296875 18.796875 26.500000 15.406250 26.500000
-C11.906250 26.500000 9.593750 25.187500 7.343750 22.046875
-L7.343750 26.000000z"/>
-<path id="Nimbus_Sans_L_Regular-105" d="M7.500000 26.000000L3.343750 26.000000L3.343750 -0.250000
-L7.500000 -0.250000zM7.500000 37.000000L3.296875 37.000000
-L3.296875 31.734375L7.500000 31.734375z"/>
-<path id="Nimbus_Sans_L_Regular-86" d="M19.593750 0.500000L32.250000 37.000000L27.296875 37.000000
-L17.203125 6.109375L6.500000 37.000000L1.500000 37.000000
-L14.593750 0.500000z"/>
-<path id="Nimbus_Sans_L_Regular-84" d="M17.703125 32.890625L29.656250 32.890625L29.656250 37.000000
-L1.046875 37.000000L1.046875 32.890625L13.046875 32.890625
-L13.046875 0.390625L17.703125 0.390625z"/>
-<path id="Nimbus_Sans_L_Regular-101" d="M25.656250 11.000000
-C25.656250 15.078125 25.343750 17.500000 24.593750 19.484375
-C22.906250 23.859375 18.906250 26.500000 14.000000 26.500000
-C6.703125 26.500000 2.000000 20.843750 2.000000 12.156250
-C2.000000 3.484375 6.546875 -1.859375 13.906250 -1.859375
-C19.906250 -1.859375 24.046875 1.546875 25.093750 7.250000
-L20.906250 7.250000
-C19.750000 3.812500 17.406250 2.000000 14.046875 2.000000
-C11.406250 2.000000 9.156250 3.203125 7.750000 5.406250
-C6.750000 6.890625 6.406250 8.390625 6.343750 11.000000zM6.453125 14.406250
-C6.796875 19.390625 9.750000 22.640625 13.953125 22.640625
-C18.046875 22.640625 21.203125 19.140625 21.203125 14.718750
-C21.203125 14.609375 21.203125 14.500000 21.156250 14.406250z"/>
-<path id="CMMI12-22" d="M7.203125 1.578125C8.453125 0.453125 10.296875 0.000000 12.000000 0.000000
-C15.203125 0.000000 17.406250 2.109375 18.546875 3.625000
-C19.046875 1.031250 21.156250 0.000000 22.906250 0.000000
-C24.406250 0.000000 25.593750 0.890625 26.500000 2.640625
-C27.296875 4.296875 28.000000 7.281250 28.000000 7.484375
-C28.000000 7.718750 27.796875 7.906250 27.500000 7.906250
-C27.046875 7.906250 27.000000 7.656250 26.796875 6.953125
-C26.046875 4.062500 25.093750 1.000000 23.046875 1.000000
-C21.593750 1.000000 21.500000 2.265625 21.500000 3.250000
-C21.500000 4.359375 21.953125 6.109375 22.296875 7.578125
-C22.750000 9.328125 23.250000 11.093750 23.703125 12.843750
-C23.906250 13.781250 24.453125 15.953125 24.703125 16.843750
-C25.000000 18.000000 25.546875 20.109375 25.546875 20.296875
-C25.546875 21.031250 24.953125 21.515625 24.203125 21.515625
-C23.750000 21.515625 22.703125 21.312500 22.296875 19.859375
-L18.796875 6.312500
-C18.546875 5.328125 18.546875 5.250000 17.906250 4.468750
-C17.296875 3.625000 15.343750 1.000000 12.203125 1.000000
-C9.406250 1.000000 8.500000 3.000000 8.500000 5.281250
-C8.500000 6.703125 8.953125 8.406250 9.156250 9.234375L11.406250 18.000000
-C11.656250 18.937500 12.046875 20.484375 12.046875 20.781250
-C12.046875 21.562500 11.406250 22.000000 10.750000 22.000000
-C10.296875 22.000000 9.203125 21.859375 8.796875 20.296875
-L1.546875 -7.937500
-C1.500000 -8.187500 1.406250 -8.484375 1.406250 -8.781250
-C1.406250 -9.515625 2.000000 -10.000000 2.750000 -10.000000
-C4.203125 -10.000000 4.500000 -8.875000 4.843750 -7.500000
-C5.406250 -5.453125 5.093750 -6.421875 7.203125 1.578125"/>
-<path id="CMSY10-1" d="M9.593750 12.656250
-C9.593750 14.109375 8.406250 15.312500 6.953125 15.312500
-C5.500000 15.312500 4.296875 14.109375 4.296875 12.656250
-C4.296875 11.203125 5.500000 10.000000 6.953125 10.000000
-C8.406250 10.000000 9.593750 11.203125 9.593750 12.656250"/>
-<path id="Nimbus_Sans_L_Regular-110" d="M3.500000 26.000000L3.500000 -0.250000L7.703125 -0.250000
-L7.703125 14.062500
-C7.703125 19.359375 10.500000 22.843750 14.796875 22.843750
-C18.093750 22.843750 20.203125 20.859375 20.203125 17.750000
-L20.203125 -0.250000L24.343750 -0.250000L24.343750 19.390625
-C24.343750 23.718750 21.093750 26.500000 16.046875 26.500000
-C12.156250 26.500000 9.656250 25.000000 7.343750 21.359375
-L7.343750 26.000000z"/>
-<path id="CMR17-48" d="M21.000000 16.875000
-C21.000000 19.921875 20.953125 25.140625 18.843750 29.140625
-C17.000000 32.656250 14.046875 33.890625 11.453125 33.890625
-C9.046875 33.890625 6.000000 32.796875 4.093750 29.187500
-C2.093750 25.437500 1.906250 20.765625 1.906250 16.875000
-C1.906250 14.015625 1.953125 9.656250 3.500000 5.859375
-C5.656250 0.703125 9.500000 0.000000 11.453125 0.000000
-C13.750000 0.000000 17.250000 0.953125 19.296875 5.703125
-C20.796875 9.156250 21.000000 13.218750 21.000000 16.875000
-M11.453125 0.796875C8.250000 0.796875 6.343750 3.546875 5.656250 7.359375
-C5.093750 10.312500 5.093750 14.625000 5.093750 17.437500
-C5.093750 21.281250 5.093750 24.500000 5.750000 27.562500
-C6.703125 31.796875 9.500000 33.109375 11.453125 33.109375
-C13.500000 33.109375 16.156250 31.750000 17.093750 27.656250
-C17.750000 24.796875 17.796875 21.437500 17.796875 17.437500
-C17.796875 14.171875 17.796875 10.171875 17.203125 7.218750
-C16.156250 1.750000 13.203125 0.796875 11.453125 0.796875"/>
-<path id="Nimbus_Sans_L_Regular-50" d="M25.296875 4.359375L6.656250 4.359375
-C7.093750 7.296875 8.703125 9.156250 13.046875 11.750000
-L18.046875 14.484375
-C23.000000 17.218750 25.546875 20.921875 25.546875 25.328125
-C25.546875 28.312500 24.343750 31.093750 22.250000 33.015625
-C20.156250 34.937500 17.546875 35.859375 14.203125 35.859375
-C9.703125 35.859375 6.343750 34.234375 4.406250 31.203125
-C3.156250 29.281250 2.593750 27.062500 2.500000 23.421875
-L6.906250 23.421875
-C7.046875 25.859375 7.343750 27.328125 7.953125 28.500000
-C9.093750 30.687500 11.406250 32.000000 14.046875 32.000000
-C18.046875 32.000000 21.046875 29.109375 21.046875 25.265625
-C21.046875 22.421875 19.406250 20.000000 16.250000 18.171875
-L11.656250 15.546875C4.250000 11.296875 2.093750 7.890625 1.703125 0.000000
-L25.296875 0.000000z"/>
-<path id="Nimbus_Sans_L_Regular-51" d="M11.046875 16.250000L11.593750 16.250000L13.453125 16.250000
-C18.296875 16.250000 20.796875 14.078125 20.796875 9.890625
-C20.796875 5.515625 18.046875 2.906250 13.453125 2.906250
-C8.656250 2.906250 6.296875 5.281250 6.000000 10.359375L1.593750 10.359375
-C1.796875 7.546875 2.296875 5.703125 3.156250 4.109375
-C4.953125 0.734375 8.453125 -1.000000 13.296875 -1.000000
-C20.593750 -1.000000 25.296875 3.312500 25.296875 9.968750
-C25.296875 14.421875 23.546875 16.906250 19.296875 18.343750
-C22.593750 19.687500 24.250000 22.234375 24.250000 25.875000
-C24.250000 32.125000 20.203125 35.859375 13.453125 35.859375
-C6.296875 35.859375 2.500000 31.875000 2.343750 24.140625
-L6.750000 24.140625
-C6.796875 26.375000 7.000000 27.593750 7.546875 28.734375
-C8.546875 30.750000 10.750000 32.000000 13.500000 32.000000
-C17.406250 32.000000 19.750000 29.609375 19.750000 25.718750
-C19.750000 23.125000 18.843750 21.578125 16.906250 20.734375
-C15.703125 20.203125 14.156250 20.000000 11.046875 20.000000z"/>
-<path id="Nimbus_Sans_L_Regular-82" d="M9.296875 16.000000L21.296875 16.000000
-C25.453125 16.000000 27.296875 14.000000 27.296875 9.531250
-L27.250000 6.296875
-C27.250000 4.062500 27.656250 1.875000 28.296875 0.390625
-L33.953125 0.390625L33.953125 1.531250
-C32.203125 2.734375 31.843750 4.015625 31.750000 8.843750
-C31.703125 14.812500 30.750000 16.609375 26.796875 18.296875
-C30.906250 20.328125 32.546875 22.906250 32.546875 27.125000
-C32.546875 33.500000 28.593750 37.000000 21.453125 37.000000
-L4.656250 37.000000L4.656250 0.390625L9.296875 0.390625zM9.296875 20.093750
-L9.296875 32.890625L20.546875 32.890625
-C23.156250 32.890625 24.656250 32.484375 25.796875 31.453125
-C27.046875 30.390625 27.703125 28.703125 27.703125 26.468750
-C27.703125 22.078125 25.500000 20.093750 20.546875 20.093750z"/>
-<path id="Nimbus_Sans_L_Regular-112" d="M2.703125 -11.000000L6.906250 -11.000000L6.906250 2.906250
-C9.093750 0.203125 11.546875 -1.000000 14.953125 -1.000000
-C21.703125 -1.000000 26.156250 4.343750 26.156250 12.500000
-C26.156250 21.109375 21.843750 26.500000 14.906250 26.500000
-C11.343750 26.500000 8.500000 24.906250 6.546875 21.812500
-L6.546875 26.000000L2.703125 26.000000zM14.203125 22.593750
-C18.796875 22.593750 21.796875 18.656250 21.796875 12.593750
-C21.796875 6.843750 18.750000 2.906250 14.203125 2.906250
-C9.796875 2.906250 6.906250 6.796875 6.906250 12.750000
-C6.906250 18.703125 9.796875 22.593750 14.203125 22.593750"/>
-<path id="CMR17-49" d="M13.296875 31.906250
-C13.296875 32.953125 13.250000 33.000000 12.546875 33.000000
-C10.593750 30.781250 7.656250 30.093750 4.843750 30.093750
-C4.703125 30.093750 4.453125 30.093750 4.406250 29.953125
-C4.343750 29.859375 4.343750 29.750000 4.343750 28.718750
-C5.906250 28.718750 8.500000 29.015625 10.500000 30.187500
-L10.500000 3.625000C10.500000 1.843750 10.406250 1.250000 6.093750 1.250000
-L4.593750 1.250000L4.593750 0.000000
-C7.000000 0.000000 9.500000 0.000000 11.906250 0.000000
-C14.296875 0.000000 16.796875 0.000000 19.203125 0.000000
-L19.203125 1.250000L17.703125 1.250000
-C13.406250 1.250000 13.296875 1.796875 13.296875 3.609375z"/>
-<path id="Nimbus_Sans_L_Regular-111" d="M13.593750 26.500000
-C6.250000 26.500000 1.796875 21.203125 1.796875 12.312500
-C1.796875 3.437500 6.203125 -1.859375 13.656250 -1.859375
-C21.000000 -1.859375 25.500000 3.437500 25.500000 12.109375
-C25.500000 21.250000 21.156250 26.500000 13.593750 26.500000
-M13.656250 22.640625
-C18.343750 22.640625 21.156250 18.750000 21.156250 12.156250
-C21.156250 5.937500 18.250000 2.000000 13.656250 2.000000
-C9.000000 2.000000 6.156250 5.890625 6.156250 12.328125
-C6.156250 18.703125 9.000000 22.640625 13.656250 22.640625"/>
-<path id="Nimbus_Sans_L_Regular-116" d="M12.703125 26.000000L8.406250 26.000000L8.406250 33.093750
-L4.250000 33.093750L4.250000 26.000000L0.703125 26.000000
-L0.703125 22.593750L4.250000 22.593750L4.250000 2.546875
-C4.250000 -0.140625 6.046875 -1.656250 9.296875 -1.656250
-C10.296875 -1.656250 11.296875 -1.546875 12.703125 -1.312500
-L12.703125 2.203125
-C12.156250 2.046875 11.500000 2.000000 10.703125 2.000000
-C8.906250 2.000000 8.406250 2.500000 8.406250 4.390625L8.406250 22.593750
-L12.703125 22.593750z"/>
-<path id="Nimbus_Sans_L_Regular-117" d="M24.093750 -0.250000L24.093750 26.000000L19.953125 26.000000
-L19.953125 10.968750
-C19.953125 5.546875 17.156250 2.000000 12.796875 2.000000
-C9.500000 2.000000 7.406250 4.031250 7.406250 7.203125L7.406250 26.000000
-L3.250000 26.000000L3.250000 5.578125
-C3.250000 1.187500 6.500000 -1.656250 11.593750 -1.656250
-C15.453125 -1.656250 17.906250 -0.296875 20.343750 3.171875
-L20.343750 -0.250000z"/>
-<path id="Nimbus_Sans_L_Regular-115" d="M21.906250 18.390625
-C21.843750 23.578125 18.453125 26.500000 12.406250 26.500000
-C6.296875 26.500000 2.343750 23.312500 2.343750 18.421875
-C2.343750 14.281250 4.453125 12.296875 10.656250 10.796875
-L14.546875 9.828125
-C17.453125 9.125000 18.593750 8.062500 18.593750 6.140625
-C18.593750 3.671875 16.156250 2.000000 12.500000 2.000000
-C10.250000 2.000000 8.343750 2.656250 7.296875 3.765625
-C6.656250 4.515625 6.343750 5.281250 6.093750 7.156250L1.703125 7.156250
-C1.906250 1.062500 5.296875 -1.859375 12.156250 -1.859375
-C18.750000 -1.859375 22.953125 1.437500 22.953125 6.515625
-C22.953125 10.468750 20.750000 12.640625 15.546875 13.890625
-L11.546875 14.859375
-C8.156250 15.671875 6.703125 16.781250 6.703125 18.656250
-C6.703125 21.078125 8.843750 22.640625 12.250000 22.640625
-C15.593750 22.640625 17.406250 21.171875 17.500000 18.390625z"/>
-</defs>
-<g style="fill: #000000; opacity: 1.000000" transform="translate(295.834646,87.939144)scale(0.240000,-0.240000)">
-<use xlink:href="#CMR17-49" x="0.000000" y="0.000000" transform="scale(0.996264)"/>
-<use xlink:href="#CMR17-53" x="22.930908" y="0.000000" transform="scale(0.996264)"/>
-<use xlink:href="#CMR17-48" x="45.861816" y="0.000000" transform="scale(0.996264)"/>
-</g><!-- style -->
-</g>
-</g>
-<g id="ytick14">
-<g id="line2d50">
-<g ><use style="fill: none; stroke: #000000; stroke-width: 2.000000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#mb5f680a2952446ef8148975d730bbae7" x="290.834646" y="52.554331"/>
-</g></g>
-<g id="text37">
-<defs>
-<path id="Nimbus_Sans_L_Regular-72" d="M27.546875 17.000000L27.546875 0.484375L32.203125 0.484375
-L32.203125 37.000000L27.546875 37.000000L27.546875 21.109375
-L8.796875 21.109375L8.796875 37.000000L4.156250 37.000000L4.156250 0.484375
-L8.843750 0.484375L8.843750 17.000000z"/>
-<path id="Nimbus_Sans_L_Regular-78" d="M32.296875 37.000000L27.906250 37.000000L27.906250 7.140625
-L8.843750 37.000000L3.796875 37.000000L3.796875 0.484375L8.203125 0.484375
-L8.203125 30.093750L27.046875 0.484375L32.296875 0.484375z"/>
-<path id="Nimbus_Sans_L_Regular-79" d="M19.453125 37.500000
-C9.000000 37.500000 1.906250 29.750000 1.906250 18.265625
-C1.906250 6.765625 9.000000 -1.000000 19.500000 -1.000000
-C23.906250 -1.000000 27.843750 0.375000 30.796875 2.890625
-C34.750000 6.265625 37.093750 11.953125 37.093750 17.953125
-C37.093750 29.796875 30.156250 37.500000 19.453125 37.500000
-M19.453125 33.390625
-C27.343750 33.390625 32.453125 27.343750 32.453125 18.046875
-C32.453125 9.171875 27.203125 3.109375 19.500000 3.109375
-C11.750000 3.109375 6.546875 9.171875 6.546875 18.265625
-C6.546875 27.343750 11.750000 33.390625 19.453125 33.390625"/>
-<path id="Nimbus_Sans_L_Regular-47" d="M11.453125 37.000000L-0.406250 -0.500000L2.343750 -0.500000
-L14.203125 37.000000z"/>
-<path id="CMR17-50" d="M20.843750 7.609375L19.953125 7.609375
-C19.453125 4.156250 19.046875 3.562500 18.843750 3.265625
-C18.593750 2.890625 15.000000 2.890625 14.296875 2.890625L4.703125 2.890625
-C6.500000 4.843750 10.000000 8.390625 14.250000 12.500000
-C17.296875 15.390625 20.843750 18.796875 20.843750 23.750000
-C20.843750 29.656250 16.156250 33.046875 10.906250 33.046875
-C5.406250 33.046875 2.046875 27.984375 2.046875 23.296875
-C2.046875 21.265625 3.500000 21.000000 4.093750 21.000000
-C4.593750 21.000000 6.093750 21.296875 6.093750 23.046875
-C6.093750 24.593750 4.796875 25.031250 4.093750 25.031250
-C3.796875 25.031250 3.500000 24.984375 3.296875 24.875000
-C4.250000 29.500000 7.156250 31.765625 10.203125 31.765625
-C14.546875 31.765625 17.406250 28.328125 17.406250 23.765625
-C17.406250 19.406250 14.843750 15.656250 12.000000 12.406250
-L2.046875 1.140625L2.046875 0.000000L19.656250 0.000000z"/>
-<path id="CMR17-51" d="M11.046875 17.828125
-C15.500000 17.828125 17.453125 13.968750 17.453125 9.500000
-C17.453125 3.500000 14.250000 1.187500 11.343750 1.187500
-C8.703125 1.187500 4.406250 2.421875 3.046875 6.093750
-C3.296875 6.000000 3.546875 6.000000 3.796875 6.000000
-C5.000000 6.000000 5.906250 6.796875 5.906250 8.093750
-C5.906250 9.546875 4.796875 10.187500 3.796875 10.187500
-C2.953125 10.187500 1.656250 9.796875 1.656250 8.000000
-C1.656250 3.500000 6.156250 0.000000 11.453125 0.000000
-C17.000000 0.000000 21.250000 4.359375 21.250000 9.468750
-C21.250000 14.312500 17.250000 17.828125 12.500000 18.375000
-C16.296875 19.187500 19.953125 22.609375 19.953125 27.187500
-C19.953125 31.109375 16.000000 33.968750 11.500000 33.968750
-C6.953125 33.968750 2.953125 31.140625 2.953125 27.078125
-C2.953125 25.296875 4.250000 25.000000 4.906250 25.000000
-C5.953125 25.000000 6.843750 25.656250 6.843750 26.937500
-C6.843750 28.234375 5.953125 28.890625 4.906250 28.890625
-C4.703125 28.890625 4.453125 28.890625 4.250000 28.796875
-C5.703125 32.218750 9.656250 32.843750 11.406250 32.843750
-C13.156250 32.843750 16.453125 31.984375 16.453125 27.125000
-C16.453125 25.718750 16.250000 23.171875 14.546875 20.953125
-C13.046875 18.984375 11.343750 18.984375 9.703125 18.781250
-C9.453125 18.781250 8.296875 18.781250 8.093750 18.781250
-C7.750000 18.718750 7.546875 18.656250 7.546875 18.281250
-C7.546875 17.890625 7.593750 17.828125 8.593750 17.828125z"/>
-<path id="CMR17-52" d="M16.796875 32.890625
-C16.796875 33.953125 16.750000 34.000000 15.843750 34.000000
-L1.000000 10.046875L1.000000 8.765625L13.906250 8.765625L13.906250 3.640625
-C13.906250 1.781250 13.796875 1.250000 10.296875 1.250000L9.343750 1.250000
-L9.343750 0.000000C10.953125 0.000000 13.656250 0.000000 15.343750 0.000000
-C17.046875 0.000000 19.750000 0.000000 21.343750 0.000000
-L21.343750 1.250000L20.406250 1.250000
-C16.906250 1.250000 16.796875 1.781250 16.796875 3.640625
-L16.796875 8.765625L21.906250 8.765625L21.906250 10.046875
-L16.796875 10.046875zM14.046875 29.546875L14.046875 10.046875
-L2.000000 10.046875z"/>
-<path id="CMR17-53" d="M5.703125 29.843750
-C6.203125 29.640625 8.250000 29.000000 10.343750 29.000000
-C15.000000 29.000000 17.546875 31.500000 19.000000 32.953125
-C19.000000 33.359375 19.000000 33.625000 18.703125 33.625000
-C18.656250 33.625000 18.546875 33.625000 18.156250 33.421875
-C16.406250 32.640625 14.343750 32.031250 11.843750 32.031250
-C10.343750 32.031250 8.093750 32.234375 5.656250 33.375000
-C5.093750 33.625000 5.000000 33.625000 4.953125 33.625000
-C4.703125 33.625000 4.656250 33.578125 4.656250 32.578125
-L4.656250 18.140625
-C4.656250 17.250000 4.656250 17.000000 5.156250 17.000000
-C5.406250 17.000000 5.500000 17.109375 5.750000 17.500000
-C7.343750 20.046875 9.546875 21.109375 12.046875 21.109375
-C13.796875 21.109375 17.546875 19.984375 17.546875 11.281250
-C17.546875 9.640625 17.546875 6.703125 16.046875 4.359375
-C14.796875 2.265625 12.843750 1.187500 10.703125 1.187500
-C7.406250 1.187500 4.046875 3.515625 3.156250 7.375000
-C3.343750 7.328125 3.750000 7.218750 3.953125 7.218750
-C4.593750 7.218750 5.843750 7.562500 5.843750 9.109375
-C5.843750 10.453125 4.906250 11.000000 3.953125 11.000000
-C2.796875 11.000000 2.046875 10.296875 2.046875 8.890625
-C2.046875 4.546875 5.500000 0.000000 10.796875 0.000000
-C15.953125 0.000000 20.843750 4.531250 20.843750 11.078125
-C20.843750 17.171875 16.953125 21.890625 12.093750 21.890625
-C9.546875 21.890625 7.406250 20.875000 5.703125 18.906250z"/>
-<path id="Nimbus_Sans_L_Regular-109" d="M3.500000 26.000000L3.500000 -0.250000L7.703125 -0.250000
-L7.703125 16.062500
-C7.703125 19.812500 10.453125 22.843750 13.843750 22.843750
-C16.953125 22.843750 18.703125 20.953125 18.703125 17.640625
-L18.703125 -0.250000L22.906250 -0.250000L22.906250 16.062500
-C22.906250 19.812500 25.656250 22.843750 29.046875 22.843750
-C32.093750 22.843750 33.906250 20.906250 33.906250 17.640625
-L33.906250 -0.250000L38.093750 -0.250000L38.093750 19.250000
-C38.093750 23.921875 35.406250 26.500000 30.500000 26.500000
-C27.000000 26.500000 24.906250 25.437500 22.453125 22.500000
-C20.906250 25.296875 18.796875 26.500000 15.406250 26.500000
-C11.906250 26.500000 9.593750 25.187500 7.343750 22.046875
-L7.343750 26.000000z"/>
-<path id="Nimbus_Sans_L_Regular-105" d="M7.500000 26.000000L3.343750 26.000000L3.343750 -0.250000
-L7.500000 -0.250000zM7.500000 37.000000L3.296875 37.000000
-L3.296875 31.734375L7.500000 31.734375z"/>
-<path id="Nimbus_Sans_L_Regular-86" d="M19.593750 0.500000L32.250000 37.000000L27.296875 37.000000
-L17.203125 6.109375L6.500000 37.000000L1.500000 37.000000
-L14.593750 0.500000z"/>
-<path id="Nimbus_Sans_L_Regular-84" d="M17.703125 32.890625L29.656250 32.890625L29.656250 37.000000
-L1.046875 37.000000L1.046875 32.890625L13.046875 32.890625
-L13.046875 0.390625L17.703125 0.390625z"/>
-<path id="Nimbus_Sans_L_Regular-101" d="M25.656250 11.000000
-C25.656250 15.078125 25.343750 17.500000 24.593750 19.484375
-C22.906250 23.859375 18.906250 26.500000 14.000000 26.500000
-C6.703125 26.500000 2.000000 20.843750 2.000000 12.156250
-C2.000000 3.484375 6.546875 -1.859375 13.906250 -1.859375
-C19.906250 -1.859375 24.046875 1.546875 25.093750 7.250000
-L20.906250 7.250000
-C19.750000 3.812500 17.406250 2.000000 14.046875 2.000000
-C11.406250 2.000000 9.156250 3.203125 7.750000 5.406250
-C6.750000 6.890625 6.406250 8.390625 6.343750 11.000000zM6.453125 14.406250
-C6.796875 19.390625 9.750000 22.640625 13.953125 22.640625
-C18.046875 22.640625 21.203125 19.140625 21.203125 14.718750
-C21.203125 14.609375 21.203125 14.500000 21.156250 14.406250z"/>
-<path id="CMMI12-22" d="M7.203125 1.578125C8.453125 0.453125 10.296875 0.000000 12.000000 0.000000
-C15.203125 0.000000 17.406250 2.109375 18.546875 3.625000
-C19.046875 1.031250 21.156250 0.000000 22.906250 0.000000
-C24.406250 0.000000 25.593750 0.890625 26.500000 2.640625
-C27.296875 4.296875 28.000000 7.281250 28.000000 7.484375
-C28.000000 7.718750 27.796875 7.906250 27.500000 7.906250
-C27.046875 7.906250 27.000000 7.656250 26.796875 6.953125
-C26.046875 4.062500 25.093750 1.000000 23.046875 1.000000
-C21.593750 1.000000 21.500000 2.265625 21.500000 3.250000
-C21.500000 4.359375 21.953125 6.109375 22.296875 7.578125
-C22.750000 9.328125 23.250000 11.093750 23.703125 12.843750
-C23.906250 13.781250 24.453125 15.953125 24.703125 16.843750
-C25.000000 18.000000 25.546875 20.109375 25.546875 20.296875
-C25.546875 21.031250 24.953125 21.515625 24.203125 21.515625
-C23.750000 21.515625 22.703125 21.312500 22.296875 19.859375
-L18.796875 6.312500
-C18.546875 5.328125 18.546875 5.250000 17.906250 4.468750
-C17.296875 3.625000 15.343750 1.000000 12.203125 1.000000
-C9.406250 1.000000 8.500000 3.000000 8.500000 5.281250
-C8.500000 6.703125 8.953125 8.406250 9.156250 9.234375L11.406250 18.000000
-C11.656250 18.937500 12.046875 20.484375 12.046875 20.781250
-C12.046875 21.562500 11.406250 22.000000 10.750000 22.000000
-C10.296875 22.000000 9.203125 21.859375 8.796875 20.296875
-L1.546875 -7.937500
-C1.500000 -8.187500 1.406250 -8.484375 1.406250 -8.781250
-C1.406250 -9.515625 2.000000 -10.000000 2.750000 -10.000000
-C4.203125 -10.000000 4.500000 -8.875000 4.843750 -7.500000
-C5.406250 -5.453125 5.093750 -6.421875 7.203125 1.578125"/>
-<path id="CMSY10-1" d="M9.593750 12.656250
-C9.593750 14.109375 8.406250 15.312500 6.953125 15.312500
-C5.500000 15.312500 4.296875 14.109375 4.296875 12.656250
-C4.296875 11.203125 5.500000 10.000000 6.953125 10.000000
-C8.406250 10.000000 9.593750 11.203125 9.593750 12.656250"/>
-<path id="Nimbus_Sans_L_Regular-110" d="M3.500000 26.000000L3.500000 -0.250000L7.703125 -0.250000
-L7.703125 14.062500
-C7.703125 19.359375 10.500000 22.843750 14.796875 22.843750
-C18.093750 22.843750 20.203125 20.859375 20.203125 17.750000
-L20.203125 -0.250000L24.343750 -0.250000L24.343750 19.390625
-C24.343750 23.718750 21.093750 26.500000 16.046875 26.500000
-C12.156250 26.500000 9.656250 25.000000 7.343750 21.359375
-L7.343750 26.000000z"/>
-<path id="CMR17-48" d="M21.000000 16.875000
-C21.000000 19.921875 20.953125 25.140625 18.843750 29.140625
-C17.000000 32.656250 14.046875 33.890625 11.453125 33.890625
-C9.046875 33.890625 6.000000 32.796875 4.093750 29.187500
-C2.093750 25.437500 1.906250 20.765625 1.906250 16.875000
-C1.906250 14.015625 1.953125 9.656250 3.500000 5.859375
-C5.656250 0.703125 9.500000 0.000000 11.453125 0.000000
-C13.750000 0.000000 17.250000 0.953125 19.296875 5.703125
-C20.796875 9.156250 21.000000 13.218750 21.000000 16.875000
-M11.453125 0.796875C8.250000 0.796875 6.343750 3.546875 5.656250 7.359375
-C5.093750 10.312500 5.093750 14.625000 5.093750 17.437500
-C5.093750 21.281250 5.093750 24.500000 5.750000 27.562500
-C6.703125 31.796875 9.500000 33.109375 11.453125 33.109375
-C13.500000 33.109375 16.156250 31.750000 17.093750 27.656250
-C17.750000 24.796875 17.796875 21.437500 17.796875 17.437500
-C17.796875 14.171875 17.796875 10.171875 17.203125 7.218750
-C16.156250 1.750000 13.203125 0.796875 11.453125 0.796875"/>
-<path id="Nimbus_Sans_L_Regular-50" d="M25.296875 4.359375L6.656250 4.359375
-C7.093750 7.296875 8.703125 9.156250 13.046875 11.750000
-L18.046875 14.484375
-C23.000000 17.218750 25.546875 20.921875 25.546875 25.328125
-C25.546875 28.312500 24.343750 31.093750 22.250000 33.015625
-C20.156250 34.937500 17.546875 35.859375 14.203125 35.859375
-C9.703125 35.859375 6.343750 34.234375 4.406250 31.203125
-C3.156250 29.281250 2.593750 27.062500 2.500000 23.421875
-L6.906250 23.421875
-C7.046875 25.859375 7.343750 27.328125 7.953125 28.500000
-C9.093750 30.687500 11.406250 32.000000 14.046875 32.000000
-C18.046875 32.000000 21.046875 29.109375 21.046875 25.265625
-C21.046875 22.421875 19.406250 20.000000 16.250000 18.171875
-L11.656250 15.546875C4.250000 11.296875 2.093750 7.890625 1.703125 0.000000
-L25.296875 0.000000z"/>
-<path id="Nimbus_Sans_L_Regular-51" d="M11.046875 16.250000L11.593750 16.250000L13.453125 16.250000
-C18.296875 16.250000 20.796875 14.078125 20.796875 9.890625
-C20.796875 5.515625 18.046875 2.906250 13.453125 2.906250
-C8.656250 2.906250 6.296875 5.281250 6.000000 10.359375L1.593750 10.359375
-C1.796875 7.546875 2.296875 5.703125 3.156250 4.109375
-C4.953125 0.734375 8.453125 -1.000000 13.296875 -1.000000
-C20.593750 -1.000000 25.296875 3.312500 25.296875 9.968750
-C25.296875 14.421875 23.546875 16.906250 19.296875 18.343750
-C22.593750 19.687500 24.250000 22.234375 24.250000 25.875000
-C24.250000 32.125000 20.203125 35.859375 13.453125 35.859375
-C6.296875 35.859375 2.500000 31.875000 2.343750 24.140625
-L6.750000 24.140625
-C6.796875 26.375000 7.000000 27.593750 7.546875 28.734375
-C8.546875 30.750000 10.750000 32.000000 13.500000 32.000000
-C17.406250 32.000000 19.750000 29.609375 19.750000 25.718750
-C19.750000 23.125000 18.843750 21.578125 16.906250 20.734375
-C15.703125 20.203125 14.156250 20.000000 11.046875 20.000000z"/>
-<path id="Nimbus_Sans_L_Regular-82" d="M9.296875 16.000000L21.296875 16.000000
-C25.453125 16.000000 27.296875 14.000000 27.296875 9.531250
-L27.250000 6.296875
-C27.250000 4.062500 27.656250 1.875000 28.296875 0.390625
-L33.953125 0.390625L33.953125 1.531250
-C32.203125 2.734375 31.843750 4.015625 31.750000 8.843750
-C31.703125 14.812500 30.750000 16.609375 26.796875 18.296875
-C30.906250 20.328125 32.546875 22.906250 32.546875 27.125000
-C32.546875 33.500000 28.593750 37.000000 21.453125 37.000000
-L4.656250 37.000000L4.656250 0.390625L9.296875 0.390625zM9.296875 20.093750
-L9.296875 32.890625L20.546875 32.890625
-C23.156250 32.890625 24.656250 32.484375 25.796875 31.453125
-C27.046875 30.390625 27.703125 28.703125 27.703125 26.468750
-C27.703125 22.078125 25.500000 20.093750 20.546875 20.093750z"/>
-<path id="Nimbus_Sans_L_Regular-112" d="M2.703125 -11.000000L6.906250 -11.000000L6.906250 2.906250
-C9.093750 0.203125 11.546875 -1.000000 14.953125 -1.000000
-C21.703125 -1.000000 26.156250 4.343750 26.156250 12.500000
-C26.156250 21.109375 21.843750 26.500000 14.906250 26.500000
-C11.343750 26.500000 8.500000 24.906250 6.546875 21.812500
-L6.546875 26.000000L2.703125 26.000000zM14.203125 22.593750
-C18.796875 22.593750 21.796875 18.656250 21.796875 12.593750
-C21.796875 6.843750 18.750000 2.906250 14.203125 2.906250
-C9.796875 2.906250 6.906250 6.796875 6.906250 12.750000
-C6.906250 18.703125 9.796875 22.593750 14.203125 22.593750"/>
-<path id="CMR17-49" d="M13.296875 31.906250
-C13.296875 32.953125 13.250000 33.000000 12.546875 33.000000
-C10.593750 30.781250 7.656250 30.093750 4.843750 30.093750
-C4.703125 30.093750 4.453125 30.093750 4.406250 29.953125
-C4.343750 29.859375 4.343750 29.750000 4.343750 28.718750
-C5.906250 28.718750 8.500000 29.015625 10.500000 30.187500
-L10.500000 3.625000C10.500000 1.843750 10.406250 1.250000 6.093750 1.250000
-L4.593750 1.250000L4.593750 0.000000
-C7.000000 0.000000 9.500000 0.000000 11.906250 0.000000
-C14.296875 0.000000 16.796875 0.000000 19.203125 0.000000
-L19.203125 1.250000L17.703125 1.250000
-C13.406250 1.250000 13.296875 1.796875 13.296875 3.609375z"/>
-<path id="Nimbus_Sans_L_Regular-111" d="M13.593750 26.500000
-C6.250000 26.500000 1.796875 21.203125 1.796875 12.312500
-C1.796875 3.437500 6.203125 -1.859375 13.656250 -1.859375
-C21.000000 -1.859375 25.500000 3.437500 25.500000 12.109375
-C25.500000 21.250000 21.156250 26.500000 13.593750 26.500000
-M13.656250 22.640625
-C18.343750 22.640625 21.156250 18.750000 21.156250 12.156250
-C21.156250 5.937500 18.250000 2.000000 13.656250 2.000000
-C9.000000 2.000000 6.156250 5.890625 6.156250 12.328125
-C6.156250 18.703125 9.000000 22.640625 13.656250 22.640625"/>
-<path id="Nimbus_Sans_L_Regular-116" d="M12.703125 26.000000L8.406250 26.000000L8.406250 33.093750
-L4.250000 33.093750L4.250000 26.000000L0.703125 26.000000
-L0.703125 22.593750L4.250000 22.593750L4.250000 2.546875
-C4.250000 -0.140625 6.046875 -1.656250 9.296875 -1.656250
-C10.296875 -1.656250 11.296875 -1.546875 12.703125 -1.312500
-L12.703125 2.203125
-C12.156250 2.046875 11.500000 2.000000 10.703125 2.000000
-C8.906250 2.000000 8.406250 2.500000 8.406250 4.390625L8.406250 22.593750
-L12.703125 22.593750z"/>
-<path id="Nimbus_Sans_L_Regular-117" d="M24.093750 -0.250000L24.093750 26.000000L19.953125 26.000000
-L19.953125 10.968750
-C19.953125 5.546875 17.156250 2.000000 12.796875 2.000000
-C9.500000 2.000000 7.406250 4.031250 7.406250 7.203125L7.406250 26.000000
-L3.250000 26.000000L3.250000 5.578125
-C3.250000 1.187500 6.500000 -1.656250 11.593750 -1.656250
-C15.453125 -1.656250 17.906250 -0.296875 20.343750 3.171875
-L20.343750 -0.250000z"/>
-<path id="Nimbus_Sans_L_Regular-115" d="M21.906250 18.390625
-C21.843750 23.578125 18.453125 26.500000 12.406250 26.500000
-C6.296875 26.500000 2.343750 23.312500 2.343750 18.421875
-C2.343750 14.281250 4.453125 12.296875 10.656250 10.796875
-L14.546875 9.828125
-C17.453125 9.125000 18.593750 8.062500 18.593750 6.140625
-C18.593750 3.671875 16.156250 2.000000 12.500000 2.000000
-C10.250000 2.000000 8.343750 2.656250 7.296875 3.765625
-C6.656250 4.515625 6.343750 5.281250 6.093750 7.156250L1.703125 7.156250
-C1.906250 1.062500 5.296875 -1.859375 12.156250 -1.859375
-C18.750000 -1.859375 22.953125 1.437500 22.953125 6.515625
-C22.953125 10.468750 20.750000 12.640625 15.546875 13.890625
-L11.546875 14.859375
-C8.156250 15.671875 6.703125 16.781250 6.703125 18.656250
-C6.703125 21.078125 8.843750 22.640625 12.250000 22.640625
-C15.593750 22.640625 17.406250 21.171875 17.500000 18.390625z"/>
-</defs>
-<g style="fill: #000000; opacity: 1.000000" transform="translate(295.834646,56.406546)scale(0.240000,-0.240000)">
-<use xlink:href="#CMR17-50" x="0.000000" y="0.000000" transform="scale(0.996264)"/>
-<use xlink:href="#CMR17-48" x="22.930908" y="0.000000" transform="scale(0.996264)"/>
-<use xlink:href="#CMR17-48" x="45.861816" y="0.000000" transform="scale(0.996264)"/>
-</g><!-- style -->
-</g>
-</g>
-<g id="ytick15">
-<g id="line2d51">
-<g ><use style="fill: none; stroke: #000000; stroke-width: 2.000000; stroke-linejoin: round; stroke-linecap: butt;  opacity: 1.000000" xlink:href="#mb5f680a2952446ef8148975d730bbae7" x="290.834646" y="21.021732"/>
-</g></g>
-<g id="text38">
-<defs>
-<path id="Nimbus_Sans_L_Regular-72" d="M27.546875 17.000000L27.546875 0.484375L32.203125 0.484375
-L32.203125 37.000000L27.546875 37.000000L27.546875 21.109375
-L8.796875 21.109375L8.796875 37.000000L4.156250 37.000000L4.156250 0.484375
-L8.843750 0.484375L8.843750 17.000000z"/>
-<path id="Nimbus_Sans_L_Regular-78" d="M32.296875 37.000000L27.906250 37.000000L27.906250 7.140625
-L8.843750 37.000000L3.796875 37.000000L3.796875 0.484375L8.203125 0.484375
-L8.203125 30.093750L27.046875 0.484375L32.296875 0.484375z"/>
-<path id="Nimbus_Sans_L_Regular-79" d="M19.453125 37.500000
-C9.000000 37.500000 1.906250 29.750000 1.906250 18.265625
-C1.906250 6.765625 9.000000 -1.000000 19.500000 -1.000000
-C23.906250 -1.000000 27.843750 0.375000 30.796875 2.890625
-C34.750000 6.265625 37.093750 11.953125 37.093750 17.953125
-C37.093750 29.796875 30.156250 37.500000 19.453125 37.500000
-M19.453125 33.390625
-C27.343750 33.390625 32.453125 27.343750 32.453125 18.046875
-C32.453125 9.171875 27.203125 3.109375 19.500000 3.109375
-C11.750000 3.109375 6.546875 9.171875 6.546875 18.265625
-C6.546875 27.343750 11.750000 33.390625 19.453125 33.390625"/>
-<path id="Nimbus_Sans_L_Regular-47" d="M11.453125 37.000000L-0.406250 -0.500000L2.343750 -0.500000
-L14.203125 37.000000z"/>
-<path id="CMR17-50" d="M20.843750 7.609375L19.953125 7.609375
-C19.453125 4.156250 19.046875 3.562500 18.843750 3.265625
-C18.593750 2.890625 15.000000 2.890625 14.296875 2.890625L4.703125 2.890625
-C6.500000 4.843750 10.000000 8.390625 14.250000 12.500000
-C17.296875 15.390625 20.843750 18.796875 20.843750 23.750000
-C20.843750 29.656250 16.156250 33.046875 10.906250 33.046875
-C5.406250 33.046875 2.046875 27.984375 2.046875 23.296875
-C2.046875 21.265625 3.500000 21.000000 4.093750 21.000000
-C4.593750 21.000000 6.093750 21.296875 6.093750 23.046875
-C6.093750 24.593750 4.796875 25.031250 4.093750 25.031250
-C3.796875 25.031250 3.500000 24.984375 3.296875 24.875000
-C4.250000 29.500000 7.156250 31.765625 10.203125 31.765625
-C14.546875 31.765625 17.406250 28.328125 17.406250 23.765625
-C17.406250 19.406250 14.843750 15.656250 12.000000 12.406250
-L2.046875 1.140625L2.046875 0.000000L19.656250 0.000000z"/>
-<path id="CMR17-51" d="M11.046875 17.828125
-C15.500000 17.828125 17.453125 13.968750 17.453125 9.500000
-C17.453125 3.500000 14.250000 1.187500 11.343750 1.187500
-C8.703125 1.187500 4.406250 2.421875 3.046875 6.093750
-C3.296875 6.000000 3.546875 6.000000 3.796875 6.000000
-C5.000000 6.000000 5.906250 6.796875 5.906250 8.093750
-C5.906250 9.546875 4.796875 10.187500 3.796875 10.187500
-C2.953125 10.187500 1.656250 9.796875 1.656250 8.000000
-C1.656250 3.500000 6.156250 0.000000 11.453125 0.000000
-C17.000000 0.000000 21.250000 4.359375 21.250000 9.468750
-C21.250000 14.312500 17.250000 17.828125 12.500000 18.375000
-C16.296875 19.187500 19.953125 22.609375 19.953125 27.187500
-C19.953125 31.109375 16.000000 33.968750 11.500000 33.968750
-C6.953125 33.968750 2.953125 31.140625 2.953125 27.078125
-C2.953125 25.296875 4.250000 25.000000 4.906250 25.000000
-C5.953125 25.000000 6.843750 25.656250 6.843750 26.937500
-C6.843750 28.234375 5.953125 28.890625 4.906250 28.890625
-C4.703125 28.890625 4.453125 28.890625 4.250000 28.796875
-C5.703125 32.218750 9.656250 32.843750 11.406250 32.843750
-C13.156250 32.843750 16.453125 31.984375 16.453125 27.125000
-C16.453125 25.718750 16.250000 23.171875 14.546875 20.953125
-C13.046875 18.984375 11.343750 18.984375 9.703125 18.781250
-C9.453125 18.781250 8.296875 18.781250 8.093750 18.781250
-C7.750000 18.718750 7.546875 18.656250 7.546875 18.281250
-C7.546875 17.890625 7.593750 17.828125 8.593750 17.828125z"/>
-<path id="CMR17-52" d="M16.796875 32.890625
-C16.796875 33.953125 16.750000 34.000000 15.843750 34.000000
-L1.000000 10.046875L1.000000 8.765625L13.906250 8.765625L13.906250 3.640625
-C13.906250 1.781250 13.796875 1.250000 10.296875 1.250000L9.343750 1.250000
-L9.343750 0.000000C10.953125 0.000000 13.656250 0.000000 15.343750 0.000000
-C17.046875 0.000000 19.750000 0.000000 21.343750 0.000000
-L21.343750 1.250000L20.406250 1.250000
-C16.906250 1.250000 16.796875 1.781250 16.796875 3.640625
-L16.796875 8.765625L21.906250 8.765625L21.906250 10.046875
-L16.796875 10.046875zM14.046875 29.546875L14.046875 10.046875
-L2.000000 10.046875z"/>
-<path id="CMR17-53" d="M5.703125 29.843750
-C6.203125 29.640625 8.250000 29.000000 10.343750 29.000000
-C15.000000 29.000000 17.546875 31.500000 19.000000 32.953125
-C19.000000 33.359375 19.000000 33.625000 18.703125 33.625000
-C18.656250 33.625000 18.546875 33.625000 18.156250 33.421875
-C16.406250 32.640625 14.343750 32.031250 11.843750 32.031250
-C10.343750 32.031250 8.093750 32.234375 5.656250 33.375000
-C5.093750 33.625000 5.000000 33.625000 4.953125 33.625000
-C4.703125 33.625000 4.656250 33.578125 4.656250 32.578125
-L4.656250 18.140625
-C4.656250 17.250000 4.656250 17.000000 5.156250 17.000000
-C5.406250 17.000000 5.500000 17.109375 5.750000 17.500000
-C7.343750 20.046875 9.546875 21.109375 12.046875 21.109375
-C13.796875 21.109375 17.546875 19.984375 17.546875 11.281250
-C17.546875 9.640625 17.546875 6.703125 16.046875 4.359375
-C14.796875 2.265625 12.843750 1.187500 10.703125 1.187500
-C7.406250 1.187500 4.046875 3.515625 3.156250 7.375000
-C3.343750 7.328125 3.750000 7.218750 3.953125 7.218750
-C4.593750 7.218750 5.843750 7.562500 5.843750 9.109375
-C5.843750 10.453125 4.906250 11.000000 3.953125 11.000000
-C2.796875 11.000000 2.046875 10.296875 2.046875 8.890625
-C2.046875 4.546875 5.500000 0.000000 10.796875 0.000000
-C15.953125 0.000000 20.843750 4.531250 20.843750 11.078125
-C20.843750 17.171875 16.953125 21.890625 12.093750 21.890625
-C9.546875 21.890625 7.406250 20.875000 5.703125 18.906250z"/>
-<path id="Nimbus_Sans_L_Regular-109" d="M3.500000 26.000000L3.500000 -0.250000L7.703125 -0.250000
-L7.703125 16.062500
-C7.703125 19.812500 10.453125 22.843750 13.843750 22.843750
-C16.953125 22.843750 18.703125 20.953125 18.703125 17.640625
-L18.703125 -0.250000L22.906250 -0.250000L22.906250 16.062500
-C22.906250 19.812500 25.656250 22.843750 29.046875 22.843750
-C32.093750 22.843750 33.906250 20.906250 33.906250 17.640625
-L33.906250 -0.250000L38.093750 -0.250000L38.093750 19.250000
-C38.093750 23.921875 35.406250 26.500000 30.500000 26.500000
-C27.000000 26.500000 24.906250 25.437500 22.453125 22.500000
-C20.906250 25.296875 18.796875 26.500000 15.406250 26.500000
-C11.906250 26.500000 9.593750 25.187500 7.343750 22.046875
-L7.343750 26.000000z"/>
-<path id="Nimbus_Sans_L_Regular-105" d="M7.500000 26.000000L3.343750 26.000000L3.343750 -0.250000
-L7.500000 -0.250000zM7.500000 37.000000L3.296875 37.000000
-L3.296875 31.734375L7.500000 31.734375z"/>
-<path id="Nimbus_Sans_L_Regular-86" d="M19.593750 0.500000L32.250000 37.000000L27.296875 37.000000
-L17.203125 6.109375L6.500000 37.000000L1.500000 37.000000
-L14.593750 0.500000z"/>
-<path id="Nimbus_Sans_L_Regular-84" d="M17.703125 32.890625L29.656250 32.890625L29.656250 37.000000
-L1.046875 37.000000L1.046875 32.890625L13.046875 32.890625
-L13.046875 0.390625L17.703125 0.390625z"/>
-<path id="Nimbus_Sans_L_Regular-101" d="M25.656250 11.000000
-C25.656250 15.078125 25.343750 17.500000 24.593750 19.484375
-C22.906250 23.859375 18.906250 26.500000 14.000000 26.500000
-C6.703125 26.500000 2.000000 20.843750 2.000000 12.156250
-C2.000000 3.484375 6.546875 -1.859375 13.906250 -1.859375
-C19.906250 -1.859375 24.046875 1.546875 25.093750 7.250000
-L20.906250 7.250000
-C19.750000 3.812500 17.406250 2.000000 14.046875 2.000000
-C11.406250 2.000000 9.156250 3.203125 7.750000 5.406250
-C6.750000 6.890625 6.406250 8.390625 6.343750 11.000000zM6.453125 14.406250
-C6.796875 19.390625 9.750000 22.640625 13.953125 22.640625
-C18.046875 22.640625 21.203125 19.140625 21.203125 14.718750
-C21.203125 14.609375 21.203125 14.500000 21.156250 14.406250z"/>
-<path id="CMMI12-22" d="M7.203125 1.578125C8.453125 0.453125 10.296875 0.000000 12.000000 0.000000
-C15.203125 0.000000 17.406250 2.109375 18.546875 3.625000
-C19.046875 1.031250 21.156250 0.000000 22.906250 0.000000
-C24.406250 0.000000 25.593750 0.890625 26.500000 2.640625
-C27.296875 4.296875 28.000000 7.281250 28.000000 7.484375
-C28.000000 7.718750 27.796875 7.906250 27.500000 7.906250
-C27.046875 7.906250 27.000000 7.656250 26.796875 6.953125
-C26.046875 4.062500 25.093750 1.000000 23.046875 1.000000
-C21.593750 1.000000 21.500000 2.265625 21.500000 3.250000
-C21.500000 4.359375 21.953125 6.109375 22.296875 7.578125
-C22.750000 9.328125 23.250000 11.093750 23.703125 12.843750
-C23.906250 13.781250 24.453125 15.953125 24.703125 16.843750
-C25.000000 18.000000 25.546875 20.109375 25.546875 20.296875
-C25.546875 21.031250 24.953125 21.515625 24.203125 21.515625
-C23.750000 21.515625 22.703125 21.312500 22.296875 19.859375
-L18.796875 6.312500
-C18.546875 5.328125 18.546875 5.250000 17.906250 4.468750
-C17.296875 3.625000 15.343750 1.000000 12.203125 1.000000
-C9.406250 1.000000 8.500000 3.000000 8.500000 5.281250
-C8.500000 6.703125 8.953125 8.406250 9.156250 9.234375L11.406250 18.000000
-C11.656250 18.937500 12.046875 20.484375 12.046875 20.781250
-C12.046875 21.562500 11.406250 22.000000 10.750000 22.000000
-C10.296875 22.000000 9.203125 21.859375 8.796875 20.296875
-L1.546875 -7.937500
-C1.500000 -8.187500 1.406250 -8.484375 1.406250 -8.781250
-C1.406250 -9.515625 2.000000 -10.000000 2.750000 -10.000000
-C4.203125 -10.000000 4.500000 -8.875000 4.843750 -7.500000
-C5.406250 -5.453125 5.093750 -6.421875 7.203125 1.578125"/>
-<path id="CMSY10-1" d="M9.593750 12.656250
-C9.593750 14.109375 8.406250 15.312500 6.953125 15.312500
-C5.500000 15.312500 4.296875 14.109375 4.296875 12.656250
-C4.296875 11.203125 5.500000 10.000000 6.953125 10.000000
-C8.406250 10.000000 9.593750 11.203125 9.593750 12.656250"/>
-<path id="Nimbus_Sans_L_Regular-110" d="M3.500000 26.000000L3.500000 -0.250000L7.703125 -0.250000
-L7.703125 14.062500
-C7.703125 19.359375 10.500000 22.843750 14.796875 22.843750
-C18.093750 22.843750 20.203125 20.859375 20.203125 17.750000
-L20.203125 -0.250000L24.343750 -0.250000L24.343750 19.390625
-C24.343750 23.718750 21.093750 26.500000 16.046875 26.500000
-C12.156250 26.500000 9.656250 25.000000 7.343750 21.359375
-L7.343750 26.000000z"/>
-<path id="CMR17-48" d="M21.000000 16.875000
-C21.000000 19.921875 20.953125 25.140625 18.843750 29.140625
-C17.000000 32.656250 14.046875 33.890625 11.453125 33.890625
-C9.046875 33.890625 6.000000 32.796875 4.093750 29.187500
-C2.093750 25.437500 1.906250 20.765625 1.906250 16.875000
-C1.906250 14.015625 1.953125 9.656250 3.500000 5.859375
-C5.656250 0.703125 9.500000 0.000000 11.453125 0.000000
-C13.750000 0.000000 17.250000 0.953125 19.296875 5.703125
-C20.796875 9.156250 21.000000 13.218750 21.000000 16.875000
-M11.453125 0.796875C8.250000 0.796875 6.343750 3.546875 5.656250 7.359375
-C5.093750 10.312500 5.093750 14.625000 5.093750 17.437500
-C5.093750 21.281250 5.093750 24.500000 5.750000 27.562500
-C6.703125 31.796875 9.500000 33.109375 11.453125 33.109375
-C13.500000 33.109375 16.156250 31.750000 17.093750 27.656250
-C17.750000 24.796875 17.796875 21.437500 17.796875 17.437500
-C17.796875 14.171875 17.796875 10.171875 17.203125 7.218750
-C16.156250 1.750000 13.203125 0.796875 11.453125 0.796875"/>
-<path id="Nimbus_Sans_L_Regular-50" d="M25.296875 4.359375L6.656250 4.359375
-C7.093750 7.296875 8.703125 9.156250 13.046875 11.750000
-L18.046875 14.484375
-C23.000000 17.218750 25.546875 20.921875 25.546875 25.328125
-C25.546875 28.312500 24.343750 31.093750 22.250000 33.015625
-C20.156250 34.937500 17.546875 35.859375 14.203125 35.859375
-C9.703125 35.859375 6.343750 34.234375 4.406250 31.203125
-C3.156250 29.281250 2.593750 27.062500 2.500000 23.421875
-L6.906250 23.421875
-C7.046875 25.859375 7.343750 27.328125 7.953125 28.500000
-C9.093750 30.687500 11.406250 32.000000 14.046875 32.000000
-C18.046875 32.000000 21.046875 29.109375 21.046875 25.265625
-C21.046875 22.421875 19.406250 20.000000 16.250000 18.171875
-L11.656250 15.546875C4.250000 11.296875 2.093750 7.890625 1.703125 0.000000
-L25.296875 0.000000z"/>
-<path id="Nimbus_Sans_L_Regular-51" d="M11.046875 16.250000L11.593750 16.250000L13.453125 16.250000
-C18.296875 16.250000 20.796875 14.078125 20.796875 9.890625
-C20.796875 5.515625 18.046875 2.906250 13.453125 2.906250
-C8.656250 2.906250 6.296875 5.281250 6.000000 10.359375L1.593750 10.359375
-C1.796875 7.546875 2.296875 5.703125 3.156250 4.109375
-C4.953125 0.734375 8.453125 -1.000000 13.296875 -1.000000
-C20.593750 -1.000000 25.296875 3.312500 25.296875 9.968750
-C25.296875 14.421875 23.546875 16.906250 19.296875 18.343750
-C22.593750 19.687500 24.250000 22.234375 24.250000 25.875000
-C24.250000 32.125000 20.203125 35.859375 13.453125 35.859375
-C6.296875 35.859375 2.500000 31.875000 2.343750 24.140625
-L6.750000 24.140625
-C6.796875 26.375000 7.000000 27.593750 7.546875 28.734375
-C8.546875 30.750000 10.750000 32.000000 13.500000 32.000000
-C17.406250 32.000000 19.750000 29.609375 19.750000 25.718750
-C19.750000 23.125000 18.843750 21.578125 16.906250 20.734375
-C15.703125 20.203125 14.156250 20.000000 11.046875 20.000000z"/>
 <path id="Nimbus_Sans_L_Regular-82" d="M9.296875 16.000000L21.296875 16.000000
 C25.453125 16.000000 27.296875 14.000000 27.296875 9.531250
 L27.250000 6.296875
@@ -8719,7 +6990,7 @@ C15.593750 22.640625 17.406250 21.171875 17.500000 18.390625z"/>
 </g><!-- style -->
 </g>
 </g>
-<g id="text39">
+<g id="text34">
 <defs>
 <path id="Nimbus_Sans_L_Regular-72" d="M27.546875 17.000000L27.546875 0.484375L32.203125 0.484375
 L32.203125 37.000000L27.546875 37.000000L27.546875 21.109375
@@ -8948,38 +7219,6 @@ C16.093750 2.812500 14.046875 2.000000 11.593750 2.000000
 C8.343750 2.000000 6.453125 3.578125 6.453125 6.250000
 C6.453125 9.015625 8.296875 10.437500 12.750000 11.078125
 C17.156250 11.703125 18.046875 11.906250 19.453125 12.546875z"/>
-<path id="Nimbus_Sans_L_Regular-50" d="M25.296875 4.359375L6.656250 4.359375
-C7.093750 7.296875 8.703125 9.156250 13.046875 11.750000
-L18.046875 14.484375
-C23.000000 17.218750 25.546875 20.921875 25.546875 25.328125
-C25.546875 28.312500 24.343750 31.093750 22.250000 33.015625
-C20.156250 34.937500 17.546875 35.859375 14.203125 35.859375
-C9.703125 35.859375 6.343750 34.234375 4.406250 31.203125
-C3.156250 29.281250 2.593750 27.062500 2.500000 23.421875
-L6.906250 23.421875
-C7.046875 25.859375 7.343750 27.328125 7.953125 28.500000
-C9.093750 30.687500 11.406250 32.000000 14.046875 32.000000
-C18.046875 32.000000 21.046875 29.109375 21.046875 25.265625
-C21.046875 22.421875 19.406250 20.000000 16.250000 18.171875
-L11.656250 15.546875C4.250000 11.296875 2.093750 7.890625 1.703125 0.000000
-L25.296875 0.000000z"/>
-<path id="Nimbus_Sans_L_Regular-51" d="M11.046875 16.250000L11.593750 16.250000L13.453125 16.250000
-C18.296875 16.250000 20.796875 14.078125 20.796875 9.890625
-C20.796875 5.515625 18.046875 2.906250 13.453125 2.906250
-C8.656250 2.906250 6.296875 5.281250 6.000000 10.359375L1.593750 10.359375
-C1.796875 7.546875 2.296875 5.703125 3.156250 4.109375
-C4.953125 0.734375 8.453125 -1.000000 13.296875 -1.000000
-C20.593750 -1.000000 25.296875 3.312500 25.296875 9.968750
-C25.296875 14.421875 23.546875 16.906250 19.296875 18.343750
-C22.593750 19.687500 24.250000 22.234375 24.250000 25.875000
-C24.250000 32.125000 20.203125 35.859375 13.453125 35.859375
-C6.296875 35.859375 2.500000 31.875000 2.343750 24.140625
-L6.750000 24.140625
-C6.796875 26.375000 7.000000 27.593750 7.546875 28.734375
-C8.546875 30.750000 10.750000 32.000000 13.500000 32.000000
-C17.406250 32.000000 19.750000 29.609375 19.750000 25.718750
-C19.750000 23.125000 18.843750 21.578125 16.906250 20.734375
-C15.703125 20.203125 14.156250 20.000000 11.046875 20.000000z"/>
 <path id="Nimbus_Sans_L_Regular-82" d="M9.296875 16.000000L21.296875 16.000000
 C25.453125 16.000000 27.296875 14.000000 27.296875 9.531250
 L27.250000 6.296875
