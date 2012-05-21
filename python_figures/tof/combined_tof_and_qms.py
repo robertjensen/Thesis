@@ -7,27 +7,24 @@ except:
 
 cursor = db.cursor()
 
-#initial_db = 403
-initial_db = 401
-number_of_spectrums = 59
-
+initial_db = 664
+number_of_spectrums = 152
 
 temperatures = []
 times = []
 for i in range(initial_db,initial_db+number_of_spectrums):
-    cursor.execute("select sample_temperature,unix_timestamp(time) from measurements_tof where id = " + str(i))
+    cursor.execute("select sample_temperature, unix_timestamp(time) from measurements_tof where id = " + str(i))
     fetch = (cursor.fetchall())
     temperatures = temperatures + [fetch[0][0]]
     times = times + [fetch[0][1]]
 
 
 masses = []
-#masses.append(['H2',4.387,8])
-masses.append(['OH',12.414,6])
-masses.append(['NH3',12.424,6])
+##masses.append(['H2',4.382,8])
+##masses.append(['OH',12.410,6])
+masses.append(['NH3',12.420,6])
 masses.append(['H2O',12.770,8])
-masses.append(['N2',15.8818,8])
-#masses.append(['NO',16.438,10])
-masses.append(['O2',16.967,8])
-#masses.append(['N2O',19.8699,10])
-
+masses.append(['N2',15.880,8])
+#masses.append(['NO',16.430,10])
+#masses.append(['O2',16.963,8])
+masses.append(['N2O',19.862,10])

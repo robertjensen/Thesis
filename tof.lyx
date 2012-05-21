@@ -97,8 +97,8 @@ key "JordanHomepage"
 
  and was put together here in the lab.
  The frame and the pumps for the system was scavenged from an old molecular
- beam setup that had been idling in the lab for some years.
- and thus is a wonderful mixture of many different kind of flanges and pumps
+ beam setup that had been idling in the lab for some years and thus the
+ complete is a wonderful mixture of many different kind of flanges and pumps
  which happened to be available, as can be seen in figure
 \begin_inset space ~
 \end_inset
@@ -141,11 +141,11 @@ The Time-Of-Flight instrument in all its glory.
 \end_inset
 
 .
- This turns out to be a 120
+ The result of the scavegeing turned out to be a 120
 \begin_inset space \thinspace{}
 \end_inset
 
-l/s ion pump, used to deferentially pump the flight tube, and a 400
+l/s ion pump, used to differentially pump the flight tube, and a 400
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -153,17 +153,17 @@ l/s ion pump and a 450
 \begin_inset space \thinspace{}
 \end_inset
 
-l/s turbo pump used to pump the source region.
+l/s turbo pump both used to pump the source region.
  At this point in time, we have not tried to bake the chamber and this means
  we have a rather poor background pressure of 
 \begin_inset Formula $\sim10^{-9}\,$
 \end_inset
 
 mbar in both the source region and flight tube.
- However, it will make good sense to actually bake the chamber to bring
- down background pressure since the background pressure contributes with
- dead-counts on the detector and thus degrades the signal to noise ratio
- of the instrument.
+ However, it will eventually make sense to actually bake the chamber to
+ bring down background pressure since the background pressure contributes
+ with dead-counts on the detector and thus degrades the signal to noise
+ ratio of the instrument.
  All parts of the setup are fully UHV compatible and since we have quite
  good pumping capacity, it is to be expected that we can get well below
  
@@ -1190,8 +1190,28 @@ Benzene, CINF-data id: 323 og 324
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Ammonia Oxidation
+\end_layout
+
+\begin_layout Standard
+A large project on time-of-flight mass spectrometer a project on ammonia
+ oxidation on Pt nanoparticles
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+REF!
+\end_layout
+
+\end_inset
+
+.
+ Here we tried to relate the activity of Pt nanoparticles to the cluster
+ size.
+ The result of this study is thourougly documented in the masters thesis
+ by Mathis Kjærgaard Christensen and here I will mostly focus on the new
+ abilities the TOF-instrument has provided for this kind of project.
 \end_layout
 
 \end_body

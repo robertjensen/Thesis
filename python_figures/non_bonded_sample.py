@@ -1,6 +1,17 @@
 backend = 'svg'
 execfile('std_header.py')
 
+fig = plt.figure()
+fig.subplots_adjust(left=d.left_room) 
+fig.subplots_adjust(bottom=d.bottom_room)
+fig.subplots_adjust(right=d.right_room) 
+
+ratio = d.ratio
+fig_width = d.width
+fig_width = fig_width /2.54     # width in cm converted to inches
+fig_height = fig_width*ratio
+fig.set_size_inches(fig_width,fig_height)
+
 data = {}
 #M28
 cursor.execute("SELECT x/60000,y*1e9 FROM xy_values_microreactorNG where measurement = 854")
@@ -13,9 +24,6 @@ cursor.execute("SELECT x/60000,y FROM xy_values_microreactorNG where measurement
 data['TEMPERATURE'] =  np.array(cursor.fetchall())
 
 axis_array = []
-fig = plt.figure()
-fig.subplots_adjust(bottom=d.bottom_room) # Make room for x-label
-fig.subplots_adjust(right=d.right_room) # Make room for second y-label
 axis = fig.add_subplot(1,1,1)
 
 
