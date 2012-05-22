@@ -73,9 +73,13 @@ Ever since I joined the microreactor team, the setup has been in a permanent
  to be implemented and others are perhaps somewhat more optimistic.
 \end_layout
 
-\begin_layout Itemize
-Storing the flow-files with the data: It would be a great advantage in the
- daily work to know exactly what flow-file was used to run a given experiment.
+\begin_layout Paragraph
+Storing the flow-files with the data
+\end_layout
+
+\begin_layout Standard
+It would be a great advantage in the daily work to know exactly what flow-file
+ was used to run a given experiment.
  Right now we log all measured parameters, but we do log the intended values
  of these parameters.
  This means that if an experiment does not run exactly as expected, it can
@@ -84,20 +88,43 @@ Storing the flow-files with the data: It would be a great advantage in the
  from running correctly.
 \end_layout
 
-\begin_layout Itemize
-Better software: Most of the software is currently written as a few rather
- monstrous LabView programs because this has been the default language at
- the department.
- However, are now slowly moving to a more modular approach where sub-sections
+\begin_layout Paragraph
+Better software
+\end_layout
+
+\begin_layout Standard
+Most of the software is currently written as a few rather monstrous LabView
+ programs because this has been the default language at the department.
+ However, we are now slowly moving to a more modular approach where sub-sections
  of the code can be separated into individual programs, possibly written
  in other programming languages, so far we already interface quite a few
  instruments in Python on other setups and it would be obvious to gradually
  also turn the microreactors in this direction.
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Paragraph
 Mounting for a microscope on the NG setup.
  
+\end_layout
+
+\begin_layout Standard
+As mentioned in chapter
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:Analytical-techniques"
+
+\end_inset
+
+, it could be interesting to be able to do high-quality optical imaging
+ of the sample while running experiments.
+ However, actually getting good images has turned out to be a nightmare
+ of practicallities.....
+ mount dedicated holder...
+ dedicated instrument....
 \end_layout
 
 \begin_layout Itemize
@@ -114,7 +141,7 @@ Adding an optional pumping path between the buffer chambers and the turbo.
  In situations like this, it would be extremely useful to have an optional
  pumping path of much larger diameter.
  This could easily be achieved by mounting a 
-\begin_inset Formula $2\frac{3}{4}"$
+\begin_inset Formula $2\nicefrac{3}{4}"$
 \end_inset
 
 -bellow and a pneumatically controlled valve between the buffer and the

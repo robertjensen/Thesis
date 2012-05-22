@@ -200,7 +200,7 @@ C.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -208,7 +208,7 @@ status collapsed
 \begin_inset Graphics
 	filename figures/cad_old_reactor.png
 	display false
-	width 12cm
+	width 7cm
 
 \end_inset
 
@@ -460,16 +460,6 @@ T_{res}=\frac{6\times10^{15}}{6\times10^{14}\mbox{s}^{-1}}=10\,\mbox{s}
 \end_inset
 
 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Der er da vist noget der skal opklares...
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section
@@ -646,7 +636,7 @@ reference "fig:new_old_setup"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -654,7 +644,7 @@ status collapsed
 \begin_inset Graphics
 	filename figures/microreactor_new_setup.png
 	display false
-	width 12cm
+	width 11cm
 
 \end_inset
 
@@ -692,7 +682,7 @@ The
  pumped by roughing pump.
  All tubing that needs to be regularly evacuated are now connected to a
  buffer volume which is in turn pumped by a turbo-pump through a 
-\begin_inset Formula $\frac{1}{4}"$
+\begin_inset Formula $\nicefrac{1}{4}"$
 \end_inset
 
  pipe.
@@ -763,7 +753,7 @@ Next Generation
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -787,7 +777,7 @@ name "fig:NGsetup'"
 
 The so-called 'Next Generation' setup.
  To simplify the drawing, the buffer volume has been drawn several times.
- Tha black square represents the containment volume.
+ The black square represents the containment volume.
  The valve pointing into nothing is used for ventilating the containment
  volume.
  De orange structure connected via a feed-through into the containment volume
@@ -896,21 +886,21 @@ key "kms_pirani"
 
 mbar to atmosphere and contains a serial communication interface.
  The gas handling is implemented as 
-\begin_inset Formula $\frac{1}{4}"$
+\begin_inset Formula $\nicefrac{1}{4}"$
 \end_inset
 
  tubing welded to the flange and connected via VCR fittings to bellows on
  the inside which is again welded to the metal interface block.
- For the top 8
-\begin_inset Quotes erd
+ For the top 
+\begin_inset Formula $8"$
 \end_inset
 
  flange (that is, the 'lid' of the construction) we currently have two choices.
  Either we can mount a full-sized window providing optical contact to the
  sample, or a traditional blind flange with a hole drilled by our wonderful
  workshop at the position exactly above the sample.
- Here we can mount a 2
-\begin_inset Quotes erd
+ Here we can mount a 
+\begin_inset Formula $2"$
 \end_inset
 
  Germanium wafer.
@@ -1046,9 +1036,9 @@ The new setup consists of no less than three separate vacuum chambers and
  needs.
  But adding six roughing pumps to the system is not really a realistic option,
  partly because roughing pumps are expensive and partly because of very
- low-tech problems regarding having so many roughing pumps in lab.
+ low-tech problems regarding having so many roughing pumps in the lab.
  For this reason we have designed the system in a way, where 'only' three
- rouging pumps are needed to run both microreactor system.
+ rouging pumps are needed to run both microreactor systems.
  One pump is shared between the main chambers of the old and the NG setup.
  Since the main chambers are true UHV chambers, the gas-load is low and
  we have no problems with pumping capacity.
@@ -1113,18 +1103,18 @@ key "oringe"
 
 \begin_layout Standard
 Another useful modification that has so far been used way to little is the
- addition of a sniffer line from the reactor outlet via a computer actuated
- leak valve into the main chamber.
+ addition of a sniffer line from the reactor outlet via a computer controlled
+ piezo-actuated leak valve into the main chamber.
  The line is implemented as a 
-\begin_inset Formula $\frac{1}{8}"$
+\begin_inset Formula $\nicefrac{1}{8}"$
 \end_inset
 
  gas-line that connects the reactor outlet to the main chamber via the leak
  valve.
  It is very important that the line is as short as possible and with a small
  diameter since this line contains the gas mixture of the experiment at
- high pressures, and since this mixture might be explosive or poisonous
- the total volume should be minimized.
+ high pressures, and since this mixture might be explosive the total volume
+ should be minimized.
  The advantage of the line is that it opens up the option of doing in-situ
  blank experiments without removing the sample.
  Since mass spectrometers can give results that can be slightly difficult
@@ -1136,7 +1126,16 @@ Another useful modification that has so far been used way to little is the
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 Better heat distribution, optical access to sample
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -1173,14 +1172,14 @@ The purely electrical safety features are of course the most important,
  will be able to, especially because the need of activating a safety feature
  might easily be due to bugs in the software.
  The system is based on set points on the gauge controller.
- The controller (Agilent XGS600
+ The controller, an Agilent XGS600
 \begin_inset CommandInset citation
 LatexCommand cite
 key "xgs600"
 
 \end_inset
 
-) contains 8 so-called open-collector outputs which will turn on or off
+, contains 8 so-called open-collector outputs which will turn on or off
  based on pre-programmed pressure ranges.
  The electronic workshop has build an 8-channel open-collector
 \begin_inset Formula $\rightarrow$
@@ -1206,8 +1205,8 @@ mbar.
 
 \begin_layout Standard
 For the containment and buffer volume, the check is done on the roughing
- lines since the pirani gauges mounted directly on the chambers is not read
- out by the XGS controller.
+ lines since the pirani gauges mounted directly on the chambers are not
+ read out by the XGS controller.
  The typical safety limit for these chambers is 1
 \begin_inset space \thinspace{}
 \end_inset

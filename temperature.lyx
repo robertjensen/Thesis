@@ -69,12 +69,22 @@ name "chap:Temperature"
 \end_inset
 
 Temperature - heating and measuring temperature
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+Temperature
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 Measuring temperature accurately is always a difficult task.
  For the microreactor, the problem is especially tricky because the 2D-like
- structure and small thermal mass of the system means that is difficult
+ structure and small thermal mass of the system means that it is difficult
  to establish a well defined temperature across the entire reactor volume.
  To complicate things even further it is also highly difficult to achieve
  a constant temperature across the reactor.
@@ -84,8 +94,8 @@ Measuring temperature accurately is always a difficult task.
  This of course leads to temperature gradients along the chip.
  Also convention losses to the surroundings will contribute a non-homogeneous
  heat-loss to the surroundings.
- This given an ideal simple heating mechanism that simply delivers a constant
- power pr.
+ Thus, even given an ideal simple heating mechanism that simply delivers
+ a constant power pr.
  area to the entire chip, the result would be a non uniform temperature
  that would be hottest at the center of chip, colder along the edge and
  coldest at the contact between the interface block and the chip.
@@ -179,7 +189,7 @@ reference "eq:pid"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Box Frameless
@@ -200,7 +210,7 @@ status open
 \begin_inset Graphics
 	filename figures/new_temperature_control.png
 	display false
-	width 80text%
+	width 95text%
 
 \end_inset
 
@@ -250,7 +260,7 @@ status open
 \begin_inset Graphics
 	filename figures/new_temperature_control2.png
 	display false
-	width 80text%
+	width 95text%
 
 \end_inset
 
@@ -418,7 +428,7 @@ stent position on the front side obviously resulted in very large uncertainties
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -497,7 +507,7 @@ reference "chap:Sensitivity-measurements"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -505,8 +515,8 @@ status collapsed
 \begin_inset Graphics
 	filename figures/reaktor_varmelegeme.png
 	display false
-	width 8cm
-	rotateAngle 90
+	width 6cm
+	rotateAngle 180
 
 \end_inset
 
@@ -520,7 +530,7 @@ name "fig:reactor_new_heating_scheme"
 
 \end_inset
 
-The new heating structure.
+The integrated Pt heating structure.
  This is the heating mechanism that has been used for almost all work in
  this thesis.
 \end_layout

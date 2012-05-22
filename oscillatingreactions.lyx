@@ -711,6 +711,7 @@ reference "fig:oscil_extracts"
 
 
 \begin_inset Float figure
+placement t
 wide false
 sideways false
 status collapsed
@@ -1415,7 +1416,7 @@ reference "chap:Sensitivity-measurements"
 
 , we have measured turnover frequencies of CO oxidation on Pt in excess
  of 
-\begin_inset Formula $10^{6}$
+\begin_inset Formula $105^{6}$
 \end_inset
 
 
@@ -1430,8 +1431,18 @@ s
 \begin_inset Formula $\sim$
 \end_inset
 
-300 Pt nanoparticles contributing to the reactivity just before the end
- of the high- activity cycle.
+300
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+CHECK!!!
+\end_layout
+
+\end_inset
+
+ Pt nanoparticles contributing to the reactivity just before the end of
+ the high- activity cycle.
  This would correspond to an area of 14
 \begin_inset space \thinspace{}
 \end_inset

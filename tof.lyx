@@ -506,7 +506,7 @@ reference "fig:tof_photo"
 \begin_inset Formula $V_{D}$
 \end_inset
 
-, needs high voltages, all in the range of -4000--4000
+, needs high voltages, all in the range of -4000 -- +4000
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -514,16 +514,15 @@ V.
  Additionally the four entrance lenses needs a total of five different voltages
  (one lens also acts as a deflector and thus is in two parts).
  For one thing this means that we need quite a lot of power supplies, but
- this is a minor problem, most of the voltages can be supplied by two power
- multi-output supplies, since none of the components uses significant amounts
- of power.
+ this is a minor problem, most of the voltages can be supplied by two multi-outp
+ut supplies, since none of the components uses significant amounts of power.
  However, it is also evident that optimizing the system is not especially
  fun, since the parameter space is extremely large.
  Luckily it turns out that the entrance lenses can be optimized almost independe
 nt of the rest of the system, reducing the problem from an 11-dimensional
  problem to a five-dimensional problem and a six-dimensional problem.
- This is however still quite a lot and the initial tuning just to get a
- signal proved to be somewhat of challenge.
+ This is however still quite a lot and the initial tuning, just to get a
+ measureble signal, proved to be somewhat of a challenge.
  In this situation, it is highly recommended to operate the instrument in
  linear mode since this takes out another to dimensions of the initial optimizat
 ion problem.
@@ -933,7 +932,7 @@ Since the TOF-MS only measures flight time and not the actual mass of the
  All measurements are based on the CAD-drawings as supplied by Jordan Instrument
 s.
  A single free parameter, in the form of a correction to the length of the
- flight tube) is allowed to be fitted to minimize systematic error.
+ flight tube is allowed to be fitted to minimize systematic error.
  This free parameter turns out to be as small as 4.2
 \begin_inset space \thinspace{}
 \end_inset
@@ -951,6 +950,7 @@ Typically, the model is used together with the experimental determination
 
 \begin_layout Standard
 \begin_inset Float figure
+placement t
 wide false
 sideways false
 status collapsed
@@ -1034,7 +1034,7 @@ Simulation of the reflectron
 An interesting side effect of the model is that besides predicting the expected
  flight times for a given particle, it will also plot the trajectory of
  a given ion on its way trough the flight tube.
- This means that it can used to illustrate various concepts of the instrument.
+ This means that it can be used to illustrate various concepts of the instrument.
  
 \begin_inset Float figure
 wide false

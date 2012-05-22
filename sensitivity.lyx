@@ -536,7 +536,7 @@ The experiments was all performed by a procedure looking as follows.
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -664,7 +664,7 @@ Even though the experiment sound simple, data treatment is actually slightly
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -768,7 +768,7 @@ reference "fig:sensitivity_gas_correction"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -1343,7 +1343,7 @@ s
  which thus corresponds to 
 \begin_inset Formula 
 \[
-TOF_{Max}=\frac{7\times10^{11}\mbox{s}^{-1}\left(\mu\mbox{m}\right)^{-2}}{6.5\times10^{6}\left(\mu\mbox{m}\right)^{-2}}\approx10^{5}\mbox{site}^{-1}\mbox{s}^{-1}
+TOF_{Max}=\frac{7\times10^{11}\mbox{s}^{-1}\left(\mu\mbox{m}\right)^{-2}}{6.5\times10^{6}\left(\mu\mbox{m}\right)^{-2}}\approx10^{5}\,\mbox{site}^{-1}\,\mbox{s}^{-1}
 \]
 
 \end_inset

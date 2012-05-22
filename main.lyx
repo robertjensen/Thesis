@@ -60,32 +60,35 @@
 
 \begin_body
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+frontmatter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Title
 Microreactors for Heterogeneous Catalysis
 \end_layout
 
-\begin_layout Standard
-\begin_inset CommandInset toc
-LatexCommand tableofcontents
-
-\end_inset
-
-
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section*
+\begin_layout Chapter*
 Preface
-\begin_inset Newpage pagebreak
-\end_inset
-
-
 \end_layout
 
-\begin_layout Section*
+\begin_layout Standard
+...
+\end_layout
+
+\begin_layout Chapter*
 Abstract
 \end_layout
 
@@ -112,23 +115,66 @@ y measurement is presented.
  Finally the thesis contains an outlook of the possible future of the setup,
  several suggestions for improvements is discussed.
  
-\begin_inset Newpage pagebreak
-\end_inset
-
-
 \end_layout
 
-\begin_layout Section*
+\begin_layout Chapter*
 Dansk Resumé
-\begin_inset Newpage pagebreak
+\end_layout
+
+\begin_layout Standard
+...
+\end_layout
+
+\begin_layout Chapter*
+List of included papers
+\end_layout
+
+\begin_layout Standard
+Paper 1
+\end_layout
+
+\begin_layout Standard
+Self-sustained carbon monoxide oxidation oscillations on size-selected platinum
+ nanoparticles at atmospheric pressure 
+\end_layout
+
+\begin_layout Standard
+Paper 2
+\end_layout
+
+\begin_layout Standard
+High Mass Resolution Time of Flight Mass Spectrometer for Measuring Products
+ in Heterogeneous Catalysis in Highly Sensitive Microreactors 
+\end_layout
+
+\begin_layout Standard
+Paper 3
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
 \end_inset
 
 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+mainmatter
 \end_layout
 
-\begin_layout Section*
-List of included papers
-\begin_inset Newpage pagebreak
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "introduction.lyx"
+
 \end_inset
 
 
@@ -235,6 +281,22 @@ filename "danskresume.lyx"
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+backmatter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 bibfiles "litterature"
@@ -250,6 +312,7 @@ options "bibtotoc,plain"
 	template PDFPages
 	filename /home/robert/Documents/git/OscillationsPaper/paper.pdf
 	display false
+	extra LaTeX "pages=-"
 
 \end_inset
 
@@ -261,6 +324,19 @@ options "bibtotoc,plain"
 	template PDFPages
 	filename /home/robert/Documents/git/OscillationsPaper/supplementary.pdf
 	display false
+	extra LaTeX "pages=-"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset External
+	template PDFPages
+	filename /home/robert/Documents/git/CatalyticTOF/paper.pdf
+	display false
+	extra LaTeX "pages=-"
 
 \end_inset
 
