@@ -498,7 +498,7 @@ L55.243423 47.588236L55.243423 47.588236L55.090141 47.302321
 L55.084961 47.309883L54.992252 47.091685L54.992252 47.091685"/>
 </g>
 <g id="line2d4">
-<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#pe8c69d4a2a7438772318323fa4836b6b)" d="M63.709539 89.476207L63.709539 34.015748"/>
+<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#pe8c69d4a2a7438772318323fa4836b6b)" d="M63.150614 89.476207L63.150614 34.015748"/>
 </g>
 <g id="line2d5">
 <path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#pe8c69d4a2a7438772318323fa4836b6b)" d="M59.330675 89.476207L59.330675 34.015748"/>
@@ -1234,10 +1234,10 @@ L276.301515 94.535958L276.512445 93.709873M278.405481 94.177241
 L278.627960 95.250603L278.838441 103.215260L278.838441 103.215260"/>
 </g>
 <g id="line2d65">
-<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#p5cb82894d91682eb6372976a646733ba)" d="M189.473097 89.476207L189.473097 34.015748"/>
+<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#p5cb82894d91682eb6372976a646733ba)" d="M191.984721 89.476207L191.984721 34.015748"/>
 </g>
 <g id="line2d66">
-<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#p5cb82894d91682eb6372976a646733ba)" d="M198.503561 89.476207L198.503561 34.015748"/>
+<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#p5cb82894d91682eb6372976a646733ba)" d="M194.613116 89.476207L194.613116 34.015748"/>
 </g>
 <g id="matplotlib.axis3">
 </g>
@@ -2233,10 +2233,10 @@ L58.706783 106.003267L58.409975 106.010348L58.187757 106.022235
 L57.533425 106.029388L57.845849 106.043504"/>
 </g>
 <g id="line2d123">
-<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#p54eb962180efb118820a7ee672ae9f3a)" d="M82.029667 156.028757L82.029667 100.568299"/>
+<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#p54eb962180efb118820a7ee672ae9f3a)" d="M76.978385 156.028757L76.978385 100.568299"/>
 </g>
 <g id="line2d124">
-<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#p54eb962180efb118820a7ee672ae9f3a)" d="M70.386614 156.028757L70.386614 100.568299"/>
+<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#p54eb962180efb118820a7ee672ae9f3a)" d="M71.647939 156.028757L71.647939 100.568299"/>
 </g>
 <g id="matplotlib.axis6">
 </g>
@@ -3247,7 +3247,7 @@ L241.151927 183.674227M242.349565 203.970495"/>
 <path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#p5a2e1e19e3f14be465e158ab1f1a5981)" d="M207.048653 156.028757L207.048653 100.568299"/>
 </g>
 <g id="line2d185">
-<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#p5a2e1e19e3f14be465e158ab1f1a5981)" d="M218.486297 156.028757L218.486297 100.568299"/>
+<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#p5a2e1e19e3f14be465e158ab1f1a5981)" d="M213.975704 156.028757L213.975704 100.568299"/>
 </g>
 <g id="matplotlib.axis8">
 </g>
@@ -4241,10 +4241,10 @@ L72.596325 178.716235L71.864040 175.646805L71.676704 172.643350
 L71.428966 172.624653L68.763310 172.699870L68.763310 172.699870"/>
 </g>
 <g id="line2d242">
-<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#p75a5c8f29015d5cf715a36d78da7efba)" d="M87.428742 222.581308L87.428742 167.120849"/>
+<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#p75a5c8f29015d5cf715a36d78da7efba)" d="M79.030053 222.581308L79.030053 167.120849"/>
 </g>
 <g id="line2d243">
-<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#p75a5c8f29015d5cf715a36d78da7efba)" d="M76.182711 222.581308L76.182711 167.120849"/>
+<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#p75a5c8f29015d5cf715a36d78da7efba)" d="M75.507487 222.581308L75.507487 167.120849"/>
 </g>
 <g id="matplotlib.axis11">
 </g>
@@ -5547,10 +5547,10 @@ L205.922809 170.862953L204.379660 170.837320L203.700722 170.937970
 L203.543366 170.910604L203.391529 170.901468L203.391529 170.901468"/>
 </g>
 <g id="line2d303">
-<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#p9ba99b1b9fef0b85e843e02f95239d44)" d="M221.094399 222.581308L221.094399 167.120849"/>
+<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#p9ba99b1b9fef0b85e843e02f95239d44)" d="M220.262467 222.581308L220.262467 167.120849"/>
 </g>
 <g id="line2d304">
-<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#p9ba99b1b9fef0b85e843e02f95239d44)" d="M214.855375 222.581308L214.855375 167.120849"/>
+<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#p9ba99b1b9fef0b85e843e02f95239d44)" d="M216.354154 222.581308L216.354154 167.120849"/>
 </g>
 <g id="matplotlib.axis13">
 </g>
@@ -7033,10 +7033,10 @@ L166.800042 287.901429L167.032125 292.488119L167.165936 289.911006
 L167.165936 289.911006"/>
 </g>
 <g id="line2d361">
-<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#p43e035600674c711484fb125063680a8)" d="M79.681616 289.133858L79.681616 233.673400"/>
+<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#p43e035600674c711484fb125063680a8)" d="M76.160106 289.133858L76.160106 233.673400"/>
 </g>
 <g id="line2d362">
-<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#p43e035600674c711484fb125063680a8)" d="M100.672540 289.133858L100.672540 233.673400"/>
+<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#p43e035600674c711484fb125063680a8)" d="M81.967982 289.133858L81.967982 233.673400"/>
 </g>
 <g id="matplotlib.axis16">
 <g id="xtick1">
@@ -10260,7 +10260,7 @@ L208.820064 236.787269L206.687651 236.863699L206.599484 236.849397
 L206.599484 236.849397"/>
 </g>
 <g id="line2d430">
-<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#p819d1268e0a9c489b3c1cc58f18f5489)" d="M246.206831 289.133858L246.206831 233.673400"/>
+<path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#p819d1268e0a9c489b3c1cc58f18f5489)" d="M243.985845 289.133858L243.985845 233.673400"/>
 </g>
 <g id="line2d431">
 <path style="fill: none; stroke: #000000; stroke-width: 1.000000; stroke-linejoin: round; stroke-linecap: square;  opacity: 1.000000" clip-path="url(#p819d1268e0a9c489b3c1cc58f18f5489)" d="M237.728659 289.133858L237.728659 233.673400"/>

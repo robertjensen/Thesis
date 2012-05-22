@@ -245,5 +245,27 @@ options "bibtotoc,plain"
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset External
+	template PDFPages
+	filename /home/robert/Documents/git/OscillationsPaper/paper.pdf
+	display false
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset External
+	template PDFPages
+	filename /home/robert/Documents/git/OscillationsPaper/supplementary.pdf
+	display false
+
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
