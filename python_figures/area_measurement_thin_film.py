@@ -55,14 +55,18 @@ for i in range(0,len(times)):
     start = times[i]+config.start
     end = times[i]+config.end
     mean_y = [sum(data['M44'][start:start+20,1])/20,sum(data['M44'][end-20:end,1])/20]
-    mean_x = [data['M44'][start+20,0],data['M44'][end-20,0]]
-    axis_array[i].plot(data['M44'][start:end,0], data['M44'][start:end,1], 'r-')
+    mean_x = [data['M44'][start+20,0]/60,data['M44'][end-20,0]/60]
+    axis_array[i].plot(data['M44'][start:end,0]/60, data['M44'][start:end,1], 'r-')
     axis_array[i].plot(mean_x, mean_y, 'b-')
     axis_array[i].set_ylim(0,0.25)
+    axis_array[i].set_xlim(data['M44'][start,0]/60,data['M44'][end,0]/60)
     if not i % config.layout_x == 0:
         axis_array[i].set_yticks([])
+        axis_array[i].set_xticks([199,202,205,208])
     else:
         axis_array[i].set_yticks([0,0.05,0.1,0.15,0.2])
+        axis_array[i].set_xticks([74,77,80,83])
+        axis_array[i].set_ylabel('SEM Current / nA', fontsize=d.y_axis_font)    
     #axis_array[i].set_xticks([])
     axis_array[i].ticklabel_format(useOffset=False)
     f2 = interpolate.interp1d([start,end], mean_y)
@@ -70,8 +74,9 @@ for i in range(0,len(times)):
     for j in range(start,end):
         charge = charge + (data['M44'][j,1]-f2(j))*(data['M44'][j,0]-data['M44'][j-1,0])
     print charge
-    
-    axis_array[i].text(0.15, 0.8,round(charge,2),horizontalalignment='center',verticalalignment='center',transform = axis_array[i].transAxes,fontsize=10)
+
+    axis_array[i].set_xlabel('Time / min', fontsize=d.y_axis_font)    
+    #axis_array[i].text(0.15, 0.8,round(charge,2),horizontalalignment='center',verticalalignment='center',transform = axis_array[i].transAxes,fontsize=10)
 
     axis_array[i].tick_params(direction='in', right='off',length=d.ticklength, width=1, colors='k',labelsize=d.labelsize,axis='both',pad=d.pad)
     
