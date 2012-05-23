@@ -97,23 +97,89 @@ This thesis is the summary of my work on the microreactor platform.
  The concept of microreactors are presented and some of the experimental
  challenges are outlined.
  The various experimental issues regarding the platform is discussed and
- the actual implementation of three generations of the setup is discussed
+ the actual implementation of three generations of the setup is described
  in detail.
  Since heating and temperature measurement is an extremly important point
  in heterogenous catalysis, an entire chapter is dedicated to this subject,
- three different types of heaters has been implemented and tested.
- It is shown how it is in principle possible to quantify the available amount
- of active catalys surface area by reacting of an adsorbed layer of oxygen
- with CO.
- Some results from the reactors are presented, in particular oscillating
- CO-oxidation on Pt nanoparticles are discussed, but also data from a sensitivit
-y measurement is presented.
- Various methods of gaining insight into the reactor besides the normal
- quadropole mass spectrometer is discussed, in particaluar a chapter is
- devoted to the application of a Time-Of-Flight mass spectrometer on the
- setup.
- Finally the thesis contains an outlook of the possible future of the setup,
- several suggestions for improvements is discussed.
+ three different types of heaters has been implemented and tested both for
+ repeatability and homogenety of the heating as well as the maximal achievable
+ temperature.
+ The currently best solution for heating and measuring temperature is to
+ use several integrated Pt-strips as ohmic heaters and and a separate 4-point
+ Pt meander structure as a resistance thermometer.
+ 
+\end_layout
+
+\begin_layout Standard
+It is shown how it is possible to quantify the available amount of active
+ catalys surface area by reacting of an adsorbed layer of oxygen with CO.
+ This procedure can be performed at temperatures low enough that sintering
+ of Pt nanoparticles are not an issure.
+ 
+\end_layout
+
+\begin_layout Standard
+Some results from the reactors are presented.
+ In particular an unexpected oscillation phenomenon of CO-oxidation on Pt
+ nanoparticles are presented in detail.
+ The sensitivity of the reactors are currently being investigated with CO
+ oxidation on Pt as a test reaction, and the results so far are presented.
+ We have at this point shown that we are able to reach full conversion with
+ a catalyst area of 38
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset Formula $\mu$
+\end_inset
+
+m
+\begin_inset Formula $^{2}$
+\end_inset
+
+ with a turn over freqeuncy of 
+\begin_inset Formula $10^{5}$
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+site
+\begin_inset Formula $^{-1}$
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+s
+\begin_inset Formula $^{-1}$
+\end_inset
+
+.
+ The apparant activation energy is found to be approximately 
+\begin_inset Formula $\sim1.2$
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+eV.
+ We expect to be able to go to even lower amounts of Pt and corresponding
+ higher turn over frequencies by increasing the temperature further.
+\end_layout
+
+\begin_layout Standard
+Various methods of gaining insight into the reactor besides the normal quadropol
+e mass spectrometer is discussed, in particaluar a chapter is devoted to
+ the application of a Time-Of-Flight mass spectrometer on the setup.
+\end_layout
+
+\begin_layout Standard
+Finally the thesis contains an outlook of the possible future of the setup,
+ several suggestions for improvements are discussed.
  
 \end_layout
 
@@ -122,7 +188,33 @@ Dansk Resumé
 \end_layout
 
 \begin_layout Standard
-...
+
+\lang danish
+I denne afhandling findes en gennemgang af mit arbejde på mikroreaktorplatformen.
+ Begrebet mikroreakter introduceres og nogle af de eksperimentelle udfordringer
+ gennemgås.
+ De forskellige eksperimentelle forhold omkring platformen diskuteres og
+ den fysiske implementering af tre generation af forsøgsplatformen gennemgås
+ i detaljer.
+ Da opvarmning og temperaturmåling er af afgørende betydning i heterogen
+ katalyse, bruges et helt kapitel på gennemgang af dette.
+ Tre forskellige metoder til opvarmning og temperaturmåling gennemgås, heraf
+ er to af dem udviklet som en del af dette projekt.
+ Opvarmningsmetoderne er testet både for repeterbarhed og homogenitet af
+ opvarmningen såvel som for den højest opnåelige temperaturer.
+ Det er den nuværende opfattelse, at den bedste løsning på temperaturspørgsmålet
+ er at anvende flere separate integrerede Pt-strukturer som varmer via ohmsk
+ opvarmning, samt en separat 4-punkts meander strukter som fungerer som
+ et modstandstermometer.
+\end_layout
+
+\begin_layout Standard
+
+\lang danish
+Enkelte resultater af målinger med mikroreaktorerne gennemgås.
+ Specielt diskuteres et overraksende fænomen, hvor aktiviteten af Pt nanopartikl
+er oscillerer i tid når partiklerne fungerer som katalysatorer for CO oxidation.
+ Følsomheden er reaktorerne 
 \end_layout
 
 \begin_layout Chapter*
