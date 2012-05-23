@@ -4,7 +4,7 @@ execfile('std_header.py')
 fig = plt.figure()
 fig.subplots_adjust(left=d.left_room) 
 fig.subplots_adjust(bottom=d.bottom_room)
-fig.subplots_adjust(right=d.right_room) 
+fig.subplots_adjust(right=d.right_room*0.95) 
 
 ratio = d.ratio
 fig_width = d.width
@@ -29,7 +29,7 @@ axis = fig.add_subplot(1,1,1)
 
 axis.semilogy(data['M28'][:,0], data['M28'][:,1], 'r-')
 axis.semilogy(data['M44'][:,0], data['M44'][:,1], 'g-')
-#axis.set_ylim(0,0.5)
+axis.set_ylim(0.2,100)
 #axis_array[i].set_xlim(1100,0)
 
 axis.tick_params(direction='in', length=d.ticklength, width=2, colors='k',labelsize=d.labelsize,axis='both',pad=d.pad)
@@ -39,8 +39,14 @@ axis.set_xlabel('Time / Minutes', fontsize=d.x_axis_font)
 
 
 axis2 = axis.twinx()
-axis2.plot(data['TEMPERATURE'][:,0], data['TEMPERATURE'][:,1], 'k-')
+axis2.plot(data['TEMPERATURE'][:,0], data['TEMPERATURE'][:,1], 'b-')
 axis2.set_ylabel('Temperature / $^\circ$C', fontsize=d.y_axis_font)
+
+arrow = dict(facecolor='black',arrowstyle='->')
+axis.annotate('CO', xy=(200, 12),  xycoords='data', xytext=(110, 5), textcoords='data', arrowprops=arrow, horizontalalignment='right', verticalalignment='center',fontsize=d.arrowfont,)
+axis.annotate('CO$_2$', xy=(200, 0.7),  xycoords='data', xytext=(300, 1.4), textcoords='data', arrowprops=arrow, horizontalalignment='right', verticalalignment='center',fontsize=d.arrowfont,)
+axis.annotate('Temp', xy=(420, 35),  xycoords='data', xytext=(540, 60), textcoords='data', arrowprops=arrow, horizontalalignment='right', verticalalignment='center',fontsize=d.arrowfont,)
+
 
 #plt.show()
 plt.savefig('../svg_figures/non_boded_sample.svg')

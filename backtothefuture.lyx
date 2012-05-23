@@ -67,8 +67,8 @@ Future plans
 
 \begin_layout Standard
 Ever since I joined the microreactor team, the setup has been in a permanent
- state of flux, and I am happy that this condition does not seem to end
- any time soon.
+ state of flux, and I am very happy that this condition does not seem to
+ end any time soon.
  So far we have several plans for enhancements, some is almost guaranteed
  to be implemented and others are perhaps somewhat more optimistic.
 \end_layout
@@ -95,16 +95,24 @@ Better software
 \begin_layout Standard
 Most of the software is currently written as a few rather monstrous LabView
  programs because this has been the default language at the department.
- However, we are now slowly moving to a more modular approach where sub-sections
- of the code can be separated into individual programs, possibly written
+ However, these very large LabView problems suffers from poor stability
+ and a difficult learning curve for new students and very difficult debugging,
+ thus we are now slowly moving to a more modular approach where sub-sections
+ of the code can be separated into individual programs, preferably written
  in other programming languages, so far we already interface quite a few
- instruments in Python on other setups and it would be obvious to gradually
- also turn the microreactors in this direction.
+ instruments in Python
+\begin_inset CommandInset citation
+LatexCommand cite
+key "pyexplabsys"
+
+\end_inset
+
+ on other setups and it would be obvious to gradually also turn the microreactor
+s in this direction.
 \end_layout
 
 \begin_layout Paragraph
 Mounting for a microscope on the NG setup.
- 
 \end_layout
 
 \begin_layout Standard
@@ -122,15 +130,23 @@ reference "chap:Analytical-techniques"
 , it could be interesting to be able to do high-quality optical imaging
  of the sample while running experiments.
  However, actually getting good images has turned out to be a nightmare
- of practicallities.....
- mount dedicated holder...
- dedicated instrument....
+ of practicalities.
+ What would be a perfect solution would be a holder mounted in a fixed position
+ compared to the sample to allow for self-consistent images.
+ If one is allowed so be even slightly more ambitious, the holder should
+ contain an actuated x-y stage and a computer interfaced microscope to allow
+ for scanning the position and do systematic imaging.
+ This would be necessary if one want to do high resolution imaging of the
+ sample to search for temperature fingerprints of the reactions in the reactor.
 \end_layout
 
-\begin_layout Itemize
-Adding an optional pumping path between the buffer chambers and the turbo.
- Currently the buffer chambers are pumped by a turbo pump through 
-\begin_inset Formula $1/4"$
+\begin_layout Paragraph
+Adding an optional pumping path between the buffer chambers and the turbo
+\end_layout
+
+\begin_layout Standard
+Currently the buffer chambers are pumped by a turbo pump through 
+\begin_inset Formula $\nicefrac{1}{4}"$
 \end_inset
 
  tubing because this limited radius protects the turbo when large amount
@@ -150,16 +166,58 @@ Adding an optional pumping path between the buffer chambers and the turbo.
  new sample before starting measurements.
 \end_layout
 
-\begin_layout Itemize
-Re-building the old setup.
- Currently only one of our setups are equipped with the newest improvements
+\begin_layout Paragraph
+Re-building the old setup
+\end_layout
+
+\begin_layout Standard
+Currently only one of our setups are equipped with the newest improvements
  of full automation and an evacuated containment volume, these improvements
  obviously need to be applied to the other setup as well.
 \end_layout
 
-\begin_layout Itemize
-In-situ deposition and bonding under UHV conditions.
- This is a slightly ambitious project but with a potentially very high value.
+\begin_layout Paragraph
+Higer pressures
+\end_layout
+
+\begin_layout Standard
+Currently we are able to work in the pressure range of 0-2.5
+\begin_inset space \thinspace{}
+\end_inset
+
+bars.
+ For some reactions it would very usefull to be able to reach higher pressures
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Skulle man indsætte en graf fra Cu/Zn forsøget samt måske Ibs gamle graf?
+\end_layout
+
+\end_inset
+
+.
+ Currently we are limited by the pressure controllers but these could of
+ course be replace simply by buying new ones.
+ However, even though 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+mere...
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+In-situ deposition and bonding under UHV conditions
+\end_layout
+
+\begin_layout Standard
+This is a slightly ambitious project but with a potentially very high value.
  The point would be to build a chamber where it is possible to deposit cluster
  samples on a microreactor, perform various kinds of analysis and finally
  bond the sample, all under UHV conditions.
@@ -183,9 +241,12 @@ bar of inert gas before removing it from the bonding setup.
  storage.
 \end_layout
 
-\begin_layout Itemize
-UHV connection between sputter deposition chamber and cluster deposition.
- CINF recently acquired a high-quality sputter deposition system capable
+\begin_layout Paragraph
+UHV connection between sputter deposition chamber and cluster deposition
+\end_layout
+
+\begin_layout Standard
+CINF recently acquired a high-quality sputter deposition system capable
  of depositing a very large range of materials, including many oxides.
  If this system is attached to the future in-situ bonding setup, it would
  be possible to use the microreactor for exploring a wide range of substrate
@@ -194,8 +255,26 @@ UHV connection between sputter deposition chamber and cluster deposition.
  before finally bonding and remove the sample, all under highly clean conditions.
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Paragraph
 Application of in-situ techniques
+\end_layout
+
+\begin_layout Standard
+This is of course the crown jewel of all wishes for the future.
+ There can be no doubt that the single greatest weakness of the microreactor
+ platform is the lack of in-situ (or even ex-situ for that matter...) surface
+ sensitive techniques.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Mere her, når teknik-kapitlet er færdigt.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body

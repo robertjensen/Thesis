@@ -84,14 +84,91 @@ A major disadvantage of the microreactor setup is the distinct lack of analytic
  Even postmortem analysis is difficult because no known way exist to open
  up an anodic bonding in a non-destructive way.
  Doing the project we have time and time again discussed the possibility
- of adding any kind of instrumentation that would reveal insight into either
+ of adding any kind of instrumentation that would reveal insight either
  in-situ doing reaction or just means to investigate the surface before
  and after exposing it to reaction conditions.
+ In this chapter, I will briefly discuss a number of techniques that has
+ so far been discussed but not actually applied as well as some we have
+ already tried.
+\end_layout
+
+\begin_layout Section
+Feasibility study
 \end_layout
 
 \begin_layout Standard
-LIST THE VARIOUS TECHNIQUES THAT HAS BEEN DISCUSSED (RAMAN, FT-IR, plasmonic
- structures, XRD, synchrotron hi-pressure XPS, Plasmonic structures.....)
+Several possible techniques has been proposed and some of them might actually
+ be useful, some of the techniques we have discussed includes:
+\end_layout
+
+\begin_layout Paragraph
+Raman Spectroscopy
+\end_layout
+
+\begin_layout Standard
+This would seem to be an obvious technique which in principle provides much
+ useful information.
+ However, after several discussions with the Raman experts at the department,
+ we have come to the conclusion, that the technique is not sensitive enough
+ to help us.
+ So-called Surface Enhanced Raman Spectroscopy might be able to help, but
+ also here several problems exists that will seriously complicate the applicatio
+n this technique.
+\end_layout
+
+\begin_layout Paragraph
+FT-IR and other infrared techniques
+\end_layout
+
+\begin_layout Standard
+This seems to be a fairly realistic option since FT-IR equipment is actually
+ available at CINF.
+ However, sensitivity is expected to be a major problem, and as an extra
+ complication, the sample will need to be fully transparent.
+ Actually such a transparent reactor has been developed to be used in photo
+ catalytic applications (a major area of research at CINF but not part of
+ my work), but since this reactor consists almost exclusively of various
+ types of glass, heat conduction is terrible and thus we would need to find
+ a completely new way of heating the sample, possibly by emerging the sample
+ in a stream of hot air.
+ However, mounting all this inside an FT-IR instrument does seem to be quite
+ a challenge....
+\end_layout
+
+\begin_layout Paragraph
+Plasmonic structures
+\end_layout
+
+\begin_layout Standard
+A few years ago, the group of Bengt Kasemo at Chalmers University published
+ a novel in-situ technique utilizing a shift in the plasmon frequency of
+ metal structures.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Larsson2009"
+
+\end_inset
+
+ This technique is interesting because it is highly sensitive and in principle
+ it is fairly easy to introduce in the microreactors.
+ The principle is that one before bonding the reactor deposits a number
+ of small gold-disks on the lid of the reactor.
+ These gold discs can be covered by enough SiO
+\begin_inset Formula $_{2}$
+\end_inset
+
+ that there will be no risk of contaminating the reactor with the gold.
+ By monitoring the plasmon frequency of the disks, one is in principle able
+ to measure various parameters such as temperature and gas-composition in
+ the reactor.
+ Unfortunately only a signal parameter, the plasmon frequency, is measured
+ and since it depends on many properties of the reactor, it can be quite
+ difficult to interpret the result.
+ In corporation with the developers of the system, we have done several
+ attempts to apply the technique in the microreactors, but so far the project
+ has failed due to problems with resonance between reflections from the
+ bottom of the reactor and from the plasmonic structures.
+ We, however, still have hopes that this technique can applied in some form.
 \end_layout
 
 \begin_layout Section
@@ -99,8 +176,8 @@ Postmortem analysis
 \end_layout
 
 \begin_layout Standard
-It would seem obvious that the least ambitious way of gaining insight into
- the surface is to simply analyze the surface after is has been exposed
+It would seem obvious that the easiest way of gaining insight into the surface
+ of the catalyst is to simply analyze the surface after is has been exposed
  to the relevant experiments.
  This will typically mean that the reactor is somehow opened up after the
  experiment.
@@ -109,8 +186,8 @@ It would seem obvious that the least ambitious way of gaining insight into
  Simply removing the lid is by now considered to be impossible, there is
  simply no way of cleaving off the lid from the sample.
  Earlier it has been tried to simply break the sample using some sort of
- mechanical means such to crack the sample into a hopefully limited amount
- of pieces, some of these pieces will possibly be entirely within the reactor
+ mechanical means to crack the sample into a hopefully limited amount of
+ pieces, some of these pieces will possibly be entirely within the reactor
  area and therefore the lid will come off rather easily because it is only
  bonded to a few pillars.
  This method works and has been used to open samples to do XPS, but it is
@@ -125,13 +202,21 @@ It would seem obvious that the least ambitious way of gaining insight into
 For this reason a more reliable method is wanted.
  We went through several attempts before coming up with a working solution.
  Among the failed attempts was attempts to weaken the reactor with a diamond
- saw and then pressurizing the reactor to 2.5bar of over pressure hoping
- the pressure would push out a piece of the reactor.
- Etching the lid away with HF gas also been considered but this is a really
- bad solution both because of the long list of safety concerns with and
- HF and also because it is a very dirty way of opening since HF will inevitably
- leak into the reactor volume and thus contaminate the sample before the
- further investigation.
+ saw and then pressurizing the reactor to 2.5
+\begin_inset space \thinspace{}
+\end_inset
+
+bar of over pressure hoping the pressure would push out a piece of the reactor.
+ This did not work, even the weakened reactor showed no sign of cracking
+ at 2.5
+\begin_inset space \thinspace{}
+\end_inset
+
+bar.
+ Etching the lid away with HF has also been considered but this is a really
+ bad solution both because of the long list of safety concerns with HF and
+ also because it is a very dirty way of opening the reactor since HF will
+ inevitably leak into the reactor volume and thus contaminate the sample.
 \end_layout
 
 \begin_layout Standard
@@ -152,8 +237,8 @@ reference "fig:xps_looking_for_Ni"
 
 \end_inset
 
- where we have taken a sample exposed to very large amounts of CO to be
- sure that the sample is not polluted by Nickel carbonyl, 
+ where we have taken a sample exposed to very large amounts of CO to check
+ if the sample is polluted by nickel carbonyl, 
 \begin_inset Formula $\mbox{Ni}\left(\mbox{CO}\right)_{4}$
 \end_inset
 
@@ -173,7 +258,7 @@ status collapsed
 \begin_inset Graphics
 	filename svg_figures/xps_looking_for_Ni.svg
 	display false
-	width 13cm
+	width 12cm
 
 \end_inset
 
@@ -189,7 +274,7 @@ name "fig:xps_looking_for_Ni"
 
 XPS spectrum of a sample exposed to very large amounts of CO at both high
  and low temperature.
- It is evident that no significant amount of Nickel carbonyl has been deposited
+ It is evident that no significant amount of nickel carbonyl has been deposited
  on the surface.
  
 \end_layout
@@ -211,9 +296,11 @@ Of course postmortem analysis is not always a useful solution.
  the final state of the sample, no intermediate situations can be measured
  unless one prepares a number of identical samples and stop them at various
  intermediate steps of the measurement.
- Also, the product surface will necessarily be exposed to air to be cut
- out with the saw and to be mounted in a chamber equipped with XPS.
- This of course somewhat limits scope of this kind of analysis.
+ Also, the surface will necessarily be exposed to air to be cut out with
+ the saw and to be mounted in a chamber equipped with XPS.
+ This of course somewhat limits scope of this kind of analysis since many
+ interesting features of the sample will be long gone before the sample
+ reaches the analytic tool to be applied.
 \end_layout
 
 \begin_layout Section
@@ -221,15 +308,57 @@ Non-bonded samples
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename svg_figures/non_boded_sample.svg
+	display false
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:non_bonded_sample"
+
+\end_inset
+
+CO oxidation on a non-bonded sample.
+ The lid is simply clamped to the sample.
+ All qualitative features of CO oxidation on Pt can be seen despite the
+ low sensitivity.
+ The large noise level is this particular measurement was due to a problem
+ with the electric connection to the flow controller, not a feature of the
+ non-bonded sample.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
 To solve the problem of the destructive process of the diamond saw, we tried
  another solution to be able to do XPS on our samples.
  Since one of our microreactor setups operates the entire sample in an evacuated
- chamber, it is in principle possible to run experiments in potentially
- leaking samples without atmospheric air entering the sample and without
- risk of potentially poisonous gasses (in our setup the most poisonous gas
- is typically CO) escaping to the surroundings.
- This means that we can run experiments that has not been bonded, simply
- by mechanically clamping the lid to the sample and mount it in the setup.
+ chamber, it is in principle possible to run experiments on heavily leaking
+ samples without atmospheric air entering the sample and without risk of
+ potentially poisonous gasses (in our setup the most poisonous gas is typically
+ CO) escaping to the surroundings.
+ This means that we can run experiments on samples that has not been bonded,
+ simply by mechanically clamping the lid to the sample and mount it in the
+ setup.
  This of course has a major disadvantage in the fact, that the reactor volume
  will leak heavily into the containment volume, and thus we loose the property
  that all reacting gas will enter the QMS and hence the sensitivity is lowered
@@ -253,7 +382,21 @@ ex-situ
 \end_layout
 
 \begin_layout Standard
-Unfortunately, we never got time to do 
+A proof-of-concept of this technique is shown in figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:non_bonded_sample"
+
+\end_inset
+
+ which shows CO oxidation on a Pt thin film.
+ It is easy to see that the sample do reach light-off even though the poor
+ sensitivity means that the signal is not nearly as good as for a properly
+ bonded sample.
 \end_layout
 
 \begin_layout Section
@@ -263,25 +406,49 @@ Optical methods
 \begin_layout Standard
 As discussed earlier we would very much like to try to look for a thermal
  sign of where the reactivity is actually taking place in the reactor.
+ Since small parts of the sample could potentially become very hot, we have
+ a vague hope, that we might be able to see this using a standard CCD camera.
+ If this is possible, we open up the possibility of using classical optical
+ methods which have a much higher resolution than thermographic cameras.
+ We have done several attempts at this and have also successfully imaged
+ the heating element, but so far we have not been able to find signs of
+ local heating of the catalyst, however, we not given up yet.
 \end_layout
 
 \begin_layout Standard
-...
-\end_layout
-
-\begin_layout Standard
-The ultimate goal for this kind of technique would be to be able to see
- the optical trace of very local heating of the catalyst...
- also...
- changes to the sample such as change of color or morphology....
-\end_layout
-
-\begin_layout Standard
-...
+Besides the rather ambitious project of imaging the temperature profile,
+ optical methods can also be highly useful for more ordinary tasks.
+ Many samples changes color doing oxidation or reduction cycles which could
+ be useful to image while the experiment is running.
+ Also, some samples undergo macroscopic morphology changes during certain
+ reactions, for example we have seen several continuous Pd thin films crack
+ to pieces doing methanation reactions, also this could be interesting to
+ measure in a time resolved way.
 \end_layout
 
 \begin_layout Section
 Time-Of-Flight Mass Spectrometry
+\end_layout
+
+\begin_layout Standard
+Another way of extracting other kinds of information from the microreactors
+ is to use a different detection technique besides the usual Quadropole
+ Mass Spectrometer.
+ We have tried this by attaching a Time Of Flight Mass Spectrometer, this
+ has been a highly successful project and for this reason, this subject
+ has been moved to its own chapter, the story of the TOF can thus be found
+ in chapter
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:Time-Of-Flight"
+
+\end_inset
+
+.
 \end_layout
 
 \end_body

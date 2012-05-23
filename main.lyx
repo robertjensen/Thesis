@@ -129,7 +129,7 @@ Dansk Resumé
 List of included papers
 \end_layout
 
-\begin_layout Standard
+\begin_layout Section*
 Paper 1
 \end_layout
 
@@ -138,7 +138,7 @@ Self-sustained carbon monoxide oxidation oscillations on size-selected platinum
  nanoparticles at atmospheric pressure 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Section*
 Paper 2
 \end_layout
 
@@ -147,7 +147,7 @@ High Mass Resolution Time of Flight Mass Spectrometer for Measuring Products
  in Heterogeneous Catalysis in Highly Sensitive Microreactors 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Section*
 Paper 3
 \end_layout
 
@@ -307,6 +307,30 @@ options "bibtotoc,plain"
 
 \end_layout
 
+\begin_layout Chapter*
+Papers
+\end_layout
+
+\begin_layout Section*
+Paper 1
+\end_layout
+
+\begin_layout Paragraph
+Self-sustained carbon monoxide oxidation oscillations on size-selected platinum
+ nanoparticles at atmospheric pressure 
+\end_layout
+
+\begin_layout Standard
+Submitted to ACS Nano.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset External
 	template PDFPages
@@ -329,6 +353,19 @@ options "bibtotoc,plain"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section*
+Paper 2
+\end_layout
+
+\begin_layout Paragraph
+High Mass Resolution Time of Flight Mass Spectrometer for Measuring Products
+ in Heterogeneous Catalysis in Highly Sensitive Microreactors 
+\end_layout
+
+\begin_layout Standard
+Submitted to Review of Scientific Instruments
 \end_layout
 
 \begin_layout Standard
