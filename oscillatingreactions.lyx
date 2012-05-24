@@ -238,15 +238,15 @@ le, if the sample is exposed to a very oxygen-rich CO/O
 \end_layout
 
 \begin_layout Section
-Existing litterature
+Existing literature
 \end_layout
 
 \begin_layout Standard
 Once the initial excitement had settled and we came to the ordinary day
  to day work on the oscillations, we of course also started to look in to
  the literature to see if this had been seen before.
- A very famous example of oscillating reactions on Pt was discvored by Ertl
- and co-workers
+ A very famous example of oscillating reactions on Pt was discovered by
+ Ertl and co-workers
 \begin_inset CommandInset citation
 LatexCommand cite
 key "EISWIRTH1986"
@@ -288,7 +288,7 @@ key "Singh2010"
 
 \end_inset
 
- as well as wet-synthesied nano-particles, 
+ as well as wet-synthesized nano-particles, 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Zhdanov2002,Carlsson2006"
@@ -308,9 +308,9 @@ key "Gong2004"
 
 \begin_layout Standard
 Many of these papers have impressive in-situ measurements of the system
- while the oscillations are running and concensus seems to be that oscillations
- originate from the surface swithing between an oxidized and a reduced state
- with the oxidized state being the most active.
+ while the oscillations are running and consensus seems to be that oscillations
+ originate from the surface switching between an oxidized and a reduced
+ state with the oxidized state being the most active.
  Since we do not have access to traditional surface science techniques in
  the microreactors, our focus has been on getting truly high quality mass
  spectrometry and to investigate a fairly large parameter space.
@@ -322,9 +322,9 @@ Experimental procedure
 
 \begin_layout Standard
 After some experimentation we found an experimental procedure, which almost
- consitently ended up with an oscillating sample.
+ consistently ended up with an oscillating sample.
  As with almost all experiments, we do not do any pre-treatment (except
- of course the anodic bondic) before mounting the sample in the setup.
+ of course the anodic bonding) before mounting the sample in the setup.
  Initially after mounting the sample, a light-off CO-oxidation measurement
  is performed 
 \begin_inset Float figure
@@ -408,9 +408,9 @@ C/min until the sample ignites and achieves full conversion of CO to CO
 \end_inset
 
 C.
- The temperature ramp is typically continued a bit above light-off tempereture,
- mainly to be sure to actually achive light-off.
- Typically we continoued the ramp up to 260
+ The temperature ramp is typically continued a bit above light-off temperature,
+ mainly to be sure to actually achieve light-off.
+ Typically we continued the ramp up to 260
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -418,11 +418,11 @@ C.
 \begin_inset Formula $^{\circ}$
 \end_inset
 
-C whereafter the temperature is again decreased also at 3
+C where after the temperature is again decreased also at 3
 \begin_inset Formula $^{\circ}$
 \end_inset
 
-C/min until we reach room tempereture.
+C/min until we reach room temperature.
  Then the temperature is again increased at 3
 \begin_inset space \thinspace{}
 \end_inset
@@ -592,7 +592,7 @@ We of course spend quite a lot of effort to ensure that the phenomenon is
  etch on the lid at the position of the reactor.
  This of course greatly increases the timescale of the reactor and thus
  we should be able to tell if the oscillation phenomenon should be due to
- unforseen coinsedence between the reactor and other charecteristic timescale
+ unforeseen coincidence between the reactor and other characteristic timescale
  of the system.
  This sample also oscillated and thus further pointed towards that this
  is a true phenomenon.
@@ -600,12 +600,12 @@ We of course spend quite a lot of effort to ensure that the phenomenon is
  Even though this setup is in principle a copy of the old setup, is is anyway
  sufficiently different that it is hard to imagine experimental artifacts
  to be identical; in the new setup we have a different PID implementation,
- different length of the tubings as well as other flow controllers.
+ different length of the tubing as well as other flow controllers.
  Also this test showed oscillations with the same initial treatment.
  Finally we also did quite an effort to reproduce the phenomenon on Pt thin
  film of comparable coverage without ever seeing a single oscillation.
  We do not really understand why we cannot get thin-film samples to oscillate,
- it is known in litterature to be possible
+ it is known in literature to be possible
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Singh2010"
@@ -869,8 +869,8 @@ reference "fig:oscil_dutycycle"
  frequency.
  Thus we do not expect sintering to be the cause since an average loss in
  activity of the sample would be expected.
- Unfortuanetely this means that we have to accept that we so far do not
- have a satisfactory explanation of the increasing period.
+ Unfortunately this means that we have to accept that we so far do not have
+ a satisfactory explanation of the increasing period.
 \end_layout
 
 \begin_layout Section
@@ -878,27 +878,27 @@ Exploring the parameter space
 \end_layout
 
 \begin_layout Standard
-One great advangtage of the microreactor setup is, that we can fairly easily
+One great advantage of the microreactor setup is, that we can fairly easily
  investigate a rather lager parameter space of many different physical propertie
 s.
  In this system, the number of parameters to test is almost infinite, so
- we had no problems finding several properties to investigage.
+ we had no problems finding several properties to investigate.
  One significant complication in this exploration is that the reproducibility
  between samples is frustratingly low.
- Two nominaly identical samples show very different oscillation frequency
+ Two nominally identical samples show very different oscillation frequency
  and thus it is very hard to conduct systematic studies.
- However, since each individual sample show a very predictable behaviour
+ However, since each individual sample show a very predictable behavior
  of slowly increasing oscillation period, it is still possible to learn
  something by changing the value of temperature, pressure, etc.
  and watch for the change in oscillation frequency.
- The reason for the lack of reproducebility is properly due to a combination
+ The reason for the lack of reproducibility is properly due to a combination
  between irregularities in the deposition and the significant temperature
  gradient in the reactor.
- This means that if two othewise identical samples are deposited at slightly
+ This means that if two otherwise identical samples are deposited at slightly
  different positions in the reactor, the actual sample temperature will
  be different, even if the measured RTD temperature is the same.
  This in combination with rather large uncertainties in the deposited amounts
- for these low coverages are a very likely explanation for the poor reproducebil
+ for these low coverages are a very likely explanation for the poor reproducibil
 ity.
  Hopefully the temperature issue will be greatly reduced by a new heaters,
  and we are also looking into options for getting better deposition consistency.
@@ -1223,8 +1223,8 @@ key "Singh2010,Hendriksen2005"
 
  mixtures.
  The needed low concentration of CO in the inlet gases can be attributed
- to the much higher sticking coefficient of CO on Pt which poisons the nanoparti
-cle surface during the low reactivity region of the cycle.
+ to the much higher sticking coefficient of CO on Pt which poisons the nano
+ particle surface during the low reactivity region of the cycle.
 \end_layout
 
 \begin_layout Subsection
@@ -1240,7 +1240,7 @@ nm to 9
 \begin_inset space \thinspace{}
 \end_inset
 
-nmhave been tested but 3
+nm have been tested but 3
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -1248,9 +1248,9 @@ nm particles with a geometrical coverage of 0.1% of the reactor area gave
  the most stable oscillations.
  However, no change in duty cycle or frequency that could be attributed
  to the size of the nanoparticles was found.
- As mentioned, the reproducebility between sampleas are frustratingly low
+ As mentioned, the reproducibility between samples are frustratingly low
  and since the size dependence must necessarily involve comparing different
- samples the large variation between samples possibly shadows a nanoparticle
+ samples the large variation between samples possibly shadows a nano particle
  size effect.
 \end_layout
 
@@ -1372,7 +1372,7 @@ reference "fig:oscil_full_oscil"
  steep increase in reactivity.
  It is important to note that the fraction of oxidized particles needed
  to achieve full conversion is not known, since this will depend strongly
- on the detailed ultra local temperature distribution around each nanoparticle,
+ on the detailed ultra local temperature distribution around each nano particle,
  and since CO oxidation is strongly exothermic, the particles might be significa
 ntly hotter than the global temperature of the reactor.
 \end_layout
