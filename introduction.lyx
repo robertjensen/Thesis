@@ -284,7 +284,7 @@ Mere her...
 
 \end_inset
 
-
+....
 \end_layout
 
 \begin_layout Section
@@ -292,11 +292,78 @@ Microreactors for Heterogeneous Catalysis
 \end_layout
 
 \begin_layout Standard
-As the title of this thesis indicates, the main part of this work has not
- so much been on actual scientific results as it has been centered around
+As the title of this thesis indicates, the main focus of this theses is
+ not so much on actual scientific results as it has been centered around
  creating a world-class experimental setup for testing many kinds of heterogeneo
 us catalysis.
- 
+ This does not mean that the platform has not been used to do actual research,
+ doing my time at the setup, I we have performed a long list of investigations,
+ in close coorporation with a number of bachelor, master and ph.d.
+ students.
+ The list of systems investegated doing this period includes:
+\end_layout
+
+\begin_layout Itemize
+CO oxidation on Pd nano particles and thin films
+\end_layout
+
+\begin_layout Itemize
+Methanation on Pd nano particles and thin films
+\end_layout
+
+\begin_layout Itemize
+HD-exchange reactions on ultra small Pt nano clusters of 10 and 20 atoms
+\end_layout
+
+\begin_layout Itemize
+CO oxidation on ultra small Pt nano clusters of 10 to 50 atoms
+\end_layout
+
+\begin_layout Itemize
+Methanation on Pt nano particles
+\end_layout
+
+\begin_layout Itemize
+Ammonia oxidation on Pt nano particles
+\end_layout
+
+\begin_layout Itemize
+Ammonia oxidation on various metal thin films
+\end_layout
+
+\begin_layout Itemize
+Methanol synthethis on Cu thin films
+\end_layout
+
+\begin_layout Itemize
+Methanol synthethis on Cu/Zn thin films
+\end_layout
+
+\begin_layout Itemize
+...
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Flere?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For most of this work the main focus has been on establishing correlations
+ between structure and reativity, typically in the form of size dependence
+ of the catalyst for the particular reaction.
+ The results of this work will eventually be published in the theses of
+ the various collaborators as well as (hopefully) a number of scientific
+ papers.
+\end_layout
+
+\begin_layout Standard
+....
 \end_layout
 
 \end_body
