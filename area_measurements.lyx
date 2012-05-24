@@ -359,7 +359,7 @@ cm
 \end_layout
 
 \begin_layout Section
-Area measurements on various samples
+Area measurements on cluster sample
 \end_layout
 
 \begin_layout Standard
@@ -367,6 +367,16 @@ Of course to be usefull, the area measuements will also need to work on
  nano particle samples rather than just thin films.
  For this reason we have tested the procedure on several samples made on
  the cluster source.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Tag stilling til om der skal gennemgås mere end en.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
