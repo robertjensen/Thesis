@@ -108,13 +108,13 @@ nm, so in practice this is the available range from this source.
 \begin_layout Standard
 As part of the investigation we ran a simple CO oxidation experiment to
  calibrate equipment and get some basic data from the cluster sample for
- the Mikkel to get started.
+ Mikkel to get started.
  This experiment was finished a Saturday and since nobody was around to
  change the sample, the setup was available for random experimentation.
- One of the things we had on list of 'experiments to perform when we get
- the time' was a lightoff experiment with very low CO concentration to see
- how much this would bring down lightoff temperature, and thus it was obvious
- to let the setup spend the rest of the weekend on this.
+ One of the things we had on the list of 'experiments to perform when we
+ get the time' was a lightoff experiment with very low CO concentration
+ to see how much this would bring down lightoff temperature, and thus it
+ was obvious to let the setup spend the rest of the weekend on this.
  After running this experiment we looked at the data (figure
 \begin_inset space ~
 \end_inset
@@ -225,7 +225,7 @@ Two zooms of the 'noise' signal.
  noise source such as electrical noise or loose cabling in the mass-spec.
  The fact that the two signals was anti-correlated would be most easily
  explained by changes in the activity of sample even though this was not
- expected behaviour of this reaction.
+ our expectation for this reaction.
  To test this hypothesis, we performed the experiment several times on the
  same sample and came to the conclusion that the phenomenon was fully reproducib
 le, if the sample is exposed to a very oxygen-rich CO/O
@@ -253,9 +253,10 @@ key "EISWIRTH1986"
 
 \end_inset
 
- more than 20 years ago and the reaction at time was actually also CO oxidation.
+ more than 20 years ago and the reaction at that time was actually also
+ CO oxidation.
  However, the oscillating reactions discovered by Ertl was performed under
- UHV conditions and involves surface reconstructions of a Pt single crystal.
+ UHV conditions and involves surface reconstructions on a Pt single crystal.
  Our experiments are performed at 1
 \begin_inset space \thinspace{}
 \end_inset
@@ -264,12 +265,8 @@ bar on nano particles, and it is thus hard to imagine that the oscillation
  mechanism should be the same in our case.
  However, other people have actually found oscillations under reactions
  much more comparable to ours.
- The group of Joost
-\begin_inset space ~
-\end_inset
-
-Frenken has performed several high pressure studies on Pt and Pd single
- crystals, using both STM
+ The group of Joost Frenken has performed several high pressure studies
+ on Pt and Pd single crystals, using both STM
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Hendriksen2002,Hendriksen2005"
@@ -406,7 +403,7 @@ C/min until the sample ignites and achieves full conversion of CO to CO
 \begin_inset Formula $\sim0.1\%$
 \end_inset
 
- light-off occurs at approximately 180
+, light-off occurs at approximately 180
 \begin_inset Formula $^{\circ}$
 \end_inset
 
@@ -421,7 +418,7 @@ C.
 \begin_inset Formula $^{\circ}$
 \end_inset
 
-C whereafter the temperature is again decreased alse at 3
+C whereafter the temperature is again decreased also at 3
 \begin_inset Formula $^{\circ}$
 \end_inset
 
@@ -435,9 +432,8 @@ C/min until we reach room tempereture.
 \end_inset
 
 C/min until sustained oscillations occur.
- Since we typically leave the setup unmonitored the temperature of sustained
- oscillations must be estimated beforehand, but typically temperature between
- 200
+ Since we leave the setup unmonitored the temperature of sustained oscillations
+ must be estimated beforehand, but typically temperature between 200
 \begin_inset Formula $^{\circ}$
 \end_inset
 
@@ -446,7 +442,7 @@ C and 220
 \end_inset
 
 C works nicely.
- A typical initial treatment is seen in figure~
+ An example of an initial treatment is seen in figure~
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:oscil_initial_treatment"
@@ -587,12 +583,12 @@ We of course spend quite a lot of effort to ensure that the phenomenon is
  a true property of the catalytic system and not an artifact of the experimental
  setup.
  Due to the long timescales between full conversion and low conversion plateaus
- the oscillations cannot be attributed to the reactor setup which of course
+ the oscillations cannot be attributed to the reactor itself which of course
  have a much shorter typical timescale.
  Furthermore we did a series of experiments were performed to exclude that
  this could be due to the flow controllers or perhaps the temperature control
  system.
- Firstly, the clean room wizards prepared lids for the reactor with a deeb
+ Firstly, the clean room wizards prepared lids for the reactor with a deep
  etch on the lid at the position of the reactor.
  This of course greatly increases the timescale of the reactor and thus
  we should be able to tell if the oscillation phenomenon should be due to
@@ -603,9 +599,8 @@ We of course spend quite a lot of effort to ensure that the phenomenon is
  Of course we also reproduced the oscillations on the NG setup.
  Even though this setup is in principle a copy of the old setup, is is anyway
  sufficiently different that it is hard to imagine experimental artifacts
- to be identical.
- In the new setup we have a different PID-control, different length of tubing
- as well as other flow controllers.
+ to be identical; in the new setup we have a different PID implementation,
+ different length of the tubings as well as other flow controllers.
  Also this test showed oscillations with the same initial treatment.
  Finally we also did quite an effort to reproduce the phenomenon on Pt thin
  film of comparable coverage without ever seeing a single oscillation.
@@ -759,10 +754,7 @@ min and 45
 \end_inset
 
 min.
-\end_layout
-
-\begin_layout Standard
-Figure~
+ Figure~
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:oscil_extracts"
@@ -776,36 +768,32 @@ reference "fig:oscil_extracts"
 \end_inset
 
 min of oscillation time and after 5900
-\backslash
-,min are shown.
+\begin_inset space \thinspace{}
+\end_inset
+
+min are shown.
  After 5900
 \begin_inset space \thinspace{}
 \end_inset
 
 min the oscillations are more irregular which is consistent with the data
- shown in 
-\backslash
-ref{fgr:long_measurement}.
- Also, oscillations in between full conversion oscillations with smaller
- amplitude and much higher frequency than the full on-off cycles become
- more visible as time progresses.
-\end_layout
-
-\begin_layout Standard
-The oscillation period increases with time and becomes increasingly less
- stable as shown in figure
+ shown in figure
 \begin_inset space ~
 \end_inset
 
 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:oscil_extracts"
+reference "fig:oscil_4days_summary"
 
 \end_inset
 
 .
- This phenomenon is consistent across all measured samples.
+ Also, oscillations in between full conversion oscillations with smaller
+ amplitude and much higher frequency than the full on-off cycles become
+ more visible as time progresses.
+ This overall phenomenon of less stable and slower oscillations is consistent
+ across all measured samples.
  The large scatter in oscillation period can be attributed to the smaller
  oscillations in between on/off cycles.
  Occasionally, these small amplitude oscillations will trigger a full switch
@@ -836,7 +824,19 @@ name "fig:oscil_dutycycle"
 
 \end_inset
 
-Duty cycle
+Plot showing the value of the CO
+\begin_inset Formula $_{2}$
+\end_inset
+
+ signal (green) and CO signal (red) averaged over each oscillation cycle.
+ The black line shows the ratio between the two signals.
+ It is evident that the total conversion is almost constant for the entire
+ period despite the fact that the oscillation period has increased by a
+ factor of 
+\begin_inset Formula $\sim20$
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -869,94 +869,8 @@ reference "fig:oscil_dutycycle"
  frequency.
  Thus we do not expect sintering to be the cause since an average loss in
  activity of the sample would be expected.
-\end_layout
-
-\begin_layout Standard
-It has previously been shown using STM
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Hendriksen2002"
-
-\end_inset
-
-, FT-IR
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Carlsson2006"
-
-\end_inset
-
-, Monte Carlo simulations
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Zhdanov2002"
-
-\end_inset
-
- as well as DFT
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Gong2004"
-
-\end_inset
-
- that the activity of Pt towards CO oxidation at atmospheric pressures is
- highly dependent on the oxidation state of the surface.
- A detailed proposal for the reaction mechanism on Pd has been developed
- by Hendriksen 
-\emph on
-et.
- al.
-\emph default
-}
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Hendriksen2010"
-
-\end_inset
-
- and our data are consistent with this model.
-\end_layout
-
-\begin_layout Standard
-According to the proposed model in ref.
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Hendriksen2010"
-
-\end_inset
-
- the bare metal surface is less active than the oxidized surface.
- Oscillations originate from a switch between an oxidized surface and the
- bare metal surface.
- Initially, with CO present in the inlet gas a smooth metal surface is exposed
- due to the general high adsorption energy of CO on metal surfaces.
- As the Pt nanoparticles convert the CO to CO
-\begin_inset Formula $_{2}$
-\end_inset
-
- the partial pressure of CO will decrease and a Pt oxide will start to form
- in the high partial pressure of O
-\begin_inset Formula $_{2}$
-\end_inset
-
- thus increasing the rate.
- The model suggests that the oxidized nanoparticles will roughen during
- CO oxidation resulting in the formation of an increasingly rough oxide
- surface.
- As the oxide becomes rougher the bare metal surface is increasingly favored
- resulting in a return to the lower rate rough metal state.
- Since the surface mobility is higher for the reduced surface
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Hendriksen2010"
-
-\end_inset
-
-, the roughness of the surface will gradually decrease and result in a transitio
-n from rough metal surface to a smooth metal surface.
- When the sample is sufficiently smooth it will again oxidize and thus complete
- the oscillation cycle.
+ Unfortuanetely this means that we have to accept that we so far do not
+ have a satisfactory explanation of the increasing period.
 \end_layout
 
 \begin_layout Section
@@ -977,6 +891,17 @@ s.
  of slowly increasing oscillation period, it is still possible to learn
  something by changing the value of temperature, pressure, etc.
  and watch for the change in oscillation frequency.
+ The reason for the lack of reproducebility is properly due to a combination
+ between irregularities in the deposition and the significant temperature
+ gradient in the reactor.
+ This means that if two othewise identical samples are deposited at slightly
+ different positions in the reactor, the actual sample temperature will
+ be different, even if the measured RTD temperature is the same.
+ This in combination with rather large uncertainties in the deposited amounts
+ for these low coverages are a very likely explanation for the poor reproducebil
+ity.
+ Hopefully the temperature issue will be greatly reduced by a new heaters,
+ and we are also looking into options for getting better deposition consistency.
 \end_layout
 
 \begin_layout Subsection
@@ -1139,7 +1064,7 @@ C.
 \end_layout
 
 \begin_layout Subsection
-Pressure dependence
+Pressure and CO concentration dependence
 \end_layout
 
 \begin_layout Standard
@@ -1159,38 +1084,11 @@ bar no change of the oscillation frequency or qualitative behavior that
 \end_inset
 
  ratio was observed.
- At a CO/O
-\begin_inset Formula $_{2}$
-\end_inset
-
- ratio of 
-\begin_inset Formula $\sim0.025$
-\end_inset
-
- only very small amplitude oscillations were observed.
- Increasing the CO/O
-\begin_inset Formula $_{2}$
-\end_inset
-
- ratio showed clear oscillations with a significant increase in oscillation
- amplitude compared to lower CO concentrations.
- Generally, a tendency towards longer oscillation periods for higher CO/O
-\begin_inset Formula $_{2}$
-\end_inset
-
- ratio was observed.
- Richer CO mixtures than 0.175 did not produce any oscillations in our system.
-\end_layout
-
-\begin_layout Subsection
-CO concentration dependence
-\end_layout
-
-\begin_layout Standard
+ 
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -1212,9 +1110,10 @@ name "fig:oscil_gas_dependence_summary"
 
 \end_inset
 
-Oscillation period (blue) as a function of time and CO concentration (black).
- The overall trend of increasing oscillation period with time is superimposed
- with small discontinuous steps when the CO concentration is increased.
+Summary of the CO concentration dependence experiment.
+ As with all other measured samples, the oscillation period increases with
+ time, but also small step-like increments are seen for each increase in
+ the CO concentration.
 \end_layout
 
 \end_inset
@@ -1224,10 +1123,12 @@ Oscillation period (blue) as a function of time and CO concentration (black).
 
 \end_inset
 
-The dependence of period of the oscillations on the the CO concentration
- was investigated.
- The result shows that the period increases slightly with increasing CO-concentr
-ation.
+
+\end_layout
+
+\begin_layout Standard
+The result shows that the period increases slightly with increasing CO-concentra
+tion.
  However, the effect is small compared to the general trend of slower oscillatio
 ns as the experiment progresses.
  In figure
@@ -1347,13 +1248,96 @@ nm particles with a geometrical coverage of 0.1% of the reactor area gave
  the most stable oscillations.
  However, no change in duty cycle or frequency that could be attributed
  to the size of the nanoparticles was found.
- This may be due to the fact that even nominally identical samples also
- show a large variation in oscillation frequency and duty cycle thus possibly
- shadowing a nanoparticle size effect.
+ As mentioned, the reproducebility between sampleas are frustratingly low
+ and since the size dependence must necessarily involve comparing different
+ samples the large variation between samples possibly shadows a nanoparticle
+ size effect.
 \end_layout
 
 \begin_layout Section
-Proposed mechanism
+Oscillation mechanism
+\end_layout
+
+\begin_layout Standard
+It has previously been shown using STM
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Hendriksen2002"
+
+\end_inset
+
+, FT-IR
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Carlsson2006"
+
+\end_inset
+
+, Monte Carlo simulations
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Zhdanov2002"
+
+\end_inset
+
+ as well as DFT
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Gong2004"
+
+\end_inset
+
+ that the activity of Pt towards CO oxidation at atmospheric pressures is
+ highly dependent on the oxidation state of the surface.
+ A detailed proposal for the reaction mechanism on Pd has been developed
+ by Hendriksen 
+\emph on
+et.
+ al.
+\emph default
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Hendriksen2010"
+
+\end_inset
+
+ and our data are consistent with this model.
+\end_layout
+
+\begin_layout Standard
+According to the proposed model by Hendriksen, the bare metal surface is
+ less active than the oxidized surface.
+ Oscillations originate from a switch between an oxidized surface and the
+ bare metal surface.
+ Initially, with CO present in the inlet gas a smooth metal surface is exposed
+ due to the general high adsorption energy of CO on metal surfaces.
+ As the Pt nanoparticles convert the CO to CO
+\begin_inset Formula $_{2}$
+\end_inset
+
+ the partial pressure of CO will decrease and a Pt oxide will start to form
+ in the high partial pressure of O
+\begin_inset Formula $_{2}$
+\end_inset
+
+ thus increasing the rate.
+ The model suggests that the oxidized nanoparticles will roughen during
+ CO oxidation, resulting in the formation of an increasingly rough oxide
+ surface.
+ As the oxide becomes rougher the bare metal surface is increasingly favored
+ resulting in a return to the lower rate rough metal state.
+ Since the surface mobility is higher for the reduced surface
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Hendriksen2010"
+
+\end_inset
+
+, the roughness of the surface will gradually decrease and result in a transitio
+n from rough metal surface to a smooth metal surface.
+ When the sample is sufficiently smooth it will again oxidize, increase
+ the conversion rate, and thus complete the oscillation cycle.
 \end_layout
 
 \begin_layout Standard
@@ -1387,11 +1371,14 @@ reference "fig:oscil_full_oscil"
  hence approaching the constant temperature of the sample resulting in a
  steep increase in reactivity.
  It is important to note that the fraction of oxidized particles needed
- to achieve full conversion is not known.
- We are currently investigating new methods for gaining insight into the
- nature of the nanoparticles in the reactor but the low coverage and the
- design of the reactor makes this a challenging task.
- If all particles are not oxidized at light-off they will now oxidize much
+ to achieve full conversion is not known, since this will depend strongly
+ on the detailed ultra local temperature distribution around each nanoparticle,
+ and since CO oxidation is strongly exothermic, the particles might be significa
+ntly hotter than the global temperature of the reactor.
+\end_layout
+
+\begin_layout Standard
+If all particles are not oxidized at light-off they will now oxidize much
  faster due to the low CO-concentration.
  The further increased rate will not be visible in the QMS since the reactor
  is already in full conversion.
@@ -1403,99 +1390,7 @@ reference "fig:oscil_full_oscil"
  participates in the reaction and the deactivation will happen very suddenly.
  Once these potentially few particles eventually becomes sufficiently rough
  they will reduce and lose activity hence completing the oscillation cycle.
- As we will learn in chapter
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "chap:Sensitivity-measurements"
-
-\end_inset
-
-, we have measured turnover frequencies of CO oxidation on Pt in excess
- of 
-\begin_inset Formula $105^{6}$
-\end_inset
-
-
-\begin_inset space \thinspace{}
-\end_inset
-
-s
-\begin_inset Formula $^{-1}$
-\end_inset
-
- per site corresponding to as little as 
-\begin_inset Formula $\sim$
-\end_inset
-
-300
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-CHECK!!!
-\end_layout
-
-\end_inset
-
- Pt nanoparticles contributing to the reactivity just before the end of
- the high- activity cycle.
- This would correspond to an area of 14
-\begin_inset space \thinspace{}
-\end_inset
-
-ppm of the reactor area suggesting that in situ studies are becoming a challenge
-s as such a minority of the reactor volume could account for all the reactivity.
- One technique that might be realistic is to look for the thermal signal
- from a very small fraction of the sample performing all the conversion.
- The idea would be that this small part of the sample would be significantly
- hotter than the retst of the sample due to very high energy gain from CO
- oxidation.
- The high temperature region would in principle be visisble using normal
- camera- or microscope optics and a high quality CCD detector.
- Despite several attempts of seing the effect we have not yet succeeded.
- However, this is not necessarily because the signal is not there, it migh
- easily be that we have simply not been able to mount suiatble optics sufficient
-ly well, since this turns out to be quite a mechanical challenge.
- Anyway, we have certainly not yet given up on this, but so far the project
- has been postponed until we find a really good way of mounting a microscope
- with optical access to the entire sample.
-\end_layout
-
-\begin_layout Section
-Conclusions
-\end_layout
-
-\begin_layout Standard
-Self-sustained oscillations have been found to be of great interest in nature
- and here we demonstrate a systems that shows how nanoparticles can be brought
- into this regime with high reliability forming a basis for further deep
- understanding of this phenomena.
-\end_layout
-
-\begin_layout Standard
-Self-sustained CO oxidation oscillations at atmospheric pressure on Pt nanoparti
-cles ranging from from 3
-\begin_inset space \thinspace{}
-\end_inset
-
-nm to 9
-\begin_inset space \thinspace{}
-\end_inset
-
-nm in diameter have been measured with high-quality mass-spectrometry.
- Full conversion was achieved on 0.1% geometrical Pt coverage and it is found
- likely that full conversion can be obtained on extremely small amounts
- of Pt.
- It was found that the samples increased the oscillation period over time
- and showed a strong temperature dependence of the oscillation period.
- A model is proposed where the nanoparticles go through repetitive oxidation/red
-uction cycles which change the change rate of CO oxidation on the particles.
- The fact that extremely few NP may account for the activity make in situ
- investigations a challenge.
+ 
 \end_layout
 
 \end_body

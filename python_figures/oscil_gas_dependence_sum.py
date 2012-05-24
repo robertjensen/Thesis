@@ -63,7 +63,7 @@ for i in range(1,len(oscillations)):
 fig = plt.figure()
 fig.subplots_adjust(left=d.left_room) 
 fig.subplots_adjust(bottom=d.bottom_room)
-fig.subplots_adjust(right=d.right_room) 
+fig.subplots_adjust(right=d.right_room*0.95) 
 
 ratio = d.ratio
 fig_width = d.width
