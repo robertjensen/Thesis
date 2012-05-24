@@ -370,7 +370,11 @@ Schematic of the Time-Of-Flight instrument along with the connections to
 \begin_layout Standard
 Both detectors are Multi Channel Plates which is a rather sophisticated
  kind of electron multiplier.
- The detector is has an area of approximately 10
+ The main detector has a maximum bias voltage of -5
+\begin_inset space \thinspace{}
+\end_inset
+
+kV, an area of 12.6
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -378,23 +382,23 @@ cm
 \begin_inset Formula $^{2}$
 \end_inset
 
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-CHECK!
-\end_layout
+ and it is completely flat across the entire detection area
+\begin_inset CommandInset citation
+LatexCommand cite
+key "jordan_mcp"
 
 \end_inset
 
- and is very flat within the entire area.
+.
  This very large and flat detector area makes the detector very tolerant
  for ions having slightly different initial positions in the plane orthogonal
  to the flight directions, since the various ions would make almost identical
  trajectories only slightly translated.
- The MCP consists of a large number (typically several thousands) of small
- channels coated with a material with low work function material.
+ The MCP consists of a large number, on the order of 
+\begin_inset Formula $\sim10^{7}$
+\end_inset
+
+, of small channels coated with a work function material.
  The MCP is heavily biased between the front side and the back side, creating
  a steep voltage gradient across the device.
  When ions hit the surface of the MCP, it will release a number of electrons
@@ -402,20 +406,11 @@ CHECK!
  channel.
  Since each channel is very swallow, the electrons will only travel a short
  distance before they again hit the surface and releases even more electrons.
- In this way a single ion will be multiplies into a significant number of
+ In this way a single ion will be multiplied into a significant number of
  electrons, how many is heavily dependent on the voltage across the device.
  In our case, we have mounted a rather cheap MCP for the linear detection
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-FIND DATABLAD
-\end_layout
-
-\end_inset
-
- (!!) and a substantially better one, a so-called Z-gap detector, with a
- maximum bias of 5
+ and a substantially better one, a so-called Z-gap detector, with a maximum
+ bias of 5
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -433,8 +428,8 @@ key "Krems2005"
 , because the energy of the particle is distributed on a larger and larger
  area which increases the risk that the initial impact of the particle will
  not release a single electron that can be further multiplied.
- Since we are among other things also interested in measuring on metal clusters,
- a high mass limit is essential.
+ Since we are, among other things, also interested in measuring on metal
+ clusters, a high mass limit is essential.
  The current Z-gap detector has a nominal maximal detectable mass of 5000
 \begin_inset space \thinspace{}
 \end_inset
@@ -450,16 +445,10 @@ kV detector if it should be necessary.
 \end_inset
 
 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-REF?
-\end_layout
-
+\begin_inset space \thinspace{}
 \end_inset
 
-.
+amu.
 \end_layout
 
 \begin_layout Subsection
@@ -512,7 +501,7 @@ reference "fig:tof_photo"
 \begin_inset Formula $V_{D}$
 \end_inset
 
-, needs high voltages, all in the range of -4000 -- +4000
+, all in the range of -4000 -- +4000
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -545,14 +534,14 @@ ts and is what is known as a Orthogonal Acceleration TOF which means that
  the ions to be measured enters the acceleration region orthogonal to the
  direction of flight.
  This is especially well suited to measure on externally generated ions,
- which is actually not what we have when measuring on the microreactors,
+ which is unfortnately not what we have when measuring on the microreactors,
  the output from the capillary is obviously not ionized when leaving the
  reactor.
  However, the reason for choosing this type of instrument is, that we originally
  expected to used the TOF as a characterization tool for the two cluster
  source at the department, and these instrument actually do have an ionized
  output.
- This little experimental detail means, that we had to build our own ionization
+ This little experimental detail meant, that we had to build our own ionization
  source to be able to use the instrument at all.
 \end_layout
 
