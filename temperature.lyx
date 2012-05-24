@@ -85,12 +85,13 @@ Temperature
 Measuring temperature accurately is always a difficult task.
  For the microreactor, the problem is especially tricky because the 2D-like
  structure and small thermal mass of the system means that it is difficult
- to establish a well defined temperature across the entire reactor volume.
+ to establish contact to a thermocouple, opposite to classical single crystal
+ science where the thermocouple can simply be mounted inside the sample.
  To complicate things even further it is also highly difficult to achieve
  a constant temperature across the reactor.
  First of all the contact between the highly heat-conducting silicon wafer
  and the comparatively cold metal interface block means that a constant
- heat transfer occurs on the chip whenever the chip is heated.
+ heat transfer occurs along the chip whenever the chip is heated.
  This of course leads to temperature gradients along the chip.
  Also convention losses to the surroundings will contribute a non-homogeneous
  heat-loss to the surroundings.
@@ -189,7 +190,7 @@ reference "eq:pid"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Box Frameless
@@ -199,7 +200,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "45text%"
+width "48text%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -210,7 +211,7 @@ status open
 \begin_inset Graphics
 	filename figures/new_temperature_control.png
 	display false
-	width 95text%
+	width 100text%
 
 \end_inset
 
@@ -227,7 +228,9 @@ name "fig:temp_new_pid"
 
 \end_inset
 
-T
+Illustration of the improvements achievable by optimizing the PID algorithm.
+ Green curve is the old implementation and the blue curve is the new implementat
+ion.
 \end_layout
 
 \end_inset
@@ -249,7 +252,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "45text%"
+width "48text%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -260,7 +263,7 @@ status open
 \begin_inset Graphics
 	filename figures/new_temperature_control2.png
 	display false
-	width 95text%
+	width 100text%
 
 \end_inset
 
@@ -275,6 +278,17 @@ name "fig:temp_new_pid_zoom"
 \end_inset
 
 A zoom of figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:temp_new_pid"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -315,10 +329,10 @@ key "Micro-bachelor"
  When we started to push the microreactors from prototypes to real measurement
  devices, a new and better algorithm was needed.
  A simple but very effective improvement is made by realizing that purpose
- for the differential term is to counteract unwanted behavior, such as overshoot
-, however in very easy system better ways exists to prevent this and at
- the same time, the term will often lead the overall PID to oscillate around
- the set point.
+ for the differential term is to counteract unwanted behavior, such as overshoot.
+ However in many systems better ways exists to prevent this and at the same
+ time, the term will often lead the overall PID to oscillate around the
+ set point.
  So a new algorithm was implemented with 
 \begin_inset Formula $D=0$
 \end_inset
@@ -380,7 +394,8 @@ reference "fig:temp_new_pid_zoom"
 
 \end_inset
 
- where 
+ where both implementation's response to a step-function in temperature
+ is plotted.
 \end_layout
 
 \begin_layout Section
@@ -392,15 +407,15 @@ In the first iteration of the setup, heating was done via a small ceramic
  block with a hot filament inside, that was spring mounted to the backside
  of the chip.
  This has several advantages in the way of mechanical handling and very
- easy interfacing, of the heater, just apply a suitable DC-voltage and you
+ easy interfacing of the heater, just apply a suitable DC-voltage and you
  are ready to heat.
  However, the method also has many drawbacks.
  Most importantly, it turned out that we had severe problems measuring the
- temperature, but also point-heating was a great problem, since it is very
- difficult to mount the heater completely parallel to the sample meaning
- that inevitably a single small point of the heating element will be in
- contact with the sample a thermographic image of this problem is seen very
- clearly in figure
+ temperature, but also point-heating was a great problem.
+ Since it is very difficult to mount the heater completely parallel to the
+ sample, inevitably a single small point of the heating element will be
+ in contact with the sample resulting in point heating.
+ A thermographic image shows this problem very clearly as seen in figure
 \begin_inset space ~
 \end_inset
 
@@ -428,7 +443,7 @@ stent position on the front side obviously resulted in very large uncertainties
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -467,8 +482,8 @@ Thermographic image of the sample heated by the original heating element.
 To fix this problem, we developed a new solution in close cooperation with
  the clean room wizards.
  The idea this time was to integrate the heater directly onto the chip (a
- concept that also fit nice very nicely with the overall microreactor idea)
- and then use the heater itself to also measure the temperature.
+ concept that also fit very nicely with the overall microreactor idea) and
+ then use the heater itself to also measure the temperature.
  After some discussions we ended up with the structure seen in figure
 \begin_inset space ~
 \end_inset
@@ -507,7 +522,7 @@ reference "chap:Sensitivity-measurements"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -569,14 +584,14 @@ C.
 \begin_inset Formula $\sim$
 \end_inset
 
-600
+700
 \begin_inset Formula $^{\circ}$
 \end_inset
 
 C.
  The problem is instead the power supply for the heating as well as the
- rather high current densities in the heater.
- 
+ rather high current densities in the heater, which will eventually degrade
+ the continuous Pt film.
 \end_layout
 
 \begin_layout Section
@@ -598,17 +613,18 @@ reference "fig:reactor_new_heating_scheme"
  the combined heater and RTD is implemented as a Pt strip with four contacts.
  Temperature is thus measured as the four point resistance of the Pt strip
  calibrated to a thermocouple at room temperature.
- The thermocouple stays on top of the sample for the entire measurement,
- even though it will not record the correct temperature, the apparent temperatur
-e will still be a consistent function of the actual temperature and thus
- the TC can be used as a sanity check of the RTD measurement.
+ The thermocouple stays on top of the sample for the entire measurement.
+ Even though poor thermal contact will prevent it from recording the correct
+ temperature, the apparent temperature will still be a consistent function
+ of the actual temperature and thus the TC can be used as a sanity check
+ of the RTD measurement.
  The challenge now is to heat the sample through the same Pt strip while
  still being able to measure the resistance reliably.
  To do this one essentially needs a Source-Measure instrument to ensure
- perfect synchronization between the measurement of the voltage and current
- which are both changing continously both because of the non-constant temperatur
-e and because the control-loop constantly updates the need power to stay
- at the setpoint temperature.
+ 100% perfect synchronization between the measurement of the voltage and
+ current which are both changing continuously both because of the non-constant
+ temperature and because the control-loop constantly updates the needed
+ power to stay at the setpoint temperature.
  In our case we use a Keithley
 \begin_inset space ~
 \end_inset
@@ -633,25 +649,56 @@ A at 20
 \end_inset
 
 V.
- This is sufficient to reach temperatures around 400
+ This is sufficient to reach temperatures slightly above 400
 \begin_inset Formula $^{\circ}$
 \end_inset
 
 C.
  The sample is contacted through four Pogo-pins mounted in a ceramic block.
- The block is mounted with four screws on a metal stucture that is again
+ The block is mounted with four screws on a metal structure that is again
  screw-mounted on the metal interface block.
-\begin_inset Note Note
-status open
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
-indsæt billede
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/original_pogo_block.jpg
+	display false
+	width 10cm
+	rotateAngle 90
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:original_pogo_block"
+
+\end_inset
+
+The ceramic block holding the Pogo pins along with the screw-connected to
+ the metal interface block.
+ The four holes are the holes for the inlets and outlets of the microreactor.
+ The gas line pointing out from the metal block is the feed line for the
+ Argon flow.
 \end_layout
 
 \end_inset
 
-.
- The mounting screws of the block can be individu contact of all four pins.
+
+\end_layout
+
+\end_inset
+
+The mounting screws of the block can be individually adjusted to ensure
+ contact of all four pins.
  To increase the maximum achievable temperature and to measure a slightly
  more realistic temperature from the thermocouple, two layers of insulation
  is placed on top of the sample.
@@ -667,8 +714,9 @@ Originally we expected that the integrated heater would magically solve
  all our temperature distribution problems.
  The idea was that the very high heat conductance of silicon would ensure
  that the power delivered to the strip was evenly distributed to the sample.
- However in hindsight it is easy to see that this was a slightly naive expectati
-on, in reality we have a quite large heat gradient across the sample.
+ However in hindsight it is easy to see that this was a hopelessly naive
+ expectation, in reality we have a quite large heat gradient across the
+ sample.
  Fortunately, sine we are measuring the temperature at exactly the same
  place as we are heating, we are most likely not under-estimating the temperatur
 e.
@@ -772,7 +820,7 @@ reference "fig:temp_profile_insulation"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -824,8 +872,8 @@ The way we estimate the temperature distribution is by imaging the sample
  with a thermographic camera.
  The camera is excellent at providing images of the temperature distribution,
  but not equally well suited for measuring the absolute temperature, since
- this calibration is dependant on the emissivity of the sample which is
- again dependant on several things, including the temperature of the sample.
+ this calibration is dependent on the emissivity of the sample which is
+ again dependent on several things, including the temperature of the sample.
  For this reason we typically bring the sample to a fixed temperature as
  measured by the RTD and then either adjust the emissivity value of the
  camera to show the correct temperature, or just scale the result.
@@ -840,26 +888,20 @@ C an emissivity value of
  gives quite good results in the entire temperature range, for temperatures
  significantly higher than this, one typically needs to lower the emissivity
  value to match the RTD-temperature.
- The result of these anylysis was as already mentioned rather disappointing.
- In reallity we have a significant heat gradient of almost 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-FIND VÆRDI!
-\end_layout
-
+ The result of these analysis was as already mentioned rather disappointing.
+ In reality we have a significant heat gradient of almost 30
+\begin_inset Formula $^{\circ}$
 \end_inset
 
- along the reactor.
+C along the reactor.
  This is of course way to much to be acceptable in the field of catalysis
  where most processes are exponential in temperature.
- However, since the heater is deposited in a highly reproduceble way, at
+ However, since the heater is positioned in a highly reproducible way, at
  least all samples will have an almost identical heat gradient and since
  the temperature is measured in the same structure as the heat is delivered,
  we have no risk of measuring a too low temperature end thus over estimate
  the performance of a catalyst.
- Nevertheless we found the gradient to be so large and since the current
+ Nevertheless we found the gradient to be too large and since the current
  heater design also have other practical problems, we have started to work
  on a better solution heating.
 \end_layout
@@ -897,7 +939,7 @@ name "fig:long_reactor_cad"
 CAD-drawings of the longer reactor and the 10-point structure.
  The three strips are used for heating and the 4-point meander is used as
  the RTD.
- Orginal CAD-drawings are done by our clean room wizard Thomas Pedersen.
+ Original CAD-drawings are done by our clean room wizard Thomas Pedersen.
 \end_layout
 
 \end_inset
@@ -918,7 +960,7 @@ One problem with the current design is that the SMU is a very expensive
  The reason we originally combined all functions into a single strip was
  that we were afraid that we would get problems contacting the samples if
  we had too many contacts on the rather small area.
- However the experience gained from operating the heater is, that contacting
+ However the experience gained from operating the heater is that contacting
  is really not too much of a problem.
  For this reason we have recently designed a new heating system based on
  the experience gained from the old heater.
@@ -976,7 +1018,7 @@ reference "fig:long_reactor_cad"
 
 .
  This particular device has a large bonding error between the meander structure
- and the sourroundings and thus would not be able to function.
+ and the surroundings and thus would not be able to function.
  At the top of the reactor, the melted lid demonstrates that we no longer
  have problems sourcing enough power into the device...
 \end_layout
@@ -988,13 +1030,13 @@ reference "fig:long_reactor_cad"
 
 \end_inset
 
- Of course with three seperate heaters, it becomes quite a challenge to
+ Of course with three separate heaters, it becomes quite a challenge to
  find the perfect power distribution between the individual heaters.
- Experimentation with this is not easy, since everytime a new layout is
- to be tested, it is nesecarry to make a new shadow mask for deposition,
+ Experimentation with this is not easy, since every time a new layout is
+ to be tested, it is necessary to make a new shadow mask for deposition,
  a process that takes quite an amount of both time and money for Thomas
  Pedersen in the clean room.
- For this reasion we kept the experimentation to a minimum and reasonobly
+ For this reason we kept the experimentation to a minimum and reasonably
  fast settled on a final layout.
  The point with this is that we realized that we will never be able to reach
  the perfect distribution and thus it is far more efficient to simply settle
@@ -1025,7 +1067,20 @@ reference "fig:melted_reactor"
 
 \end_inset
 
- shows an image of a sample that was accidentally heatied too high.
+ shows an image of a sample that was accidentally heated too high.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hvis den nye varmer bliver klar, mangler der lige lidt afrunding til sidst.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
