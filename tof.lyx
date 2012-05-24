@@ -255,7 +255,17 @@ V and typical drift energy is on the order of 2000
 
 V.
  Of course it is critical that the rise time of the acceleration pulse is
- as short as possible, in our case it is on the order of SLÅ TALLET OP!!
+ as short as possible, in our case it is on the order of ....
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Indsæt rise time for pulseren
+\end_layout
+
+\end_inset
+
+.
  From the acceleration region, the ions enter another set of focusing lenses
  as well as the deflector which is designed to compensate for the initial
  drift velocity orthogonal to the flight direction and will ideally ensure
@@ -288,7 +298,7 @@ V, it would constitute a significant danger for operators as well as complicate
  This tube has a slightly smaller diameter than the outside tube and is
  mounted on small ceramic tubes that rests on the outside tube and ensures
  that the liner is electrically floating compared to the main chamber.
- The liner perforated at the position of the flight tube pump to ensure
+ The liner is perforated at the position of the flight tube pump to ensure
  decent pumping of the liner.
 \end_layout
 
@@ -398,7 +408,7 @@ key "jordan_mcp"
 \begin_inset Formula $\sim10^{7}$
 \end_inset
 
-, of small channels coated with a work function material.
+, of small channels coated with a low work function material.
  The MCP is heavily biased between the front side and the back side, creating
  a steep voltage gradient across the device.
  When ions hit the surface of the MCP, it will release a number of electrons
@@ -548,7 +558,7 @@ ts and is what is known as a Orthogonal Acceleration TOF which means that
 \begin_layout Standard
 Optimally all ions will enter with very low energy orthogonal to the flight
  direction, zero energy in the drift direction and perfectly centered between
- the acceleration plate and the grounded grid immediately to the right.
+ the acceleration plate and the grounded grid.
  Of course the ions will not have ideal position and energy, which will
  ultimately set the limit of the resolution of the instrument.
  
@@ -559,22 +569,22 @@ Our current way of ionization is both very simple, very cheap and very much
  sub-optimal.
  Originally we only wanted to make a very primitive and cheap ionization
  source to able to test the instrument by letting in a gas directly from
- a leak valve, simply just to able to tune and optimize the instrument before
- mounting it on the cluster source.
- For this purpose we realized the classic UHV Bayard-Alpert ion gauge
+ a leak valve, just to able to tune and optimize the instrument before mounting
+ it on the cluster source.
+ For this purpose we realized that the classic UHV Bayard-Alpert ion gauge
 \begin_inset CommandInset citation
 LatexCommand cite
 key "BAYARD1950"
 
 \end_inset
 
- might be a simple and working solution.
- After all the gauge works by ionizing gas, however in the normal operation
+ might be a simple solution.
+ After all, the gauge works by ionizing gas, however in the normal operation
  mode, no ions will leave the gauge, rather they will be neutralized when
  they hit the collector and leave the gauge as non-ionized molecules.
- However, by removing the lid of the gauge and short-circuiting it to the
- grid voltage, the ions will now drift be able to escape the gauge through
- the top where the lid is now missing.
+ However, by removing the lid of the gauge and short-circuiting the collector
+ to the grid, the ions will now be able to escape the gauge through the
+ top where the lid is now missing.
  Using this configuration approximately half of the ionized ions are expected
  to leave the ionization gauge
 \begin_inset CommandInset citation
@@ -601,22 +611,19 @@ istency of the measurements.
 V negative compared to the filament to accelerate electrons emitted from
  the filament towards the grid.
  This energy is very much a compromise, since for optimal ionization we
- would like much higher energies
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-REF!
-\end_layout
-
-\end_inset
-
-, the ionization cross section for most relevant species will peak between
- 100 and 150
+ would like much higher energies, the ionization cross section for most
+ relevant species will peak between 100 and 150
 \begin_inset space \thinspace{}
 \end_inset
 
-eV.
+eV
+\begin_inset CommandInset citation
+LatexCommand cite
+key "KIEFFER1966"
+
+\end_inset
+
+.
  Typically ionization gauges operate in the range of 120--150
 \begin_inset space \thinspace{}
 \end_inset
@@ -639,8 +646,12 @@ eV.
  It is evident that the difference between optimal ionization and optimal
  performance of the TOF is very large and the fact that it can be brought
  to work at all is actually quite unintuitive.
- The entire construction is placed in a flange with a small orifice which
- is differentially pumped by a turbo pump.
+ 
+\end_layout
+
+\begin_layout Standard
+The entire ionization structure is placed in a flange with a small orifice
+ which is differentially pumped by a turbo pump.
  Large amounts of gas can hence be dosed locally around the ion gauge while
  still maintaining a low pressure in the source region of the TOF-MS.
  The small orifice is essential in the setup to avoid high pressure in the
@@ -651,6 +662,16 @@ eV.
 
 \begin_layout Section
 Examples of operation
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Hvad filen er det for en overskrift....
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -692,7 +713,13 @@ name "fig:tof_ammonia_gauss_fit"
 
 \end_inset
 
-Gauss fit
+Example of two gaussian fits two a measured double peak in the TOF-spectrum.
+ It is evident that the two peaks can be completely resovled despite the
+ small mass difference of 23.8
+\begin_inset space \thinspace{}
+\end_inset
+
+mili-amu.
 \end_layout
 
 \end_inset
@@ -867,6 +894,35 @@ TOF dynamic range
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+.....
+\end_layout
+
+\begin_layout Standard
+Each peak is quantified by a gaussian fit to the detector response of the
+ form 
+\begin_inset Formula 
+\[
+R=k\times e^{-\left(t-t_{center}\right)^{2}/\sigma}
+\]
+
+\end_inset
+
+, which have a very conveniet known solution for the integrated value:
+\begin_inset Formula 
+\[
+\int_{-\infty}^{\infty}Rdt=k\times\sqrt{\sigma}\times\sqrt{\pi}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.....
 \end_layout
 
 \begin_layout Section
@@ -1233,6 +1289,16 @@ reference "fig:tof_benzene_hydrogenation"
  actually measure the activation energy, but due to time constraints we
  chose to simply remove the hydrogen from the mixture which of course is
  also an efficient way of stopping the reaction.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Dette er afsnit er ikke nødvendigvis færdigt....
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -1240,8 +1306,11 @@ Ammonia Oxidation
 \end_layout
 
 \begin_layout Standard
-A large project on time-of-flight mass spectrometer a project on ammonia
- oxidation on Pt nanoparticles
+A large project on time-of-flight mass spectrometer is a project on ammonia
+ oxidation on Pt nanoparticles.
+ Here we try to relate the activity of Pt nanoparticles to the cluster size.
+ The result of this study is thourougly documented in the masters thesis
+ by Mathis Kjærgaard Christensen
 \begin_inset Note Note
 status open
 
@@ -1251,12 +1320,8 @@ REF!
 
 \end_inset
 
-.
- Here we tried to relate the activity of Pt nanoparticles to the cluster
- size.
- The result of this study is thourougly documented in the masters thesis
- by Mathis Kjærgaard Christensen and here I will mostly focus on the new
- abilities the TOF-instrument has provided for this kind of project.
+ and here I will mostly focus on the new abilities the TOF-instrument has
+ provided for this kind of project.
 \end_layout
 
 \begin_layout Standard
@@ -1347,6 +1412,16 @@ Figur der viser en typisk side?
 
  Once all the gaussian fits are performed, it is an easy matter to plot
  the data in the same many that one would present data from a QMS.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Dette er afsnit er ikke nødvendigvis færdigt....
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
