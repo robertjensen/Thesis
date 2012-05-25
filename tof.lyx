@@ -256,7 +256,7 @@ V and typical drift energy is on the order of 2000
 V.
  Of course it is critical that the rise time of the acceleration pulse is
  as short as possible, in our case it is on the order of ....
-\begin_inset Note Note
+\begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
@@ -730,7 +730,7 @@ mili-amu.
 \end_inset
 
 
-\begin_inset Note Note
+\begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
@@ -751,7 +751,7 @@ s better than
 \end_inset
 
  and hydroxyl
-\begin_inset Note Note
+\begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
@@ -1176,7 +1176,7 @@ Since the TOF was not originally constructed for the microreactor system,
  here are highly preliminary.
  On the ammonia oxidation we have quite a lot of results and this will be
  thoroughly covered in the masters thesis of Mathias 
-\begin_inset Note Note
+\begin_inset Note Greyedout
 status collapsed
 
 \begin_layout Plain Layout
@@ -1289,7 +1289,7 @@ reference "fig:tof_benzene_hydrogenation"
  actually measure the activation energy, but due to time constraints we
  chose to simply remove the hydrogen from the mixture which of course is
  also an efficient way of stopping the reaction.
-\begin_inset Note Note
+\begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
@@ -1311,7 +1311,7 @@ A large project on time-of-flight mass spectrometer is a project on ammonia
  Here we try to relate the activity of Pt nanoparticles to the cluster size.
  The result of this study is thourougly documented in the masters thesis
  by Mathis Kjærgaard Christensen
-\begin_inset Note Note
+\begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
@@ -1401,7 +1401,7 @@ reference "fig:tof_ammonia_gauss_fit"
  Of course one need to make sure that all the fits are performed correctly,
  and this is ensured by producing a pdf-file containing all the fits which
  can easily be inspected for fitting errors.
-\begin_inset Note Note
+\begin_inset Note Greyedout
 status collapsed
 
 \begin_layout Plain Layout
@@ -1412,7 +1412,7 @@ Figur der viser en typisk side?
 
  Once all the gaussian fits are performed, it is an easy matter to plot
  the data in the same many that one would present data from a QMS.
-\begin_inset Note Note
+\begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout

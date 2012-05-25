@@ -177,7 +177,7 @@ Currently only one of our setups are equipped with the newest improvements
 \end_layout
 
 \begin_layout Paragraph
-Higer pressures
+Higher pressures
 \end_layout
 
 \begin_layout Standard
@@ -187,7 +187,7 @@ Currently we are able to work in the pressure range of 0-2.5
 
 bars.
  For some reactions it would very usefull to be able to reach higher pressures
-\begin_inset Note Note
+\begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
@@ -200,7 +200,7 @@ Skulle man indsætte en graf fra Cu/Zn forsøget samt måske Ibs gamle graf?
  Currently we are limited by the pressure controllers but these could of
  course be replace simply by buying new ones.
  However, even though 
-\begin_inset Note Note
+\begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
@@ -265,7 +265,7 @@ This is of course the crown jewel of all wishes for the future.
  platform is the lack of in-situ (or even ex-situ for that matter...) surface
  sensitive techniques.
  
-\begin_inset Note Note
+\begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout

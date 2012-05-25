@@ -108,7 +108,7 @@ reference "tab:The-Pt-samples"
 \end_inset
 
 .
-\begin_inset Note Note
+\begin_inset Note Greyedout
 status collapsed
 
 \begin_layout Plain Layout
@@ -478,7 +478,7 @@ CO oxidation on Pt is a reaction that follows a so-called light-off curve
  when the sample is heated.
  This phenomenon originates from the fact that CO has a much higher sticking
  coefficient 
-\begin_inset Note Note
+\begin_inset Note Greyedout
 status collapsed
 
 \begin_layout Plain Layout
@@ -511,7 +511,7 @@ this oxygen molecule will thus burn off two CO molecules and leave CO
 
  which has an extremely short residence time on Pt, thus leaving two additional
  free sites
-\begin_inset Note Note
+\begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
@@ -806,7 +806,7 @@ Fitting og analytical functions to the temperature dependence of the flows.
 \end_inset
 
  According to litterature
-\begin_inset Note Note
+\begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
@@ -1351,7 +1351,7 @@ TOF_{Max}=\frac{7\times10^{11}\mbox{s}^{-1}\left(\mu\mbox{m}\right)^{-2}}{6.5\ti
 , however this is not necessarily the highest achivable turnover frequency,
  merely is it the highest we have so far been able to reach due to the temperatu
 re limits with the used heater design.
-\begin_inset Note Note
+\begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout

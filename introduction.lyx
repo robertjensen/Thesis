@@ -250,7 +250,7 @@ key "world_gdp"
  Realistically, the amount of power needed will be well lower than this
  since not all of the worlds energy consumption is currently fossil fuels
  
-\begin_inset Note Note
+\begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
@@ -275,7 +275,7 @@ Finally, it might be reasonable to ask not only to the economics but more
 \end_inset
 
 MW? 
-\begin_inset Note Note
+\begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
@@ -341,7 +341,7 @@ Methanol synthethis on Cu/Zn thin films
 
 \begin_layout Itemize
 ...
-\begin_inset Note Note
+\begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
@@ -364,6 +364,10 @@ For most of this work the main focus has been on establishing correlations
 
 \begin_layout Standard
 ....
+\end_layout
+
+\begin_layout Section
+Summary of this thesis
 \end_layout
 
 \end_body

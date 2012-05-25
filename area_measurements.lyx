@@ -206,7 +206,7 @@ bar for 5
 \end_inset
 
 min) adsorbs a layer (the exact adsorption mechanism is not entirely understood
-\begin_inset Note Note
+\begin_inset Note Greyedout
 status collapsed
 
 \begin_layout Plain Layout
@@ -367,7 +367,7 @@ Of course to be usefull, the area measuements will also need to work on
  nano particle samples rather than just thin films.
  For this reason we have tested the procedure on several samples made on
  the cluster source.
-\begin_inset Note Note
+\begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
@@ -594,7 +594,7 @@ reference "fig:area_MR108_summary"
 nC which is approximately 9 times higher than the measured area for the
  thin film.
  
-\begin_inset Note Note
+\begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout

@@ -1043,7 +1043,7 @@ reference "fig:long_reactor_cad"
  on a layout and then fix the problem with tunable external high-power resistors.
  In this way we can easily go through endless iterations by tuning the resistors
  and check the distribution in real-time on the thermographic camera.
-\begin_inset Note Note
+\begin_inset Note Greyedout
 status collapsed
 
 \begin_layout Plain Layout
@@ -1071,7 +1071,7 @@ reference "fig:melted_reactor"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
+\begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
