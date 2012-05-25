@@ -150,7 +150,7 @@ The Time-Of-Flight instrument in all its glory.
 \end_inset
 
 .
- The result of the scavegeing turned out to be a 120
+ The result of the scavenging turned out to be a 120
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -529,7 +529,7 @@ ut supplies, since none of the components uses significant amounts of power.
 nt of the rest of the system, reducing the problem from an 11-dimensional
  problem to a five-dimensional problem and a six-dimensional problem.
  This is however still quite a lot and the initial tuning, just to get a
- measureble signal, proved to be somewhat of a challenge.
+ measurable signal, proved to be somewhat of a challenge.
  In this situation, it is highly recommended to operate the instrument in
  linear mode since this takes out another to dimensions of the initial optimizat
 ion problem.
@@ -538,7 +538,7 @@ ion problem.
 
 \begin_layout Standard
 The acceleration pulse is generated in a two step process where a low voltage
- high-quality signal generator creates a continous pulse train of square
+ high-quality signal generator creates a continuous pulse train of square
  waves, typically we use a peak-width of 4
 \begin_inset space \thinspace{}
 \end_inset
@@ -547,7 +547,7 @@ The acceleration pulse is generated in a two step process where a low voltage
 \begin_inset Formula $\mu$
 \end_inset
 
-s and a repetion rate of 400
+s and a repetition rate of 400
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -555,7 +555,7 @@ Hz.
  This low voltage signal is tee'd into two BNC cables, one connected to
  the high voltage pulser, and one to the trigger of the computer digitizer,
  which records the signal.
- The digitizer is an Agilent DP214 bought very cheaply on ebay.
+ The digitizer is an Agilent DP214 bought very cheaply on eBay.
  It features a maximum sampling frequency of 2
 \begin_inset space \thinspace{}
 \end_inset
@@ -567,7 +567,7 @@ GHz which turns out to be fully sufficient to resolve the pulses from the
 \end_inset
 
 bit dynamic range, which is somewhat less than one would want, since this
- constranis the maximum dynamic range of the entire instrument.
+ constrains the maximum dynamic range of the entire instrument.
 \end_layout
 
 \begin_layout Subsection
@@ -580,7 +580,7 @@ ts and is what is known as a Orthogonal Acceleration TOF which means that
  the ions to be measured enters the acceleration region orthogonal to the
  direction of flight.
  This is especially well suited to measure on externally generated ions,
- which is unfortnately not what we have when measuring on the 
+ which is unfortunately not what we have when measuring on the 
 \begin_inset Formula $\mu$
 \end_inset
 
@@ -652,7 +652,7 @@ V negative compared to the filament to accelerate electrons emitted from
  the filament towards the grid.
  This voltage is very much a compromise, since for optimal ionization we
  would like much higher energies.
- The ionization cross section for most relevant gaa species will peak between
+ The ionization cross section for most relevant gas species will peak between
  100 and 200
 \begin_inset space \thinspace{}
 \end_inset
@@ -687,7 +687,7 @@ eV.
  It is evident that the difference between optimal ionization and optimal
  performance of the TOF is very large and the fact that it can be brought
  to work at all is actually quite unintuitive.
- A possible solution to this rather unpleasant compromise could be mountng
+ A possible solution to this rather unpleasant compromise could be mounting
  a collisional damper which will cool down ions to thermal energies.
 \end_layout
 
@@ -745,8 +745,8 @@ name "fig:tof_ammonia_gauss_fit"
 
 \end_inset
 
-Example of two gaussian fits two a measured double peak in the TOF-spectrum.
- It is evident that the two peaks can be completely resovled despite the
+Example of two Gaussian fits two a measured double peak in the TOF-spectrum.
+ It is evident that the two peaks can be completely resolved despite the
  small mass difference of 23.8
 \begin_inset space \thinspace{}
 \end_inset
@@ -907,7 +907,7 @@ TOF dynamic range
 
 \begin_layout Standard
 Quantification of the various gas species is done by fitting the detector
- response for the corresponding peak to a gaussian fit of the form 
+ response for the corresponding peak to a Gaussian fit of the form 
 \begin_inset Formula 
 \[
 R=k\times e^{-\left(t-t_{center}\right)^{2}/\sigma}
@@ -915,7 +915,7 @@ R=k\times e^{-\left(t-t_{center}\right)^{2}/\sigma}
 
 \end_inset
 
-This which have a very conveniet known solution for the integrated value:
+This which have a very convenient known solution for the integrated value:
 \begin_inset Formula 
 \[
 \int_{-\infty}^{\infty}Rdt=k\times\sqrt{\sigma}\times\sqrt{\pi}
@@ -927,7 +927,7 @@ This which have a very conveniet known solution for the integrated value:
 \end_layout
 
 \begin_layout Standard
-In this way it is possible to de-convolute even partially overlapping peaks.
+In this way it is possible to deconvolute even partially overlapping peaks.
 \end_layout
 
 \begin_layout Section
@@ -1203,7 +1203,7 @@ Benzene Hydrogenation
 \end_layout
 
 \begin_layout Standard
-For a vacuum physicist, Benzene is a frightening compound.
+For a simple vacuum physicist, Benzene is a frightening compound.
  Just the fact that it contains ns no less than 12 atoms (C
 \begin_inset Formula $_{6}$
 \end_inset
@@ -1213,8 +1213,8 @@ H
 \end_inset
 
 ) is certainly enough to turn a typical nice and clean mass-spectrum into
- a forest of peaks on a number of very non-typical masses, the number of
- ways for benzene to crack on a filament is large
+ a forest of peaks on a number of very non-typical masses.
+ The number of ways for benzene to crack on a filament is large
 \begin_inset CommandInset citation
 LatexCommand cite
 key "nist-benzene"
@@ -1244,17 +1244,35 @@ y eliminated.
  talk between adjacent masses which can easily become a problem in a QMS,
  especially when the number of peaks in the mass spectrum is as high as
  in the case of benzene.
-\begin_inset Note Note
-status open
+ The reason we are interested in measuring on this system is because changes
+ in selectivity towards cyclohexane, C
+\begin_inset Formula $_{6}$
+\end_inset
 
-\begin_layout Plain Layout
-Her skal stå noget om en ref.
- til sommerjai samt en linje om hvilket studie der skal gennemføres.
-\end_layout
+H
+\begin_inset Formula $_{12}$
+\end_inset
+
+, and cyclohexene, C
+\begin_inset Formula $_{6}$
+\end_inset
+
+H
+\begin_inset Formula $_{10}$
+\end_inset
+
+, has been show to depend on, if the reaction takes place on cubic or cuboctahed
+ral nanoparticles
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bratlie2007"
 
 \end_inset
 
-
+.
+ Since correlations between structure and reactivity are always of interest
+ in our group, we chose this as an interesting system to apply the TOF.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1304,11 +1322,12 @@ reference "fig:tof_benzene_hydrogenation"
 
 \end_inset
 
- the result of the benzene hydrogenation is shown.
- It turned out, that Pt catalyst was able to fully hydrogenate the Benzene
- into Cyclohexane even at room temperature.
+ the result of the very first (and so far only...) benzene hydrogenation experiment
+ is shown.
+ It turned out, that our Pt catalyst, in this case a thin film, was able
+ to fully hydrogenate the Benzene into cyclohexane even at room temperature.
  The next logical step from here would of course be to to cool the sample
- enough to be able to stop the reaction.
+ enough to bring down the conversion.
  From there the temperature can be raised in a controlled way and the activation
  energy can be measured.
  However, due to time constraints when we performed this experiment for
@@ -1321,17 +1340,7 @@ reference "fig:tof_benzene_hydrogenation"
 
 \begin_layout Standard
 The next step from here will of course be to do a proper size dependence
- study....
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Indsæt tilbageblik til motivationen.
-\end_layout
-
-\end_inset
-
-
+ study, and hopefully find a size dependence of the selectivity.
 \end_layout
 
 \begin_layout Subsection
@@ -1342,7 +1351,7 @@ Ammonia Oxidation
 A large project on time-of-flight mass spectrometer is a project on ammonia
  oxidation on Pt nanoparticles.
  Here we try to relate the activity of Pt nanoparticles to the cluster size.
- The result of this study is thourougly documented in the masters thesis
+ The result of this study is thoroughly documented in the masters thesis
  by Mathis Kjærgaard Christensen
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -1360,16 +1369,16 @@ al QMS.
  This means that one needs to take many TOF spectrums at a high repetition
  rate.
  This has the great advantage that one does not have to chose which masses
- to follow, instead the complete spectrum is aquired for each repetition,
- the negative corraly of this is, that the measurements takes up quite large
+ to follow, instead the complete spectrum is acquired for each repetition.
+ The negative side of this is, that the measurements takes up quite large
  amounts of storage space.
- In this mode of operation it is almost impossble to real-time data analysis,
- espically not if the spectrum contains overlapping peaks, which would of
- course often be the case in situation where it would be interesting to
- prefer the TOF over the QMS.
+ In this mode of operation it is almost impossible to do real-time data
+ analysis, especially not if the spectrum contains overlapping peaks, which
+ would of course often be the case in situation where it would be interesting
+ to prefer the TOF over the QMS.
  What we do instead is to simply blindly record the data (which is what
- we typically do anyway, since almost all measurement runs unattended) and
- then treat the data after the experiment is finished.
+ we typically do anyway, since almost all measurements runs unattended)
+ and then treat the data after the experiment is finished.
  
 \end_layout
 
@@ -1400,6 +1409,11 @@ name "fig:tof_ammonia_ox_thin_film"
 \end_inset
 
 Time-Of-Flight mass spectrometry of ammonia oxidation on a Pt thin film.
+ Notice that we are able to show the anti-correlation between OH and NH
+\begin_inset Formula $_{3}$
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -1410,7 +1424,7 @@ Time-Of-Flight mass spectrometry of ammonia oxidation on a Pt thin film.
 \end_inset
 
 The way the data is treated is to chose a list of wanted masses and then
- do the procedure of gaussion fits as shown in figure
+ do the procedure of Gaussian fits as shown in figure
 \begin_inset space ~
 \end_inset
 
@@ -1426,27 +1440,53 @@ reference "fig:tof_ammonia_gauss_fit"
 \begin_inset Formula $\sim100--1000$
 \end_inset
 
- gaussian fits can be performed using a simple Python program in a very
+ Gaussian fits can be performed using a simple Python program in a very
  short time.
  Of course one need to make sure that all the fits are performed correctly,
  and this is ensured by producing a pdf-file containing all the fits which
  can easily be inspected for fitting errors.
-\begin_inset Note Greyedout
+ An example of a page from such as file is shown in figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tof_multipage"
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
 status collapsed
 
 \begin_layout Plain Layout
-Figur der viser en typisk side?
-\end_layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/multipage_example.png
+	display false
+	width 12cm
 
 \end_inset
 
- Once all the gaussian fits are performed, it is an easy matter to plot
- the data in the same many that one would present data from a QMS.
-\begin_inset Note Greyedout
-status open
+
+\begin_inset Caption
 
 \begin_layout Plain Layout
-Dette er afsnit er ikke nødvendigvis færdigt....
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tof_multipage"
+
+\end_inset
+
+Example of a single page in the pdf produces for each mass-time measurement.
+ The black lines indicates the data-range used for each fit.
+ The blue lines are the raw data and the red lines the corresponding fit.
+ By combining all the fits into a single pdf, it is extremely easy to verify
+ that all fits are performed correctly.
 \end_layout
 
 \end_inset
@@ -1454,22 +1494,37 @@ Dette er afsnit er ikke nødvendigvis færdigt....
 
 \end_layout
 
-\begin_layout Standard
-...
-\end_layout
+\end_inset
 
-\begin_layout Standard
-As can be seen in the combined QMS and TOF plot, the TOF is able to document
- the fact, that the ammonia is completely converted.
+ Once all the Gaussian fits are performed, it is an easy matter to plot
+ the data in the same many that one would present data from a QMS.
+ To compare the to measurement techniques, we performed a simultaneous measureme
+nt on both instruments, and the result is shown in figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tof_combined_tof_and_qms"
+
+\end_inset
+
+.
+ It is evident that opposite to the QMS, the TOF is able to document the
+ fact, that the ammonia is completely converted.
  In the QMS the water signal at mass 17 prevents this from being measured,
- it is impossible to tell, that the ammonia is actually gone.
-\end_layout
-
-\begin_layout Standard
-...
-\end_layout
-
-\begin_layout Standard
+ it is almost impossible to tell, that the ammonia is actually gone.
+ It is also easy to see, that the time resolution is currently not nearly
+ as good as the QMS, this is very much due to our primitive ion source which
+ forces us into rather long integration times to get good spectra.
+ Also it is important to realize that for the QMS all the logged masses
+ are shown in the plot, if later find out we are interested in another mass,
+ we have no way to retrieve this data.
+ For the TOF data, the plotted masses are simply the one, we have chosen
+ to plot, we can at any time go back to the recorded data and plot the time
+ evolution of any wanted mass, since the raw data contains complete mass
+ spectra.
 \begin_inset Float figure
 wide false
 sideways false
