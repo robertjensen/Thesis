@@ -77,7 +77,10 @@ frontmatter
 \end_layout
 
 \begin_layout Title
-Microreactors for Heterogeneous Catalysis
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactors for Heterogeneous Catalysis
 \end_layout
 
 \begin_layout Chapter*
@@ -93,9 +96,16 @@ Abstract
 \end_layout
 
 \begin_layout Standard
-This thesis is the summary of my work on the microreactor platform.
- The concept of microreactors are presented and some of the experimental
- challenges are outlined.
+This thesis is the summary of my work on the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor platform.
+ The concept of 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactors are presented and some of the experimental challenges are outlined.
  The various experimental issues regarding the platform is discussed and
  the actual implementation of three generations of the setup is described
  in detail.
@@ -190,7 +200,15 @@ Dansk Resumé
 \begin_layout Standard
 
 \lang danish
-I denne afhandling findes en gennemgang af mit arbejde på mikroreaktorplatformen.
+I denne afhandling findes en gennemgang af mit arbejde på 
+\lang english
+
+\begin_inset Formula $\mu$
+\end_inset
+
+
+\lang danish
+-reaktorplatformen.
  Begrebet mikroreakter introduceres og nogle af de eksperimentelle udfordringer
  gennemgås.
  De forskellige eksperimentelle forhold omkring platformen diskuteres og
@@ -211,7 +229,15 @@ I denne afhandling findes en gennemgang af mit arbejde på mikroreaktorplatforme
 \begin_layout Standard
 
 \lang danish
-Enkelte resultater af målinger med mikroreaktorerne gennemgås.
+Enkelte resultater af målinger med 
+\lang english
+
+\begin_inset Formula $\mu$
+\end_inset
+
+
+\lang danish
+-reaktorerne gennemgås.
  Specielt diskuteres et overraksende fænomen, hvor aktiviteten af Pt nanopartikl
 er oscillerer i tid når partiklerne fungerer som katalysatorer for CO oxidation.
  Følsomheden er reaktorerne 

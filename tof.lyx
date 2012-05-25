@@ -83,8 +83,11 @@ reference "chap:Analytical-techniques"
 
 \end_inset
 
-, the attachment of a Time Of Flight Mass Spectrometer to the new microreactor
- setup, has turned out to be an extraordinary success.
+, the attachment of a Time Of Flight Mass Spectrometer to the new 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor setup, has turned out to be an extraordinary success.
  Since this has proven to be such a useful addition to the setup, I have
  chosen to dedicate a chapter to this technique.
 \end_layout
@@ -255,17 +258,12 @@ V and typical drift energy is on the order of 2000
 
 V.
  Of course it is critical that the rise time of the acceleration pulse is
- as short as possible, in our case it is on the order of ....
-\begin_inset Note Greyedout
-status open
-
-\begin_layout Plain Layout
-Indsæt rise time for pulseren
-\end_layout
-
+ as short as possible, in our case we use a DEI PVX-410 Pulser with a rise
+ time less then 25
+\begin_inset space \thinspace{}
 \end_inset
 
-.
+ns.
  From the acceleration region, the ions enter another set of focusing lenses
  as well as the deflector which is designed to compensate for the initial
  drift velocity orthogonal to the flight direction and will ideally ensure
@@ -363,7 +361,11 @@ name "fig:tof_microreactor"
 \end_inset
 
 Schematic of the Time-Of-Flight instrument along with the connections to
- the microreactor and the QMS.
+ the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor and the QMS.
  Drawing by Thomas Andersen.
 \end_layout
 
@@ -534,6 +536,40 @@ ion problem.
  
 \end_layout
 
+\begin_layout Standard
+The acceleration pulse is generated in a two step process where a low voltage
+ high-quality signal generator creates a continous pulse train of square
+ waves, typically we use a peak-width of 4
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset Formula $\mu$
+\end_inset
+
+s and a repetion rate of 400
+\begin_inset space \thinspace{}
+\end_inset
+
+Hz.
+ This low voltage signal is tee'd into two BNC cables, one connected to
+ the high voltage pulser, and one to the trigger of the computer digitizer,
+ which records the signal.
+ The digitizer is an Agilent DP214 bought very cheaply on ebay.
+ It features a maximum sampling frequency of 2
+\begin_inset space \thinspace{}
+\end_inset
+
+GHz which turns out to be fully sufficient to resolve the pulses from the
+ MCP.
+ Unfortunately the digitizer only has 8
+\begin_inset space \thinspace{}
+\end_inset
+
+bit dynamic range, which is somewhat less than one would want, since this
+ constranis the maximum dynamic range of the entire instrument.
+\end_layout
+
 \begin_layout Subsection
 Ionization
 \end_layout
@@ -544,23 +580,27 @@ ts and is what is known as a Orthogonal Acceleration TOF which means that
  the ions to be measured enters the acceleration region orthogonal to the
  direction of flight.
  This is especially well suited to measure on externally generated ions,
- which is unfortnately not what we have when measuring on the microreactors,
- the output from the capillary is obviously not ionized when leaving the
- reactor.
+ which is unfortnately not what we have when measuring on the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactors; the output from the capillary is obviously not ionized when leaving
+ the reactor.
  However, the reason for choosing this type of instrument is, that we originally
  expected to used the TOF as a characterization tool for the two cluster
- source at the department, and these instrument actually do have an ionized
+ sources at the department, and these instrument actually do have an ionized
  output.
  This little experimental detail meant, that we had to build our own ionization
  source to be able to use the instrument at all.
 \end_layout
 
 \begin_layout Standard
-Optimally all ions will enter with very low energy orthogonal to the flight
- direction, zero energy in the drift direction and perfectly centered between
- the acceleration plate and the grounded grid.
- Of course the ions will not have ideal position and energy, which will
- ultimately set the limit of the resolution of the instrument.
+Optimally all ions will enter the acceleration region with very low energy
+ orthogonal to the flight direction, zero energy in the drift direction
+ and perfectly centered between the acceleration plate and the grounded
+ grid.
+ Of course in reality the ions will not have ideal position and energy,
+ which will ultimately set the limit of the resolution of the instrument.
  
 \end_layout
 
@@ -581,7 +621,7 @@ key "BAYARD1950"
  might be a simple solution.
  After all, the gauge works by ionizing gas, however in the normal operation
  mode, no ions will leave the gauge, rather they will be neutralized when
- they hit the collector and leave the gauge as non-ionized molecules.
+ they hit the collector and leave the gauge as neutral molecules.
  However, by removing the lid of the gauge and short-circuiting the collector
  to the grid, the ions will now be able to escape the gauge through the
  top where the lid is now missing.
@@ -593,7 +633,7 @@ key "Nottingham1955"
 
 \end_inset
 
-.
+ (the other half will neutralize by collisions with the grid).
  A current of approximately 3
 \begin_inset space \thinspace{}
 \end_inset
@@ -610,9 +650,10 @@ istency of the measurements.
 
 V negative compared to the filament to accelerate electrons emitted from
  the filament towards the grid.
- This energy is very much a compromise, since for optimal ionization we
- would like much higher energies, the ionization cross section for most
- relevant species will peak between 100 and 150
+ This voltage is very much a compromise, since for optimal ionization we
+ would like much higher energies.
+ The ionization cross section for most relevant gaa species will peak between
+ 100 and 200
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -646,7 +687,8 @@ eV.
  It is evident that the difference between optimal ionization and optimal
  performance of the TOF is very large and the fact that it can be brought
  to work at all is actually quite unintuitive.
- 
+ A possible solution to this rather unpleasant compromise could be mountng
+ a collisional damper which will cool down ions to thermal energies.
 \end_layout
 
 \begin_layout Standard
@@ -655,23 +697,13 @@ The entire ionization structure is placed in a flange with a small orifice
  Large amounts of gas can hence be dosed locally around the ion gauge while
  still maintaining a low pressure in the source region of the TOF-MS.
  The small orifice is essential in the setup to avoid high pressure in the
- acceleration region and drift tube of the TOF-MS which would cause an increase
- in dead counts on the MCP thus decreasing the signal-to-noise ratio of
- the recorded signal.
+ acceleration region and thus also the drift tube of the TOF-MS which would
+ cause an increase in dead counts on the MCP thus decreasing the signal-to-noise
+ ratio of the recorded signal.
 \end_layout
 
 \begin_layout Section
-Examples of operation
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Hvad filen er det for en overskrift....
-\end_layout
-
-\end_inset
-
-
+Data output
 \end_layout
 
 \begin_layout Standard
@@ -729,16 +761,6 @@ mili-amu.
 
 \end_inset
 
-
-\begin_inset Note Greyedout
-status open
-
-\begin_layout Plain Layout
-Indsæt tekst om udregning af integralet
-\end_layout
-
-\end_inset
-
 All this considered we are actually doing quite well and have reached resolution
 s better than 
 \begin_inset Formula $m/\Delta m\approx2000$
@@ -746,26 +768,16 @@ s better than
 
  which is enough to separate many interesting ions which would normally
  be overlapping on traditional mass spectrometers.
- I primary example of this would ammonia, NH
+ A primary example of this would ammonia, NH
 \begin_inset Formula $_{3}$
 \end_inset
 
- and hydroxyl
-\begin_inset Note Greyedout
-status open
-
-\begin_layout Plain Layout
-Check...
-\end_layout
-
-\end_inset
-
-, OH, which are both at 17
+ and hydroxide, OH, which are both at 17
 \begin_inset space \thinspace{}
 \end_inset
 
 amu.
- However due to the different mass defect of the involved atoms, the exact
+ However due to the different mass defects of the involved atoms, the exact
  mass of NH
 \begin_inset Formula $_{3}$
 \end_inset
@@ -855,9 +867,6 @@ reference "fig:tof_untreated_data"
 \end_inset
 
 amu is extremely large.
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -897,12 +906,8 @@ TOF dynamic range
 \end_layout
 
 \begin_layout Standard
-.....
-\end_layout
-
-\begin_layout Standard
-Each peak is quantified by a gaussian fit to the detector response of the
- form 
+Quantification of the various gas species is done by fitting the detector
+ response for the corresponding peak to a gaussian fit of the form 
 \begin_inset Formula 
 \[
 R=k\times e^{-\left(t-t_{center}\right)^{2}/\sigma}
@@ -910,7 +915,7 @@ R=k\times e^{-\left(t-t_{center}\right)^{2}/\sigma}
 
 \end_inset
 
-, which have a very conveniet known solution for the integrated value:
+This which have a very conveniet known solution for the integrated value:
 \begin_inset Formula 
 \[
 \int_{-\infty}^{\infty}Rdt=k\times\sqrt{\sigma}\times\sqrt{\pi}
@@ -922,7 +927,7 @@ R=k\times e^{-\left(t-t_{center}\right)^{2}/\sigma}
 \end_layout
 
 \begin_layout Standard
-.....
+In this way it is possible to de-convolute even partially overlapping peaks.
 \end_layout
 
 \begin_layout Section
@@ -953,8 +958,12 @@ Since the TOF-MS only measures flight time and not the actual mass of the
 \begin_inset Formula $_{2}$
 \end_inset
 
- at mass 44, and then use the measured flight times of these 'known' masses
- to fit an expression for the flight time as a function of mass.
+ at mass
+\begin_inset space ~
+\end_inset
+
+44, and then use the measured flight times of these 'known' masses to fit
+ an expression for the flight time as a function of mass.
  This approach is in some cases adequate but does have the significant drawback
  that several peaks of well known masses must be present in the flight spectrum
  which is not always necessarily feasible.
@@ -1165,23 +1174,23 @@ Results
 \end_layout
 
 \begin_layout Standard
-Since the TOF was not originally constructed for the microreactor system,
- we did not have a long list of experiments to perform with this new piece
- of equipment.
+Since the TOF was not originally constructed for the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor system, we did not have a long list of experiments to perform with
+ this new piece of equipment.
  Rather the situation was the opposite, suddenly we had access to an unexpected
- device and suddenly we had to think of relevant applications for it.
+ device and we had to think of relevant applications for it.
  Rather soon we came up with two applications, benzene hydrogenation and
  ammonia oxidation.
  The benzene hydrogenation is in a very early state and the results presented
  here are highly preliminary.
  On the ammonia oxidation we have quite a lot of results and this will be
- thoroughly covered in the masters thesis of Mathias 
-\begin_inset Note Greyedout
-status collapsed
-
-\begin_layout Plain Layout
-Indsæt reference til Mathias her!!!
-\end_layout
+ thoroughly covered in the masters thesis of Mathias Kjærgaard Christensen
+\begin_inset CommandInset citation
+LatexCommand cite
+key "mathias-afhandling"
 
 \end_inset
 
@@ -1203,9 +1212,9 @@ H
 \begin_inset Formula $_{6}$
 \end_inset
 
-) is certainly enough to complicate turn a typical nice and clean mass-spectrum
- into a forest of peaks on a number of very non-typical masses, the number
- of ways for benzene to crack on a filament is large
+) is certainly enough to turn a typical nice and clean mass-spectrum into
+ a forest of peaks on a number of very non-typical masses, the number of
+ ways for benzene to crack on a filament is large
 \begin_inset CommandInset citation
 LatexCommand cite
 key "nist-benzene"
@@ -1229,13 +1238,26 @@ amu, the sensitivity is typically both poor and not especially well known
 
 amu.
  The TOF will not solve all these problems, the cracking pattern is still
- complicated, but at least it any sign of problems with the mass range is
- completely eliminated.
- Also the very high resolution is a great help since it completely eliminates
- cross talk between adjacent masses which can easily become a problem in
- a QMS, especially when the number of peaks in the mass spectrum is as high
- as in the case of benzene.
- 
+ complicated, but at least any sign of problems with the mass range is completel
+y eliminated.
+ Also the very high resolution is a great help since it eliminates cross
+ talk between adjacent masses which can easily become a problem in a QMS,
+ especially when the number of peaks in the mass spectrum is as high as
+ in the case of benzene.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Her skal stå noget om en ref.
+ til sommerjai samt en linje om hvilket studie der skal gennemføres.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1285,15 +1307,26 @@ reference "fig:tof_benzene_hydrogenation"
  the result of the benzene hydrogenation is shown.
  It turned out, that Pt catalyst was able to fully hydrogenate the Benzene
  into Cyclohexane even at room temperature.
- In principle we should be able to cool the sample enough to be able to
- actually measure the activation energy, but due to time constraints we
- chose to simply remove the hydrogen from the mixture which of course is
- also an efficient way of stopping the reaction.
-\begin_inset Note Greyedout
+ The next logical step from here would of course be to to cool the sample
+ enough to be able to stop the reaction.
+ From there the temperature can be raised in a controlled way and the activation
+ energy can be measured.
+ However, due to time constraints when we performed this experiment for
+ the first time, we chose to simply remove the hydrogen from the mixture
+ which of course is also an efficient way of stopping the reaction.
+ In this way we are able to get a simulated result of the cold sample with
+ no activity.
+ 
+\end_layout
+
+\begin_layout Standard
+The next step from here will of course be to do a proper size dependence
+ study....
+\begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-Dette er afsnit er ikke nødvendigvis færdigt....
+Indsæt tilbageblik til motivationen.
 \end_layout
 
 \end_inset
@@ -1311,12 +1344,9 @@ A large project on time-of-flight mass spectrometer is a project on ammonia
  Here we try to relate the activity of Pt nanoparticles to the cluster size.
  The result of this study is thourougly documented in the masters thesis
  by Mathis Kjærgaard Christensen
-\begin_inset Note Greyedout
-status open
-
-\begin_layout Plain Layout
-REF!
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "mathias-afhandling"
 
 \end_inset
 
@@ -1422,6 +1452,21 @@ Dette er afsnit er ikke nødvendigvis færdigt....
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+...
+\end_layout
+
+\begin_layout Standard
+As can be seen in the combined QMS and TOF plot, the TOF is able to document
+ the fact, that the ammonia is completely converted.
+ In the QMS the water signal at mass 17 prevents this from being measured,
+ it is impossible to tell, that the ammonia is actually gone.
+\end_layout
+
+\begin_layout Standard
+...
 \end_layout
 
 \begin_layout Standard
