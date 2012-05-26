@@ -28,7 +28,7 @@
 \paperfontsize default
 \spacing single
 \use_hyperref false
-\papersize default
+\papersize a4paper
 \use_geometry false
 \use_amsmath 1
 \use_esint 1
@@ -46,8 +46,8 @@
 \end_index
 \secnumdepth 3
 \tocdepth 3
-\paragraph_separation indent
-\paragraph_indentation default
+\paragraph_separation skip
+\defskip smallskip
 \quotes_language english
 \papercolumns 1
 \papersides 1
@@ -571,6 +571,42 @@ reference "fig:hot_e-frontmetal"
  The choice of metal is depending on what experiment one wants to perform,
  often we have worked with Pt, but other metals can also be deposited.
  
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/hote_sample.png
+	display false
+	width 7cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:hote_sample"
+
+\end_inset
+
+Photograph of the finished sample ready for mounting in the setup.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -624,7 +660,7 @@ status collapsed
 \begin_inset Graphics
 	filename figures/volvo.png
 	display false
-	width 13cm
+	width 10cm
 
 \end_inset
 
@@ -694,10 +730,290 @@ y
 \end_inset
 
  and connect the resistor to ground through approximately 
-\begin_inset Formula $100\, k\Omega$
+\begin_inset Formula $100\,\mbox{k}\Omega$
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Subsection
+Hot Electron Chemistry
+\end_layout
+
+\begin_layout Standard
+The status of this part of the project at the time Gunver worte her thesis
+ (and thus the last results to be presented in public) was that we had run
+ a series of attempts to detect hot electron chemistry in two different
+ ways, the test reaction was always CO desorption.
+ One way to detect this reactions, obviously is to position the sample beneath
+ the mass spectrometer and try to run the reaction and look for CO in the
+ mass spec.
+ To lower the background, the expriments was always performed with isotopcally
+ labeled CO, 
+\begin_inset Formula $^{13}$
+\end_inset
+
+C
+\begin_inset Formula $^{16}$
+\end_inset
+
+O.
+ This experiment has been performed many times with a range of different
+ electron energies, however we never been able to detect any signs of hot
+ electron induced desorbtion.
+ Because of the failure of the direct detection, the other way of testing
+ the reaction was to run a batch experiment.
+ First two 
+\begin_inset Formula $^{29}$
+\end_inset
+
+CO TPDs are performed, then hot electrons are applied for 60
+\begin_inset space \thinspace{}
+\end_inset
+
+min and finally another TPD is performed after 60
+\begin_inset space \thinspace{}
+\end_inset
+
+min without electrons.
+ This method is potentially more sensitive, since it integrates the effect
+ of the electrons over an exteded period of time.
+ However, the method also demands extremely high consistensy, since the
+ result is only visible as a difference between the two TPDs which of course
+ is much more indirect than simply looking for the reaction product.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/hote_kemi.png
+	display false
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:hote_kemi_gunver"
+
+\end_inset
+
+The result of the batch experiement.
+ As can be seen, the difference in TPD signal with and without hot-electrons
+ is not significantly larger than the difference among the individual TPDs.
+ Figure originaly from
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Gunver2010"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+As shown in figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:hote_kemi_gunver"
+
+\end_inset
+
+, also this method failed to show an effect of the electrons.
+ Some difference between the TPDs was visible, but the difference was not
+ even close to be significant enough to claim that this was due to the electrons.
+ 
+\end_layout
+
+\begin_layout Standard
+The final attempt at detecting a hot-electron induced effect was to apply
+ a simple lock-in technique.
+ In many situations, lock-in amplification can be an extraordinary efficient
+ at measuring signals on a very large noise background, provided that the
+ signal oscillates with a driven frequency that can be used for the lock-in.
+ The idea in our case was to pulse the divice and lock-in the mass-spectrometer
+ signal on the pulse frequency.
+ However, due to the non-vanishing capacitance of the device, it was only
+ possible to pulse the device with a frequncy of 
+\begin_inset Formula $\frac{1}{3}$
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+Hz, which is at least 1000 times less than what one would typically use
+ for lock-in amplicication.
+ To increase the sensitivy not only the mass spectrometer was used for the
+ detection, also the ion gaugfe signal was monitored since the gauge has
+ a much higher sensitivity than the mass spec, and since only a single gas-speci
+es is involved, it can safely be assumed that an increase in global pressure
+ is equal to an increase in 
+\begin_inset Formula $^{29}$
+\end_inset
+
+CO partial pressure.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/hote_pulsetest_failed.png
+	display false
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:hote_pulsetest_failed"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+A typical result of this kind of measurement is shown in figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:hote_pulsetest_failed"
+
+\end_inset
+
+.
+ Also this result was negative, no signal is visible neither in the direct
+ measurements or in the fourier transform, where a positive result should
+ show up as a peak at 0.33
+\begin_inset space \thinspace{}
+\end_inset
+
+Hz.
+ In figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:hote_pulsetest_simulated"
+
+\end_inset
+
+ is shown how the result should look in the case of a succesfull outcome.
+ This particular sample had suffered a breakdown of the gate oxide and thus
+ the there will be ohmic contact between the front side and the backside
+ of the device resulting in ohmic heating of the device.
+ The result of this pulsed heating is exactly the wanted pulsed desorption
+ feature, however of course this not due to the hot electrons.
+ However, the result is interesting in so far as it puts a baseline on the
+ magnitude of measureable signal.
+ As can be seen from figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:hote_pulsetest_simulated"
+
+\end_inset
+
+ the pulses has a magnitude of 
+\begin_inset Formula $\sim2\times10^{-12}$
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+mbar in the ion gauge and no detectable signal in the mass spectrometer,
+ ie.
+ only very few ions actually desorbed.
+ This means that the actual effect of the hot electrons must be much smaller
+ than this.
+ Even if any effect should exists, it will certainly be difficult to talk
+ about ultra efficient chemistry...
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/hote_pulsetest_simulated.png
+	display false
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:hote_pulsetest_simulated"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
