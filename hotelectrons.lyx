@@ -279,7 +279,7 @@ reference "fig:hot_e-thickox"
 \begin_layout Standard
 After the growth of the thick oxide, the area that is later to become the
  active area, is then back-etched in HF, with the rest of the oxide being
- protected by a protective layer applied by photolithography, figure
+ protected by a protective layer applied by photo lithography, figure
 \begin_inset space ~
 \end_inset
 
@@ -711,29 +711,7 @@ The experimental work on the devices is divided into two main sections,
  The free electron emission has a more technological perspective in areas
  of research or industry where one would like an electron source that is
  not heated to high temperatures like a filament.
- Very conveniently such an area of research is exactly many kinds of UHV
- science and therefore we where able to test this application directly in
- our own setup.
- The principle would be to try to run the mass-spectrometer with the hot-electro
-n device as electron source for the ionization instead of the normal filament.
- However, this involves to get the mass-spectrometer to actually operate
- without turning on the filament, in the normal mode of operation the mass-spect
-rometer hardware contains various safety mechanisms that will prevent the
- mass-filter from operating when the filament is not turned on (properly
- this is because a non-operating filament is an indirect indication that
- the vacuum is somehow compromised and it would then be dangerous to turn
- on the various voltages in the rod-system).
- However, a mail to Pfeiffer support revealed that this safety mechanism
- can be by-passed by connecting the filament wires to a resistor of approximatel
-y 
-\begin_inset Formula $1\,\Omega$
-\end_inset
-
- and connect the resistor to ground through approximately 
-\begin_inset Formula $100\,\mbox{k}\Omega$
-\end_inset
-
-.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -741,14 +719,22 @@ Hot Electron Chemistry
 \end_layout
 
 \begin_layout Standard
-The status of this part of the project at the time Gunver worte her thesis
+The status of this part of the project at the time Gunver wrote her thesis
  (and thus the last results to be presented in public) was that we had run
  a series of attempts to detect hot electron chemistry in two different
- ways, the test reaction was always CO desorption.
+ ways, the test reaction was always CO desorption, since this has been theoretic
+ally predicted to be a favorable test reaction
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Olsen2009"
+
+\end_inset
+
+.
  One way to detect this reactions, obviously is to position the sample beneath
  the mass spectrometer and try to run the reaction and look for CO in the
  mass spec.
- To lower the background, the expriments was always performed with isotopcally
+ To lower the background, the experiments was always performed with isotopically
  labeled CO, 
 \begin_inset Formula $^{13}$
 \end_inset
@@ -760,7 +746,7 @@ C
 O.
  This experiment has been performed many times with a range of different
  electron energies, however we never been able to detect any signs of hot
- electron induced desorbtion.
+ electron induced desorption.
  Because of the failure of the direct detection, the other way of testing
  the reaction was to run a batch experiment.
  First two 
@@ -777,8 +763,8 @@ min and finally another TPD is performed after 60
 
 min without electrons.
  This method is potentially more sensitive, since it integrates the effect
- of the electrons over an exteded period of time.
- However, the method also demands extremely high consistensy, since the
+ of the electrons over an extended period of time.
+ However, the method also demands extremely high consistency, since the
  result is only visible as a difference between the two TPDs which of course
  is much more indirect than simply looking for the reaction product.
  
@@ -807,10 +793,10 @@ name "fig:hote_kemi_gunver"
 
 \end_inset
 
-The result of the batch experiement.
+The result of the batch experiment.
  As can be seen, the difference in TPD signal with and without hot-electrons
  is not significantly larger than the difference among the individual TPDs.
- Figure originaly from
+ Figure originally from
 \begin_inset space ~
 \end_inset
 
@@ -854,10 +840,10 @@ The final attempt at detecting a hot-electron induced effect was to apply
  In many situations, lock-in amplification can be an extraordinary efficient
  at measuring signals on a very large noise background, provided that the
  signal oscillates with a driven frequency that can be used for the lock-in.
- The idea in our case was to pulse the divice and lock-in the mass-spectrometer
+ The idea in our case was to pulse the device and lock-in the mass-spectrometer
  signal on the pulse frequency.
  However, due to the non-vanishing capacitance of the device, it was only
- possible to pulse the device with a frequncy of 
+ possible to pulse the device with a frequency of 
 \begin_inset Formula $\frac{1}{3}$
 \end_inset
 
@@ -866,12 +852,12 @@ The final attempt at detecting a hot-electron induced effect was to apply
 \end_inset
 
 Hz, which is at least 1000 times less than what one would typically use
- for lock-in amplicication.
- To increase the sensitivy not only the mass spectrometer was used for the
- detection, also the ion gaugfe signal was monitored since the gauge has
- a much higher sensitivity than the mass spec, and since only a single gas-speci
-es is involved, it can safely be assumed that an increase in global pressure
- is equal to an increase in 
+ for lock-in amplification.
+ To increase the sensitivity not only the mass spectrometer was used for
+ the detection, also the ion gauge signal was monitored since the gauge
+ has a much higher sensitivity than the mass spec, and since only a single
+ gas-species is involved, it can safely be assumed that an increase in global
+ pressure is equal to an increase in 
 \begin_inset Formula $^{29}$
 \end_inset
 
@@ -904,7 +890,16 @@ name "fig:hote_pulsetest_failed"
 
 \end_inset
 
-.
+A typical result of the pulsed tests.
+ The mass spectrometer is continuously measuring mass 29 and the output
+ is shown on the top left.
+ The output from the ion gauge is shown bottom left.
+ The right column shows the Fourier transform of the corresponding signals.
+ A hot-electron effect should show up as a peak at 0.33
+\begin_inset space \thinspace{}
+\end_inset
+
+Hz.
 \end_layout
 
 \end_inset
@@ -927,7 +922,7 @@ reference "fig:hote_pulsetest_failed"
 
 .
  Also this result was negative, no signal is visible neither in the direct
- measurements or in the fourier transform, where a positive result should
+ measurements or in the Fourier transform, where a positive result should
  show up as a peak at 0.33
 \begin_inset space \thinspace{}
 \end_inset
@@ -944,14 +939,14 @@ reference "fig:hote_pulsetest_simulated"
 
 \end_inset
 
- is shown how the result should look in the case of a succesfull outcome.
+ is shown how the result should look in the case of a successful outcome.
  This particular sample had suffered a breakdown of the gate oxide and thus
  the there will be ohmic contact between the front side and the backside
  of the device resulting in ohmic heating of the device.
  The result of this pulsed heating is exactly the wanted pulsed desorption
  feature, however of course this not due to the hot electrons.
  However, the result is interesting in so far as it puts a baseline on the
- magnitude of measureable signal.
+ magnitude of measurable signal.
  As can be seen from figure
 \begin_inset space ~
 \end_inset
@@ -1003,7 +998,99 @@ name "fig:hote_pulsetest_simulated"
 
 \end_inset
 
+Simulated result of what would be the expected fingerprint of hot electron
+ induced desorption.
+ This spectrum was achieved with a device with a broken oxide which and
+ thus ohmic currents provides extremely local heating which desorps the
+ CO.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Electron emission
+\end_layout
+
+\begin_layout Standard
+The application of the devices as a free electron emitter is a very different
+ project from the electron induced chemistry.
+ This is a much more technological aspect and in many respects a much more
+ realistic application.
+ However, since our group is put in the world to do catalysis, not cold
+ electron emitters, this project has always been a side-project, however
+ one complete masters project did come out and documented many of the results
+\begin_inset CommandInset citation
+LatexCommand cite
+key "paolo-thesis"
+
+\end_inset
+
 .
+ Very conveniently, one potential application for a cold electron emitter
+ (sorry for the slightly confusing terminology, a more correct name would
+ perhaps be a cold emitter of free hot electrons...), such an area of research
+ is exactly many kinds of UHV science and therefore we wanted to test this
+ application directly in our own setup.
+ The principle would be to try to run the mass-spectrometer with the hot-electro
+n device as electron source for the ionization instead of the normal filament.
+ However, this involves to get the mass-spectrometer to actually operate
+ without turning on the filament, in the normal mode of operation the mass-spect
+rometer hardware contains various safety mechanisms that will prevent the
+ mass-filter from operating when the filament is not turned on (properly
+ this is because a non-operating filament is an indirect indication that
+ the vacuum is somehow compromised and it would then be dangerous to turn
+ on the various voltages in the rod-system).
+ However, a mail to Pfeiffer support revealed that this safety mechanism
+ can be by-passed by connecting the filament wires to a resistor of approximatel
+y 
+\begin_inset Formula $1\,\Omega$
+\end_inset
+
+ and connect the resistor to ground through approximately 
+\begin_inset Formula $100\,\mbox{k}\Omega$
+\end_inset
+
+.
+ If this procedure is followed, the mass spectrometer will turn on all electroni
+cs and work fully as a mass spectrometer, however now without an ion source.
+ The idea would now be to position the sample physically underneath the
+ mass spectrometer and simply emit electrons from the device.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/massspectrum_ext_filament.png
+	display false
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:hote_external_filmanent"
+
+\end_inset
+
+Mass spectrum of clean chamber taken using an external filament as ion source.
+ Helium and Argon was dosed into the chamber while running the experiment.
 \end_layout
 
 \end_inset
@@ -1013,7 +1100,52 @@ name "fig:hote_pulsetest_simulated"
 
 \end_inset
 
+This is in principle a simple strategy, however in real life it is slightly
+ more complicated.
+ Partly because of the mentioned issues getting the mass spec to run in
+ this mode at all, partly because the hot electron devices are very fragile
+ and breaks down very often, especially when biased enough to emit electrons
+ into the vacuum.
+ This means that these experiments are plagued by infinite amounts of practical
+ problems which slows down the project a lot.
+ In the end, I ended up running the experiment in 'cheat' mode, that is,
+ without using the actual device.
+ Instead a spectrum was taken using an external filament, just to prove
+ that it is indeed possible to provide external ions to a mass spectrometer.
+ As shown in figure
+\begin_inset space ~
+\end_inset
 
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:hote_external_filmanent"
+
+\end_inset
+
+, this works fine.
+ However, the real demonstration with an actual cold ion source did not
+ succeed before we closed the entire hot electron project, and I moved to
+ the microreactors.
+\end_layout
+
+\begin_layout Section
+Conclusions on the hot electron project
+\end_layout
+
+\begin_layout Standard
+Perhaps the most productive result achieved doing my time with the hot electron,
+ was the very sensitive demonstration of the absence of a hot electron effect
+ for CO desorption.
+ The pulsed experiments showed that if of hot electron induced desorption
+ takes place at all, the reaction rate is extremely low and even if we some
+ day should succeed in showing the effect, any claim of high efficiency
+ is certainly wrong.
+ Regarding the electron emission, I see much more perspective.
+ However, getting this to work reliably is a huge amount of work, and since
+ this application is so far away of the core focus of the group, it is not
+ really a project that fits in, which is of course also the reason we eventually
+ decided to close down the project.
 \end_layout
 
 \end_body
