@@ -66,7 +66,7 @@ Introduction
 \end_layout
 
 \begin_layout Section
-The need for new catalysts
+The state of the world
 \end_layout
 
 \begin_layout Standard
@@ -75,67 +75,45 @@ The world is facing many challenges within the coming years.
 \begin_inset Formula $_{2}$
 \end_inset
 
- level in the atmosphere, more and more cuntries becomes more and more dependant
- on supplies of fossil fuels from fewer and fewer cuntries, and this is
- just to mention the problems being discussed in the popular media.
- In the real world many other challeges are facing us like the great lack
- of many natural resources, espcially the so-called rate-earth metals.
- To make the situation even more interesting, this resource is not even
- as rare as name implies, more did we quite conciously stop mining these
- resources because a single cuntry was willing to produce them slightly
- cheaper than the world market price at that point.
- In general it seems that we openmindedly are trying our very best to build
- a very fragile society, even in areas where Nature itself actually do not
- really limit the access to resource, so-called economic expert will make
- sure to create a problem for us.
- 
-\end_layout
-
-\begin_layout Standard
-.....
-\end_layout
-
-\begin_layout Standard
-....
+ level in the atmosphere, more and more countries becomes more and more
+ dependent on supplies of fossil fuels from fewer and fewer countries.
+ And this is just to mention the problems being discussed in the popular
+ media, in real life many other challenges are facing us.
 \end_layout
 
 \begin_layout Standard
 However, all these problems can also be seen as interesting challenges that
  need new solutions, and this is where the scientific community steps in
  to hopefully provide solutions for many of these problems.
- Of course this will require inputs from many areas of research....
- ....
- ...
- Obviously heterogeneous catalysis is only a small part of this very large
- and complicated field.
-\end_layout
-
-\begin_layout Standard
-....
+ Of course this will require inputs from many areas of research, obviously
+ heterogeneous catalysis is only a small part of this very large and complicated
+ field.
 \end_layout
 
 \begin_layout Standard
 It is an interesting thought, that we as humans actually already know and
  masters several technologies that can potentially solve large parts of
  the energy problem.
- Such solutions includes both energy saving initiatives such as better insulatio
-n in housing, buildings with less demands for cooling, more tele-working
- reducing the demand for transportation...
-\end_layout
-
-\begin_layout Standard
-However, it seems to be a law of nature that despite all efforts to lower
+ Such solutions very much includes a long range of energy saving initiatives
+ such as better insulation in housing, buildings with less demands for cooling,
+ more tele-working reducing the demand for transportation etc.
+ However, it seems to be a law of nature that despite all efforts to lower
  energy consumption, on average the consumption integrated over the entire
  world, inevitable goes up.
  This means that it will be necessary to find ways of producing fairly cheap
  energy, preferably without resorting the fossil fuels even more polluting
  than what we are currently using.
- Also in this field several candidates exists that is fully capable of providing
- substantial (if not complete) parts of the worlds total energy consumption.
+ 
+\end_layout
+
+\begin_layout Standard
+In this field of energy technology, several candidates exists that is fully
+ capable of providing substantial (if not complete) parts of the worlds
+ total energy consumption.
  This technologies includes solar cells, solar-thermal electricity production,
  hydro-power, nuclear power and wind turbines.
  All of these technologies has their pros and cons, however, as I am myself
- particular found of wind turbines, I will take the liberty of using this
+ particular fond of wind turbines, I will take the liberty of using this
  technology as an example for a quick back-of-the-envelope calculation.
  The total energy consumption is currently around 16
 \begin_inset space \thinspace{}
@@ -163,7 +141,7 @@ MW are soon entering the market).
 .
  These convenient choice of numbers puts us with a needed number of wind
  turbines to satisfy the worlds energy needs of 
-\begin_inset Formula $2\times10^{13}/1\times10^{6}=10^{7}$
+\begin_inset Formula $2\times10^{13}/1\times10^{6}=2\times10^{7}$
 \end_inset
 
  wind turbines, not including energy storage loss.
@@ -171,24 +149,32 @@ MW are soon entering the market).
  (which in the real world seems to be a lower limit on the lifetime).
  This gives us a final number of the required number of wind turbines pr.
  year to be 
-\begin_inset Formula $10^{7}/20=5\times10^{5}$
+\begin_inset Formula $2\times10^{7}/20=10^{6}$
 \end_inset
 
  turbines or in units of peak power (which is the typical way of counting
- many kinds of energy producing devices) , 
-\begin_inset Formula $\sim2\times10^{6}$
+ many kinds of energy producing devices) 3
+\begin_inset Formula $\times10^{6}$
 \end_inset
 
 
 \begin_inset space \thinspace{}
 \end_inset
 
-MW-peak.
+MW
+\begin_inset Formula $_{peak}$
+\end_inset
+
+.
  Currently the wold yearly production is on the order of 41
 \begin_inset space \thinspace{}
 \end_inset
 
 GW
+\begin_inset Formula $_{peak}$
+\end_inset
+
+
 \begin_inset CommandInset citation
 LatexCommand cite
 key "btmconsult"
@@ -212,7 +198,7 @@ key "btmconsult"
  yearly price of proving 100% wind energy to the entire world:
 \begin_inset Formula 
 \[
-\mbox{Total\,\ cost}\sim2\times10^{6}\times10^{7}=2\times10^{13}\,\text{€}/\mbox{y}
+\mbox{Total\ cost}\sim3\times10^{6}\times10^{7}=3\times10^{13}\,\text{€}/\mbox{y}
 \]
 
 \end_inset
@@ -243,19 +229,59 @@ key "world_gdp"
  a more thorough calculation on the subject, however this is luckily well
  outside the scope of this introduction.
  One thing to notice, however, is that the 
-\begin_inset Formula $2\times10^{13}\,\text{€}/\mbox{y}$
+\begin_inset Formula $3\times10^{13}\,\text{€}/\mbox{y}$
 \end_inset
 
  includes every single watt consumed by the world for any purpose.
  Realistically, the amount of power needed will be well lower than this
- since not all of the worlds energy consumption is currently fossil fuels
- 
-\begin_inset Note Greyedout
-status open
+ since not all of the worlds energy consumption is currently fossil fuels.
+ In 2011 'only' 81% of thew worlds energy consumption was from fossil resources
+ (counting nuclear energy as non-fossil)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "iea_world_energy"
 
-\begin_layout Plain Layout
-Mere om energiformer.
+\end_inset
+
+.
 \end_layout
+
+\begin_layout Standard
+Finally, it might be reasonable to ask not only to the economics but more
+ relevant (and interesting) also to discuss the actual physical energy resource.
+ Given enough money and good will, is the world even big enough to provide
+ space for 
+\begin_inset Formula $2\times10^{7}$
+\end_inset
+
+ wind turbines of 3.5
+\begin_inset space \thinspace{}
+\end_inset
+
+MW? Luckily this question is easy to answer.
+ As a rule of thumb, the energy density pr.
+ area for wind turbines, is around 8
+\begin_inset space \thinspace{}
+\end_inset
+
+MW
+\begin_inset Formula $_{peak}$
+\end_inset
+
+/km
+\begin_inset Formula $^{2}$
+\end_inset
+
+.
+ Using this number, we easily gen an estimate of the required area to cover
+ the worlds entire energy consumption with wind turbines:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A=\frac{2\times10^{7}\times3.5\,\mbox{MW}}{8\,\mbox{MW/km}^{2}}=8.8\times10^{6}\,\mbox{km}^{2}
+\]
 
 \end_inset
 
@@ -263,28 +289,38 @@ Mere om energiformer.
 \end_layout
 
 \begin_layout Standard
-Finally, it might be reasonable to ask not only to the economics but more
- relevant (and interesting) also to discuss the actual physical energy resource,
- given enough money and good will, is the world even big enough to provide
- space for 
-\begin_inset Formula $10^{7}$
+Corresponding to 1.8% of the area of the globe or 6% of the worlds land area.
+ All in all it is evident that it will not be impossible to provide energy
+ to world, given sufficiently political will.
+ Wind turbines are just a single source of renewable energy, calculations
+ similar to this could be performed for solar cells, solar thermal energy
+ or nuclear power.
+ In reality it will for certain be optimal to mix the various energy forms
+ both by type as well as by geographic location in order to minimize the
+ storage demands.
+ Calculations of the optimal mix of energy source has to my knowledge been
+ carried out on world scale, bur for a 100% renewable Europe the optimal
+ mix between wind and solar energy is calculated to be 55% wind turbines
+ and 45% solar cells
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Heide2010"
+
 \end_inset
 
- wind turbines of 3.5
-\begin_inset space \thinspace{}
-\end_inset
-
-MW? 
-\begin_inset Note Greyedout
-status open
-
-\begin_layout Plain Layout
-Mere her...
+.
 \end_layout
 
-\end_inset
+\begin_layout Standard
+......
+\end_layout
 
-....
+\begin_layout Standard
+......
+\end_layout
+
+\begin_layout Standard
+.....
 \end_layout
 
 \begin_layout Section
@@ -296,11 +332,19 @@ As the title of this thesis indicates, the main focus of this theses is
  not so much on actual scientific results as it has been centered around
  creating a world-class experimental setup for testing many kinds of heterogeneo
 us catalysis.
- This does not mean that the platform has not been used to do actual research,
- doing my time at the setup, I we have performed a long list of investigations,
- in close coorporation with a number of bachelor, master and ph.d.
- students.
- The list of systems investegated doing this period includes:
+ This decision is taken both because this is my personal main interest and
+ because these aspects of the system is not going to be covered anywhere
+ else, it does not mean that the platform has not been used to do actual
+ research.
+ During my time at the setup, we have performed a long list of investigations,
+ in close corporation with a number of bachelor, master and Ph.D.
+ students, specializing in the individual processes.
+ Thus the results from this work will eventually come out through their
+ papers and theses.
+\end_layout
+
+\begin_layout Standard
+The list of systems investigated doing this period includes:
 \end_layout
 
 \begin_layout Itemize
@@ -332,42 +376,124 @@ Ammonia oxidation on various metal thin films
 \end_layout
 
 \begin_layout Itemize
-Methanol synthethis on Cu thin films
+Methanol synthesis on Cu thin films
 \end_layout
 
 \begin_layout Itemize
-Methanol synthethis on Cu/Zn thin films
-\end_layout
-
-\begin_layout Itemize
-...
-\begin_inset Note Greyedout
-status open
-
-\begin_layout Plain Layout
-Flere?
-\end_layout
-
-\end_inset
-
-
+Methanol synthesis on Cu/Zn thin films
 \end_layout
 
 \begin_layout Standard
 For most of this work the main focus has been on establishing correlations
- between structure and reativity, typically in the form of size dependence
+ between structure and reactivity, typically in the form of size dependence
  of the catalyst for the particular reaction.
- The results of this work will eventually be published in the theses of
- the various collaborators as well as (hopefully) a number of scientific
- papers.
-\end_layout
-
-\begin_layout Standard
-....
+ 
 \end_layout
 
 \begin_layout Section
 Summary of this thesis
+\end_layout
+
+\begin_layout Standard
+This thesis is divided into several chapters.
+ Here I will briefly outline the contents of the various parts.
+\end_layout
+
+\begin_layout Paragraph
+Chapters 2 and 3
+\end_layout
+
+\begin_layout Standard
+These chapters contains all the technical discussions of the microreactors
+ and the setup in general.
+ Here the reactors are introduced and the various technical issues are discussed.
+ Chapter two is covers everything except heating, which is then found in
+ chapter
+\begin_inset space ~
+\end_inset
+
+3.
+\end_layout
+
+\begin_layout Paragraph
+Chapter 4
+\end_layout
+
+\begin_layout Standard
+In this chapter a method of estimating active surface area of a catalyst
+ is presented.
+ For various reasons, the area measurement is specific to a single type
+ of system, in this case platinum.
+\end_layout
+
+\begin_layout Paragraph
+Chapter 5
+\end_layout
+
+\begin_layout Standard
+In the chapter, I take detour from the main focus on the platform, and discuss
+ an actual result.
+ The data presented shows oscillations in reactivity of Pt nano particles
+ during CO oxidation.
+ We find that the nano particles will show reactivity oscillations of timescales
+ from seconds up to more than an hour, even at atmospheric pressure.
+\end_layout
+
+\begin_layout Paragraph
+Chapter 6
+\end_layout
+
+\begin_layout Standard
+Here we are on the borderline between platform characterization and real
+ new data.
+ The topic of the chapter is a measurement of the sensitivity of the setup,
+ measured by CO oxidation on smaller and smaller Pt thin films.
+ As far as the project has come at this point, we are entirely on the platform
+ characterization part of the playing field.
+ However, we have hopes that we will eventually be able to reach turn over
+ frequencies so high, that we are able to see derivation from Arrhenius
+ behavior.
+ If we succeed in this, this will to my knowledge be the first time this
+ has been measured for this reaction on platinum.
+\end_layout
+
+\begin_layout Paragraph
+Chapter 7 and 8
+\end_layout
+
+\begin_layout Standard
+These chapters discusses some of the options to apply other surface science
+ methods to the system.
+ In chapter
+\begin_inset space ~
+\end_inset
+
+7 a long list of candidates is presented and in chapter
+\begin_inset space ~
+\end_inset
+
+8 the successful application of Time-Of-Flight Mass Spectrometry to the
+ microreactors is shown.
+\end_layout
+
+\begin_layout Paragraph
+Chapter 9
+\end_layout
+
+\begin_layout Standard
+A short chapter describing the first part of my Ph.D.
+ which was about hot electron chemistry.
+\end_layout
+
+\begin_layout Paragraph
+Chapter 10
+\end_layout
+
+\begin_layout Standard
+In the final chapter, I present my view of what could and should be the
+ future of the microreactor setup.
+ Specifically I present a number of suggestions of various improvements
+ that could be made to the platform.
 \end_layout
 
 \end_body
