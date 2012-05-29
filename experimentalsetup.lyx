@@ -78,8 +78,8 @@ The
 \begin_inset Formula $\mu$
 \end_inset
 
--reactor platform is invented here at CINF and is originally published in
- 2009 
+-reactor platform is invented at CINF and is originally published in 2009
+ 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Henriksen2009"
@@ -88,8 +88,7 @@ key "Henriksen2009"
 
 .
  The device itself and the fabrication process is described in details in
- Toke Henriksen's Ph.D.
- thesis 
+ 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Toke-phd"
@@ -99,8 +98,8 @@ key "Toke-phd"
 .
  The clever idea about the design is that even though most of the incoming
  gas-flow is pumped away immediately, every molecule that actually enters
- the reactor area, will be led into the mass spectrometer and thus the sensitivi
-ty of the device is very high.
+ the reactor area, will be led into the mass spectrometer resulting in very
+ high sensitivity of the device.
  The design shows a number of advantages compared to a traditional catalytic
  reactors:
 \end_layout
@@ -110,8 +109,8 @@ The total volume of the reactor is just 236
 \begin_inset space \thinspace{}
 \end_inset
 
-nL, meaning that we are able to measure on very small amounts of catalyst,
- this could for example be samples produced in a cluster source.
+nL, meaning that we are able to measure on very small amounts of catalyst.
+ This could for example be samples produced in a cluster source.
 \end_layout
 
 \begin_layout Itemize
@@ -121,8 +120,9 @@ Only very small amounts of the reacting gasses needs to be mixed, meaning
 \end_layout
 
 \begin_layout Itemize
-The thermal mass is very low, and the temperature of the reactor can therefore
- be raised very quickly
+The thermal mass is very low.
+ The temperature of the reactor can therefore be raised or dropped very
+ quickly
 \end_layout
 
 \begin_layout Itemize
@@ -133,13 +133,17 @@ The glass lid of the reactor gives easy optical contact to the catalyst,
 \end_layout
 
 \begin_layout Itemize
-The diffusion length of the reactants and products gases in the microreactor
- reactor volume is almost an order of magnitude longer than the radius of
- the reactor volume ensuring full contact of the gas with the catalyst.
+The diffusion length of the reactants and products gases in the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor reactor volume is almost an order of magnitude longer than the
+ radius of the reactor volume ensuring full contact of the gas with the
+ catalyst.
  We have tested this property by repeating CO oxidation measurements on
  small Pt spots located at different points in the the reactor volume, all
- spots are able to achieve full conversion thus showing that the gas is
- mixed in the reactor
+ spots are able to achieve full conversion showing that the gas is mixed
+ in the reactor
 \begin_inset CommandInset citation
 LatexCommand cite
 key "zubeyr-master"
@@ -150,18 +154,19 @@ key "zubeyr-master"
 \end_layout
 
 \begin_layout Standard
-Of course the design also has it downsides, the most import problem is properly
+Of course the design also has it downsides, the most import problem is probably
  the fact that it is almost impossible to apply any traditional surface
  science techniques on the catalyst because the reactor is hermetically
  sealed and no easy way of opening the lid is known.
- Also the maximum temperature achivebel is much lower than in traditional
+ Also the maximum temperature achievable is much lower than in traditional
  UHV-setups.
  We are ultimately limited by the melting point of the lid which is on the
  order of 
 \begin_inset Formula $\sim700^{\circ}$
 \end_inset
 
-C, traditional UHV setups have no problems reaching temperature well above
+C.
+ Traditional UHV setups have no problems reaching temperatures well above
  1000
 \begin_inset Formula $^{\circ}$
 \end_inset
@@ -198,7 +203,7 @@ name "fig:cad_old_reactor"
 CAD drawing of the reactor design.
  Gas inflow happens from the two inlets to the right, which are connected
  to the mixing zone.
- The main flow exists through the main outlet (second hole from the left).
+ The main flow exits through the main outlet (second hole from the left).
  The products leave the reactor through the capillary outlet furthest to
  the left.
  
@@ -215,11 +220,11 @@ The actual
 \begin_inset Formula $\mu$
 \end_inset
 
--reactor chip is clean room fabricated Si-based and has a size of 20x16.1
+-reactor chip is Si-based, clean room fabricated and has a size of 20x16.1
 \begin_inset Formula $\,$
 \end_inset
 
-mm .
+mm.
  The reactor consists of two inlets, a mixing zone allowing for diffusional
  mixing of reactants, an outlet, a reactor volume of 240
 \begin_inset Formula $\,$
@@ -242,7 +247,7 @@ m long capillary used for sniffing gases from the reactor volume.
 \begin_inset Formula $\mu$
 \end_inset
 
-m, the reactor and the capillary have a depth of 3
+m, while the reactor and the capillary have a depth of 3
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -251,7 +256,15 @@ m, the reactor and the capillary have a depth of 3
 \end_inset
 
 m.
- 
+ On top of the entire structure is grown a 50
+\begin_inset space \thinspace{}
+\end_inset
+
+nm layer of SiO
+\begin_inset Formula $_{2}$
+\end_inset
+
+ to act as an inert substrate for the measurements.
 \end_layout
 
 \begin_layout Subsection
@@ -263,12 +276,18 @@ Once the reactor is made in the clean room and the wanted catalyst to be
  tested is deposited in the reactor volume, the sample of course needs to
  be sealed to form a complete reactor.
  This is done through the process of anodic bonding, which is thoroughly
- described in earlier theses from CINF group and will only very briefly
- describe it here.
+ described in earlier theses from CINF group
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Vesborg-phd,Olsen-phd,Toke-phd"
+
+\end_inset
+
+ and will only very briefly be described here.
  The point in anodic bonding is to hermetically seal a pyrex lid to a silicon
  wafer which is done by applying a high potential to the lid compared to
  the silicon and heat the structure to a temperature where the pyrex becomes
- ionically conducting, which happens around 
+ ionically conducting which happens around 
 \begin_inset Formula $\sim$
 \end_inset
 
@@ -286,18 +305,23 @@ C.
 \begin_inset space \thinspace{}
 \end_inset
 
-bars of pressure, but most likely it is strong enough to contain much higher
+bars of pressure, but it is most likely strong enough to contain much higher
  pressures.
- Unfortunately no method of reversing the bonding process is known and thus
- the lid cannot be removed from the sample, once the bonding is performed.
+ Unfortunately, no method of reversing the bonding process is known and
+ the lid cannot be removed from the sample once the bonding is performed.
  
 \end_layout
 
 \begin_layout Standard
-In the microreactors, we often deposit samples that we do not want to heat
- before measurements, especially not in air.
- For that reason, we often use a so called cold-bonding method, which was
- developed here at CINF
+In the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactors, we often deposit samples that we do not want to heat before measureme
+nts.
+ Especially not in air.
+ For this reason, we often use a cold-bonding method which was developed
+ here at CINF
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Vesborg2010"
@@ -305,9 +329,9 @@ key "Vesborg2010"
 \end_inset
 
 .
- When cold bonding, the reactor is carefully positioned on top of a cold-finger
+ When cold bonding the reactor is carefully positioned on top of a cold-finger
  which will keep the reactor area at temperatures close to room temperature
- and thus protects the sample while the rest of the sample is heated .
+ thus protecting the catalyst while the rest of the sample is heated.
 \begin_inset Float figure
 placement t
 wide false
@@ -356,8 +380,8 @@ General measurement principle
 \end_layout
 
 \begin_layout Standard
-Of course in order to do actual measurements, one needs more than just a
- bonded silicon reactor.
+In order to perform actual measurements, one needs more than just a bonded
+ silicon reactor.
  To be able to do actual measurements it is necessary to have some kind
  of gas-handling, a way of heating the reactor, as well as a detection mechanism
  for the reactant and products.
@@ -382,21 +406,21 @@ V voltage and the actual output is returned also in the form of a 0--5
 \begin_inset space \thinspace{}
 \end_inset
 
-V signal, this makes it very easy to interface the flow controllers with
+V signal.
+ This makes it very easy to computer interface the flow controllers with
  standard DAQ-cards.
 \end_layout
 
 \begin_layout Standard
 The capillary flow is fed into a quadropole mass-spectrometer (QMS) for
  analysis.
- The QMS is mounted in a fully traditional, however rather small UHV chamber
+ The QMS is mounted in a fully traditional, however, rather small UHV chamber
  pumped by a turbo pump.
  It is of great importance to keep the base pressure as good as possible
  in the chamber since this background is superimposed on all measurements
- and thus it will often be the practical limit to the sensitivity of the
- measurements.
+ and it will often be the practical limit to the sensitivity of the measurements.
  If the chamber is properly baked and otherwise treated according to good
- UHV practice, a base pressure of 
+ UHV practice a base pressure of 
 \begin_inset Formula $\sim2\times10^{-10}$
 \end_inset
 
@@ -405,9 +429,13 @@ The capillary flow is fed into a quadropole mass-spectrometer (QMS) for
 \end_inset
 
 mbar can be reached.
- However, since many of the activities on the microreactors involves dosing
- more water and air residues than would typically be desired in a UHV system,
- the typical day-to-day pressure is more on the order of 
+ However, since many of the activities on the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactors involves dosing more water and air residues than would typically
+ be desired in a UHV system, the typical day-to-day pressure is on the order
+ of 
 \begin_inset Formula $1\times10^{-9}$
 \end_inset
 
@@ -450,35 +478,26 @@ mL/min pr.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Greyedout
-status collapsed
-
-\begin_layout Plain Layout
-Spørg værkstedet om de har en tegning af gas-interface blokken
-\end_layout
-
-\end_inset
-
 During experiments the chip is mounted in a metal block which is connected
  to the main tubing for gas-handling.
- The sealing between the chip and the metal block is done by o-rings.
- The typical o-ring material of choice is Kalrez due to its ability to be
+ The sealing between the chip and the metal block is done by O-rings.
+ The typical O-ring material of choice is Kalrez due to its ability to be
  heated to very high temperatures.
  For low temperature operation, also Viton can be considered, since this
  material is both cheaper and can be cooled to lower temperatures before
- it turns brittle.
- Unfortunately rubber o-rings are not leak-tight especially not when they
- are heated, which means that we have an inflow of air across all four o-rings.
+ it becomes brittle.
+ Unfortunately rubber O-rings are not leak-tight especially not when they
+ are heated, which means that we have an inflow of air across all four O-rings.
  This is very unfortunate in situations where oxygen is not wanted, e.g.
  methanol synthesis.
- Also, the air inflow through the o-ring sealing the capillary outlet complicate
+ Also, the air inflow through the O-ring sealing the capillary outlet complicate
 s interpretation of data a lot since it will give a background of air on
  top of the signal from the product gas.
- To eliminate both problems the o-rings are continuously flushed by a flow
- of Argon, if the flow is chosen sufficiently high, it will almost completely
- out-compete the air-inflow and result in a pure Argon inflow, which is
- at lot more acceptable, both regarding the chemistry and regarding data
- interpretation.
+ To eliminate both problems the O-rings are continuously flushed by a flow
+ of Argon.
+ If the flow is chosen sufficiently high, it will out-compete the air-inflow
+ and result in a more or less pure Argon inflow, which is at lot more acceptable
+, both regarding the chemistry and regarding data interpretation.
  Another solution to the problem is to evacuate the entire surroundings
  of the metal block, this option is discussed later in this chapter.
 \end_layout
@@ -487,7 +506,7 @@ s interpretation of data a lot since it will give a background of air on
 The reactor has a fairly short residence time which can easily be estimated
  from the known values of the volume and the gas flow through the capillary.
  Since one mole of ideal gas has a volume of 24
-\begin_inset space ~
+\begin_inset space \thinspace{}
 \end_inset
 
 L at room temperature, we can easily find the number of molecules in the
@@ -499,7 +518,19 @@ N_{reactor}=\frac{240\times10^{-9}\,\mbox{L}}{24\mbox{L}}N_{A}=10^{-8}\cdot N_{A
 
 \end_inset
 
-giving a residence time of 
+.
+ The capillary flow has been mesured to 
+\begin_inset Formula $6\times10^{14}\,\mbox{s}^{-1}$
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Olsen-phd"
+
+\end_inset
+
+ thus giving a residence time of 
 \begin_inset Formula 
 \[
 T_{res}=\frac{6\times10^{15}}{6\times10^{14}\mbox{s}^{-1}}=10\,\mbox{s}
@@ -571,8 +602,8 @@ mbar.
 \begin_inset space \thinspace{}
 \end_inset
 
-mbar doing experiments.
- The drawing of the reactor chip is only schematic and does not reflect
+mbar during experiments.
+ The drawing of the reactor chip itself is only schematic and does not reflect
  the actual layout.
 \end_layout
 
@@ -613,7 +644,7 @@ key "Olsen-phd"
 
 -reactor concept has a much longer history but this is really not a concern
  of this thesis.
- A schematic of the setup as of the day I arrived is seen on figure
+ A schematic of the setup as of the day I arrived is seen on Figure
 \begin_inset space ~
 \end_inset
 
@@ -626,8 +657,8 @@ reference "fig:old_old_setup"
 
 .
  The setup had several problems which it was necessary to address before
- the setup was really to do measurements beyond proof-of-concept measurements.
- First of all, it is evident from figure
+ the setup was really to measurements beyond proof-of-concept measurements.
+ First of all, it is evident from Figure
 \begin_inset space ~
 \end_inset
 
@@ -657,9 +688,10 @@ Another problem is the valves in front of the flow-controllers.
  available on the setup, one needs to close the valve in front of it, however
  with a manual valve, this makes it impossible to eliminate backgrounds
  from gasses that are actually used during the experiment.
- Finally many gas-lines was implemented with gasket-less Swagelok type connectio
-ns, which are not UHV-compatible, and along with rebuilding the system,
- it was obvious to also change all gas handling to copper sealed VCR connections.
+ Finally many gas-lines were implemented with gasket-less Swagelok type
+ connections, which are not UHV-compatible.
+ Along with rebuilding the system it was obvious to also change all gas
+ handling to copper sealed VCR connections.
 \end_layout
 
 \begin_layout Standard
@@ -710,9 +742,9 @@ The
 \end_inset
 
 For this reason, my first project on the setup was to update the setup to
- prepare it to do actual measurements since the proof-of-concept measurements
- was more or less all performed at this time.
- The first iteration on this update is seen in figure
+ prepare it to perform actual measurements since the proof-of-concept measuremen
+ts were more or less all performed at this time.
+ The first iteration on this update is seen in Figure
 \begin_inset space ~
 \end_inset
 
@@ -723,7 +755,7 @@ reference "fig:new_old_setup"
 
 \end_inset
 
- and figure
+ and Figure
 \begin_inset space ~
 \end_inset
 
@@ -761,7 +793,11 @@ name "fig:new_old_setup_photo"
 
 \end_inset
 
-The updated version of the microreactor setup.
+The updated version of the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor setup.
  Photo: Mathias Kjærgaard Christensen.
 \end_layout
 
@@ -779,16 +815,16 @@ The updated version of the microreactor setup.
 \begin_inset Formula $\nicefrac{1}{4}"$
 \end_inset
 
- pipe.
+ tube.
  The role of the buffer volume is to provide a large volume to absorb bursts
  of gas before they reach the turbo pump.
- This is especially important when you put a turbo pump at the vacuum side
- of a pressure controller since these devices will typically undershoot
+ This is especially important when you place a turbo pump at the vacuum
+ side of a pressure controller since these devices will typically undershoot
  quite a bit when they go down in pressure.
  If the turbo pump is attached directly to the pressure controller these
- undershoots will be extremely hard on the turbo, thus the buffer volume's
- purpose in life is to smoothen out these burst to make them tolerable for
- the turbo.
+ undershoots will be extremely hard on the turbo.
+ The buffer volume's purpose in life is to smoothen out these burst to make
+ them tolerable for the turbo.
  The system works beautifully and makes it possible to pump down the entire
  system to approximately 
 \begin_inset Formula $10^{-5}\,$
@@ -804,11 +840,11 @@ mbar with absolutely no oil in the residual gas.
 \begin_inset Formula $\sim10\,$
 \end_inset
 
-mL/min without drawing excessive currents in the turbo, this flow is high
- enough for most purposes and certainly it is high enough that pressure
- measurement of the reactor becomes unreliable due to flow resistance in
- the main outlet.
- Thus we typically try to stay well below 
+mL/min without drawing excessive currents in the turbo.
+ This flow is high enough for most purposes and certainly it is high enough
+ that pressure measurement of the reactor becomes unreliable due to flow
+ resistance in the main outlet.
+ For this reason we typically try to stay well below 
 \begin_inset Formula $10\,$
 \end_inset
 
@@ -816,13 +852,13 @@ mL/min anyway.
 \end_layout
 
 \begin_layout Standard
-Further the system was also updated with four pneumatically operated valves
- in front of the flow-controllers.
+The system was also updated with four pneumatically operated valves in front
+ of the flow-controllers.
  These valves are programmed to close every time the flow for the corresponding
  flow controller is set to zero.
  In this way we can decrease the background from unused gasses significantly.
  Besides the work on the mechanical part of the setup, we also completely
- changed the way heating and temperature measurement was performed, however
+ changed the way heating and temperature measurement was performed, however,
  due to the complexity of this subject it has been moved to a separate chapter
  (chapter
 \begin_inset space ~
@@ -888,13 +924,13 @@ The so-called 'Next Generation' setup.
 At some point we realized that with the amount the amount of samples we
  wanted to measure at the same time as we wanted to keep modifying and improving
  the setup, we simply did not have enough time to do it all.
- It was thus decided to build another setup using the experience gained
- from the old setup.
+ It was decided to build another setup using the experience gained from
+ the old setup.
  
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -938,23 +974,27 @@ The Tale of the Leaking O-rings
 \end_layout
 
 \begin_layout Standard
-At a first glance, the solution to the leaking o-rings of flushing with
- argon might seem as a good solution, but it does have several drawbacks.
+At first glance, the solution to the leaking O-rings of flushing with argon
+ might seem as a good solution, but it does have several drawbacks.
  For one thing it is hard to tell how well it is actually working.
  Of course one can measure with the mass-spectrometer if huge amounts of
- air leaks in along with the argon, however smaller amounts might be difficult
+ air leaks in along with the argon, however, smaller amounts might be difficult
  to detect even though it might still be enough to be a problem.
  If one for instance is running a methanation reaction, 
-\begin_inset Formula $\mbox{CO}+3\mbox{H}_{2}\rightarrow\mbox{CH}_{4}+\mbox{H}_{2}\mbox{O}$
+\begin_inset Formula 
+\[
+\mbox{CO}+3\mbox{H}_{2}\rightarrow\mbox{CH}_{4}+\mbox{H}_{2}\mbox{O}
+\]
+
 \end_inset
 
- it would be highly problematic if even small amounts of oxygen reach into
+, it would be highly problematic if even small amounts of oxygen reached
  the reactor.
  Secondly, one should not underestimate the costs of having a reactor flushed
  continuously with argon.
  Originally when the setup was first designed, it was constantly in development
- and was often not doing actual measurements.
- However today, it is not uncommon for the setup to run continuously for
+ and was often not performing actual measurements.
+ However, today, it is not uncommon for the setup to run continuously for
  several weeks.
  The argon consumption in such periods is between one and two bottles (50
 \begin_inset space \thinspace{}
@@ -964,9 +1004,10 @@ L, 200
 \begin_inset space \thinspace{}
 \end_inset
 
-bar) pr week which turns out to be a non-negligible cost.
- Thirdly, it can sometime happen that we simply run out of argon doing a
- long experiment, especially over the weekend.
+bar) pr.
+ week which turns out to be a non-negligible cost.
+ Thirdly, it can sometime happen that we simply run out of argon during
+ a long experiment, especially over the weekend.
  When starting an experiment one needs to judge whether the remaining argon
  supply will last for the rest of the experiment and unfortunately it can
  sometimes happen that this estimate fails and the argon run out during
@@ -978,19 +1019,22 @@ bar) pr week which turns out to be a non-negligible cost.
 
 \begin_layout Standard
 For all these reasons it was clear that the NG setup should have another
- solution to the problem of the leaking o-rings.
- The best solution would of course be to have a properly leak-tight sealing
- between the reactor and the metal tubing, but this strategy has been tried
- before
+ solution to the problem of the leaking O-rings.
+ The best solution would of course be to have a leak-tight sealing between
+ the reactor and the metal tubing, but this strategy has been tried before
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Olsen-phd"
 
 \end_inset
 
- and failed and thus we did not feel like trying that again.
+ and failed,.
  Instead we chose the brute-force solution of simply evacuating the entire
- surroundings of the microreactor.
+ surroundings of the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor.
  The workshop manufactured a small chamber (known in daily language as the
  'containment volume'), which is basically a short tube closed by two 8
 \begin_inset Quotes erd
@@ -1034,7 +1078,7 @@ mbar to atmosphere and contains a serial communication interface.
 \end_inset
 
  Germanium wafer.
- Since Germanium is transparent in the infrared part of the light-spectrum
+ Since germanium is transparent in the infrared part of the light-spectrum
  this window allows us to take thermographic images of the sample under
  vacuum.
 \end_layout
@@ -1052,23 +1096,24 @@ Replacing the manual valves with pneumatically controlled valves was a high
  normal working hours.
  With a pneumatic valve between the capillary and the main chamber it becomes
  possible to start the measurements from the comfort of the operators own
- home, with the old setup one needs to wait until the next morning.
+ home.
+ With the old setup one needs to wait until the next morning.
 \end_layout
 
 \begin_layout Standard
 Another great advantage of pneumatic valves is that it opens up for much
  better pumping of the tubing.
- On the old setup, the only way to evacuate the gas-system doing an experiment
+ On the old setup, the only way to evacuate the gas-system during an experiment
  is to set the pressure controller to 0 and pump out through the sample.
  Since this is an extremely bad pumping route it takes very long time to
  pump down in this way.
  In the new design, we have attached pneumatic valves that will allow direct
  access through 
-\begin_inset Formula $\frac{1}{4}"$
+\begin_inset Formula $\nicefrac{1}{4}"$
 \end_inset
 
- tubes between the gas system and the buffer volume allow for much better
- and faster pumping.
+ tubes between the gas system and the buffer volume.
+ This allows for much better and faster pumping.
 \end_layout
 
 \begin_layout Standard
@@ -1086,8 +1131,7 @@ bars.
  easily done by solenoidal valves since they can be directly electrically
  controlled.
  However, to have sufficiently dynamic range on the solenoid to be able
- to both open and close sufficiently well, a rather high voltage of typically
- 24
+ to both open and close sufficiently well a rather high voltage of 24
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -1167,22 +1211,40 @@ The new setup consists of no less than three separate vacuum chambers and
  partly because roughing pumps are expensive and partly because of very
  low-tech problems regarding having so many roughing pumps in the lab.
  For this reason we have designed the system in a way, where 'only' three
- rouging pumps are needed to run both microreactor systems.
+ rouging pumps are needed to run both 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor systems.
  One pump is shared between the main chambers of the old and the NG setup.
- Since the main chambers are true UHV chambers, the gas-load is low and
- we have no problems with pumping capacity.
+ Since the main chambers are UHV chambers, the gas-load is low and we have
+ no problems with pumping capacity.
  Back flow of gas between the two chambers through the shared roughing line
  can be a small problem, but modern turbo pumps have very high compression
- and thus the problem is basically limited to hydrogen, which actually can
- back flow through a turbo.
+ and the problem is basically limited to hydrogen, which actually can back
+ flow through a turbo.
  However, this has not turned out to give real-world problems since we do
- not use hydrogen very often and thus using it on both chambers at the same
- time is a very unlikely event.
+ not use hydrogen very often and using it on both chambers at the same time
+ is a very unlikely event.
  The second roughing pump is dedicated to the buffer volume of the old setup
  and is simply mounted directly on the turbo with suitable tee-pieces and
  valves to allow pumping down the buffer volume from atmosphere if necessary.
- This pump also backs the Time-Of-Flight instrument when it is attached
- to the microreactor system.
+ This pump also backs the Time-Of-Flight instrument (introduced in chapter
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:Time-Of-Flight"
+
+\end_inset
+
+) when it is attached to the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor system.
  The third roughing pump backs the buffer turbo of the NG chamber as well
  as the turbo pump on the containment volume.
  However, this is also the pump that does the initial pumping of the containment
@@ -1202,7 +1264,7 @@ V signal and ensures that the turbos are protected when the roughing line
 \end_layout
 
 \begin_layout Subsection
-Other improvements
+Misclanious improvements
 \end_layout
 
 \begin_layout Standard
@@ -1242,17 +1304,18 @@ Testing of the cooling feed-through.
 
 \end_inset
 
-Besides the obvious improvements we wanted for the NG setup, we also added
+Besides the obvious improvements we wanted for the NG setup we also added
  a number extra features which are not quite as much need-to-have but are
  nonetheless nice and useful additions to the setup.
  First of all we added a thick copper feed-through connected to a copper
  braid ending in a thin copper plate that can be mechanically positioned
  on top of the sample.
  By cooling the feed-through from the outside of the containment we are
- thus able to cool the sample which can sometimes be convenient.
- The lowest achievable temperature has not been really tested yet, so far
- we have only checked that the cooling actually works, which indeed it does.
- Most likely the limit will be set by the o-rings which will not go much
+ thus able to cool the sample which can be convenient.
+ The lowest achievable temperature has not been tested yet.
+ So far we have only checked that the cooling actually works, which indeed
+ it does.
+ Most likely the limit will be set by the O-rings which will not go much
  lower than -60
 \begin_inset Formula $^{\circ}$
 \end_inset
@@ -1264,13 +1327,13 @@ key "oringe"
 
 \end_inset
 
- depending on the choice of o-ring material.
+ depending on the choice of O-ring material.
 \end_layout
 
 \begin_layout Standard
-Another useful modification that has so far been used way to little is the
- addition of a sniffer line from the reactor outlet via a computer controlled
- piezo-actuated leak valve into the main chamber.
+Another useful modification is the addition of a sniffer line from the reactor
+ outlet via a computer controlled piezo-actuated leak valve into the main
+ chamber.
  The line is implemented as a 
 \begin_inset Formula $\nicefrac{1}{8}"$
 \end_inset
@@ -1284,10 +1347,10 @@ Another useful modification that has so far been used way to little is the
  The advantage of the line is that it opens up the option of doing in-situ
  blank experiments without removing the sample.
  Since mass spectrometers can give results that can be slightly difficult
- to interpret, it is often necessary to do a blank experiments to judge
+ to interpret, it is often necessary to perform blank experiments to judge
  the mass-spec signal from just the reactants with no catalyst available.
- With the sniffer line it is possible to do this test without changing the
- sample.
+ With the sniffer line it is possible to perform this test without changing
+ the sample.
  
 \end_layout
 
@@ -1299,18 +1362,18 @@ Safety mechanisms
 Because all our valves are pneumatically activated, we have the option of
  implementing a number of safety mechanisms which will protect the equipment
  if something goes wrong.
- These mechanisms fall in two distinct categories, one is the software controlle
-d checks which will programmatically intervene in the experiment if some
- parameter fall outside of the allowed range.
+ These mechanisms fall in two distinct categories.
+ One is the software controlled checks which will programmatically intervene
+ in the experiment if some parameter fall outside of the allowed range.
  The other type is the purely electrical mechanisms which will close relevant
  valves based purely on hardware triggers.
 \end_layout
 
 \begin_layout Standard
 The programmatically controlled safety features includes that the software
- will continuously monitor the pressure in the containment volume, if the
- pressure becomes too high, typically because of bonding errors, the software
- will prevent heating of the sample.
+ will continuously monitor the pressure in the containment volume.
+ If the pressure becomes too high, typically because of bonding errors,
+ the software will prevent heating of the sample.
  This is done to prevent gas-convection to transport heat to the 
 \begin_inset Formula $8"$
 \end_inset
@@ -1332,8 +1395,8 @@ key "xgs600"
 
 \end_inset
 
-, contains 8 so-called open-collector outputs which will turn on or off
- based on pre-programmed pressure ranges.
+, contains 8 open-collector outputs which will turn on or off based on pre-progr
+ammed pressure ranges.
  The electronic workshop has build an 8-channel open-collector
 \begin_inset Formula $\rightarrow$
 \end_inset
@@ -1344,8 +1407,8 @@ key "xgs600"
 
 V box which will open or close the pneumatic valves based on the set points.
  This means that the main chamber valve will close immediately if the pressure
- in the main chamber exceeds a pre-programmed pressure, typically we set
- the safety limit to 
+ in the main chamber exceeds a pre-programmed pressure.
+ Typically the safety limit is set to 
 \begin_inset Formula $10^{.6}$
 \end_inset
 
@@ -1374,14 +1437,18 @@ Experiment automation
 \end_layout
 
 \begin_layout Standard
-The microreactor platform often performs experiments that is both long and
- often involves quite a lot of process steps.
+The 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor platform often performs experiments that is both long and often
+ involves quite a lot of process steps.
  For applications like this, it is unfeasible to run the experiments manually.
- For this reason, we have developed software that will take read a so-called
- flow file and perform the experiment according to this file.
- The concept of a flow file is so powerful that it is are very rare event
- that the setups are run in manual mode, it more or less only happens when
- teaching students on the setup.
+ For this reason, we have developed software that reads a so-called flow
+ file and perform the experiment according to this file.
+ The concept of a flow file is so powerful that it is a very rare event
+ that the setups are run in manual mode.
+ This more or less only happens when teaching students on the setup.
  The advantages of the automated procedure even for rather simple measurements,
  is that we get a very high degree of reproducibility between samples.
  If two samples are run by the same flow file we are sure they receive a
@@ -1483,7 +1550,7 @@ include;pumpdown
 
 \begin_layout Standard
 The file is parsed from the top towards to bottom.
- All actions stated between individual 'time' commands is executed at the
+ All actions stated between individual 'time' commands are executed at the
  same time.
  At each 'time' command the flow is kept constant at the current configuration
  for the stated amount of minutes.
@@ -1509,8 +1576,8 @@ bar.
  (the include statement will simply import another file of the same syntax,
  this one with consecutive time and temperature steps to create a temperature
  ramp).
- 10 minutes after the ramp has finished the temperature is to zero (basically
- turning of the control loop and letting the sample cool to room temperature).
+ 10 minutes after the ramp has finished the temperature is set to zero (basicall
+y turning of the control loop and letting the sample cool to room temperature).
  Five minutes later, the flows are stopped and the reactor is pumped down
  by another include file.
  It is easy to see, that arbitrarily complex measurements can be written
@@ -1528,7 +1595,7 @@ Data storage
 placement t
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -1567,32 +1634,35 @@ A simple example of the type of data stored in the CINF database, in this
 \end_inset
 
 Along with an automated experimental setup should necessarily go a comprehensive
- data logging system to make it be able to real-time monitor what the setup
+ data logging system to make it easy to real-time monitor what the setup
  is actually doing.
  Since no such logging system was present at CINF, we have build one and
  over time this has proven to be immensely useful.
- The core of the system is a centrally manages MySQL database running on
+ The core of the system is a centrally managed MySQL database running on
  a dedicated server (popularly know as 'servcinf').
- All measurements performed on the microreactor setup (and gradually many
- other setups) are saved directly to the database with no temporary storage
- at the local computer.
+ All measurements performed on the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor setup (and gradually many other setups) are saved directly to the
+ database with no temporary storage at the local computer.
  This has many advantages, for example it is possible to real-time monitor
  the measurements through a web-browser from anywhere in the world.
  It also ensures that all data are secured even in the event of the computer
  crashes (an all to frequent event when using LabView for data acquisition....)
  and is continuously backed up by the central IT-department.
- Also the central server act as a common entrance point when searching for
- old data, either ones own data or data from other CINF setups that could
- have results relevant for the current project.
+ Also, the central server act as a common entrance point when searching
+ for old data, either one's own data or data from other CINF setups that
+ could have results relevant for the current project.
  The data can be easily accessed either from the web-interface or directly
  from the database.
- Almost all figure in this thesis is thus made by very simple python-scripts
+ Almost all figures in this thesis is thus made by very simple python-scripts
  which extracts data from the database and plots them in a consistent way.
  Besides storage of the individual measurements, the system also continuously
  logs health information of the chamber, such as chamber pressure, turbo
- pump temperatures, sample temperature, roughing pump pressures, etc..
- in this way it is easy to catch a developing problem from eg.
- a rouging pump needing service or to pin-point when a UHV chamber developed
+ pump temperatures, sample temperature, roughing pump pressures, etc.
+ In this way it is easy to catch a developing problem from eg.
+ a rouging pump needing service or to pin-point when a UHV chamber has developed
  a leak.
 \end_layout
 

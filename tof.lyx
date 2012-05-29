@@ -108,7 +108,7 @@ key "JordanHomepage"
  The frame and the pumps for the system was scavenged from an old molecular
  beam setup that had been idling in the lab for some years and thus the
  complete is a wonderful mixture of many different kind of flanges and pumps
- which happened to be available, as can be seen in figure
+ which happened to be available, as can be seen in Figure
 \begin_inset space ~
 \end_inset
 
@@ -468,7 +468,7 @@ Electronics and data acquisition
 \end_layout
 
 \begin_layout Standard
-Looking at the wonderful amounts of stainless steel in figure
+Looking at the wonderful amounts of stainless steel in Figure
 \begin_inset space ~
 \end_inset
 
@@ -795,7 +795,7 @@ amu, leaving a mass difference of 23.8
 \end_inset
 
 mili-amu.
- This is a small difference, but as shown on figure
+ This is a small difference, but as shown on Figure
 \begin_inset space ~
 \end_inset
 
@@ -850,7 +850,7 @@ Raw data from the TOF
 
 \end_inset
 
-An example of a spectrum is shown in figure
+An example of a spectrum is shown in Figure
 \begin_inset space ~
 \end_inset
 
@@ -1132,7 +1132,7 @@ Trajectory plots of three different ions each with different initial position
 
 \end_inset
 
- In figure~
+ In Figure~
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:simulated_reflectron"
@@ -1153,7 +1153,7 @@ reference "fig:simulated_reflectron"
  to the ground grid will be slower.
  This spread in energy inherently limits the resolution of a linear Time
  Of Flight instrument.
- However, as can be seen in figure~
+ However, as can be seen in Figure~
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:simulated_reflectron"
@@ -1311,7 +1311,7 @@ Benzene hydrogenation
 
 \end_inset
 
- In figure
+ In Figure
 \begin_inset space ~
 \end_inset
 
@@ -1424,7 +1424,7 @@ Time-Of-Flight mass spectrometry of ammonia oxidation on a Pt thin film.
 \end_inset
 
 The way the data is treated is to chose a list of wanted masses and then
- do the procedure of Gaussian fits as shown in figure
+ do the procedure of Gaussian fits as shown in Figure
 \begin_inset space ~
 \end_inset
 
@@ -1445,7 +1445,7 @@ reference "fig:tof_ammonia_gauss_fit"
  Of course one need to make sure that all the fits are performed correctly,
  and this is ensured by producing a pdf-file containing all the fits which
  can easily be inspected for fitting errors.
- An example of a page from such as file is shown in figure
+ An example of a page from such as file is shown in Figure
 \begin_inset space ~
 \end_inset
 
@@ -1499,7 +1499,7 @@ Example of a single page in the pdf produces for each mass-time measurement.
  Once all the Gaussian fits are performed, it is an easy matter to plot
  the data in the same many that one would present data from a QMS.
  To compare the to measurement techniques, we performed a simultaneous measureme
-nt on both instruments, and the result is shown in figure
+nt on both instruments, and the result is shown in Figure
 \begin_inset space ~
 \end_inset
 

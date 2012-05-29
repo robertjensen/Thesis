@@ -66,9 +66,12 @@ Future plans
 \end_layout
 
 \begin_layout Standard
-Ever since I joined the microreactor team, the setup has been in a permanent
- state of flux, and I am very happy that this condition does not seem to
- end any time soon.
+Ever since I joined the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor team, the setup has been in a permanent state of flux, and I am
+ very happy that this condition does not seem to end any time soon.
  So far we have several plans for enhancements, some is almost guaranteed
  to be implemented and others are perhaps somewhat more optimistic.
 \end_layout
@@ -107,8 +110,11 @@ key "pyexplabsys"
 
 \end_inset
 
- on other setups and it would be obvious to gradually also turn the microreactor
-s in this direction.
+ on other setups and it would be obvious to gradually also turn the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactors in this direction.
 \end_layout
 
 \begin_layout Paragraph
@@ -219,14 +225,29 @@ In-situ deposition and bonding under UHV conditions
 \begin_layout Standard
 This is a slightly ambitious project but with a potentially very high value.
  The point would be to build a chamber where it is possible to deposit cluster
- samples on a microreactor, perform various kinds of analysis and finally
- bond the sample, all under UHV conditions.
- This would significantly enhance the microreactor platform as a tool to
- bridge the pressure gap between traditional UHV analysis and the high pressure
- conditions of the microreactor, since we would be able to measure on truly
- clean samples that have never been exposed to air.
- Of course transfer between this setup and the microreactor setup would
- be a weak point since this cannot possibly be done under UHV conditions.
+ samples on a 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor, perform various kinds of analysis and finally bond the sample,
+ all under UHV conditions.
+ This would significantly enhance the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor platform as a tool to bridge the pressure gap between traditional
+ UHV analysis and the high pressure conditions of the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor, since we would be able to measure on truly clean samples that
+ have never been exposed to air.
+ Of course transfer between this setup and the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor setup would be a weak point since this cannot possibly be done
+ under UHV conditions.
  Our proposal for the transfer would be to fill the reactor with 1
 \begin_inset space \thinspace{}
 \end_inset
@@ -236,9 +257,12 @@ bar of inert gas before removing it from the bonding setup.
  to air long enough that it will diffuse all the way through the mixing
  channels and into the reactor volume.
  The time-scale for this should be sufficiently long that it is possible
- to either mount the sample in the microreactor setup and evacuate it, or
- to store the in a suitable clean environment, preferably some sort of evacuated
- storage.
+ to either mount the sample in the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor setup and evacuate it, or to store the in a suitable clean environment,
+ preferably some sort of evacuated storage.
 \end_layout
 
 \begin_layout Paragraph
@@ -249,10 +273,14 @@ UHV connection between sputter deposition chamber and cluster deposition
 CINF recently acquired a high-quality sputter deposition system capable
  of depositing a very large range of materials, including many oxides.
  If this system is attached to the future in-situ bonding setup, it would
- be possible to use the microreactor for exploring a wide range of substrate
- effects, since it would be possible to sputter-deposit the wanted substrate,
- then deposit clusters, characterize the sample using either auger or TPDs
- before finally bonding and remove the sample, all under highly clean conditions.
+ be possible to use the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor for exploring a wide range of substrate effects, since it would
+ be possible to sputter-deposit the wanted substrate, then deposit clusters,
+ characterize the sample using either auger or TPDs before finally bonding
+ and remove the sample, all under highly clean conditions.
 \end_layout
 
 \begin_layout Paragraph
@@ -261,9 +289,12 @@ Application of in-situ techniques
 
 \begin_layout Standard
 This is of course the crown jewel of all wishes for the future.
- There can be no doubt that the single greatest weakness of the microreactor
- platform is the lack of in-situ (or even ex-situ for that matter...) surface
- sensitive techniques.
+ There can be no doubt that the single greatest weakness of the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor platform is the lack of in-situ (or even ex-situ for that matter...)
+ surface sensitive techniques.
  
 \begin_inset Note Greyedout
 status open

@@ -66,8 +66,11 @@ Measuring the Active Area of a Catalyst
 \end_layout
 
 \begin_layout Standard
-Very often when doing measurements in the microreactor, one will want to
- know the available active area of the catalyst.
+Very often when doing measurements in the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor, one will want to know the available active area of the catalyst.
  In some case it can be very simple, for instance when working with metal
  thin-films, in these cases the area is more or less equal to the geometric
  area of the film, unless the catalyst is not polluted with surface contaminants.
@@ -83,20 +86,29 @@ Procedure
 \end_layout
 
 \begin_layout Standard
-The classic UHV procedure for measuring surface area of a catalyst, is the
+The classic UHV procedure for measuring surface area of a catalyst is the
  TPD.
  The sample is exposed to a gas (typical CO) with subsequent heating of
  the sample.
  The amount of gas coming of the sample is a measure of the surface area.
- However, this method is not quite as well suited in the microreactors.
- We have tried to do TPDs and it certainly works, but sensitivity is rather
- poor.
- The problem is that in order to do a high-quality TPD you need really efficient
- pumping since only one gas species is involved, CO is dosed and CO is measured.
+ However, this method is not quite as well suited in the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactors.
+ We have tried to perform TPDs and it certainly works, but sensitivity is
+ rather poor.
+ The problem is that in order to make a high-quality TPD you need really
+ efficient pumping since only one gas species is involved; CO is dosed and
+ CO is measured.
  In UHV this problem also exists but due to the generally very high pumping
  capacity of UHV chambers it is possible to bring down the CO background
  reasonably fast.
- In the microreactors we have long pieces of 
+ In the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactors we have long pieces of 
 \begin_inset Formula $\nicefrac{1}{4}"$
 \end_inset
 
@@ -116,7 +128,7 @@ The classic UHV procedure for measuring surface area of a catalyst, is the
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -148,7 +160,7 @@ Plot of the area measurement procedure.
 \end_inset
 
 min is the peak representing the surface area.
- For a zoom of this peak, see figure
+ For a zoom of this peak, see Figure
 \begin_inset space ~
 \end_inset
 
@@ -176,7 +188,7 @@ The solution we are using so far, is developed for Pt and will most likely
  than what is dosed.
  This of course means that the process must involve a step of catalytic
  conversion between the dosed species into a product of another mass.
- Since Pt is so remarkably efficient at oxidizing CO, we chose a titration-like
+ Since Pt is so remarkably efficient at oxidizing CO we chose a titration-like
  procedure which in short looks like this:
 \end_layout
 
@@ -232,13 +244,13 @@ Her skal nogle referencer om ilt på Pt ind!
  TPD.
  In reality the procedure is somewhat more complicated than described here,
  since we also need to dose a carrier gas before the CO to ensure a proper
- flow from the reactor and into the capillary outlet, for this we typically
- use hellium.
+ flow from the reactor and into the capillary outlet.
+ For this we typically use hellium.
  Also the hellium is used to flush away the oxygen after the initial dose
  since this is faster than just pumping on the long tubes, especially on
  the old setup where we can only pump the tubes through the outlet of the
  sample.
- The complete procedure for area measurement is plotted in figure
+ The complete procedure for area measurement is plotted in Figure
 \begin_inset space ~
 \end_inset
 
@@ -261,7 +273,7 @@ C, in principle we can also run at room temperature, but since the conversion
  which improves the measurement but might at the same time change the area
  we want to measure by e.g.
  sintering.
- The current typical value of 70
+ After quit a bit of experimentation, the current value of 70
 \begin_inset Formula $^{\circ}$
 \end_inset
 
@@ -277,7 +289,7 @@ key "Simonsen2010"
 \end_layout
 
 \begin_layout Standard
-The result of such a procedure is seen in figure
+The result of such a procedure is seen in Figure
 \begin_inset space ~
 \end_inset
 
@@ -314,7 +326,7 @@ name "fig:area_thinfilm_example"
 
 \end_inset
 
-Zoom of the two first area measurements on the sample showed in figure
+Zoom of the two first area measurements on the sample showed in Figure
 \begin_inset space ~
 \end_inset
 
@@ -365,22 +377,92 @@ Area measurements on cluster sample
 \begin_layout Standard
 Of course to be usefull, the area measuements will also need to work on
  nano particle samples rather than just thin films.
- For this reason we have tested the procedure on several samples made on
- the cluster source.
-\begin_inset Note Greyedout
-status open
+ For this reason we have tested the procedure on several samples with depisted
+ Pt nano particles.
+ The particles were made with our cluster source here at CINF, the source
+ is described in several publications
+\begin_inset CommandInset citation
+LatexCommand cite
+key "RasumusNielsen2009,RasmusNielsen2010"
 
-\begin_layout Plain Layout
-Tag stilling til om der skal gennemgås mere end en.
-\end_layout
+\end_inset
+
+, but in short consists of a gas-aggregation source where metal clusters
+ are formed by gas-phase condensation in a magnetron sputter source.
+ The condensed ions are then size-selected by a quadropole mass selection
+ filter.
+ The cluster source is supposed to be able to produce Pt nanoparticles with
+ diameters in the range of 2--16
+\begin_inset space \thinspace{}
+\end_inset
+
+nm, however, the operators typically start to complain if one asks for particles
+ below 3
+\begin_inset space \thinspace{}
+\end_inset
+
+nm or above 9
+\begin_inset space \thinspace{}
+\end_inset
+
+nm, so in practice this is the available range from this source.
+ The data presented here is for a sample of 5
+\begin_inset space \thinspace{}
+\end_inset
+
+nm Pt clusters.
+ The amount of clusters is estimated by measuring the beam current imidiately
+ before positioning the sample in the cluster beam.
+ The deposition is timed in order to reach a geometric coverage of 40% of
+ the reactor area, with the coverage calculated as the 2D-projection of
+ spherical clusters of 5
+\begin_inset space \thinspace{}
+\end_inset
+
+nm.
+ It is important to remember, that the clusters are mass-filtered, not shape
+ filtered and spherical or Wulff-shaped clusters is not necessarily a realistic
+ approximation, however the convention on the cluster source is to always
+ calculate covetares in 'spherical equivalents' that is hypothetical spheres
+ with mass corresponding to the filter mass.
+ If the clusters are indeed spherical, it seems reasonable to expect them
+ to wet the surface and land on the substrate as half-speres, in this case
+ it is easy to get a rough estimate of the expected active surface area.
+ First we find the radius of the corresponding half-sphere:
+\begin_inset Formula 
+\[
+V_{sphere}=V_{half-sphere}\Rightarrow\frac{4}{3}\pi R_{s}^{3}=\frac{2}{3}\pi R_{hs}^{3}\Rightarrow R_{hs}=2^{1/3}R_{s}
+\]
+
+\end_inset
+
+Now we need to find the area exposed by a half-sphere with a radius correspondin
+g to the 2D projection of a sphere of radious 
+\begin_inset Formula $R_{s}$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\frac{A_{half-sphere}}{A_{circle}}=\frac{2\pi2^{2/3}R_{s}^{2}}{\pi R_{s}^{2}}=2^{4/3}\approx2.5
+\]
+
+\end_inset
+
+That is, in the situation where sphercal particles are formed and these
+ particles lands as half-spheres, the expected measured area should be 2.5
+ times the nominal coverage.
+ In our case we want to compare a 40% cluster sample to a 10% thin film.
+ In this situation the expetation for the measured area should be that we
+ will measure a relative area of
+\begin_inset Formula 
+\[
+\frac{A_{cluster}}{A_{thin-film}}=\frac{40\times2.5}{10}=9
+\]
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Subsection
-MR108, 5nm, 40% coverage
 \end_layout
 
 \begin_layout Standard
@@ -419,11 +501,11 @@ Plot of all measured areas on MR108
 
 \end_inset
 
-The first sample On this sample, we first tried to run a few area measurements
- before doing any attempts at cleaning the sample.
+The area measurement was performed by running a few area measurements before
+ doing any attempts at cleaning the sample.
  After this, the sample was subjected to a number of different treatments
  with two area measurements in between.
- Each area measurement is performed exactly as described in figure
+ Each area measurement is performed exactly as described in Figure
 \begin_inset space ~
 \end_inset
 
@@ -434,7 +516,8 @@ reference "fig:area_procedure"
 
 \end_inset
 
-, only the treatment in between the area measurements are changed, in figure
+, only the treatment in between the area measurements are changed.
+ In Figure
 \begin_inset space ~
 \end_inset
 
@@ -562,7 +645,7 @@ bar CO
 \end_layout
 
 \begin_layout Standard
-The result of all the measurements are summarized in figure
+The result of all the measurements are summarized in Figure
 \begin_inset space ~
 \end_inset
 
@@ -580,7 +663,7 @@ reference "fig:area_MR108_summary"
  After this we see an assymptoticly increasing which one would guess is
  more an effect of the cleaning cycles themselves than on the heat treatments
  in He and CO.
- Finally it is also evident that it is possible to adsorb more than a monolayer
+ Finally, it is also evident that it is possible to adsorb more than a monolayer
  of oxygen on sample by heating a fairly clean sample in large amounts of
  oxygen, every area measurement imidiately after this treatment shows an
  unusually large area.
@@ -591,19 +674,11 @@ reference "fig:area_MR108_summary"
 \begin_inset space \thinspace{}
 \end_inset
 
-nC which is approximately 9 times higher than the measured area for the
- thin film.
- 
-\begin_inset Note Greyedout
-status open
-
-\begin_layout Plain Layout
-Areal af cluster!!!
-\end_layout
-
-\end_inset
-
-
+nC which is approximately 8--8.5 times higher than the measured area for
+ the thin film.
+ This fits extremely well with the expected factor of 9.
+ However, considering the amount of uncertainties in this calculation, this
+ high degree agreenment is properly somewhat of a coincedence.
 \end_layout
 
 \begin_layout Standard
@@ -633,598 +708,12 @@ name "fig:area_MR108_summary"
 \end_inset
 
 Summary of the measured areas on sample MR108.
- The color changes between green and red every time the sample is treated
- in some way between the area measurements.
 \end_layout
 
 \end_inset
 
 
 \end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-MR102, 5.2nm, 20% coverage (uncertain deposition)
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Graphics
-	filename svg_figures/area_MR102.svg
-	display false
-	width 12cm
-
-\end_inset
-
-
-\begin_inset Caption
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:area_MR102"
-
-\end_inset
-
-Plot of all measured areas on MR102
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-The first sample is named MR102 and consists of 5.2
-\begin_inset space \thinspace{}
-\end_inset
-
-nm particles with a geometrical coverage of approxmiately 20% of the reactor
- area.
- However, this coverage is very uncertain due to measurement errors during
- deposition.
- The sample is measured several times and 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Tabular
-<lyxtabular version="3" rows="9" columns="6">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Treatment
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Area measurement 
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2.4
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6.3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5.6
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6.3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6.4
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1bar oxygen, RT
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-8.9
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-9.0
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-7.8
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-8.4
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-9.0
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1bar oxygen, 420
-\begin_inset Formula $^{\circ}$
-\end_inset
-
-C
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2.0
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5.9
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5.6
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5.9
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6.1
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1bar oxygen, RT
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6.5
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6.5
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6.5
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6.5
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6.9
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-7.0
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-7.3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-7.7
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1bar oxygen, 420
-\begin_inset Formula $^{\circ}$
-\end_inset
-
-C
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3.1
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5.7 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5.9
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1bar oxygen, 420
-\begin_inset Formula $^{\circ}$
-\end_inset
-
-C
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3.8 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5.6 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5.9
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
 
 \end_inset
 

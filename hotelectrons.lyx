@@ -67,9 +67,12 @@ Hot Electron Devices
 
 \begin_layout Standard
 In the first part of my Ph.D.
- I was not working with microreactors, but with a completely different system
- where the goal was to do non-thermal catalysis using a so-called Hot-Electron
- Device.
+ I was not working with 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactors, but with a completely different system where the goal was to
+ do non-thermal catalysis using a so-called Hot-Electron Device.
  The devices was originally developed at CINF by Ph.D.
  students Gunver Nielsen and Lasse Thomsen, who made a number of publication
  on the subject (
@@ -126,7 +129,7 @@ The Hot-Electron Device
 \begin_layout Standard
 The original implementation of the device was done by Lasse and Gunver.
  The device is implemented as a Semiconductor-Insulator-Metal structure.
- The starting point is a plain Si-wafer (figure
+ The starting point is a plain Si-wafer (Figure
 \begin_inset space ~
 \end_inset
 
@@ -249,7 +252,7 @@ The wafer after growing the thick oxide
 \begin_inset space \thinspace{}
 \end_inset
 
-nm, figure
+nm, Figure
 \begin_inset space ~
 \end_inset
 
@@ -279,7 +282,7 @@ reference "fig:hot_e-thickox"
 \begin_layout Standard
 After the growth of the thick oxide, the area that is later to become the
  active area, is then back-etched in HF, with the rest of the oxide being
- protected by a protective layer applied by photo lithography, figure
+ protected by a protective layer applied by photo lithography, Figure
 \begin_inset space ~
 \end_inset
 
@@ -409,7 +412,7 @@ At this point we have a device structure of an outer rim of thick oxide
  as the tunnel barrier.
  To do this, the wafers are first so-called RCA cleaned and immediately
  after transferred into an extremely clean furnace where the oxidation is
- performed in a dry oxygen atmosphere, figure
+ performed in a dry oxygen atmosphere, Figure
 \begin_inset space ~
 \end_inset
 
@@ -534,7 +537,7 @@ Finally metal is deposited on the front side.
 \end_inset
 
  After growing the thin oxide, the next step is to deposit a metal layer
- on the backside of the wafer, figure
+ on the backside of the wafer, Figure
 \begin_inset space ~
 \end_inset
 
@@ -555,7 +558,7 @@ reference "fig:hot_e-backmetal"
 nm Au on top of a few nm of Ti as an adhesion layer between the the silicon
  and the gold.
  At this point the wafers are ready for the final step, which is to deposit
- the front side metal, figure
+ the front side metal, Figure
 \begin_inset space ~
 \end_inset
 
@@ -629,7 +632,7 @@ mbar and is pumped by a turbo pump ensuring a clean vacuum, the samples
  is mounted from a load-lock pumped by a separate turbo, and it is thus
  possible to change the samples without compromising the vacuum of the main
  chamber.
- A schematic drawing of the chamber is seen in figure
+ A schematic drawing of the chamber is seen in Figure
 \begin_inset space ~
 \end_inset
 
@@ -817,7 +820,7 @@ key "Gunver2010"
 
 \end_inset
 
-As shown in figure
+As shown in Figure
 \begin_inset space ~
 \end_inset
 
@@ -909,7 +912,7 @@ Hz.
 
 \end_inset
 
-A typical result of this kind of measurement is shown in figure
+A typical result of this kind of measurement is shown in Figure
 \begin_inset space ~
 \end_inset
 
@@ -928,7 +931,7 @@ reference "fig:hote_pulsetest_failed"
 \end_inset
 
 Hz.
- In figure
+ In Figure
 \begin_inset space ~
 \end_inset
 
@@ -947,7 +950,7 @@ reference "fig:hote_pulsetest_simulated"
  feature, however of course this not due to the hot electrons.
  However, the result is interesting in so far as it puts a baseline on the
  magnitude of measurable signal.
- As can be seen from figure
+ As can be seen from Figure
 \begin_inset space ~
 \end_inset
 
@@ -1112,7 +1115,7 @@ This is in principle a simple strategy, however in real life it is slightly
  without using the actual device.
  Instead a spectrum was taken using an external filament, just to prove
  that it is indeed possible to provide external ions to a mass spectrometer.
- As shown in figure
+ As shown in Figure
 \begin_inset space ~
 \end_inset
 
@@ -1126,7 +1129,11 @@ reference "fig:hote_external_filmanent"
 , this works fine.
  However, the real demonstration with an actual cold ion source did not
  succeed before we closed the entire hot electron project, and I moved to
- the microreactors.
+ the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactors.
 \end_layout
 
 \begin_layout Section

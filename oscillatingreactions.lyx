@@ -74,35 +74,12 @@ key "mikkel-bachelor"
 
 \end_inset
 
- concerning size dependence of reactivity of Pt nanoclusters in the microreactor
- setup.
- The clusters was made with our cluster source here at CINF, the source
- is described in several publications
-\begin_inset CommandInset citation
-LatexCommand cite
-key "RasumusNielsen2009,RasmusNielsen2010"
-
+ concerning size dependence of reactivity of Pt nanoclusters in the 
+\begin_inset Formula $\mu$
 \end_inset
 
-, but in short consists of a gas-aggregation source where metal clusters
- are formed by gas-phase condensation in a magnetron sputter source.
- The condensed ions are then size-selected by a quadropole mass selection
- filter.
- The cluster source is supposed to be able to produce Pt nanoparticles with
- diameters in the range of 2--16
-\begin_inset space \thinspace{}
-\end_inset
-
-nm, however, the operators typically start to complain if one asks for particles
- below 3
-\begin_inset space \thinspace{}
-\end_inset
-
-nm or above 9
-\begin_inset space \thinspace{}
-\end_inset
-
-nm, so in practice this is the available range from this source.
+-reactor setup.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -115,7 +92,7 @@ As part of the investigation we ran a simple CO oxidation experiment to
  get the time' was a lightoff experiment with very low CO concentration
  to see how much this would bring down lightoff temperature, and thus it
  was obvious to let the setup spend the rest of the weekend on this.
- After running this experiment we looked at the data (figure
+ After running this experiment we looked at the data (Figure
 \begin_inset space ~
 \end_inset
 
@@ -169,7 +146,8 @@ The first data-set, showing oscillation behavior.
  what could be the problem, and in this process it is natural to try to
  analyze the noise to see if it seems to contain a hint about the root of
  the problem.
- In figure
+ A zoom of the data with a timescale short enough to resolve the individual
+ spikes in the signal is shown in Figure
 \begin_inset space ~
 \end_inset
 
@@ -180,8 +158,7 @@ reference "fig:oscil_original_zoom"
 
 \end_inset
 
- is shown a zoom of the data with a timescale short enough to resolve the
- individual spikes in the signal.
+.
  
 \begin_inset Float figure
 wide false
@@ -243,8 +220,8 @@ Existing literature
 
 \begin_layout Standard
 Once the initial excitement had settled and we came to the ordinary day
- to day work on the oscillations, we of course also started to look in to
- the literature to see if this had been seen before.
+ to day work on the oscillations, we of course looked in to the literature
+ to see if this had been seen before.
  A very famous example of oscillating reactions on Pt was discovered by
  Ertl and co-workers
 \begin_inset CommandInset citation
@@ -261,7 +238,7 @@ key "EISWIRTH1986"
 \begin_inset space \thinspace{}
 \end_inset
 
-bar on nano particles, and it is thus hard to imagine that the oscillation
+bar on nanoparticles, and it is thus hard to imagine that the oscillation
  mechanism should be the same in our case.
  However, other people have actually found oscillations under reactions
  much more comparable to ours.
@@ -273,7 +250,7 @@ key "Hendriksen2002,Hendriksen2005"
 
 \end_inset
 
- and more recently using X-ray diffraction 
+ and more recently X-ray diffraction 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Hendriksen2010"
@@ -296,7 +273,7 @@ key "Zhdanov2002,Carlsson2006"
 \end_inset
 
 .
- Finally also DFT calculations has been performed on systems like this
+ Finally, also DFT calculations have been performed on systems like this
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Gong2004"
@@ -312,8 +289,13 @@ Many of these papers have impressive in-situ measurements of the system
  originate from the surface switching between an oxidized and a reduced
  state with the oxidized state being the most active.
  Since we do not have access to traditional surface science techniques in
- the microreactors, our focus has been on getting truly high quality mass
- spectrometry and to investigate a fairly large parameter space.
+ the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactors, our focus has been on getting truly high quality mass spectrometry
+ and to investigate a fairly large parameter space, among this the temperature
+ dependence, which has to our knowledge not been done before.
 \end_layout
 
 \begin_layout Section
@@ -375,7 +357,11 @@ A typical example of the initial treatment of a new sample.
 
 \end_inset
 
-(shown in figure~
+(shown in Figure
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:oscil_initial_treatment"
@@ -423,7 +409,7 @@ C where after the temperature is again decreased also at 3
 \end_inset
 
 C/min until we reach room temperature.
- Then the temperature is again increased at 3
+ The temperature is again increased at 3
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -442,7 +428,11 @@ C and 220
 \end_inset
 
 C works nicely.
- An example of an initial treatment is seen in figure~
+ An example of an initial treatment is seen in Figure
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:oscil_initial_treatment"
@@ -523,7 +513,11 @@ min.
 
 \end_inset
 
-An example of a single very slow oscillation is seen in figure~
+An example of a single very slow oscillation is seen in Figure
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:oscil_full_oscil"
@@ -585,7 +579,7 @@ We of course spend quite a lot of effort to ensure that the phenomenon is
  Due to the long timescales between full conversion and low conversion plateaus
  the oscillations cannot be attributed to the reactor itself which of course
  have a much shorter typical timescale.
- Furthermore we did a series of experiments were performed to exclude that
+ Furthermore, we did a series of experiments were performed to exclude that
  this could be due to the flow controllers or perhaps the temperature control
  system.
  Firstly, the clean room wizards prepared lids for the reactor with a deep
@@ -597,10 +591,10 @@ We of course spend quite a lot of effort to ensure that the phenomenon is
  This sample also oscillated and thus further pointed towards that this
  is a true phenomenon.
  Of course we also reproduced the oscillations on the NG setup.
- Even though this setup is in principle a copy of the old setup, is is anyway
- sufficiently different that it is hard to imagine experimental artifacts
- to be identical; in the new setup we have a different PID implementation,
- different length of the tubing as well as other flow controllers.
+ Even though this setup is in principle a copy of the old setup, it is sufficien
+tly different that it is hard to imagine experimental artifacts to be identical;
+ in the new setup we have a different PID implementation, different length
+ of the tubing as well as other flow controllers.
  Also this test showed oscillations with the same initial treatment.
  Finally we also did quite an effort to reproduce the phenomenon on Pt thin
  film of comparable coverage without ever seeing a single oscillation.
@@ -620,7 +614,11 @@ key "Singh2010"
 
 \begin_layout Standard
 After prolonged measurements over several days an increase in oscillation
- period was observed as shown in figure~
+ period was observed as shown in Figure
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:oscil_4days_summary"
@@ -690,14 +688,22 @@ min and it increases linearly with time until 1500
 \end_inset
 
 min of total oscillation time.
- Hereafter the oscillations become more irregular as shown in figure~
+ Hereafter the oscillations become more irregular as shown in Figure
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:oscil_4days_summary"
 
 \end_inset
 
- and in the lower panel of figure~
+ and in the lower panel of Figure
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:oscil_extracts"
@@ -754,7 +760,11 @@ min and 45
 \end_inset
 
 min.
- Figure~
+ Figure
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:oscil_extracts"
@@ -777,7 +787,7 @@ min are shown.
 \end_inset
 
 min the oscillations are more irregular which is consistent with the data
- shown in figure
+ shown in Figure
 \begin_inset space ~
 \end_inset
 
@@ -848,7 +858,7 @@ Plot showing the value of the CO
 
  A possible explanation of the phenomenon could be sintering of the particles
  during the oxidation and reductions cycles.
- However, as shown in figure
+ However, as shown in Figure
 \begin_inset space ~
 \end_inset
 
@@ -869,8 +879,8 @@ reference "fig:oscil_dutycycle"
  frequency.
  Thus we do not expect sintering to be the cause since an average loss in
  activity of the sample would be expected.
- Unfortunately this means that we have to accept that we so far do not have
- a satisfactory explanation of the increasing period.
+ Unfortunately, this means that we have to accept that we so far do not
+ have a satisfactory explanation of the increasing period.
 \end_layout
 
 \begin_layout Section
@@ -878,9 +888,12 @@ Exploring the parameter space
 \end_layout
 
 \begin_layout Standard
-One great advantage of the microreactor setup is, that we can fairly easily
- investigate a rather lager parameter space of many different physical propertie
-s.
+One great advantage of the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor setup is that we can fairly easily investigate a rather lager parameter
+ space of many different physical properties.
  In this system, the number of parameters to test is almost infinite, so
  we had no problems finding several properties to investigate.
  One significant complication in this exploration is that the reproducibility
@@ -977,7 +990,7 @@ C.
 \end_inset
 
 An interesting feature in the data is the very large temperature dependence
- of the oscillation frequency as shown in figure
+ of the oscillation frequency as shown in Figure
 \begin_inset space ~
 \end_inset
 
@@ -998,7 +1011,7 @@ C the oscillation period was changed by more than a factor of 10.
  samples but all samples show a very large temperature dependence.
  In some cases a provoked change in temperature will consistently turn on
  and off the oscillations.
- This is illustrated in figure
+ This is illustrated in Figure
 \begin_inset space ~
 \end_inset
 
@@ -1131,7 +1144,7 @@ The result shows that the period increases slightly with increasing CO-concentra
 tion.
  However, the effect is small compared to the general trend of slower oscillatio
 ns as the experiment progresses.
- In figure
+ In Figure
 \begin_inset space ~
 \end_inset
 
@@ -1143,7 +1156,7 @@ reference "fig:oscil_gas_dependence_summary"
 \end_inset
 
  the oscillation periods are summarized and the actual mass spectrometry
- data of the entire experiment are shown in figure
+ data of the entire experiment are shown in Figure
 \begin_inset space ~
 \end_inset
 
@@ -1347,7 +1360,7 @@ In this study Pt nanoparticles were investigated which, compared to a single
  state.
  As the reaction runs the gas composition towards the outlet of the reactor
  will become more oxidizing increasing the oxidation rate of the particles
- (illustrated in the bottom of figure
+ (illustrated in the bottom of Figure
 \begin_inset space ~
 \end_inset
 

@@ -71,20 +71,21 @@ The state of the world
 
 \begin_layout Standard
 The world is facing many challenges within the coming years.
- Oil prices are rising, and so is the CO
+ Oil prices are rising and so is the CO
 \begin_inset Formula $_{2}$
 \end_inset
 
- level in the atmosphere, more and more countries becomes more and more
- dependent on supplies of fossil fuels from fewer and fewer countries.
+ level in the atmosphere.
+ More and more countries becomes more and more dependent on supplies of
+ fossil fuels from fewer and fewer countries.
  And this is just to mention the problems being discussed in the popular
  media, in real life many other challenges are facing us.
 \end_layout
 
 \begin_layout Standard
-However, all these problems can also be seen as interesting challenges that
- need new solutions, and this is where the scientific community steps in
- to hopefully provide solutions for many of these problems.
+However, all of these problems can also be seen as interesting challenges
+ that need new solutions, and this is where the scientific community steps
+ in to hopefully provide solutions for many of these problems.
  Of course this will require inputs from many areas of research, obviously
  heterogeneous catalysis is only a small part of this very large and complicated
  field.
@@ -100,8 +101,8 @@ It is an interesting thought, that we as humans actually already know and
  However, it seems to be a law of nature that despite all efforts to lower
  energy consumption, on average the consumption integrated over the entire
  world, inevitable goes up.
- This means that it will be necessary to find ways of producing fairly cheap
- energy, preferably without resorting the fossil fuels even more polluting
+ This means that it will be necessary to find ways of getting access to
+ cheap energy, preferably without resorting the fossil fuels even more polluting
  than what we are currently using.
  
 \end_layout
@@ -110,7 +111,7 @@ It is an interesting thought, that we as humans actually already know and
 In this field of energy technology, several candidates exists that is fully
  capable of providing substantial (if not complete) parts of the worlds
  total energy consumption.
- This technologies includes solar cells, solar-thermal electricity production,
+ These technologies includes solar cells, solar-thermal electricity production,
  hydro-power, nuclear power and wind turbines.
  All of these technologies has their pros and cons, however, as I am myself
  particular fond of wind turbines, I will take the liberty of using this
@@ -133,15 +134,15 @@ MW (although it seems that turbines even as large as 6 or 7
 \end_inset
 
 MW are soon entering the market).
- With typical capacity factors between 0.25 and 0.33 it seems reasonable to
- take on average 
+ A standard value for the capacity factors is between 0.25 and 0.33 and thus
+ it seems reasonable to take on average 
 \begin_inset Formula $P_{turbine}=1\,\mbox{MW}$
 \end_inset
 
 .
  These convenient choice of numbers puts us with a needed number of wind
  turbines to satisfy the worlds energy needs of 
-\begin_inset Formula $2\times10^{13}/1\times10^{6}=2\times10^{7}$
+\begin_inset Formula $20\times10^{12}/1\times10^{6}=2\times10^{7}$
 \end_inset
 
  wind turbines, not including energy storage loss.
@@ -187,15 +188,16 @@ key "btmconsult"
 \begin_inset Formula $1.5\times10^{6}\text{€}/\mbox{MW}$
 \end_inset
 
-, typical prices for cabling and mounting end up with a total price between
+.
+ Typical prices for cabling and mounting end up with a total price between
  2 and 5 times higher than this, a conservative estimate of total cost would
  thus be 
 \begin_inset Formula $10^{7}\text{€}/\mbox{MW}$
 \end_inset
 
 .
- Thus it is straightforward to calculate to a conservative estimate of the
- yearly price of proving 100% wind energy to the entire world:
+ It is straightforward to calculate a conservative estimate of the yearly
+ price of providing 100% wind energy to the entire world:
 \begin_inset Formula 
 \[
 \mbox{Total\ cost}\sim3\times10^{6}\times10^{7}=3\times10^{13}\,\text{€}/\mbox{y}
@@ -235,7 +237,7 @@ key "world_gdp"
  includes every single watt consumed by the world for any purpose.
  Realistically, the amount of power needed will be well lower than this
  since not all of the worlds energy consumption is currently fossil fuels.
- In 2011 'only' 81% of thew worlds energy consumption was from fossil resources
+ In 2011 'only' 81% of the worlds energy consumption was from fossil resources
  (counting nuclear energy as non-fossil)
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -356,18 +358,20 @@ l storage.....
 \end_layout
 
 \begin_layout Section
-Microreactors for Heterogeneous Catalysis
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactors for Heterogeneous Catalysis
 \end_layout
 
 \begin_layout Standard
-As the title of this thesis indicates, the main focus of this theses is
- not so much on actual scientific results as it has been centered around
- creating a world-class experimental setup for testing many kinds of heterogeneo
-us catalysis.
+As the title of this thesis indicates, the main focus is not so much on
+ actual scientific results as it has been centered around creating a world-class
+ experimental setup for testing many kinds of heterogeneous catalysis.
  This decision is taken both because this is my personal main interest and
  because these aspects of the system is not going to be covered anywhere
- else, it does not mean that the platform has not been used to do actual
- research.
+ else.
+ It does not mean that the platform has not been used to do actual research.
  During my time at the setup, we have performed a long list of investigations,
  in close corporation with a number of bachelor, master and Ph.D.
  students, specializing in the individual processes.
@@ -376,15 +380,15 @@ us catalysis.
 \end_layout
 
 \begin_layout Standard
-The list of systems investigated doing this period includes:
+The list of systems investigated during this period includes:
 \end_layout
 
 \begin_layout Itemize
-CO oxidation on Pd nano particles and thin films
+CO oxidation on Pd nanoparticles and thin films
 \end_layout
 
 \begin_layout Itemize
-Methanation on Pd nano particles and thin films
+Methanation on Pd nanoparticles and thin films
 \end_layout
 
 \begin_layout Itemize
@@ -396,11 +400,11 @@ CO oxidation on ultra small Pt nano clusters of 10 to 50 atoms
 \end_layout
 
 \begin_layout Itemize
-Methanation on Pt nano particles
+Methanation on Pt nanoparticles
 \end_layout
 
 \begin_layout Itemize
-Ammonia oxidation on Pt nano particles
+Ammonia oxidation on Pt nanoparticles
 \end_layout
 
 \begin_layout Itemize
@@ -436,8 +440,11 @@ Chapters 2 and 3
 \end_layout
 
 \begin_layout Standard
-These chapters contains all the technical discussions of the microreactors
- and the setup in general.
+These chapters contains all the technical discussions of the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactors and the setup in general.
  Here the reactors are introduced and the various technical issues are discussed.
  Chapter two is covers everything except heating, which is then found in
  chapter
@@ -505,7 +512,11 @@ These chapters discusses some of the options to apply other surface science
 \end_inset
 
 8 the successful application of Time-Of-Flight Mass Spectrometry to the
- microreactors is shown.
+ 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactors is shown.
 \end_layout
 
 \begin_layout Paragraph
@@ -523,7 +534,11 @@ Chapter 10
 
 \begin_layout Standard
 In the final chapter, I present my view of what could and should be the
- future of the microreactor setup.
+ future of the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor setup.
  Specifically I present a number of suggestions of various improvements
  that could be made to the platform.
 \end_layout

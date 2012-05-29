@@ -72,15 +72,22 @@ Analytic techniques
 \end_layout
 
 \begin_layout Standard
-A major disadvantage of the microreactor setup is the distinct lack of analytic
- techniques available to investigate the catalyst doing measurements.
+A major disadvantage of the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor setup is the distinct lack of analytic techniques available to
+ investigate the catalyst doing measurements.
  In traditional reactors access to techniques such as XPS, AES or various
  infrared techniques gives extremely valuable insights into the state of
  the catalyst surface as well as sometimes even information about intermediate
  species on the surface.
- Such a luxury is not available on the microreactor, the sealed nature of
- the reactor makes it extremely difficult to access the sample with classical
- techniques.
+ Such a luxury is not available on the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor, the sealed nature of the reactor makes it extremely difficult
+ to access the sample with classical techniques.
  Even postmortem analysis is difficult because no known way exist to open
  up an anodic bonding in a non-destructive way.
  Doing the project we have time and time again discussed the possibility
@@ -150,7 +157,11 @@ key "Larsson2009"
 \end_inset
 
  This technique is interesting because it is highly sensitive and in principle
- it is fairly easy to introduce in the microreactors.
+ it is fairly easy to introduce in the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactors.
  The principle is that one before bonding the reactor deposits a number
  of small gold-disks on the lid of the reactor.
  These gold discs can be covered by enough SiO
@@ -165,9 +176,13 @@ key "Larsson2009"
  and since it depends on many properties of the reactor, it can be quite
  difficult to interpret the result.
  In corporation with the developers of the system, we have done several
- attempts to apply the technique in the microreactors, but so far the project
- has failed due to problems with resonance between reflections from the
- bottom of the reactor and from the plasmonic structures.
+ attempts to apply the technique in the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactors, but so far the project has failed due to problems with resonance
+ between reflections from the bottom of the reactor and from the plasmonic
+ structures.
  We, however, still have hopes that this technique can applied in some form.
 \end_layout
 
@@ -226,7 +241,7 @@ The answer to the problem was invented by our clean room wizard Thomas Pedersen
  If the cut is approximately 90% of the total depth of the reactor, it can
  quite easily be opened by hand once it is ready to be mounted in what ever
  instrument that should be used for the examination.
- This technique is demonstrated in figure
+ This technique is demonstrated in Figure
 \begin_inset space ~
 \end_inset
 
@@ -244,7 +259,7 @@ reference "fig:xps_looking_for_Ni"
 
  which is a know pollutant originating from the CO in the gas-lines reacting
  with Ni from the steel tubing.
- As can be seen from the figure, we do not have a problem with nickel carbonyl
+ As can be seen from the Figure, we do not have a problem with nickel carbonyl
  pollution.
  
 \begin_inset Float figure
@@ -351,11 +366,15 @@ CO oxidation on a non-bonded sample.
 
 To solve the problem of the destructive process of the diamond saw, we tried
  another solution to be able to do XPS on our samples.
- Since one of our microreactor setups operates the entire sample in an evacuated
- chamber, it is in principle possible to run experiments on heavily leaking
- samples without atmospheric air entering the sample and without risk of
- potentially poisonous gasses (in our setup the most poisonous gas is typically
- CO) escaping to the surroundings.
+ Since one of our 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor setups operates the entire sample in an evacuated chamber, it is
+ in principle possible to run experiments on heavily leaking samples without
+ atmospheric air entering the sample and without risk of potentially poisonous
+ gasses (in our setup the most poisonous gas is typically CO) escaping to
+ the surroundings.
  This means that we can run experiments on samples that has not been bonded,
  simply by mechanically clamping the lid to the sample and mount it in the
  setup.
@@ -382,7 +401,7 @@ ex-situ
 \end_layout
 
 \begin_layout Standard
-A proof-of-concept of this technique is shown in figure
+A proof-of-concept of this technique is shown in Figure
 \begin_inset space ~
 \end_inset
 
@@ -431,8 +450,11 @@ Time-Of-Flight Mass Spectrometry
 \end_layout
 
 \begin_layout Standard
-Another way of extracting other kinds of information from the microreactors
- is to use a different detection technique besides the usual Quadropole
+Another way of extracting other kinds of information from the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactors is to use a different detection technique besides the usual Quadropole
  Mass Spectrometer.
  We have tried this by attaching a Time Of Flight Mass Spectrometer, this
  has been a highly successful project and for this reason, this subject

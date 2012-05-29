@@ -105,14 +105,14 @@ This thesis is the summary of my work on the
 \begin_inset Formula $\mu$
 \end_inset
 
--reactors are presented and some of the experimental challenges are outlined.
+-reactors is presented and some of the experimental challenges are outlined.
  The various experimental issues regarding the platform is discussed and
  the actual implementation of three generations of the setup is described
  in detail.
- Since heating and temperature measurement is an extremly important point
- in heterogenous catalysis, an entire chapter is dedicated to this subject,
- three different types of heaters has been implemented and tested both for
- repeatability and homogenety of the heating as well as the maximal achievable
+ Since heating and temperature measurement is an extremely important point
+ in heterogeneous catalysis an entire chapter is dedicated to this subject.
+ Three different types of heaters has been implemented and tested both for
+ repeatability and homogeneity of the heating as well as the maximal achievable
  temperature.
  The currently best solution for heating and measuring temperature is to
  use several integrated Pt-strips as ohmic heaters and and a separate 4-point
@@ -122,9 +122,9 @@ This thesis is the summary of my work on the
 
 \begin_layout Standard
 It is shown how it is possible to quantify the available amount of active
- catalys surface area by reacting of an adsorbed layer of oxygen with CO.
+ catalyst surface area by reacting of an adsorbed layer of oxygen with CO.
  This procedure can be performed at temperatures low enough that sintering
- of Pt nanoparticles are not an issure.
+ of Pt nanoparticles are not an issue.
  
 \end_layout
 
@@ -133,7 +133,8 @@ Some results from the reactors are presented.
  In particular an unexpected oscillation phenomenon of CO-oxidation on Pt
  nanoparticles are presented in detail.
  The sensitivity of the reactors are currently being investigated with CO
- oxidation on Pt as a test reaction, and the results so far are presented.
+ oxidation on Pt thin films as a test reaction, and the results so far are
+ presented.
  We have at this point shown that we are able to reach full conversion with
  a catalyst area of 38
 \begin_inset space \thinspace{}
@@ -147,7 +148,7 @@ m
 \begin_inset Formula $^{2}$
 \end_inset
 
- with a turn over freqeuncy of 
+ with a turn over frequency of 
 \begin_inset Formula $10^{5}$
 \end_inset
 
@@ -168,7 +169,8 @@ s
 \end_inset
 
 .
- The apparant activation energy is found to be approximately 
+ The apparent activation energy for all sizes oft thin films is found to
+ be approximately 
 \begin_inset Formula $\sim1.2$
 \end_inset
 
@@ -183,17 +185,20 @@ eV.
 
 \begin_layout Standard
 Various methods of gaining insight into the reactor besides the normal quadropol
-e mass spectrometer is discussed, in particaluar a chapter is devoted to
- the application of a Time-Of-Flight mass spectrometer on the setup.
+e mass spectrometer are discussed.
+ In particular a chapter is devoted to the application of a Time-Of-Flight
+ mass spectrometer on the setup.
 \end_layout
 
 \begin_layout Standard
 Finally the thesis contains an outlook of the possible future of the setup,
- several suggestions for improvements are discussed.
+ and several suggestions for improvements are discussed.
  
 \end_layout
 
 \begin_layout Chapter*
+
+\lang danish
 Dansk Resumé
 \end_layout
 
@@ -253,7 +258,11 @@ Paper 1
 
 \begin_layout Standard
 Self-sustained carbon monoxide oxidation oscillations on size-selected platinum
- nanoparticles at atmospheric pressure 
+ nano particles at atmospheric pressure 
+\end_layout
+
+\begin_layout Standard
+Submitted to ACS Nano.
 \end_layout
 
 \begin_layout Section*
@@ -263,6 +272,10 @@ Paper 2
 \begin_layout Standard
 High Mass Resolution Time of Flight Mass Spectrometer for Measuring Products
  in Heterogeneous Catalysis in Highly Sensitive Microreactors 
+\end_layout
+
+\begin_layout Standard
+Submitted to Review of Scientific Instruments
 \end_layout
 
 \begin_layout Section*
