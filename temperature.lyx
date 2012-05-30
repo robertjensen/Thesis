@@ -610,8 +610,8 @@ name "fig:original_pogo_block"
 
 \end_inset
 
-The ceramic block holding the Pogo pins along with the screw-connected to
- the metal interface block.
+The ceramic block holding the Pogo pins along with the screw-connections
+ to the metal interface block.
  The four holes are the holes for the inlets and outlets of the 
 \begin_inset Formula $\mu$
 \end_inset
@@ -661,7 +661,7 @@ e.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -685,6 +685,7 @@ name "fig:temp_profile_insulation"
 
 The temperature profile of the sample at two different temperatures.
  The temperature measurement has been scaled to match the RTD temperature.
+ Vertical lines indicate the reactor area.
 \end_layout
 
 \end_inset
@@ -965,8 +966,8 @@ reference "fig:long_reactor_cad"
  find the perfect power distribution between the individual heaters.
  Experimentation with this is not easy, since every time a new layout is
  to be tested, it is necessary to make a new shadow mask for deposition,
- a process that takes quite an amount of both time and money for Thomas
- Pedersen in the clean room.
+ a process that takes quite an amount of both time and money in the clean
+ room.
  For this reason we kept the experimentation to a minimum and reasonably
  fast settled on a final layout.
  The point with this is that we realized that we will never be able to reach
@@ -974,20 +975,11 @@ reference "fig:long_reactor_cad"
  on a layout and then fix the problem with tunable external high-power resistors.
  In this way we can easily go through endless iterations by tuning the resistors
  and check the distribution in real-time on the thermographic camera.
-\begin_inset Note Greyedout
-status collapsed
-
-\begin_layout Plain Layout
-Indsæt billede af den endelige varmefordeling
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-As an evidence that we no longer have problems sourcing enough power, Figure
+ At the time of writing we are, unfortunately not finished with this optimizatio
+n, and the final tempeture profile is not yet known.
+ However, some inital experimentation leaves us with good expectations for
+ the final result.
+ As an evidence that we no longer have problems sourcing enough power, Figure
 \begin_inset space ~
 \end_inset
 
@@ -998,20 +990,8 @@ reference "fig:melted_reactor"
 
 \end_inset
 
- shows an image of a sample that was accidentally heated too high.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Greyedout
-status open
-
-\begin_layout Plain Layout
-Hvis den nye varmer bliver klar, mangler der lige lidt afrunding til sidst.
-\end_layout
-
-\end_inset
-
-
+ shows an image of a sample that was accidentally heated too high during
+ an inital test.
 \end_layout
 
 \end_body

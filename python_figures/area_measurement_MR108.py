@@ -8,10 +8,10 @@ import MR108_40cov_5_0nm as config
 
 fig = plt.figure()
 fig.subplots_adjust(left=d.left_room) 
-fig.subplots_adjust(bottom=d.bottom_room)
+fig.subplots_adjust(bottom=d.bottom_room*0.25)
 fig.subplots_adjust(right=d.right_room) 
 
-ratio = 1.7
+ratio = 1.6
 fig_width = d.width
 fig_width = fig_width /2.54     # width in cm converted to inches
 fig_height = fig_width*ratio
@@ -60,6 +60,7 @@ for i in range(0,len(times)):
     axis_array[i].plot(data['M44'][start:end,0], data['M44'][start:end,1], 'r-')
     axis_array[i].plot(mean_x, mean_y, 'b-')
     axis_array[i].set_ylim(-0.1,1)
+    #print data['M44'][end,0] - data['M44'][start,0]
     if not i % config.layout_x == 0:
         axis_array[i].set_yticks([])
     else:
@@ -76,6 +77,8 @@ for i in range(0,len(times)):
 
     axis_array[i].tick_params(direction='in', right='off',length=d.ticklength, width=1, colors='k',labelsize=d.labelsize,axis='both',pad=d.pad)
     
+axis_array[12].set_ylabel('SEM Current / nA', fontsize=d.y_axis_font)
+#axis_array[25].set_xlabel('Time', fontsize=d.y_axis_font)
 #axis_array[0].set_ylabel('Ion Current / nA', fontsize=d.y_axis_font)
 
 #plt.tight_layout()

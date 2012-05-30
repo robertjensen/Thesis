@@ -178,7 +178,7 @@ C.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -186,7 +186,7 @@ status collapsed
 \begin_inset Graphics
 	filename figures/cad_old_reactor.png
 	display false
-	width 7cm
+	width 6cm
 
 \end_inset
 
@@ -264,7 +264,7 @@ nm layer of SiO
 \begin_inset Formula $_{2}$
 \end_inset
 
- to act as an inert substrate for the measurements.
+ to act as an inert substrate for the catalyst under test.
 \end_layout
 
 \begin_layout Subsection

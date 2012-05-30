@@ -3,6 +3,30 @@
 \begin_document
 \begin_header
 \textclass book
+\begin_preamble
+\bibliographystyle{unsrt}
+\usepackage{fancyhdr}
+\usepackage{ifthen}
+
+\makeatletter
+\def\picturetopagenumber{\@ifnextchar[%]
+\picturetopagenumberwithtwoarguments\picturetopagenumberwithoneargument}
+\def\picturetopagenumberwithtwoarguments[#1]#2{%
+\ifthenelse{\equal{\thepage}{#1}}
+{\mbox{\includegraphics[height=20pt]{#2}}}
+{\thepage}}
+\def\picturetopagenumberwithoneargument#1{\picturetopagenumberwithtwoarguments[7]{#1}}
+\makeatother
+\makeatletter
+\def\texttopagenumber{\@ifnextchar[%]
+\texttopagenumberwithtwoarguments\texttopagenumberwithoneargument}
+\def\texttopagenumberwithtwoarguments[#1]#2{%
+\ifthenelse{\equal{\thepage}{#1}}
+{#2}
+{\thepage}}
+\def\texttopagenumberwithoneargument#1{\texttopagenumberwithtwoarguments[7]{#1}}
+\makeatother
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -22,7 +46,7 @@
 \graphics default
 \default_output_format default
 \output_sync 0
-\bibtex_command default
+\bibtex_command bibtex8
 \index_command default
 \paperfontsize default
 \spacing single
@@ -50,7 +74,7 @@
 \quotes_language english
 \papercolumns 1
 \papersides 2
-\paperpagestyle default
+\paperpagestyle fancy
 \tracking_changes false
 \output_changes false
 \html_math_output 0
@@ -302,6 +326,68 @@ mainmatter
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+chead{}
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\backslash
+rhead{
+\backslash
+picturetopagenumber[2]{007}}
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\backslash
+rhead{
+\backslash
+texttopagenumber[6]{007}}
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\backslash
+cfoot{
+\backslash
+texttopagenumber[5]{007}}
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\backslash
+cfoot{
+\backslash
+texttopagenumber[7]{007}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
 filename "introduction.lyx"

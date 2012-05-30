@@ -111,16 +111,6 @@ reference "tab:The-Pt-samples"
 \end_inset
 
 .
-\begin_inset Note Greyedout
-status collapsed
-
-\begin_layout Plain Layout
-Burde der være en kolonne med TOF ved fuld omsætning?
-\end_layout
-
-\end_inset
-
-
 \begin_inset Float table
 wide false
 sideways false
@@ -130,13 +120,12 @@ status collapsed
 \noindent
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="6" columns="5">
+<lyxtabular version="3" rows="6" columns="4">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0pt">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -173,20 +162,11 @@ m)^2
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Reactor coverage
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Notes
+Reactor coverage
 \end_layout
 
 \end_inset
@@ -220,22 +200,13 @@ N5
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 \begin_inset Formula $4.9\times10^{-7}$
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -270,22 +241,13 @@ N8
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 \begin_inset Formula $9\times10^{-6}$
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -320,22 +282,13 @@ N9
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 \begin_inset Formula $2.5\times10^{-5}$
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -370,22 +323,13 @@ N10
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 \begin_inset Formula $1\times10^{-4}$
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -420,22 +364,13 @@ N11
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 \begin_inset Formula $2.5\times10^{-3}$
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -480,17 +415,14 @@ The Pt samples thas has so far been measured in the sensitivity measurement
 CO oxidation on Pt is a reaction that follows a so-called light-off curve
  when the sample is heated.
  This phenomenon originates from the fact that CO has a much higher sticking
- coefficient 
-\begin_inset Note Greyedout
-status collapsed
-
-\begin_layout Plain Layout
-Ref??
-\end_layout
+ coefficient than oxygen on Pt
+\begin_inset CommandInset citation
+LatexCommand cite
+key "BONZEL1973"
 
 \end_inset
 
- than oxygen on Pt.
+.
  Due to this high sticking coefficient, every free site on the sample will
  be immediately occupied by CO once the sample is exposed to the reacting
  gas.
@@ -514,12 +446,9 @@ this oxygen molecule will thus burn off two CO molecules and leave CO
 
  which has an extremely short residence time on Pt, thus leaving two additional
  free sites
-\begin_inset Note Greyedout
-status open
-
-\begin_layout Plain Layout
-Ref til alt dette?
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "IbsBog"
 
 \end_inset
 
@@ -816,17 +745,7 @@ Fitting og analytical functions to the temperature dependence of the flows.
 
 \end_inset
 
- According to litterature
-\begin_inset Note Greyedout
-status open
-
-\begin_layout Plain Layout
-REF!!!
-\end_layout
-
-\end_inset
-
-, the expected behaviour is on the form
+ The expected behaviour is on the form
 \begin_inset Formula 
 \[
 F=\frac{k1}{k2+T}
@@ -834,7 +753,7 @@ F=\frac{k1}{k2+T}
 
 \end_inset
 
-, in Figure
+In Figure
 \begin_inset space ~
 \end_inset
 
@@ -1103,7 +1022,7 @@ k=Ae^{-E_{a}/k_{b}T}
 
 \end_inset
 
-, which will give activation energy as well as the prefactor.
+which will give activation energy as well as the prefactor.
  The fitting is performed by a small python script which takes data from
  the CINF database and fits the data.
  
@@ -1297,9 +1216,9 @@ It is as always important to keep in mind which values are subject to which
 
 molecules/s from reactor N8 as well as the assumption that the mass spectrometer
  has kept a constant amplification doing the curse of all measurements.
- However, the calculation of the activation energy is dependent on the general
- linearity of the mass spectrometer and to a lesser degree to the quality
- of the background subtractions.
+ However, the calculation of the activation energy is dependent only on
+ the general linearity of the mass spectrometer and to a lesser degree to
+ the quality of the background subtractions.
 \end_layout
 
 \begin_layout Standard
@@ -1324,7 +1243,7 @@ key "Contreras2006"
 
 \begin_layout Standard
 The density of surface sites on Platinum is approximately 
-\begin_inset Formula $6.5\times10^{6}\left(\mu\mbox{m}\right)^{-2}$
+\begin_inset Formula $6.5\times10^{6}\mu\mbox{m}^{-2}$
 \end_inset
 
 .
@@ -1348,7 +1267,7 @@ reference "fig:sensitivity_arrhenius"
 \end_inset
 
 s
-\begin_inset Formula $^{-1}\left(\mu\mbox{m}\right)^{-2}$
+\begin_inset Formula $^{-1}\mu\mbox{m}^{-2}$
 \end_inset
 
  which thus corresponds to 
@@ -1359,19 +1278,45 @@ TOF_{Max}=\frac{7\times10^{11}\mbox{s}^{-1}\left(\mu\mbox{m}\right)^{-2}}{6.5\ti
 
 \end_inset
 
-, however this is not necessarily the highest achivable turnover frequency,
+however this is not necessarily the highest achivable turnover frequency,
  merely is it the highest we have so far been able to reach due to the temperatu
 re limits with the used heater design.
-\begin_inset Note Greyedout
-status open
-
-\begin_layout Plain Layout
-Spørg cluster fætrene hvor mange sites der er på en enkelt nanopartikel.
 \end_layout
+
+\begin_layout Standard
+It is an interesting thought, that a single nanoparticles with a diameter
+ of 5
+\begin_inset space \thinspace{}
+\end_inset
+
+nm exposes an area of approximately 
+\begin_inset Formula 
+\[
+A_{NP}==4\pi\times\left(\frac{5}{2}\mbox{nm}\right)^{2}=78.5\,\mbox{nm}^{2}\approx8\times10^{-4}\mu\mbox{m}^{2}
+\]
+
+\end_inset
+
+which means than the so far smallest film measured has an area corresponding
+ to 
+\begin_inset Formula 
+\[
+N=\frac{38}{8\times10^{-4}}=47500\,\mbox{nanoparticles}
+\]
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Even though this is still a large number, we are rapidly approching the
+ regime of measuering on a countable number of particles.
+ Considering that we expect to be able to reach even higher turn over frequencie
+s and that it is certainly not neseccary to reach full conversion to perform
+ measurements, we are really not too far away from the original goal of
+ Center for Individual Nanoparticle Functionality, ie.
+ to measure on a single nanoparticle.
 \end_layout
 
 \begin_layout Section

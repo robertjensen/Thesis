@@ -192,30 +192,23 @@ Currently we are able to work in the pressure range of 0-2.5
 \end_inset
 
 bars.
- For some reactions it would very usefull to be able to reach higher pressures
-\begin_inset Note Greyedout
-status open
-
-\begin_layout Plain Layout
-Skulle man indsætte en graf fra Cu/Zn forsøget samt måske Ibs gamle graf?
-\end_layout
-
-\end_inset
-
-.
+ For some reactions it would very useful to be able to reach higher pressures,
+ a prime example that is currently being investigated in the setup is methanol
+ production on Cu/Zn nanoparticles, where the output of the process is expected
+ to increase with the pressure squared..
  Currently we are limited by the pressure controllers but these could of
  course be replace simply by buying new ones.
- However, even though 
-\begin_inset Note Greyedout
-status open
-
-\begin_layout Plain Layout
-mere...
-\end_layout
-
+ However, even though replacing the pressure controllers is an easy task,
+ the rest of setup also puts severe limits on the pressure.
+ The next limit will be the flow controllers, which are only designed for
+ 4
+\begin_inset space \thinspace{}
 \end_inset
 
-
+bars on the high pressure side.
+ On the next level, none of our tubing are certified for high pressures,
+ and thus the ultimate pressure limit will mostly be a question of, how
+ high the operators dares to pressurize these tubes.
 \end_layout
 
 \begin_layout Paragraph
@@ -295,17 +288,22 @@ This is of course the crown jewel of all wishes for the future.
 
 -reactor platform is the lack of in-situ (or even ex-situ for that matter...)
  surface sensitive techniques.
- 
-\begin_inset Note Greyedout
-status open
-
-\begin_layout Plain Layout
-Mere her, når teknik-kapitlet er færdigt.
-\end_layout
-
+ As discussed in chapter
+\begin_inset space ~
 \end_inset
 
 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:Analytical-techniques"
+
+\end_inset
+
+, this is not an easy task.
+ However, considering the benefits of gaining such insights into the system,
+ the operators of the setup, should at all times keep in mind new ways to
+ try fulfill this goal, as my supervisor, Ib, always says, You got to have
+ a dream, to have a dream come true...
 \end_layout
 
 \end_body

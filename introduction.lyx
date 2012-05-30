@@ -293,17 +293,18 @@ A=\frac{2\times10^{7}\times3.5\,\mbox{MW}}{8\,\mbox{MW/km}^{2}}=8.8\times10^{6}\
 \begin_layout Standard
 Corresponding to 1.8% of the area of the globe or 6% of the worlds land area.
  All in all it is evident that it will not be impossible to provide energy
- to world, given sufficiently political will.
+ to the world, given sufficiently political will.
  Wind turbines are just a single source of renewable energy, calculations
  similar to this could be performed for solar cells, solar thermal energy
  or nuclear power.
  In reality it will for certain be optimal to mix the various energy forms
  both by type as well as by geographic location in order to minimize the
  storage demands.
- Calculations of the optimal mix of energy source has to my knowledge been
- carried out on world scale, bur for a 100% renewable Europe the optimal
- mix between wind and solar energy is calculated to be 55% wind turbines
- and 45% solar cells
+ Calculations of the optimal mix of energy source has not to my knowledge
+ been carried out on world scale, but a caluclation has been performed for
+ the much simpler case of purely renewable electricity in Europe.
+ In this case the optimal mix between wind and solar energy is calculated
+ to be 55% wind turbines and 45% solar cells
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Heide2010"
@@ -314,47 +315,59 @@ key "Heide2010"
 \end_layout
 
 \begin_layout Standard
-......
-\end_layout
-
-\begin_layout Standard
-......
-\end_layout
-
-\begin_layout Standard
 When dealing with subjects as large as basically the future of the entire
  world, it is quite important to realize that the work of a single persion
  is most likely rather insignificant in the big picture.
- Thus it is always wise to make oneself quite clear what is the pontial
+ Thus it is always wise to make oneself quite clear what is the potential
  impact of ones work.
  In my case, I have been working on a platform, not on a specific system,
- thus I must hope that the platform can provide a base for developing better
- catalysts.
- To make catalysis help in the big pictures scetched above we should be
- able to either reduce the energy consumption of the world, increase the
- energy production or perhaps provide new and better ways for storage energy
- as well as relasing it when and where it may be desired.
- On the lines of saving energy, new ammonia catalyst could be an excellent
+ thus the potential impact of the work is to provide a platform for developing
+ better catalysts.
+\end_layout
+
+\begin_layout Standard
+To make catalysis help in the big pictures scetched above we should be able
+ to find catalysts that either reduce the energy consumption of the world,
+ increase the energy production or perhaps provide new and better ways for
+ storaging energy as well as relasing it when and where it may be desired.
+\end_layout
+
+\begin_layout Standard
+On the lines of saving energy, new ammonia catalyst could be an excellent
  contribution, currently a large fraction of the worlds energy consumption
  is spend on ammonia production for fertilizers.
  On the lines of energy production, our part of a solution would most likely
- involve finding ways to exploit new resources in better ways, a hypothetical
- suggestion could be find a process to turn algea into liquid fuels, if
- we ever start farming the ocean large scale.
+ involve finding ways to exploiting new resources in better ways, a hypothetical
+ suggestion could be developing catalysts to produce liqued fuels from organic
+ wase or from perhaps even from algea or other sea-living organic material
+ that might be avaiable in large quantities, if humans start farming the
+ ocean large scale.
 \end_layout
 
 \begin_layout Standard
 Finally, a good place for catalysis to help with constructive solutions
  could be in the area of energy storage and subsequent release at another
  time or place.
- This could be either in the form of finding ways to scale down energy consuming
- processes and thus be able to better place the energy consumption at the
- time and place where energy is available, or it could be trough more traditiona
-l storage.....
+ This could be in the form of finding ways to scale down energy consuming
+ processes (such as the mentioned ammonia production).
+ With many smaller plants it would be much easier to use the energy at the
+ time and place where energy is available, opposite to current large scale
+ plants which needs to run continously to work efficiently.
+ A more traditonal storage form would of course be the many projects currently
+ working on creating liquid fules or hydrogen, typically either by CO
+\begin_inset Formula $_{2}$
+\end_inset
+
+ reduction or water splitting, but also many other processes has been proposed.
+ The concept is always to use the renwable resource whenever it is available,
+ to produce a product with high energy density.
+ In this way the product can be stored easily and used later when the renawable
+ resource is not producing sufficiently to satisfy demands.
+ 
 \end_layout
 
 \begin_layout Standard
-.....
+
 \end_layout
 
 \begin_layout Section

@@ -1101,7 +1101,7 @@ bar no change of the oscillation frequency or qualitative behavior that
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -1286,7 +1286,8 @@ key "Carlsson2006"
 
 \end_inset
 
-, Monte Carlo simulations
+, Monte Carlo simu\SpecialChar \-
+lations
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Zhdanov2002"
