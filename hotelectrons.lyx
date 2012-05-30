@@ -140,9 +140,9 @@ reference "fig:hot_e-wafer"
 
 \end_inset
 
-) doped rather heavily with SB to achieve a high conductance of the wafer,
- in fact the conductance is so high that for the relevant current densities,
- it will act more or less as a metal conductor.
+) doped rather heavily with antimony (Sb) to achieve a high conductance
+ of the wafer, in fact the conductance is so high that for the relevant
+ current densities, it will act more or less as a metal conductor.
  
 \begin_inset Float figure
 wide false
@@ -617,7 +617,7 @@ Experimental setup
 \end_layout
 
 \begin_layout Standard
-The experiments are performed in a standard UHV chamber, at CINF knows as
+The experiments are performed in a standard UHV chamber, at CINF known as
  the 'Volvo', the origin of name is not completely clear to me, but apparently
  it started its life at a Swedish car manufacturer.
  The chamber has a typical base pressure of 

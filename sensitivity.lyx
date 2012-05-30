@@ -79,13 +79,13 @@ One of the original design goals of the
 
 -reactors was that the reactors should have a high sensitivity to able to
  measure on very small amounts of catalyst.
- However, during the measurements on the oscillations, we realized that
- we were able to reach full conversion on sample with even very small amounts
+ During the measurements on the oscillations, it turned out that we were
+ in fact able to reach full conversion on samples with even very small amounts
  of catalyst.
- At some point we realized that it would be interesting to test how small
+ At some point we thought that it would be interesting to test how small
  amount of catalyst we can actually get to full conversion.
- To test the sensitivity we have performed of series of tests using CO oxidation
- on Pt thin films as the test reaction.
+ To test the sensitivity we have performed a series of tests using CO oxidation
+ on Pt thin films as test reaction.
 \end_layout
 
 \begin_layout Section
@@ -97,7 +97,7 @@ The experiment is in principle very simple, although rather time consuming.
  We had our good friends in the clean room make series of samples with consecuti
 vely smaller and smaller Pt-spots and than ran a series of CO oxidation
  experiments.
- Unfortunately not all samples was measured due to various kinds of bad
+ Unfortunately, not all samples were measured due to various kinds of bad
  luck, but we did manage to measure on a rather large diversity of sizes,
  as seen in table
 \begin_inset space ~
@@ -114,7 +114,7 @@ reference "tab:The-Pt-samples"
 \begin_inset Float table
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -153,11 +153,15 @@ m
 \begin_inset Text
 
 \begin_layout Plain Layout
-Area / (
+Area / 
 \begin_inset Formula $\mu$
 \end_inset
 
-m)^2 
+m
+\begin_inset Formula $^{2}$
+\end_inset
+
+ 
 \end_layout
 
 \end_inset
@@ -394,7 +398,7 @@ name "tab:The-Pt-samples"
 
 \end_inset
 
-The Pt samples thas has so far been measured in the sensitivity measurement
+The Pt samples that has so far been measured in the sensitivity measurement
 \end_layout
 
 \end_inset
@@ -424,27 +428,27 @@ key "BONZEL1973"
 
 .
  Due to this high sticking coefficient, every free site on the sample will
- be immediately occupied by CO once the sample is exposed to the reacting
+ immediately be occupied by CO once the sample is exposed to the reacting
  gas.
  The lack of free sites on the sample prevents oxygen from adsorbing on
  the catalyst and prevents the catalytic conversion.
  When the temperature of the sample is increased, the residence time of
- CO on the sample will get shorter and shorter, and eventually the oxygen
+ CO on the sample will become shorter and shorter and eventually the oxygen
  will gain access to free Pt-sites.
  Once this happens, the oxygen will react with the CO according to the very
  simple reaction equation:
 \begin_inset Formula 
 \[
-\mbox{2CO}+\mbox{O}_{2}\rightarrow\mbox{CO}_{2}
+\mbox{2CO}+\mbox{O}_{2}\rightarrow2\mbox{CO}_{2}
 \]
 
 \end_inset
 
-this oxygen molecule will thus burn off two CO molecules and leave CO
+An oxygen molecule will burn off two CO molecules and leave CO
 \begin_inset Formula $_{2}$
 \end_inset
 
- which has an extremely short residence time on Pt, thus leaving two additional
+ which has an extremely short residence time on Pt, leaving two additional
  free sites
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -456,15 +460,16 @@ key "IbsBog"
  These new free sites will provide room for even more oxygen molecules and
  it is easy to imagine how the Pt surface will 'ignite' and react off all
  CO very suddenly.
- This phenomenon is what is known as lightoff and it has a clear experimental
- signature in the form of an extremely sudden onset of the reaction as well
- as significant temperature hysteresis due to the fact that when the sample
- cools down it still has all the free sites and thus it will sustain conversion
- to far lower temperatures than the ignition temperature.
+ This phenomenon is known as lightoff and has a clear experimental signature
+ in the form of an extremely sudden onset of the reaction as well as significant
+ temperature hysteresis.
+ This is due to the fact that when the sample cools down it still has all
+ the free sites and thus it will sustain conversion to far lower temperatures
+ than the ignition temperature.
 \end_layout
 
 \begin_layout Standard
-The experiments was all performed by a procedure looking as follows.
+The experiments were all performed by the following procedure.
 \begin_inset Float figure
 wide false
 sideways false
@@ -490,8 +495,8 @@ name "fig:sensitivity_procedure"
 
 \end_inset
 
-The general procdure for the sensitivity measurements, in this case sample
- N8 with a radius of 15
+The general procedure for the sensitivity measurements.
+ In this case sample N8 with a radius of 15
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -500,7 +505,7 @@ The general procdure for the sensitivity measurements, in this case sample
 \end_inset
 
 m is shown.
- The sample is heated in a lean mixture CO and O
+ The sample is heated in a lean mixture of CO and O
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -523,19 +528,19 @@ Oxygen and CO are dosed in a ratio of 4:1 for
 \end_inset
 
 s.
- At this time the flows has stabalized and we have constant signals in the
+ At this time the flows has stabilized and we have constant signals in the
  mass spectrometer.
  The temperature is then increased by 
 \begin_inset Formula $3^{\circ}$
 \end_inset
 
 C/min at least until full conversion is reached.
- Finally the sample is cooled, also at 
+ Finally, the sample is cooled, also at 
 \begin_inset Formula $3^{\circ}$
 \end_inset
 
-C/min until the sample is no longer able to cool at this rate.
- From this point the sample is allowed to cool a bit futher until finally
+C/min, until the sample is no longer able to cool at this rate.
+ From this point the sample is allowed to cool a bit further until finally
  the sample is again evacuated.
  
 \end_layout
@@ -554,7 +559,7 @@ reference "chap:Temperature"
 
 \end_inset
 
-, the current heater design is not really comfortable going much higher
+, the current heater design is not really perming well when going much higher
  than 
 \begin_inset Formula $\sim$
 \end_inset
@@ -565,7 +570,7 @@ reference "chap:Temperature"
 
 C and thus heating is so far the limiting factor in how small amounts of
  Pt is able to reach full conversion.
- The highest temperature we have reach in this series of experimens was
+ The highest temperature we have reached in this series of experiments was
  
 \begin_inset Formula $\sim$
 \end_inset
@@ -574,7 +579,19 @@ C and thus heating is so far the limiting factor in how small amounts of
 \begin_inset Formula $^{\circ}$
 \end_inset
 
-C which was almost enough to reach full conversion on a Pt spot of 
+C which was almost enough to reach full conversion on a Pt spot of 38
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Formula $\mu$
+\end_inset
+
+m
+\begin_inset Formula $^{2}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section
@@ -582,7 +599,7 @@ Data treatment
 \end_layout
 
 \begin_layout Standard
-Even though the experiment sound simple, data treatment is actually slightly
+Even though the experiment sounds simple, data treatment is actually slightly
  complicated due to the nature of the 
 \begin_inset Formula $\mu$
 \end_inset
@@ -592,12 +609,12 @@ Even though the experiment sound simple, data treatment is actually slightly
 \begin_inset Formula $\mu$
 \end_inset
 
--reactors has the intrinsic property, that the capillary flow is decreased
+-reactors have the intrinsic property, that the capillary flow is decreased
  as the temperature increases due to an increase in the flow resistance
  with temperature.
  This means that even for constant conversion (as would be the case for
- full conversion) the product signal in the mass-spec will drop with increasing
- temperature.
+ full conversion) the product signal in the mass-spec will decrease with
+ increasing temperature.
  For the same reason, the residence time of the reactor will increase and
  thus also the apparent activity of the sample.
  
@@ -628,9 +645,9 @@ name "fig:sensitivity_gas_correction"
 
 Due to increased flow resistance in the capillary, the pressure in the main
  chamber drops with temperature.
- It is easy to see that the apparant pressure increses once the sample reaches
- full conversion, this is an artifact because of the high ionisation cross
- section of CO
+ It is easy to see that the apparent pressure increases once the sample
+ reaches full conversion, this is an artifact because of the high ionisation
+ cross section of CO
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -649,9 +666,9 @@ To correct for this effect, one will typically use the main chamber pressure
  However, this is also a non-trivial operation because of the way the pressure
  in measured in the chamber, namely by an ion gauge.
  Ion gauges measures pressure by ionizing the residual gas and the collect
- the ions on a thin collector wire in the center of the device, the pressure
- is then read as the current on the collector times a calibration factor
- 
+ the ions on a thin collector wire in the center of the device.
+ The pressure is then read as the current on the collector times a calibration
+ factor 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "BAYARD1950"
@@ -703,7 +720,7 @@ reference "fig:sensitivity_gas_correction"
 
 .
  Both this effect and because our ion gauge signal is a bit more noisy than
- one would like, it would be desireable to find an analytic expression to
+ one would like, it would be desirable to find an analytic expression to
  estimate the flow as a function of temperature.
 \begin_inset Float figure
 wide false
@@ -730,7 +747,7 @@ name "fig:sensitivity_temp_flow"
 
 \end_inset
 
-Fitting og analytical functions to the temperature dependence of the flows.
+Fitting of analytical functions to the temperature dependence of the flows.
  For clarity the upper panel shows only two sets of data along with the
  corresponding fit.
  Middel panel shows all raw data and lower panel shows all corresponding
@@ -745,7 +762,7 @@ Fitting og analytical functions to the temperature dependence of the flows.
 
 \end_inset
 
- The expected behaviour is on the form
+ The expected behavior is on the form
 \begin_inset Formula 
 \[
 F=\frac{k1}{k2+T}
@@ -765,15 +782,15 @@ reference "fig:sensitivity_temp_flow"
 \end_inset
 
  this expression has been fitted to all five measurements and it is seen
- that data can be fitted reasonobly well.
+ that data can be fitted reasonably well.
 \end_layout
 
 \begin_layout Standard
 Besides correcting for the temperature dependence of the flow through the
  capillary, it is also necessary to correct for the background signals in
  the mass-spectrometer.
- Since the experiments are run in a rather large oxygen excess, oxygen will
- always be present in the flow into the main chamber.
+ Since the experiments are run in a rather large excess of oxygen, oxygen
+ will always be present in the flow into the main chamber.
  In the mass-spectrometer, the oxygen will give rise not only to a signal
  at mass
 \begin_inset space ~
@@ -811,8 +828,9 @@ Besides correcting for the temperature dependence of the flow through the
 \begin_inset Formula $_{2}$
 \end_inset
 
-, most likely the pressure in the main chamber is simply too low for gas-phase
- reactions to be likely.
+.
+ Most likely, the pressure in the main chamber is simply too low for gas-phase
+ reactions to happen.
  
 \end_layout
 
@@ -821,7 +839,7 @@ This means that the total measured CO
 \begin_inset Formula $_{2}$
 \end_inset
 
- signal will, at least as a simple first apprixmiation, be the sum of two
+ signal will, at least as a simple first approximation, be the sum of two
  signals, namely the actual CO
 \begin_inset Formula $_{2}$
 \end_inset
@@ -907,8 +925,9 @@ reference "fig:sensitivity_background_correction"
 
 \end_inset
 
- the background correction is performed for sample N8, it is evident that
- correction greatly extends the temperature range with arrhenius behaviour.
+ the background correction is performed for sample N8.
+ It is evident that the correction greatly extends the temperature range
+ with Arrhenius behavior.
 \begin_inset Float figure
 placement t
 wide false
@@ -995,7 +1014,7 @@ name "fig:sensitivity_background_correction_complete"
 \end_inset
 
 Background correction for all measured samples.
- The vertical black lines indicates the range used for the arrhenius-fit.
+ The vertical black lines indicates the range used for the Arrhenius-fit.
 \end_layout
 
 \end_inset
@@ -1029,24 +1048,24 @@ which will give activation energy as well as the prefactor.
 \end_layout
 
 \begin_layout Subsection
-Mass spec calibration
+Mass spectrometer calibration
 \end_layout
 
 \begin_layout Standard
 A mass spectrometer does not measure the ion current directly, but measures
  the signal after it has passed through the Secondary Electron Multiplier
  (SEM).
- The amplification on the SEM is of course hevaily dependant on the voltage
+ The amplification on the SEM is of course heavily dependent on the voltage
  across the dynodes but unfortunately it also depends on many other factors
  such as the oxidation state of the SEM as well mass of the impeding molecule.
- On top of this, the mass filter itself is also not guarantueed to have
- a fixed transmission efficiency across the entire measuring range.
+ On top of this, the mass filter itself is also not guaranteed to have a
+ fixed transmission efficiency across the entire measuring range.
  All these factors means that it is highly difficult to estimate the absolute
- yield of a given molecule, only the indirect quantity, SEM current, ist
+ yield of a given molecule, only the indirect quantity, SEM current, is
  truly known.
- However, it is not impossible to make at least an rough estimate of amplificati
-on factor, as long as one remembers that the values should not be considered
- very accurate.
+ However, it is not impossible to make at least an rough estimate of the
+ amplification factor, as long as one remembers that the values should not
+ be considered very accurate.
  Looking at Figure
 \begin_inset space ~
 \end_inset
@@ -1074,12 +1093,16 @@ min is zero, and thus the combined signal of the O
 \begin_inset space \thinspace{}
 \end_inset
 
-molecules/s.
- Reading off the Figure tells us that the measured currents for O
+molecules/s, since no other molecules are leaving the reactor.
+ Reading off the figure tells us that the measured currents for O
 \begin_inset Formula $_{2}$
 \end_inset
 
- and CO, respectively, are 69.4 and 25.5
+ and CO, respectively, are 69.4
+\begin_inset space \thinspace{}
+\end_inset
+
+nA and 25.5
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -1093,8 +1116,7 @@ A_{SEM}\approx\frac{\left(69.4+25.5\right)\,\mbox{nA}}{6\times10^{14}\,\mbox{mol
 
 \end_inset
 
-.
- Incidently it is woth noting that this value of 
+Incidentally it is worth noticing that this value of 
 \begin_inset Formula $A_{SEM}$
 \end_inset
 
@@ -1122,7 +1144,7 @@ molecules/s at room temperature.
 \begin_inset Formula $A_{SEM}$
 \end_inset
 
- we can make a plot with approximate absolute Figures on both axis.
+ we can make a plot with approximate absolute numbers on both axis.
  
 \end_layout
 
@@ -1134,7 +1156,7 @@ Results
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -1156,7 +1178,7 @@ name "fig:sensitivity_arrhenius"
 
 \end_inset
 
-Arrhenus plot of all measured samples.
+Arrhenius plot of all measured samples.
  
 \end_layout
 
@@ -1194,6 +1216,9 @@ name "fig:sensitivity_activation_energies"
 \end_inset
 
 Extracted activation energies and prefactors.
+ Black lines are activation energies, red lines prefactors.
+ Circles represents a measurement on the rising temperature ramp, stars
+ the falling temperature ramp.
 \end_layout
 
 \end_inset
@@ -1215,7 +1240,7 @@ It is as always important to keep in mind which values are subject to which
 \end_inset
 
 molecules/s from reactor N8 as well as the assumption that the mass spectrometer
- has kept a constant amplification doing the curse of all measurements.
+ has kept a constant amplification during the course of all measurements.
  However, the calculation of the activation energy is dependent only on
  the general linearity of the mass spectrometer and to a lesser degree to
  the quality of the background subtractions.
@@ -1223,15 +1248,14 @@ molecules/s from reactor N8 as well as the assumption that the mass spectrometer
 
 \begin_layout Standard
 The extracted activation energies are all of the order of 
-\begin_inset Formula $\sim1.1--1.3$
+\begin_inset Formula $\sim1.1-1.3$
 \end_inset
 
 
 \begin_inset space \thinspace{}
 \end_inset
 
-eV which is consistent with the litterature for CO oxidation on Pt thin
- films
+eV which is consistent with the literature for CO oxidation on Pt thin films
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Contreras2006"
@@ -1258,7 +1282,7 @@ reference "fig:sensitivity_arrhenius"
 
 \end_inset
 
- the higest measured turn over can be read to be 
+ the highest measured turn over can be read to be 
 \begin_inset Formula $\sim7\times10^{11}$
 \end_inset
 
@@ -1278,7 +1302,7 @@ TOF_{Max}=\frac{7\times10^{11}\mbox{s}^{-1}\left(\mu\mbox{m}\right)^{-2}}{6.5\ti
 
 \end_inset
 
-however this is not necessarily the highest achivable turnover frequency,
+however this is not necessarily the highest achievable turnover frequency,
  merely is it the highest we have so far been able to reach due to the temperatu
 re limits with the used heater design.
 \end_layout
@@ -1310,10 +1334,10 @@ N=\frac{38}{8\times10^{-4}}=47500\,\mbox{nanoparticles}
 \end_layout
 
 \begin_layout Standard
-Even though this is still a large number, we are rapidly approching the
- regime of measuering on a countable number of particles.
+Even though this is still a large number, we are rapidly approaching the
+ regime of measuring on a countable number of particles.
  Considering that we expect to be able to reach even higher turn over frequencie
-s and that it is certainly not neseccary to reach full conversion to perform
+s and that it is certainly not necessary to reach full conversion to perform
  measurements, we are really not too far away from the original goal of
  Center for Individual Nanoparticle Functionality, ie.
  to measure on a single nanoparticle.
@@ -1363,16 +1387,16 @@ The other important lesson to be learned is that one should be extremely
 
 -reactors.
  However, even in the rather optimistic case, that we actually do succeed
- in finding methods that would provide in-situ information, the fact that
- such small areas of the reactor might, at least in some cases, be responsible
- for all the conversion.
+ in finding methods that would provide in-situ information, we must always
+ remember the fact that such small areas of the reactor might, at least
+ in some cases, be responsible for all the conversion.
  This means that whatever technique is being applied might primarily sample
  areas of the sample that is not actually doing the conversion.
  A technique with low spatial resolution might be easy to measure on the
  converting part of catalyst, but the signal to noise ration will be poor,
  potentially too low to see anything.
  A technique with better spatial resolution will give a much better signal
- to noise, but faces the where real risk of not seeing the relevant part
+ to noise, but faces the very real risk of not seeing the relevant part
  of the sample at all.
 \end_layout
 

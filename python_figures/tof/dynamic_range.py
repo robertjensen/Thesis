@@ -22,6 +22,7 @@ fig_height = fig_width*ratio
 fig.set_size_inches(fig_width,fig_height)
 
 gs = gridspec.GridSpec(3, 3)
+gs.update(wspace=0.3,hspace=0.25)
 
 #Relevant time, OH: 12.418, NH3: 12.427
 data = {}

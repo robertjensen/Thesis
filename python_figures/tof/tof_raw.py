@@ -13,9 +13,10 @@ def MassToTime(mass):
 fig = plt.figure()
 fig.subplots_adjust(left=d.left_room) 
 fig.subplots_adjust(bottom=d.bottom_room)
-fig.subplots_adjust(right=d.right_room) 
+fig.subplots_adjust(top=1-d.bottom_room)
+fig.subplots_adjust(right=d.right_room*1.08) 
 
-ratio = d.ratio*0.5
+ratio = d.ratio*1.1
 fig_width = d.width
 fig_width = fig_width /2.54     # width in cm converted to inches
 fig_height = fig_width*ratio
@@ -34,7 +35,7 @@ arrow = dict(facecolor='black',arrowstyle='->')
 font = d.arrowfont
 
 gs = gridspec.GridSpec(2, 3)
-gs.update(wspace=0.2,hspace=0.2)
+gs.update(wspace=0.3,hspace=0.25)
 
 axis = plt.subplot(gs[0, :])
 
@@ -52,7 +53,7 @@ print MassToTime(2*1.0078250320)
 axis3.set_xticks(MassToTime(mass_ticks))
 axis3.set_xticklabels(mass_ticks)
 axis3.set_xlabel('Mass / amu', fontsize=d.x_axis_font)
-axis3.tick_params(direction='in', length=d.ticklength, width=2, colors='k',labelsize=d.labelsize,axis='both',pad=d.pad)
+axis3.tick_params(direction='in', length=d.ticklength, width=2, colors='k',labelsize=9,axis='both',pad=d.pad)
 #axis3.ticklabel_format(useOffset=False)
 axis.set_yticks((25,50,75,100,125))
 axis.set_ylim(0,150)
@@ -76,7 +77,7 @@ axis.plot(data['ch'][:,0], data['ch'][:,1], 'r-',linewidth=LINEWIDTH)
 p = axis.axvspan(0, 1, facecolor='#26aaf7', alpha=0.25)
 axis.set_xlim(0,1)
 axis.set_ylim(0,50)
-axis.set_xticks([0.2,0.4,0.6,0.8])
+axis.set_xticks([0.2,0.5,0.8])
 axis.tick_params(direction='in', length=d.ticklength, width=2, colors='k',labelsize=d.labelsize,axis='both',pad=d.pad)
 
 
@@ -90,7 +91,7 @@ axis.set_xlim(3,4.5)
 axis.set_ylim(0,25)
 axis.tick_params(direction='in', length=d.ticklength, width=2, colors='k',labelsize=d.labelsize,axis='both',pad=d.pad)
 axis.ticklabel_format(useOffset=False)
-axis.annotate('H', xy=(3.2, 10),  xycoords='data', xytext=(3.5, 15), textcoords='data', arrowprops=arrow, horizontalalignment='right', verticalalignment='top',fontsize=font,)
+axis.annotate('H', xy=(3.2, 10),  xycoords='data', xytext=(3.52, 17), textcoords='data', arrowprops=arrow, horizontalalignment='right', verticalalignment='top',fontsize=font,)
 axis.annotate('H$_2$', xy=(4.35, 10),  xycoords='data', xytext=(4.2, 20), textcoords='data', arrowprops=arrow, horizontalalignment='right', verticalalignment='top',fontsize=font,)
 axis.set_xlabel('Flight Time / $\mu$s', fontsize=d.x_axis_font)
 
@@ -102,13 +103,13 @@ axis.set_yticks((25,50,75,100,125))
 axis.plot(data['ch'][:,0], data['ch'][:,1], 'r-',linewidth=LINEWIDTH)
 axis.set_xlim(12,12.46)
 axis.set_ylim(0,150)
-axis.set_xticks([12.1,12.2,12.3,12.4])
+axis.set_xticks([12.0,12.2,12.4])
 axis.ticklabel_format(useOffset=False)
 p = axis.axvspan(12, 12.46, facecolor='#b6fa77', alpha=0.25)
-axis.tick_params(direction='in', length=6, width=1, colors='k',labelsize=8,axis='both',pad=3)
-axis.annotate('O', xy=(12.04, 10),  xycoords='data', xytext=(12.04, 67), textcoords='data', arrowprops=arrow, horizontalalignment='right', verticalalignment='top',fontsize=font,)
-axis.annotate('NH$_2$', xy=(12.055, 47),  xycoords='data', xytext=(12.2, 75), textcoords='data', arrowprops=arrow, horizontalalignment='right', verticalalignment='top',fontsize=font,)
-axis.annotate('OH', xy=(12.414, 50),  xycoords='data', xytext=(12.35, 66), textcoords='data', arrowprops=arrow, horizontalalignment='right', verticalalignment='top',fontsize=font,)
+axis.tick_params(direction='in', length=d.ticklength, width=2, colors='k',labelsize=d.labelsize,axis='both',pad=d.pad)
+axis.annotate('O', xy=(12.04, 10),  xycoords='data', xytext=(12.05, 69), textcoords='data', arrowprops=arrow, horizontalalignment='right', verticalalignment='top',fontsize=font,)
+axis.annotate('NH$_2$', xy=(12.055, 47),  xycoords='data', xytext=(12.22, 82), textcoords='data', arrowprops=arrow, horizontalalignment='right', verticalalignment='top',fontsize=font,)
+axis.annotate('OH', xy=(12.414, 50),  xycoords='data', xytext=(12.33, 66), textcoords='data', arrowprops=arrow, horizontalalignment='right', verticalalignment='top',fontsize=font,)
 axis.annotate('NH$_3$', xy=(12.425, 85),  xycoords='data', xytext=(12.35, 130), textcoords='data', arrowprops=arrow, horizontalalignment='right', verticalalignment='top',fontsize=font,)
 
 

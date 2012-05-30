@@ -63,6 +63,13 @@
 
 \begin_layout Chapter
 Oscillating reactions
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Oscillating-reactions"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1389,6 +1396,8 @@ reference "fig:oscil_full_oscil"
  on the detailed ultra local temperature distribution around each nano particle,
  and since CO oxidation is strongly exothermic, the particles might be significa
 ntly hotter than the global temperature of the reactor.
+ We have made quite an effort to try to image this hypothetical local temperatur
+e increase, but we have so far not succeeded.
 \end_layout
 
 \begin_layout Standard

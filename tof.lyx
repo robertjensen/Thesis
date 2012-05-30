@@ -107,9 +107,16 @@ key "JordanHomepage"
  and was put together here in the lab.
  The frame and the pumps for the system was scavenged from an old molecular
  beam setup that had been idling in the lab for some years and thus the
- complete is a wonderful mixture of many different kind of flanges and pumps
- which happened to be available, as can be seen in Figure
+ complete setup is a wonderful mixture of many different kind of flanges
+ and pumps which happened to be available, as can be seen in Figure
 \begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tof_photo"
+
 \end_inset
 
 
@@ -430,14 +437,14 @@ kV for the reflectron detection.
  Interestingly, the detector is what ultimately sets the limit for the highest
  mass that can be detected.
  It turns out that for heavy ions the detection efficiency drops significantly
- with mass, 
+ with mass
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Krems2005"
 
 \end_inset
 
-, because the energy of the particle is distributed on a larger and larger
+ because the energy of the particle is distributed on a larger and larger
  area which increases the risk that the initial impact of the particle will
  not release a single electron that can be further multiplied.
  Since we are, among other things, also interested in measuring on metal
@@ -513,7 +520,11 @@ reference "fig:tof_photo"
 \begin_inset Formula $V_{D}$
 \end_inset
 
-, all in the range of -4000 -- +4000
+, all in the range of -4000
+\begin_inset space ~
+\end_inset
+
+V -- +4000
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -528,8 +539,8 @@ ut supplies, since none of the components uses significant amounts of power.
  Luckily it turns out that the entrance lenses can be optimized almost independe
 nt of the rest of the system, reducing the problem from an 11-dimensional
  problem to a five-dimensional problem and a six-dimensional problem.
- This is however still quite a lot and the initial tuning, just to get a
- measurable signal, proved to be somewhat of a challenge.
+ This is, however, still quite a lot and the initial tuning, just to get
+ a measurable signal, proved to be somewhat of a challenge.
  In this situation, it is highly recommended to operate the instrument in
  linear mode since this takes out another to dimensions of the initial optimizat
 ion problem.
@@ -562,7 +573,7 @@ Hz.
 
 GHz which turns out to be fully sufficient to resolve the pulses from the
  MCP.
- Unfortunately the digitizer only has 8
+ Unfortunately, the digitizer only has 8
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -639,8 +650,12 @@ key "Nottingham1955"
 \end_inset
 
 A is run through the filament resulting in an emission current somewhere
- between 1 and 10,mA, in our current configuration we are not actively stabilizi
-ng the emission current, and we are typically not measuring it either.
+ between 1 and 10
+\begin_inset space \thinspace{}
+\end_inset
+
+mA, in our current configuration we are not actively stabilizing the emission
+ current, and we are typically not measuring it either.
  Fixing this is very high on the to-do list since the emission current is
  most likely not especially stable which of course is very bad for the self-cons
 istency of the measurements.
@@ -709,14 +724,14 @@ Data output
 \begin_layout Standard
 Unfortunately, we cannot judge instruments only on the coolness factor,
  they also need to deliver actual results to merit a position in the lab.
- Fortunately the performance of the TOF is very good, the resolution is
+ Fortunately, the performance of the TOF is very good, the resolution is
  much better than a traditional QMS, the manufacturer of our device claims
  resolutions of up to 
 \begin_inset Formula $m/\Delta m\approx4000$
 \end_inset
 
  is possible under optimal conditions.
- Unfortunately we are working far from optimal conditions, primarily due
+ Unfortunately, we are working far from optimal conditions, primarily due
  to our very primitive ion source which produces too few ions of too high
  energy with a too large energy spread.
  
@@ -892,7 +907,72 @@ name "fig:tof_dynamic_range"
 
 \end_inset
 
-TOF dynamic range
+Gaussian fits (red solid line) to three different mass to charge ratios
+ (blue points) from the same mass spectrum.
+ In panels a), b) and c) the H
+\begin_inset Formula $_{2}$
+\end_inset
+
+O (peak area: 2.35
+\begin_inset space ~
+\end_inset
+
+mV
+\begin_inset Formula $\cdot$
+\end_inset
+
+
+\begin_inset Formula $\mu$
+\end_inset
+
+s), H
+\begin_inset Formula $_{2}$
+\end_inset
+
+ (peak area: 5.43
+\begin_inset Formula $\times10^{-2}$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+mV
+\begin_inset Formula $\cdot$
+\end_inset
+
+
+\begin_inset Formula $\mu$
+\end_inset
+
+s) and O
+\begin_inset Formula $_{2}$
+\end_inset
+
+ (peak area: 4.24
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Formula $\times10^{-3}$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+mV
+\begin_inset Formula $\cdot$
+\end_inset
+
+
+\begin_inset Formula $\mu$
+\end_inset
+
+s) signals are shown, respectively.
+ At the bottom panel the error normalized by peak area for each fit shows
+ that the relative fit error is more or less independent of the total peak
+ area 
 \end_layout
 
 \end_inset
@@ -915,7 +995,8 @@ R=k\times e^{-\left(t-t_{center}\right)^{2}/\sigma}
 
 \end_inset
 
-This which have a very convenient known solution for the integrated value:
+This type of function have a very convenient known solution for the integrated
+ value:
 \begin_inset Formula 
 \[
 \int_{-\infty}^{\infty}Rdt=k\times\sqrt{\sigma}\times\sqrt{\pi}
@@ -927,7 +1008,8 @@ This which have a very convenient known solution for the integrated value:
 \end_layout
 
 \begin_layout Standard
-In this way it is possible to deconvolute even partially overlapping peaks.
+In this way it is possible to deconvolute even partially overlapping peaks
+ by fitting each peak an calculate the integrated responses seperately.
 \end_layout
 
 \begin_layout Section
@@ -1046,7 +1128,11 @@ Plot of the model error as a function of mass.
 
 \end_inset
 
-As seen in Figure~
+As seen in Figure
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:model_error"
@@ -1132,7 +1218,11 @@ Trajectory plots of three different ions each with different initial position
 
 \end_inset
 
- In Figure~
+ In Figure
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:simulated_reflectron"
@@ -1153,7 +1243,11 @@ reference "fig:simulated_reflectron"
  to the ground grid will be slower.
  This spread in energy inherently limits the resolution of a linear Time
  Of Flight instrument.
- However, as can be seen in Figure~
+ However, as can be seen in Figure
+\begin_inset space ~
+\end_inset
+
+
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:simulated_reflectron"
@@ -1221,7 +1315,7 @@ key "nist-benzene"
 
 \end_inset
 
-, and adding isotopic effect on top of this does not help the situation.
+, and adding isotopic effects on top of this does not help the situation.
  The total mass of 78
 \begin_inset space \thinspace{}
 \end_inset
@@ -1261,8 +1355,8 @@ H
 \begin_inset Formula $_{10}$
 \end_inset
 
-, has been show to depend on, if the reaction takes place on cubic or cuboctahed
-ral nanoparticles
+, has been show to depend on if the reaction takes place on cubic or cuboctahedr
+al nanoparticles
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Bratlie2007"
@@ -1437,7 +1531,7 @@ reference "fig:tof_ammonia_gauss_fit"
 
  for each mass for each recorded spectrum.
  These 
-\begin_inset Formula $\sim100--1000$
+\begin_inset Formula $\sim100-1000$
 \end_inset
 
  Gaussian fits can be performed using a simple Python program in a very
@@ -1456,7 +1550,7 @@ reference "fig:tof_multipage"
 
 \end_inset
 
-
+.
 \begin_inset Float figure
 wide false
 sideways false
@@ -1512,16 +1606,16 @@ reference "fig:tof_combined_tof_and_qms"
 
 .
  It is evident that opposite to the QMS, the TOF is able to document the
- fact, that the ammonia is completely converted.
+ fact that the ammonia is completely converted.
  In the QMS the water signal at mass 17 prevents this from being measured,
  it is almost impossible to tell, that the ammonia is actually gone.
  It is also easy to see, that the time resolution is currently not nearly
  as good as the QMS, this is very much due to our primitive ion source which
  forces us into rather long integration times to get good spectra.
  Also it is important to realize that for the QMS all the logged masses
- are shown in the plot, if later find out we are interested in another mass,
- we have no way to retrieve this data.
- For the TOF data, the plotted masses are simply the one, we have chosen
+ are shown in the plot, if we later find out we are interested in another
+ mass, we have no way to retrieve this data.
+ For the TOF data, the plotted masses are simply the ones, we have chosen
  to plot, we can at any time go back to the recorded data and plot the time
  evolution of any wanted mass, since the raw data contains complete mass
  spectra.
