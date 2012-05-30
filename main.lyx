@@ -107,12 +107,32 @@ frontmatter
 -reactors for Heterogeneous Catalysis
 \end_layout
 
+\begin_layout Author
+Robert Jensen
+\end_layout
+
+\begin_layout Date
+May 2012
+\end_layout
+
 \begin_layout Chapter*
 Preface
 \end_layout
 
 \begin_layout Standard
-...
+The work presented here have been carried out at the Technical University
+ of Denmark (DTU), Department of Physics, at the Center for Individual Nanoparti
+cle Functionality (CINF) from August 2008 to May 2012 with Professor Ib
+ Chorkendorff as my supervisor and Professor Ole Hansen as co-supervisor.
+ CINF is funded by the Danish National Research Foundation which is greatly
+ acknowledged for its support for this project.
+ The dissertation is submitted in partial fulfillment of the requirement
+ for obtaining the Ph.D.
+ degree from this university.
+\end_layout
+
+\begin_layout Standard
+I would like to thank...
 \end_layout
 
 \begin_layout Chapter*
@@ -130,7 +150,7 @@ This thesis is the summary of my work on the
 \end_inset
 
 -reactors is presented and some of the experimental challenges are outlined.
- The various experimental issues regarding the platform is discussed and
+ The various experimental issues regarding the platform are discussed and
  the actual implementation of three generations of the setup is described
  in detail.
  Since heating and temperature measurement is an extremely important point
@@ -139,14 +159,15 @@ This thesis is the summary of my work on the
  repeatability and homogeneity of the heating as well as the maximal achievable
  temperature.
  The currently best solution for heating and measuring temperature is to
- use several integrated Pt-strips as ohmic heaters and and a separate 4-point
+ use several integrated Pt-strips as ohmic heaters and a separate 4-point
  Pt meander structure as a resistance thermometer.
  
 \end_layout
 
 \begin_layout Standard
 It is shown how it is possible to quantify the available amount of active
- catalyst surface area by reacting of an adsorbed layer of oxygen with CO.
+ catalyst surface area by reacting off an adsorbed layer of oxygen with
+ CO.
  This procedure can be performed at temperatures low enough that sintering
  of Pt nanoparticles are not an issue.
  
@@ -172,7 +193,7 @@ m
 \begin_inset Formula $^{2}$
 \end_inset
 
- with a turn over frequency of 
+ with a turn over frequency of approximately 
 \begin_inset Formula $10^{5}$
 \end_inset
 
@@ -194,7 +215,7 @@ s
 
 .
  The apparent activation energy for all sizes oft thin films is found to
- be approximately 
+ be 
 \begin_inset Formula $\sim1.2$
 \end_inset
 
@@ -269,7 +290,68 @@ Enkelte resultater af målinger med
 -reaktorerne gennemgås.
  Specielt diskuteres et overraksende fænomen, hvor aktiviteten af Pt nanopartikl
 er oscillerer i tid når partiklerne fungerer som katalysatorer for CO oxidation.
- Følsomheden er reaktorerne 
+ Følsomheden er reaktorerne er i øjeblikket ved at blive undersøgt med CO
+ oxidation som test-reaktion, og vi har foreløbig demonstreret fuld omsætning
+ på en 38
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Formula $\mu$
+\end_inset
+
+m
+\begin_inset Formula $^{2}$
+\end_inset
+
+ Pt tynd film.
+ Dette giver en omsætning på omtrent 
+\begin_inset Formula $10^{5}$
+\end_inset
+
+ site
+\begin_inset Formula $^{-1}$
+\end_inset
+
+ s
+\begin_inset Formula $^{-1}$
+\end_inset
+
+.
+ Den tilsyneladende aktiveringsenergi er for alle film-størreslser målt
+ til ca.
+ 
+\begin_inset Formula $\sim1.2$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+eV.
+ Vi forventer at kunne måle på endnu mindre mænger at Pt og endnu højere
+ omsætningshastigheder ved at hæve temperaturen yderligere.
+\end_layout
+
+\begin_layout Standard
+
+\lang danish
+Yderligere metoder til at opnå indsigt i de reaktioner som foregår i reaktoren
+ diskuteres.
+ Specielt er et helt kapitel dedikret til anvendelsen af Time-Of-Flight
+ massspektromter på setup'et.
+\end_layout
+
+\begin_layout Standard
+
+\lang danish
+Endelig indeholder afhandlingen et kaptiel med en kort gennemgang af en
+ række forbedringer og udvidelser som man i fremtiden kunne forestille sig
+ kunne bygges til 
+\begin_inset Formula $\mu-$
+\end_inset
+
+reaktorplatformen.
 \end_layout
 
 \begin_layout Chapter*
