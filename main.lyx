@@ -5,6 +5,7 @@
 \textclass book
 \begin_preamble
 \bibliographystyle{unsrt}
+\usepackage{microtype}
 \usepackage{fancyhdr}
 \usepackage{ifthen}
 
@@ -33,10 +34,10 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman default
+\font_roman ae
 \font_sans default
 \font_typewriter default
-\font_default_family default
+\font_default_family rmdefault
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
@@ -67,6 +68,10 @@
 \shortcut idx
 \color #008000
 \end_index
+\leftmargin 2.5cm
+\topmargin 3cm
+\rightmargin 2.5cm
+\bottommargin 3cm
 \secnumdepth 2
 \tocdepth 2
 \paragraph_separation skip
@@ -132,24 +137,32 @@ cle Functionality (CINF) from August 2008 to May 2012 with Professor Ib
 \end_layout
 
 \begin_layout Standard
-I would like to thank my supervisors, both Ib and Ole has provided excellent
- help and support during the entire project.
- It has been a pleasure to work with you....
- ...
- ...
+I have so far had a wonderfull time at CINF, at the list of people to thank
+ seems endless, but I will nevertheless give it a try.
+\end_layout
+
+\begin_layout Standard
+I would of course very much like to thank my supervisor, Ib.
+ Even though we both can have our rather strong oppinions on various issues,
+ I think we somehow always manage to find common ground in the end.
+ You have provided excellent help and support during the entire project
+ and it has been a pleasure to work with you.
 \end_layout
 
 \begin_layout Standard
 All clean-room work has been performed by Thomas Pedersen, and without his
  efforts, not a single measurement would ever have been performed.
- In my world, Thomas and Ole are known as the clean-room wizards since they
- seem to be able to have answers to almost any questions and are always
- able to come up with solutions for all kinds of problems and later implement
- them as actual products.
+ Together with Ole Hansen, you are in my world simply known as the clean-room
+ wizards.
+ The two of you seem to be able to have answers to almost any questions
+ and are always able to come up with solutions for all kinds of problems
+ and later implement them as actual products.
 \end_layout
 
 \begin_layout Standard
-Workshop, mechanical and electronic
+An infinte amount of gratitude should be expressed towards our mechanical
+ and electron workshops, espcially Dan, Peter, Peder and Anders.
+ Without your help, most of this work would not have been possible.
 \end_layout
 
 \begin_layout Standard
