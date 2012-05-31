@@ -85,7 +85,7 @@ The world is facing many challenges within the coming years.
 \begin_layout Standard
 However, all of these problems can also be seen as interesting challenges
  that need new solutions, and this is where the scientific community steps
- in to hopefully provide solutions for many of these problems.
+ in to hopefully provide solutions for some of these problems.
  Of course this will require inputs from many areas of research, obviously
  heterogeneous catalysis is only a small part of this very large and complicated
  field.
@@ -102,21 +102,21 @@ It is an interesting thought, that we as humans actually already know and
  energy consumption, on average the consumption integrated over the entire
  world, inevitable goes up.
  This means that it will be necessary to find ways of getting access to
- cheap energy, preferably without resorting the fossil fuels even more polluting
+ cheap energy, preferably without resorting to fossil fuels even more polluting
  than what we are currently using.
  
 \end_layout
 
 \begin_layout Standard
-In this field of energy technology, several candidates exists that is fully
+In this field of energy technology, several candidates exists that are fully
  capable of providing substantial (if not complete) parts of the worlds
  total energy consumption.
- These technologies includes solar cells, solar-thermal electricity production,
- hydro-power, nuclear power and wind turbines.
- All of these technologies has their pros and cons, however, as I am myself
+ These technologies includes solar cells, solar-thermal electricity, hydro-power
+, nuclear power and wind turbines.
+ All of these technologies have their pros and cons, however, as I am myself
  particular fond of wind turbines, I will take the liberty of using this
  technology as an example for a quick back-of-the-envelope calculation.
- The total energy consumption is currently around 16
+ The total energy consumption of the world is currently around 16
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -134,28 +134,37 @@ MW (although it seems that turbines even as large as 6 or 7
 \end_inset
 
 MW are soon entering the market).
- A standard value for the capacity factors is between 0.25 and 0.33 and thus
- it seems reasonable to take on average 
+ A standard value for the capacity factor (that is, the fraction of peak
+ power that is in average produced by the turbine) is between 0.25 and 0.33
+ and thus it seems reasonable to take on average 
 \begin_inset Formula $P_{turbine}=1\,\mbox{MW}$
 \end_inset
 
 .
- These convenient choice of numbers puts us with a needed number of wind
- turbines to satisfy the worlds energy needs of 
-\begin_inset Formula $20\times10^{12}/1\times10^{6}=2\times10^{7}$
+ These convenient choice of numbers gives us with a number of wind turbines
+ to satisfy the worlds energy needs: 
+\begin_inset Formula 
+\[
+N_{WT}=\frac{20\times10^{12}}{1\times10^{6}}=2\times10^{7}\,\mbox{wind\, turbines}
+\]
+
 \end_inset
 
- wind turbines, not including energy storage loss.
+This number does not include energy storage loss.
  The design lifetime of almost all wind turbines on the market is 20 years
  (which in the real world seems to be a lower limit on the lifetime).
  This gives us a final number of the required number of wind turbines pr.
  year to be 
-\begin_inset Formula $2\times10^{7}/20=10^{6}$
+\begin_inset Formula 
+\[
+N_{WT}/y=\frac{2\times10^{7}}{20}=10^{6}\,\mbox{turbines}
+\]
+
 \end_inset
 
- turbines or in units of peak power (which is the typical way of counting
- many kinds of energy producing devices) 3
-\begin_inset Formula $\times10^{6}$
+In units of peak power (which is the typical way of counting many kinds
+ of energy producing devices) this corresponds to 
+\begin_inset Formula $\sim3\times10^{6}$
 \end_inset
 
 
@@ -167,11 +176,15 @@ MW
 \end_inset
 
 .
- Currently the wold yearly production is on the order of 41
+ Currently the wolds yearly wind turbine production is on the order of 
+\begin_inset Formula $4.1\times10^{4}$
+\end_inset
+
+
 \begin_inset space \thinspace{}
 \end_inset
 
-GW
+MW
 \begin_inset Formula $_{peak}$
 \end_inset
 
@@ -182,16 +195,21 @@ key "btmconsult"
 
 \end_inset
 
-.
- As a rule of thumb, the price of the bare turbine, not including cabling
+, which means that even with the current production rate, wind turbines
+ will eventually produce on the order of 1% of the worlds total energy demand.
+\end_layout
+
+\begin_layout Standard
+As a rule of thumb, the price of the bare turbine, not including cabling
  and mounting, is around 
-\begin_inset Formula $1.5\times10^{6}\text{€}/\mbox{MW}$
+\begin_inset Formula $1.5\times10^{6}\text{€}/\mbox{MW}_{peak}$
 \end_inset
 
 .
  Typical prices for cabling and mounting end up with a total price between
- 2 and 5 times higher than this, a conservative estimate of total cost would
- thus be 
+ 2 and 5 times higher than this, obviously most expensive for sea based
+ turbines.
+ A conservative estimate of the total cost would thus be 
 \begin_inset Formula $10^{7}\text{€}/\mbox{MW}$
 \end_inset
 
@@ -205,7 +223,7 @@ key "btmconsult"
 
 \end_inset
 
-, not including storage loss.
+not including storage loss.
 \end_layout
 
 \begin_layout Standard
@@ -217,14 +235,14 @@ key "world_gdp"
 \end_inset
 
  was approximately 
-\begin_inset Formula $\sim5,3\times10^{13}$
+\begin_inset Formula $\sim5.3\times10^{13}$
 \end_inset
 
 
 \begin_inset space \thinspace{}
 \end_inset
 
-€, that is only slightly more than the estimate price for 100% wind power
+€, that is only slightly more than the estimated price for 100% wind power
  energy.
  However, one should remember that this is an extremely rough estimate and
  just the fact that it comes out lower than the world GDB should justify
@@ -319,29 +337,32 @@ When dealing with subjects as large as basically the future of the entire
  world, it is quite important to realize that the work of a single persion
  is most likely rather insignificant in the big picture.
  Thus it is always wise to make oneself quite clear what is the potential
- impact of ones work.
- In my case, I have been working on a platform, not on a specific system,
- thus the potential impact of the work is to provide a platform for developing
- better catalysts.
+ impact of ones work, just to get the proportions right.
+ In my case, I have been working on a platform, not on a specific system.
+ Thus the potential impact of the work is to provide a platform that will
+ help other people, who have specialzed in the various individual catalyic
+ processes, to develop better catalysts.
+ 
 \end_layout
 
 \begin_layout Standard
-To make catalysis help in the big pictures scetched above we should be able
- to find catalysts that either reduce the energy consumption of the world,
- increase the energy production or perhaps provide new and better ways for
- storaging energy as well as relasing it when and where it may be desired.
+To make catalysis help providing solution to some of the issues scetched
+ above we should be able to find catalysts that either reduce the energy
+ consumption of the world, increase the energy production or perhaps provide
+ new and better ways for storing energy as well as relasing it when and
+ where it may be desired.
 \end_layout
 
 \begin_layout Standard
 On the lines of saving energy, new ammonia catalyst could be an excellent
  contribution, currently a large fraction of the worlds energy consumption
  is spend on ammonia production for fertilizers.
- On the lines of energy production, our part of a solution would most likely
- involve finding ways to exploiting new resources in better ways, a hypothetical
- suggestion could be developing catalysts to produce liqued fuels from organic
- wase or from perhaps even from algea or other sea-living organic material
- that might be avaiable in large quantities, if humans start farming the
- ocean large scale.
+ On the lines of energy production, the catalysis community's part of a
+ solution would most likely involve finding ways to exploit new resources
+ in better ways, a hypothetical suggestion could be developing catalysts
+ to produce liquid fuels from organic wase or perhaps even from algea or
+ other sea-living organic material that might be avaiable in large quantities,
+ if humans start farming the ocean on a large scale.
 \end_layout
 
 \begin_layout Standard
@@ -359,15 +380,11 @@ Finally, a good place for catalysis to help with constructive solutions
 \end_inset
 
  reduction or water splitting, but also many other processes has been proposed.
- The concept is always to use the renwable resource whenever it is available,
+ The concept is always to use the renwable resource, whenever it is available,
  to produce a product with high energy density.
  In this way the product can be stored easily and used later when the renawable
  resource is not producing sufficiently to satisfy demands.
  
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Section
@@ -459,8 +476,11 @@ These chapters contains all the technical discussions of the
 
 -reactors and the setup in general.
  Here the reactors are introduced and the various technical issues are discussed.
- Chapter two is covers everything except heating, which is then found in
- chapter
+ Chapter
+\begin_inset space ~
+\end_inset
+
+2 covers everything except heating, which is then found in chapter
 \begin_inset space ~
 \end_inset
 
@@ -485,9 +505,9 @@ Chapter 5
 \begin_layout Standard
 In the chapter, I take detour from the main focus on the platform, and discuss
  an actual result.
- The data presented shows oscillations in reactivity of Pt nano particles
+ The data presented shows oscillations in reactivity of Pt nanoparticles
  during CO oxidation.
- We find that the nano particles will show reactivity oscillations of timescales
+ We find that the nanoparticles will show reactivity oscillations of timescales
  from seconds up to more than an hour, even at atmospheric pressure.
 \end_layout
 
@@ -499,7 +519,7 @@ Chapter 6
 Here we are on the borderline between platform characterization and real
  new data.
  The topic of the chapter is a measurement of the sensitivity of the setup,
- measured by CO oxidation on smaller and smaller Pt thin films.
+ measured by CO oxidation on small platinum thin films.
  As far as the project has come at this point, we are entirely on the platform
  characterization part of the playing field.
  However, we have hopes that we will eventually be able to reach turn over

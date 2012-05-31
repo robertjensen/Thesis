@@ -105,7 +105,8 @@ Feasibility study
 
 \begin_layout Standard
 Several possible techniques has been proposed and some of them might actually
- be useful, some of the techniques we have discussed includes:
+ be useful, some of the techniques we have discussed, but have not yet sucessful
+ly applied, includes:
 \end_layout
 
 \begin_layout Paragraph
@@ -139,7 +140,7 @@ This seems to be a fairly realistic option since FT-IR equipment is actually
  a completely new way of heating the sample, possibly by emerging the sample
  in a stream of hot air.
  However, mounting all this inside an FT-IR instrument does seem to be quite
- a challenge..
+ a challenge.
 \end_layout
 
 \begin_layout Paragraph
@@ -170,12 +171,12 @@ key "Larsson2009"
 \end_inset
 
  that there will be no risk of contaminating the reactor with the gold.
- By monitoring the plasmon frequency of the disks, one is in principle able
- to measure various parameters such as temperature and gas-composition in
- the reactor.
+ By monitoring the plasmon frequency of the disks, one is able to measure
+ various parameters such as temperature and gas-composition changes.
  Unfortunately, only a single parameter, the plasmon frequency, is measured
- and since it depends on many properties of the reactor, it can be quite
- difficult to interpret the result.
+ and since it depends on many properties of the catalyst, the gas phase
+ as well as the reactor itself, it can be quite difficult to interpret the
+ result.
  In corporation with the developers of the system, we have done several
  attempts to apply the technique in the 
 \begin_inset Formula $\mu$
@@ -208,16 +209,15 @@ It would seem obvious that the easiest way of gaining insight into the surface
  This method works and has been used to open samples to do XPS, but it is
  a primitive and dangerous technique that might easily completely break
  the sample with no useful pieces left.
- This is particularly unfortunate since a sample one is trying to do postmortem
- analysis on, is typically an important sample that would require large
- amounts of work to re-create.
+ This is particularly unfortunate since a sample interesting enough to performe
+ this operation, would most likely be rather valuable.
 \end_layout
 
 \begin_layout Standard
 For this reason a more reliable method is wanted.
  We went through several attempts before coming up with a working solution.
- Among the failed attempts was attempts to weaken the reactor with a diamond
- saw and then pressurizing the reactor to 2.5
+ Among the failed experiments was attempts to weaken the reactor with a
+ diamond saw and then pressurizing the reactor to 2.5
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -230,8 +230,8 @@ bar of over pressure hoping the pressure would push out a piece of the reactor.
 bar.
  Etching the lid away with HF has also been considered but this is a really
  bad solution both because of the long list of safety concerns with HF and
- also because it is a very dirty way of opening the reactor since HF will
- inevitably leak into the reactor volume and thus contaminate the sample.
+ also because it is a very dirty way of opening the reactor.
+ HF will inevitably leak into the reactor volume and contaminate the sample.
 \end_layout
 
 \begin_layout Standard
@@ -257,8 +257,8 @@ reference "fig:xps_looking_for_Ni"
 \begin_inset Formula $\mbox{Ni}\left(\mbox{CO}\right)_{4}$
 \end_inset
 
-, which is a known pollutant originating from the CO in the gas-lines reacting
- with Ni from the steel tubing.
+, which is a known pollutant originating the CO reacting with Ni from the
+ steel tubing.
  As can be seen from the Figure, we do not have a problem with nickel carbonyl
  pollution.
  
@@ -314,8 +314,8 @@ Of course postmortem analysis is not always a useful solution.
  intermediate steps of the measurement.
  Also, the surface will necessarily be exposed to air to be cut out with
  the saw and to be mounted in a chamber equipped with XPS.
- This of course somewhat limits scope of this kind of analysis since many
- interesting features of the sample will be long gone before the sample
+ This of course somewhat limits the scope of this kind of analysis since
+ many interesting features of the sample will be long gone before the sample
  reaches the analytic tool to be applied.
 \end_layout
 
@@ -394,11 +394,15 @@ ex-situ
  then be repeated on a bonded sample that is as identical as possible to
  the non-bonded sample to get mass spectrometry of much higher quality.
  The data from the non-bonded sample thus only needs be good enough that
- it can be documented that the sample that was taken out for 
+ it can be documented that the sample that was taken out for
 \emph on
-ex-situ
+ 
 \emph default
- studies has experienced conditions identical to the bonded sample.
+ex-situ
+\emph on
+ 
+\emph default
+studies has experienced conditions identical to the bonded sample.
 \end_layout
 
 \begin_layout Standard
@@ -436,14 +440,14 @@ reference "chap:Oscillating-reactions"
 \end_inset
 
  we would very much like to try to look for a thermal sign of where the
- reactivity is actually taking place in the reactor.
+ reactivity is taking place in the reactor.
  Since small parts of the sample could potentially become very hot, we have
  a vague hope, that we might be able to see this using a standard CCD camera.
  If this is possible, we open up the possibility of using classical optical
  methods which have a much higher resolution than thermographic cameras.
  We have done several attempts at this and have also successfully imaged
  the heating element, but so far we have not been able to find signs of
- local heating of the catalyst, however, we not given up yet.
+ local heating of the catalyst, however, we have not given up yet.
 \end_layout
 
 \begin_layout Standard
@@ -468,8 +472,8 @@ Another way of extracting other kinds of information from the
 
 -reactors is to use a different detection technique besides the usual Quadropole
  Mass Spectrometer.
- We have tried this by attaching a Time Of Flight Mass Spectrometer, this
- has been a highly successful project and for this reason, this subject
+ We have tried this by attaching a Time Of Flight Mass Spectrometer.
+ This has been a highly successful project and for this reason, this subject
  has been moved to its own chapter, the story of the TOF can thus be found
  in chapter
 \begin_inset space ~

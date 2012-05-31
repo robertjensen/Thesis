@@ -133,17 +133,13 @@ The glass lid of the reactor gives easy optical contact to the catalyst,
 \end_layout
 
 \begin_layout Itemize
-The diffusion length of the reactants and products gases in the 
-\begin_inset Formula $\mu$
-\end_inset
-
--reactor reactor volume is almost an order of magnitude longer than the
- radius of the reactor volume ensuring full contact of the gas with the
- catalyst.
+The diffusion length of the reactants and product gases in the reactor volume
+ is almost an order of magnitude longer than the radius of the reactor volume
+ ensuring full contact of the gas with the catalyst.
  We have tested this property by repeating CO oxidation measurements on
- small Pt spots located at different points in the the reactor volume, all
- spots are able to achieve full conversion showing that the gas is mixed
- in the reactor
+ small Pt spots located at different points in the the reactor, all spots
+ are able to achieve full conversion showing that the gas is mixed in the
+ reactor
 \begin_inset CommandInset citation
 LatexCommand cite
 key "zubeyr-master"
@@ -382,17 +378,16 @@ General measurement principle
 \begin_layout Standard
 In order to perform actual measurements, one needs more than just a bonded
  silicon reactor.
- To be able to do actual measurements it is necessary to have some kind
- of gas-handling, a way of heating the reactor, as well as a detection mechanism
- for the reactant and products.
+ It is also necessary to have some kind of gas-handling, a way of heating
+ the reactor, as well as a detection mechanism for the reactants and products.
  As much of the rest of this thesis will discuss, this can be implemented
  in many specific ways, but the overall concept is very general and should
  be introduced before moving on to the details.
 \end_layout
 
 \begin_layout Standard
-The reaction gases are supplied to the two inlets by flow controllers capable
- of controlling the gas flow in various range, typically on the order 0-10
+The reacting gases are supplied to the two inlets by flow controllers capable
+ of controlling the gas flow in various ranges, typically on the order 0-10
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -418,7 +413,7 @@ The capillary flow is fed into a quadropole mass-spectrometer (QMS) for
  pumped by a turbo pump.
  It is of great importance to keep the base pressure as good as possible
  in the chamber since this background is superimposed on all measurements
- and it will often be the practical limit to the sensitivity of the measurements.
+ and it will often be the practical sensitivity limit of the measurements.
  If the chamber is properly baked and otherwise treated according to good
  UHV practice a base pressure of 
 \begin_inset Formula $\sim2\times10^{-10}$
@@ -433,7 +428,7 @@ mbar can be reached.
 \begin_inset Formula $\mu$
 \end_inset
 
--reactors involves dosing more water and air residues than would typically
+-reactors involves dosing more water and air residues than would optimally
  be desired in a UHV system, the typical day-to-day pressure is on the order
  of 
 \begin_inset Formula $1\times10^{-9}$
@@ -449,16 +444,14 @@ mbar.
 \begin_layout Standard
 All surplus of gas from the inlets is passed directly through to the outlet
  via a pressure controller allowing control of reactor pressure.
- The design of the reactor makes sure that all gases exposed to the catalyst
- under investigation are measured by the QMS ensuring an extremely high
- sensitivity of the system.
  One could wonder why we need this main outlet flow at all, since this gas
  flow is not used and does not contribute to the measurement.
  The reason is that the capillary flow is simply too small to handle in
  the external gas-system.
  We need reasonably high flows both because there is a lower limit towards
- how low mass-flow controllers can work reliably and because the tubing
- contains a non-vanishing volume, especially since we are using 
+ how small flows mass-flow controllers can control reliably and because
+ the tubing contains a non-vanishing volume, especially since we are using
+ 
 \begin_inset Formula $\nicefrac{1}{4}"$
 \end_inset
 
@@ -486,18 +479,18 @@ During experiments the chip is mounted in a metal block which is connected
  For low temperature operation, also Viton can be considered, since this
  material is both cheaper and can be cooled to lower temperatures before
  it becomes brittle.
- Unfortunately rubber O-rings are not leak-tight especially not when they
+ Unfortunately rubber O-rings are not leak-tight, especially not when they
  are heated, which means that we have an inflow of air across all four O-rings.
  This is very unfortunate in situations where oxygen is not wanted, e.g.
- methanol synthesis.
+ methanol synthesis or other process with products that are easily oxidized.
  Also, the air inflow through the O-ring sealing the capillary outlet complicate
 s interpretation of data a lot since it will give a background of air on
  top of the signal from the product gas.
  To eliminate both problems the O-rings are continuously flushed by a flow
  of Argon.
  If the flow is chosen sufficiently high, it will out-compete the air-inflow
- and result in a more or less pure Argon inflow, which is at lot more acceptable
-, both regarding the chemistry and regarding data interpretation.
+ and result in a more or less pure Argon inflow, which is much more acceptable,
+ both regarding the chemistry and regarding data interpretation.
  Another solution to the problem is to evacuate the entire surroundings
  of the metal block, this option is discussed later in this chapter.
 \end_layout
@@ -518,9 +511,8 @@ N_{reactor}=\frac{240\times10^{-9}\,\mbox{L}}{24\mbox{L}}N_{A}=10^{-8}\cdot N_{A
 
 \end_inset
 
-.
- The capillary flow has been mesured to 
-\begin_inset Formula $6\times10^{14}\,\mbox{s}^{-1}$
+The capillary flow has been measured to 
+\begin_inset Formula $\sim6\times10^{14}\,\mbox{s}^{-1}$
 \end_inset
 
 
@@ -576,14 +568,13 @@ The
 \begin_inset Formula $\mu$
 \end_inset
 
--reactor setup as of the day I arrived on the setup.
- Blue tubes contains the incoming gas flow and is typically operated at
- 1-2
+-reactor setup as of the day I arrived.
+ Blue tubes contain the incoming gas flow and is typically operated at 1-2
 \begin_inset space \thinspace{}
 \end_inset
 
 bars.
- Red tubes are pumped with a roughing pump and is typically operated at
+ Red tubes are pumped with a roughing pump and are typically operated at
  
 \begin_inset Formula $\sim10^{-3}$
 \end_inset
@@ -657,7 +648,7 @@ reference "fig:old_old_setup"
 
 .
  The setup had several problems which it was necessary to address before
- the setup was really to measurements beyond proof-of-concept measurements.
+ the setup was ready for measurements beyond proof-of-concept measurements.
  First of all, it is evident from Figure
 \begin_inset space ~
 \end_inset
@@ -729,8 +720,8 @@ The
  Grey valves are pneumatically activated.
  Besides these valves, the main new feature is the introduction of a turbo
  pump to ensure oil-free vacuum in the entire gas handling system.
- Typically we mount two different gasses to each MFC, of course only one
- can be used at any time, but in this way it is fairly easy to switch between
+ Often we mount two different gasses to each MFC, of course only one can
+ be used at any time, but in this way it is fairly easy to switch between
  the various gasses.
 \end_layout
 
@@ -809,7 +800,7 @@ The updated version of the
 \end_inset
 
  The most important change is the fact that no part of the setup is now
- pumped by roughing pump.
+ pumped by roughing pumps.
  All tubing that needs to be regularly evacuated are now connected to a
  buffer volume which is in turn pumped by a turbo-pump through a 
 \begin_inset Formula $\nicefrac{1}{4}"$
@@ -832,8 +823,8 @@ The updated version of the
 
 mbar with absolutely no oil in the residual gas.
  Even though this is of course not real UHV it is still a background pressure
- approximately 8 orders of magnitude below the typical operating pressure
- of the setup.
+ approximately 8 orders of magnitude below the operating pressure of the
+ setup.
  A small drawback on the new design is that all of the main gas flow must
  go through the turbo-pump thus somewhat limiting the total acceptable flow.
  However, experimentation has shown that we can go as high as 
@@ -857,7 +848,7 @@ The system was also updated with four pneumatically operated valves in front
  These valves are programmed to close every time the flow for the corresponding
  flow controller is set to zero.
  In this way we can decrease the background from unused gasses significantly.
- Besides the work on the mechanical part of the setup, we also completely
+ Besides the work on the mechanical parts of the setup, we also completely
  changed the way heating and temperature measurement was performed, however,
  due to the complexity of this subject it has been moved to a separate chapter
  (chapter
@@ -921,11 +912,11 @@ The so-called 'Next Generation' setup.
 
 \end_inset
 
-At some point we realized that with the amount the amount of samples we
- wanted to measure at the same time as we wanted to keep modifying and improving
- the setup, we simply did not have enough time to do it all.
- It was decided to build another setup using the experience gained from
- the old setup.
+At some point we realized that with the amount of samples we wanted to measure
+ at the same time as we wanted to keep modifying and improving the setup,
+ we simply did not have enough instrument time to do it all.
+ For this reason we decided to build another setup using the experience
+ gained from the old setup.
  
 \begin_inset Float figure
 wide false
@@ -966,7 +957,7 @@ The Next Generation Setup.
 The two by far most important things to improve compared to old setup was
  first of all to eliminate the need for a permanent argon flow and to mount
  pneumatically controlled valves on most of the setup to ensure that the
- chamber can be remotely operated.
+ system can be remotely operated.
 \end_layout
 
 \begin_layout Subsection
@@ -988,8 +979,8 @@ At first glance, the solution to the leaking O-rings of flushing with argon
 
 \end_inset
 
-, it would be highly problematic if even small amounts of oxygen reached
- the reactor.
+it would be highly problematic if even small amounts of oxygen reached the
+ reactor.
  Secondly, one should not underestimate the costs of having a reactor flushed
  continuously with argon.
  Originally when the setup was first designed, it was constantly in development
@@ -1011,7 +1002,7 @@ bar) pr.
  When starting an experiment one needs to judge whether the remaining argon
  supply will last for the rest of the experiment and unfortunately it can
  sometimes happen that this estimate fails and the argon run out during
- the experiment which will typically render the experiment useless.
+ the experiment which will often render the results useless.
  This also means that it is basically impossible to keep a sample in the
  setup over a holiday and run a few experiments from home, since the argon
  supply will not last more than approximately 4--5 days.
@@ -1028,7 +1019,7 @@ key "Olsen-phd"
 
 \end_inset
 
- and failed,.
+ and failed.
  Instead we chose the brute-force solution of simply evacuating the entire
  surroundings of the 
 \begin_inset Formula $\mu$
@@ -1077,7 +1068,7 @@ mbar to atmosphere and contains a serial communication interface.
 \begin_inset Formula $2"$
 \end_inset
 
- Germanium wafer.
+ germanium wafer.
  Since germanium is transparent in the infrared part of the light-spectrum
  this window allows us to take thermographic images of the sample under
  vacuum.
@@ -1102,7 +1093,7 @@ Replacing the manual valves with pneumatically controlled valves was a high
 
 \begin_layout Standard
 Another great advantage of pneumatic valves is that it opens up for much
- better pumping of the tubing.
+ better pumping of the gas system.
  On the old setup, the only way to evacuate the gas-system during an experiment
  is to set the pressure controller to 0 and pump out through the sample.
  Since this is an extremely bad pumping route it takes very long time to
@@ -1121,8 +1112,8 @@ Experimentally it takes a bit of work to operate pneumatic valves.
  The valves we have chosen are from Swagelok because we know them to be
  leak-tight and because the have the same dimensions as the manual valves
  we have typically been using.
- These valves are typically normally-closed by a spring load and will open
- by applying pressurized air at approximately 3
+ These valves are normally-closed by a spring load and will open by applying
+ pressurized air at approximately 3
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -1136,8 +1127,8 @@ bars.
 \end_inset
 
 V is needed.
- Since in the end we want to control this programmatically, we need a computer
- controlled 24
+ Since in the end we want to control this programmatically, we need a multichann
+el computer controlled 24
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -1250,11 +1241,10 @@ reference "chap:Time-Of-Flight"
  However, this is also the pump that does the initial pumping of the containment
  volume every time it is vented to change the sample.
  To achieve this we need to close the valves to the turbos while pumping
- down since the roughing pressure will temporarily be way to high for the
- turbos.
+ down since the roughing pressure will temporarily be too high for the turbos.
  Since we change samples quite often we soon realized that we need an automatic
  procedure for this opening and closing of the valves behind the two turbos.
- This was solved by an solenoidal actuated Bellow valve from Lesker.
+ This was solved by an solenoidal actuated bellow valve from Lesker.
  This valve is actuated by a 24
 \begin_inset space \thinspace{}
 \end_inset
@@ -1264,14 +1254,14 @@ V signal and ensures that the turbos are protected when the roughing line
 \end_layout
 
 \begin_layout Subsection
-Misclanious improvements
+Miscellaneous improvements
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -1294,7 +1284,8 @@ name "fig:cooling"
 \end_inset
 
 Testing of the cooling feed-through.
- Finally UHV since gets some visual appeal! Photo: Mathias Kjærgaard Christensen.
+ Finally UHV science gets some visual appeal! Photo: Mathias Kjærgaard Christens
+en.
 \end_layout
 
 \end_inset
@@ -1311,7 +1302,7 @@ Besides the obvious improvements we wanted for the NG setup we also added
  braid ending in a thin copper plate that can be mechanically positioned
  on top of the sample.
  By cooling the feed-through from the outside of the containment we are
- thus able to cool the sample which can be convenient.
+ now able to cool the sample.
  The lowest achievable temperature has not been tested yet.
  So far we have only checked that the cooling actually works, which indeed
  it does.
@@ -1364,7 +1355,7 @@ Because all our valves are pneumatically activated, we have the option of
  if something goes wrong.
  These mechanisms fall in two distinct categories.
  One is the software controlled checks which will programmatically intervene
- in the experiment if some parameter fall outside of the allowed range.
+ the experiment if some parameter falls outside of the allowed range.
  The other type is the purely electrical mechanisms which will close relevant
  valves based purely on hardware triggers.
 \end_layout
@@ -1372,8 +1363,8 @@ Because all our valves are pneumatically activated, we have the option of
 \begin_layout Standard
 The programmatically controlled safety features includes that the software
  will continuously monitor the pressure in the containment volume.
- If the pressure becomes too high, typically because of bonding errors,
- the software will prevent heating of the sample.
+ If the pressure becomes too high, typically because of bonding errors in
+ the sample, the software will prevent heating of the sample.
  This is done to prevent gas-convection to transport heat to the 
 \begin_inset Formula $8"$
 \end_inset
@@ -1387,7 +1378,7 @@ The purely electrical safety features are of course the most important,
  since they will react much faster and much more reliable than the software
  will be able to, especially because the need of activating a safety feature
  might easily be due to bugs in the software.
- The system is based on set points on the gauge controller.
+ The system is based on set-points on the gauge controller.
  The controller, an Agilent XGS600
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -1405,7 +1396,7 @@ ammed pressure ranges.
 \begin_inset space \thinspace{}
 \end_inset
 
-V box which will open or close the pneumatic valves based on the set points.
+V box which will open or close the pneumatic valves based on the set-points.
  This means that the main chamber valve will close immediately if the pressure
  in the main chamber exceeds a pre-programmed pressure.
  Typically the safety limit is set to 
@@ -1417,10 +1408,7 @@ V box which will open or close the pneumatic valves based on the set points.
 \end_inset
 
 mbar.
-\end_layout
-
-\begin_layout Standard
-For the containment and buffer volume, the check is done on the roughing
+ For the containment and buffer volume, the check is done on the roughing
  lines since the pirani gauges mounted directly on the chambers are not
  read out by the XGS controller.
  The typical safety limit for these chambers is 1
@@ -1428,7 +1416,7 @@ For the containment and buffer volume, the check is done on the roughing
 \end_inset
 
 mbar in the roughing line, if the pressure exceeds this value, it is assumed
- we have a too large leak and the valves above the turbos will be closed.
+ we have a leak and the valves above the turbos will be closed.
  
 \end_layout
 
@@ -1441,7 +1429,7 @@ The
 \begin_inset Formula $\mu$
 \end_inset
 
--reactor platform often performs experiments that is both long and often
+-reactor platform often performs experiments that are both long and often
  involves quite a lot of process steps.
  For applications like this, it is unfeasible to run the experiments manually.
  For this reason, we have developed software that reads a so-called flow
@@ -1549,13 +1537,13 @@ include;pumpdown
 \end_layout
 
 \begin_layout Standard
-The file is parsed from the top towards to bottom.
+The file is parsed from the top towards the bottom.
  All actions stated between individual 'time' commands are executed at the
  same time.
  At each 'time' command the flow is kept constant at the current configuration
  for the stated amount of minutes.
  The code-example above will thus start out by evacuating the sample for
- 30 minutes before it start a flow of 5
+ 30 minutes before starting a flow of 5
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -1572,7 +1560,7 @@ mL/min of CO (flow 3) with the pressure controller set to 1
 \end_inset
 
 bar.
- After 10 minutes of gas-flow the temperature is increased in a liner ramp
+ After 10 minutes of gas-flow the temperature is increased in a linear ramp
  (the include statement will simply import another file of the same syntax,
  this one with consecutive time and temperature steps to create a temperature
  ramp).
@@ -1636,8 +1624,8 @@ A simple example of the type of data stored in the CINF database, in this
 Along with an automated experimental setup should necessarily go a comprehensive
  data logging system to make it easy to real-time monitor what the setup
  is actually doing.
- Since no such logging system was present at CINF, we have build one and
- over time this has proven to be immensely useful.
+ Since no such logging system was present at CINF, we have made one to solve
+ our specific needs and over time this has proven to be immensely useful.
  The core of the system is a centrally managed MySQL database running on
  a dedicated server (popularly know as 'servcinf').
  All measurements performed on the 
@@ -1648,9 +1636,9 @@ Along with an automated experimental setup should necessarily go a comprehensive
  database with no temporary storage at the local computer.
  This has many advantages, for example it is possible to real-time monitor
  the measurements through a web-browser from anywhere in the world.
- It also ensures that all data are secured even in the event of the computer
+ It also ensures that all data are secured even in the event that the computer
  crashes (an all to frequent event when using LabView for data acquisition....)
- and is continuously backed up by the central IT-department.
+ and data are continuously backed up by the central IT-department.
  Also, the central server act as a common entrance point when searching
  for old data, either one's own data or data from other CINF setups that
  could have results relevant for the current project.

@@ -67,14 +67,14 @@
 \shortcut idx
 \color #008000
 \end_index
-\secnumdepth 3
-\tocdepth 1
+\secnumdepth 2
+\tocdepth 2
 \paragraph_separation skip
 \defskip smallskip
 \quotes_language english
 \papercolumns 1
 \papersides 2
-\paperpagestyle fancy
+\paperpagestyle default
 \tracking_changes false
 \output_changes false
 \html_math_output 0
@@ -133,7 +133,23 @@ cle Functionality (CINF) from August 2008 to May 2012 with Professor Ib
 
 \begin_layout Standard
 I would like to thank my supervisors, both Ib and Ole has provided excellent
- help and support during the entire project
+ help and support during the entire project.
+ It has been a pleasure to work with you....
+ ...
+ ...
+\end_layout
+
+\begin_layout Standard
+All clean-room work has been performed by Thomas Pedersen, and without his
+ efforts, not a single measurement would ever have been performed.
+ In my world, Thomas and Ole are known as the clean-room wizards since they
+ seem to be able to have answers to almost any questions and are always
+ able to come up with solutions for all kinds of problems and later implement
+ them as actual products.
+\end_layout
+
+\begin_layout Standard
+Workshop, mechanical and electronic
 \end_layout
 
 \begin_layout Standard
@@ -145,7 +161,7 @@ Familly....
 \end_layout
 
 \begin_layout Standard
-Bengt Selchau, Peter Thorsen, Steen Bach....
+Bent Selchau, Peter Thorsen, Steen Bach....
 \end_layout
 
 \begin_layout Chapter*
@@ -465,7 +481,7 @@ texttopagenumber[6]{007}}
 \backslash
 cfoot{
 \backslash
-texttopagenumber[5]{007}}
+texttopagenumber[6]{007}}
 \end_layout
 
 \begin_layout Plain Layout
@@ -474,7 +490,9 @@ texttopagenumber[5]{007}}
 \backslash
 cfoot{
 \backslash
-texttopagenumber[7]{007}}
+fancyplain{
+\backslash
+texttopagenumber[7]{007}}}
 \end_layout
 
 \end_inset

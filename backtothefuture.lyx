@@ -74,6 +74,8 @@ Ever since I joined the
  very happy that this condition does not seem to end any time soon.
  So far we have several plans for enhancements, some is almost guaranteed
  to be implemented and others are perhaps somewhat more optimistic.
+ Here I will present a list of ideas that I hope will be implemented within
+ the comming years.
 \end_layout
 
 \begin_layout Paragraph
@@ -83,8 +85,8 @@ Storing the flow-files with the data
 \begin_layout Standard
 It would be a great advantage in the daily work to know exactly what flow-file
  was used to run a given experiment.
- Right now we log all measured parameters, but we do log the intended values
- of these parameters.
+ Right now we log all measured parameters, but we do not log the intended
+ values of these parameters.
  This means that if an experiment does not run exactly as expected, it can
  be hard to tell whether it was simply the operator that set up the experiment
  wrong, or if it was some sort of malfunction that prevented the experiment
@@ -98,12 +100,12 @@ Better software
 \begin_layout Standard
 Most of the software is currently written as a few rather monstrous LabView
  programs because this has been the default language at the department.
- However, these very large LabView problems suffers from poor stability
- and a difficult learning curve for new students and very difficult debugging,
- thus we are now slowly moving to a more modular approach where sub-sections
+ However, these very large LabView problems suffers from poor stability,
+ a steep learning curve for new students and very difficult debugging.
+ Thus we are now slowly moving to a more modular approach where sub-sections
  of the code can be separated into individual programs, preferably written
- in other programming languages, so far we already interface quite a few
- instruments in Python
+ in other programming languages.
+ So far we already interface quite a few instruments in Python
 \begin_inset CommandInset citation
 LatexCommand cite
 key "pyexplabsys"
@@ -158,8 +160,8 @@ Currently the buffer chambers are pumped by a turbo pump through
  tubing because this limited radius protects the turbo when large amount
  of gas is being dumped in the buffer volume.
  However, often one knows that no further gas is going to be dumped into
- the buffer volume and one just wants to pump down the buffer sufficiently
- to be able to start the experiment.
+ the buffer volume and just want to pump down the buffer sufficiently to
+ be able to start the experiment.
  In situations like this, it would be extremely useful to have an optional
  pumping path of much larger diameter.
  This could easily be achieved by mounting a 
@@ -195,9 +197,9 @@ bars.
  For some reactions it would very useful to be able to reach higher pressures,
  a prime example that is currently being investigated in the setup is methanol
  production on Cu/Zn nanoparticles, where the output of the process is expected
- to increase with the pressure squared..
+ to increase with the pressure squared.
  Currently we are limited by the pressure controllers but these could of
- course be replace simply by buying new ones.
+ course be replaced simply by buying new ones.
  However, even though replacing the pressure controllers is an easy task,
  the rest of setup also puts severe limits on the pressure.
  The next limit will be the flow controllers, which are only designed for
@@ -254,8 +256,7 @@ bar of inert gas before removing it from the bonding setup.
 \begin_inset Formula $\mu$
 \end_inset
 
--reactor setup and evacuate it, or to store the in a suitable clean environment,
- preferably some sort of evacuated storage.
+-reactor setup and evacuate it, or to store it in a suitable clean environment.
 \end_layout
 
 \begin_layout Paragraph
@@ -270,10 +271,10 @@ CINF recently acquired a high-quality sputter deposition system capable
 \begin_inset Formula $\mu$
 \end_inset
 
--reactor for exploring a wide range of substrate effects, since it would
- be possible to sputter-deposit the wanted substrate, then deposit clusters,
- characterize the sample using either auger or TPDs before finally bonding
- and remove the sample, all under highly clean conditions.
+-reactor for exploring a wide range of substrate effects, since it we could
+ sputter-deposit the wanted substrate, then deposit clusters, characterize
+ the sample using either auger or TPDs before finally bonding the sample.
+ All under highly clean conditions.
 \end_layout
 
 \begin_layout Paragraph
@@ -302,8 +303,9 @@ reference "chap:Analytical-techniques"
 , this is not an easy task.
  However, considering the benefits of gaining such insights into the system,
  the operators of the setup, should at all times keep in mind new ways to
- try fulfill this goal, as my supervisor, Ib, always says, You got to have
- a dream, to have a dream come true...
+ try fulfill this goal.
+ As my supervisor, Ib, always says; You got to have a dream, to have a dream
+ come true...
 \end_layout
 
 \end_body

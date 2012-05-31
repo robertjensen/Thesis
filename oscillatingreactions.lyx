@@ -73,8 +73,7 @@ name "chap:Oscillating-reactions"
 \end_layout
 
 \begin_layout Standard
-At some point in time, we were running a bachelors project with Mikkel Rykær
- Kraglund
+At some point in time, we were running a bachelors project
 \begin_inset CommandInset citation
 LatexCommand cite
 key "mikkel-bachelor"
@@ -99,7 +98,10 @@ As part of the investigation we ran a simple CO oxidation experiment to
  get the time' was a lightoff experiment with very low CO concentration
  to see how much this would bring down lightoff temperature, and thus it
  was obvious to let the setup spend the rest of the weekend on this.
- After running this experiment we looked at the data (Figure
+\end_layout
+
+\begin_layout Standard
+After running this experiment we looked at the data (Figure
 \begin_inset space ~
 \end_inset
 
@@ -136,7 +138,7 @@ name "fig:oscil_original"
 
 \end_inset
 
-The first data-set, showing oscillation behavior.
+The first data set, showing oscillation behavior.
 \end_layout
 
 \end_inset
@@ -146,13 +148,12 @@ The first data-set, showing oscillation behavior.
 
 \end_inset
 
-, and we were initially not very satisfied with the result since the data
- seems to show not only the expected CO conversion but also a very large
- amount of signal-noise.
+, and we were initially not very satisfied with the result.
+ The data seems to show not only the expected CO conversion but also a very
+ large amount of signal-noise.
  Normally the data is of much better quality, so we tried to investigate
- what could be the problem, and in this process it is natural to try to
- analyze the noise to see if it seems to contain a hint about the root of
- the problem.
+ what could be the problem, and in this process it is natural to analyze
+ the noise to see if it contains a hint about the root of the problem.
  A zoom of the data with a timescale short enough to resolve the individual
  spikes in the signal is shown in Figure
 \begin_inset space ~
@@ -193,7 +194,15 @@ name "fig:oscil_original_zoom"
 \end_inset
 
 Two zooms of the 'noise' signal.
- Notice how the Mass 28 and Mass 44 are perfectly anti-correlated.
+ Notice how the Mass
+\begin_inset space ~
+\end_inset
+
+28 and Mass
+\begin_inset space ~
+\end_inset
+
+44 are perfectly anti-correlated.
 \end_layout
 
 \end_inset
@@ -208,11 +217,11 @@ Two zooms of the 'noise' signal.
  This of course strongly indicates that the signal is not caused by a simple
  noise source such as electrical noise or loose cabling in the mass-spec.
  The fact that the two signals was anti-correlated would be most easily
- explained by changes in the activity of sample even though this was not
- our expectation for this reaction.
- To test this hypothesis, we performed the experiment several times on the
+ explained by changes in the activity of the sample even though this was
+ not our expectation for this reaction.
+ To test the hypothesis, we performed the experiment several times on the
  same sample and came to the conclusion that the phenomenon was fully reproducib
-le, if the sample is exposed to a very oxygen-rich CO/O
+le; if the sample is exposed to a very oxygen-rich CO/O
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -272,7 +281,7 @@ key "Singh2010"
 
 \end_inset
 
- as well as wet-synthesized nano-particles, 
+ as well as wet-synthesized nanoparticles, 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Zhdanov2002,Carlsson2006"
@@ -302,7 +311,7 @@ Many of these papers have impressive in-situ measurements of the system
 
 -reactors, our focus has been on getting truly high quality mass spectrometry
  and to investigate a fairly large parameter space, among this the temperature
- dependence, which has to our knowledge not been done before.
+ dependence, which has to our knowledge have not been done before.
 \end_layout
 
 \begin_layout Section
@@ -426,7 +435,7 @@ C/min until we reach room temperature.
 
 C/min until sustained oscillations occur.
  Since we leave the setup unmonitored the temperature of sustained oscillations
- must be estimated beforehand, but typically temperature between 200
+ must be estimated beforehand, but typically a temperature between 200
 \begin_inset Formula $^{\circ}$
 \end_inset
 
@@ -585,18 +594,16 @@ We of course spend quite a lot of effort to ensure that the phenomenon is
  setup.
  Due to the long timescales between full conversion and low conversion plateaus
  the oscillations cannot be attributed to the reactor itself which of course
- have a much shorter typical timescale.
- Furthermore, we did a series of experiments were performed to exclude that
- this could be due to the flow controllers or perhaps the temperature control
- system.
- Firstly, the clean room wizards prepared lids for the reactor with a deep
- etch on the lid at the position of the reactor.
+ have a much shorter timescale.
+ Furthermore, we did a series of experiments to exclude that this could
+ be due to the flow controllers or perhaps the temperature control system.
+ Firstly, in the clean-room Thomas prepared lids for the reactor with a
+ deep etch on the lid at the position of the reactor.
  This of course greatly increases the timescale of the reactor and thus
  we should be able to tell if the oscillation phenomenon should be due to
  unforeseen coincidence between the reactor and other characteristic timescale
  of the system.
- This sample also oscillated and thus further pointed towards that this
- is a true phenomenon.
+ This sample also oscillated.
  Of course we also reproduced the oscillations on the NG setup.
  Even though this setup is in principle a copy of the old setup, it is sufficien
 tly different that it is hard to imagine experimental artifacts to be identical;
@@ -695,18 +702,8 @@ min and it increases linearly with time until 1500
 \end_inset
 
 min of total oscillation time.
- Hereafter the oscillations become more irregular as shown in Figure
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:oscil_4days_summary"
-
-\end_inset
-
- and in the lower panel of Figure
+ Hereafter the oscillations become more irregular as shown in the lower
+ panel of Figure
 \begin_inset space ~
 \end_inset
 
@@ -885,7 +882,7 @@ reference "fig:oscil_dutycycle"
  the samples maintain a constant average rate independent of oscillation
  frequency.
  Thus we do not expect sintering to be the cause since an average loss in
- activity of the sample would be expected.
+ activity of the sample would then be expected.
  Unfortunately, this means that we have to accept that we so far do not
  have a satisfactory explanation of the increasing period.
 \end_layout
@@ -911,7 +908,11 @@ One great advantage of the
  of slowly increasing oscillation period, it is still possible to learn
  something by changing the value of temperature, pressure, etc.
  and watch for the change in oscillation frequency.
- The reason for the lack of reproducibility is properly due to a combination
+ 
+\end_layout
+
+\begin_layout Standard
+The reason for the lack of reproducibility is properly due to a combination
  between irregularities in the deposition and the significant temperature
  gradient in the reactor.
  This means that if two otherwise identical samples are deposited at slightly
@@ -920,7 +921,7 @@ One great advantage of the
  This in combination with rather large uncertainties in the deposited amounts
  for these low coverages are a very likely explanation for the poor reproducibil
 ity.
- Hopefully the temperature issue will be greatly reduced by a new heaters,
+ Hopefully the temperature issue will be greatly reduced by the new heaters,
  and we are also looking into options for getting better deposition consistency.
 \end_layout
 
@@ -1088,23 +1089,6 @@ Pressure and CO concentration dependence
 \end_layout
 
 \begin_layout Standard
-The pressure dependence of the oscillations was also investigated.
- In the pressure range of 0.1
-\begin_inset space \thinspace{}
-\end_inset
-
-bar to 1
-\begin_inset space \thinspace{}
-\end_inset
-
-bar no change of the oscillation frequency or qualitative behavior that
- could be attributed to the pressure was found.
- Similarly, only a weak dependence on the CO/O
-\begin_inset Formula $_{2}$
-\end_inset
-
- ratio was observed.
- 
 \begin_inset Float figure
 wide false
 sideways false
@@ -1143,12 +1127,23 @@ Summary of the CO concentration dependence experiment.
 
 \end_inset
 
+The pressure dependence of the oscillations was also investigated.
+ In the pressure range of 0.1
+\begin_inset space \thinspace{}
+\end_inset
 
-\end_layout
+bar to 1
+\begin_inset space \thinspace{}
+\end_inset
 
-\begin_layout Standard
-The result shows that the period increases slightly with increasing CO-concentra
-tion.
+bar no change of the oscillation frequency or qualitative behavior that
+ could be attributed to the pressure was found.
+ Only a weak dependence on the CO/O
+\begin_inset Formula $_{2}$
+\end_inset
+
+ ratio was observed; the period increases slightly with increasing CO-concentrat
+ion.
  However, the effect is small compared to the general trend of slower oscillatio
 ns as the experiment progresses.
  In Figure
@@ -1243,8 +1238,8 @@ key "Singh2010,Hendriksen2005"
 
  mixtures.
  The needed low concentration of CO in the inlet gases can be attributed
- to the much higher sticking coefficient of CO on Pt which poisons the nano
- particle surface during the low reactivity region of the cycle.
+ to the much higher sticking coefficient of CO on Pt which poisons the nanoparti
+cle surface during the low reactivity region of the cycle.
 \end_layout
 
 \begin_layout Subsection
@@ -1270,7 +1265,7 @@ nm particles with a geometrical coverage of 0.1% of the reactor area gave
  to the size of the nanoparticles was found.
  As mentioned, the reproducibility between samples are frustratingly low
  and since the size dependence must necessarily involve comparing different
- samples the large variation between samples possibly shadows a nano particle
+ samples the large variation between samples possibly shadows a nanoparticle
  size effect.
 \end_layout
 
@@ -1347,7 +1342,9 @@ According to the proposed model by Hendriksen, the bare metal surface is
  CO oxidation, resulting in the formation of an increasingly rough oxide
  surface.
  As the oxide becomes rougher the bare metal surface is increasingly favored
- resulting in a return to the lower rate rough metal state.
+ because the metallic state has a lower surface energy than the oxide in
+ the presence of CO.
+ This results in a return to the lower rate rough metal state.
  Since the surface mobility is higher for the reduced surface
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -1393,7 +1390,7 @@ reference "fig:oscil_full_oscil"
  steep increase in reactivity.
  It is important to note that the fraction of oxidized particles needed
  to achieve full conversion is not known, since this will depend strongly
- on the detailed ultra local temperature distribution around each nano particle,
+ on the detailed ultra local temperature distribution around each nanoparticle,
  and since CO oxidation is strongly exothermic, the particles might be significa
 ntly hotter than the global temperature of the reactor.
  We have made quite an effort to try to image this hypothetical local temperatur
@@ -1414,6 +1411,26 @@ If all particles are not oxidized at light-off they will now oxidize much
  Once these potentially few particles eventually becomes sufficiently rough
  they will reduce and lose activity hence completing the oscillation cycle.
  
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\begin_layout Standard
+As discussed in the introduction, not many specific results has made its
+ way to thesis.
+ However, this particular system has become a bit of a favorite partly because
+ it was serendipitously discovered, and partly because it seems to fit so
+ well for investigation in the microreactors.
+ Even though we do not have access to in-situ methods, we are still able
+ to provide new insights into this interesting phenomenon.
+ It is currently a great frustration that the inter-sample repeatability
+ is so bad, but at the same time this is also a great motivation to improve
+ the temperature distribution as well as the deposition technique.
+ Once these problems are solved, one could hope to be able to map out several
+ parameters including the size dependence of the oscillations, which is
+ of course of great interest in our group.
 \end_layout
 
 \end_body

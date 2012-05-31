@@ -99,9 +99,9 @@ Measuring temperature accurately is always a difficult task.
  heat transfer occurs along the chip whenever the chip is heated.
  This of course leads to temperature gradients along the chip.
  Also convention losses to the surroundings will contribute with non-homogeneous
- heat-loss to the surroundings.
- Thus, even given an ideal simple heating mechanism that simply delivers
- a constant power pr.
+ heat-loss.
+ Thus, even given an ideal heating mechanism that simply delivers a constant
+ power pr.
  area to the entire chip, the result would be a non uniform temperature
  that would be hottest at the center of chip, colder along the edge and
  coldest at the contact between the interface block and the chip.
@@ -115,23 +115,25 @@ Temperature control
 
 \begin_layout Standard
 No matter how heat is transferred to the sample, one will typically want
- bring the sample to a given temperature, not to source a given amount of
- watts, which is what is normally the directly controllable parameter.
- One will need some kind of temperature
+ to bring the sample to a given temperature, not to source a given amount
+ of watts, which is what is the directly controllable parameter.
+ Some kind of temperature
 \emph on
  
 \emph default
-control to ensure that a suitable power is applied that ensures the wanted
- temperature.
- Many such control mechanisms exists, in our case we have chosen to run
- the control loop in home-made software.
- In this case implemented in LabView which for better and (mostly) for worse
- is the default language of choice at DTU.
+control is thus needed to ensure that a suitable power is applied to reach
+ the wanted temperature.
+ Many both hardware and software solutions exists for such a control mechanism,
+ in our case we have chosen to run the control loop in home-made software.
+ In our case the implementation is made in LabView which for better and
+ (mostly) for worse is the default language of choice at DTU.
  The home-made implementation ensures that we know what is going on behind
- the scenes of the software, and that we have the ability to change all
- part of the setup ourselves, new heaters or temperature measurements can
- easily be implemented.
- In catalysis, it is of very high importance to be able to reach and stay
+ the scenes of the software, and that we have the flexibility to change
+ all part of the setup ourselves.
+\end_layout
+
+\begin_layout Standard
+In catalysis, it is of very high importance to be able to reach and stay
  at a given constant temperature for extended amounts of time, even if the
  conditions of the surroundings change over time, which will typically happen
  for measurements running as long as is the case in the 
@@ -140,12 +142,12 @@ control to ensure that a suitable power is applied that ensures the wanted
 
 -reactors.
  The typical choice, which is also used by us, in such situations is a PID-contr
-oller where one for every time step, 
+ol.
+ For every time step, 
 \begin_inset Formula $\Delta t$
 \end_inset
 
- calculates the wanted output based on knowledge of the temperature error
- function, 
+, the wanted output is calculated from the temperature error function, 
 \begin_inset Formula $E=T_{setpoint}-T_{measured}$
 \end_inset
 
@@ -157,12 +159,12 @@ oller where one for every time step,
  at all times, the wanted output can be calculated as
 \begin_inset Formula 
 \begin{equation}
-O(t)=P+I+D=k_{p}E+k_{i}\int_{-\infty}^{t}E+k_{d}\frac{dE}{dt}\label{eq:pid}
+O(t)=P+I+D=k_{p}E+k_{i}\int_{0}^{t}E+k_{d}\frac{dE}{dt}\label{eq:pid}
 \end{equation}
 
 \end_inset
 
-,with 
+with 
 \begin_inset Formula $k_{p}$
 \end_inset
 
@@ -174,7 +176,7 @@ O(t)=P+I+D=k_{p}E+k_{i}\int_{-\infty}^{t}E+k_{d}\frac{dE}{dt}\label{eq:pid}
 \begin_inset Formula $k_{d}$
 \end_inset
 
-denoted proportionality, integral and differential terms, respectively.
+ denoted proportionality, integral and differential terms, respectively.
 \end_layout
 
 \begin_layout Standard
@@ -192,8 +194,8 @@ reference "eq:pid"
 
  and experiment a bit to get decent values for the constants.
  However, implementing a good PID is slightly more complicated, since often
- in a specific system, one can find optimizations that is not captured by
- the general formalism.
+ in a specific system, one can find optimizations that are not captured
+ by the general formalism.
  In our case we have a particularly easy system to regulate, mostly due
  to the good thermal time constant in the system.
 \begin_inset Float figure
@@ -224,6 +226,8 @@ name "fig:temp_new_pid"
 Illustration of the improvements achievable by optimizing the PID algorithm.
  Green curve is the old implementation and the blue curve is the new implementat
 ion.
+ The two tests are both performed with the same heater, only the control
+ software is different.
 \end_layout
 
 \end_inset
@@ -356,12 +360,10 @@ reference "fig:thermographic_old_heater"
  As if these properties were not bad enough it is also not trivial to measure
  the temperature of the sample.
  Mounting a thermocouple from the backside is not possible due to the heating
- element meaning that the temperature has to be measured from above the
- lid.
+ element, meaning that temperature has to be measured on the lid.
  In practice is was done by manually placing a thermocouple on top the sample.
- The combination of non-consistent point heating from the backside and non-consi
-stent position on the front side obviously resulted in very large uncertainties
- of the temperature.
+ The combination of non-consistent point heating and thermocouple position
+ obviously resulted in very large uncertainties in the temperature.
 \begin_inset Float figure
 wide false
 sideways false
@@ -403,7 +405,7 @@ Thermographic image of the sample heated by the original heating element.
 
 \begin_layout Standard
 To fix this problem we developed a new solution in close cooperation with
- the clean room wizards in our group.
+ the clean room wizards.
  The idea this time was to integrate the heater directly onto the chip (a
  concept that also fit very nicely with the overall 
 \begin_inset Formula $\mu$
@@ -505,20 +507,9 @@ C and with a bit of luck up to slightly above 400
 \end_inset
 
 C.
- At these temperatures the limiting factor is not so much the device itself,
- which will not get into trouble until we reach a temperature where pyrex
- lid will get soft or even melt, this is expected to happen around 
-\begin_inset Formula $\sim$
-\end_inset
-
-700
-\begin_inset Formula $^{\circ}$
-\end_inset
-
-C.
- The problem is instead the power supply for the heating as well as the
- rather high current densities in the heater, which will eventually degrade
- the continuous Pt film.
+ At these temperatures the limiting factor is mostly the power supply for
+ the heating as well as the rather high current densities in the heater,
+ which will eventually degrade the continuous Pt film.
 \end_layout
 
 \begin_layout Section
@@ -551,7 +542,7 @@ reference "fig:reactor_new_heating_scheme"
  100% perfect synchronization between the measurement of the voltage and
  current which are both changing continuously both because of the non-constant
  temperature and because the control-loop constantly updates the needed
- power to stay at the setpoint temperature.
+ power to stay at the set-point temperature.
  In our case we use a Keithley
 \begin_inset space ~
 \end_inset
@@ -633,7 +624,6 @@ The mounting screws of the block can be individually adjusted to ensure
  To increase the maximum achievable temperature and to measure a slightly
  more realistic temperature from the thermocouple, two layers of insulation
  is placed on top of the sample.
- This insulation should also help a bit on the temperature distribution.
 \end_layout
 
 \begin_layout Section
@@ -648,20 +638,19 @@ Originally we expected that the integrated heater would magically solve
  However in hindsight it is easy to see that this was a hopelessly naive
  expectation.
  In reality we have a quite large heat gradient across the sample.
- Fortunately, sine we are measuring the temperature at exactly the same
- place as we are heating, we are most likely not under-estimating the temperatur
-e.
+ Fortunately, since we are measuring the temperature at exactly the same
+ place as we are heating, we are not under-estimating the temperature.
  More likely are we measuring the absolute highest temperature with all
  other parts of the reactor being colder than the measured temperature and
  thus we tend to under-estimate the performance of a given catalyst under
- test because only a fraction of the sample is a the expected temperature.
+ test because only a fraction of the sample is at the expected temperature.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -738,7 +727,7 @@ reference "fig:temp_profile_insulation"
 \end_inset
 
 .
- The small lines indicate the reactor area.
+ 
 \end_layout
 
 \end_inset
@@ -818,22 +807,16 @@ C an emissivity value of
 \end_inset
 
  gives quite good results in the entire temperature range.
- For temperatures significantly higher than this, one typically needs to
- lower the emissivity value to match the RTD-temperature.
- The result of these analysis was as already mentioned rather disappointing.
+ For temperatures higher than this, one typically needs to lower the emissivity
+ value to match the RTD-temperature.
+ The result of this analysis was as already mentioned rather disappointing.
  In reality we have a significant heat gradient of almost 30
 \begin_inset Formula $^{\circ}$
 \end_inset
 
 C along the reactor.
  This is of course way to much to be acceptable in the field of catalysis
- where most processes are exponential in temperature.
- However, since the heater is positioned in a highly reproducible way, at
- least all samples will have an almost identical heat gradient and since
- the temperature is measured in the same structure as the heat is delivered,
- we have no risk of measuring a too low temperature end thus over-estimate
- the performance of a catalyst.
- Nevertheless we found the gradient to be too large and since the current
+ where most processes are exponential in temperature and since the current
  heater design also have other practical problems, we have started to work
  on a better solution for heating the sample.
 \end_layout
@@ -854,7 +837,7 @@ status collapsed
 \begin_inset Graphics
 	filename figures/cad_new_reactor.png
 	display false
-	width 12cm
+	width 10cm
 
 \end_inset
 
@@ -871,7 +854,7 @@ name "fig:long_reactor_cad"
 CAD-drawings of the longer reactor and the 10-point structure.
  The three strips are used for heating and the 4-point meander is used as
  the RTD.
- Original CAD-drawings are done by our clean room wizard Thomas Pedersen.
+ Original CAD-drawings by Thomas Pedersen.
 \end_layout
 
 \end_inset
@@ -901,7 +884,16 @@ One problem with the current design is that the SMU is a very expensive
  This means that we can now measure the RTD temperature using standard (and
  cheap) DMMs and the heating can be performed with real power supplies and
  thus we no longer have problems sourcing enough power into the sample.
- Besides the changes in the heating itself, we also increased the length
+ We are now only limited by the temperature where the pyrex lid will become
+ soft, which is expected to be in the range 650--700
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C.
+\end_layout
+
+\begin_layout Standard
+Besides the changes in the heating itself, we also increased the length
  of the sample from 20.1
 \begin_inset space \thinspace{}
 \end_inset
@@ -970,15 +962,15 @@ reference "fig:long_reactor_cad"
  room.
  For this reason we kept the experimentation to a minimum and reasonably
  fast settled on a final layout.
- The point with this is that we realized that we will never be able to reach
- the perfect distribution and thus it is far more efficient to simply settle
- on a layout and then fix the problem with tunable external high-power resistors.
+ The point is that we will never be able to reach the perfect distribution
+ anyway, and thus it is far more efficient to simply settle on a layout
+ and then fix the problem with tunable external high-power resistors.
  In this way we can easily go through endless iterations by tuning the resistors
  and check the distribution in real-time on the thermographic camera.
- At the time of writing we are, unfortunately not finished with this optimizatio
-n, and the final tempeture profile is not yet known.
- However, some inital experimentation leaves us with good expectations for
- the final result.
+ At the time of writing we are, unfortunately, not finished with this optimizati
+on, and the final temperature profile is not yet known.
+ However, some initial experimentation leaves us with good expectations
+ for the final result.
  As an evidence that we no longer have problems sourcing enough power, Figure
 \begin_inset space ~
 \end_inset
@@ -991,7 +983,7 @@ reference "fig:melted_reactor"
 \end_inset
 
  shows an image of a sample that was accidentally heated too high during
- an inital test.
+ a test.
 \end_layout
 
 \end_body

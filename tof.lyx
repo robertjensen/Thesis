@@ -176,10 +176,9 @@ l/s turbo pump both used to pump the source region.
 \end_inset
 
 mbar in both the source region and flight tube.
- However, it will eventually make sense to actually bake the chamber to
- bring down background pressure since the background pressure contributes
- with dead-counts on the detector and thus degrades the signal to noise
- ratio of the instrument.
+ However, it will eventually make sense to bake the chamber since the background
+ pressure contributes with dead-counts on the detector and thus degrades
+ the signal to noise ratio of the instrument.
  All parts of the setup are fully UHV compatible and since we have quite
  good pumping capacity, it is to be expected that we can get well below
  
@@ -194,11 +193,11 @@ Vacuum components
 \end_layout
 
 \begin_layout Standard
-The instruments consists of three main regions.
- The entrance and acceleration region, the field free drift region, and
- the reflectron.
+The instrument consists of three main regions.
+ The source and acceleration region, the field free drift region, and the
+ reflectron.
  Detectors are positioned both at the end of the flight tube (behind the
- reflectron) and at the 'beginning' of the flight tube, which is where ions
+ reflectron) and at the entrance of the flight tube, which is where ions
  are detected when the reflectron is in use.
 \end_layout
 
@@ -228,7 +227,7 @@ name "fig:source_region"
 
 \end_inset
 
-Schematic of the acceleration region of the Time-Of-Flight instrument.
+Schematic of the source region of the Time-Of-Flight instrument.
  Drawing by Jordan Instruments
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -247,19 +246,27 @@ key "JordanHomepage"
 \end_inset
 
 The source region is where the ions enter the instrument and where they
- are accelerated.
+ are initially accelerated.
  The ions enter from the top of drawing, that is, orthogonal to the flight
  direction.
- On the way into the acceleration region, ions will pass through a number
- of einzel lenses to focus the them as well as possible.
+ On the way into the instrument, ions will pass through a number of einzel
+ lenses to focus the them as well as possible.
  At a given point in time, a high voltage pulse on the acceleration plate
  will accelerate the ions away from the source region and into the acceleration
  region where the ions are further accelerated up to the final drift velocity.
- Typical values for the acceleration is 400--800
+ Typical values for the initial pulse is 
+\begin_inset Formula $\sim$
+\end_inset
+
+400
 \begin_inset space \thinspace{}
 \end_inset
 
-V and typical drift energy is on the order of 2000
+V and typical drift energy is on the order of 
+\begin_inset Formula $\text{\sim}$
+\end_inset
+
+2000
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -276,6 +283,19 @@ ns.
  drift velocity orthogonal to the flight direction and will ideally ensure
  that the ions proceeds into the flight tube in an angle of 
 \begin_inset Formula $7^{\circ}$
+\end_inset
+
+.
+ A drawing of the entrance lenses as well as the source and acceleration
+ region is shown in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:source_region"
+
 \end_inset
 
 .
@@ -301,7 +321,7 @@ V, it would constitute a significant danger for operators as well as complicate
  This is where the second concentric tube, the so-called 'liner' enters
  the equation.
  This tube has a slightly smaller diameter than the outside tube and is
- mounted on small ceramic tubes that rests on the outside tube and ensures
+ mounted on small ceramic feets that rests on the outside tube and ensures
  that the liner is electrically floating compared to the main chamber.
  The liner is perforated at the position of the flight tube pump to ensure
  decent pumping of the liner.
@@ -411,7 +431,7 @@ key "jordan_mcp"
 .
  This very large and flat detector area makes the detector very tolerant
  for ions having slightly different initial positions in the plane orthogonal
- to the flight directions, since the various ions would make almost identical
+ to the flight direction, since the various ions would make almost identical
  trajectories only slightly translated.
  The MCP consists of a large number, on the order of 
 \begin_inset Formula $\sim10^{7}$
@@ -458,7 +478,7 @@ amu, and furthermore, the chamber is equipped with feed-troughs for mounting
 \begin_inset space \thinspace{}
 \end_inset
 
-kV detector if it should be necessary.
+kV detector if necessary.
  This should bring detection limit up to approximately 
 \begin_inset Formula $10^{6}$
 \end_inset
@@ -520,7 +540,7 @@ reference "fig:tof_photo"
 \begin_inset Formula $V_{D}$
 \end_inset
 
-, all in the range of -4000
+ needs power supplies, all in the range of -4000
 \begin_inset space ~
 \end_inset
 
@@ -533,11 +553,11 @@ V.
  (one lens also acts as a deflector and thus is in two parts).
  For one thing this means that we need quite a lot of power supplies, but
  this is a minor problem, most of the voltages can be supplied by two multi-outp
-ut supplies, since none of the components uses significant amounts of power.
+ut supplies.
  However, it is also evident that optimizing the system is not especially
  fun, since the parameter space is extremely large.
  Luckily it turns out that the entrance lenses can be optimized almost independe
-nt of the rest of the system, reducing the problem from an 11-dimensional
+ntly of the rest of the system, reducing the problem from an 11-dimensional
  problem to a five-dimensional problem and a six-dimensional problem.
  This is, however, still quite a lot and the initial tuning, just to get
  a measurable signal, proved to be somewhat of a challenge.
@@ -565,7 +585,7 @@ s and a repetition rate of 400
 Hz.
  This low voltage signal is tee'd into two BNC cables, one connected to
  the high voltage pulser, and one to the trigger of the computer digitizer,
- which records the signal.
+ which records the signal from the MCP.
  The digitizer is an Agilent DP214 bought very cheaply on eBay.
  It features a maximum sampling frequency of 2
 \begin_inset space \thinspace{}
@@ -579,6 +599,13 @@ GHz which turns out to be fully sufficient to resolve the pulses from the
 
 bit dynamic range, which is somewhat less than one would want, since this
  constrains the maximum dynamic range of the entire instrument.
+ All data acquisition is computer interfaced through home-made software.
+ In this way we are able to activate a TOF-scan remotely, which make it
+ possible to synchronize the TOF with the rest of the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor setup.
 \end_layout
 
 \begin_layout Subsection
@@ -595,12 +622,10 @@ ts and is what is known as a Orthogonal Acceleration TOF which means that
 \begin_inset Formula $\mu$
 \end_inset
 
--reactors; the output from the capillary is obviously not ionized when leaving
- the reactor.
+-reactors; the output from the capillary is obviously not ionized.
  However, the reason for choosing this type of instrument is, that we originally
  expected to used the TOF as a characterization tool for the two cluster
- sources at the department, and these instrument actually do have an ionized
- output.
+ sources at the department, and these instruments do have an ionized output.
  This little experimental detail meant, that we had to build our own ionization
  source to be able to use the instrument at all.
 \end_layout
@@ -619,8 +644,8 @@ Optimally all ions will enter the acceleration region with very low energy
 Our current way of ionization is both very simple, very cheap and very much
  sub-optimal.
  Originally we only wanted to make a very primitive and cheap ionization
- source to able to test the instrument by letting in a gas directly from
- a leak valve, just to able to tune and optimize the instrument before mounting
+ source to able to test the instrument by letting in gas directly from a
+ leak valve, just to able to tune and optimize the instrument before mounting
  it on the cluster source.
  For this purpose we realized that the classic UHV Bayard-Alpert ion gauge
 \begin_inset CommandInset citation
@@ -631,8 +656,8 @@ key "BAYARD1950"
 
  might be a simple solution.
  After all, the gauge works by ionizing gas, however in the normal operation
- mode, no ions will leave the gauge, rather they will be neutralized when
- they hit the collector and leave the gauge as neutral molecules.
+ mode, no ions will leave the gauge, rather they will hit the collector
+ and leave the gauge as neutral molecules.
  However, by removing the lid of the gauge and short-circuiting the collector
  to the grid, the ions will now be able to escape the gauge through the
  top where the lid is now missing.
@@ -663,7 +688,7 @@ istency of the measurements.
 \begin_inset space \thinspace{}
 \end_inset
 
-V negative compared to the filament to accelerate electrons emitted from
+V positive compared to the filament to accelerate electrons emitted from
  the filament towards the grid.
  This voltage is very much a compromise, since for optimal ionization we
  would like much higher energies.
@@ -725,8 +750,8 @@ Data output
 Unfortunately, we cannot judge instruments only on the coolness factor,
  they also need to deliver actual results to merit a position in the lab.
  Fortunately, the performance of the TOF is very good, the resolution is
- much better than a traditional QMS, the manufacturer of our device claims
- resolutions of up to 
+ much better than a traditional QMS.
+ The manufacturer of our device claims resolutions of up to 
 \begin_inset Formula $m/\Delta m\approx4000$
 \end_inset
 
@@ -821,8 +846,8 @@ reference "fig:tof_ammonia_gauss_fit"
 
 \end_inset
 
- it is enough to separate the two components into two peaks that can be
- individually fitted and quantified.
+ it is enough to separate the two components into two distinct peaks that
+ can be individually fitted and quantified.
 \end_layout
 
 \begin_layout Standard
@@ -1009,7 +1034,7 @@ This type of function have a very convenient known solution for the integrated
 
 \begin_layout Standard
 In this way it is possible to deconvolute even partially overlapping peaks
- by fitting each peak an calculate the integrated responses seperately.
+ by fitting each peak an calculate the integrated responses separately.
 \end_layout
 
 \begin_layout Section
@@ -1026,8 +1051,8 @@ name "sec:Numerical-model"
 \begin_layout Standard
 Since the TOF-MS only measures flight time and not the actual mass of the
  measured molecules or atoms it is necessary to determine the relationship
- between flight time and actual mass.
- This can be done by recognizing known pattern in a mass spectrum, this
+ between flight time and mass.
+ This can be done by recognizing known patterns in a mass spectrum, this
  could be water at mass
 \begin_inset space ~
 \end_inset
@@ -1047,11 +1072,11 @@ Since the TOF-MS only measures flight time and not the actual mass of the
 44, and then use the measured flight times of these 'known' masses to fit
  an expression for the flight time as a function of mass.
  This approach is in some cases adequate but does have the significant drawback
- that several peaks of well known masses must be present in the flight spectrum
- which is not always necessarily feasible.
- To determine the relationship between mass and flight time we have made
- a numeric model of the mass spectrometer which calculates the flight time
- based only on the voltages for the pulser, 
+ that several peaks of well known masses must be present in the spectrum
+ which is not always the case.
+ To determine the relationship between mass and flight time in another way,
+ we have made a numeric model of the mass spectrometer which calculates
+ the flight time based only on the voltages for the pulser, 
 \begin_inset Formula $V_{P}$
 \end_inset
 
@@ -1067,12 +1092,12 @@ Since the TOF-MS only measures flight time and not the actual mass of the
 \begin_inset Formula $V_{R2}$
 \end_inset
 
-, and thus provides a relationship of flight time to mass.
+.
  The model is implemented as a very simple 1D iterative solution of the
- equation of motion of an ion initially positioned at an arbitrary position
- in the acceleration region.
- All measurements are based on the CAD-drawings as supplied by Jordan Instrument
-s.
+ equation of motion of an ion initially positioned at a given position in
+ the acceleration region.
+ All instrument dimensions are based on the CAD-drawings as supplied by
+ Jordan Instruments.
  A single free parameter, in the form of a correction to the length of the
  flight tube is allowed to be fitted to minimize systematic error.
  This free parameter turns out to be as small as 4.2
@@ -1139,8 +1164,8 @@ reference "fig:model_error"
 
 \end_inset
 
- the performance of the model is good despite its simplicity giving a total
- error in flight time estimation of 
+ the performance of the model is good despite its simplicity.
+ A total error in flight time estimation of 
 \begin_inset Formula $\sim$
 \end_inset
 
@@ -1160,9 +1185,9 @@ milli-amu at 70
 \begin_inset space \thinspace{}
 \end_inset
 
-amu.
+amu is found.
  The model is written in Python and can be acquired as open source software
- at Github 
+ at GitHub 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "ModelGithub"
@@ -1288,8 +1313,8 @@ key "mathias-afhandling"
 
 \end_inset
 
- and here I will just show a few selected results showing the advantages
- of time-of-flight mass spectrometry for this reaction.
+, here I will just show a few selected results showing the advantages of
+ time-of-flight mass spectrometry for this reaction.
 \end_layout
 
 \begin_layout Subsection
@@ -1321,7 +1346,8 @@ key "nist-benzene"
 \end_inset
 
 amu is also a complication in itself.
- Even though most mass spectrometers are able to operate up to 100
+ Even though most mass spectrometers are able to operate up to at least
+ 100
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -1355,8 +1381,8 @@ H
 \begin_inset Formula $_{10}$
 \end_inset
 
-, has been show to depend on if the reaction takes place on cubic or cuboctahedr
-al nanoparticles
+, has been shown to be dependent on if the reaction takes place on cubic
+ or cuboctahedral nanoparticles
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Bratlie2007"
@@ -1365,7 +1391,8 @@ key "Bratlie2007"
 
 .
  Since correlations between structure and reactivity are always of interest
- in our group, we chose this as an interesting system to apply the TOF.
+ in our group, we chose this as an interesting system for application of
+ the TOF.
  
 \end_layout
 
@@ -1429,11 +1456,7 @@ reference "fig:tof_benzene_hydrogenation"
  which of course is also an efficient way of stopping the reaction.
  In this way we are able to get a simulated result of the cold sample with
  no activity.
- 
-\end_layout
-
-\begin_layout Standard
-The next step from here will of course be to do a proper size dependence
+ The next step from here will of course be to do a proper size dependence
  study, and hopefully find a size dependence of the selectivity.
 \end_layout
 
@@ -1444,7 +1467,8 @@ Ammonia Oxidation
 \begin_layout Standard
 A large project on time-of-flight mass spectrometer is a project on ammonia
  oxidation on Pt nanoparticles.
- Here we try to relate the activity of Pt nanoparticles to the cluster size.
+ Here we try to relate the activity of Pt nanoparticles to the particle
+ size.
  The result of this study is thoroughly documented in the masters thesis
  by Mathis Kjærgaard Christensen
 \begin_inset CommandInset citation
@@ -1471,8 +1495,8 @@ al QMS.
  would of course often be the case in situation where it would be interesting
  to prefer the TOF over the QMS.
  What we do instead is to simply blindly record the data (which is what
- we typically do anyway, since almost all measurements runs unattended)
- and then treat the data after the experiment is finished.
+ we typically do anyway, since almost all measurements run unattended) and
+ then treat the data after the experiment is finished.
  
 \end_layout
 
@@ -1534,8 +1558,8 @@ reference "fig:tof_ammonia_gauss_fit"
 \begin_inset Formula $\sim100-1000$
 \end_inset
 
- Gaussian fits can be performed using a simple Python program in a very
- short time.
+ Gaussian fits can be performed in a very short time using a simple home
+ written piece of software.
  Of course one need to make sure that all the fits are performed correctly,
  and this is ensured by producing a pdf-file containing all the fits which
  can easily be inspected for fitting errors.
@@ -1590,10 +1614,14 @@ Example of a single page in the pdf produces for each mass-time measurement.
 
 \end_inset
 
- Once all the Gaussian fits are performed, it is an easy matter to plot
- the data in the same many that one would present data from a QMS.
- To compare the to measurement techniques, we performed a simultaneous measureme
-nt on both instruments, and the result is shown in Figure
+
+\end_layout
+
+\begin_layout Standard
+Once all the Gaussian fits are performed, it is an easy matter to plot the
+ data in the same way that one would present data from a QMS.
+ To compare the two measurement techniques, we performed a simultaneous
+ measurement on both instruments, and the result is shown in Figure
 \begin_inset space ~
 \end_inset
 
@@ -1607,8 +1635,12 @@ reference "fig:tof_combined_tof_and_qms"
 .
  It is evident that opposite to the QMS, the TOF is able to document the
  fact that the ammonia is completely converted.
- In the QMS the water signal at mass 17 prevents this from being measured,
- it is almost impossible to tell, that the ammonia is actually gone.
+ In the QMS the water signal at mass
+\begin_inset space ~
+\end_inset
+
+17 prevents this from being measured, it is almost impossible to tell, that
+ the ammonia is actually gone.
  It is also easy to see, that the time resolution is currently not nearly
  as good as the QMS, this is very much due to our primitive ion source which
  forces us into rather long integration times to get good spectra.

@@ -73,7 +73,7 @@ Very often when doing measurements in the
 -reactor, one will want to know the available active area of the catalyst.
  In some case it can be very simple, for instance when working with metal
  thin-films, in these cases the area is more or less equal to the geometric
- area of the film, unless the catalyst is not polluted with surface contaminants.
+ area of the film, unless the catalyst is polluted with surface contaminants.
  In other cases, such if one wants to check if the catalyst is clean, or
  if the sample consists of nanoparticles, it is much less clear how to estimate
  the surface area.
@@ -90,7 +90,7 @@ The classic UHV procedure for measuring surface area of a catalyst is the
  TPD.
  The sample is exposed to a gas (typical CO) with subsequent heating of
  the sample.
- The amount of gas coming of the sample is a measure of the surface area.
+ The amount of CO coming off is a measure of the surface area.
  However, this method is not quite as well suited in the 
 \begin_inset Formula $\mu$
 \end_inset
@@ -116,8 +116,8 @@ The classic UHV procedure for measuring surface area of a catalyst is the
  dose.
  Thus one needs to do the TPD on this high background, with corresponding
  bad signal-to-noise or wait for a very long time, which is both inefficient
- and also includes the risk that some of CO might desorb while waiting unless
- the sample is cooled below room temperature.
+ and also includes the risk that some of CO might desorb while waiting,
+ unless the sample is cooled below room temperature.
  For all these reasons we wanted to find another method of area measurement,
  even if it means accepting the price of finding separate methods for each
  type of system.
@@ -231,7 +231,8 @@ key "Bashlakov2012"
 
 \end_inset
 
-.The oxygen layer is very stable and will not desorb while the gas-phase
+.
+ The oxygen layer is very stable and will not desorb while the gas-phase
  oxygen is pumped and flushed away.
  In this way the QMS background is brought down significantly since we are
  now measuring on a species that was not explicitly dosed.
@@ -405,7 +406,7 @@ name "fig:area_MR108"
 
 Plot of all measured areas on the cluster sample.
  The duration of each plot is 100
-\begin_inset space ~
+\begin_inset space \thinspace{}
 \end_inset
 
 s.
@@ -422,15 +423,15 @@ Of course to be useful, the area measurements will also need to work on
  nano particle samples rather than just thin films.
  For this reason we have tested the procedure on several samples with deposited
  Pt nano particles.
- The particles were made with our cluster source here at CINF, the source
- is described in several publications
+ The particles were made with our cluster source here at CINF.
+ The source is described in several publications
 \begin_inset CommandInset citation
 LatexCommand cite
 key "RasumusNielsen2009,RasmusNielsen2010"
 
 \end_inset
 
-, but in short consists of a gas-aggregation source where metal clusters
+, but in short it consists of a gas-aggregation source where metal clusters
  are formed by gas-phase condensation in a magnetron sputter source.
  The condensed ions are then size-selected by a quadropole mass selection
  filter.
@@ -465,9 +466,10 @@ nm Pt clusters.
 nm.
  It is important to remember, that the clusters are mass-filtered, not shape
  filtered and spherical or Wulff-shaped clusters is not necessarily a realistic
- approximation, however the convention on the cluster source is to always
- calculate coverage in 'spherical equivalents' that is hypothetical spheres
- with mass corresponding to the filter mass.
+ approximation.
+ However, the convention on the cluster source is to always calculate coverage
+ in 'spherical equivalents' that is hypothetical spheres with mass corresponding
+ to the filter mass.
  If the clusters are indeed spherical, it seems reasonable to expect them
  to wet the surface and land on the substrate as half-spheres, in this case
  it is easy to get a rough estimate of the expected active surface area.
@@ -545,7 +547,7 @@ Summary of the measured areas on the cluster sample.
 
 \end_inset
 
-The area measurement was performed by running a few area measurements before
+The area measurement was performed by running a four area measurements before
  doing any attempts at cleaning the sample.
  After this, the sample was subjected to a number of different treatments
  with two area measurements in between.
@@ -573,7 +575,7 @@ reference "fig:area_MR108"
 \end_inset
 
  all the raw data from the measurements are plotted.
- The treatment for this samples is:
+ The treatment for this sample is:
 \end_layout
 
 \begin_layout Itemize
@@ -704,11 +706,11 @@ reference "fig:area_MR108_summary"
  First of all it is evident that the sample shows no active surface area
  at all right after deposition and bonding, only after cleaning in oxygen
  do we see a measurable area.
- After this we see an asymptotically increasing which one would guess is
- more an effect of the cleaning cycles themselves than on the heat treatments
+ After this we see an asymptotically increasing area which one would guess
+ is more an effect of the cleaning cycles themselves than on the heat treatments
  in He and CO.
  Finally, it is also evident that it is as expected possible to achieve
- higher oxygen coverage sample by heating a fairly clean sample in oxygen.
+ higher oxygen coverage by heating a fairly clean sample in oxygen.
  Every area measurement immediately after this treatment shows an unusually
  large area.
  A final important observation is that the reproducibility seems to be excellent
@@ -721,8 +723,11 @@ reference "fig:area_MR108_summary"
 nC which is approximately 8--8.5 times higher than the measured area for
  the thin film.
  This fits extremely well with the expected factor of 9.
- However, considering the amount of uncertainties in this calculation, this
- high degree of agreement is properly somewhat of a coincidence.
+ Considering the amount of uncertainties in this calculation, this high
+ degree of agreement is properly somewhat of a coincidence.
+ However, good sensitivity, high repeatability and very mild conditions
+ for the sample means, that this method of area estimation is quite successful
+ and can be used as a valuable tool when measuring on platinum catalysts.
 \end_layout
 
 \end_body
