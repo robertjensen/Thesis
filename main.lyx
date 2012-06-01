@@ -6,6 +6,9 @@
 \begin_preamble
 \bibliographystyle{unsrt}
 \usepackage{microtype}
+
+\usepackage[margin=10pt,font=small,labelfont=bf,labelsep=endash]{caption}
+
 \usepackage{fancyhdr}
 \usepackage{ifthen}
 
@@ -135,13 +138,13 @@ cle Functionality (CINF) from August 2008 to May 2012 with Professor Ib
 \end_layout
 
 \begin_layout Standard
-I have so far had a wonderfull time at CINF, at the list of people to thank
+I have so far had a wonderful time at CINF, at the list of people to thank
  seems endless, but I will nevertheless give it a try.
 \end_layout
 
 \begin_layout Standard
 I would of course very much like to thank my supervisor, Ib.
- Even though we both can have our rather strong oppinions on various issues,
+ Even though we both can have our rather strong opinions on various issues,
  I think we somehow always manage to find common ground in the end.
  You have provided excellent help and support during the entire project
  and it has been a pleasure to work with you.
@@ -158,21 +161,33 @@ All clean-room work has been performed by Thomas Pedersen, and without his
 \end_layout
 
 \begin_layout Standard
-An infinte amount of gratitude should be expressed towards our mechanical
- and electron workshops, espcially Dan, Peter, Peder and Anders.
+An infinite amount of gratitude should be expressed towards our mechanical
+ and electron workshops, especially Dan, Peter, Peder and Anders.
  Without your help, most of this work would not have been possible.
 \end_layout
 
 \begin_layout Standard
-Many friends and colleges....
+Working at CINF is a truly joyful experience, very much because of the many
+ good colleges at the department.
+ I would like to thank basically everybody, but a few people needs to be
+ specificly mentioned.
+ Jane Nielsen, now our head of department, was the person who originally
+ hired me at DTU and later acted as the catalyst that turned me into a Ph.D.
+ student.
+ Ole Trinhammer was my collegue for almost two years in Nanoteket, and I
+ am gratefull to have been able to share this position with you.
+ Anders Nierhoff has produced all the cluster sample
 \end_layout
 
 \begin_layout Standard
-Familly....
+Of course, I would like thank my family and friends, especially my wonderful
+ wife Sine and our children Gro and Sia.
+ You are the most important part of my life.
 \end_layout
 
 \begin_layout Standard
-Bent Selchau, Peter Thorsen, Steen Bach....
+Finally, I would like to thank Bent Selchau, Peter Thorsen and certainly
+ not least Steen Bach for introducing me to the wonderful world of science!
 \end_layout
 
 \begin_layout Chapter*
@@ -254,7 +269,7 @@ s
 \end_inset
 
 .
- The apparent activation energy for all sizes oft thin films is found to
+ The apparent activation energy for all sizes of thin films is found to
  be 
 \begin_inset Formula $\sim1.2$
 \end_inset
@@ -426,6 +441,16 @@ Submitted to Review of Scientific Instruments
 
 \begin_layout Section*
 Paper 3
+\end_layout
+
+\begin_layout Standard
+An Open Source Data Storage and Visualization Backend for Experimental Data
+ 
+\end_layout
+
+\begin_layout Standard
+In preparation.
+ To be submitted to Journal of the Association for Laboratory Automation.
 \end_layout
 
 \begin_layout Standard
@@ -627,15 +652,18 @@ options "bibtotoc,plain"
 
 \end_layout
 
-\begin_layout Chapter*
-Papers
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section*
 Paper 1
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsection*
 Self-sustained carbon monoxide oxidation oscillations on size-selected platinum
  nanoparticles at atmospheric pressure 
 \end_layout
@@ -645,7 +673,7 @@ Submitted to ACS Nano.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\begin_inset Newpage clearpage
 \end_inset
 
 
@@ -679,7 +707,7 @@ Submitted to ACS Nano.
 Paper 2
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsection*
 High Mass Resolution Time of Flight Mass Spectrometer for Measuring Products
  in Heterogeneous Catalysis in Highly Sensitive Microreactors 
 \end_layout
@@ -692,6 +720,32 @@ Submitted to Review of Scientific Instruments
 \begin_inset External
 	template PDFPages
 	filename /home/robert/Documents/git/CatalyticTOF/paper.pdf
+	display false
+	extra LaTeX "pages=-"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Paper 3
+\end_layout
+
+\begin_layout Subsection*
+An Open Source Data Storage and Visualization Backend for Experimental Data
+ 
+\end_layout
+
+\begin_layout Standard
+In preparation.
+ To be submitted to Journal of the Association for Laboratory Automation.
+\end_layout
+
+\begin_layout Standard
+\begin_inset External
+	template PDFPages
+	filename /home/robert/Documents/git/LoggingPaper/paper.pdf
 	display false
 	extra LaTeX "pages=-"
 
