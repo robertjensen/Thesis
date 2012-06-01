@@ -139,6 +139,7 @@ name "fig:oscil_original"
 \end_inset
 
 The first data set, showing oscillation behavior.
+ On this time scale, the oscillations looks like noise.
 \end_layout
 
 \end_inset
@@ -194,11 +195,11 @@ name "fig:oscil_original_zoom"
 \end_inset
 
 Two zooms of the 'noise' signal.
- Notice how the Mass
+ Notice how mass
 \begin_inset space ~
 \end_inset
 
-28 and Mass
+28 and mass
 \begin_inset space ~
 \end_inset
 
@@ -326,6 +327,7 @@ After some experimentation we found an experimental procedure, which almost
  Initially after mounting the sample, a light-off CO-oxidation measurement
  is performed 
 \begin_inset Float figure
+placement t
 wide false
 sideways false
 status collapsed
@@ -470,6 +472,7 @@ reference "fig:oscil_initial_treatment"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement t
 wide false
 sideways false
 status collapsed
@@ -480,7 +483,7 @@ status collapsed
 \begin_inset Graphics
 	filename svg_figures/oscil_single_full.svg
 	display false
-	width 12cm
+	width 13cm
 
 \end_inset
 
@@ -1171,6 +1174,7 @@ reference "fig:oscil_gas_dependence"
 
 .
 \begin_inset Float figure
+placement t
 wide false
 sideways false
 status collapsed

@@ -29,7 +29,7 @@
 \spacing single
 \use_hyperref false
 \papersize default
-\use_geometry false
+\use_geometry true
 \use_amsmath 1
 \use_esint 1
 \use_mhchem 1
@@ -44,6 +44,8 @@
 \shortcut idx
 \color #008000
 \end_index
+\leftmargin 3cm
+\rightmargin 4cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation skip
@@ -51,7 +53,7 @@
 \quotes_language english
 \papercolumns 1
 \papersides 1
-\paperpagestyle default
+\paperpagestyle fancy
 \tracking_changes false
 \output_changes false
 \html_math_output 0
@@ -76,14 +78,11 @@ The world is facing many challenges within the coming years.
 \end_inset
 
  level in the atmosphere.
- More and more countries becomes more and more dependent on supplies of
- fossil fuels from fewer and fewer countries.
+ More and more countries becomes increasingly ependent on supplies of fossil
+ fuels from fewer and fewer source.
  And this is just to mention the problems being discussed in the popular
  media, in real life many other challenges are facing us.
-\end_layout
-
-\begin_layout Standard
-However, all of these problems can also be seen as interesting challenges
+ However, all of these problems can also be seen as interesting challenges
  that need new solutions, and this is where the scientific community steps
  in to hopefully provide solutions for some of these problems.
  Of course this will require inputs from many areas of research, obviously
@@ -108,9 +107,9 @@ It is an interesting thought, that we as humans actually already know and
 \end_layout
 
 \begin_layout Standard
-In this field of energy technology, several candidates exists that are fully
+In the field of energy technology, several candidates exists that are fully
  capable of providing substantial (if not complete) parts of the worlds
- total energy consumption.
+ total energy needs.
  These technologies includes solar cells, solar-thermal electricity, hydro-power
 , nuclear power and wind turbines.
  All of these technologies have their pros and cons, however, as I am myself
@@ -129,15 +128,15 @@ TW, but to make things simple we take it to be
 \begin_inset space \thinspace{}
 \end_inset
 
-MW (although it seems that turbines even as large as 6 or 7
-\begin_inset space \thinspace{}
+MW
+\begin_inset Formula $_{peak}$
 \end_inset
 
-MW are soon entering the market).
+.
  A standard value for the capacity factor (that is, the fraction of peak
- power that is in average produced by the turbine) is between 0.25 and 0.33
- and thus it seems reasonable to take on average 
-\begin_inset Formula $P_{turbine}=1\,\mbox{MW}$
+ power that is on average produced by the turbine) is between 0.25 and 0.33
+ and thus it seems reasonable to take 
+\begin_inset Formula $P_{turbine}^{sustained}=1\,\mbox{MW}$
 \end_inset
 
 .
@@ -145,7 +144,7 @@ MW are soon entering the market).
  to satisfy the worlds energy needs: 
 \begin_inset Formula 
 \[
-N_{WT}=\frac{20\times10^{12}}{1\times10^{6}}=2\times10^{7}\,\mbox{wind\, turbines}
+N_{WT}=\frac{20\times10^{12}}{1\times10^{6}}=2\times10^{7}\,\mbox{wind\,\ turbines}
 \]
 
 \end_inset
@@ -155,15 +154,11 @@ This number does not include energy storage loss.
  (which in the real world seems to be a lower limit on the lifetime).
  This gives us a final number of the required number of wind turbines pr.
  year to be 
-\begin_inset Formula 
-\[
-N_{WT}/y=\frac{2\times10^{7}}{20}=10^{6}\,\mbox{turbines}
-\]
-
+\begin_inset Formula $N_{WT}/y=2\times10^{7}/20=10^{6}$
 \end_inset
 
-In units of peak power (which is the typical way of counting many kinds
- of energy producing devices) this corresponds to 
+ turbines.
+ In units of peak power this corresponds to 
 \begin_inset Formula $\sim3\times10^{6}$
 \end_inset
 
@@ -176,7 +171,8 @@ MW
 \end_inset
 
 .
- Currently the wolds yearly wind turbine production is on the order of 
+ Currently the worlds yearly wind turbine production is on the order of
+ 
 \begin_inset Formula $4.1\times10^{4}$
 \end_inset
 
@@ -195,8 +191,8 @@ key "btmconsult"
 
 \end_inset
 
-, which means that even with the current production rate, wind turbines
- will eventually produce on the order of 1% of the worlds total energy demand.
+, which means that with the current production rate, wind turbines will
+ eventually produce on the order of 1% of the worlds total energy demand.
 \end_layout
 
 \begin_layout Standard
@@ -214,8 +210,8 @@ As a rule of thumb, the price of the bare turbine, not including cabling
 \end_inset
 
 .
- It is straightforward to calculate a conservative estimate of the yearly
- price of providing 100% wind energy to the entire world:
+ It is straightforward to calculate an estimate of the yearly price of providing
+ 100% wind energy to the entire world:
 \begin_inset Formula 
 \[
 \mbox{Total\ cost}\sim3\times10^{6}\times10^{7}=3\times10^{13}\,\text{€}/\mbox{y}
@@ -254,7 +250,7 @@ key "world_gdp"
 
  includes every single watt consumed by the world for any purpose.
  Realistically, the amount of power needed will be well lower than this
- since not all of the worlds energy consumption is currently fossil fuels.
+ since not all of the worlds energy consumption is currently fossil.
  In 2011 'only' 81% of the worlds energy consumption was from fossil resources
  (counting nuclear energy as non-fossil)
 \begin_inset CommandInset citation
@@ -274,7 +270,7 @@ Finally, it might be reasonable to ask not only to the economics but more
 \begin_inset Formula $2\times10^{7}$
 \end_inset
 
- wind turbines of 3.5
+ wind turbines of 3
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -293,8 +289,7 @@ MW
 \end_inset
 
 .
- Using this number, we easily gen an estimate of the required area to cover
- the worlds entire energy consumption with wind turbines:
+ Using this number, we easily get an estimate of the required area:
 \end_layout
 
 \begin_layout Standard
@@ -315,10 +310,9 @@ Corresponding to 1.8% of the area of the globe or 6% of the worlds land area.
  Wind turbines are just a single source of renewable energy, calculations
  similar to this could be performed for solar cells, solar thermal energy
  or nuclear power.
- In reality it will for certain be optimal to mix the various energy forms
- both by type as well as by geographic location in order to minimize the
- storage demands.
- Calculations of the optimal mix of energy source has not to my knowledge
+ In reality it will be optimal to mix the various energy forms both by type
+ as well as by geographic location in order to minimize the storage demands.
+ Calculations of the optimal mix of energy sources has not to my knowledge
  been carried out on world scale, but a caluclation has been performed for
  the much simpler case of purely renewable electricity in Europe.
  In this case the optimal mix between wind and solar energy is calculated

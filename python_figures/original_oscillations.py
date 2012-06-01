@@ -34,7 +34,7 @@ axis2.plot(data['TEMPERATURE'][:,0], data['TEMPERATURE'][:,1], 'b-')
 
 axis.tick_params(direction='in', length=d.ticklength, width=2, colors='k',labelsize=d.labelsize,axis='both',pad=d.pad)
     
-axis.set_ylabel('Ion Current / nA', fontsize=d.y_axis_font)
+axis.set_ylabel('SEM Current / nA', fontsize=d.y_axis_font)
 axis2.set_ylabel('Temperature / $^\circ$C', fontsize=d.y_axis_font)
 axis.set_xlabel('Time / Minutes', fontsize=d.x_axis_font)
 
@@ -78,8 +78,8 @@ for i in range(0,2):
     
     axis_array[i].tick_params(direction='in', length=d.ticklength, width=2, colors='k',labelsize=d.labelsize,axis='both',pad=d.pad)
     
-axis_array[0].set_ylabel('SEM Curr. / nA', fontsize=d.y_axis_font)
-axis_array[1].set_ylabel('SEM Curr. / nA', fontsize=d.y_axis_font)
+axis_array[0].set_ylabel('I$_{SEM}$ / nA', fontsize=d.y_axis_font)
+axis_array[1].set_ylabel('I$_{SEM}$ / nA', fontsize=d.y_axis_font)
 #axis_array[0].set_xlabel('Time / Minutes', fontsize=d.x_axis_font)
 axis_array[1].set_xlabel('Time / Minutes', fontsize=d.x_axis_font)
 #plt.show()

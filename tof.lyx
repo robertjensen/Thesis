@@ -302,8 +302,8 @@ reference "fig:source_region"
 \end_layout
 
 \begin_layout Standard
-After entering the drift tube, the ions will float freely for almost a meter
- (37.5
+After entering the flight tube, the ions will float freely for almost a
+ meter (37.5
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -866,7 +866,7 @@ status collapsed
 \begin_inset Graphics
 	filename svg_figures/untreated_data.svg
 	display false
-	width 12cm
+	width 13cm
 
 \end_inset
 
@@ -880,7 +880,29 @@ name "fig:tof_untreated_data"
 
 \end_inset
 
-Raw data from the TOF
+Exapmple of raw data from an ammonia oxidation expriment measured with the
+ TOF.
+ The top panel shows the entire spectrum.
+ Lower left panel shows the inital noise spike, which is always present
+ in the spectrums.
+ Lower center panel shows the separation between 1
+\begin_inset space \thinspace{}
+\end_inset
+
+amu and 2
+\begin_inset space \thinspace{}
+\end_inset
+
+amu.
+ Lower right panel shows that we are able to separate NH
+\begin_inset Formula $_{3}$
+\end_inset
+
+ from OH and NH
+\begin_inset Formula $_{2}$
+\end_inset
+
+ from O.
 \end_layout
 
 \end_inset
@@ -908,6 +930,7 @@ reference "fig:tof_untreated_data"
 
 amu is extremely large.
 \begin_inset Float figure
+placement t
 wide false
 sideways false
 status collapsed
@@ -1322,6 +1345,46 @@ Benzene Hydrogenation
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+placement t
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename svg_figures/tof_benzene_hydrogenation.svg
+	display false
+	width 12cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tof_benzene_hydrogenation"
+
+\end_inset
+
+Benzene hydrogenation.
+ Red spectrum is pure benzene.
+ Blue spectrum is for a benzene/hydrogen mixture.
+ Upper panel shows complete spectrums and lower panel show a zoom of the
+ region where the hydrogenation process is visible.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
 For a simple vacuum physicist, Benzene is a frightening compound.
  Just the fact that it contains ns no less than 12 atoms (C
 \begin_inset Formula $_{6}$
@@ -1397,42 +1460,7 @@ key "Bratlie2007"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Graphics
-	filename svg_figures/tof_benzene_hydrogenation.svg
-	display false
-	width 12cm
-
-\end_inset
-
-
-\begin_inset Caption
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:tof_benzene_hydrogenation"
-
-\end_inset
-
-Benzene hydrogenation
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- In Figure
+In Figure
 \begin_inset space ~
 \end_inset
 
@@ -1654,7 +1682,7 @@ reference "fig:tof_combined_tof_and_qms"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -1662,7 +1690,7 @@ status collapsed
 \begin_inset Graphics
 	filename svg_figures/tof_combined_tof_and_qms.svg
 	display false
-	width 12cm
+	width 13cm
 
 \end_inset
 

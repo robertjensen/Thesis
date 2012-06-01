@@ -16,12 +16,13 @@ data['TEMPERATURE'] = np.array(cursor.fetchall())
 
 
 fig = plt.figure()
-fig.subplots_adjust(left=d.left_room) 
+fig.subplots_adjust(left=0.095) 
 fig.subplots_adjust(bottom=d.bottom_room)
 fig.subplots_adjust(right=d.right_room) 
 
 ratio = d.ratio
-fig_width = d.width
+#fig_width = d.width
+fig_width = 13
 fig_width = fig_width /2.54     # width in cm converted to inches
 fig_height = fig_width*ratio
 fig.set_size_inches(fig_width,fig_height)

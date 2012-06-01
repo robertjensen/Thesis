@@ -53,7 +53,7 @@
 \spacing single
 \use_hyperref false
 \papersize a4paper
-\use_geometry false
+\use_geometry true
 \use_amsmath 1
 \use_esint 1
 \use_mhchem 1
@@ -68,10 +68,8 @@
 \shortcut idx
 \color #008000
 \end_index
-\leftmargin 2.5cm
-\topmargin 3cm
-\rightmargin 2.5cm
-\bottommargin 3cm
+\leftmargin 3cm
+\rightmargin 4cm
 \secnumdepth 2
 \tocdepth 2
 \paragraph_separation skip
@@ -79,7 +77,7 @@
 \quotes_language english
 \papercolumns 1
 \papersides 2
-\paperpagestyle default
+\paperpagestyle fancy
 \tracking_changes false
 \output_changes false
 \html_math_output 0
@@ -481,11 +479,11 @@ picturetopagenumber[2]{007}}
 
 \begin_layout Plain Layout
 
-%
+
 \backslash
-rhead{
+cfoot{
 \backslash
-texttopagenumber[6]{007}}
+texttopagenumber[7]{007}}
 \end_layout
 
 \begin_layout Plain Layout
@@ -494,18 +492,7 @@ texttopagenumber[6]{007}}
 \backslash
 cfoot{
 \backslash
-texttopagenumber[6]{007}}
-\end_layout
-
-\begin_layout Plain Layout
-
-%
-\backslash
-cfoot{
-\backslash
-fancyplain{
-\backslash
-texttopagenumber[7]{007}}}
+picturetopagenumber[7]{007}}
 \end_layout
 
 \end_inset
@@ -607,16 +594,6 @@ filename "hotelectrons.lyx"
 \begin_inset CommandInset include
 LatexCommand include
 filename "backtothefuture.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "danskresume.lyx"
 
 \end_inset
 

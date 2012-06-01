@@ -20,9 +20,9 @@ fig = plt.figure()
 fig.subplots_adjust(left=d.left_room) 
 fig.subplots_adjust(bottom=d.bottom_room)
 fig.subplots_adjust(right=d.right_room) 
-fig.subplots_adjust(hspace=0.3)
+fig.subplots_adjust(hspace=0.2)
 
-ratio = 1
+ratio = 0.8
 fig_width = d.width
 fig_width = fig_width /2.54     # width in cm converted to inches
 fig_height = fig_width*ratio
@@ -61,6 +61,9 @@ axis3.set_xticks(MassToTime(mass_ticks))
 axis3.set_xticklabels(mass_ticks)
 axis3.set_xlabel('Mass / amu', fontsize=d.x_axis_font)
 axis3.tick_params(direction='in', length=d.ticklength, width=2, colors='k',labelsize=d.labelsize,axis='both',pad=d.pad)
+for tl in axis3.get_xticklabels():
+    tl.set_size(8)
+
 #axis3.ticklabel_format(useOffset=False)
 axis.set_ylim(-10,450)
 axis.set_yticks((0,100,200,300,400))

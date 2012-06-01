@@ -126,9 +126,10 @@ The classic UHV procedure for measuring surface area of a catalyst is the
 
 \begin_layout Standard
 \begin_inset Float figure
+placement t
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -375,7 +376,7 @@ cm
 \end_layout
 
 \begin_layout Section
-Area measurements on cluster sample
+Area measurements of nanoparticles
 \end_layout
 
 \begin_layout Standard

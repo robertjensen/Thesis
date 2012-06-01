@@ -19,6 +19,7 @@ fig = plt.figure()
 fig.subplots_adjust(left=d.left_room) 
 fig.subplots_adjust(bottom=d.bottom_room)
 fig.subplots_adjust(right=d.right_room) 
+fig.subplots_adjust(top=0.85) 
 
 ratio = d.ratio
 fig_width = d.width

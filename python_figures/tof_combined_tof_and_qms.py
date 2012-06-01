@@ -21,7 +21,8 @@ fig.subplots_adjust(right=d.right_room*0.95)
 fig.subplots_adjust(hspace=0.1)
 
 ratio = 1
-fig_width = d.width
+#fig_width = d.width
+fig_width = 13
 fig_width = fig_width /2.54     # width in cm converted to inches
 fig_height = fig_width*ratio
 fig.set_size_inches(fig_width,fig_height)

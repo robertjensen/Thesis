@@ -11,13 +11,14 @@ def MassToTime(mass):
     return corr_time 
 
 fig = plt.figure()
-fig.subplots_adjust(left=d.left_room) 
+fig.subplots_adjust(left=0.1)
 fig.subplots_adjust(bottom=d.bottom_room)
 fig.subplots_adjust(top=1-d.bottom_room)
 fig.subplots_adjust(right=d.right_room*1.08) 
 
 ratio = d.ratio*1.1
-fig_width = d.width
+#fig_width = d.width
+fig_width = 13
 fig_width = fig_width /2.54     # width in cm converted to inches
 fig_height = fig_width*ratio
 fig.set_size_inches(fig_width,fig_height)
@@ -64,14 +65,16 @@ p = axis.axvspan(12, 12.46, facecolor='#b6fa77', alpha=0.25)
 
 
 axis.tick_params(direction='in', length=d.ticklength, width=2, colors='k',labelsize=d.labelsize,axis='both',pad=d.pad)
-axis.set_ylabel('Response / mV', fontsize=d.y_axis_font)
+#axis.set_ylabel('Response / mV', fontsize=d.y_axis_font)
+axis.set_ylabel('')
 #axis.set_xlabel('Flight Time / $\mu$s', fontsize=8)
 axis.set_xlabel('')
 
 
 
 axis = plt.subplot(gs[1,0])
-axis.set_ylabel('Response / mV', fontsize=d.y_axis_font)
+#axis.set_ylabel('Response / mV', fontsize=d.y_axis_font)
+axis.set_ylabel('')
 axis.set_yticks((0,10,20,30,40))
 axis.plot(data['ch'][:,0], data['ch'][:,1], 'r-',linewidth=LINEWIDTH)
 p = axis.axvspan(0, 1, facecolor='#26aaf7', alpha=0.25)
@@ -111,6 +114,8 @@ axis.annotate('O', xy=(12.04, 10),  xycoords='data', xytext=(12.05, 69), textcoo
 axis.annotate('NH$_2$', xy=(12.055, 47),  xycoords='data', xytext=(12.22, 82), textcoords='data', arrowprops=arrow, horizontalalignment='right', verticalalignment='top',fontsize=font,)
 axis.annotate('OH', xy=(12.414, 50),  xycoords='data', xytext=(12.33, 66), textcoords='data', arrowprops=arrow, horizontalalignment='right', verticalalignment='top',fontsize=font,)
 axis.annotate('NH$_3$', xy=(12.425, 85),  xycoords='data', xytext=(12.35, 130), textcoords='data', arrowprops=arrow, horizontalalignment='right', verticalalignment='top',fontsize=font,)
+
+fig.text(0.02, 0.5, 'Response / mV', fontsize=d.y_axis_font, ha='center', va='center', rotation='vertical')
 
 
 
