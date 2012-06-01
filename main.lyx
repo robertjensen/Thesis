@@ -143,6 +143,13 @@ I have so far had a wonderful time at CINF, at the list of people to thank
 \end_layout
 
 \begin_layout Standard
+First and very much most of all, I would like thank my family and friends.
+ Especially my wonderful wife Sine and our children Gro and Sia.
+ You are by far the most important part of my life.
+ Your help and support during this project is very much appreciated!!
+\end_layout
+
+\begin_layout Standard
 I would of course very much like to thank my supervisor, Ib.
  Even though we both can have our rather strong opinions on various issues,
  I think we somehow always manage to find common ground in the end.
@@ -158,31 +165,46 @@ All clean-room work has been performed by Thomas Pedersen, and without his
  The two of you seem to be able to have answers to almost any questions
  and are always able to come up with solutions for all kinds of problems
  and later implement them as actual products.
+ The importance of clean-room work in this project simply cannot be overestimate
+d.
 \end_layout
 
 \begin_layout Standard
 An infinite amount of gratitude should be expressed towards our mechanical
- and electron workshops, especially Dan, Peter, Peder and Anders.
+ and electronic workshops, especially Dan, Peter, Peder and Anders.
  Without your help, most of this work would not have been possible.
+ 
 \end_layout
 
 \begin_layout Standard
 Working at CINF is a truly joyful experience, very much because of the many
- good colleges at the department.
+ good colleagues at the department.
  I would like to thank basically everybody, but a few people needs to be
- specificly mentioned.
+ specifically mentioned.
  Jane Nielsen, now our head of department, was the person who originally
  hired me at DTU and later acted as the catalyst that turned me into a Ph.D.
  student.
- Ole Trinhammer was my collegue for almost two years in Nanoteket, and I
- am gratefull to have been able to share this position with you.
- Anders Nierhoff has produced all the cluster sample
+ Ole Trinhammer was my colleague for almost two years in Nanoteket, and
+ I am grateful to have been able to work with you.
+ Anders Nierhoff has produced all the cluster samples for the various experiment
+s, for that I would also like to say thanks.
+ Of course all other people at CINF should also be mentioned, however it
+ is just a bit too many and thus I will just give a collective thank you
+ to everybody.
 \end_layout
 
 \begin_layout Standard
-Of course, I would like thank my family and friends, especially my wonderful
- wife Sine and our children Gro and Sia.
- You are the most important part of my life.
+At this point two people might consider themselves forgotten in this list,
+ but no, I just saved the best for last.
+ Thomas Andersen and Kenneth Nielsen, even though my social skills are nowhere
+ good enough tell you in person, at least I can write it here; you are simply
+ fantastic! Thomas has been first my lab neighbor and later joined the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor team when we started building the NG setup.
+ Kenneth has been my office neighbor and over the years this great neighborlines
+s has provided infinite amounts procrastinations over the years.
 \end_layout
 
 \begin_layout Standard
@@ -314,8 +336,11 @@ I denne afhandling findes en gennemgang af mit arbejde på
 
 \lang danish
 -reaktorplatformen.
- Begrebet mikroreakter introduceres og nogle af de eksperimentelle udfordringer
- gennemgås.
+ Begrebet 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reakter introduceres og nogle af de eksperimentelle udfordringer gennemgås.
  De forskellige eksperimentelle forhold omkring platformen diskuteres og
  den fysiske implementering af tre generation af forsøgsplatformen gennemgås
  i detaljer.
