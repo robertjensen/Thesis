@@ -125,8 +125,8 @@ control is thus needed to ensure that a suitable power is applied to reach
  the wanted temperature.
  Many both hardware and software solutions exists for such a control mechanism,
  in our case we have chosen to run the control loop in home-made software.
- In our case the implementation is made in LabView which for better and
- (mostly) for worse is the default language of choice at DTU.
+ The current implementation is made in LabView which for better and (mostly)
+ for worse is the default language of choice at DTU.
  The home-made implementation ensures that we know what is going on behind
  the scenes of the software, and that we have the flexibility to change
  all part of the setup ourselves.
@@ -279,7 +279,7 @@ key "Micro-bachelor"
 \end_inset
 
  then 
-\begin_inset Formula $I(t+\Delta T)=I(t)$
+\begin_inset Formula $I(t+\Delta t)=I(t)$
 \end_inset
 
  no matter the value of 
@@ -320,7 +320,7 @@ reference "fig:temp_new_pid"
 
 \end_inset
 
- where both implementation's response to a step-function in temperature
+ where the response from both implementations to a step-function in temperature
  is plotted.
 \end_layout
 
@@ -361,7 +361,8 @@ reference "fig:thermographic_old_heater"
  the temperature of the sample.
  Mounting a thermocouple from the backside is not possible due to the heating
  element, meaning that temperature has to be measured on the lid.
- In practice is was done by manually placing a thermocouple on top the sample.
+ In practice this was done by manually placing a thermocouple on top the
+ sample.
  The combination of non-consistent point heating and thermocouple position
  obviously resulted in very large uncertainties in the temperature.
 \begin_inset Float figure
@@ -434,8 +435,8 @@ nm of Pt on top of an adhesion layer of 3
 
 nm of Ti through a shadow-mask.
  This deposition method guarantees that absolutely no Pt finds its way to
- the front-side of the reactor, this is very important since as it is demonstrat
-ed in chapter
+ the front-side of the reactor, which is very important since as it is demonstra
+ted in chapter
 \begin_inset space ~
 \end_inset
 
@@ -531,18 +532,18 @@ reference "fig:reactor_new_heating_scheme"
  the combined heater and RTD is implemented as a Pt strip with four contacts.
  Temperature is thus measured as the four point resistance of the Pt strip
  calibrated to a thermocouple at room temperature.
- The thermocouple stays on top of the sample for the entire measurement.
- Even though poor thermal contact will prevent it from recording the correct
+ The thermocouple stays on top of the sample for the entire measurement;
+ even though poor thermal contact will prevent it from recording the correct
  temperature, the apparent temperature will still be a consistent function
  of the actual temperature and thus the thermocouple can be used as a sanity
  check of the RTD measurement.
  The challenge now is to heat the sample through the same Pt strip while
  still being able to measure the resistance reliably.
  To do this one essentially needs a Source-Measure instrument to ensure
- 100% perfect synchronization between the measurement of the voltage and
- current which are both changing continuously both because of the non-constant
- temperature and because the control-loop constantly updates the needed
- power to stay at the set-point temperature.
+ 100% perfect synchronization between the measurements of the voltage and
+ current which are both changing continuously, partly because of the non-constan
+t temperature and partly because the control-loop constantly updates the
+ needed power to stay at the set-point temperature.
  In our case we use a Keithley
 \begin_inset space ~
 \end_inset
@@ -572,8 +573,8 @@ V.
 \end_inset
 
 C.
- The sample is contacted through four Pogo-pins mounted in a ceramic block.
- The block is mounted with four screws on a metal structure that is again
+ The sample is contacted through four Pogo-pins mounted in a ceramic block,
+ the block is mounted with four screws on a metal structure that is again
  screw-mounted on the metal interface block.
 \begin_inset Float figure
 wide false
@@ -890,11 +891,8 @@ One problem with the current design is that the SMU is a very expensive
 \end_inset
 
 C.
-\end_layout
-
-\begin_layout Standard
-Besides the changes in the heating itself, we also increased the length
- of the sample from 20.1
+ Besides the changes in the heater, we also increased the length of the
+ sample from 20.1
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -903,7 +901,8 @@ mm to 27
 \end_inset
 
 mm to increase the distance between the sample and the heat sink in the
- mounting block.
+ mounting block, also in an attempt to minimize the temperature gradient
+ across ther reactor.
 \begin_inset Float figure
 wide false
 sideways false
@@ -954,12 +953,16 @@ reference "fig:long_reactor_cad"
 
 \end_inset
 
- Of course with three separate heaters, it becomes quite a challenge to
- find the perfect power distribution between the individual heaters.
+
+\end_layout
+
+\begin_layout Standard
+Of course with three separate heaters, it becomes quite a challenge to find
+ the perfect power distribution between the individual heaters.
  Experimentation with this is not easy, since every time a new layout is
- to be tested, it is necessary to make a new shadow mask for deposition,
- a process that takes quite an amount of both time and money in the clean
- room.
+ to be tested, it is necessary to make a new shadow mask for depositing
+ this particular heater, a process that takes quite an amount of both time
+ and money in the clean room.
  For this reason we kept the experimentation to a minimum and reasonably
  fast settled on a final layout.
  The point is that we will never be able to reach the perfect distribution

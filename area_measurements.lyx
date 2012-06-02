@@ -71,9 +71,10 @@ Very often when doing measurements in the
 \end_inset
 
 -reactor, one will want to know the available active area of the catalyst.
- In some case it can be very simple, for instance when working with metal
- thin-films, in these cases the area is more or less equal to the geometric
- area of the film, unless the catalyst is polluted with surface contaminants.
+ In some cases it can be very simple, for instance when working with metal
+ thin-films.
+ In these cases the area is more or less equal to the geometric area of
+ the film, unless the catalyst is polluted with surface contaminants.
  In other cases, such if one wants to check if the catalyst is clean, or
  if the sample consists of nanoparticles, it is much less clear how to estimate
  the surface area.
@@ -129,7 +130,7 @@ The classic UHV procedure for measuring surface area of a catalyst is the
 placement t
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent

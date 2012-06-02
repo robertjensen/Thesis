@@ -176,7 +176,7 @@ C.
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
@@ -357,7 +357,7 @@ name "fig:photo_unbonded"
 \end_inset
 
 The reactor directly from the clean room.
- On the unbonded sample, only the deep etched parts the reactor is clearly
+ On the unbonded sample, only the deep etched parts of the reactor is clearly
  visible, but also the reactor area and the capillary can be seen if one
  looks carefully.
  Photo by Thomas Pedersen.
@@ -395,11 +395,11 @@ The reacting gases are supplied to the two inlets by flow controllers capable
 
 mL/min.
  The flow controllers have an analog interface which allows the flow to
- be set by a 0--5
+ be set by applying a 0--5
 \begin_inset space \thinspace{}
 \end_inset
 
-V voltage and the actual output is returned also in the form of a 0--5
+V voltage and the measured flow is returned also in the form of a 0--5
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -415,7 +415,7 @@ The capillary flow is fed into a quadropole mass-spectrometer (QMS) for
  pumped by a turbo pump.
  It is of great importance to keep the base pressure as good as possible
  in the chamber since this background is superimposed on all measurements
- and it will often be the practical sensitivity limit of the measurements.
+ and it will often be the effective sensitivity limit of the measurements.
  If the chamber is properly baked and otherwise treated according to good
  UHV practice a base pressure of 
 \begin_inset Formula $\sim2\times10^{-10}$
@@ -474,7 +474,7 @@ mL/min pr.
 
 \begin_layout Standard
 During experiments the chip is mounted in a metal block which is connected
- to the main tubing for gas-handling.
+ to the gas-handling system.
  The sealing between the chip and the metal block is done by O-rings.
  The typical O-ring material of choice is Kalrez due to its ability to be
  heated to very high temperatures.
@@ -484,7 +484,7 @@ During experiments the chip is mounted in a metal block which is connected
  Unfortunately rubber O-rings are not leak-tight, especially not when they
  are heated, which means that we have an inflow of air across all four O-rings.
  This is very unfortunate in situations where oxygen is not wanted, e.g.
- methanol synthesis or other process with products that are easily oxidized.
+ methanol synthesis or other processes with products that are easily oxidized.
  Also, the air inflow through the O-ring sealing the capillary outlet complicate
 s interpretation of data a lot since it will give a background of air on
  top of the signal from the product gas.
@@ -678,8 +678,8 @@ Another problem is the valves in front of the flow-controllers.
  It is well known that flow-controllers are not very internally leak-tight
  even when the flow is set to zero.
  This means that if one wants to eliminate the background of the gasses
- available on the setup, one needs to close the valve in front of it, however
- with a manual valve, this makes it impossible to eliminate backgrounds
+ available on the setup, one needs to close the valve in front of it.
+ However with a manual valve, this makes it impossible to eliminate backgrounds
  from gasses that are actually used during the experiment.
  Finally many gas-lines were implemented with gasket-less Swagelok type
  connections, which are not UHV-compatible.
@@ -762,6 +762,7 @@ reference "fig:new_old_setup_photo"
 .
  
 \begin_inset Float figure
+placement t
 wide false
 sideways false
 status collapsed
@@ -815,9 +816,8 @@ The updated version of the
  side of a pressure controller since these devices will typically undershoot
  quite a bit when they go down in pressure.
  If the turbo pump is attached directly to the pressure controller these
- undershoots will be extremely hard on the turbo.
- The buffer volume's purpose in life is to smoothen out these burst to make
- them tolerable for the turbo.
+ undershoots will be extremely hard on the turbo, the buffer volume's purpose
+ in life is to smoothen out these burst.
  The system works beautifully and makes it possible to pump down the entire
  system to approximately 
 \begin_inset Formula $10^{-5}\,$
@@ -848,7 +848,7 @@ mL/min anyway.
 The system was also updated with four pneumatically operated valves in front
  of the flow-controllers.
  These valves are programmed to close every time the flow for the corresponding
- flow controller is set to zero.
+ controller is set to zero.
  In this way we can decrease the background from unused gasses significantly.
  Besides the work on the mechanical parts of the setup, we also completely
  changed the way heating and temperature measurement was performed, however,
@@ -986,7 +986,7 @@ it would be highly problematic if even small amounts of oxygen reached the
  Secondly, one should not underestimate the costs of having a reactor flushed
  continuously with argon.
  Originally when the setup was first designed, it was constantly in development
- and was often not performing actual measurements.
+ and was often performing pure test measurements.
  However, today, it is not uncommon for the setup to run continuously for
  several weeks.
  The argon consumption in such periods is between one and two bottles (50
@@ -1003,8 +1003,8 @@ bar) pr.
  a long experiment, especially over the weekend.
  When starting an experiment one needs to judge whether the remaining argon
  supply will last for the rest of the experiment and unfortunately it can
- sometimes happen that this estimate fails and the argon run out during
- the experiment which will often render the results useless.
+ sometimes happen that this estimate fails and the argon run out which will
+ often render the results useless.
  This also means that it is basically impossible to keep a sample in the
  setup over a holiday and run a few experiments from home, since the argon
  supply will not last more than approximately 4--5 days.
@@ -1112,7 +1112,7 @@ Another great advantage of pneumatic valves is that it opens up for much
 \begin_layout Standard
 Experimentally it takes a bit of work to operate pneumatic valves.
  The valves we have chosen are from Swagelok because we know them to be
- leak-tight and because the have the same dimensions as the manual valves
+ leak-tight and because they have the same dimensions as the manual valves
  we have typically been using.
  These valves are normally-closed by a spring load and will open by applying
  pressurized air at approximately 3
@@ -1135,8 +1135,8 @@ el computer controlled 24
 \end_inset
 
 V supply which is not cheaply available.
- For this reason we decided to have our electronic workshop build a truly
- wonderful 20 channel 5
+ For this reason we convinced our electronic workshop to build a truly wonderful
+ 20 channel 5
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -1144,8 +1144,8 @@ V to 24
 \begin_inset space \thinspace{}
 \end_inset
 
-V converter which allows us to control the entire thing using standard TTL
- 5
+V converter.
+ This allows us to control the entire thing using standard TTL 5
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -1209,7 +1209,10 @@ The new setup consists of no less than three separate vacuum chambers and
 \end_inset
 
 -reactor systems.
- One pump is shared between the main chambers of the old and the NG setup.
+\end_layout
+
+\begin_layout Standard
+One pump is shared between the main chambers of the old and the NG setup.
  Since the main chambers are UHV chambers, the gas-load is low and we have
  no problems with pumping capacity.
  Back flow of gas between the two chambers through the shared roughing line
@@ -1219,9 +1222,9 @@ The new setup consists of no less than three separate vacuum chambers and
  However, this has not turned out to give real-world problems since we do
  not use hydrogen very often and using it on both chambers at the same time
  is a very unlikely event.
- The second roughing pump is dedicated to the buffer volume of the old setup
- and is simply mounted directly on the turbo with suitable tee-pieces and
- valves to allow pumping down the buffer volume from atmosphere if necessary.
+ The second roughing pump is dedicated to the buffer volume turbo of the
+ old setup and is simply mounted directly on the turbo with suitable tee-pieces
+ and valves to allow pumping down the buffer volume from atmosphere if necessary.
  This pump also backs the Time-Of-Flight instrument (introduced in chapter
 \begin_inset space ~
 \end_inset
@@ -1435,11 +1438,11 @@ The
  involves quite a lot of process steps.
  For applications like this, it is unfeasible to run the experiments manually.
  For this reason, we have developed software that reads a so-called flow
- file and perform the experiment according to this file.
+ file and performs the experiment according to this file.
  The concept of a flow file is so powerful that it is a very rare event
  that the setups are run in manual mode.
  This more or less only happens when teaching students on the setup.
- The advantages of the automated procedure even for rather simple measurements,
+ The advantages of the automated procedure even for rather simple measurements
  is that we get a very high degree of reproducibility between samples.
  If two samples are run by the same flow file we are sure they receive a
  treatment as identical as we possibly can.
@@ -1641,7 +1644,7 @@ Along with an automated experimental setup should necessarily go a comprehensive
  It also ensures that all data are secured even in the event that the computer
  crashes (an all to frequent event when using LabView for data acquisition....)
  and data are continuously backed up by the central IT-department.
- Also, the central server act as a common entrance point when searching
+ Also, the central server acts as a common entrance point when searching
  for old data, either one's own data or data from other CINF setups that
  could have results relevant for the current project.
  The data can be easily accessed either from the web-interface or directly
@@ -1651,6 +1654,18 @@ Along with an automated experimental setup should necessarily go a comprehensive
  Besides storage of the individual measurements, the system also continuously
  logs health information of the chamber, such as chamber pressure, turbo
  pump temperatures, sample temperature, roughing pump pressures, etc.
+ A small excerpt of this data is shown in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:db_example"
+
+\end_inset
+
+.
  In this way it is easy to catch a developing problem from eg.
  a rouging pump needing service or to pin-point when a UHV chamber has developed
  a leak.
