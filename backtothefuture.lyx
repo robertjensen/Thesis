@@ -75,7 +75,7 @@ Ever since I joined the
  So far we have several plans for enhancements, some is almost guaranteed
  to be implemented and others are perhaps somewhat more optimistic.
  Here I will present a list of ideas that I hope will be implemented within
- the comming years.
+ the coming years.
 \end_layout
 
 \begin_layout Paragraph
@@ -141,10 +141,10 @@ reference "chap:Analytical-techniques"
  of practicalities.
  What would be a perfect solution would be a holder mounted in a fixed position
  compared to the sample to allow for self-consistent images.
- If one is allowed so be even slightly more ambitious, the holder should
+ If one is allowed to be even slightly more ambitious, the holder should
  contain an actuated x-y stage and a computer interfaced microscope to allow
  for scanning the position and do systematic imaging.
- This would be necessary if one want to do high resolution imaging of the
+ This would be necessary if one wants to do high resolution imaging of the
  sample to search for temperature fingerprints of the reactions in the reactor.
 \end_layout
 
@@ -160,8 +160,8 @@ Currently the buffer chambers are pumped by a turbo pump through
  tubing because this limited radius protects the turbo when large amount
  of gas is being dumped in the buffer volume.
  However, often one knows that no further gas is going to be dumped into
- the buffer volume and just want to pump down the buffer sufficiently to
- be able to start the experiment.
+ the buffer volume and just want to pump down r sufficiently to be able
+ to start the experiment.
  In situations like this, it would be extremely useful to have an optional
  pumping path of much larger diameter.
  This could easily be achieved by mounting a 
@@ -171,7 +171,8 @@ Currently the buffer chambers are pumped by a turbo pump through
 -bellow and a pneumatically controlled valve between the buffer and the
  turbo.
  Such a device would significantly reduce the time needed to pump down a
- new sample before starting measurements.
+ new sample before starting measurements and thus increase the overall throughpu
+t considerably.
 \end_layout
 
 \begin_layout Paragraph
@@ -194,10 +195,10 @@ Currently we are able to work in the pressure range of 0-2.5
 \end_inset
 
 bars.
- For some reactions it would very useful to be able to reach higher pressures,
- a prime example that is currently being investigated in the setup is methanol
- production on Cu/Zn nanoparticles, where the output of the process is expected
- to increase with the pressure squared.
+ For some reactions it would very useful to be able to reach higher pressures.
+ A prime example that is currently being investigated is methanol production
+ on Cu/Zn nanoparticles, where the output of the process is expected to
+ increase with the pressure squared.
  Currently we are limited by the pressure controllers but these could of
  course be replaced simply by buying new ones.
  However, even though replacing the pressure controllers is an easy task,
@@ -209,8 +210,8 @@ bars.
 
 bars on the high pressure side.
  On the next level, none of our tubing are certified for high pressures,
- and thus the ultimate pressure limit will mostly be a question of, how
- high the operators dares to pressurize these tubes.
+ and thus the ultimate pressure limit will mostly be a question of how high
+ the operators dares to pressurize these tubes.
 \end_layout
 
 \begin_layout Paragraph
@@ -243,7 +244,7 @@ This is a slightly ambitious project but with a potentially very high value.
 
 -reactor setup would be a weak point since this cannot possibly be done
  under UHV conditions.
- Our proposal for the transfer would be to fill the reactor with 1
+ My proposal for the transfer would be to fill the reactor with 1
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -271,7 +272,7 @@ CINF recently acquired a high-quality sputter deposition system capable
 \begin_inset Formula $\mu$
 \end_inset
 
--reactor for exploring a wide range of substrate effects, since it we could
+-reactor for exploring a wide range of substrate effects, since we could
  sputter-deposit the wanted substrate, then deposit clusters, characterize
  the sample using either auger or TPDs before finally bonding the sample.
  All under highly clean conditions.

@@ -1534,7 +1534,7 @@ al QMS.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -1556,7 +1556,7 @@ name "fig:tof_ammonia_ox_thin_film"
 
 \end_inset
 
-Time-Of-Flight mass spectrometry of ammonia oxidation on a Pt thin film.
+Time-of-flight mass spectrometry of ammonia oxidation on a Pt thin film.
  Notice that we are able to show the anti-correlation between OH and NH
 \begin_inset Formula $_{3}$
 \end_inset

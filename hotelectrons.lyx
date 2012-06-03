@@ -628,10 +628,10 @@ The experiments are performed in a standard UHV chamber, at CINF known as
 \begin_inset space \thinspace{}
 \end_inset
 
-mbar and is pumped by a turbo pump ensuring a clean vacuum, the samples
- is mounted from a load-lock pumped by a separate turbo, and it is thus
- possible to change the samples without compromising the vacuum of the main
- chamber.
+mbar and is pumped by a turbo pump ensuring a clean vacuum.
+ The samples are mounted from a load-lock pumped by a separate turbo, and
+ it is thus possible to change the samples without compromising the vacuum
+ of the main chamber.
  A schematic drawing of the chamber is seen in Figure
 \begin_inset space ~
 \end_inset
@@ -725,8 +725,9 @@ Hot Electron Chemistry
 The status of this part of the project at the time Gunver wrote her thesis
  (and thus the last results to be presented in public) was that we had run
  a series of attempts to detect hot electron chemistry in two different
- ways, the test reaction was always CO desorption, since this has been theoretic
-ally predicted to be a favorable test reaction
+ ways.
+ The test reaction was always CO desorption, since this has been theoretically
+ predicted to be a favorable test reaction
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Olsen2009"
@@ -748,8 +749,8 @@ C
 
 O.
  This experiment has been performed many times with a range of different
- electron energies, however we never been able to detect any signs of hot
- electron induced desorption.
+ electron energies, however we have never been able to detect any signs
+ of hot electron induced desorption.
  Because of the failure of the direct detection, the other way of testing
  the reaction was to run a batch experiment.
  First two 
@@ -838,9 +839,9 @@ reference "fig:hote_kemi_gunver"
 \end_layout
 
 \begin_layout Standard
-The final attempt at detecting a hot-electron induced effect was to apply
- a simple lock-in technique.
- In many situations, lock-in amplification can be an extraordinary efficient
+The final attempt, performed after Gunver wrote her thesis, at detecting
+ a hot-electron induced effect was to apply a simple lock-in technique.
+ In many situations, lock-in amplification can be extraordinary efficient
  at measuring signals on a very large noise background, provided that the
  signal oscillates with a driven frequency that can be used for the lock-in.
  The idea in our case was to pulse the device and lock-in the mass-spectrometer
@@ -944,8 +945,8 @@ reference "fig:hote_pulsetest_simulated"
 
  is shown how the result should look in the case of a successful outcome.
  This particular sample had suffered a breakdown of the gate oxide and thus
- the there will be ohmic contact between the front side and the backside
- of the device resulting in ohmic heating of the device.
+ id had electrical contact between the front side and the backside of the
+ device resulting in ohmic heating of the device.
  The result of this pulsed heating is exactly the wanted pulsed desorption
  feature, however of course this not due to the hot electrons.
  However, the result is interesting in so far as it puts a baseline on the
@@ -975,7 +976,7 @@ mbar in the ion gauge and no detectable signal in the mass spectrometer,
  This means that the actual effect of the hot electrons must be much smaller
  than this.
  Even if any effect should exists, it will certainly be difficult to talk
- about ultra efficient chemistry...
+ about ultra efficient chemistry.
 \begin_inset Float figure
 wide false
 sideways false
@@ -1028,7 +1029,7 @@ The application of the devices as a free electron emitter is a very different
  This is a much more technological aspect and in many respects a much more
  realistic application.
  However, since our group is put in the world to do catalysis, not cold
- electron emitters, this project has always been a side-project, however
+ electron emitters, this project has always been a side-project even though
  one complete masters project did come out and documented many of the results
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -1039,9 +1040,9 @@ key "paolo-thesis"
 .
  Very conveniently, one potential application for a cold electron emitter
  (sorry for the slightly confusing terminology, a more correct name would
- perhaps be a cold emitter of free hot electrons...), such an area of research
- is exactly many kinds of UHV science and therefore we wanted to test this
- application directly in our own setup.
+ perhaps be a cold emitter of free hot electrons...), is exactly UHV science,
+ where the outgassing from a hot filament is typically unwanted.
+ Therefore we wanted to test this application directly in our own setup.
  The principle would be to try to run the mass-spectrometer with the hot-electro
 n device as electron source for the ionization instead of the normal filament.
  However, this involves to get the mass-spectrometer to actually operate
@@ -1141,9 +1142,9 @@ Conclusions on the hot electron project
 \end_layout
 
 \begin_layout Standard
-Perhaps the most productive result achieved doing my time with the hot electron,
- was the very sensitive demonstration of the absence of a hot electron effect
- for CO desorption.
+Perhaps the most productive result achieved doing my time with the hot electrons
+, was the very sensitive demonstration of the absence of a hot electron
+ effect for CO desorption.
  The pulsed experiments showed that if of hot electron induced desorption
  takes place at all, the reaction rate is extremely low and even if we some
  day should succeed in showing the effect, any claim of high efficiency
