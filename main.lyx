@@ -132,9 +132,7 @@ cle Functionality (CINF) from August 2008 to May 2012 with Professor Ib
  Chorkendorff as my supervisor and Professor Ole Hansen as co-supervisor.
  CINF is funded by the Danish National Research Foundation which is greatly
  acknowledged for its support for this project.
- The dissertation is submitted in partial fulfillment of the requirement
- for obtaining the Ph.D.
- degree from this university.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -144,9 +142,11 @@ I have so far had a wonderful time at CINF, and the list of people to thank
 
 \begin_layout Standard
 First and very much most of all, I would like thank my family and friends.
- Especially my wonderful wife Sine and our children Gro and Sia.
- You are by far the most important part of my life.
- Your help and support during this project is very much appreciated!
+ Especially my wonderful wife and best friend in the world, Sine, and our
+ children Gro and Sia.
+ The three of you are by far the most important part of my life.
+ Your help and support during this project is of infinite importance to
+ me!
 \end_layout
 
 \begin_layout Standard
@@ -162,15 +162,15 @@ All clean-room work has been performed by Thomas Pedersen, and without his
  efforts, not a single measurement would ever have been performed.
  Together with Ole Hansen, you are in my world simply known as the clean-room
  wizards.
- The two of you seem to be able to have answers to almost any questions
- and are always able to come up with solutions for all kinds of problems
- and later implement them as actual products.
+ The two of you seem to be able to have answers to almost any question and
+ are always able to come up with solutions for all kinds of problems and
+ later implement them as actual products.
  The importance of clean-room work in this project simply cannot be overestimate
 d.
 \end_layout
 
 \begin_layout Standard
-An infinite amount of gratitude should be expressed towards our mechanical
+An overwhelming amount of gratitude should be expressed towards our mechanical
  and electronic workshops, especially Dan, Peter, Peder and Anders.
  Without your help, most of this work would not have been possible.
  
@@ -184,13 +184,20 @@ Working at CINF is a truly joyful experience, very much because of the many
  Jane Nielsen, now our head of department, was the person who originally
  hired me at DTU and later acted as the catalyst that turned me into a Ph.D.
  student.
+ Without Jane this thesis would never have existed.
  Ole Trinhammer was my colleague for almost two years in Nanoteket, and
  I am grateful to have been able to work with you.
  Anders Nierhoff has produced all the cluster samples for the various experiment
 s, for that I would also like to say thanks.
+ Peter Vesborg was one of the original inventors of the 
+\begin_inset Formula $\mu$
+\end_inset
+
+-reactor platform, and your willingness to share your wealth of exprience
+ with the platform is very much appriciated.
  Mathias Kjærgaard Christensen has been a master student at the setup for
  the last year, and have done a wonderful job in the period, you have been
- a very positive addition to the team.
+ a productive member of the team as well as a good friend.
  Of course all other people at CINF should also be mentioned, however it
  is just a bit too many and thus I will just give a collective thank you
  to everybody.
@@ -208,6 +215,8 @@ At this point two people might consider themselves forgotten in this list,
 -reactor team when we started building the NG setup.
  Kenneth has been my office neighbor and over the years this great neighborlines
 s has provided infinite amounts of procrastinations.
+ I owe you both a very big thanks for making the last four years such a
+ great time.
 \end_layout
 
 \begin_layout Standard
