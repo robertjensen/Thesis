@@ -97,8 +97,14 @@ The classic UHV procedure for measuring surface area of a catalyst is the
 \end_inset
 
 -reactors.
- We have tried to perform TPDs and it certainly works, but sensitivity is
- rather poor.
+ We have tried to perform TPDs
+\begin_inset CommandInset citation
+LatexCommand cite
+key "mikkel-bachelor"
+
+\end_inset
+
+ and it certainly works, but sensitivity is rather poor.
  The problem is that in order to make a high-quality TPD you need really
  efficient pumping since only one gas species is involved; CO is dosed and
  CO is measured.
@@ -116,7 +122,7 @@ The classic UHV procedure for measuring surface area of a catalyst is the
  pipes which makes it difficult to eliminate the CO background after the
  dose.
  Thus one needs to do the TPD on this high background, with corresponding
- bad signal-to-noise or wait for a very long time, which is both inefficient
+ bad signal-to-noise, or wait for a very long time, which is both inefficient
  and also includes the risk that some of CO might desorb while waiting,
  unless the sample is cooled below room temperature.
  For all these reasons we wanted to find another method of area measurement,
@@ -189,7 +195,7 @@ The solution we are using so far, is developed for Pt and will most likely
  The idea is to circumvent the background problem by measuring other masses
  than what is dosed.
  This of course means that the process must involve a step of catalytic
- conversion between the dosed species into a product of another mass.
+ conversion of the dosed species into a product of another mass.
  Since Pt is so remarkably efficient at oxidizing CO we chose a titration-like
  procedure which in short looks like this:
 \end_layout
@@ -331,12 +337,12 @@ The entire procedure is performed at 70
 
 C, in principle we can also run at room temperature, but since the conversion
  of adsorbed oxygen are much slower at this temperature, the slightly elevated
- temperature, significantly increases the signal to noise ratio.
+ temperature significantly increases the signal to noise ratio.
  The actual choice of temperature is a compromise between higher temperature
  which improves the measurement but might at the same time change the area
  we want to measure by e.g.
  sintering.
- After quit a bit of experimentation, the current value of 70
+ After quite a bit of experimentation, the current value of 70
 \begin_inset Formula $^{\circ}$
 \end_inset
 
@@ -365,11 +371,11 @@ reference "fig:area_thinfilm_example"
 
 .
  This is a particularly simple example of two consecutive area measurements
- on a clean thin-film sample with an area of 0.1
+ on a clean thin-film sample with an area of 7,85
 \begin_inset space \thinspace{}
 \end_inset
 
-cm
+mm
 \begin_inset Formula $^{2}$
 \end_inset
 
@@ -470,8 +476,8 @@ nm.
  filtered and spherical or Wulff-shaped clusters is not necessarily a realistic
  approximation.
  However, the convention on the cluster source is to always calculate coverage
- in 'spherical equivalents' that is hypothetical spheres with mass corresponding
- to the filter mass.
+ in 'spherical equivalents' ie.
+ hypothetical spheres with mass corresponding to the filter mass.
  If the clusters are indeed spherical, it seems reasonable to expect them
  to wet the surface and land on the substrate as half-spheres, in this case
  it is easy to get a rough estimate of the expected active surface area.
@@ -504,7 +510,7 @@ That is, in the situation where spherical particles are formed and these
  we will measure a relative area of
 \begin_inset Formula 
 \[
-\frac{A_{cluster}}{A_{thin-film}}=\frac{40\times2.5}{10}=9
+\frac{A_{cluster}}{A_{thin-film}}=\frac{40\times2.5}{10}=10
 \]
 
 \end_inset
@@ -550,7 +556,7 @@ Summary of the measured areas on the cluster sample.
 \end_inset
 
 The area measurement was performed by running a four area measurements before
- doing any attempts at cleaning the sample.
+ any attempts at cleaning the sample.
  After this, the sample was subjected to a number of different treatments
  with two area measurements in between.
  Each area measurement is performed exactly as described in Figure
@@ -577,7 +583,7 @@ reference "fig:area_MR108"
 \end_inset
 
  all the raw data from the measurements are plotted.
- The treatment for this sample is:
+ The treatments for this sample is:
 \end_layout
 
 \begin_layout Itemize
@@ -706,8 +712,8 @@ reference "fig:area_MR108_summary"
 
  and the result is actually quite interesting.
  First of all it is evident that the sample shows no active surface area
- at all right after deposition and bonding, only after cleaning in oxygen
- do we see a measurable area.
+ right after deposition and bonding, only after cleaning in oxygen do we
+ see a measurable area.
  After this we see an asymptotically increasing area which one would guess
  is more an effect of the cleaning cycles themselves than on the heat treatments
  in He and CO.
@@ -724,9 +730,9 @@ reference "fig:area_MR108_summary"
 
 nC which is approximately 8--8.5 times higher than the measured area for
  the thin film.
- This fits extremely well with the expected factor of 9.
- Considering the amount of uncertainties in this calculation, this high
- degree of agreement is properly somewhat of a coincidence.
+ This fits quite well with the expected factor of 10.
+ Considering the amount of uncertainties in the cluster deposition, this
+ high degree of agreement is properly somewhat of a coincidence.
  However, good sensitivity, high repeatability and very mild conditions
  for the sample means, that this method of area estimation is quite successful
  and can be used as a valuable tool when measuring on platinum catalysts.

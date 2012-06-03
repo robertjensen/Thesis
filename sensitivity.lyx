@@ -95,7 +95,7 @@ Experimental procedure
 \begin_layout Standard
 The experiment is in principle very simple, although rather time consuming.
  We had our good friends in the clean room make a series of samples with
- consecutively smaller and smaller Pt-spots and than ran a series of CO
+ consecutively smaller and smaller Pt-spots and then ran a series of CO
  oxidation experiments.
  Unfortunately, not all samples were measured due to various kinds of bad
  luck, but we did manage to measure on a rather large diversity of sizes,
@@ -398,7 +398,7 @@ name "tab:The-Pt-samples"
 
 \end_inset
 
-The Pt samples that has so far been measured in the sensitivity measurement
+The Pt samples that has so far been measured in the sensitivity measurement.
 \end_layout
 
 \end_inset
@@ -444,7 +444,7 @@ key "BONZEL1973"
 
 \end_inset
 
-An oxygen molecule will burn off two CO molecules and leave CO
+An oxygen molecule will burn off two CO molecules and produce CO
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -546,7 +546,7 @@ C/min, until the sample is no longer able to cool at this rate.
 \end_layout
 
 \begin_layout Standard
-As the spot size gets smaller and smaller, we need to go higher and higher
+As the spot size gets smaller and smaller, we need to go to higher and higher
  in temperature to achieve full conversion of the reacting gas.
  As mentioned in chapter
 \begin_inset space ~
@@ -559,8 +559,8 @@ reference "chap:Temperature"
 
 \end_inset
 
-, the current heater design is not really perming well when going much higher
- than 
+, the current heater design is not really performing well when going much
+ higher than 
 \begin_inset Formula $\sim$
 \end_inset
 
@@ -569,7 +569,7 @@ reference "chap:Temperature"
 \end_inset
 
 C and thus heating is so far the limiting factor in these experiments.
- The highest temperature we have reached in these experiments was 
+ The highest temperature we have reached was 
 \begin_inset Formula $\sim$
 \end_inset
 
@@ -671,10 +671,10 @@ To quantify the capillary flow, one will typically use the main chamber
  pressure as a measure of the flow.
  However, this is also a non-trivial operation because of the way the pressure
  is measured in the chamber, namely by an ion gauge.
- Ion gauges measures pressure by ionizing the residual gas and collect the
+ Ion gauges measure pressure by ionizing the residual gas and collect the
  ions on a thin collector wire in the center of the device.
  The pressure is then read as the current on the collector times a calibration
- factor 
+ factor
 \begin_inset CommandInset citation
 LatexCommand cite
 key "BAYARD1950"
@@ -712,9 +712,9 @@ key "gascorrection"
 \begin_inset Formula $_{2}$
 \end_inset
 
- is the only gas to have a factor significantly different from 1, we should
- expect to see the apparent chamber pressure to increase when the sample
- get into lightoff as demonstrated in Figure
+ is the only involved gas to have a factor significantly different from
+ 1, we should expect to see the apparent chamber pressure to increase when
+ the sample get into lightoff as demonstrated in Figure
 \begin_inset space ~
 \end_inset
 
@@ -726,7 +726,7 @@ reference "fig:sensitivity_gas_correction"
 \end_inset
 
 .
- Both because if this effect and because our ion gauge signal is a bit more
+ Both because of this effect and because our ion gauge signal is a bit more
  noisy than one would like, it would be desirable to find an analytic expression
  to estimate the flow as a function of temperature.
 \begin_inset Float figure
@@ -821,7 +821,7 @@ To quantify the CO
 
 .
  The reason for this is that the mass-spectrometer filament will always
- contain carbon and because of the very high temperature at the filament,
+ contain carbon and because of the very high temperature of the filament,
  this carbon will react efficiently with the oxygen and produce CO
 \begin_inset Formula $_{2}$
 \end_inset
@@ -835,7 +835,7 @@ To quantify the CO
 \begin_inset Formula $_{2}$
 \end_inset
 
- signal shows a much more close correlation to O
+ signal shows a much closer correlation to O
 \begin_inset Formula $_{2}$
 \end_inset
 
@@ -1073,16 +1073,18 @@ A mass spectrometer does not measure the ion current directly, but measures
  (SEM).
  The amplification on the SEM is of course heavily dependent on the voltage
  across the dynodes but unfortunately it also depends on many other factors
- such as the oxidation state of the SEM as well as the mass of the impeding
- molecule.
+ such as the oxidation state of the SEM and the mass of the impeding molecule.
  On top of this, the mass filter itself is also not guaranteed to have a
  fixed transmission efficiency across the entire measuring range.
+ Finally it is difficult to estimate the fraction of molecules that enters
+ the mass spectrometer, compared to the fraction that are directly pumped
+ away in the main chamber.
  All these factors means that it is highly difficult to estimate the absolute
  yield of a given molecule.
  Only the indirect quantity SEM current is truly known.
- However, it is not impossible to make at least an rough estimate of the
- amplification factor, as long as one remembers that the values should not
- be considered very accurate.
+ However, it is not impossible to make at least a rough estimate of the
+ overall sensitivity factor, as long as one remembers that the value should
+ not be considered to be very accurate.
  Looking at Figure
 \begin_inset space ~
 \end_inset
@@ -1124,27 +1126,17 @@ nA and 25.5
 \end_inset
 
 nA.
- This means that as a first approximation we can estimate the SEM amplification
- to be
+ This means that as a first approximation we can estimate the combined sensitivi
+ty factor to be
 \begin_inset Formula 
 \[
-A_{SEM}\approx\frac{\left(69.4+25.5\right)\,\mbox{nA}}{6\times10^{14}\,\mbox{molecules/s}}=\frac{1.6\times10^{-13}\,\mbox{nA}}{\mbox{molecule/s}}=\frac{1.6\times10^{-13}\,\mbox{C}}{\mbox{molecule}}
+S\approx\frac{\left(69.4+25.5\right)\,\mbox{nA}}{6\times10^{14}\,\mbox{molecules/s}}=\frac{1.6\times10^{-13}\,\mbox{nA}}{\mbox{molecule/s}}=\frac{1.6\times10^{-22}\,\mbox{C}}{\mbox{molecule}}
 \]
 
 \end_inset
 
-Incidentally it is worth noticing that this value of 
-\begin_inset Formula $A_{SEM}$
-\end_inset
-
- is quite close to 
-\begin_inset Formula $10^{6}$
-\end_inset
-
- times the elementary charge, which is the typical rule of thumb for the
- amplification factor for an average SEM.
- The value of 
-\begin_inset Formula $A_{SEM}$
+The value of 
+\begin_inset Formula $S$
 \end_inset
 
  was estimated from sample N8, but as can be seen easily in figure
@@ -1172,7 +1164,7 @@ molecules/s.
  now we will simply have to define a sample, in this case N8, to have this
  flow.
  With this estimate of 
-\begin_inset Formula $A_{SEM}$
+\begin_inset Formula $S$
 \end_inset
 
  we can now make a plot with approximate absolute numbers on both axis.
@@ -1187,7 +1179,7 @@ Results
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -1210,7 +1202,8 @@ name "fig:sensitivity_arrhenius"
 \end_inset
 
 Arrhenius plot of all measured samples.
- 
+ Upper panel show the absolute numbers.
+ Lower panels shows the result scaled to the sample area.
 \end_layout
 
 \end_inset
@@ -1283,7 +1276,7 @@ reference "fig:sensitivity_activation_energies"
 \end_inset
 
 molecules/s from reactor N8 as well as the assumption that the mass spectrometer
- has kept a constant amplification during the course of all measurements.
+ has kept a constant sensitivity during the course of all measurements.
  However, the calculation of the activation energy is dependent only on
  the general linearity of the mass spectrometer and to a lesser degree to
  the quality of the background subtractions.
@@ -1298,7 +1291,8 @@ The extracted activation energies are all of the order of
 \begin_inset space \thinspace{}
 \end_inset
 
-eV which is consistent with the literature for CO oxidation on Pt thin films
+eV which is consistent with the literature value for CO oxidation on Pt
+ thin films
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Contreras2006"
@@ -1362,7 +1356,7 @@ It is an interesting thought, that a single nanoparticles with a diameter
 nm exposes an area of approximately 
 \begin_inset Formula 
 \[
-A_{NP}==4\pi\times\left(\frac{5}{2}\mbox{nm}\right)^{2}=78.5\,\mbox{nm}^{2}\approx8\times10^{-4}\mu\mbox{m}^{2}
+A_{NP}\approx4\pi\times\left(\frac{5}{2}\mbox{nm}\right)^{2}=78.5\,\mbox{nm}^{2}\approx8\times10^{-4}\mu\mbox{m}^{2}
 \]
 
 \end_inset
@@ -1405,18 +1399,18 @@ Besides the obviously interesting point in measuring how high the turn-over
  First of all it means, that we must be extremely careful to avoid any kind
  of metal pollution in the reactor, especially platinum.
  This can be slightly more tricky than it sounds, since in the cleanroom,
- metal pollution in never far away, and we actually have seen examples of
- metal pollution in the reactors with any attempt to find the source being
+ metal pollution is never far away, and we actually have seen examples of
+ barium pollution in the reactors with any attempt to find the source being
  fruitless.
  Also, one should remember that we have the heater on the backside of the
- reactor, which is made of Pt.
+ reactor, which is made of platinum.
  It is of crucial importance to be able to deposit this heater without even
- trace amount of Pt finding its way to the other side of the reactor.
- This is ensured by e-beam evaporating the Pt through a shadow mask.
+ trace amount of metal finding its way to the other side of the reactor.
+ This is ensured by e-beam evaporating the platinum through a shadow mask.
  Other ways of depositing the heaters also exists, but these techniques
  often involves various wet-chemistry steps which means that small amounts
- of Pt could find its way from the backside to the front side through the
- liquid phase.
+ of unwanted platinum could find its way from the backside to the front
+ side through the liquid phase.
 \end_layout
 
 \begin_layout Standard
@@ -1427,11 +1421,7 @@ The other important lesson to be learned is that one should be extremely
 \end_inset
 
 -reactor, we are continuously considering our options in this field, since
- this would significantly increase the usefulness of the 
-\begin_inset Formula $\mu$
-\end_inset
-
--reactors.
+ this would significantly increase the usefulness of the platform.
  However, even in the rather optimistic case, that we actually do succeed
  in finding methods that would provide in-situ information, we must always
  remember the fact that such small areas of the reactor might, at least
