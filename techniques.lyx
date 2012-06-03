@@ -68,7 +68,7 @@ name "chap:Analytical-techniques"
 
 \end_inset
 
-Analytical techniques
+Analytic techniques
 \end_layout
 
 \begin_layout Standard
@@ -105,8 +105,8 @@ Feasibility study
 
 \begin_layout Standard
 Several possible techniques has been proposed and some of them might actually
- be useful, some of the techniques we have discussed, but have not yet sucessful
-ly applied, includes:
+ be useful, some of the techniques we have discussed, but have not yet successfu
+lly applied, includes:
 \end_layout
 
 \begin_layout Paragraph
@@ -121,7 +121,7 @@ This would seem to be an obvious technique which in principle provides much
  to help us.
  So-called Surface Enhanced Raman Spectroscopy might be able to help, but
  also here several problems exists that will seriously complicate the applicatio
-n this technique.
+n of this technique.
 \end_layout
 
 \begin_layout Paragraph
@@ -174,17 +174,18 @@ key "Larsson2009"
  By monitoring the plasmon frequency of the disks, one is able to measure
  various parameters such as temperature and gas-composition changes.
  Unfortunately, only a single parameter, the plasmon frequency, is measured
- and since it depends on many properties of the catalyst, the gas phase
- as well as the reactor itself, it can be quite difficult to interpret the
- result.
+ and since it depends on many properties of both the catalyst, the gas phase
+ and the reactor itself, it can be quite difficult to interpret the result.
  In corporation with the developers of the system, we have done several
  attempts to apply the technique in the 
 \begin_inset Formula $\mu$
 \end_inset
 
 -reactors, but so far the project has failed due to problems with resonance
- in reflections from the bottom of the reactor and from the plasmonic structures.
- We, however, still have hopes that this technique can applied in some form.
+ between reflections from the bottom of the reactor and from the plasmonic
+ structures.
+ We, however, still have hopes that this technique can be applied in some
+ form.
 \end_layout
 
 \begin_layout Section
@@ -203,13 +204,14 @@ It would seem obvious that the easiest way of gaining insight into the surface
  simply no way of cleaving off the lid from the sample.
  Earlier it has been tried to simply break the sample using some sort of
  mechanical means to crack the sample into a hopefully limited amount of
- pieces, some of these pieces will possibly be entirely within the reactor
- area and therefore the lid will come off rather easily because it is only
- bonded to a few pillars.
+ pieces.
+ Some of these pieces will possibly be entirely within the reactor area
+ and therefore the lid will come off rather easily because it is only bonded
+ to a few pillars.
  This method works and has been used to open samples to do XPS, but it is
  a primitive and dangerous technique that might easily completely break
  the sample with no useful pieces left.
- This is particularly unfortunate since a sample interesting enough to performe
+ This is particularly unfortunate since a sample interesting enough to perform
  this operation, would most likely be rather valuable.
 \end_layout
 
@@ -237,7 +239,7 @@ bar.
 \begin_layout Standard
 The answer to the problem was invented by our clean room wizard Thomas Pedersen
  and turned out to be to cut four lines with a diamond saw in a way that
- leave the largest possible square of the reactor.
+ leaves the largest possible square of the reactor.
  If the cut is approximately 90% of the total depth of the reactor, it can
  quite easily be opened by hand once it is ready to be mounted in what ever
  instrument that should be used for the examination.
@@ -316,7 +318,7 @@ Of course postmortem analysis is not always a useful solution.
  the saw and to be mounted in a chamber equipped with XPS.
  This of course somewhat limits the scope of this kind of analysis since
  many interesting features of the sample will be long gone before the sample
- reaches the analytic tool to be applied.
+ reaches the analytic tool.
 \end_layout
 
 \begin_layout Section
@@ -388,8 +390,7 @@ To solve the problem of the destructive process of the diamond saw, we tried
 \emph on
 ex-situ
 \emph default
- investigations, typically XPS on the sample, re-mount the sample and run
- it again.
+ investigations, typically XPS, re-mount the sample and run it again.
  The loss in sensitivity is not of great concern since the measurement would
  then be repeated on a bonded sample that is as identical as possible to
  the non-bonded sample to get mass spectrometry of much higher quality.
@@ -453,7 +454,7 @@ reference "chap:Oscillating-reactions"
 \begin_layout Standard
 Besides the rather ambitious project of imaging the temperature profile,
  optical methods can also be highly useful for more ordinary tasks.
- Many samples changes color during oxidation or reduction cycles which could
+ Many samples change color during oxidation or reduction cycles which could
  be useful to image while the experiment is running.
  Also, some samples undergo macroscopic morphology changes during certain
  reactions, for example we have seen several continuous Pd thin films crack
