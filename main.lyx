@@ -245,9 +245,9 @@ This thesis is the summary of my work on the
  in detail.
  Since heating and temperature measurement is an extremely important point
  in heterogeneous catalysis an entire chapter is dedicated to this subject.
- Three different types of heaters has been implemented and tested both for
- repeatability and homogeneity of the heating as well as the maximal achievable
- temperature.
+ Three different types of heaters have been implemented and tested both
+ for repeatability and homogeneity of the heating as well as the maximal
+ achievable temperature.
  The currently best solution for heating and measuring temperature is to
  use several integrated Pt-strips as ohmic heaters and a separate 4-point
  Pt meander structure as a resistance thermometer.
@@ -259,7 +259,7 @@ It is shown how it is possible to quantify the available amount of active
  catalyst surface area by reacting off an adsorbed layer of oxygen with
  CO.
  This procedure can be performed at temperatures low enough that sintering
- of Pt nanoparticles are not an issue.
+ of Pt nanoparticles is not an issue.
  
 \end_layout
 
@@ -321,7 +321,7 @@ eV.
 \begin_layout Standard
 Various methods of gaining insight into the reactor besides the normal quadropol
 e mass spectrometer are discussed.
- In particular a chapter is devoted to the application of a Time-Of-Flight
+ In particular a chapter is devoted to the application of a Time-of-flight
  mass spectrometer on the setup.
 \end_layout
 
@@ -720,7 +720,7 @@ Submitted to ACS Nano.
 \begin_layout Standard
 \begin_inset External
 	template PDFPages
-	filename /home/robert/Documents/git/OscillationsPaper/paper.pdf
+	filename /home/robertj/Documents/git/OscillationsPaper/paper.pdf
 	display false
 	extra LaTeX "pages=-"
 
@@ -732,7 +732,7 @@ Submitted to ACS Nano.
 \begin_layout Standard
 \begin_inset External
 	template PDFPages
-	filename /home/robert/Documents/git/OscillationsPaper/supplementary.pdf
+	filename /home/robertj/Documents/git/OscillationsPaper/supplementary.pdf
 	display false
 	extra LaTeX "pages=-"
 
@@ -757,7 +757,7 @@ Submitted to Review of Scientific Instruments
 \begin_layout Standard
 \begin_inset External
 	template PDFPages
-	filename /home/robert/Documents/git/CatalyticTOF/paper.pdf
+	filename /home/robertj/Documents/git/CatalyticTOF/paper.pdf
 	display false
 	extra LaTeX "pages=-"
 
@@ -783,7 +783,7 @@ In preparation.
 \begin_layout Standard
 \begin_inset External
 	template PDFPages
-	filename /home/robert/Documents/git/LoggingPaper/paper.pdf
+	filename /home/robertj/Documents/git/LoggingPaper/paper.pdf
 	display false
 	extra LaTeX "pages=-"
 
