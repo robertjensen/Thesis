@@ -77,8 +77,8 @@ One of the original design goals of the
 \begin_inset Formula $\mu$
 \end_inset
 
--reactors was that the reactors should have a high sensitivity to able to
- measure on very small amounts of catalyst.
+-reactors was that the reactors should have a high sensitivity to be able
+ to measure on very small amounts of catalyst.
  This high sensitivity was confirmed during the measurements on the oscillations
  since it turned out that we were in fact able to reach full conversion
  on samples with even very small amounts of catalyst.
@@ -769,7 +769,9 @@ Fitting of analytic functions to the temperature dependence of the flows.
 
 \end_inset
 
- The expected behavior is on the form:
+ A bit of experimentation with various expressions for fitting the flow
+ dependence, shows that the behavior can be well described by a function
+ of the form:
 \begin_inset Formula 
 \[
 F=\frac{k1}{k2+T}
@@ -1082,9 +1084,9 @@ A mass spectrometer does not measure the ion current directly, but measures
  All these factors means that it is highly difficult to estimate the absolute
  yield of a given molecule.
  Only the indirect quantity SEM current is truly known.
- However, it is not impossible to make at least a rough estimate of the
- overall sensitivity factor, as long as one remembers that the value should
- not be considered to be very accurate.
+ However, it is possible to make at least a rough estimate of the overall
+ sensitivity factor, as long as one remembers that the value should not
+ be considered to be very accurate.
  Looking at Figure
 \begin_inset space ~
 \end_inset
