@@ -1179,6 +1179,7 @@ Results
 
 \begin_layout Standard
 \begin_inset Float figure
+placement t
 wide false
 sideways false
 status open
@@ -1206,6 +1207,8 @@ name "fig:sensitivity_arrhenius"
 Arrhenius plot of all measured samples.
  Upper panel show the absolute numbers.
  Lower panels shows the result scaled to the sample area.
+ Left axis shows the directly measured SEM current, right axis shows the
+ current converted to molecules using the measured sensitivity factor.
 \end_layout
 
 \end_inset
@@ -1217,9 +1220,10 @@ Arrhenius plot of all measured samples.
 
 
 \begin_inset Float figure
+placement t
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -1241,10 +1245,11 @@ name "fig:sensitivity_activation_energies"
 
 \end_inset
 
-Extracted activation energies and prefactors.
- Black lines are activation energies, red lines prefactors.
+Extracted activation energies (top panel) and prefactors (lower panel).
  Circles represents a measurement on the rising temperature ramp, stars
  the falling temperature ramp.
+ Error bars (in red) are roughly estimated by slightly extending the fitting
+ region.
 \end_layout
 
 \end_inset
@@ -1324,7 +1329,7 @@ reference "fig:sensitivity_arrhenius"
 
 \end_inset
 
- the highest measured turn over can be read to be 
+ the highest measured conversion can be read to be 
 \begin_inset Formula $\sim7\times10^{11}$
 \end_inset
 

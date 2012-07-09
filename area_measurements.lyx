@@ -159,6 +159,13 @@ name "fig:area_procedure"
 \end_inset
 
 Plot of the area measurement procedure.
+ Upper panel shows the flows of the incoming gasses and the lower panel
+ shows the resulting CO
+\begin_inset Formula $_{2}$
+\end_inset
+
+ signal in the mass spectrometer (green) as well as the reactor pressure
+ (black).
  The peak at 
 \begin_inset Formula $\sim$
 \end_inset
@@ -167,7 +174,7 @@ Plot of the area measurement procedure.
 \begin_inset space \thinspace{}
 \end_inset
 
-min is the peak representing the surface area.
+min represents the surface area.
  For a zoom of this peak, see Figure
 \begin_inset space ~
 \end_inset
@@ -278,7 +285,7 @@ reference "fig:area_procedure"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -312,6 +319,7 @@ reference "fig:area_procedure"
 \end_inset
 
 .
+ The blue line is the background, which is not included in the area.
  The area of the first peak is 12.94
 \begin_inset space \thinspace{}
 \end_inset
@@ -413,6 +421,21 @@ name "fig:area_MR108"
 \end_inset
 
 Plot of all measured areas on the cluster sample.
+ Each panel shows the titration peak similar to Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:area_thinfilm_example"
+
+\end_inset
+
+, on this particular sample a total of 28 area measurements was performed.
+ It is evident that the signal is quite self-consistent, all measurements
+ on a reasonably clean sample shows almost identical peaks only distinguished
+ by differences in peak height.
  The duration of each plot is 100
 \begin_inset space \thinspace{}
 \end_inset
@@ -505,7 +528,8 @@ g to the 2D projection of a sphere of radius
 That is, in the situation where spherical particles are formed and these
  particles lands as half-spheres, the expected measured area should be 2.5
  times the nominal coverage.
- In our case we want to compare a 40% cluster sample to a 10% thin film.
+ In our case we have a 40% cluster sample and want to compare to the 10%
+ thin film already presented in this chapter.
  In this situation the expectation for the measured area should be that
  we will measure a relative area of
 \begin_inset Formula 
@@ -546,6 +570,21 @@ name "fig:area_MR108_summary"
 \end_inset
 
 Summary of the measured areas on the cluster sample.
+ Each vertical line represents a given heat-treatment, the temperature is
+ indicated along the line, and the gas-species is written on the x-axis.
+ Each data point is the result of a complete titration procedure as indicated
+ in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:area_procedure"
+
+\end_inset
+
+.
 \end_layout
 
 \end_inset
@@ -555,7 +594,7 @@ Summary of the measured areas on the cluster sample.
 
 \end_inset
 
-The area measurement was performed by running a four area measurements before
+The area measurement was performed by running four area measurements before
  any attempts at cleaning the sample.
  After this, the sample was subjected to a number of different treatments
  with two area measurements in between.
@@ -582,7 +621,19 @@ reference "fig:area_MR108"
 
 \end_inset
 
- all the raw data from the measurements are plotted.
+ all the raw data from the measurements are plotted for easy comparison
+ to Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:area_thinfilm_example"
+
+\end_inset
+
+.
  The treatments for this sample is:
 \end_layout
 
@@ -624,6 +675,10 @@ C in 0.5
 \end_inset
 
 bar CO
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -635,7 +690,11 @@ C in 1
 \begin_inset space \thinspace{}
 \end_inset
 
-bar oxygen 
+bar O
+\begin_inset Formula $_{2}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -648,6 +707,10 @@ C in 0.5
 \end_inset
 
 bar CO
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -659,7 +722,11 @@ C in 1
 \begin_inset space \thinspace{}
 \end_inset
 
-bar oxygen 
+bar O
+\begin_inset Formula $_{2}$
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -672,6 +739,10 @@ C in 0.5
 \end_inset
 
 bar CO
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -683,7 +754,11 @@ C in 1
 \begin_inset space \thinspace{}
 \end_inset
 
-bar oxygen 
+bar O
+\begin_inset Formula $_{2}$
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -722,7 +797,7 @@ reference "fig:area_MR108_summary"
  Every area measurement immediately after this treatment shows an unusually
  large area.
  A final important observation is that the reproducibility seems to be excellent
-, the eight consecutive area measurements shows almost identical results.
+, the final eight consecutive area measurements shows almost identical results.
  The actual value of the area measurement for what must be presumed to be
  a clean sample is 102
 \begin_inset space \thinspace{}
