@@ -1231,7 +1231,7 @@ An interesting side effect of the model is that besides predicting the expected
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -1255,6 +1255,8 @@ name "fig:simulated_reflectron"
 
 Trajectory plots of three different ions each with different initial position
  in the acceleration region.
+ Insert shows the relevative position compared to ions starting from the
+ center of the acceleration region.
 \end_layout
 
 \end_inset
